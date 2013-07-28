@@ -1,0 +1,148 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>DirichletDistribution Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="DirichletDistribution class" />
+    <meta name="System.Keywords" content="Accord.Statistics.Distributions.Multivariate.DirichletDistribution class" />
+    <meta name="System.Keywords" content="DirichletDistribution class, about DirichletDistribution class" />
+    <meta name="Microsoft.Help.F1" content="Accord.Statistics.Distributions.Multivariate.DirichletDistribution" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Distributions.Multivariate.DirichletDistribution" />
+    <meta name="Description" content="Dirichlet distribution." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.Statistics.Distributions.Multivariate" />
+    <meta name="file" content="T_Accord_Statistics_Distributions_Multivariate_DirichletDistribution" />
+    <meta name="guid" content="T_Accord_Statistics_Distributions_Multivariate_DirichletDistribution" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js">
+      <!---->
+    </script>
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">DirichletDistribution Class</td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord.googlecode.com/svn/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+               Dirichlet distribution.
+             </div>
+            <div class="OH_CollapsibleAreaRegion">
+              <div class="OH_regiontitle">Inheritance Hierarchy</div>
+              <div class="OH_CollapsibleArea_HrDiv">
+                <hr class="OH_CollapsibleArea_Hr" />
+              </div>
+            </div>
+            <div class="OH_clear"></div>
+            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBKOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBKOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</a>
+            <br />  <a href="T_Accord_Statistics_Distributions_DistributionBase.htm" target="">Accord.Statistics.Distributions<span id="ID0EBHOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBHOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DistributionBase</a><br />    <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm" target="">Accord.Statistics.Distributions.Multivariate<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>MultivariateContinuousDistribution</a><br />      <span class="selflink">Accord.Statistics.Distributions.Multivariate<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DirichletDistribution</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Distributions_Multivariate.htm" target="">Accord.Statistics.Distributions.Multivariate</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">DirichletDistribution</span> : <span class="identifier">MultivariateContinuousDistribution</span></pre></div><div id="ID0EAAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
+public class DirichletDistribution : MultivariateContinuousDistribution</pre></div><div id="ID0EAAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+               The Dirichlet distribution, often denoted Dir(α), is a family of continuous 
+               multivariate probability distributions parametrized by a vector α of positive
+               reals. It is the multivariate generalization of the beta distribution.</p><p>
+               Dirichlet distributions are very often used as prior distributions in Bayesian
+               statistics, and in fact the Dirichlet distribution is the conjugate prior of the
+               categorical distribution and multinomial distribution. That is, its probability
+               density function returns the belief that the probabilities of K rival events are
+               x<sub>i</sub> given that each event has been observed α<sub>i</sub>−1 times.</p><p>
+               References:
+               <ul><li><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://en.wikipedia.org/wiki/Dirichlet_distribution" target="_blank">
+                   Wikipedia, The Free Encyclopedia. Dirichlet distribution. 
+                   Available from: http://en.wikipedia.org/wiki/Dirichlet_distribution </a></li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create a Dirichlet with the following concentrations</span> 
+<span class="highlight-keyword">var</span> dirich = <span class="highlight-keyword">new</span> DirichletDistribution(<span class="highlight-number">0.42</span>, <span class="highlight-number">0.57</span>, <span class="highlight-number">1.2</span>);
+
+<span class="highlight-comment">// Common measures</span> 
+<span class="highlight-keyword">double</span>[] mean = dirich.Mean;     <span class="highlight-comment">// { 0.19, 0.26, 0.54 }</span> 
+<span class="highlight-keyword">double</span>[] median = dirich.Median; <span class="highlight-comment">// { 0.19, 0.26, 0.54 }</span> 
+<span class="highlight-keyword">double</span>[] <span class="highlight-keyword">var</span> = dirich.Variance;  <span class="highlight-comment">// { 0.048, 0.060, 0.077 }</span> 
+<span class="highlight-keyword">double</span>[,] cov = dirich.Covariance; <span class="highlight-comment">// see below</span> 
+
+
+<span class="highlight-comment">//       0.0115297440926238 0.0156475098399895 0.0329421259789253 </span> 
+<span class="highlight-comment">// cov = 0.0156475098399895 0.0212359062114143 0.0447071709713986 </span> 
+<span class="highlight-comment">//       0.0329421259789253 0.0447071709713986 0.0941203599397865</span> 
+
+<span class="highlight-comment">// (the above matrix representation has been transcribed to text using)</span> 
+<span class="highlight-keyword">string</span> str = cov.ToString(DefaultMatrixFormatProvider.InvariantCulture);
+
+
+<span class="highlight-comment">// Probability mass functions</span> 
+<span class="highlight-keyword">double</span> pdf1 = dirich.ProbabilityDensityFunction(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">2</span>, <span class="highlight-number">5</span> }); <span class="highlight-comment">// 0.12121671541846207</span> 
+<span class="highlight-keyword">double</span> pdf2 = dirich.ProbabilityDensityFunction(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">4</span>, <span class="highlight-number">2</span> }); <span class="highlight-comment">// 0.12024840322466089</span> 
+<span class="highlight-keyword">double</span> pdf3 = dirich.ProbabilityDensityFunction(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">3</span>, <span class="highlight-number">7</span> }); <span class="highlight-comment">// 0.082907634905068528</span> 
+<span class="highlight-keyword">double</span> lpdf = dirich.LogProbabilityDensityFunction(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">3</span>, <span class="highlight-number">7</span> }); <span class="highlight-comment">// -2.4900281233124044</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create a Dirichlet with the following concentrations 
+var dirich = new DirichletDistribution(0.42, 0.57, 1.2);
+
+// Common measures 
+double[] mean = dirich.Mean;     // { 0.19, 0.26, 0.54 } 
+double[] median = dirich.Median; // { 0.19, 0.26, 0.54 } 
+double[] var = dirich.Variance;  // { 0.048, 0.060, 0.077 } 
+double[,] cov = dirich.Covariance; // see below 
+
+
+//       0.0115297440926238 0.0156475098399895 0.0329421259789253  
+// cov = 0.0156475098399895 0.0212359062114143 0.0447071709713986  
+//       0.0329421259789253 0.0447071709713986 0.0941203599397865 
+
+// (the above matrix representation has been transcribed to text using) 
+string str = cov.ToString(DefaultMatrixFormatProvider.InvariantCulture);
+
+
+// Probability mass functions 
+double pdf1 = dirich.ProbabilityDensityFunction(new double[] { 2, 5 }); // 0.12121671541846207 
+double pdf2 = dirich.ProbabilityDensityFunction(new double[] { 4, 2 }); // 0.12024840322466089 
+double pdf3 = dirich.ProbabilityDensityFunction(new double[] { 3, 7 }); // 0.082907634905068528 
+double lpdf = dirich.LogProbabilityDensityFunction(new double[] { 3, 7 }); // -2.4900281233124044</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Distributions_Multivariate_DirichletDistribution.htm" target="">DirichletDistribution Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Multivariate.htm" target="">Accord.Statistics.Distributions.Multivariate Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord.googlecode.com" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+DirichletDistribution+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>

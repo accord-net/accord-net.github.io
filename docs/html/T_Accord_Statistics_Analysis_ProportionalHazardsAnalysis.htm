@@ -1,0 +1,268 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ProportionalHazardsAnalysis Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="ProportionalHazardsAnalysis class" />
+    <meta name="System.Keywords" content="Accord.Statistics.Analysis.ProportionalHazardsAnalysis class" />
+    <meta name="System.Keywords" content="ProportionalHazardsAnalysis class, about ProportionalHazardsAnalysis class" />
+    <meta name="Microsoft.Help.F1" content="Accord.Statistics.Analysis.ProportionalHazardsAnalysis" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Analysis.ProportionalHazardsAnalysis" />
+    <meta name="Description" content="Cox's Proportional Hazards Survival Analysis." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.Statistics.Analysis" />
+    <meta name="file" content="T_Accord_Statistics_Analysis_ProportionalHazardsAnalysis" />
+    <meta name="guid" content="T_Accord_Statistics_Analysis_ProportionalHazardsAnalysis" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js">
+      <!---->
+    </script>
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">ProportionalHazardsAnalysis Class</td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord.googlecode.com/svn/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+              Cox's Proportional Hazards Survival Analysis.
+            </div>
+            <div class="OH_CollapsibleAreaRegion">
+              <div class="OH_regiontitle">Inheritance Hierarchy</div>
+              <div class="OH_CollapsibleArea_HrDiv">
+                <hr class="OH_CollapsibleArea_Hr" />
+              </div>
+            </div>
+            <div class="OH_clear"></div>
+            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</a>
+            <br />  <span class="selflink">Accord.Statistics.Analysis<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>ProportionalHazardsAnalysis</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Analysis.htm" target="">Accord.Statistics.Analysis</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ProportionalHazardsAnalysis</span> : <span class="identifier">IRegressionAnalysis</span>, 
+	<span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span></pre></div><div id="ID0EAAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
+public class ProportionalHazardsAnalysis : IRegressionAnalysis, 
+	IMultivariateAnalysis, IAnalysis</pre></div><div id="ID0EAAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+              Proportional hazards models are a class of survival models in statistics. Survival models
+              relate the time that passes before some event occurs to one or more covariates that may be
+              associated with that quantity. In a proportional hazards model, the unique effect of a unit
+              increase in a covariate is multiplicative with respect to the hazard rate.</p><p>
+              For example, taking a drug may halve one's hazard rate for a stroke occurring, or, changing
+              the material from which a manufactured component is constructed may double its hazard rate 
+              for failure. Other types of survival models such as accelerated failure time models do not 
+              exhibit proportional hazards. These models could describe a situation such as a drug that 
+              reduces a subject's immediate risk of having a stroke, but where there is no reduction in 
+              the hazard rate after one year for subjects who do not have a stroke in the first year of 
+              analysis.</p><p>
+              This class uses the <a href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm" target="">ProportionalHazards</a> to extract more detailed
+              information about a given problem, such as confidence intervals, hypothesis tests
+              and performance measures. </p><p>
+              This class can also be bound to standard controls such as the 
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.datagridview.aspx" target="_blank">DataGridView</a>
+              by setting their DataSource property to the analysis' <a href="P_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Coefficients.htm" target="">Coefficients</a> property.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="ID0EDCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EDCAAAAA_tabs"></div><div id="ID0EDCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EDCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EDCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EDCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EDCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EDCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EDCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Consider the following example data, adapted from John C. Pezzullo's</span> 
+<span class="highlight-comment">// example for his great Cox's proportional hazards model example in</span> 
+<span class="highlight-comment">// JavaScript (http://www.sph.emory.edu/~cdckms/CoxPH/prophaz2.html). </span> 
+
+<span class="highlight-comment">// In this data, we have three columns. The first column denotes the</span> 
+<span class="highlight-comment">// input variables for the problem. The second column, the survival</span> 
+<span class="highlight-comment">// times. And the last one is the output of the experiment (if the</span> 
+<span class="highlight-comment">// subject has died [1] or has survived [0]).</span> 
+
+<span class="highlight-keyword">double</span>[,] example =
+{
+    <span class="highlight-comment">// input  time censor</span>
+    {   <span class="highlight-number">50</span>,    <span class="highlight-number">1</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">70</span>,    <span class="highlight-number">2</span>,    <span class="highlight-number">1</span>   },
+    {   <span class="highlight-number">45</span>,    <span class="highlight-number">3</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">35</span>,    <span class="highlight-number">5</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">62</span>,    <span class="highlight-number">7</span>,    <span class="highlight-number">1</span>   },
+    {   <span class="highlight-number">50</span>,   <span class="highlight-number">11</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">45</span>,    <span class="highlight-number">4</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">57</span>,    <span class="highlight-number">6</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">32</span>,    <span class="highlight-number">8</span>,    <span class="highlight-number">0</span>   },
+    {   <span class="highlight-number">57</span>,    <span class="highlight-number">9</span>,    <span class="highlight-number">1</span>   },
+    {   <span class="highlight-number">60</span>,   <span class="highlight-number">10</span>,    <span class="highlight-number">1</span>   },
+};
+
+<span class="highlight-comment">// First we will extract the input, times and outputs</span> 
+<span class="highlight-keyword">double</span>[,] inputs = example.GetColumns(<span class="highlight-number">0</span>);
+<span class="highlight-keyword">double</span>[] times = example.GetColumn(<span class="highlight-number">1</span>);
+<span class="highlight-keyword">int</span>[] output = example.GetColumn(<span class="highlight-number">2</span>).ToInt32();
+
+<span class="highlight-comment">// Now we can proceed and create the analysis</span> 
+<span class="highlight-keyword">var</span> cox = <span class="highlight-keyword">new</span> ProportionalHazardsAnalysis(inputs, times, output);
+
+cox.Compute(); <span class="highlight-comment">// compute the analysis</span> 
+
+<span class="highlight-comment">// Now we can show an analysis summary</span>
+DataGridBox.Show(cox.Coefficients);</pre></div><div id="ID0EDCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Consider the following example data, adapted from John C. Pezzullo's 
+// example for his great Cox's proportional hazards model example in 
+// JavaScript (http://www.sph.emory.edu/~cdckms/CoxPH/prophaz2.html).  
+
+// In this data, we have three columns. The first column denotes the 
+// input variables for the problem. The second column, the survival 
+// times. And the last one is the output of the experiment (if the 
+// subject has died [1] or has survived [0]). 
+
+double[,] example =
+{
+    // input  time censor
+    {   50,    1,    0   },
+    {   70,    2,    1   },
+    {   45,    3,    0   },
+    {   35,    5,    0   },
+    {   62,    7,    1   },
+    {   50,   11,    0   },
+    {   45,    4,    0   },
+    {   57,    6,    0   },
+    {   32,    8,    0   },
+    {   57,    9,    1   },
+    {   60,   10,    1   },
+};
+
+// First we will extract the input, times and outputs 
+double[,] inputs = example.GetColumns(0);
+double[] times = example.GetColumn(1);
+int[] output = example.GetColumn(2).ToInt32();
+
+// Now we can proceed and create the analysis 
+var cox = new ProportionalHazardsAnalysis(inputs, times, output);
+
+cox.Compute(); // compute the analysis 
+
+// Now we can show an analysis summary
+DataGridBox.Show(cox.Coefficients);</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EDCAAAAA');</script><p>
+              The resulting table is shown below.</p><img src="./../images/cox-hazards.png" /><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// We can also investigate all parameters individually. For</span> 
+<span class="highlight-comment">// example the coefficients values will be available at</span> 
+
+<span class="highlight-keyword">double</span>[] coef = cox.CoefficientValues;
+<span class="highlight-keyword">double</span>[] stde = cox.StandardErrors;
+
+<span class="highlight-comment">// We can also obtain the hazards ratios</span> 
+<span class="highlight-keyword">double</span>[] ratios = cox.HazardRatios;
+
+<span class="highlight-comment">// And other information such as the partial</span> 
+<span class="highlight-comment">// likelihood, the deviance and also make </span> 
+<span class="highlight-comment">// hypothesis tests on the parameters</span> 
+
+<span class="highlight-keyword">double</span> <span class="highlight-keyword">partial</span> = cox.LogLikelihood;
+<span class="highlight-keyword">double</span> deviance = cox.Deviance;
+
+<span class="highlight-comment">// Chi-Square for whole model</span>
+ChiSquareTest chi = cox.ChiSquare;
+
+<span class="highlight-comment">// Wald tests for individual parameters</span>
+WaldTest wald = cox.Coefficients[<span class="highlight-number">0</span>].Wald;
+
+
+<span class="highlight-comment">// Finally, we can also use the model to predict</span> 
+<span class="highlight-comment">// scores for new observations (without considering time)</span> 
+
+<span class="highlight-keyword">double</span> y1 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> });
+<span class="highlight-keyword">double</span> y2 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">32</span> });
+
+<span class="highlight-comment">// Those scores can be interpreted by comparing then</span> 
+<span class="highlight-comment">// to 1. If they are greater than one, the odds are</span> 
+<span class="highlight-comment">// the patient will not survive. If the value is less</span> 
+<span class="highlight-comment">// than one, the patient is likely to survive.</span> 
+
+<span class="highlight-comment">// The first value, y1, gives approximately 86.138,</span> 
+<span class="highlight-comment">// while the second value, y2, gives about 0.00072.</span> 
+
+
+<span class="highlight-comment">// We can also consider instant estimates for a given time:</span> 
+<span class="highlight-keyword">double</span> p1 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">2</span>);
+<span class="highlight-keyword">double</span> p2 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">10</span>);
+
+<span class="highlight-comment">// Here, p1 is the score after 2 time instants, with a </span> 
+<span class="highlight-comment">// value of 0.0656. The second value, p2, is the time</span> 
+<span class="highlight-comment">// after 10 time instants, with a value of 6.2907.</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// We can also investigate all parameters individually. For 
+// example the coefficients values will be available at 
+
+double[] coef = cox.CoefficientValues;
+double[] stde = cox.StandardErrors;
+
+// We can also obtain the hazards ratios 
+double[] ratios = cox.HazardRatios;
+
+// And other information such as the partial 
+// likelihood, the deviance and also make  
+// hypothesis tests on the parameters 
+
+double partial = cox.LogLikelihood;
+double deviance = cox.Deviance;
+
+// Chi-Square for whole model
+ChiSquareTest chi = cox.ChiSquare;
+
+// Wald tests for individual parameters
+WaldTest wald = cox.Coefficients[0].Wald;
+
+
+// Finally, we can also use the model to predict 
+// scores for new observations (without considering time) 
+
+double y1 = cox.Regression.Compute(new double[] { 63 });
+double y2 = cox.Regression.Compute(new double[] { 32 });
+
+// Those scores can be interpreted by comparing then 
+// to 1. If they are greater than one, the odds are 
+// the patient will not survive. If the value is less 
+// than one, the patient is likely to survive. 
+
+// The first value, y1, gives approximately 86.138, 
+// while the second value, y2, gives about 0.00072. 
+
+
+// We can also consider instant estimates for a given time: 
+double p1 = cox.Regression.Compute(new double[] { 63 }, 2);
+double p2 = cox.Regression.Compute(new double[] { 63 }, 10);
+
+// Here, p1 is the score after 2 time instants, with a  
+// value of 0.0656. The second value, p2, is the time 
+// after 10 time instants, with a value of 6.2907.</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Analysis_ProportionalHazardsAnalysis.htm" target="">ProportionalHazardsAnalysis Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm" target="">Accord.Statistics.Analysis Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord.googlecode.com" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+ProportionalHazardsAnalysis+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>

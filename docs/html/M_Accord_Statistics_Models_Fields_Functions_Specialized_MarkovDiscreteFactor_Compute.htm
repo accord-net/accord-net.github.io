@@ -1,0 +1,98 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MarkovDiscreteFactor.Compute Method (Int32, Int32, Int32[], Int32, Int32)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:Accord.Statistics.Models.Fields.Functions.Specialized.MarkovDiscreteFactor.Compute(System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32)" />
+    <meta name="Description" content="Computes the factor potential function for the given parameters." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.Statistics.Models.Fields.Functions.Specialized" />
+    <meta name="file" content="M_Accord_Statistics_Models_Fields_Functions_Specialized_MarkovDiscreteFactor_Compute" />
+    <meta name="guid" content="M_Accord_Statistics_Models_Fields_Functions_Specialized_MarkovDiscreteFactor_Compute" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">MarkovDiscreteFactor<span id="ID0EFBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Compute Method (Int32, Int32, <span id="ID0EDBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDBABAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Int32<span id="ID0EBBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBABAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>, Int32, Int32)</td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord.googlecode.com/svn/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+              Computes the factor potential function for the given parameters.
+            </div>
+            <p></p>
+            <b>Namespace:</b> <a href="N_Accord_Statistics_Models_Fields_Functions_Specialized.htm" target="">Accord.Statistics.Models.Fields.Functions.Specialized</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAGCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAGCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAGCAAAAA_tabimgleft"></div><div id="ID0EAGCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAGCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAGCAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAGCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAGCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAGCAAAAA_tabimgright"></div></div><div id="ID0EAGCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAGCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAGCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAGCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAGCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAGCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAGCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAGCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">override</span> <span class="identifier">double</span> <span class="identifier">Compute</span>(
+	<span class="identifier">int</span> <span class="parameter">previousState</span>,
+	<span class="identifier">int</span> <span class="parameter">currentState</span>,
+	<span class="identifier">int</span>[] <span class="parameter">observations</span>,
+	<span class="identifier">int</span> <span class="parameter">index</span>,
+	<span class="identifier">int</span> <span class="parameter">outputClass</span> = 0
+)</pre></div><div id="ID0EAGCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public override double Compute(
+	int previousState,
+	int currentState,
+	int[] observations,
+	int index,
+	int outputClass = 0
+)</pre></div><div id="ID0EAGCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAGCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAGCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAGCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAGCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAGCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAGCAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="previousState"><dt><span class="parameter">previousState</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBCAEFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAEFCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><br /><span>The previous state in a given sequence of states.</span></dd></dl><dl paramName="currentState"><dt><span class="parameter">currentState</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBCADFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCADFCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><br /><span>The current state in a given sequence of states.</span></dd></dl><dl paramName="observations"><dt><span class="parameter">observations</span></dt><dd>Type: <span id="ID0EEACFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EEACFCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBDACFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBDACFCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><span id="ID0ECACFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECACFCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script><br /><span>The observation vector.</span></dd></dl><dl paramName="index"><dt><span class="parameter">index</span></dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBCABFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCABFCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><br /><span>The index of the observation in the current state of the sequence.</span></dd></dl><dl paramName="outputClass"><dt><span class="parameter">outputClass</span> (Optional)</dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBCAAFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAAFCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Int32</a><br /><span>The output class label for the sequence.</span></dd></dl></div><h4 class="subHeading">Return Value</h4>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">Double</a><br />The value of the factor potential function evaluated for the given parameters.<a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Fields_Functions_Specialized_MarkovDiscreteFactor.htm" target="">MarkovDiscreteFactor Class</a></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Fields_Functions_Specialized_MarkovDiscreteFactor.htm" target="">MarkovDiscreteFactor Members</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Statistics_Models_Fields_Functions_Specialized_MarkovDiscreteFactor_Compute.htm" target="">Compute Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Fields_Functions_Specialized.htm" target="">Accord.Statistics.Models.Fields.Functions.Specialized Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord.googlecode.com" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+MarkovDiscreteFactor.Compute+Method+(Int32%2c+Int32%2c+Int32%5b%5d%2c+Int32%2c+Int32)+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>

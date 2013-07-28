@@ -1,0 +1,106 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>BagOfVisualWords(TPoint, TFeature).Compute Method </title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Compute method" />
+    <meta name="System.Keywords" content="BagOfVisualWords%3CTPoint%2C TFeature%3E.Compute method" />
+    <meta name="System.Keywords" content="BagOfVisualWords(Of TPoint%2C TFeature).Compute method" />
+    <meta name="Microsoft.Help.F1" content="Accord.Imaging.BagOfVisualWords`2.Compute" />
+    <meta name="Microsoft.Help.Id" content="M:Accord.Imaging.BagOfVisualWords`2.Compute(System.Drawing.Bitmap[],System.Double)" />
+    <meta name="Description" content="Computes the Bag of Words model." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.Imaging" />
+    <meta name="file" content="M_Accord_Imaging_BagOfVisualWords_2_Compute" />
+    <meta name="guid" content="M_Accord_Imaging_BagOfVisualWords_2_Compute" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">BagOfVisualWords<span id="ID0EGBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EGBABAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script><span class="typeparameter">TPoint</span>, <span class="typeparameter">TFeature</span><span id="ID0ECBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECBABAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script><span id="ID0EBBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Compute Method </td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord.googlecode.com/svn/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+              Computes the Bag of Words model.
+            </div>
+            <p></p>
+            <b>Namespace:</b> <a href="N_Accord_Imaging.htm" target="">Accord.Imaging</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Imaging</span> (in Accord.Imaging.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EALCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EALCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EALCAAAAA_tabimgleft"></div><div id="ID0EALCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EALCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EALCAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EALCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EALCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EALCAAAAA_tabimgright"></div></div><div id="ID0EALCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EALCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EALCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EALCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EALCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EALCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EALCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EALCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="identifier">List</span>&lt;TPoint&gt;[] <span class="identifier">Compute</span>(
+	<span class="identifier">Bitmap</span>[] <span class="parameter">images</span>,
+	<span class="identifier">double</span> <span class="parameter">threshold</span> = 1E-05
+)</pre></div><div id="ID0EALCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public List&lt;TPoint&gt;[] Compute(
+	Bitmap[] images,
+	double threshold = 1E-05
+)</pre></div><div id="ID0EALCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EALCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EALCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EALCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EALCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EALCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EALCAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="images"><dt><span class="parameter">images</span></dt><dd>Type: <span id="ID0EEABKCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EEABKCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/4e7y164x" target="_blank">System.Drawing<span id="ID0EBDABKCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBDABKCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Bitmap</a><span id="ID0ECABKCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECABKCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script><br /><span>The set of images to initialize the model.</span></dd></dl><dl paramName="threshold"><dt><span class="parameter">threshold</span> (Optional)</dt><dd>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="ID0EBCAAKCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAAKCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Double</a><br /><span>Convergence rate for the k-means algorithm. Default is 1e-5.</span></dd></dl></div><h4 class="subHeading">Return Value</h4>Type: <span id="ID0EHCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EHCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a><span id="ID0EFCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script><a href="T_Accord_Imaging_BagOfVisualWords_2.htm" target=""><span class="typeparam">TPoint</span></a><span id="ID0EDCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script><span id="ID0ECCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script><br />The list of feature points detected in all images.<a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Accord_Imaging_BagOfVisualWords_2.htm" target="">BagOfVisualWords<span id="ID0EDACAAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDACAAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>TPoint, TFeature<span id="ID0EBACAAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBACAAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script> Class</a></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Imaging_BagOfVisualWords_2.htm" target="">BagOfVisualWords<span id="ID0EDABAAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABAAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>TPoint, TFeature<span id="ID0EBABAAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABAAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script> Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Imaging.htm" target="">Accord.Imaging Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord.googlecode.com" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+BagOfVisualWords(TPoint%2c+TFeature).Compute+Method++100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>

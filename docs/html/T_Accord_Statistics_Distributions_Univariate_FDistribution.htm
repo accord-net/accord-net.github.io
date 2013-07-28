@@ -1,0 +1,149 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>FDistribution Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="FDistribution class" />
+    <meta name="System.Keywords" content="Accord.Statistics.Distributions.Univariate.FDistribution class" />
+    <meta name="System.Keywords" content="FDistribution class, about FDistribution class" />
+    <meta name="Microsoft.Help.F1" content="Accord.Statistics.Distributions.Univariate.FDistribution" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Distributions.Univariate.FDistribution" />
+    <meta name="Description" content="F (Fisher-Snedecor) distribution." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.Statistics.Distributions.Univariate" />
+    <meta name="file" content="T_Accord_Statistics_Distributions_Univariate_FDistribution" />
+    <meta name="guid" content="T_Accord_Statistics_Distributions_Univariate_FDistribution" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js">
+      <!---->
+    </script>
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">FDistribution Class</td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord.googlecode.com/svn/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+               F (Fisher-Snedecor) distribution.
+             </div>
+            <div class="OH_CollapsibleAreaRegion">
+              <div class="OH_regiontitle">Inheritance Hierarchy</div>
+              <div class="OH_CollapsibleArea_HrDiv">
+                <hr class="OH_CollapsibleArea_Hr" />
+              </div>
+            </div>
+            <div class="OH_clear"></div>
+            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBKOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBKOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</a>
+            <br />  <a href="T_Accord_Statistics_Distributions_DistributionBase.htm" target="">Accord.Statistics.Distributions<span id="ID0EBHOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBHOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DistributionBase</a><br />    <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution.htm" target="">Accord.Statistics.Distributions.Univariate<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>UnivariateContinuousDistribution</a><br />      <span class="selflink">Accord.Statistics.Distributions.Univariate<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>FDistribution</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Distributions_Univariate.htm" target="">Accord.Statistics.Distributions.Univariate</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">FDistribution</span> : <span class="identifier">UnivariateContinuousDistribution</span>, 
+	<span class="identifier">ISampleableDistribution</span>&lt;<span class="identifier">double</span>&gt;, <span class="identifier">IDistribution</span>, <span class="identifier">ICloneable</span></pre></div><div id="ID0EAAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
+public class FDistribution : UnivariateContinuousDistribution, 
+	ISampleableDistribution&lt;double&gt;, IDistribution, ICloneable</pre></div><div id="ID0EAAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+               In probability theory and statistics, the F-distribution is a continuous
+               probability distribution. It is also known as Snedecor's F distribution
+               or the Fisher-Snedecor distribution (after R.A. Fisher and George W. Snedecor). 
+               The F-distribution arises frequently as the null distribution of a test statistic,
+               most notably in the analysis of variance; see <a href="T_Accord_Statistics_Testing_FTest.htm" target="">FTest</a>.</p><p>
+               References:
+               <ul><li><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://en.wikipedia.org/wiki/F-distribution" target="_blank">
+                   Wikipedia, The Free Encyclopedia. F-distribution. Available on: 
+                   http://en.wikipedia.org/wiki/F-distribution </a></li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+               The following example shows how to construct a Fisher-Snedecor's F-distribution
+               with 8 and 5 degrees of freedom, respectively.</p><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create a Fisher-Snedecor's F distribution with 8 and 5 d.f.</span>
+FDistribution F = <span class="highlight-keyword">new</span> FDistribution(degrees1: <span class="highlight-number">8</span>, degrees2: <span class="highlight-number">5</span>);
+
+<span class="highlight-comment">// Common measures</span> 
+<span class="highlight-keyword">double</span> mean = F.Mean;     <span class="highlight-comment">// 1.6666666666666667</span> 
+<span class="highlight-keyword">double</span> median = F.Median; <span class="highlight-comment">// 1.0545096252132447</span> 
+<span class="highlight-keyword">double</span> <span class="highlight-keyword">var</span> = F.Variance;  <span class="highlight-comment">// 7.6388888888888893</span> 
+
+<span class="highlight-comment">// Cumulative distribution functions</span> 
+<span class="highlight-keyword">double</span> cdf = F.DistributionFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.049463408057268315</span> 
+<span class="highlight-keyword">double</span> ccdf = F.ComplementaryDistributionFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.95053659194273166</span> 
+<span class="highlight-keyword">double</span> icdf = F.InverseDistributionFunction(p: cdf); <span class="highlight-comment">// 0.27</span> 
+
+<span class="highlight-comment">// Probability density functions</span> 
+<span class="highlight-keyword">double</span> pdf = F.ProbabilityDensityFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.45120469723580559</span> 
+<span class="highlight-keyword">double</span> lpdf = F.LogProbabilityDensityFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// -0.79583416831212883</span> 
+
+<span class="highlight-comment">// Hazard (failure rate) functions</span> 
+<span class="highlight-keyword">double</span> hf = F.HazardFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.47468419528555084</span> 
+<span class="highlight-keyword">double</span> chf = F.CumulativeHazardFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.050728620222091653</span> 
+
+<span class="highlight-comment">// String representation</span> 
+<span class="highlight-keyword">string</span> str = F.ToString(CultureInfo.InvariantCulture); <span class="highlight-comment">// F(x; df1 = 8, df2 = 5)</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create a Fisher-Snedecor's F distribution with 8 and 5 d.f.
+FDistribution F = new FDistribution(degrees1: 8, degrees2: 5);
+
+// Common measures 
+double mean = F.Mean;     // 1.6666666666666667 
+double median = F.Median; // 1.0545096252132447 
+double var = F.Variance;  // 7.6388888888888893 
+
+// Cumulative distribution functions 
+double cdf = F.DistributionFunction(x: 0.27); // 0.049463408057268315 
+double ccdf = F.ComplementaryDistributionFunction(x: 0.27); // 0.95053659194273166 
+double icdf = F.InverseDistributionFunction(p: cdf); // 0.27 
+
+// Probability density functions 
+double pdf = F.ProbabilityDensityFunction(x: 0.27); // 0.45120469723580559 
+double lpdf = F.LogProbabilityDensityFunction(x: 0.27); // -0.79583416831212883 
+
+// Hazard (failure rate) functions 
+double hf = F.HazardFunction(x: 0.27); // 0.47468419528555084 
+double chf = F.CumulativeHazardFunction(x: 0.27); // 0.050728620222091653 
+
+// String representation 
+string str = F.ToString(CultureInfo.InvariantCulture); // F(x; df1 = 8, df2 = 5)</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Distributions_Univariate_FDistribution.htm" target="">FDistribution Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Univariate.htm" target="">Accord.Statistics.Distributions.Univariate Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord.googlecode.com" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+FDistribution+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>

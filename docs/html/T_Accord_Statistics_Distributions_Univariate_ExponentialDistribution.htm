@@ -1,0 +1,185 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ExponentialDistribution Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="ExponentialDistribution class" />
+    <meta name="System.Keywords" content="Accord.Statistics.Distributions.Univariate.ExponentialDistribution class" />
+    <meta name="System.Keywords" content="ExponentialDistribution class, about ExponentialDistribution class" />
+    <meta name="Microsoft.Help.F1" content="Accord.Statistics.Distributions.Univariate.ExponentialDistribution" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Distributions.Univariate.ExponentialDistribution" />
+    <meta name="Description" content="Exponential distribution." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.Statistics.Distributions.Univariate" />
+    <meta name="file" content="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution" />
+    <meta name="guid" content="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js">
+      <!---->
+    </script>
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">ExponentialDistribution Class</td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord.googlecode.com/svn/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+              Exponential distribution.
+            </div>
+            <div class="OH_CollapsibleAreaRegion">
+              <div class="OH_regiontitle">Inheritance Hierarchy</div>
+              <div class="OH_CollapsibleArea_HrDiv">
+                <hr class="OH_CollapsibleArea_Hr" />
+              </div>
+            </div>
+            <div class="OH_clear"></div>
+            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBKOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBKOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</a>
+            <br />  <a href="T_Accord_Statistics_Distributions_DistributionBase.htm" target="">Accord.Statistics.Distributions<span id="ID0EBHOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBHOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DistributionBase</a><br />    <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution.htm" target="">Accord.Statistics.Distributions.Univariate<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>UnivariateContinuousDistribution</a><br />      <span class="selflink">Accord.Statistics.Distributions.Univariate<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>ExponentialDistribution</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Distributions_Univariate.htm" target="">Accord.Statistics.Distributions.Univariate</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ExponentialDistribution</span> : <span class="identifier">UnivariateContinuousDistribution</span>, 
+	<span class="identifier">IFittableDistribution</span>&lt;<span class="identifier">double</span>, <span class="identifier">IFittingOptions</span>&gt;, <span class="identifier">ISampleableDistribution</span>&lt;<span class="identifier">double</span>&gt;, 
+	<span class="identifier">IDistribution</span>, <span class="identifier">ICloneable</span></pre></div><div id="ID0EAAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
+public class ExponentialDistribution : UnivariateContinuousDistribution, 
+	IFittableDistribution&lt;double, IFittingOptions&gt;, ISampleableDistribution&lt;double&gt;, 
+	IDistribution, ICloneable</pre></div><div id="ID0EAAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+              In probability theory and statistics, the exponential distribution (a.k.a. negative
+              exponential distribution) is a family of continuous probability distributions. It 
+              describes the time between events in a Poisson process, i.e. a process in which events 
+              occur continuously and independently at a constant average rate. It is the continuous 
+              analogue of the geometric distribution.</p><p>
+              Note that the exponential distribution is not the same as the class of exponential 
+              families of distributions, which is a large class of probability distributions that
+              includes the exponential distribution as one of its members, but also includes the 
+              normal distribution, binomial distribution, gamma distribution, Poisson, and many 
+              others.</p><p>
+              References:
+              <ul><li><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://en.wikipedia.org/wiki/Exponential_distribution" target="_blank">
+                  Wikipedia, The Free Encyclopedia. Exponential distribution. Available on: 
+                  http://en.wikipedia.org/wiki/Exponential_distribution </a></li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+              The following example shows how to create and test the main characteristics
+              of an Exponential distribution given a lambda (λ) rate of 0.42: </p><div id="ID0ECCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0ECCAAAAA_tabs"></div><div id="ID0ECCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0ECCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0ECCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0ECCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ECCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ECCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ECCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0ECCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create an Exponential distribution with λ = 0.42</span> 
+<span class="highlight-keyword">var</span> exp = <span class="highlight-keyword">new</span> ExponentialDistribution(rate: <span class="highlight-number">0.42</span>);
+
+<span class="highlight-comment">// Common measures</span> 
+<span class="highlight-keyword">double</span> mean = exp.Mean;     <span class="highlight-comment">// 2.3809523809523809</span> 
+<span class="highlight-keyword">double</span> median = exp.Median; <span class="highlight-comment">// 1.6503504299046317</span> 
+<span class="highlight-keyword">double</span> <span class="highlight-keyword">var</span> = exp.Variance;  <span class="highlight-comment">// 5.6689342403628125</span> 
+
+<span class="highlight-comment">// Cumulative distribution funcions</span> 
+<span class="highlight-keyword">double</span> cdf  = exp.DistributionFunction(x: <span class="highlight-number">0.27</span>);          <span class="highlight-comment">// 0.10720652870550407</span> 
+<span class="highlight-keyword">double</span> ccdf = exp.ComplementaryDistributionFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.89279347129449593</span> 
+<span class="highlight-keyword">double</span> icdf = exp.InverseDistributionFunction(p: cdf);        <span class="highlight-comment">// 0.27</span> 
+
+<span class="highlight-comment">// Probability density functions</span> 
+<span class="highlight-keyword">double</span> pdf  = exp.ProbabilityDensityFunction(x: <span class="highlight-number">0.27</span>);    <span class="highlight-comment">// 0.3749732579436883</span> 
+<span class="highlight-keyword">double</span> lpdf = exp.LogProbabilityDensityFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// -0.98090056770472311</span> 
+
+<span class="highlight-comment">// Hazard (failure rate) functions</span> 
+<span class="highlight-keyword">double</span> hf = exp.HazardFunction(x: <span class="highlight-number">0.27</span>);            <span class="highlight-comment">// 0.42</span> 
+<span class="highlight-keyword">double</span> chf = exp.CumulativeHazardFunction(x: <span class="highlight-number">0.27</span>); <span class="highlight-comment">// 0.1134</span> 
+
+<span class="highlight-comment">// String representation</span> 
+<span class="highlight-keyword">string</span> str = exp.ToString(CultureInfo.InvariantCulture); <span class="highlight-comment">// Exp(x; λ = 0.42)</span></pre></div><div id="ID0ECCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create an Exponential distribution with λ = 0.42 
+var exp = new ExponentialDistribution(rate: 0.42);
+
+// Common measures 
+double mean = exp.Mean;     // 2.3809523809523809 
+double median = exp.Median; // 1.6503504299046317 
+double var = exp.Variance;  // 5.6689342403628125 
+
+// Cumulative distribution funcions 
+double cdf  = exp.DistributionFunction(x: 0.27);          // 0.10720652870550407 
+double ccdf = exp.ComplementaryDistributionFunction(x: 0.27); // 0.89279347129449593 
+double icdf = exp.InverseDistributionFunction(p: cdf);        // 0.27 
+
+// Probability density functions 
+double pdf  = exp.ProbabilityDensityFunction(x: 0.27);    // 0.3749732579436883 
+double lpdf = exp.LogProbabilityDensityFunction(x: 0.27); // -0.98090056770472311 
+
+// Hazard (failure rate) functions 
+double hf = exp.HazardFunction(x: 0.27);            // 0.42 
+double chf = exp.CumulativeHazardFunction(x: 0.27); // 0.1134 
+
+// String representation 
+string str = exp.ToString(CultureInfo.InvariantCulture); // Exp(x; λ = 0.42)</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0ECCAAAAA');</script><p>
+              The following example shows how to generate random samples drawn
+              from an Exponential distribution and later how to re-estimate a
+              distribution from the generated samples.</p><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create an Exponential distribution with λ = 2.5</span> 
+<span class="highlight-keyword">var</span> exp = <span class="highlight-keyword">new</span> ExponentialDistribution(rate: <span class="highlight-number">2.5</span>);
+
+<span class="highlight-comment">// Generate a million samples from this distribution:</span> 
+<span class="highlight-keyword">double</span>[] samples = target.Generate(<span class="highlight-number">1000000</span>);
+
+<span class="highlight-comment">// Create a default exponential distribution</span> 
+<span class="highlight-keyword">var</span> newExp = <span class="highlight-keyword">new</span> ExponentialDistribution();
+
+<span class="highlight-comment">// Fit the samples</span>
+newExp.Fit(samples);
+
+<span class="highlight-comment">// Check the estimated parameters</span> 
+<span class="highlight-keyword">double</span> rate = newExp.Rate; <span class="highlight-comment">// 2.5</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create an Exponential distribution with λ = 2.5 
+var exp = new ExponentialDistribution(rate: 2.5);
+
+// Generate a million samples from this distribution: 
+double[] samples = target.Generate(1000000);
+
+// Create a default exponential distribution 
+var newExp = new ExponentialDistribution();
+
+// Fit the samples
+newExp.Fit(samples);
+
+// Check the estimated parameters 
+double rate = newExp.Rate; // 2.5</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution.htm" target="">ExponentialDistribution Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Univariate.htm" target="">Accord.Statistics.Distributions.Univariate Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord.googlecode.com" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+ExponentialDistribution+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>
