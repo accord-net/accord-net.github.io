@@ -186,23 +186,7 @@
                     the source code and the sample applications. 
                 </p>
 
-                <ul>
-                    <li>The Accord.NET libraries are the .NET assemblies which can be referenced in .NET
-                        projects, including the .XML documentation for IntelliSense support. </li>
-                    <li>The documentation includes the <a href="http://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help"
-                        rel="nofollow">Compiled HTML Help</a> file containing the documentation generated
-                        by Sandcastle. </li>
-                    <li>The sources include the complete framework&#x27;s source code which can be opened,
-                        modified and be used to recompile portions or the entire framework for your own
-                        needs (the framework is distributed under a <a href="http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License"
-                            rel="nofollow">LGPL license</a> - please read the full license terms for details).
-                    </li>
-                    <li>The sample applications include pre-compiled applications demonstrating what can
-                        be accomplished with the Accord.NET Framework: Most of them are detailed in the
-                        applications page in the wiki. Since those have been pre-compiled,
-                        they represent the biggest component available in the installer.
-                    </li>
-                </ul>
+              
 
                 <p align="center">
                     <table>
@@ -225,9 +209,9 @@
                 </p>
 
                 <ul>
-                    <li>Source code will be available at <i>Accord.NET\Framework\Sources</i>; </li>
-                    <li>Documentation will be available at <i>Accord.NET\Framework\Docs</i>; and </li>
-                    <li>Sample applications will be available under <i>Accord.NET\Framework\Samples</i>.
+                    <li><b>Source code</b> will be at <i>Accord.NET\Framework\Sources</i>; </li>
+                    <li><b>Documentation</b> will be at <i>Accord.NET\Framework\Docs</i>; and </li>
+                    <li><b>Sample applications</b> will be at <i>Accord.NET\Framework\Samples</i>.
                     </li>
                 </ul>
 
@@ -272,7 +256,7 @@
                     After both frameworks have been installed, Accord.NET will be ready to be used.
                     The
                     framework&#x27;s documentation will be available in the Start Menu in the form of
-                    a Microsoft&#x27;s Compiled HTML Help file. The latest version of the <a href="http://accord.googlecode.com/svn/docs/Index.html"
+                    a Microsoft&#x27;s Compiled HTML Help file. The latest version of the <a href="docs/Index.html"
                         rel="nofollow">Accord.NET documentation can also be browsed online</a>.  
                 </p>
 
@@ -281,16 +265,16 @@
                         height="400px" align="center" />
                 </p>
 
-                <p align="center">
-                    <img src="http://accord.googlecode.com/svn/wiki/guides/starting/accord-documentation.png"
-                        width="500px" align="center" />
-                </p>
-
                 <p>
                     If included documentation is not enough, please take a look on the sample applications
                     accompanying the framework. Most questions related to framework usage can be answered
                     by taking a quick look on how the sample applications instantiate portions of the
                     framework to accomplish their work.
+                </p>
+                
+                <p align="center">
+                    <img src="http://accord.googlecode.com/svn/wiki/guides/starting/accord-documentation.png"
+                        width="500px" align="center" />
                 </p>
 
                 <p>
@@ -324,10 +308,9 @@
                     In this example we will be using Microsoft&#x27;s Visual Studio 2008 Team Edition
                     . However any decent IDE, or even command line compilers would suffice. Free versions
                     of Visual Studio, named Express Editions, are available on <a href="http://www.microsoft.com/express/"
-                        rel="nofollow">http://www.microsoft.com/express/</a> . The open-source IDE SharpDevelop<a
-                            href="/p/accord/w/edit/SharpDevelop">?</a> is also available on <a href="http://www.sharpdevelop.net"
-                                rel="nofollow">http://www.sharpdevelop.net</a> . There is also limited
-                    support for MonoDevelop<a href="/p/accord/w/edit/MonoDevelop">?</a> on Linux .
+                        rel="nofollow">http://www.microsoft.com/express/</a>. The open-source IDE SharpDevelop is also 
+                        available on <a href="http://www.sharpdevelop.net" rel="nofollow">http://www.sharpdevelop.net</a>.
+                        There is also limited support for MonoDevelop<a href="/p/accord/w/edit/MonoDevelop">?</a> on Linux.
                 </p>
                 <p>We will start this example by opening up Visual Studio. </p>
                 <p>
@@ -368,9 +351,9 @@
                     We will start by adding references to Accord.NET. Since we are going to develop
                     a
                     sample application which uses Support Vector Machines, we will want to add references
-                    to the Accord.MachineLearning<a href="/p/accord/w/edit/MachineLearning">?</a>, Accord.Statistics,
-                    Accord.Math and Accord.Core namespaces. If you wish to report information using
-                    visual controls, please add a reference to Accord.Controls and to .NET&#x27;s System.Windows.Forms
+                    to the Accord.MachineLearning, Accord.Statistics, Accord.Math and Accord.Core namespaces.
+                    If you wish to report information using visual controls, please add a reference to 
+                    Accord.Controls and to .NET&#x27;s System.Windows.Forms
                     dlls.
                 </p>
                 <p>
@@ -406,7 +389,7 @@
                         <tr>
                             <td style="border: 1px solid #ccc; padding: 5px;"><strong>a</strong> </td>
                             <td style="border: 1px solid #ccc; padding: 5px;"><strong>b</strong> </td>
-                            <td style="border: 1px solid #ccc; padding: 5px;"><strong>a?b</strong> </td>
+                            <td style="border: 1px solid #ccc; padding: 5px;"><strong>a &oplus; b</strong> </td>
                         </tr>
                         <tr>
                             <td style="border: 1px solid #ccc; padding: 5px;">0 </td>
@@ -432,7 +415,7 @@
                 </p>
                 <p>
                     The inputs of the problem are given by the <strong>a</strong> and <strong>b</strong>
-                    columns. The output is the result on <strong>a?b</strong>. To solve it, we will
+                    columns. The output is the result on <strong>a &oplus; b</strong>. To solve it, we will
                     use a Polynomial kernel machine. Support Vector Machines require the outputs to
                     be either -1 or +1, so we will assign -1 to any zero values in the output columns.
                     The code for the sample application is shown below. 
@@ -554,13 +537,12 @@ namespace SampleApplication1
 
 
                 <p>
-                    This page was generated by <a href="pages.github.com">GitHub Pages</a> using the
+                    This page was <i>partially</i> generated by <a href="pages.github.com">GitHub Pages</a> using the
                     Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
                 </p>
             </aside>
         </div>
     </div>
-
 
 </body>
 </html>
