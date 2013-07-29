@@ -15,35 +15,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* LAYOUT STYLES */
@@ -89,10 +89,39 @@ header h2 {
   letter-spacing: 0;
 }
 
+header h3 {
+  font-size: 40px;
+  /*font-family: 'Segoe UI', Verdana, Arial;*/
+}
+
 .inner {
   position: relative;
   width: 940px;
   margin: 0 auto;
+}
+
+.integral {
+  float: left;
+  overflow: visible;
+  width: 80px;
+  font-family: Calibri;
+  position: relative;
+  font-size: 100pt;
+  margin: -70px 30px;
+  color: transparent;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.85);
+}
+
+.integral2 {
+  float:left;
+  overflow: visible;
+  width: 0;
+  font-family: Calibri;
+  position: relative;
+  font-size: 250pt;
+  margin: -130px -190px;
+  color: transparent;
+  text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.20);
 }
 
 #content-wrapper {
@@ -156,6 +185,11 @@ aside a.button {
   margin-bottom: 20px;
   font-size: 21px;
 }
+
+header a, header a:hover {
+    color: #fff;
+}
+
 
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
