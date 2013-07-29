@@ -1,3 +1,28 @@
 safe: true
 lsi: false
 pygments: true
+
+# standard jekyll configuration options
+
+exclude: ['Rakefile', 'README.md', 'config.rb']
+
+# configuration required for some pages
+
+#domain: blog.example.com
+title: Accord.NET Framework
+#author: Me
+#email: me@example.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+# github:
+#   username: ghusername
+
+# disqus:
+#   id: disqusid
