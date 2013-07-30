@@ -25,5 +25,5 @@ title: Accord.NET Framework
 # github:
 #   username: ghusername
 
-# disqus:
-#   id: disqusid
+disqus:
+  id: accord-net
