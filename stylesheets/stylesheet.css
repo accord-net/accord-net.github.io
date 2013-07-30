@@ -195,10 +195,10 @@ header a, header a:hover {
 
 
 code, pre {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   color: #222;
   margin-bottom: 30px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 code {
