@@ -442,13 +442,13 @@ namespace SampleApplication1
             // Teach the machine
             double error = smo.Run();
 
-            Console.WriteLine(&quot;error: &quot; + error);
+            Console.WriteLine("error: " + error);
 
             // Show results on screen
-            ScatterplotBox.Show(&quot;Training data&quot;, inputs, outputs);
+            ScatterplotBox.Show("Training data", inputs, outputs);
 
-            ScatterplotBox.Show(&quot;SVM results&quot;, inputs,
-                inputs.Apply(p =&gt; System.Math.Sign(ksvm.Compute(p))));
+            ScatterplotBox.Show("SVM results", inputs,
+                inputs.Apply(p => System.Math.Sign(ksvm.Compute(p))));
 
             Console.ReadKey();
         }
