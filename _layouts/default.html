@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset='utf-8'>
@@ -31,14 +31,10 @@
     <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content">
-               {{ content }}
-
-            {% if page.comments %}
-               {% include disqus.html %}
-            {% endif %}
+{{ content }}
             </section>
-			
-			
+
+
             <aside id="sidebar">
                {% include sidebar.html %}
                
@@ -53,7 +49,15 @@
             </aside>
             
         </div>
-	
+        
+        {% if page.comments %}		
+        <div id="comments">
+            <div class ="inner clearfix">
+                {% include disqus.html %}
+            </div>
+        </div>
+        {% endif %}
+
     </div>
 </body>
 </html>
