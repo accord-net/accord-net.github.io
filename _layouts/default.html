@@ -31,33 +31,28 @@
     <div id="content-wrapper">
         <div class="inner clearfix">
             <section id="main-content">
-{{ content }}
+               {{ content }}
+
+            {% if page.comments %}
+               {% include disqus.html %}
+            {% endif %}
             </section>
 			
 			
             <aside id="sidebar">
                {% include sidebar.html %}
+               
+                <!-- Google + -->
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                })();
+	        </script>
             </aside>
             
         </div>
-        
-        {% if page.comments %}		
-        <div id="comments">
-            <div class ="inner clearfix">
-                {% include disqus.html %}
-            </div>
-        </div>
-        {% endif %}
-
-
-        <!-- Google + -->
-        <script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-        })();
-	</script>
 	
     </div>
 </body>
