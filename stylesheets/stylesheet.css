@@ -73,7 +73,7 @@ header {
 
 header h1 {
   letter-spacing: -1px;
-  font-size: 72px;
+  font-size: 80px;
   color: #fff;
   line-height: 1;
   margin-bottom: 0.2em;
@@ -264,7 +264,7 @@ form {
 
 #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
   color: #474747;
 } 
@@ -278,8 +278,9 @@ form {
 
 #main-content h2 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
+  margin-top: 24px;
   margin-bottom: 8px;
   color: #474747;
 } 
@@ -296,6 +297,7 @@ form {
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
+  margin-left: 2em;
   color: #474747;
 } 
  
@@ -303,7 +305,7 @@ form {
   content: "///";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -2em;
+  margin-left: 0em;
 }
 
 #main-content h4 {
