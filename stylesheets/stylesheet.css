@@ -153,6 +153,10 @@ aside#sidebar p.repo-owner a {
   font-weight: bold;
 }
 
+#comments {
+   margin-top: 10px;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
@@ -260,7 +264,8 @@ form {
 
 #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 2.8em;
+  font-size: 24px;
+  font-weight: bold;
   letter-spacing: -1px;
   color: #474747;
 } 
