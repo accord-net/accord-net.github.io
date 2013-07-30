@@ -1,6 +1,7 @@
 .highlight     { background: #ffffff    }
 .highlight .n  { color: #000000         } /* Comment */
 .highlight .c  { color: rgb(0, 128, 0)  } /* Comment */
+.highlight .c1 { color: rgb(0, 128, 0)  } /* Comment.Single */
 .highlight .k  { color: rgb(0, 0, 255)  } /* Keyword */
 .highlight .o  { font-weight: bold      } /* Operator */
 .highlight .cm { color: rgb(0, 128, 0)  } /* Comment.Multiline */
@@ -54,7 +55,6 @@
 .highlight .ow    { font-weight: bold } /* Operator.Word */
 .highlight .err   { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .cp    { color: #999999; font-weight: bold         }  /* Comment.Preproc */
-.highlight .c1    { color: #999988; font-style: italic        } /* Comment.Single */
 .highlight .cs    { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
 .highlight .gd    { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
 .highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
