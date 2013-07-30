@@ -266,8 +266,8 @@ form {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 28px;
   font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 12px;
   color: #474747;
 } 
 
@@ -296,10 +296,8 @@ form {
 #main-content h3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
-  font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
-  margin-left: 1em;
   color: #474747;
 } 
  
@@ -307,7 +305,7 @@ form {
   content: "///";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -1em;
+  margin-left: -2em;
 }
 
 #main-content h4 {
