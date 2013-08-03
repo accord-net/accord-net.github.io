@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="27/07/2013 20:09:26">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="03/08/2013 12:01:03">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -59,6 +59,9 @@ Source: D:\Projects\Accord.NET\Assembla\Release\Accord.Vision.dll
     Found assembly &#39;D:\Projects\Accord.NET\Assembla\Release\Accord.Vision.dll&#39;
 Source: D:\Projects\Accord.NET\Assembla\Release\Accord.Vision.xml
 Source: D:\Projects\Accord.NET\Assembla\Release\Accord.xml
+Source: D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Namespaces\bin\Release\Namespaces.dll
+    Found assembly &#39;D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Namespaces\bin\Release\Namespaces.dll&#39;
+Source: D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Namespaces\bin\Release\Namespaces.xml
 
 References to include (excluding framework assemblies):
     Accord
@@ -76,22 +79,21 @@ References to include (excluding framework assemblies):
     Accord.Neuro
     Accord.Statistics
     Accord.Vision
-    AForge
-    AForge.Controls
-    AForge.Fuzzy
-    AForge.Genetic
-    AForge.Imaging
-    AForge.Imaging.Formats
-    AForge.MachineLearning
-    AForge.Math
-    AForge.Neuro
-    AForge.Robotics.Lego
-    AForge.Robotics.Surveyor
-    AForge.Robotics.TeRK
-    AForge.Video
-    AForge.Video.DirectShow
-    AForge.Video.VFW
-    AForge.Vision
+    AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb
+    AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9
+    AForge.Fuzzy, Version=2.2.4.0, Culture=neutral, PublicKeyToken=cb12670d0eae17c9
+    AForge.Genetic, Version=2.2.4.0, Culture=neutral, PublicKeyToken=4336634eeb41b69b
+    AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b
+    AForge.Imaging.Formats, Version=2.2.4.0, Culture=neutral, PublicKeyToken=8065ed5a639199a0
+    AForge.MachineLearning, Version=2.2.4.0, Culture=neutral, PublicKeyToken=b3f1bdd78212f4e4
+    AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9
+    AForge.Neuro, Version=2.2.5.0, Culture=neutral, PublicKeyToken=2094f4ea39731d4f
+    AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401
+    AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7
+    AForge.Video.FFMPEG, Version=2.2.5.0, Culture=neutral, PublicKeyToken=03563089b1be05dd
+    AForge.Video.Kinect, Version=2.2.4.0, Culture=neutral, PublicKeyToken=96a9a097745e71d9
+    AForge.Video.VFW, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a82f807c999637c8
+    AForge.Vision, Version=2.2.5.0, Culture=neutral, PublicKeyToken=b612fa915eefaa06
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Controls.Audio\..\..\Release\Accord.Controls.Audio.dll
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Controls.Imaging\..\..\Release\Accord.Controls.Imaging.dll
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Controls.Vision\..\..\Release\Accord.Controls.Vision.dll
@@ -121,14 +123,15 @@ Copying XML comments files
     D:\Projects\Accord.NET\Assembla\Release\Accord.Statistics.XML -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.Statistics.XML
     D:\Projects\Accord.NET\Assembla\Release\Accord.Vision.XML -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.Vision.XML
     D:\Projects\Accord.NET\Assembla\Release\Accord.xml -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.xml
+    D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Namespaces\bin\Release\Namespaces.XML -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Namespaces.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:01.2481
+    Last step completed in 00:00:00.3630
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.7630
+    Last step completed in 00:00:00.3150
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -137,24 +140,25 @@ c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5)
 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;Accord.Audition&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Projects\Accord.NET\Assembla\Docs\Working\GenerateRefInfo.proj]
 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;Accord.Controls.Audio&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Projects\Accord.NET\Assembla\Docs\Working\GenerateRefInfo.proj]
 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;Accord.DirectSound&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Projects\Accord.NET\Assembla\Docs\Working\GenerateRefInfo.proj]
+c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built &quot;MSIL&quot; and the processor architecture of the reference &quot;AForge.Video.FFMPEG, Version=2.2.5.0, Culture=neutral, PublicKeyToken=03563089b1be05dd&quot;, &quot;x86&quot;. This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [D:\Projects\Accord.NET\Assembla\Docs\Working\GenerateRefInfo.proj]
   MRefBuilder (v2.7.3.0)
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
-  Info: Loaded 16 assemblies for reflection and 32 dependency assemblies.
-  Info: Wrote information on 79 namespaces, 783 types, and 7212 members
+  Info: Loaded 17 assemblies for reflection and 31 dependency assemblies.
+  Info: Wrote information on 77 namespaces, 784 types, and 7213 members
   XslTransform (v2.7.3.0)
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:14.5768
+    Last step completed in 00:00:27.0795
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.8500
+    Last step completed in 00:00:00.5980
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
-    Last step completed in 00:00:00.8340
+    Last step completed in 00:00:00.9331
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -168,7 +172,7 @@ Transforming reflection output...
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:43.7935
+    Last step completed in 00:00:35.3440
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -292,6 +296,27 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Controls_DataGridBox_Show_2 generated for M:Accord.Controls.DataGridBox.Show(System.Object,System.String,System.Boolean)
     Unique name M_Accord_Controls_DenavitHartenbergViewer_ComputeImages_1 generated for M:Accord.Controls.DenavitHartenbergViewer.ComputeImages(Accord.Math.Kinematics.DenavitHartenbergNode[])
     Unique name M_Accord_Controls_DenavitHartenbergViewer_Dispose_1 generated for M:Accord.Controls.DenavitHartenbergViewer.Dispose(System.Boolean)
+    Unique name M_Accord_Controls_ImageBox_Show_1 generated for M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)
+    Unique name M_Accord_Controls_ImageBox_Show_2 generated for M:Accord.Controls.ImageBox.Show(System.Double[0:,0:])
+    Unique name M_Accord_Controls_ImageBox_Show_3 generated for M:Accord.Controls.ImageBox.Show(System.Double[0:,0:],System.Windows.Forms.PictureBoxSizeMode)
+    Unique name M_Accord_Controls_ImageBox_Show_4 generated for M:Accord.Controls.ImageBox.Show(System.Double[0:,0:],System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_5 generated for M:Accord.Controls.ImageBox.Show(System.Double[],System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_6 generated for M:Accord.Controls.ImageBox.Show(System.Double[],System.Int32,System.Int32,System.Windows.Forms.PictureBoxSizeMode)
+    Unique name M_Accord_Controls_ImageBox_Show_7 generated for M:Accord.Controls.ImageBox.Show(System.Double[],System.Int32,System.Int32,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_8 generated for M:Accord.Controls.ImageBox.Show(System.Drawing.Image)
+    Unique name M_Accord_Controls_ImageBox_Show_9 generated for M:Accord.Controls.ImageBox.Show(System.Drawing.Image,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_10 generated for M:Accord.Controls.ImageBox.Show(System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode)
+    Unique name M_Accord_Controls_ImageBox_Show_11 generated for M:Accord.Controls.ImageBox.Show(System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Drawing.Color)
+    Unique name M_Accord_Controls_ImageBox_Show_12 generated for M:Accord.Controls.ImageBox.Show(System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_13 generated for M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)
+    Unique name M_Accord_Controls_ImageBox_Show_14 generated for M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_15 generated for M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)
+    Unique name M_Accord_Controls_ImageBox_Show_16 generated for M:Accord.Controls.ImageBox.Show(System.String,System.Double[0:,0:],System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_17 generated for M:Accord.Controls.ImageBox.Show(System.String,System.Drawing.Image)
+    Unique name M_Accord_Controls_ImageBox_Show_18 generated for M:Accord.Controls.ImageBox.Show(System.String,System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode)
+    Unique name M_Accord_Controls_ImageBox_Show_19 generated for M:Accord.Controls.ImageBox.Show(System.String,System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
+    Unique name M_Accord_Controls_ImageBox_Show_20 generated for M:Accord.Controls.ImageBox.Show(System.String,System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)
+    Unique name M_Accord_Controls_NumericCollectionEditorForm__ctor_1 generated for M:Accord.Controls.NumericCollectionEditorForm.#ctor(Accord.Controls.NumericCollectionEditor,System.Object)
     Unique name M_Accord_Controls_ScatterplotBox_Show_1 generated for M:Accord.Controls.ScatterplotBox.Show(System.Double[0:,0:],System.Int32[],System.Boolean)
     Unique name M_Accord_Controls_ScatterplotBox_Show_2 generated for M:Accord.Controls.ScatterplotBox.Show(System.Double[],System.Double[],System.Int32[],System.Boolean)
     Unique name M_Accord_Controls_ScatterplotBox_Show_3 generated for M:Accord.Controls.ScatterplotBox.Show(System.Double[][],System.Int32[],System.Boolean)
@@ -302,27 +327,6 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Controls_SortableBindingList_1__ctor_1 generated for M:Accord.Controls.SortableBindingList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
     Unique name M_Accord_Controls_Wavechart_AddWaveform_1 generated for M:Accord.Controls.Wavechart.AddWaveform(System.String,System.Drawing.Color,System.Int32,System.Boolean)
     Unique name M_Accord_Controls_Wavechart_UpdateWaveform_1 generated for M:Accord.Controls.Wavechart.UpdateWaveform(System.String,System.Single[],System.Int32)
-    Unique name M_Accord_Controls_Editors_NumericCollectionEditorForm__ctor_1 generated for M:Accord.Controls.Editors.NumericCollectionEditorForm.#ctor(Accord.Controls.Editors.NumericCollectionEditor,System.Object)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_1 generated for M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_2 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Double[0:,0:])
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_3 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Double[0:,0:],System.Windows.Forms.PictureBoxSizeMode)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_4 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Double[0:,0:],System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_5 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Double[],System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_6 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Double[],System.Int32,System.Int32,System.Windows.Forms.PictureBoxSizeMode)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_7 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Double[],System.Int32,System.Int32,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_8 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Drawing.Image)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_9 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Drawing.Image,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_10 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_11 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Drawing.Color)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_12 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_13 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_14 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_15 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_16 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,System.Double[0:,0:],System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_17 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,System.Drawing.Image)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_18 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_19 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)
-    Unique name M_Accord_Controls_Imaging_ImageBox_Show_20 generated for M:Accord.Controls.Imaging.ImageBox.Show(System.String,System.Drawing.Image,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)
     Unique name M_Accord_Controls_Vision_FaceEventArgs__ctor_1 generated for M:Accord.Controls.Vision.FaceEventArgs.#ctor(System.Drawing.PointF)
     Unique name M_Accord_Controls_Vision_FaceEventArgs__ctor_2 generated for M:Accord.Controls.Vision.FaceEventArgs.#ctor(System.Single,System.Single)
     Unique name M_Accord_Controls_Vision_HeadEventArgs__ctor_1 generated for M:Accord.Controls.Vision.HeadEventArgs.#ctor(System.Single,System.Single,System.Single,System.Single)
@@ -1950,7 +1954,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Vision_Tracking_TrackingObject__ctor_2 generated for M:Accord.Vision.Tracking.TrackingObject.#ctor(System.Drawing.Rectangle,AForge.IntPoint,System.Single)
     Unique name M_Accord_Vision_Tracking_TrackingObject__ctor_3 generated for M:Accord.Vision.Tracking.TrackingObject.#ctor(System.Drawing.Rectangle,System.Single)
     Unique name M_Accord_Vision_Tracking_TrackingObject_GetAxis_1 generated for M:Accord.Vision.Tracking.TrackingObject.GetAxis(Accord.Vision.Tracking.AxisOrientation)
-    Last step completed in 00:00:05.4543
+    Last step completed in 00:00:07.2474
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -2342,7 +2346,26 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Project
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:06.6744
+    Last step completed in 00:00:08.3705
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+    D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Media\Accord.NET.png
+    D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\media\Accord.NET.png (Always copied)
+    D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\media\Accord.NET.png (Always copied)
+Generating conceptual topic files
+    Last step completed in 00:00:00.3430
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00.0420
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -2478,11 +2501,11 @@ D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resourc
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (logo large).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\resources\Accord.NET (logo large).png
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Resources\Accord.NET (logo small).png
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\Resources\Accord.NET (logo small).png
-    Last step completed in 00:00:16.0679
+    Last step completed in 00:00:05.7643
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -2495,12 +2518,13 @@ Generating conceptual content intermediate TOC file...
 <plugIn name="Hierarchical Table of Contents" behavior="After" priority="1000">
 Retrieving namespace topic title from shared content...
 Creating namespace hierarchy...
-</plugIn>    Last step completed in 00:00:02.8772
+</plugIn>    Last step completed in 00:00:09.0435
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:02.4551
+    conceptual.config
+    Last step completed in 00:00:04.4153
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2512,7 +2536,32 @@ D:\Projects\Accord.NET\Assembla\Docs\Working\sandcastle.config
     Replaced configuration for &#39;Microsoft.Ddue.Tools.CopyFromIndexComponent&#39; (instance 1) with configuration for &#39;Reflection Index Data (ESENT Cache)&#39;
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
     Replaced configuration for &#39;Microsoft.Ddue.Tools.CopyFromIndexComponent&#39; (instance 2) with configuration for &#39;Comments Index Data (ESENT Cache)&#39;
-    Last step completed in 00:00:00.3580
+D:\Projects\Accord.NET\Assembla\Docs\Working\conceptual.config
+    Replaced configuration for &#39;Microsoft.Ddue.Tools.ResolveReferenceLinksComponent2&#39; (instance 1) with configuration for &#39;Resolve Reference Links (ESENT Cache)&#39;
+    Replaced configuration for &#39;Microsoft.Ddue.Tools.ResolveReferenceLinksComponent2&#39; (instance 1) with configuration for &#39;Resolve Reference Links (ESENT Cache)&#39;
+    Replaced configuration for &#39;Microsoft.Ddue.Tools.ResolveReferenceLinksComponent2&#39; (instance 1) with configuration for &#39;Resolve Reference Links (ESENT Cache)&#39;
+    Replaced configuration for &#39;Microsoft.Ddue.Tools.ResolveReferenceLinksComponent2&#39; (instance 1) with configuration for &#39;Resolve Reference Links (ESENT Cache)&#39;
+    Skipping component &#39;Reflection Index Data (ESENT Cache)&#39;, not used in conceptual build
+    Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
+    Skipping component &#39;Comments Index Data (ESENT Cache)&#39;, not used in conceptual build
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.8100
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.3.0)
+  Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loading configuration...
+  Diagnostic: ESentResolveReferenceLinksComponent: 1 file(s) need to be added to the ESENT reflection target cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ProjectTargetsCache
+  Info: Processing topics...
+  Info: Processed 0 topic(s)
+  Diagnostic: CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 0 of 15.
+  Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
+  Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
+  Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
+    Last step completed in 00:04:27.9333
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -2521,25 +2570,35 @@ Building reference help topics...
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Loading configuration...
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ReflectionIndexCache\Project_Ref_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_7BFB9D4C
-  Diagnostic: ESentResolveReferenceLinksComponent: 1 file(s) need to be added to the ESENT reflection target cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ProjectTargetsCache
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ReflectionIndexCache\Project_Ref_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_83244767
   Info: Processing topics...
+  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Vision&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Imaging&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Audio&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Vision&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Imaging&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Audio&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Audition&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Vision&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Audition&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Vision&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Audio.ComplexSignal.FromArray(AForge.Math.Complex[0:,0:],System.Int32)] Unknown reference link target &#39;T:AForge.Math.Complex&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Audio.ComplexSignal.FromArray(AForge.Math.Complex[0:,0:],System.Int32)] Unknown reference link target &#39;T:AForge.Math.Complex&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Audio.ComplexSignal.FromArray(AForge.Math.Complex[0:,0:],System.Int32)] Unknown reference link target &#39;T:AForge.Math.Complex&#39;.
@@ -2606,6 +2665,32 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.HistogramView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.HistogramView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.HistogramView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.Controls.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.Controls.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [Methods.T:Accord.Controls.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [Methods.T:Accord.Controls.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.NumericCollectionEditor.GetItems(System.Object)] Unknown reference link target &#39;T:object[]&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.NumericCollectionEditor.GetItems(System.Object)] Unknown reference link target &#39;T:object[]&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Controls.RangeTypeConverter] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Controls.RangeTypeConverter] Unknown reference link target &#39;T:AForge.IntRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Controls.RangeTypeConverter] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
@@ -2622,32 +2707,6 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.Wavechart.RangeY] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.Wavechart.RangeY] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.Wavechart.RangeY] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.Controls.Editors.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.Controls.Editors.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [Methods.T:Accord.Controls.Editors.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [Methods.T:Accord.Controls.Editors.NumericCollectionEditor] Unknown reference link target &#39;T:object[]&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Editors.NumericCollectionEditor.GetItems(System.Object)] Unknown reference link target &#39;T:object[]&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Editors.NumericCollectionEditor.GetItems(System.Object)] Unknown reference link target &#39;T:object[]&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Controls.Imaging.ImageBox.Show(System.String,AForge.Imaging.UnmanagedImage,System.Windows.Forms.PictureBoxSizeMode,System.Int32,System.Int32,System.Drawing.Color)] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.Vision.FaceController.Device] Unknown reference link target &#39;T:AForge.Video.IVideoSource&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.Vision.FaceController.Device] Unknown reference link target &#39;T:AForge.Video.IVideoSource&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.Vision.FaceController.Device] Unknown reference link target &#39;T:AForge.Video.IVideoSource&#39;.
@@ -5032,8 +5091,8 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Info: Processed 11087 topic(s)
-  Info: 2492 warning(s)
+  Info: Processed 11089 topic(s)
+  Info: 2502 warning(s)
   Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; highest ESENT local cache flush count: 4.  Highest ESENT current local cache usage: 1561 of 2500.
   Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 0 of 15.
   Diagnostic: ESentCopyFromIndexComponent: &quot;comments&quot; highest ESENT local cache flush count: 3.  Highest ESENT current local cache usage: 875 of 2500.
@@ -5041,13 +5100,13 @@ Building reference help topics...
   Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1158 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 4 time(s).  Current ESENT local cache usage: 1534 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1231 of 2500.
-    Last step completed in 00:21:42.7695
+    Last step completed in 00:19:02.3633
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:18.6961
+    Last step completed in 00:00:25.2254
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -5059,29 +5118,29 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1
-Processed 11087 HTML files
+Processed 11089 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.NET.hhk
 Saving HTML Help 1 table of contents to D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.NET.hhc
 
 Processing website files in D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website
-Processed 11087 HTML files
+Processed 11089 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Projects\Accord.NET\Assembla\Docs\Working\WebKI.xml
 Saving website table of contents to D:\Projects\Accord.NET\Assembla\Docs\Working\WebTOC.xml
-    Last step completed in 00:06:03.2588
+    Last step completed in 00:05:00.9962
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.6010
+    Last step completed in 00:00:08.4605
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -5096,13 +5155,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 23 seconds
+  Compile time: 3 minutes, 2 seconds
   
-  11,089	Topics
+  11,091	Topics
   
-  136,156	Local links
+  136,220	Local links
   
-  90,103	Internet links
+  90,148	Internet links
   
   0	Graphics
   
@@ -5110,20 +5169,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 23,388,823 bytes
+  Created d:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 23,423,823 bytes
   
-  Compression decreased file by 133,712,297 bytes.
+  Compression decreased file by 133,662,524 bytes.
   
-    Last step completed in 00:03:56.9496
+    Last step completed in 00:03:58.3746
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0980
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:01:02.5806
+    Last step completed in 00:01:02.4956
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -5240,16 +5299,16 @@ Copied 10900 files
 Copied 11000 files
 Copied 11100 files
 Copied 11200 files
-Copied 11256 files for the website content
-    Last step completed in 00:01:13.5692
+Copied 11259 files for the website content
+    Last step completed in 00:00:51.7510
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:37.3221
+    Last step completed in 00:00:24.1334
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 07/27/2013 08:46 .  Total time: 00:36:34,2835
+Build completed successfully at 08/03/2013 12:38 .  Total time: 00:37:04,4482
 
 </buildStep>
 </shfbBuild>
