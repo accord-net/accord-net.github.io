@@ -26,7 +26,7 @@
     <meta name="System.Keywords" content="BaumWelchLearning(Of TDistribution) class, about BaumWelchLearning(Of TDistribution) class" />
     <meta name="Microsoft.Help.F1" content="Accord.Statistics.Models.Markov.Learning.BaumWelchLearning`1" />
     <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Models.Markov.Learning.BaumWelchLearning`1" />
-    <meta name="Description" content="Baum-Welch learning algorithm for arbitrary-density Hidden Markov Models." />
+    <meta name="Description" content="Baum-Welch learning algorithm for arbitrary-density (generic) Hidden Markov Models." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <meta name="BrandingAware" content="'true'" />
     <meta name="container" content="Accord.Statistics.Models.Markov.Learning" />
@@ -64,8 +64,9 @@
               <br />
             </span>
             <div class="summary">
-              Baum-Welch learning algorithm for arbitrary-density Hidden Markov Models.
-            </div>
+               Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" target="">
+               arbitrary-density (generic) Hidden Markov Models</a>.
+             </div>
             <div class="OH_CollapsibleAreaRegion">
               <div class="OH_regiontitle">Inheritance Hierarchy</div>
               <div class="OH_CollapsibleArea_HrDiv">
@@ -85,18 +86,29 @@
 					addToLanSpecTextIdSet("ID0ECBOAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
 				</script>TDistribution<span id="ID0EABOAAAAA"> </span><script type="text/javascript">
 					addToLanSpecTextIdSet("ID0EABOAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Models_Markov_Learning.htm" target="">Accord.Statistics.Models.Markov.Learning</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EABEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EABEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EABEAAAAA_tabimgleft"></div><div id="ID0EABEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EABEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EABEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EABEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EABEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EABEAAAAA_tabimgright"></div></div><div id="ID0EABEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EABEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EABEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EABEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EABEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EABEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EABEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EABEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">BaumWelchLearning</span>&lt;TDistribution&gt; : <span class="identifier">BaseBaumWelchLearning</span>, 
+				</script></span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Models_Markov_Learning.htm" target="">Accord.Statistics.Models.Markov.Learning</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.4629)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EABEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EABEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EABEAAAAA_tabimgleft"></div><div id="ID0EABEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EABEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EABEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EABEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EABEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EABEAAAAA_tabimgright"></div></div><div id="ID0EABEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EABEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EABEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EABEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EABEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EABEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EABEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EABEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">BaumWelchLearning</span>&lt;TDistribution&gt; : <span class="identifier">BaseBaumWelchLearning</span>, 
 	<span class="identifier">IUnsupervisedLearning</span>, <span class="identifier">IConvergenceLearning</span> 
 <span class="keyword">where</span> TDistribution : <span class="identifier">IDistribution</span></pre></div><div id="ID0EABEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public class BaumWelchLearning&lt;TDistribution&gt; : BaseBaumWelchLearning, 
 	IUnsupervisedLearning, IConvergenceLearning 
 where TDistribution : IDistribution</pre></div><div id="ID0EABEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EABEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EABEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Type Parameters</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><dl><dt><span class="parameter">TDistribution</span></dt><dd></dd></dl><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
-              The Baum-Welch algorithm is a kind of Expectation-Maximization algorithm.
-              For continuous models, it estimates the matrix of state transition probabilities
-              A and the vector of initial state probabilities pi. For the state emission 
-              densities, it weights each observation and lets the estimation algorithms
-              for each of the densities to fit the distributions to the observations.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
-              In the following example, we will create a Continuous Hidden Markov Model using
-              a univariate Normal distribution to model properly model continuous sequences.</p><div id="ID0EGCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EGCAAAAA_tabs"></div><div id="ID0EGCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EGCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EGCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EGCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EGCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EGCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EGCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EGCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create continuous sequences. In the sequences below, there</span> 
+               The Baum-Welch algorithm is an <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" target="">unsupervised algorithm</a>
+               used to learn a single hidden Markov model object from a set of observation sequences. It works
+               by using a variant of the <a href="M_Accord_Statistics_Distributions_Univariate_Mixture_1_Fit_1.htm" target="">
+               Expectation-Maximization</a> algorithm to search a set of model parameters (i.e. the matrix
+               of <a href="P_Accord_Statistics_Models_Markov_IHiddenMarkovModel_Transitions.htm" target="">transition probabilities </a>, the vector of <a href="P_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Emissions.htm" target="">state probability distributions
+               </a>, and the <a href="P_Accord_Statistics_Models_Markov_IHiddenMarkovModel_Probabilities.htm" target="">initial probability
+               vector </a>) that would result in a model having a high likelihood of being able 
+               to <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Generate.htm" target="">generate</a> a set of training 
+               sequences given to this algorithm.</p><p>
+               For increased accuracy, this class performs all computations using log-probabilities.</p><p>
+               For a more thorough explanation on <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">hidden Markov models</a>
+               with practical examples on gesture recognition, please see 
+               <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://www.codeproject.com/Articles/541428/Sequence-Classifiers-in-Csharp-Part-I-Hidden-Marko" target="_blank">
+               Sequence Classifiers in C#, Part I: Hidden Markov Models</a> [1].</p><p>
+               [1]: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://www.codeproject.com/Articles/541428/Sequence-Classifiers-in-Csharp-Part-I-Hidden-Marko" target="_blank"> 
+                       http://www.codeproject.com/Articles/541428/Sequence-Classifiers-in-Csharp-Part-I-Hidden-Marko </a></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+               In the following example, we will create a Continuous Hidden Markov Model using
+               a univariate Normal distribution to model properly model continuous sequences.</p><div id="ID0ELCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0ELCAAAAA_tabs"></div><div id="ID0ELCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0ELCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0ELCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0ELCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ELCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ELCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ELCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0ELCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create continuous sequences. In the sequences below, there</span> 
 <span class="highlight-comment">//  seems to be two states, one for values between 0 and 1 and</span> 
 <span class="highlight-comment">//  another for values between 5 and 7. The states seems to be</span> 
 <span class="highlight-comment">//  switched on every observation.</span> 
@@ -109,7 +121,7 @@ where TDistribution : IDistribution</pre></div><div id="ID0EABEAAAAA_code_Div2" 
 
 
 <span class="highlight-comment">// Specify a initial normal distribution for the samples.</span>
-NormalDistribution density = NormalDistribution();
+NormalDistribution density = <span class="highlight-keyword">new</span> NormalDistribution();
 
 <span class="highlight-comment">// Creates a continuous hidden Markov Model with two states organized in a forward</span> 
 <span class="highlight-comment">//  topology and an underlying univariate Normal distribution as probability density.</span> 
@@ -126,12 +138,23 @@ NormalDistribution density = NormalDistribution();
 <span class="highlight-comment">// Fit the model</span> 
 <span class="highlight-keyword">double</span> likelihood = teacher.Run(sequences);
 
-<span class="highlight-comment">// See the likelihood of the sequences learned</span> 
-<span class="highlight-keyword">double</span> l1 = model.Evaluate(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.1</span>, <span class="highlight-number">5.2</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">6.7</span>, <span class="highlight-number">0.1</span>, <span class="highlight-number">6.0</span> }); <span class="highlight-comment">// 0.87</span> 
-<span class="highlight-keyword">double</span> l2 = model.Evaluate(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.2</span>, <span class="highlight-number">6.2</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">6.3</span>, <span class="highlight-number">0.1</span>, <span class="highlight-number">5.0</span> }); <span class="highlight-comment">// 1.00</span> 
+<span class="highlight-comment">// See the log-probability of the sequences learned</span> 
+<span class="highlight-keyword">double</span> a1 = model.Evaluate(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.1</span>, <span class="highlight-number">5.2</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">6.7</span>, <span class="highlight-number">0.1</span>, <span class="highlight-number">6.0</span> }); <span class="highlight-comment">// -0.12799388666109757</span> 
+<span class="highlight-keyword">double</span> a2 = model.Evaluate(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.2</span>, <span class="highlight-number">6.2</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">6.3</span>, <span class="highlight-number">0.1</span>, <span class="highlight-number">5.0</span> }); <span class="highlight-comment">// 0.01171157434400194</span> 
 
-<span class="highlight-comment">// See the probability of an unrelated sequence</span> 
-<span class="highlight-keyword">double</span> l3 = model.Evaluate(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">1.1</span>, <span class="highlight-number">2.2</span>, <span class="highlight-number">1.3</span>, <span class="highlight-number">3.2</span>, <span class="highlight-number">4.2</span>, <span class="highlight-number">1.0</span> }); <span class="highlight-comment">// 0.00</span></pre></div><div id="ID0EGCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create continuous sequences. In the sequences below, there 
+<span class="highlight-comment">// See the log-probability of an unrelated sequence</span> 
+<span class="highlight-keyword">double</span> a3 = model.Evaluate(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">1.1</span>, <span class="highlight-number">2.2</span>, <span class="highlight-number">1.3</span>, <span class="highlight-number">3.2</span>, <span class="highlight-number">4.2</span>, <span class="highlight-number">1.0</span> }); <span class="highlight-comment">// -298.7465244473417</span> 
+
+<span class="highlight-comment">// We can transform the log-probabilities to actual probabilities:</span> 
+<span class="highlight-keyword">double</span> likelihood = Math.Exp(logLikelihood);
+a1 = Math.Exp(a1); <span class="highlight-comment">// 0.879</span>
+a2 = Math.Exp(a2); <span class="highlight-comment">// 1.011</span>
+a3 = Math.Exp(a3); <span class="highlight-comment">// 0.000</span> 
+
+<span class="highlight-comment">// We can also ask the model to decode one of the sequences. After</span> 
+<span class="highlight-comment">// this step the state variable will contain: { 0, 1, 0, 1, 0, 1 }</span> 
+
+<span class="highlight-keyword">int</span>[] states = model.Decode(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.1</span>, <span class="highlight-number">5.2</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">6.7</span>, <span class="highlight-number">0.1</span>, <span class="highlight-number">6.0</span> });</pre></div><div id="ID0ELCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create continuous sequences. In the sequences below, there 
 //  seems to be two states, one for values between 0 and 1 and 
 //  another for values between 5 and 7. The states seems to be 
 //  switched on every observation. 
@@ -144,7 +167,7 @@ double[][] sequences = new double[][]
 
 
 // Specify a initial normal distribution for the samples.
-NormalDistribution density = NormalDistribution();
+NormalDistribution density = new NormalDistribution();
 
 // Creates a continuous hidden Markov Model with two states organized in a forward 
 //  topology and an underlying univariate Normal distribution as probability density. 
@@ -161,15 +184,26 @@ var teacher = new BaumWelchLearning&lt;NormalDistribution&gt;(model)
 // Fit the model 
 double likelihood = teacher.Run(sequences);
 
-// See the likelihood of the sequences learned 
-double l1 = model.Evaluate(new[] { 0.1, 5.2, 0.3, 6.7, 0.1, 6.0 }); // 0.87 
-double l2 = model.Evaluate(new[] { 0.2, 6.2, 0.3, 6.3, 0.1, 5.0 }); // 1.00 
+// See the log-probability of the sequences learned 
+double a1 = model.Evaluate(new[] { 0.1, 5.2, 0.3, 6.7, 0.1, 6.0 }); // -0.12799388666109757 
+double a2 = model.Evaluate(new[] { 0.2, 6.2, 0.3, 6.3, 0.1, 5.0 }); // 0.01171157434400194 
 
-// See the probability of an unrelated sequence 
-double l3 = model.Evaluate(new[] { 1.1, 2.2, 1.3, 3.2, 4.2, 1.0 }); // 0.00</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EGCAAAAA');</script><p>
-              In the following example, we will create a Discrete Hidden Markov Model
-              using a Generic Discrete Probability Distribution to reproduce the same
-              code example given in  documentation.</p><div id="ID0EECAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EECAAAAA_tabs"></div><div id="ID0EECAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EECAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EECAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EECAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EECAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EECAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EECAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EECAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Arbitrary-density Markov Models can operate using any</span> 
+// See the log-probability of an unrelated sequence 
+double a3 = model.Evaluate(new[] { 1.1, 2.2, 1.3, 3.2, 4.2, 1.0 }); // -298.7465244473417 
+
+// We can transform the log-probabilities to actual probabilities: 
+double likelihood = Math.Exp(logLikelihood);
+a1 = Math.Exp(a1); // 0.879
+a2 = Math.Exp(a2); // 1.011
+a3 = Math.Exp(a3); // 0.000 
+
+// We can also ask the model to decode one of the sequences. After 
+// this step the state variable will contain: { 0, 1, 0, 1, 0, 1 } 
+
+int[] states = model.Decode(new[] { 0.1, 5.2, 0.3, 6.7, 0.1, 6.0 });</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0ELCAAAAA');</script><p>
+               In the following example, we will create a Discrete Hidden Markov Model
+               using a Generic Discrete Probability Distribution to reproduce the same
+               code example given in  documentation.</p><div id="ID0EJCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EJCAAAAA_tabs"></div><div id="ID0EJCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EJCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EJCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EJCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EJCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EJCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EJCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EJCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Arbitrary-density Markov Models can operate using any</span> 
 <span class="highlight-comment">// probability distribution, including discrete ones. </span> 
 
 <span class="highlight-comment">// In the follwing example, we will try to create a</span> 
@@ -219,7 +253,7 @@ double l3 = model.Evaluate(new[] { 1.1, 2.2, 1.3, 3.2, 4.2, 1.0 }); // 0.00</pre
 <span class="highlight-comment">//  than the ones which do not start with zero. This shows some</span> 
 <span class="highlight-comment">//  of the temporal elasticity and error tolerance of the HMMs.</span> 
 <span class="highlight-keyword">double</span> l5 = hmm.Evaluate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> }); <span class="highlight-comment">// 0.034</span> 
-<span class="highlight-keyword">double</span> l6 = hmm.Evaluate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }); <span class="highlight-comment">// 0.034</span></pre></div><div id="ID0EECAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Arbitrary-density Markov Models can operate using any 
+<span class="highlight-keyword">double</span> l6 = hmm.Evaluate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }); <span class="highlight-comment">// 0.034</span></pre></div><div id="ID0EJCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Arbitrary-density Markov Models can operate using any 
 // probability distribution, including discrete ones.  
 
 // In the follwing example, we will try to create a 
@@ -269,11 +303,11 @@ double l4 = hmm.Evaluate(new double[] { 1, 0, 0, 0 }); // 0.000 
 //  than the ones which do not start with zero. This shows some 
 //  of the temporal elasticity and error tolerance of the HMMs. 
 double l5 = hmm.Evaluate(new double[] { 0, 1, 0, 1, 1, 1, 1, 1, 1 }); // 0.034 
-double l6 = hmm.Evaluate(new double[] { 0, 1, 1, 1, 1, 1, 1, 0, 1 }); // 0.034</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EECAAAAA');</script><p>
-              The next example shows how to create a multivariate model using
-              a multivariate normal distribution. In this example, sequences
-              contain vector-valued observations, such as in the case of (x,y)
-              pairs.</p><div id="ID0ECCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0ECCAAAAA_tabs"></div><div id="ID0ECCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0ECCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0ECCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0ECCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ECCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ECCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ECCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0ECCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create sequences of vector-valued observations. In the</span> 
+double l6 = hmm.Evaluate(new double[] { 0, 1, 1, 1, 1, 1, 1, 0, 1 }); // 0.034</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EJCAAAAA');</script><p>
+               The next example shows how to create a multivariate model using
+               a multivariate normal distribution. In this example, sequences
+               contain vector-valued observations, such as in the case of (x,y)
+               pairs.</p><div id="ID0EHCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EHCAAAAA_tabs"></div><div id="ID0EHCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EHCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EHCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EHCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EHCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EHCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EHCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EHCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create sequences of vector-valued observations. In the</span> 
 <span class="highlight-comment">// sequence below, a single observation is composed of two</span> 
 <span class="highlight-comment">// coordinate values, such as (x, y). There seems to be two</span> 
 <span class="highlight-comment">// states, one for (x,y) values less than (5,5) and another</span> 
@@ -335,7 +369,7 @@ double l6 = hmm.Evaluate(new double[] { 0, 1, 1, 1, 1, 1, 1, 0, 1 }); // 0.034<
 <span class="highlight-keyword">double</span> a3 = Math.Exp(model.Evaluate(<span class="highlight-keyword">new</span> [] { 
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">8</span>, <span class="highlight-number">7</span> }, 
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">9</span>, <span class="highlight-number">8</span>  },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span> }})); <span class="highlight-comment">// 2.10 x 10^(-89)</span></pre></div><div id="ID0ECCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create sequences of vector-valued observations. In the 
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span> }})); <span class="highlight-comment">// 2.10 x 10^(-89)</span></pre></div><div id="ID0EHCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create sequences of vector-valued observations. In the 
 // sequence below, a single observation is composed of two 
 // coordinate values, such as (x, y). There seems to be two 
 // states, one for (x,y) values less than (5,5) and another 
@@ -397,10 +431,10 @@ double a2 = Math.Exp(model.Evaluate(new [] {
 double a3 = Math.Exp(model.Evaluate(new [] { 
     new double[] { 8, 7 }, 
     new double[] { 9, 8  },
-    new double[] { 1, 0 }})); // 2.10 x 10^(-89)</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0ECCAAAAA');</script><p>
-              Finally, the last example shows how to fit a mixture-density
-              hidden Markov models.
-            </p><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Suppose we have a set of six sequences and we would like to</span> 
+    new double[] { 1, 0 }})); // 2.10 x 10^(-89)</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EHCAAAAA');</script><p>
+               Finally, the last example shows how to fit a mixture-density
+               hidden Markov models.
+             </p><div id="ID0EFCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EFCAAAAA_tabs"></div><div id="ID0EFCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EFCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EFCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EFCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EFCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EFCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EFCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EFCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Suppose we have a set of six sequences and we would like to</span> 
 <span class="highlight-comment">// fit a hidden Markov model with mixtures of Normal distributions</span> 
 <span class="highlight-comment">// as the emission densities. </span> 
 
@@ -447,7 +481,10 @@ double a3 = Math.Exp(model.Evaluate(new [] {
 
         InnerOptions = <span class="highlight-keyword">new</span> NormalOptions()
         {
-            Regularization = <span class="highlight-number">1</span>e<span class="highlight-number">-5</span> <span class="highlight-comment">// specify a regularization constant</span>
+            Regularization = <span class="highlight-number">1</span>e<span class="highlight-number">-5</span> <span class="highlight-comment">// specify a regularization constant</span> 
+
+            <span class="highlight-comment">// Please note that specifying a regularization constant avoids getting the exception</span> 
+            <span class="highlight-comment">// "Variance is zero. Try specifying a regularization constant in the fitting options."</span>
         }
     }
 };
@@ -460,7 +497,7 @@ double a3 = Math.Exp(model.Evaluate(new [] {
 <span class="highlight-keyword">double</span> a2 = Math.Exp(model.Evaluate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span>, <span class="highlight-number">5</span>, <span class="highlight-number">5</span> })); <span class="highlight-comment">// 9.94607618459872E+19</span> 
 
 <span class="highlight-comment">// We can see that the likelihood of an unrelated sequence is much smaller:</span> 
-<span class="highlight-keyword">double</span> a3 = Math.Exp(model.Evaluate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">8</span>, <span class="highlight-number">2</span>, <span class="highlight-number">6</span>, <span class="highlight-number">4</span>, <span class="highlight-number">1</span> })); <span class="highlight-comment">// 1.5063654166181737E-44</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Suppose we have a set of six sequences and we would like to 
+<span class="highlight-keyword">double</span> a3 = Math.Exp(model.Evaluate(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">8</span>, <span class="highlight-number">2</span>, <span class="highlight-number">6</span>, <span class="highlight-number">4</span>, <span class="highlight-number">1</span> })); <span class="highlight-comment">// 1.5063654166181737E-44</span></pre></div><div id="ID0EFCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Suppose we have a set of six sequences and we would like to 
 // fit a hidden Markov model with mixtures of Normal distributions 
 // as the emission densities.  
 
@@ -507,7 +544,10 @@ var teacher = new BaumWelchLearning&lt;Mixture&lt;NormalDistribution&gt;&gt;(mod
 
         InnerOptions = new NormalOptions()
         {
-            Regularization = 1e-5 // specify a regularization constant
+            Regularization = 1e-5 // specify a regularization constant 
+
+            // Please note that specifying a regularization constant avoids getting the exception 
+            // "Variance is zero. Try specifying a regularization constant in the fitting options."
         }
     }
 };
@@ -520,7 +560,44 @@ double a1 = Math.Exp(model.Evaluate(new double[] { 1, 1, 2, 2, 3 })); // 2.3413
 double a2 = Math.Exp(model.Evaluate(new double[] { 1, 1, 2, 5, 5 })); // 9.94607618459872E+19 
 
 // We can see that the likelihood of an unrelated sequence is much smaller: 
-double a3 = Math.Exp(model.Evaluate(new double[] { 8, 2, 6, 4, 1 })); // 1.5063654166181737E-44</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" target="">BaumWelchLearning<span id="ID0EDAGAAAAAA"> </span><script type="text/javascript">
+double a3 = Math.Exp(model.Evaluate(new double[] { 8, 2, 6, 4, 1 })); // 1.5063654166181737E-44</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EFCAAAAA');</script><p>
+               When using Normal distributions, it is often the case we might find problems
+               which are difficult to solve. Some problems may include constant variables or
+               other numerical difficulties preventing a the proper estimation of a Normal 
+               distribution from the data. </p><p> 
+               A sign of those difficulties arises when the learning algorithm throws the exception
+               <span class="code">"Variance is zero. Try specifying a regularization constant in the fitting options"</span> 
+               for univariate distributions (e.g. <a href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm" target="">NormalDistribution</a> or a <a href="T_Accord_NonPositiveDefiniteMatrixException.htm" target="">NonPositiveDefiniteMatrixException</a> informing that the <span class="code">"Covariance matrix
+               is not positive definite. Try specifying a regularization constant in the fitting options"</span>
+               for multivariate distributions like the <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateNormalDistribution.htm" target="">MultivariateNormalDistribution</a>.
+               In both cases, this is an indication that the variables being learned can not be suitably 
+               modeled by Normal distributions. To avoid numerical difficulties when estimating those
+               probabilities, a small regularization constant can be added to the variances or to the
+               covariance matrices until they become greater than zero or positive definite.</p><p>
+               To specify a regularization constant as given in the above message, we 
+               can indicate a fitting options object for the model distribution using:
+             </p><div id="ID0EBCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBCAAAAA_tabs"></div><div id="ID0EBCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> BaumWelchLearning&lt;NormalDistribution&gt;(model)
+{
+    Tolerance = <span class="highlight-number">0.0001</span>,
+    Iterations = <span class="highlight-number">0</span>,
+
+    FittingOptions = <span class="highlight-keyword">new</span> NormalOptions()
+    {
+        Regularization = <span class="highlight-number">1</span>e<span class="highlight-number">-5</span> <span class="highlight-comment">// specify a regularization constant</span>
+    }
+};</pre></div><div id="ID0EBCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>var teacher = new BaumWelchLearning&lt;NormalDistribution&gt;(model)
+{
+    Tolerance = 0.0001,
+    Iterations = 0,
+
+    FittingOptions = new NormalOptions()
+    {
+        Regularization = 1e-5 // specify a regularization constant
+    }
+};</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBCAAAAA');</script><p>
+               Typically, any small value would suffice as a regularization constant,
+               though smaller values may lead to longer fitting times. Too high values,
+               on the other hand, would lead to decreased accuracy.</p><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" target="">BaumWelchLearning<span id="ID0EDAGAAAAAA"> </span><script type="text/javascript">
 					addToLanSpecTextIdSet("ID0EDAGAAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
 				</script>TDistribution<span id="ID0EBAGAAAAAA"> </span><script type="text/javascript">
 					addToLanSpecTextIdSet("ID0EBAGAAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");

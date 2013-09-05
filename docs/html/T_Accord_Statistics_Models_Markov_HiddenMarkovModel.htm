@@ -74,7 +74,7 @@
 					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
 				</script>BaseHiddenMarkovModel</a><br />    <span class="selflink">Accord.Statistics.Models.Markov<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
 					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>HiddenMarkovModel</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
+				</script>HiddenMarkovModel</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.10.0.0 (2.10.0.4629)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HiddenMarkovModel</span> : <span class="identifier">BaseHiddenMarkovModel</span>, 
 	<span class="identifier">IHiddenMarkovModel</span>, <span class="identifier">ICloneable</span></pre></div><div id="ID0EAAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
 public class HiddenMarkovModel : BaseHiddenMarkovModel, 
@@ -83,10 +83,41 @@ public class HiddenMarkovModel : BaseHiddenMarkovModel,
               data. They are especially known for their application in temporal pattern recognition
               such as speech, handwriting, gesture recognition, part-of-speech tagging, musical
               score following, partial discharges and bioinformatics.</p><p>
+              This page refers to the discrete-density version of the model. For arbitrary
+              density (probability distribution) definitions, please see 
+              <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" target="">HiddenMarkovModel<span id="ID0ECBKDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECBKDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>TDistribution<span id="ID0EABKDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EABKDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script></a>.
+            </p><p>
               Dynamical systems of discrete nature assumed to be governed by a Markov chain emits
               a sequence of observable outputs. Under the Markov assumption, it is also assumed that
               the latest output depends only on the current state of the system. Such states are often
               not known from the observer when only the output values are observable.</p><p>
+              Assuming the Markov probability, the probability of any sequence of observations 
+              occurring when following a given sequence of states can be stated as</p><p align="center"><img src="./../images/hmm/hmm-joint-probability.png" width="383" height="133" /></p><p>
+             in which the probabilities <span class="code">p(y<sub>t</sub>|y<sub>t-1</sub>)</span> can be read as the 
+             probability of being currently in state <span class="code">y<sub>t</sub></span> given we just were in the
+             state<span class="code"> y<sub>t-1</sub></span> at the previous instant <span class="code">t-1</span>, and the probability
+             <span class="code"> p(x<sub>t</sub>|y<sub>t</sub>)</span> can be understood as the probability of observing 
+             <span class="code"><strong>x<sub>t</sub></strong></span> at instant t given we are currently in the state 
+             <span class="code">y<sub>t</sub></span>. To compute those probabilities, we simple use two matrices <strong><span class="code"><strong>A</strong></span></strong> and <strong><span class="code"><strong>B</strong></span></strong>. 
+             The matrix <strong><span class="code"><strong>A</strong></span></strong> is the matrix of state probabilities:
+             it gives the probabilities <span class="code">p(y<sub>t</sub>|y<sub>t-1</sub>)</span> of jumping from one state
+             to the other, and the matrix B is the matrix of observation probabilities, which gives the
+             distribution density <span class="code">p(<strong>x<sub>t</sub></strong>|y<sub>t</sub>)</span> associated 
+             a given state <span class="code">y<sub>t</sub></span>. In the discrete case, <span class="code"><strong><span class="code"><strong>
+             B</strong></span></strong></span> is really a matrix. In the continuous case, <span class="code"><strong>
+             B</strong></span> is a vector of probability distributions. The overall model definition
+             can then be stated by the tuple</p><p align="center"><img src="./../images/hmm/hmm-tuple.png" width="159" height="42" /></p><p>
+             in which <em><span class="code"><em>n</em></span></em> is an integer representing the total number 
+             of states in the system, <strong><span class="code"><strong>A</strong></span></strong> is a matrix 
+             of transition probabilities, <strong><span class="code"><strong>B</strong></span></strong> is either
+             a matrix of observation probabilities (in the discrete case) or a vector of probability
+             distributions (in the general case) and <span class="code"><strong>p</strong></span> is a vector of 
+             initial state probabilities determining the probability of starting in each of the 
+             possible states in the model.</p><p>
               Hidden Markov Models attempt to model such systems and allow, among other things,
               <ol><li>
                   To infer the most likely sequence of states that produced a given output sequence,</li><li>
@@ -96,15 +127,19 @@ public class HiddenMarkovModel : BaseHiddenMarkovModel,
               The “hidden” in Hidden Markov Models comes from the fact that the observer does not
               know in which state the system may be in, but has only a probabilistic insight on where
               it should be.</p><p>
+              To learn a Markov model, you can find a list of both <a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm" target="">
+              supervised</a> and <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" target="">unsupervised</a> learning 
+              algorithms in the <a href="N_Accord_Statistics_Models_Markov_Learning.htm" target="">Accord.Statistics.Models.Markov.Learning</a> namespace.</p><p>
               References:
               <ul><li>
-                  http://en.wikipedia.org/wiki/Hidden_Markov_model </li><li>
+                  Wikipedia contributors. "Linear regression." Wikipedia, the Free Encyclopedia.
+                  Available at: http://en.wikipedia.org/wiki/Hidden_Markov_model </li><li>
+                  Nikolai Shokhirev, Hidden Markov Models. Personal website. Available at:
                   http://www.shokhirev.com/nikolai/abc/alg/hmm/hmm.html </li><li>
-                  P396-397 “Spoken Language Processing” by X. Huang </li><li>
-                  Dawei Shen. Some mathematics for HMMs, 2008. Available in:
-                  http://courses.media.mit.edu/2010fall/mas622j/ProblemSets/ps4/tutorial.pdf </li><li>
-                  http://www.stanford.edu/class/cs262/presentations/lecture7.pdf </li><li>
-                  http://cs.oberlin.edu/~jdonalds/333/lecture11.html </li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>The example below reproduces the same example given in the Wikipedia
+                  X. Huang, A. Acero, H. Hon. "Spoken Language Processing." pp 396-397. 
+                  Prentice Hall, 2001.</li><li>
+                  Dawei Shen. Some mathematics for HMMs, 2008. Available at:
+                  http://courses.media.mit.edu/2010fall/mas622j/ProblemSets/ps4/tutorial.pdf </li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>The example below reproduces the same example given in the Wikipedia
               entry for the Viterbi algorithm (http://en.wikipedia.org/wiki/Viterbi_algorithm).
               In this example, the model's parameters are initialized manually. However, it is
               possible to learn those automatically using <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" target="">BaumWelchLearning</a>.</p><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create the transation matrix A</span> 
@@ -181,7 +216,9 @@ double logLikelihood = hmm.Evaluate(sequence);
 int[] path = hmm.Decode(sequence, out logLikelihood); 
 
 // At this point, the state path will be 1-0-0 and the 
-// log-likelihood will be -4.3095199438871337</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">HiddenMarkovModel Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" target="">Automatic parameter learning for HMMs</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" target="">Arbitrary-density Hidden Markov Model.</a></div></div>
+// log-likelihood will be -4.3095199438871337</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">HiddenMarkovModel Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" target="">Baum-Welch, one of the most famous 
+              learning algorithms for Hidden Markov Models.</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" target="">Arbitrary-density 
+              Hidden Markov Model.</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov_Learning.htm" target="">Accord.Statistics.Models.Markov.Learning</a></div></div>
         </div>
       </div>
     </div>

@@ -878,14 +878,14 @@
     <HelpKINode Title="Measures Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Learning_Measures.htm" />
     <HelpKINode Title="Measures Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Learning_Measures.htm" />
   </HelpKINode>
-  <HelpKINode Title="Accord.MachineLearning.DecisionTrees.Prunning namespace" Url="html/N_Accord_MachineLearning_DecisionTrees_Prunning.htm" />
-  <HelpKINode Title="Accord.MachineLearning.DecisionTrees.Prunning.ErrorBasedPrunning class">
-    <HelpKINode Title="ErrorBasedPrunning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
-    <HelpKINode Title="ErrorBasedPrunning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
+  <HelpKINode Title="Accord.MachineLearning.DecisionTrees.Pruning namespace" Url="html/N_Accord_MachineLearning_DecisionTrees_Pruning.htm" />
+  <HelpKINode Title="Accord.MachineLearning.DecisionTrees.Pruning.ErrorBasedPruning class">
+    <HelpKINode Title="ErrorBasedPruning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
+    <HelpKINode Title="ErrorBasedPruning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
   </HelpKINode>
-  <HelpKINode Title="Accord.MachineLearning.DecisionTrees.Prunning.ReducedErrorPrunning class">
-    <HelpKINode Title="ReducedErrorPrunning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
-    <HelpKINode Title="ReducedErrorPrunning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
+  <HelpKINode Title="Accord.MachineLearning.DecisionTrees.Pruning.ReducedErrorPruning class">
+    <HelpKINode Title="ReducedErrorPruning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
+    <HelpKINode Title="ReducedErrorPruning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
   </HelpKINode>
   <HelpKINode Title="Accord.MachineLearning.EarlyStopping(Of TModel) class">
     <HelpKINode Title="EarlyStopping(TModel) Class" Url="html/T_Accord_MachineLearning_EarlyStopping_1.htm" />
@@ -912,6 +912,10 @@
     <HelpKINode Title="GaussianMixtureModelOptions Members" Url="html/AllMembers_T_Accord_MachineLearning_GaussianMixtureModelOptions.htm" />
   </HelpKINode>
   <HelpKINode Title="Accord.MachineLearning.Geometry namespace" Url="html/N_Accord_MachineLearning_Geometry.htm" />
+  <HelpKINode Title="Accord.MachineLearning.Geometry.RansacCircle class">
+    <HelpKINode Title="RansacCircle Class" Url="html/T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+    <HelpKINode Title="RansacCircle Members" Url="html/AllMembers_T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+  </HelpKINode>
   <HelpKINode Title="Accord.MachineLearning.Geometry.RansacLine class">
     <HelpKINode Title="RansacLine Class" Url="html/T_Accord_MachineLearning_Geometry_RansacLine.htm" />
     <HelpKINode Title="RansacLine Members" Url="html/AllMembers_T_Accord_MachineLearning_Geometry_RansacLine.htm" />
@@ -1448,6 +1452,10 @@
     <HelpKINode Title="Gamma Members" Url="html/AllMembers_T_Accord_Math_Gamma.htm" />
   </HelpKINode>
   <HelpKINode Title="Accord.Math.Geometry namespace" Url="html/N_Accord_Math_Geometry.htm" />
+  <HelpKINode Title="Accord.Math.Geometry.Circle class">
+    <HelpKINode Title="Circle Class" Url="html/T_Accord_Math_Geometry_Circle.htm" />
+    <HelpKINode Title="Circle Members" Url="html/AllMembers_T_Accord_Math_Geometry_Circle.htm" />
+  </HelpKINode>
   <HelpKINode Title="Accord.Math.Geometry.ConvexHullDefects class">
     <HelpKINode Title="ConvexHullDefects Class" Url="html/T_Accord_Math_Geometry_ConvexHullDefects.htm" />
     <HelpKINode Title="ConvexHullDefects Members" Url="html/AllMembers_T_Accord_Math_Geometry_ConvexHullDefects.htm" />
@@ -1556,6 +1564,10 @@
     <HelpKINode Title="GoldfarbIdnaniQuadraticSolver Class" Url="html/T_Accord_Math_Optimization_GoldfarbIdnaniQuadraticSolver.htm" />
     <HelpKINode Title="GoldfarbIdnaniQuadraticSolver Members" Url="html/AllMembers_T_Accord_Math_Optimization_GoldfarbIdnaniQuadraticSolver.htm" />
   </HelpKINode>
+  <HelpKINode Title="Accord.Math.Optimization.IGradientOptimizationMethod interface">
+    <HelpKINode Title="IGradientOptimizationMethod Interface" Url="html/T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+    <HelpKINode Title="IGradientOptimizationMethod Members" Url="html/AllMembers_T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+  </HelpKINode>
   <HelpKINode Title="Accord.Math.Optimization.IObjectiveFunction interface">
     <HelpKINode Title="IObjectiveFunction Interface" Url="html/T_Accord_Math_Optimization_IObjectiveFunction.htm" />
     <HelpKINode Title="IObjectiveFunction Members" Url="html/AllMembers_T_Accord_Math_Optimization_IObjectiveFunction.htm" />
@@ -1567,6 +1579,10 @@
   <HelpKINode Title="Accord.Math.Optimization.LinearConstraint class">
     <HelpKINode Title="LinearConstraint Class" Url="html/T_Accord_Math_Optimization_LinearConstraint.htm" />
     <HelpKINode Title="LinearConstraint Members" Url="html/AllMembers_T_Accord_Math_Optimization_LinearConstraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Accord.Math.Optimization.LinearConstraintCollection class">
+    <HelpKINode Title="LinearConstraintCollection Class" Url="html/T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+    <HelpKINode Title="LinearConstraintCollection Members" Url="html/AllMembers_T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
   </HelpKINode>
   <HelpKINode Title="Accord.Math.Optimization.LineSearchFailedException class">
     <HelpKINode Title="LineSearchFailedException Class" Url="html/T_Accord_Math_Optimization_LineSearchFailedException.htm" />
@@ -1591,6 +1607,10 @@
   <HelpKINode Title="Accord.Math.Optimization.QuadraticObjectiveFunction class">
     <HelpKINode Title="QuadraticObjectiveFunction Class" Url="html/T_Accord_Math_Optimization_QuadraticObjectiveFunction.htm" />
     <HelpKINode Title="QuadraticObjectiveFunction Members" Url="html/AllMembers_T_Accord_Math_Optimization_QuadraticObjectiveFunction.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Accord.Math.Optimization.ResilientBackpropagation class">
+    <HelpKINode Title="ResilientBackpropagation Class" Url="html/T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="ResilientBackpropagation Members" Url="html/AllMembers_T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
   </HelpKINode>
   <HelpKINode Title="Accord.Math.Plane class">
     <HelpKINode Title="Plane Class" Url="html/T_Accord_Math_Plane.htm" />
@@ -3688,6 +3708,7 @@
   <HelpKINode Title="ApplySortCore method" Url="html/M_Accord_Controls_SortableBindingList_1_ApplySortCore.htm" />
   <HelpKINode Title="ApplyWithIndex method" Url="html/Overload_Accord_Math_Matrix_ApplyWithIndex.htm" />
   <HelpKINode Title="Area property">
+    <HelpKINode Title="Circle.Area Property " Url="html/P_Accord_Math_Geometry_Circle_Area.htm" />
     <HelpKINode Title="HaarRectangle.Area Property " Url="html/P_Accord_Vision_Detection_HaarRectangle_Area.htm" />
     <HelpKINode Title="RawMoments.Area Property " Url="html/P_Accord_Imaging_Moments_RawMoments_Area.htm" />
     <HelpKINode Title="ReceiverOperatingCharacteristic.Area Property " Url="html/P_Accord_Statistics_Analysis_ReceiverOperatingCharacteristic_Area.htm" />
@@ -4001,11 +4022,11 @@
     <HelpKINode Title="AugmentedLagrangianSolver Members" Url="html/AllMembers_T_Accord_Math_Optimization_AugmentedLagrangianSolver.htm" />
     <HelpKINode Title="about AugmentedLagrangianSolver class" Url="html/T_Accord_Math_Optimization_AugmentedLagrangianSolver.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Math_Optimization_AugmentedLagrangianSolver.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Accord_Math_Optimization_AugmentedLagrangianSolver__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Accord_Math_Optimization_AugmentedLagrangianSolver__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Math_Optimization_AugmentedLagrangianSolver.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Accord_Math_Optimization_AugmentedLagrangianSolver.htm" />
   </HelpKINode>
-  <HelpKINode Title="AugmentedLagrangianSolver.AugmentedLagrangianSolver constructor" Url="html/M_Accord_Math_Optimization_AugmentedLagrangianSolver__ctor.htm" />
+  <HelpKINode Title="AugmentedLagrangianSolver.AugmentedLagrangianSolver constructor" Url="html/Overload_Accord_Math_Optimization_AugmentedLagrangianSolver__ctor.htm" />
   <HelpKINode Title="AugmentedLagrangianSolver.Evaluations property" Url="html/P_Accord_Math_Optimization_AugmentedLagrangianSolver_Evaluations.htm" />
   <HelpKINode Title="AugmentedLagrangianSolver.Function property" Url="html/P_Accord_Math_Optimization_AugmentedLagrangianSolver_Function.htm" />
   <HelpKINode Title="AugmentedLagrangianSolver.Gradient property" Url="html/P_Accord_Math_Optimization_AugmentedLagrangianSolver_Gradient.htm" />
@@ -4074,8 +4095,8 @@
   <HelpKINode Title="Backward enumeration member" Url="html/T_Accord_Controls_Vision_HeadMovement.htm" />
   <HelpKINode Title="Backward method">
     <HelpKINode Title="CDF97.Backward Method " Url="html/Overload_Accord_Math_Wavelets_CDF97_Backward.htm" />
-    <HelpKINode Title="ForwardBackwardAlgorithm.Backward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Backward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.Backward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.Backward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Backward.htm" />
     <HelpKINode Title="Haar.Backward Method " Url="html/Overload_Accord_Math_Wavelets_Haar_Backward.htm" />
     <HelpKINode Title="IWavelet.Backward Method " Url="html/Overload_Accord_Math_Wavelets_IWavelet_Backward.htm" />
   </HelpKINode>
@@ -4503,8 +4524,8 @@
   <HelpKINode Title="BernoulliFunction.Generate2 method" Url="html/M_Accord_Neuro_ActivationFunctions_BernoulliFunction_Generate2.htm" />
   <HelpKINode Title="BernoulliFunction.Random property" Url="html/P_Accord_Neuro_ActivationFunctions_BernoulliFunction_Random.htm" />
   <HelpKINode Title="Bessel class">
-    <HelpKINode Title="Bessel Class" Url="html/T_Accord_Statistics_Kernels_Bessel.htm" />
     <HelpKINode Title="Bessel Class" Url="html/T_Accord_Math_Bessel.htm" />
+    <HelpKINode Title="Bessel Class" Url="html/T_Accord_Statistics_Kernels_Bessel.htm" />
     <HelpKINode Title="Bessel Members" Url="html/AllMembers_T_Accord_Statistics_Kernels_Bessel.htm" />
     <HelpKINode Title="Bessel Members" Url="html/AllMembers_T_Accord_Math_Bessel.htm" />
     <HelpKINode Title="about Bessel class" Url="html/T_Accord_Statistics_Kernels_Bessel.htm" />
@@ -5273,9 +5294,25 @@
   <HelpKINode Title="CholeskyDecompositionF.PositiveDefinite property" Url="html/P_Accord_Math_Decompositions_CholeskyDecompositionF_PositiveDefinite.htm" />
   <HelpKINode Title="CholeskyDecompositionF.Solve method" Url="html/Overload_Accord_Math_Decompositions_CholeskyDecompositionF_Solve.htm" />
   <HelpKINode Title="CholeskyDecompositionF.Symmetric property" Url="html/P_Accord_Math_Decompositions_CholeskyDecompositionF_Symmetric.htm" />
+  <HelpKINode Title="Circle class">
+    <HelpKINode Title="Circle Class" Url="html/T_Accord_Math_Geometry_Circle.htm" />
+    <HelpKINode Title="Circle Members" Url="html/AllMembers_T_Accord_Math_Geometry_Circle.htm" />
+    <HelpKINode Title="about Circle class" Url="html/T_Accord_Math_Geometry_Circle.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Math_Geometry_Circle.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Accord_Math_Geometry_Circle__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Math_Geometry_Circle.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_Math_Geometry_Circle.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Circle.Area property" Url="html/P_Accord_Math_Geometry_Circle_Area.htm" />
+  <HelpKINode Title="Circle.Circle constructor" Url="html/Overload_Accord_Math_Geometry_Circle__ctor.htm" />
+  <HelpKINode Title="Circle.Circumference property" Url="html/P_Accord_Math_Geometry_Circle_Circumference.htm" />
+  <HelpKINode Title="Circle.Diameter property" Url="html/P_Accord_Math_Geometry_Circle_Diameter.htm" />
+  <HelpKINode Title="Circle.DistanceToPoint method" Url="html/M_Accord_Math_Geometry_Circle_DistanceToPoint.htm" />
+  <HelpKINode Title="Circle.Origin property" Url="html/P_Accord_Math_Geometry_Circle_Origin.htm" />
+  <HelpKINode Title="Circle.Radius property" Url="html/P_Accord_Math_Geometry_Circle_Radius.htm" />
   <HelpKINode Title="Circular class">
-    <HelpKINode Title="Circular Class" Url="html/T_Accord_Statistics_Kernels_Circular.htm" />
     <HelpKINode Title="Circular Class" Url="html/T_Accord_Statistics_Circular.htm" />
+    <HelpKINode Title="Circular Class" Url="html/T_Accord_Statistics_Kernels_Circular.htm" />
     <HelpKINode Title="Circular Members" Url="html/AllMembers_T_Accord_Statistics_Kernels_Circular.htm" />
     <HelpKINode Title="Circular Members" Url="html/AllMembers_T_Accord_Statistics_Circular.htm" />
     <HelpKINode Title="about Circular class" Url="html/T_Accord_Statistics_Kernels_Circular.htm" />
@@ -5296,6 +5333,7 @@
   <HelpKINode Title="Circular.Variance method" Url="html/M_Accord_Statistics_Circular_Variance.htm" />
   <HelpKINode Title="Circular.WeightedConcentration method" Url="html/Overload_Accord_Statistics_Circular_WeightedConcentration.htm" />
   <HelpKINode Title="Circular.WeightedMean method" Url="html/M_Accord_Statistics_Circular_WeightedMean.htm" />
+  <HelpKINode Title="Circumference property" Url="html/P_Accord_Math_Geometry_Circle_Circumference.htm" />
   <HelpKINode Title="Class property" Url="html/P_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs_Class.htm" />
   <HelpKINode Title="Class1 property" Url="html/P_Accord_MachineLearning_VectorMachines_Learning_SubproblemEventArgs_Class1.htm" />
   <HelpKINode Title="Class2 property" Url="html/P_Accord_MachineLearning_VectorMachines_Learning_SubproblemEventArgs_Class2.htm" />
@@ -6500,6 +6538,7 @@
     <HelpKINode Title="HiddenMarkovModel.CreateGeneric Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_CreateGeneric.htm" />
   </HelpKINode>
   <HelpKINode Title="CreateInstance method" Url="html/Overload_Accord_Controls_RangeTypeConverter_CreateInstance.htm" />
+  <HelpKINode Title="CreateMatrix method" Url="html/M_Accord_Math_Optimization_LinearConstraintCollection_CreateMatrix.htm" />
   <HelpKINode Title="CreateMixedNetwork method" Url="html/M_Accord_Neuro_Networks_DeepBeliefNetwork_CreateMixedNetwork.htm" />
   <HelpKINode Title="CreatePartitions method">
     <HelpKINode Title="Bootstrap.CreatePartitions Method " Url="html/M_Accord_MachineLearning_Bootstrap_CreatePartitions.htm" />
@@ -6746,14 +6785,14 @@
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Kernels_Custom.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Accord_Statistics_Models_Markov_Topology_Custom__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_Accord_Statistics_Kernels_Custom__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Kernels_Custom.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Models_Markov_Topology_Custom.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Kernels_Custom.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Accord_Statistics_Models_Markov_Topology_Custom.htm" />
   </HelpKINode>
   <HelpKINode Title="Custom.Create method" Url="html/M_Accord_Statistics_Models_Markov_Topology_Custom_Create.htm" />
   <HelpKINode Title="Custom.Custom constructor">
-    <HelpKINode Title="Custom Constructor " Url="html/M_Accord_Statistics_Kernels_Custom__ctor.htm" />
     <HelpKINode Title="Custom Constructor " Url="html/Overload_Accord_Statistics_Models_Markov_Topology_Custom__ctor.htm" />
+    <HelpKINode Title="Custom Constructor " Url="html/M_Accord_Statistics_Kernels_Custom__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Custom.Function method" Url="html/M_Accord_Statistics_Kernels_Custom_Function.htm" />
   <HelpKINode Title="Custom.Initial property" Url="html/P_Accord_Statistics_Models_Markov_Topology_Custom_Initial.htm" />
@@ -6971,6 +7010,7 @@
   <HelpKINode Title="DecreaseFactor property">
     <HelpKINode Title="HiddenResilientGradientLearning(T).DecreaseFactor Property " Url="html/P_Accord_Statistics_Models_Fields_Learning_HiddenResilientGradientLearning_1_DecreaseFactor.htm" />
     <HelpKINode Title="ParallelResilientBackpropagationLearning.DecreaseFactor Property " Url="html/P_Accord_Neuro_Learning_ParallelResilientBackpropagationLearning_DecreaseFactor.htm" />
+    <HelpKINode Title="ResilientBackpropagation.DecreaseFactor Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_DecreaseFactor.htm" />
   </HelpKINode>
   <HelpKINode Title="DeepBeliefNetwork class">
     <HelpKINode Title="DeepBeliefNetwork Class" Url="html/T_Accord_Neuro_Networks_DeepBeliefNetwork.htm" />
@@ -7444,6 +7484,7 @@
     <HelpKINode Title="SingularValueDecomposition.DiagonalMatrix Property " Url="html/P_Accord_Math_Decompositions_SingularValueDecomposition_DiagonalMatrix.htm" />
     <HelpKINode Title="SingularValueDecompositionF.DiagonalMatrix Property " Url="html/P_Accord_Math_Decompositions_SingularValueDecompositionF_DiagonalMatrix.htm" />
   </HelpKINode>
+  <HelpKINode Title="Diameter property" Url="html/P_Accord_Math_Geometry_Circle_Diameter.htm" />
   <HelpKINode Title="DifferenceEntropy property" Url="html/P_Accord_Imaging_HaralickDescriptor_DifferenceEntropy.htm" />
   <HelpKINode Title="Differences property" Url="html/P_Accord_Imaging_HaralickDescriptor_Differences.htm" />
   <HelpKINode Title="DifferenceVariance property" Url="html/P_Accord_Imaging_HaralickDescriptor_DifferenceVariance.htm" />
@@ -7684,7 +7725,10 @@
   <HelpKINode Title="DistanceMax property" Url="html/P_Accord_Imaging_CorrelationMatching_DistanceMax.htm" />
   <HelpKINode Title="Distances method" Url="html/M_Accord_Statistics_Kernels_Gaussian_Distances.htm" />
   <HelpKINode Title="Distances property" Url="html/P_Accord_MachineLearning_RANSAC_1_Distances.htm" />
-  <HelpKINode Title="DistanceToPoint method" Url="html/M_Accord_Math_Plane_DistanceToPoint.htm" />
+  <HelpKINode Title="DistanceToPoint method">
+    <HelpKINode Title="Circle.DistanceToPoint Method " Url="html/M_Accord_Math_Geometry_Circle_DistanceToPoint.htm" />
+    <HelpKINode Title="Plane.DistanceToPoint Method " Url="html/M_Accord_Math_Plane_DistanceToPoint.htm" />
+  </HelpKINode>
   <HelpKINode Title="Distinct method" Url="html/Overload_Accord_Math_Matrix_Distinct.htm" />
   <HelpKINode Title="Distinct property">
     <HelpKINode Title="DescriptiveAnalysis.Distinct Property " Url="html/P_Accord_Statistics_Analysis_DescriptiveAnalysis_Distinct.htm" />
@@ -8131,16 +8175,16 @@
   <HelpKINode Title="EnvelopeFilter class">
     <HelpKINode Title="EnvelopeFilter Class" Url="html/T_Accord_Audio_Filters_EnvelopeFilter.htm" />
     <HelpKINode Title="EnvelopeFilter Class" Url="html/T_Accord_Audio_ComplexFilters_EnvelopeFilter.htm" />
-    <HelpKINode Title="EnvelopeFilter Members" Url="html/AllMembers_T_Accord_Audio_Filters_EnvelopeFilter.htm" />
     <HelpKINode Title="EnvelopeFilter Members" Url="html/AllMembers_T_Accord_Audio_ComplexFilters_EnvelopeFilter.htm" />
-    <HelpKINode Title="about EnvelopeFilter class" Url="html/T_Accord_Audio_Filters_EnvelopeFilter.htm" />
+    <HelpKINode Title="EnvelopeFilter Members" Url="html/AllMembers_T_Accord_Audio_Filters_EnvelopeFilter.htm" />
     <HelpKINode Title="about EnvelopeFilter class" Url="html/T_Accord_Audio_ComplexFilters_EnvelopeFilter.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Filters_EnvelopeFilter.htm" />
+    <HelpKINode Title="about EnvelopeFilter class" Url="html/T_Accord_Audio_Filters_EnvelopeFilter.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_ComplexFilters_EnvelopeFilter.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Accord_Audio_ComplexFilters_EnvelopeFilter__ctor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Filters_EnvelopeFilter.htm" />
     <HelpKINode Title="constructor" Url="html/M_Accord_Audio_Filters_EnvelopeFilter__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_ComplexFilters_EnvelopeFilter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Accord_Audio_ComplexFilters_EnvelopeFilter__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_Filters_EnvelopeFilter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_ComplexFilters_EnvelopeFilter.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Accord_Audio_Filters_EnvelopeFilter.htm" />
   </HelpKINode>
   <HelpKINode Title="EnvelopeFilter.Alpha property" Url="html/P_Accord_Audio_Filters_EnvelopeFilter_Alpha.htm" />
@@ -8150,8 +8194,8 @@
   </HelpKINode>
   <HelpKINode Title="EnvelopeFilter.FormatTranslations property" Url="html/P_Accord_Audio_Filters_EnvelopeFilter_FormatTranslations.htm" />
   <HelpKINode Title="EnvelopeFilter.ProcessFilter method">
-    <HelpKINode Title="EnvelopeFilter.ProcessFilter Method " Url="html/M_Accord_Audio_ComplexFilters_EnvelopeFilter_ProcessFilter.htm" />
     <HelpKINode Title="EnvelopeFilter.ProcessFilter Method " Url="html/M_Accord_Audio_Filters_EnvelopeFilter_ProcessFilter.htm" />
+    <HelpKINode Title="EnvelopeFilter.ProcessFilter Method " Url="html/M_Accord_Audio_ComplexFilters_EnvelopeFilter_ProcessFilter.htm" />
   </HelpKINode>
   <HelpKINode Title="EpanechnikovKernel class">
     <HelpKINode Title="EpanechnikovKernel Class" Url="html/T_Accord_Statistics_Distributions_DensityKernels_EpanechnikovKernel.htm" />
@@ -8222,18 +8266,18 @@
     <HelpKINode Title="GridSearchResult(TModel).Error Property " Url="html/P_Accord_MachineLearning_GridSearchResult_1_Error.htm" />
     <HelpKINode Title="TwoWayAnovaVariationSources.Error Property " Url="html/P_Accord_Statistics_Testing_TwoWayAnovaVariationSources_Error.htm" />
   </HelpKINode>
-  <HelpKINode Title="ErrorBasedPrunning class">
-    <HelpKINode Title="ErrorBasedPrunning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
-    <HelpKINode Title="ErrorBasedPrunning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
-    <HelpKINode Title="about ErrorBasedPrunning class" Url="html/T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning.htm" />
+  <HelpKINode Title="ErrorBasedPruning class">
+    <HelpKINode Title="ErrorBasedPruning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
+    <HelpKINode Title="ErrorBasedPruning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
+    <HelpKINode Title="about ErrorBasedPruning class" Url="html/T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" />
   </HelpKINode>
-  <HelpKINode Title="ErrorBasedPrunning.ErrorBasedPrunning constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning__ctor.htm" />
-  <HelpKINode Title="ErrorBasedPrunning.Run method" Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning_Run.htm" />
-  <HelpKINode Title="ErrorBasedPrunning.Threshold property" Url="html/P_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning_Threshold.htm" />
+  <HelpKINode Title="ErrorBasedPruning.ErrorBasedPruning constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning__ctor.htm" />
+  <HelpKINode Title="ErrorBasedPruning.Run method" Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning_Run.htm" />
+  <HelpKINode Title="ErrorBasedPruning.Threshold property" Url="html/P_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning_Threshold.htm" />
   <HelpKINode Title="Errors property" Url="html/P_Accord_MachineLearning_GridSearchResult_1_Errors.htm" />
   <HelpKINode Title="Estimate method">
     <HelpKINode Title="ExponentialDistribution.Estimate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_ExponentialDistribution_Estimate.htm" />
@@ -8250,6 +8294,7 @@
     <HelpKINode Title="NaiveBayes.Estimate Method " Url="html/M_Accord_MachineLearning_Bayes_NaiveBayes_Estimate.htm" />
     <HelpKINode Title="NakagamiDistribution.Estimate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_NakagamiDistribution_Estimate.htm" />
     <HelpKINode Title="NormalDistribution.Estimate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_NormalDistribution_Estimate.htm" />
+    <HelpKINode Title="RansacCircle.Estimate Method " Url="html/Overload_Accord_MachineLearning_Geometry_RansacCircle_Estimate.htm" />
     <HelpKINode Title="RansacFundamentalEstimator.Estimate Method " Url="html/Overload_Accord_Imaging_RansacFundamentalEstimator_Estimate.htm" />
     <HelpKINode Title="RansacHomographyEstimator.Estimate Method " Url="html/Overload_Accord_Imaging_RansacHomographyEstimator_Estimate.htm" />
     <HelpKINode Title="RansacLine.Estimate Method " Url="html/Overload_Accord_MachineLearning_Geometry_RansacLine_Estimate.htm" />
@@ -8321,8 +8366,8 @@
   <HelpKINode Title="ExcelReader.HasMixedData property" Url="html/P_Accord_Statistics_Formats_ExcelReader_HasMixedData.htm" />
   <HelpKINode Title="ExcelReader.Provider property" Url="html/P_Accord_Statistics_Formats_ExcelReader_Provider.htm" />
   <HelpKINode Title="ExcelReader.Version property" Url="html/P_Accord_Statistics_Formats_ExcelReader_Version.htm" />
-  <HelpKINode Title="Exp method" Url="html/Overload_Accord_Math_Matrix_Exp.htm" />
   <HelpKINode Title="exp method" Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_exp.htm" />
+  <HelpKINode Title="Exp method" Url="html/Overload_Accord_Math_Matrix_Exp.htm" />
   <HelpKINode Title="Expand method">
     <HelpKINode Title="Matrix.Expand Method " Url="html/Overload_Accord_Math_Matrix_Expand.htm" />
     <HelpKINode Title="Tools.Expand Method " Url="html/Overload_Accord_Statistics_Tools_Expand.htm" />
@@ -8330,26 +8375,26 @@
   <HelpKINode Title="Expected property" Url="html/P_Accord_Statistics_Analysis_ReceiverOperatingCharacteristic_Expected.htm" />
   <HelpKINode Title="Expm1 method" Url="html/M_Accord_Math_Special_Expm1.htm" />
   <HelpKINode Title="Exponential class">
-    <HelpKINode Title="Exponential Class" Url="html/T_Accord_Imaging_Filters_Exponential.htm" />
     <HelpKINode Title="Exponential Class" Url="html/T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
-    <HelpKINode Title="Exponential Members" Url="html/AllMembers_T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
+    <HelpKINode Title="Exponential Class" Url="html/T_Accord_Imaging_Filters_Exponential.htm" />
     <HelpKINode Title="Exponential Members" Url="html/AllMembers_T_Accord_Imaging_Filters_Exponential.htm" />
-    <HelpKINode Title="about Exponential class" Url="html/T_Accord_Imaging_Filters_Exponential.htm" />
+    <HelpKINode Title="Exponential Members" Url="html/AllMembers_T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
     <HelpKINode Title="about Exponential class" Url="html/T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Imaging_Filters_Exponential.htm" />
+    <HelpKINode Title="about Exponential class" Url="html/T_Accord_Imaging_Filters_Exponential.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Imaging_Filters_Exponential.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Accord_Statistics_Analysis_ContrastFunctions_Exponential__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_Accord_Imaging_Filters_Exponential__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Imaging_Filters_Exponential.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Accord_Imaging_Filters_Exponential.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Accord_Statistics_Analysis_ContrastFunctions_Exponential.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_Imaging_Filters_Exponential.htm" />
   </HelpKINode>
   <HelpKINode Title="Exponential.Alpha property" Url="html/P_Accord_Statistics_Analysis_ContrastFunctions_Exponential_Alpha.htm" />
   <HelpKINode Title="Exponential.Evaluate method" Url="html/M_Accord_Statistics_Analysis_ContrastFunctions_Exponential_Evaluate.htm" />
   <HelpKINode Title="Exponential.Exponential constructor">
-    <HelpKINode Title="Exponential Constructor " Url="html/M_Accord_Imaging_Filters_Exponential__ctor.htm" />
     <HelpKINode Title="Exponential Constructor " Url="html/Overload_Accord_Statistics_Analysis_ContrastFunctions_Exponential__ctor.htm" />
+    <HelpKINode Title="Exponential Constructor " Url="html/M_Accord_Imaging_Filters_Exponential__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="Exponential.FormatTranslations property" Url="html/P_Accord_Imaging_Filters_Exponential_FormatTranslations.htm" />
   <HelpKINode Title="Exponential.ProcessFilter method" Url="html/M_Accord_Imaging_Filters_Exponential_ProcessFilter.htm" />
@@ -8391,17 +8436,17 @@
   </HelpKINode>
   <HelpKINode Title="Extensions class">
     <HelpKINode Title="Extensions Class" Url="html/T_Accord_Audio_Windows_Extensions.htm" />
-    <HelpKINode Title="Extensions Class" Url="html/T_Accord_Controls_Extensions.htm" />
     <HelpKINode Title="Extensions Class" Url="html/T_Accord_Audio_Extensions.htm" />
-    <HelpKINode Title="Extensions Members" Url="html/AllMembers_T_Accord_Controls_Extensions.htm" />
+    <HelpKINode Title="Extensions Class" Url="html/T_Accord_Controls_Extensions.htm" />
     <HelpKINode Title="Extensions Members" Url="html/AllMembers_T_Accord_Audio_Extensions.htm" />
     <HelpKINode Title="Extensions Members" Url="html/AllMembers_T_Accord_Audio_Windows_Extensions.htm" />
+    <HelpKINode Title="Extensions Members" Url="html/AllMembers_T_Accord_Controls_Extensions.htm" />
     <HelpKINode Title="about Extensions class" Url="html/T_Accord_Audio_Extensions.htm" />
     <HelpKINode Title="about Extensions class" Url="html/T_Accord_Controls_Extensions.htm" />
     <HelpKINode Title="about Extensions class" Url="html/T_Accord_Audio_Windows_Extensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Windows_Extensions.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Extensions.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Controls_Extensions.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Windows_Extensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Controls_Extensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_Windows_Extensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_Extensions.htm" />
@@ -8892,10 +8937,10 @@
     <HelpKINode Title="LognormalDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_LognormalDistribution_Fit.htm" />
     <HelpKINode Title="Mixture(T).Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_Mixture_1_Fit.htm" />
     <HelpKINode Title="MultinomialDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultinomialDistribution_Fit.htm" />
-    <HelpKINode Title="MultivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit.htm" />
     <HelpKINode Title="MultivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
-    <HelpKINode Title="MultivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
+    <HelpKINode Title="MultivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit.htm" />
     <HelpKINode Title="MultivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit.htm" />
+    <HelpKINode Title="MultivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
     <HelpKINode Title="MultivariateEmpiricalDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateEmpiricalDistribution_Fit.htm" />
     <HelpKINode Title="MultivariateMixture(T).Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateMixture_1_Fit.htm" />
     <HelpKINode Title="MultivariateNormalDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateNormalDistribution_Fit.htm" />
@@ -8908,8 +8953,8 @@
     <HelpKINode Title="TDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_TDistribution_Fit.htm" />
     <HelpKINode Title="UniformContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution_Fit.htm" />
     <HelpKINode Title="UniformDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution_Fit.htm" />
-    <HelpKINode Title="UnivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
     <HelpKINode Title="UnivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution_Fit.htm" />
+    <HelpKINode Title="UnivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
     <HelpKINode Title="UnivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
     <HelpKINode Title="UnivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_Fit.htm" />
     <HelpKINode Title="VonMisesDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_VonMisesDistribution_Fit.htm" />
@@ -9023,8 +9068,8 @@
   <HelpKINode Title="Forward enumeration member" Url="html/T_Accord_Controls_Vision_HeadMovement.htm" />
   <HelpKINode Title="Forward method">
     <HelpKINode Title="CDF97.Forward Method " Url="html/Overload_Accord_Math_Wavelets_CDF97_Forward.htm" />
-    <HelpKINode Title="ForwardBackwardAlgorithm.Forward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Forward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.Forward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.Forward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Forward.htm" />
     <HelpKINode Title="Haar.Forward Method " Url="html/Overload_Accord_Math_Wavelets_Haar_Forward.htm" />
     <HelpKINode Title="IWavelet.Forward Method " Url="html/Overload_Accord_Math_Wavelets_IWavelet_Forward.htm" />
   </HelpKINode>
@@ -9035,28 +9080,28 @@
   <HelpKINode Title="Forward.Random property" Url="html/P_Accord_Statistics_Models_Markov_Topology_Forward_Random.htm" />
   <HelpKINode Title="Forward.States property" Url="html/P_Accord_Statistics_Models_Markov_Topology_Forward_States.htm" />
   <HelpKINode Title="ForwardBackwardAlgorithm class">
-    <HelpKINode Title="ForwardBackwardAlgorithm Class" Url="html/T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm Class" Url="html/T_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm.htm" />
-    <HelpKINode Title="ForwardBackwardAlgorithm Members" Url="html/AllMembers_T_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm Class" Url="html/T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm Members" Url="html/AllMembers_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
-    <HelpKINode Title="about ForwardBackwardAlgorithm class" Url="html/T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm Members" Url="html/AllMembers_T_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm.htm" />
     <HelpKINode Title="about ForwardBackwardAlgorithm class" Url="html/T_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
+    <HelpKINode Title="about ForwardBackwardAlgorithm class" Url="html/T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" />
   </HelpKINode>
   <HelpKINode Title="ForwardBackwardAlgorithm.Backward method">
-    <HelpKINode Title="ForwardBackwardAlgorithm.Backward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Backward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.Backward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.Backward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Backward.htm" />
   </HelpKINode>
   <HelpKINode Title="ForwardBackwardAlgorithm.Forward method">
-    <HelpKINode Title="ForwardBackwardAlgorithm.Forward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.Forward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_Forward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.Forward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward.htm" />
   </HelpKINode>
   <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward method">
-    <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_LogBackward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_LogBackward.htm" />
   </HelpKINode>
   <HelpKINode Title="ForwardBackwardAlgorithm.LogForward method">
     <HelpKINode Title="ForwardBackwardAlgorithm.LogForward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward.htm" />
@@ -9289,10 +9334,12 @@
     <HelpKINode Title="FiniteDifferences.Function Property " Url="html/P_Accord_Math_Differentiation_FiniteDifferences_Function.htm" />
     <HelpKINode Title="HiddenConditionalRandomField(T).Function Property " Url="html/P_Accord_Statistics_Models_Fields_HiddenConditionalRandomField_1_Function.htm" />
     <HelpKINode Title="HybridMarkovModel.Function Property " Url="html/P_Accord_Statistics_Models_Markov_Hybrid_HybridMarkovModel_Function.htm" />
+    <HelpKINode Title="IGradientOptimizationMethod.Function Property " Url="html/P_Accord_Math_Optimization_IGradientOptimizationMethod_Function.htm" />
     <HelpKINode Title="IObjectiveFunction.Function Property " Url="html/P_Accord_Math_Optimization_IObjectiveFunction_Function.htm" />
     <HelpKINode Title="NonlinearConstraint.Function Property " Url="html/P_Accord_Math_Optimization_NonlinearConstraint_Function.htm" />
     <HelpKINode Title="NonlinearObjectiveFunction.Function Property " Url="html/P_Accord_Math_Optimization_NonlinearObjectiveFunction_Function.htm" />
     <HelpKINode Title="QuadraticObjectiveFunction.Function Property " Url="html/P_Accord_Math_Optimization_QuadraticObjectiveFunction_Function.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Function Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Function.htm" />
   </HelpKINode>
   <HelpKINode Title="Function1D method" Url="html/M_Accord_Math_Gabor_Function1D.htm" />
   <HelpKINode Title="Function2D method" Url="html/M_Accord_Math_Gabor_Function2D.htm" />
@@ -9578,8 +9625,8 @@
   <HelpKINode Title="GeneralDiscreteDistribution.Frequencies property" Url="html/P_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Frequencies.htm" />
   <HelpKINode Title="GeneralDiscreteDistribution.GeneralDiscreteDistribution constructor" Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution__ctor.htm" />
   <HelpKINode Title="GeneralDiscreteDistribution.Generate method">
-    <HelpKINode Title="GeneralDiscreteDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Generate.htm" />
     <HelpKINode Title="GeneralDiscreteDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Accord_Statistics_Distributions_ISampleableDistribution{System_Double}_Generate.htm" />
+    <HelpKINode Title="GeneralDiscreteDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Generate.htm" />
   </HelpKINode>
   <HelpKINode Title="GeneralDiscreteDistribution.Length property" Url="html/P_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Length.htm" />
   <HelpKINode Title="GeneralDiscreteDistribution.LogProbabilityMassFunction method" Url="html/M_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_LogProbabilityMassFunction.htm" />
@@ -9658,8 +9705,8 @@
     <HelpKINode Title="FDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_FDistribution_Generate.htm" />
     <HelpKINode Title="GammaDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GammaDistribution_Generate.htm" />
     <HelpKINode Title="GaussianFunction.Generate Method " Url="html/M_Accord_Neuro_ActivationFunctions_GaussianFunction_Generate.htm" />
-    <HelpKINode Title="GeneralDiscreteDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Generate.htm" />
     <HelpKINode Title="GeneralDiscreteDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Accord_Statistics_Distributions_ISampleableDistribution{System_Double}_Generate.htm" />
+    <HelpKINode Title="GeneralDiscreteDistribution.Generate Method " Url="html/Overload_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Generate.htm" />
     <HelpKINode Title="HiddenMarkovModel(TDistribution).Generate Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Generate.htm" />
     <HelpKINode Title="HiddenMarkovModel.Generate Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Generate.htm" />
     <HelpKINode Title="ImpulseGenerator.Generate Method " Url="html/M_Accord_Audio_Generators_ImpulseGenerator_Generate.htm" />
@@ -10005,6 +10052,7 @@
     <HelpKINode Title="Blend.Gradient Property " Url="html/P_Accord_Imaging_Filters_Blend_Gradient.htm" />
     <HelpKINode Title="BroydenFletcherGoldfarbShanno.Gradient Property " Url="html/P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Gradient.htm" />
     <HelpKINode Title="ConjugateGradient.Gradient Property " Url="html/P_Accord_Math_Optimization_ConjugateGradient_Gradient.htm" />
+    <HelpKINode Title="IGradientOptimizationMethod.Gradient Property " Url="html/P_Accord_Math_Optimization_IGradientOptimizationMethod_Gradient.htm" />
     <HelpKINode Title="IterativeReweightedLeastSquares.Gradient Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_IterativeReweightedLeastSquares_Gradient.htm" />
     <HelpKINode Title="LogisticGradientDescent.Gradient Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_LogisticGradientDescent_Gradient.htm" />
     <HelpKINode Title="LowerBoundNewtonRaphson.Gradient Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Gradient.htm" />
@@ -10012,6 +10060,7 @@
     <HelpKINode Title="NonlinearObjectiveFunction.Gradient Property " Url="html/P_Accord_Math_Optimization_NonlinearObjectiveFunction_Gradient.htm" />
     <HelpKINode Title="OptimizationProgressEventArgs.Gradient Property " Url="html/P_Accord_Math_Optimization_OptimizationProgressEventArgs_Gradient.htm" />
     <HelpKINode Title="ProportionalHazardsNewtonRaphson.Gradient Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Gradient.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Gradient Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Gradient.htm" />
   </HelpKINode>
   <HelpKINode Title="GradientNorm property" Url="html/P_Accord_Math_Optimization_OptimizationProgressEventArgs_GradientNorm.htm" />
   <HelpKINode Title="GramSchmidtOrthogonalization class">
@@ -10973,7 +11022,9 @@
   <HelpKINode Title="HiddenMarkovModel(Of TDistribution).Evaluate method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Evaluate.htm" />
   <HelpKINode Title="HiddenMarkovModel(Of TDistribution).Generate method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Generate.htm" />
   <HelpKINode Title="HiddenMarkovModel(Of TDistribution).HiddenMarkovModel constructor" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor.htm" />
+  <HelpKINode Title="HiddenMarkovModel(Of TDistribution).Load method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Load.htm" />
   <HelpKINode Title="HiddenMarkovModel(Of TDistribution).Predict method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict.htm" />
+  <HelpKINode Title="HiddenMarkovModel(Of TDistribution).Save method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Save.htm" />
   <HelpKINode Title="HiddenMarkovModel.Clone method" Url="html/M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Clone.htm" />
   <HelpKINode Title="HiddenMarkovModel.CreateGeneric method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_CreateGeneric.htm" />
   <HelpKINode Title="HiddenMarkovModel.Decode method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Decode.htm" />
@@ -10983,7 +11034,9 @@
   <HelpKINode Title="HiddenMarkovModel.HiddenMarkovModel constructor" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel__ctor.htm" />
   <HelpKINode Title="HiddenMarkovModel.IHiddenMarkovModel.Decode explicitly implemented method" Url="html/M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Accord_Statistics_Models_Markov_IHiddenMarkovModel_Decode.htm" />
   <HelpKINode Title="HiddenMarkovModel.IHiddenMarkovModel.Evaluate explicitly implemented method" Url="html/M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Accord_Statistics_Models_Markov_IHiddenMarkovModel_Evaluate.htm" />
+  <HelpKINode Title="HiddenMarkovModel.Load method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Load.htm" />
   <HelpKINode Title="HiddenMarkovModel.Predict method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict.htm" />
+  <HelpKINode Title="HiddenMarkovModel.Save method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Save.htm" />
   <HelpKINode Title="HiddenMarkovModel.Symbols property" Url="html/P_Accord_Statistics_Models_Markov_HiddenMarkovModel_Symbols.htm" />
   <HelpKINode Title="HiddenMarkovModel.ToContinuousModel method" Url="html/M_Accord_Statistics_Models_Markov_HiddenMarkovModel_ToContinuousModel.htm" />
   <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt; class">
@@ -11002,7 +11055,9 @@
   <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt;.Evaluate method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Evaluate.htm" />
   <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt;.Generate method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Generate.htm" />
   <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt;.HiddenMarkovModel constructor" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor.htm" />
+  <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt;.Load method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Load.htm" />
   <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt;.Predict method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict.htm" />
+  <HelpKINode Title="HiddenMarkovModel&lt;TDistribution&gt;.Save method" Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Save.htm" />
   <HelpKINode Title="HiddenMarkovOptions class">
     <HelpKINode Title="HiddenMarkovOptions Class" Url="html/T_Accord_Statistics_Distributions_Fitting_HiddenMarkovOptions.htm" />
     <HelpKINode Title="HiddenMarkovOptions Members" Url="html/AllMembers_T_Accord_Statistics_Distributions_Fitting_HiddenMarkovOptions.htm" />
@@ -11950,14 +12005,14 @@
   <HelpKINode Title="IFilter interface">
     <HelpKINode Title="IFilter Interface" Url="html/T_Accord_Statistics_Filters_IFilter.htm" />
     <HelpKINode Title="IFilter Interface" Url="html/T_Accord_Audio_Filters_IFilter.htm" />
-    <HelpKINode Title="IFilter Members" Url="html/AllMembers_T_Accord_Statistics_Filters_IFilter.htm" />
     <HelpKINode Title="IFilter Members" Url="html/AllMembers_T_Accord_Audio_Filters_IFilter.htm" />
+    <HelpKINode Title="IFilter Members" Url="html/AllMembers_T_Accord_Statistics_Filters_IFilter.htm" />
     <HelpKINode Title="about IFilter interface" Url="html/T_Accord_Statistics_Filters_IFilter.htm" />
     <HelpKINode Title="about IFilter interface" Url="html/T_Accord_Audio_Filters_IFilter.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Filters_IFilter.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Filters_IFilter.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Filters_IFilter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Filters_IFilter.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_Filters_IFilter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Filters_IFilter.htm" />
   </HelpKINode>
   <HelpKINode Title="IFilter.Apply method">
     <HelpKINode Title="IFilter.Apply Method " Url="html/M_Accord_Statistics_Filters_IFilter_Apply.htm" />
@@ -11983,6 +12038,17 @@
     <HelpKINode Title="IFittingOptions Interface" Url="html/T_Accord_Statistics_Distributions_Fitting_IFittingOptions.htm" />
     <HelpKINode Title="about IFittingOptions interface" Url="html/T_Accord_Statistics_Distributions_Fitting_IFittingOptions.htm" />
   </HelpKINode>
+  <HelpKINode Title="IGradientOptimizationMethod interface">
+    <HelpKINode Title="IGradientOptimizationMethod Interface" Url="html/T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+    <HelpKINode Title="IGradientOptimizationMethod Members" Url="html/AllMembers_T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+    <HelpKINode Title="about IGradientOptimizationMethod interface" Url="html/T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_Math_Optimization_IGradientOptimizationMethod.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGradientOptimizationMethod.Function property" Url="html/P_Accord_Math_Optimization_IGradientOptimizationMethod_Function.htm" />
+  <HelpKINode Title="IGradientOptimizationMethod.Gradient property" Url="html/P_Accord_Math_Optimization_IGradientOptimizationMethod_Gradient.htm" />
+  <HelpKINode Title="IGradientOptimizationMethod.Parameters property" Url="html/P_Accord_Math_Optimization_IGradientOptimizationMethod_Parameters.htm" />
   <HelpKINode Title="IHiddenConditionalRandomFieldLearning(Of T) interface">
     <HelpKINode Title="IHiddenConditionalRandomFieldLearning(T) Interface" Url="html/T_Accord_Statistics_Models_Fields_Learning_IHiddenConditionalRandomFieldLearning_1.htm" />
     <HelpKINode Title="IHiddenConditionalRandomFieldLearning(T) Members" Url="html/AllMembers_T_Accord_Statistics_Models_Fields_Learning_IHiddenConditionalRandomFieldLearning_1.htm" />
@@ -12315,6 +12381,7 @@
   <HelpKINode Title="IncreaseFactor property">
     <HelpKINode Title="HiddenResilientGradientLearning(T).IncreaseFactor Property " Url="html/P_Accord_Statistics_Models_Fields_Learning_HiddenResilientGradientLearning_1_IncreaseFactor.htm" />
     <HelpKINode Title="ParallelResilientBackpropagationLearning.IncreaseFactor Property " Url="html/P_Accord_Neuro_Learning_ParallelResilientBackpropagationLearning_IncreaseFactor.htm" />
+    <HelpKINode Title="ResilientBackpropagation.IncreaseFactor Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_IncreaseFactor.htm" />
   </HelpKINode>
   <HelpKINode Title="Independent class">
     <HelpKINode Title="Independent Class" Url="html/T_Accord_Statistics_Distributions_Multivariate_Independent.htm" />
@@ -12503,6 +12570,7 @@
   <HelpKINode Title="InitialFeature&lt;T&gt;.Marginal method" Url="html/M_Accord_Statistics_Models_Fields_Features_InitialFeature_1_Marginal.htm" />
   <HelpKINode Title="Initialize method" Url="html/Overload_Accord_MachineLearning_GaussianMixtureModel_Initialize.htm" />
   <HelpKINode Title="Inliers property">
+    <HelpKINode Title="RansacCircle.Inliers Property " Url="html/P_Accord_MachineLearning_Geometry_RansacCircle_Inliers.htm" />
     <HelpKINode Title="RansacFundamentalEstimator.Inliers Property " Url="html/P_Accord_Imaging_RansacFundamentalEstimator_Inliers.htm" />
     <HelpKINode Title="RansacHomographyEstimator.Inliers Property " Url="html/P_Accord_Imaging_RansacHomographyEstimator_Inliers.htm" />
     <HelpKINode Title="RansacLine.Inliers Property " Url="html/P_Accord_MachineLearning_Geometry_RansacLine_Inliers.htm" />
@@ -13182,6 +13250,7 @@
     <HelpKINode Title="ProportionalHazardsNewtonRaphson.Iterations Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Iterations.htm" />
     <HelpKINode Title="RelativeConvergence.Iterations Property " Url="html/P_Accord_Math_RelativeConvergence_Iterations.htm" />
     <HelpKINode Title="RelativeParameterConvergence.Iterations Property " Url="html/P_Accord_Math_RelativeParameterConvergence_Iterations.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Iterations Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Iterations.htm" />
     <HelpKINode Title="ViterbiLearning(TDistribution).Iterations Property " Url="html/P_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1_Iterations.htm" />
     <HelpKINode Title="ViterbiLearning.Iterations Property " Url="html/P_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_Iterations.htm" />
   </HelpKINode>
@@ -14298,6 +14367,17 @@
   <HelpKINode Title="LinearConstraint.ShouldBe property" Url="html/P_Accord_Math_Optimization_LinearConstraint_ShouldBe.htm" />
   <HelpKINode Title="LinearConstraint.Value property" Url="html/P_Accord_Math_Optimization_LinearConstraint_Value.htm" />
   <HelpKINode Title="LinearConstraint.VariablesAtIndices property" Url="html/P_Accord_Math_Optimization_LinearConstraint_VariablesAtIndices.htm" />
+  <HelpKINode Title="LinearConstraintCollection class">
+    <HelpKINode Title="LinearConstraintCollection Class" Url="html/T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+    <HelpKINode Title="LinearConstraintCollection Members" Url="html/AllMembers_T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+    <HelpKINode Title="about LinearConstraintCollection class" Url="html/T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Accord_Math_Optimization_LinearConstraintCollection__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_Math_Optimization_LinearConstraintCollection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LinearConstraintCollection.CreateMatrix method" Url="html/M_Accord_Math_Optimization_LinearConstraintCollection_CreateMatrix.htm" />
+  <HelpKINode Title="LinearConstraintCollection.LinearConstraintCollection constructor" Url="html/Overload_Accord_Math_Optimization_LinearConstraintCollection__ctor.htm" />
   <HelpKINode Title="LinearDiscriminantAnalysis class">
     <HelpKINode Title="LinearDiscriminantAnalysis Class" Url="html/T_Accord_Statistics_Analysis_LinearDiscriminantAnalysis.htm" />
     <HelpKINode Title="LinearDiscriminantAnalysis Members" Url="html/AllMembers_T_Accord_Statistics_Analysis_LinearDiscriminantAnalysis.htm" />
@@ -14451,6 +14531,8 @@
     <HelpKINode Title="HiddenConditionalRandomField(T).Load Method " Url="html/Overload_Accord_Statistics_Models_Fields_HiddenConditionalRandomField_1_Load.htm" />
     <HelpKINode Title="HiddenMarkovClassifier(TDistribution).Load Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_1_Load.htm" />
     <HelpKINode Title="HiddenMarkovClassifier.Load Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_Load.htm" />
+    <HelpKINode Title="HiddenMarkovModel(TDistribution).Load Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Load.htm" />
+    <HelpKINode Title="HiddenMarkovModel.Load Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Load.htm" />
     <HelpKINode Title="KernelSupportVectorMachine.Load Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_KernelSupportVectorMachine_Load.htm" />
     <HelpKINode Title="MulticlassSupportVectorMachine.Load Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine_Load.htm" />
     <HelpKINode Title="MultilabelSupportVectorMachine.Load Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_MultilabelSupportVectorMachine_Load.htm" />
@@ -14491,12 +14573,12 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Kernels_Log.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Accord_Statistics_Kernels_Log.htm" />
   </HelpKINode>
-  <HelpKINode Title="log method" Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_log.htm" />
   <HelpKINode Title="Log method">
     <HelpKINode Title="Beta.Log Method " Url="html/M_Accord_Math_Beta_Log.htm" />
     <HelpKINode Title="Gamma.Log Method " Url="html/Overload_Accord_Math_Gamma_Log.htm" />
     <HelpKINode Title="Matrix.Log Method " Url="html/Overload_Accord_Math_Matrix_Log.htm" />
   </HelpKINode>
+  <HelpKINode Title="log method" Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_log.htm" />
   <HelpKINode Title="Log.Clone method" Url="html/M_Accord_Statistics_Kernels_Log_Clone.htm" />
   <HelpKINode Title="Log.Degree property" Url="html/P_Accord_Statistics_Kernels_Log_Degree.htm" />
   <HelpKINode Title="Log.Function method" Url="html/M_Accord_Statistics_Kernels_Log_Function.htm" />
@@ -14519,8 +14601,8 @@
   <HelpKINode Title="Logarithm.Logarithm constructor" Url="html/M_Accord_Imaging_Filters_Logarithm__ctor.htm" />
   <HelpKINode Title="Logarithm.ProcessFilter method" Url="html/M_Accord_Imaging_Filters_Logarithm_ProcessFilter.htm" />
   <HelpKINode Title="LogBackward method">
-    <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_LogBackward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.LogBackward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward.htm" />
   </HelpKINode>
   <HelpKINode Title="LogBinomial method" Url="html/Overload_Accord_Math_Special_LogBinomial.htm" />
   <HelpKINode Title="Logcosh class">
@@ -14552,8 +14634,8 @@
   <HelpKINode Title="LogDiff method" Url="html/M_Accord_Math_Special_LogDiff.htm" />
   <HelpKINode Title="LogFactorial method" Url="html/Overload_Accord_Math_Special_LogFactorial.htm" />
   <HelpKINode Title="LogForward method">
-    <HelpKINode Title="ForwardBackwardAlgorithm.LogForward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_LogForward.htm" />
     <HelpKINode Title="ForwardBackwardAlgorithm.LogForward Method " Url="html/Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward.htm" />
+    <HelpKINode Title="ForwardBackwardAlgorithm.LogForward Method " Url="html/Overload_Accord_Statistics_Models_Fields_ForwardBackwardAlgorithm_LogForward.htm" />
   </HelpKINode>
   <HelpKINode Title="LogForward property">
     <HelpKINode Title="IRunningMarkovStatistics.LogForward Property " Url="html/P_Accord_Statistics_Running_IRunningMarkovStatistics_LogForward.htm" />
@@ -14947,8 +15029,8 @@
     <HelpKINode Title="MultilabelSupportVectorMachine.Machines Property " Url="html/P_Accord_MachineLearning_VectorMachines_MultilabelSupportVectorMachine_Machines.htm" />
   </HelpKINode>
   <HelpKINode Title="MachinesCount property" Url="html/P_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine_MachinesCount.htm" />
-  <HelpKINode Title="Magic method" Url="html/M_Accord_Math_Matrix_Magic.htm" />
   <HelpKINode Title="magic method" Url="html/M_Accord_Math_Environments_OctaveEnvironment_magic.htm" />
+  <HelpKINode Title="Magic method" Url="html/M_Accord_Math_Matrix_Magic.htm" />
   <HelpKINode Title="Magnitude enumeration member" Url="html/T_Accord_Math_GaborKernelKind.htm" />
   <HelpKINode Title="Magnitude method" Url="html/Overload_Accord_Math_ComplexExtensions_ComplexMatrix_Magnitude.htm" />
   <HelpKINode Title="Magnitude property" Url="html/P_Accord_Imaging_HistogramsOfOrientedGradients_Magnitude.htm" />
@@ -15365,8 +15447,8 @@
   <HelpKINode Title="MatthewsCorrelationCoefficient property" Url="html/P_Accord_Statistics_Analysis_ConfusionMatrix_MatthewsCorrelationCoefficient.htm" />
   <HelpKINode Title="Max method">
     <HelpKINode Title="Matrix.Max Method " Url="html/Overload_Accord_Math_Matrix_Max.htm" />
-    <HelpKINode Title="Tools.Max Method " Url="html/Overload_Accord_Audio_Tools_Max.htm" />
     <HelpKINode Title="Tools.Max Method " Url="html/Overload_Accord_Imaging_Tools_Max.htm" />
+    <HelpKINode Title="Tools.Max Method " Url="html/Overload_Accord_Audio_Tools_Max.htm" />
   </HelpKINode>
   <HelpKINode Title="Max property">
     <HelpKINode Title="ArrayToImage.Max Property " Url="html/P_Accord_Imaging_Converters_ArrayToImage_Max.htm" />
@@ -15472,8 +15554,8 @@
   </HelpKINode>
   <HelpKINode Title="Mean method">
     <HelpKINode Title="Circular.Mean Method " Url="html/M_Accord_Statistics_Circular_Mean.htm" />
-    <HelpKINode Title="Tools.Mean Method " Url="html/Overload_Accord_Imaging_Tools_Mean.htm" />
     <HelpKINode Title="Tools.Mean Method " Url="html/Overload_Accord_Statistics_Tools_Mean.htm" />
+    <HelpKINode Title="Tools.Mean Method " Url="html/Overload_Accord_Imaging_Tools_Mean.htm" />
     <HelpKINode Title="UnsafeTools.Mean Method " Url="html/M_Accord_Imaging_UnsafeTools_Mean.htm" />
   </HelpKINode>
   <HelpKINode Title="Mean property">
@@ -15690,6 +15772,7 @@
     <HelpKINode Title="ConjugateGradient.Minimize Method " Url="html/Overload_Accord_Math_Optimization_ConjugateGradient_Minimize.htm" />
     <HelpKINode Title="GoldfarbIdnaniQuadraticSolver.Minimize Method " Url="html/Overload_Accord_Math_Optimization_GoldfarbIdnaniQuadraticSolver_Minimize.htm" />
     <HelpKINode Title="IOptimizationMethod.Minimize Method " Url="html/M_Accord_Math_Optimization_IOptimizationMethod_Minimize.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Minimize Method " Url="html/M_Accord_Math_Optimization_ResilientBackpropagation_Minimize.htm" />
   </HelpKINode>
   <HelpKINode Title="Minimum property">
     <HelpKINode Title="GeneralDiscreteDistribution.Minimum Property " Url="html/P_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution_Minimum.htm" />
@@ -16149,8 +16232,8 @@
   <HelpKINode Title="MultivariateContinuousDistribution.Dimension property" Url="html/P_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Dimension.htm" />
   <HelpKINode Title="MultivariateContinuousDistribution.DistributionFunction method" Url="html/M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_DistributionFunction.htm" />
   <HelpKINode Title="MultivariateContinuousDistribution.Fit method">
-    <HelpKINode Title="MultivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
     <HelpKINode Title="MultivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit.htm" />
+    <HelpKINode Title="MultivariateContinuousDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
   </HelpKINode>
   <HelpKINode Title="MultivariateContinuousDistribution.IDistribution.LogProbabilityFunction explicitly implemented method" Url="html/M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_LogProbabilityFunction.htm" />
   <HelpKINode Title="MultivariateContinuousDistribution.IDistribution.ProbabilityFunction explicitly implemented method" Url="html/M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Accord_Statistics_Distributions_IDistribution_ProbabilityFunction.htm" />
@@ -16176,8 +16259,8 @@
   <HelpKINode Title="MultivariateDiscreteDistribution.Dimension property" Url="html/P_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Dimension.htm" />
   <HelpKINode Title="MultivariateDiscreteDistribution.DistributionFunction method" Url="html/M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_DistributionFunction.htm" />
   <HelpKINode Title="MultivariateDiscreteDistribution.Fit method">
-    <HelpKINode Title="MultivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
     <HelpKINode Title="MultivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit.htm" />
+    <HelpKINode Title="MultivariateDiscreteDistribution.Fit Method " Url="html/Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_Fit.htm" />
   </HelpKINode>
   <HelpKINode Title="MultivariateDiscreteDistribution.IDistribution.ComplementaryDistributionFunction explicitly implemented method" Url="html/M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_ComplementaryDistributionFunction.htm" />
   <HelpKINode Title="MultivariateDiscreteDistribution.IDistribution.DistributionFunction explicitly implemented method" Url="html/M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Accord_Statistics_Distributions_IDistribution_DistributionFunction.htm" />
@@ -17066,6 +17149,7 @@
   <HelpKINode Title="OnProgressChanged method">
     <HelpKINode Title="HiddenGradientDescentLearning(T).OnProgressChanged Method " Url="html/M_Accord_Statistics_Models_Fields_Learning_HiddenGradientDescentLearning_1_OnProgressChanged.htm" />
     <HelpKINode Title="HiddenResilientGradientLearning(T).OnProgressChanged Method " Url="html/M_Accord_Statistics_Models_Fields_Learning_HiddenResilientGradientLearning_1_OnProgressChanged.htm" />
+    <HelpKINode Title="ResilientBackpropagation.OnProgressChanged Method " Url="html/M_Accord_Math_Optimization_ResilientBackpropagation_OnProgressChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="OnPropertyChanged method">
     <HelpKINode Title="FaceController.OnPropertyChanged Method " Url="html/M_Accord_Controls_Vision_FaceController_OnPropertyChanged.htm" />
@@ -17130,7 +17214,10 @@
     <HelpKINode Title="FastRetinaKeypoint.Orientation Property " Url="html/P_Accord_Imaging_FastRetinaKeypoint_Orientation.htm" />
     <HelpKINode Title="SpeededUpRobustFeaturePoint.Orientation Property " Url="html/P_Accord_Imaging_SpeededUpRobustFeaturePoint_Orientation.htm" />
   </HelpKINode>
-  <HelpKINode Title="Origin property" Url="html/P_Accord_Math_Point3_Origin.htm" />
+  <HelpKINode Title="Origin property">
+    <HelpKINode Title="Circle.Origin Property " Url="html/P_Accord_Math_Geometry_Circle_Origin.htm" />
+    <HelpKINode Title="Point3.Origin Property " Url="html/P_Accord_Math_Point3_Origin.htm" />
+  </HelpKINode>
   <HelpKINode Title="OrthogonalFactor property">
     <HelpKINode Title="GramSchmidtOrthogonalization.OrthogonalFactor Property " Url="html/P_Accord_Math_Decompositions_GramSchmidtOrthogonalization_OrthogonalFactor.htm" />
     <HelpKINode Title="QrDecomposition.OrthogonalFactor Property " Url="html/P_Accord_Math_Decompositions_QrDecomposition_OrthogonalFactor.htm" />
@@ -17288,10 +17375,12 @@
     <HelpKINode Title="DenavitHartenbergJoint.Parameters Property " Url="html/P_Accord_Math_Kinematics_DenavitHartenbergJoint_Parameters.htm" />
     <HelpKINode Title="ForwardBackwardGradient(T).Parameters Property " Url="html/P_Accord_Statistics_Models_Fields_Learning_ForwardBackwardGradient_1_Parameters.htm" />
     <HelpKINode Title="GridSearchResult(TModel).Parameters Property " Url="html/P_Accord_MachineLearning_GridSearchResult_1_Parameters.htm" />
+    <HelpKINode Title="IGradientOptimizationMethod.Parameters Property " Url="html/P_Accord_Math_Optimization_IGradientOptimizationMethod_Parameters.htm" />
     <HelpKINode Title="IterativeReweightedLeastSquares.Parameters Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_IterativeReweightedLeastSquares_Parameters.htm" />
     <HelpKINode Title="LogisticGradientDescent.Parameters Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_LogisticGradientDescent_Parameters.htm" />
     <HelpKINode Title="LowerBoundNewtonRaphson.Parameters Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Parameters.htm" />
     <HelpKINode Title="ProportionalHazardsNewtonRaphson.Parameters Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Parameters.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Parameters Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Parameters.htm" />
   </HelpKINode>
   <HelpKINode Title="Parent property">
     <HelpKINode Title="DecisionNode.Parent Property " Url="html/P_Accord_MachineLearning_DecisionTrees_DecisionNode_Parent.htm" />
@@ -17435,7 +17524,7 @@
   <HelpKINode Title="Patterns property" Url="html/P_Accord_Imaging_LocalBinaryPattern_Patterns.htm" />
   <HelpKINode Title="Pearson property" Url="html/P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Pearson.htm" />
   <HelpKINode Title="Peek method">
-    <HelpKINode Title="RunningMarkovClassifier(TDistribution).Peek Method " Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Peek.htm" />
+    <HelpKINode Title="RunningMarkovClassifier(TDistribution).Peek Method " Url="html/Overload_Accord_Statistics_Running_RunningMarkovClassifier_1_Peek.htm" />
     <HelpKINode Title="RunningMarkovClassifier.Peek Method " Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_Peek.htm" />
     <HelpKINode Title="RunningMarkovStatistics(TDistribution).Peek Method " Url="html/M_Accord_Statistics_Running_RunningMarkovStatistics_1_Peek.htm" />
     <HelpKINode Title="RunningMarkovStatistics.Peek Method " Url="html/M_Accord_Statistics_Running_RunningMarkovStatistics_Peek.htm" />
@@ -17968,8 +18057,8 @@
     <HelpKINode Title="DifferentialRectificationFilter.ProcessFilter Method " Url="html/M_Accord_Audio_ComplexFilters_DifferentialRectificationFilter_ProcessFilter.htm" />
     <HelpKINode Title="Discretization.ProcessFilter Method " Url="html/M_Accord_Statistics_Filters_Discretization_ProcessFilter.htm" />
     <HelpKINode Title="Elimination.ProcessFilter Method " Url="html/M_Accord_Statistics_Filters_Elimination_ProcessFilter.htm" />
-    <HelpKINode Title="EnvelopeFilter.ProcessFilter Method " Url="html/M_Accord_Audio_ComplexFilters_EnvelopeFilter_ProcessFilter.htm" />
     <HelpKINode Title="EnvelopeFilter.ProcessFilter Method " Url="html/M_Accord_Audio_Filters_EnvelopeFilter_ProcessFilter.htm" />
+    <HelpKINode Title="EnvelopeFilter.ProcessFilter Method " Url="html/M_Accord_Audio_ComplexFilters_EnvelopeFilter_ProcessFilter.htm" />
     <HelpKINode Title="Exponential.ProcessFilter Method " Url="html/M_Accord_Imaging_Filters_Exponential_ProcessFilter.htm" />
     <HelpKINode Title="FeaturesMarker.ProcessFilter Method " Url="html/M_Accord_Imaging_Filters_FeaturesMarker_ProcessFilter.htm" />
     <HelpKINode Title="GaborFilter.ProcessFilter Method " Url="html/M_Accord_Imaging_Filters_GaborFilter_ProcessFilter.htm" />
@@ -18036,6 +18125,7 @@
     <HelpKINode Title="HiddenConjugateGradientLearning(T).ProgressChanged Event" Url="html/E_Accord_Statistics_Models_Fields_Learning_HiddenConjugateGradientLearning_1_ProgressChanged.htm" />
     <HelpKINode Title="HiddenGradientDescentLearning(T).ProgressChanged Event" Url="html/E_Accord_Statistics_Models_Fields_Learning_HiddenGradientDescentLearning_1_ProgressChanged.htm" />
     <HelpKINode Title="HiddenResilientGradientLearning(T).ProgressChanged Event" Url="html/E_Accord_Statistics_Models_Fields_Learning_HiddenResilientGradientLearning_1_ProgressChanged.htm" />
+    <HelpKINode Title="ResilientBackpropagation.ProgressChanged Event" Url="html/E_Accord_Math_Optimization_ResilientBackpropagation_ProgressChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="Projection class">
     <HelpKINode Title="Projection Class" Url="html/T_Accord_Statistics_Filters_Projection.htm" />
@@ -18185,7 +18275,7 @@
     <HelpKINode Title="IRunning(TValue).Push Method " Url="html/M_Accord_Statistics_Running_IRunning_1_Push.htm" />
     <HelpKINode Title="MovingCircularStatistics.Push Method " Url="html/M_Accord_Statistics_Moving_MovingCircularStatistics_Push.htm" />
     <HelpKINode Title="MovingNormalStatistics.Push Method " Url="html/M_Accord_Statistics_Moving_MovingNormalStatistics_Push.htm" />
-    <HelpKINode Title="RunningMarkovClassifier(TDistribution).Push Method " Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Push.htm" />
+    <HelpKINode Title="RunningMarkovClassifier(TDistribution).Push Method " Url="html/Overload_Accord_Statistics_Running_RunningMarkovClassifier_1_Push.htm" />
     <HelpKINode Title="RunningMarkovClassifier.Push Method " Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_Push.htm" />
     <HelpKINode Title="RunningMarkovStatistics(TDistribution).Push Method " Url="html/M_Accord_Statistics_Running_RunningMarkovStatistics_1_Push.htm" />
     <HelpKINode Title="RunningMarkovStatistics.Push Method " Url="html/M_Accord_Statistics_Running_RunningMarkovStatistics_Push.htm" />
@@ -18331,6 +18421,7 @@
   <HelpKINode Title="QuasiNewtonLearning&lt;T&gt;.QuasiNewtonLearning constructor" Url="html/M_Accord_Statistics_Models_Fields_Learning_QuasiNewtonLearning_1__ctor.htm" />
   <HelpKINode Title="QuasiNewtonLearning&lt;T&gt;.Run method" Url="html/M_Accord_Statistics_Models_Fields_Learning_QuasiNewtonLearning_1_Run.htm" />
   <HelpKINode Title="Radius property">
+    <HelpKINode Title="Circle.Radius Property " Url="html/P_Accord_Math_Geometry_Circle_Radius.htm" />
     <HelpKINode Title="DenavitHartenbergParameters.Radius Property " Url="html/P_Accord_Math_Kinematics_DenavitHartenbergParameters_Radius.htm" />
     <HelpKINode Title="Variance.Radius Property " Url="html/P_Accord_Imaging_Filters_Variance_Radius.htm" />
   </HelpKINode>
@@ -18426,8 +18517,8 @@
   <HelpKINode Title="RangeX property" Url="html/P_Accord_Controls_Wavechart_RangeX.htm" />
   <HelpKINode Title="RangeY property" Url="html/P_Accord_Controls_Wavechart_RangeY.htm" />
   <HelpKINode Title="Rank method">
-    <HelpKINode Title="Matrix.Rank Method " Url="html/Overload_Accord_Math_Matrix_Rank.htm" />
     <HelpKINode Title="Tools.Rank Method " Url="html/M_Accord_Statistics_Tools_Rank.htm" />
+    <HelpKINode Title="Matrix.Rank Method " Url="html/Overload_Accord_Math_Matrix_Rank.htm" />
   </HelpKINode>
   <HelpKINode Title="rank method" Url="html/M_Accord_Math_Environments_OctaveEnvironment_rank.htm" />
   <HelpKINode Title="Rank property">
@@ -18444,6 +18535,7 @@
   <HelpKINode Title="RankSum1 property" Url="html/P_Accord_Statistics_Testing_MannWhitneyWilcoxonTest_RankSum1.htm" />
   <HelpKINode Title="RankSum2 property" Url="html/P_Accord_Statistics_Testing_MannWhitneyWilcoxonTest_RankSum2.htm" />
   <HelpKINode Title="Ransac property">
+    <HelpKINode Title="RansacCircle.Ransac Property " Url="html/P_Accord_MachineLearning_Geometry_RansacCircle_Ransac.htm" />
     <HelpKINode Title="RansacFundamentalEstimator.Ransac Property " Url="html/P_Accord_Imaging_RansacFundamentalEstimator_Ransac.htm" />
     <HelpKINode Title="RansacHomographyEstimator.Ransac Property " Url="html/P_Accord_Imaging_RansacHomographyEstimator_Ransac.htm" />
     <HelpKINode Title="RansacLine.Ransac Property " Url="html/P_Accord_MachineLearning_Geometry_RansacLine_Ransac.htm" />
@@ -18487,6 +18579,19 @@
   <HelpKINode Title="RANSAC&lt;TModel&gt;.RANSAC constructor" Url="html/Overload_Accord_MachineLearning_RANSAC_1__ctor.htm" />
   <HelpKINode Title="RANSAC&lt;TModel&gt;.Samples property" Url="html/P_Accord_MachineLearning_RANSAC_1_Samples.htm" />
   <HelpKINode Title="RANSAC&lt;TModel&gt;.Threshold property" Url="html/P_Accord_MachineLearning_RANSAC_1_Threshold.htm" />
+  <HelpKINode Title="RansacCircle class">
+    <HelpKINode Title="RansacCircle Class" Url="html/T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+    <HelpKINode Title="RansacCircle Members" Url="html/AllMembers_T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+    <HelpKINode Title="about RansacCircle class" Url="html/T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Accord_MachineLearning_Geometry_RansacCircle__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_MachineLearning_Geometry_RansacCircle.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RansacCircle.Estimate method" Url="html/Overload_Accord_MachineLearning_Geometry_RansacCircle_Estimate.htm" />
+  <HelpKINode Title="RansacCircle.Inliers property" Url="html/P_Accord_MachineLearning_Geometry_RansacCircle_Inliers.htm" />
+  <HelpKINode Title="RansacCircle.Ransac property" Url="html/P_Accord_MachineLearning_Geometry_RansacCircle_Ransac.htm" />
+  <HelpKINode Title="RansacCircle.RansacCircle constructor" Url="html/M_Accord_MachineLearning_Geometry_RansacCircle__ctor.htm" />
   <HelpKINode Title="RansacFundamentalEstimator class">
     <HelpKINode Title="RansacFundamentalEstimator Class" Url="html/T_Accord_Imaging_RansacFundamentalEstimator.htm" />
     <HelpKINode Title="RansacFundamentalEstimator Members" Url="html/AllMembers_T_Accord_Imaging_RansacFundamentalEstimator.htm" />
@@ -18774,16 +18879,16 @@
   <HelpKINode Title="Rectification.Homography property" Url="html/P_Accord_Imaging_Filters_Rectification_Homography.htm" />
   <HelpKINode Title="Rectification.ProcessFilter method" Url="html/M_Accord_Imaging_Filters_Rectification_ProcessFilter.htm" />
   <HelpKINode Title="Rectification.Rectification constructor" Url="html/Overload_Accord_Imaging_Filters_Rectification__ctor.htm" />
-  <HelpKINode Title="ReducedErrorPrunning class">
-    <HelpKINode Title="ReducedErrorPrunning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
-    <HelpKINode Title="ReducedErrorPrunning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
-    <HelpKINode Title="about ReducedErrorPrunning class" Url="html/T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
-    <HelpKINode Title="constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning.htm" />
+  <HelpKINode Title="ReducedErrorPruning class">
+    <HelpKINode Title="ReducedErrorPruning Class" Url="html/T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
+    <HelpKINode Title="ReducedErrorPruning Members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
+    <HelpKINode Title="about ReducedErrorPruning class" Url="html/T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning.htm" />
   </HelpKINode>
-  <HelpKINode Title="ReducedErrorPrunning.ReducedErrorPrunning constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning__ctor.htm" />
-  <HelpKINode Title="ReducedErrorPrunning.Run method" Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning_Run.htm" />
+  <HelpKINode Title="ReducedErrorPruning.ReducedErrorPruning constructor" Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning__ctor.htm" />
+  <HelpKINode Title="ReducedErrorPruning.Run method" Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning_Run.htm" />
   <HelpKINode Title="ReducedRowEchelonForm class">
     <HelpKINode Title="ReducedRowEchelonForm Class" Url="html/T_Accord_Math_ReducedRowEchelonForm.htm" />
     <HelpKINode Title="ReducedRowEchelonForm Members" Url="html/AllMembers_T_Accord_Math_ReducedRowEchelonForm.htm" />
@@ -18946,6 +19051,7 @@
     <HelpKINode Title="MultilabelSupportVectorMachine.Reset Method " Url="html/M_Accord_MachineLearning_VectorMachines_MultilabelSupportVectorMachine_Reset.htm" />
     <HelpKINode Title="ParallelResilientBackpropagationLearning.Reset Method " Url="html/M_Accord_Neuro_Learning_ParallelResilientBackpropagationLearning_Reset.htm" />
     <HelpKINode Title="RawMoments.Reset Method " Url="html/M_Accord_Imaging_Moments_RawMoments_Reset.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Reset Method " Url="html/M_Accord_Math_Optimization_ResilientBackpropagation_Reset.htm" />
     <HelpKINode Title="TrackingObject.Reset Method " Url="html/M_Accord_Vision_Tracking_TrackingObject_Reset.htm" />
   </HelpKINode>
   <HelpKINode Title="ResetValue method">
@@ -18954,6 +19060,31 @@
     <HelpKINode Title="RowNamePropertyDescriptor.ResetValue Method " Url="html/M_Accord_Controls_RowNamePropertyDescriptor_ResetValue.htm" />
   </HelpKINode>
   <HelpKINode Title="Reshape method" Url="html/Overload_Accord_Math_Matrix_Reshape.htm" />
+  <HelpKINode Title="ResilientBackpropagation class">
+    <HelpKINode Title="ResilientBackpropagation Class" Url="html/T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="ResilientBackpropagation Members" Url="html/AllMembers_T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="about ResilientBackpropagation class" Url="html/T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Accord_Math_Optimization_ResilientBackpropagation__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Accord_Math_Optimization_ResilientBackpropagation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResilientBackpropagation.DecreaseFactor property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_DecreaseFactor.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Function property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Function.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Gradient property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Gradient.htm" />
+  <HelpKINode Title="ResilientBackpropagation.IncreaseFactor property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_IncreaseFactor.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Iterations property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Iterations.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Minimize method" Url="html/M_Accord_Math_Optimization_ResilientBackpropagation_Minimize.htm" />
+  <HelpKINode Title="ResilientBackpropagation.OnProgressChanged method" Url="html/M_Accord_Math_Optimization_ResilientBackpropagation_OnProgressChanged.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Parameters property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Parameters.htm" />
+  <HelpKINode Title="ResilientBackpropagation.ProgressChanged event" Url="html/E_Accord_Math_Optimization_ResilientBackpropagation_ProgressChanged.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Reset method" Url="html/M_Accord_Math_Optimization_ResilientBackpropagation_Reset.htm" />
+  <HelpKINode Title="ResilientBackpropagation.ResilientBackpropagation constructor" Url="html/M_Accord_Math_Optimization_ResilientBackpropagation__ctor.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Solution property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Solution.htm" />
+  <HelpKINode Title="ResilientBackpropagation.Tolerance property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Tolerance.htm" />
+  <HelpKINode Title="ResilientBackpropagation.UpdateLowerBound property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_UpdateLowerBound.htm" />
+  <HelpKINode Title="ResilientBackpropagation.UpdateUpperBound property" Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_UpdateUpperBound.htm" />
   <HelpKINode Title="Response property" Url="html/P_Accord_Imaging_SpeededUpRobustFeaturePoint_Response.htm" />
   <HelpKINode Title="Responses property">
     <HelpKINode Title="RunningMarkovClassifier(TDistribution).Responses Property " Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Responses.htm" />
@@ -19037,8 +19168,8 @@
   <HelpKINode Title="RootMeanSquare method" Url="html/Overload_Accord_Audio_Tools_RootMeanSquare.htm" />
   <HelpKINode Title="Rotated property" Url="html/P_Accord_Imaging_IntegralImage2_Rotated.htm" />
   <HelpKINode Title="Round method">
-    <HelpKINode Title="PointH.Round Method " Url="html/M_Accord_Imaging_PointH_Round.htm" />
     <HelpKINode Title="Matrix.Round Method " Url="html/Overload_Accord_Math_Matrix_Round.htm" />
+    <HelpKINode Title="PointH.Round Method " Url="html/M_Accord_Imaging_PointH_Round.htm" />
   </HelpKINode>
   <HelpKINode Title="round method" Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_round.htm" />
   <HelpKINode Title="RowCount property" Url="html/P_Accord_Controls_ArrayDataView_RowCount.htm" />
@@ -19088,7 +19219,7 @@
     <HelpKINode Title="ContrastiveDivergenceLearning.Run Method " Url="html/M_Accord_Neuro_Learning_ContrastiveDivergenceLearning_Run.htm" />
     <HelpKINode Title="DeepBeliefNetworkLearning.Run Method " Url="html/M_Accord_Neuro_Learning_DeepBeliefNetworkLearning_Run.htm" />
     <HelpKINode Title="DeepNeuralNetworkLearning.Run Method " Url="html/M_Accord_Neuro_Learning_DeepNeuralNetworkLearning_Run.htm" />
-    <HelpKINode Title="ErrorBasedPrunning.Run Method " Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning_Run.htm" />
+    <HelpKINode Title="ErrorBasedPruning.Run Method " Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning_Run.htm" />
     <HelpKINode Title="HiddenConjugateGradientLearning(T).Run Method " Url="html/Overload_Accord_Statistics_Models_Fields_Learning_HiddenConjugateGradientLearning_1_Run.htm" />
     <HelpKINode Title="HiddenGradientDescentLearning(T).Run Method " Url="html/Overload_Accord_Statistics_Models_Fields_Learning_HiddenGradientDescentLearning_1_Run.htm" />
     <HelpKINode Title="HiddenMarkovClassifierLearning(TDistribution).Run Method " Url="html/Overload_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1_Run.htm" />
@@ -19116,7 +19247,7 @@
     <HelpKINode Title="ProbabilisticOutputLearning.Run Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputLearning_Run.htm" />
     <HelpKINode Title="ProportionalHazardsNewtonRaphson.Run Method " Url="html/Overload_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Run.htm" />
     <HelpKINode Title="QuasiNewtonLearning(T).Run Method " Url="html/M_Accord_Statistics_Models_Fields_Learning_QuasiNewtonLearning_1_Run.htm" />
-    <HelpKINode Title="ReducedErrorPrunning.Run Method " Url="html/M_Accord_MachineLearning_DecisionTrees_Prunning_ReducedErrorPrunning_Run.htm" />
+    <HelpKINode Title="ReducedErrorPruning.Run Method " Url="html/M_Accord_MachineLearning_DecisionTrees_Pruning_ReducedErrorPruning_Run.htm" />
     <HelpKINode Title="SequentialMinimalOptimization.Run Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_Run.htm" />
     <HelpKINode Title="SequentialMinimalOptimizationRegression.Run Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimizationRegression_Run.htm" />
     <HelpKINode Title="SupportVectorReduction.Run Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_Learning_SupportVectorReduction_Run.htm" />
@@ -19162,10 +19293,11 @@
   <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Classification property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Classification.htm" />
   <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Classifier property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Classifier.htm" />
   <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Clear method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Clear.htm" />
-  <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Peek method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Peek.htm" />
-  <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Push method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Push.htm" />
+  <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Peek method" Url="html/Overload_Accord_Statistics_Running_RunningMarkovClassifier_1_Peek.htm" />
+  <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Push method" Url="html/Overload_Accord_Statistics_Running_RunningMarkovClassifier_1_Push.htm" />
   <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Responses property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Responses.htm" />
   <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).RunningMarkovClassifier constructor" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1__ctor.htm" />
+  <HelpKINode Title="RunningMarkovClassifier(Of TDistribution).Threshold property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Threshold.htm" />
   <HelpKINode Title="RunningMarkovClassifier.Classification property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_Classification.htm" />
   <HelpKINode Title="RunningMarkovClassifier.Classifier property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_Classifier.htm" />
   <HelpKINode Title="RunningMarkovClassifier.Clear method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_Clear.htm" />
@@ -19173,6 +19305,7 @@
   <HelpKINode Title="RunningMarkovClassifier.Push method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_Push.htm" />
   <HelpKINode Title="RunningMarkovClassifier.Responses property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_Responses.htm" />
   <HelpKINode Title="RunningMarkovClassifier.RunningMarkovClassifier constructor" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier__ctor.htm" />
+  <HelpKINode Title="RunningMarkovClassifier.Threshold property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_Threshold.htm" />
   <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt; class">
     <HelpKINode Title="RunningMarkovClassifier(TDistribution) Class" Url="html/T_Accord_Statistics_Running_RunningMarkovClassifier_1.htm" />
     <HelpKINode Title="RunningMarkovClassifier(TDistribution) Members" Url="html/AllMembers_T_Accord_Statistics_Running_RunningMarkovClassifier_1.htm" />
@@ -19185,10 +19318,11 @@
   <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Classification property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Classification.htm" />
   <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Classifier property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Classifier.htm" />
   <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Clear method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Clear.htm" />
-  <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Peek method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Peek.htm" />
-  <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Push method" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1_Push.htm" />
+  <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Peek method" Url="html/Overload_Accord_Statistics_Running_RunningMarkovClassifier_1_Peek.htm" />
+  <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Push method" Url="html/Overload_Accord_Statistics_Running_RunningMarkovClassifier_1_Push.htm" />
   <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Responses property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Responses.htm" />
   <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.RunningMarkovClassifier constructor" Url="html/M_Accord_Statistics_Running_RunningMarkovClassifier_1__ctor.htm" />
+  <HelpKINode Title="RunningMarkovClassifier&lt;TDistribution&gt;.Threshold property" Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Threshold.htm" />
   <HelpKINode Title="RunningMarkovStatistics class">
     <HelpKINode Title="RunningMarkovStatistics Class" Url="html/T_Accord_Statistics_Running_RunningMarkovStatistics.htm" />
     <HelpKINode Title="RunningMarkovStatistics Members" Url="html/AllMembers_T_Accord_Statistics_Running_RunningMarkovStatistics.htm" />
@@ -19342,6 +19476,8 @@
     <HelpKINode Title="HiddenConditionalRandomField(T).Save Method " Url="html/Overload_Accord_Statistics_Models_Fields_HiddenConditionalRandomField_1_Save.htm" />
     <HelpKINode Title="HiddenMarkovClassifier(TDistribution).Save Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_1_Save.htm" />
     <HelpKINode Title="HiddenMarkovClassifier.Save Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_Save.htm" />
+    <HelpKINode Title="HiddenMarkovModel(TDistribution).Save Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Save.htm" />
+    <HelpKINode Title="HiddenMarkovModel.Save Method " Url="html/Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_Save.htm" />
     <HelpKINode Title="KernelSupportVectorMachine.Save Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_KernelSupportVectorMachine_Save.htm" />
     <HelpKINode Title="MulticlassSupportVectorMachine.Save Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine_Save.htm" />
     <HelpKINode Title="MultilabelSupportVectorMachine.Save Method " Url="html/Overload_Accord_MachineLearning_VectorMachines_MultilabelSupportVectorMachine_Save.htm" />
@@ -19851,6 +19987,7 @@
     <HelpKINode Title="LowerBoundNewtonRaphson.Solution Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Solution.htm" />
     <HelpKINode Title="OptimizationProgressEventArgs.Solution Property " Url="html/P_Accord_Math_Optimization_OptimizationProgressEventArgs_Solution.htm" />
     <HelpKINode Title="ProportionalHazardsNewtonRaphson.Solution Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Solution.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Solution Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Solution.htm" />
   </HelpKINode>
   <HelpKINode Title="SolutionNorm property" Url="html/P_Accord_Math_Optimization_OptimizationProgressEventArgs_SolutionNorm.htm" />
   <HelpKINode Title="Solve method">
@@ -20377,8 +20514,8 @@
     <HelpKINode Title="UniformContinuousDistribution.Standard Property " Url="html/P_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution_Standard.htm" />
   </HelpKINode>
   <HelpKINode Title="StandardDeviation method">
-    <HelpKINode Title="Tools.StandardDeviation Method " Url="html/Overload_Accord_Statistics_Tools_StandardDeviation.htm" />
     <HelpKINode Title="Tools.StandardDeviation Method " Url="html/Overload_Accord_Imaging_Tools_StandardDeviation.htm" />
+    <HelpKINode Title="Tools.StandardDeviation Method " Url="html/Overload_Accord_Statistics_Tools_StandardDeviation.htm" />
   </HelpKINode>
   <HelpKINode Title="StandardDeviation property">
     <HelpKINode Title="CrossValidationStatistics.StandardDeviation Property " Url="html/P_Accord_MachineLearning_CrossValidationStatistics_StandardDeviation.htm" />
@@ -20681,13 +20818,13 @@
     <HelpKINode Title="OctaveEnvironment.mat.Subtraction Operator " Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_mat_op_Subtraction.htm" />
     <HelpKINode Title="PointH.Subtraction Operator " Url="html/M_Accord_Imaging_PointH_op_Subtraction.htm" />
   </HelpKINode>
-  <HelpKINode Title="sum method" Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_sum.htm" />
   <HelpKINode Title="Sum method">
     <HelpKINode Title="ComplexMatrix.Sum Method " Url="html/M_Accord_Math_ComplexExtensions_ComplexMatrix_Sum.htm" />
-    <HelpKINode Title="Tools.Sum Method " Url="html/Overload_Accord_Imaging_Tools_Sum.htm" />
     <HelpKINode Title="Matrix.Sum Method " Url="html/Overload_Accord_Math_Matrix_Sum.htm" />
+    <HelpKINode Title="Tools.Sum Method " Url="html/Overload_Accord_Imaging_Tools_Sum.htm" />
     <HelpKINode Title="UnsafeTools.Sum Method " Url="html/M_Accord_Imaging_UnsafeTools_Sum.htm" />
   </HelpKINode>
+  <HelpKINode Title="sum method" Url="html/Overload_Accord_Math_Environments_OctaveEnvironment_sum.htm" />
   <HelpKINode Title="Sum property">
     <HelpKINode Title="HaralickDescriptor.Sum Property " Url="html/P_Accord_Imaging_HaralickDescriptor_Sum.htm" />
     <HelpKINode Title="MovingNormalStatistics.Sum Property " Url="html/P_Accord_Statistics_Moving_MovingNormalStatistics_Sum.htm" />
@@ -20945,7 +21082,7 @@
     <HelpKINode Title="BorderFollowing.Threshold Property " Url="html/P_Accord_Imaging_BorderFollowing_Threshold.htm" />
     <HelpKINode Title="DecisionStump.Threshold Property " Url="html/P_Accord_MachineLearning_Boosting_Learners_DecisionStump_Threshold.htm" />
     <HelpKINode Title="Discretization.Options.Threshold Property " Url="html/P_Accord_Statistics_Filters_Discretization_Options_Threshold.htm" />
-    <HelpKINode Title="ErrorBasedPrunning.Threshold Property " Url="html/P_Accord_MachineLearning_DecisionTrees_Prunning_ErrorBasedPrunning_Threshold.htm" />
+    <HelpKINode Title="ErrorBasedPruning.Threshold Property " Url="html/P_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning_Threshold.htm" />
     <HelpKINode Title="FastCornersDetector.Threshold Property " Url="html/P_Accord_Imaging_FastCornersDetector_Threshold.htm" />
     <HelpKINode Title="GaussianMixtureModelOptions.Threshold Property " Url="html/P_Accord_MachineLearning_GaussianMixtureModelOptions_Threshold.htm" />
     <HelpKINode Title="GroupMatching.Threshold Property " Url="html/P_Accord_Vision_Detection_GroupMatching_Threshold.htm" />
@@ -20958,6 +21095,8 @@
     <HelpKINode Title="MatchingTracker.Threshold Property " Url="html/P_Accord_Vision_Tracking_MatchingTracker_Threshold.htm" />
     <HelpKINode Title="MixtureOptions.Threshold Property " Url="html/P_Accord_Statistics_Distributions_Fitting_MixtureOptions_Threshold.htm" />
     <HelpKINode Title="RANSAC(TModel).Threshold Property " Url="html/P_Accord_MachineLearning_RANSAC_1_Threshold.htm" />
+    <HelpKINode Title="RunningMarkovClassifier(TDistribution).Threshold Property " Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_1_Threshold.htm" />
+    <HelpKINode Title="RunningMarkovClassifier.Threshold Property " Url="html/P_Accord_Statistics_Running_RunningMarkovClassifier_Threshold.htm" />
     <HelpKINode Title="SingularValueDecomposition.Threshold Property " Url="html/P_Accord_Math_Decompositions_SingularValueDecomposition_Threshold.htm" />
     <HelpKINode Title="SingularValueDecompositionF.Threshold Property " Url="html/P_Accord_Math_Decompositions_SingularValueDecompositionF_Threshold.htm" />
     <HelpKINode Title="SpeededUpRobustFeaturesDetector.Threshold Property " Url="html/P_Accord_Imaging_SpeededUpRobustFeaturesDetector_Threshold.htm" />
@@ -21049,6 +21188,7 @@
     <HelpKINode Title="ProportionalHazardsNewtonRaphson.Tolerance Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Tolerance.htm" />
     <HelpKINode Title="RelativeConvergence.Tolerance Property " Url="html/P_Accord_Math_RelativeConvergence_Tolerance.htm" />
     <HelpKINode Title="RelativeParameterConvergence.Tolerance Property " Url="html/P_Accord_Math_RelativeParameterConvergence_Tolerance.htm" />
+    <HelpKINode Title="ResilientBackpropagation.Tolerance Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_Tolerance.htm" />
     <HelpKINode Title="SequentialMinimalOptimization.Tolerance Property " Url="html/P_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_Tolerance.htm" />
     <HelpKINode Title="SequentialMinimalOptimizationRegression.Tolerance Property " Url="html/P_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimizationRegression_Tolerance.htm" />
     <HelpKINode Title="ViterbiLearning(TDistribution).Tolerance Property " Url="html/P_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1_Tolerance.htm" />
@@ -21058,26 +21198,26 @@
   <HelpKINode Title="ToMixtureDistribution method" Url="html/M_Accord_MachineLearning_GaussianMixtureModel_ToMixtureDistribution.htm" />
   <HelpKINode Title="ToMultivariateDistribution method" Url="html/M_Accord_Statistics_Distributions_Univariate_NormalDistribution_ToMultivariateDistribution.htm" />
   <HelpKINode Title="Tools class">
-    <HelpKINode Title="Tools Class" Url="html/T_Accord_Statistics_Tools.htm" />
-    <HelpKINode Title="Tools Class" Url="html/T_Accord_Imaging_Tools.htm" />
     <HelpKINode Title="Tools Class" Url="html/T_Accord_Math_Tools.htm" />
+    <HelpKINode Title="Tools Class" Url="html/T_Accord_Statistics_Tools.htm" />
     <HelpKINode Title="Tools Class" Url="html/T_Accord_Audio_Tools.htm" />
+    <HelpKINode Title="Tools Class" Url="html/T_Accord_Imaging_Tools.htm" />
     <HelpKINode Title="Tools Members" Url="html/AllMembers_T_Accord_Statistics_Tools.htm" />
-    <HelpKINode Title="Tools Members" Url="html/AllMembers_T_Accord_Imaging_Tools.htm" />
     <HelpKINode Title="Tools Members" Url="html/AllMembers_T_Accord_Audio_Tools.htm" />
+    <HelpKINode Title="Tools Members" Url="html/AllMembers_T_Accord_Imaging_Tools.htm" />
     <HelpKINode Title="Tools Members" Url="html/AllMembers_T_Accord_Math_Tools.htm" />
+    <HelpKINode Title="about Tools class" Url="html/T_Accord_Imaging_Tools.htm" />
     <HelpKINode Title="about Tools class" Url="html/T_Accord_Audio_Tools.htm" />
     <HelpKINode Title="about Tools class" Url="html/T_Accord_Statistics_Tools.htm" />
-    <HelpKINode Title="about Tools class" Url="html/T_Accord_Imaging_Tools.htm" />
     <HelpKINode Title="about Tools class" Url="html/T_Accord_Math_Tools.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Tools.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Statistics_Tools.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Math_Tools.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Imaging_Tools.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers_T_Accord_Audio_Tools.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_Tools.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Statistics_Tools.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Math_Tools.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Accord_Imaging_Tools.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Accord_Audio_Tools.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Accord_Math_Tools.htm" />
   </HelpKINode>
   <HelpKINode Title="Tools.Acosh method" Url="html/M_Accord_Math_Tools_Acosh.htm" />
@@ -21117,12 +21257,12 @@
   <HelpKINode Title="Tools.Kurtosis method" Url="html/Overload_Accord_Statistics_Tools_Kurtosis.htm" />
   <HelpKINode Title="Tools.LogGeometricMean method" Url="html/Overload_Accord_Statistics_Tools_LogGeometricMean.htm" />
   <HelpKINode Title="Tools.Max method">
-    <HelpKINode Title="Tools.Max Method " Url="html/Overload_Accord_Audio_Tools_Max.htm" />
     <HelpKINode Title="Tools.Max Method " Url="html/Overload_Accord_Imaging_Tools_Max.htm" />
+    <HelpKINode Title="Tools.Max Method " Url="html/Overload_Accord_Audio_Tools_Max.htm" />
   </HelpKINode>
   <HelpKINode Title="Tools.Mean method">
-    <HelpKINode Title="Tools.Mean Method " Url="html/Overload_Accord_Statistics_Tools_Mean.htm" />
     <HelpKINode Title="Tools.Mean Method " Url="html/Overload_Accord_Imaging_Tools_Mean.htm" />
+    <HelpKINode Title="Tools.Mean Method " Url="html/Overload_Accord_Statistics_Tools_Mean.htm" />
   </HelpKINode>
   <HelpKINode Title="Tools.Median method" Url="html/Overload_Accord_Statistics_Tools_Median.htm" />
   <HelpKINode Title="Tools.Min method" Url="html/Overload_Accord_Imaging_Tools_Min.htm" />
@@ -21153,8 +21293,8 @@
   <HelpKINode Title="Tools.StableSort(Of T) method" Url="html/M_Accord_Math_Tools_StableSort__1.htm" />
   <HelpKINode Title="Tools.StableSort&lt;T&gt; method" Url="html/M_Accord_Math_Tools_StableSort__1.htm" />
   <HelpKINode Title="Tools.StandardDeviation method">
-    <HelpKINode Title="Tools.StandardDeviation Method " Url="html/Overload_Accord_Imaging_Tools_StandardDeviation.htm" />
     <HelpKINode Title="Tools.StandardDeviation Method " Url="html/Overload_Accord_Statistics_Tools_StandardDeviation.htm" />
+    <HelpKINode Title="Tools.StandardDeviation Method " Url="html/Overload_Accord_Imaging_Tools_StandardDeviation.htm" />
   </HelpKINode>
   <HelpKINode Title="Tools.StandardError method" Url="html/Overload_Accord_Statistics_Tools_StandardError.htm" />
   <HelpKINode Title="Tools.Standardize method" Url="html/Overload_Accord_Statistics_Tools_Standardize.htm" />
@@ -21811,11 +21951,13 @@
     <HelpKINode Title="HiddenResilientGradientLearning(T).UpdateLowerBound Property " Url="html/P_Accord_Statistics_Models_Fields_Learning_HiddenResilientGradientLearning_1_UpdateLowerBound.htm" />
     <HelpKINode Title="LowerBoundNewtonRaphson.UpdateLowerBound Property " Url="html/P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_UpdateLowerBound.htm" />
     <HelpKINode Title="ParallelResilientBackpropagationLearning.UpdateLowerBound Property " Url="html/P_Accord_Neuro_Learning_ParallelResilientBackpropagationLearning_UpdateLowerBound.htm" />
+    <HelpKINode Title="ResilientBackpropagation.UpdateLowerBound Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_UpdateLowerBound.htm" />
   </HelpKINode>
   <HelpKINode Title="UpdateThresholds property" Url="html/P_Accord_Neuro_GaussianWeights_UpdateThresholds.htm" />
   <HelpKINode Title="UpdateUpperBound property">
     <HelpKINode Title="HiddenResilientGradientLearning(T).UpdateUpperBound Property " Url="html/P_Accord_Statistics_Models_Fields_Learning_HiddenResilientGradientLearning_1_UpdateUpperBound.htm" />
     <HelpKINode Title="ParallelResilientBackpropagationLearning.UpdateUpperBound Property " Url="html/P_Accord_Neuro_Learning_ParallelResilientBackpropagationLearning_UpdateUpperBound.htm" />
+    <HelpKINode Title="ResilientBackpropagation.UpdateUpperBound Property " Url="html/P_Accord_Math_Optimization_ResilientBackpropagation_UpdateUpperBound.htm" />
   </HelpKINode>
   <HelpKINode Title="UpdateVisibleWeights method">
     <HelpKINode Title="DeepBeliefNetwork.UpdateVisibleWeights Method " Url="html/M_Accord_Neuro_Networks_DeepBeliefNetwork_UpdateVisibleWeights.htm" />

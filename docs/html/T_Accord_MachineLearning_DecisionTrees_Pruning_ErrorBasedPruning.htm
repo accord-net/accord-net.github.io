@@ -1,0 +1,183 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
+    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
+    <style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style>
+    <script src="./../scripts/branding.js" type="text/javascript">
+      <!---->
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ErrorBasedPruning Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="ErrorBasedPruning class" />
+    <meta name="System.Keywords" content="Accord.MachineLearning.DecisionTrees.Pruning.ErrorBasedPruning class" />
+    <meta name="System.Keywords" content="ErrorBasedPruning class, about ErrorBasedPruning class" />
+    <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.DecisionTrees.Pruning.ErrorBasedPruning" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.MachineLearning.DecisionTrees.Pruning.ErrorBasedPruning" />
+    <meta name="Description" content="Error-based pruning." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="'true'" />
+    <meta name="container" content="Accord.MachineLearning.DecisionTrees.Pruning" />
+    <meta name="file" content="T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning" />
+    <meta name="guid" content="T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning" />
+    
+    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js">
+      <!---->
+    </script>
+    <meta name="SelfBranded" content="true" />
+  </head>
+  <body onload="onLoad()" class="primary-mtps-offline-document">
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdLogoColumn">
+              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            </td>
+            <td class="OH_tdTitleColumn">ErrorBasedPruning Class</td>
+            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle">
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+              <a href="http://accord-net.github.io/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
+              <br />
+            </span>
+            <div class="summary">
+              Error-based pruning.
+            </div>
+            <div class="OH_CollapsibleAreaRegion">
+              <div class="OH_regiontitle">Inheritance Hierarchy</div>
+              <div class="OH_CollapsibleArea_HrDiv">
+                <hr class="OH_CollapsibleArea_Hr" />
+              </div>
+            </div>
+            <div class="OH_clear"></div>
+            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
+            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</a>
+            <br />  <span class="selflink">Accord.MachineLearning.DecisionTrees.Pruning<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>ErrorBasedPruning</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_MachineLearning_DecisionTrees_Pruning.htm" target="">Accord.MachineLearning.DecisionTrees.Pruning</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.MachineLearning</span> (in Accord.MachineLearning.dll) Version: 2.10.0.0 (2.10.0.4629)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EAAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EAAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EAAEAAAAA_tabimgleft"></div><div id="ID0EAAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EAAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EAAEAAAAA_tab2" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>VB</a></div><div id="ID0EAAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EAAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EAAEAAAAA_tabimgright"></div></div><div id="ID0EAAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EAAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EAAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EAAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EAAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EAAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ErrorBasedPruning</span></pre></div><div id="ID0EAAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public class ErrorBasedPruning</pre></div><div id="ID0EAAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EAAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EAAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+              References:
+              <ul><li>
+                  Lior Rokach, Oded Maimon. The Data Mining and Knowledge Discovery Handbook,
+                  Chapter 9, Decision Trees. Springer, 2nd ed. 2010, XX, 1285 p. 40 illus. 
+                  Available at: http://www.ise.bgu.ac.il/faculty/liorr/hbchap9.pdf .</li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Suppose you have the following input and output data</span> 
+<span class="highlight-comment">// and would like to learn the relationship between the</span> 
+<span class="highlight-comment">// inputs and outputs by using a Decision Tree:</span> 
+
+<span class="highlight-keyword">double</span>[][] inputs = ...
+<span class="highlight-keyword">int</span>[] output = ...
+
+<span class="highlight-comment">// To prune a decision tree, we need to split your data into</span> 
+<span class="highlight-comment">// training and pruning groups. Let's say we have 100 samples,</span> 
+<span class="highlight-comment">// and would like to reserve 50 samples for training, and 50</span> 
+<span class="highlight-comment">// for pruning:</span> 
+
+<span class="highlight-comment">// Gather the first half for the training set</span> 
+<span class="highlight-keyword">var</span> trainingInputs = inputs.Submatrix(<span class="highlight-number">0</span>, <span class="highlight-number">49</span>);
+<span class="highlight-keyword">var</span> trainingOutput = output.Submatrix(<span class="highlight-number">0</span>, <span class="highlight-number">49</span>);
+
+<span class="highlight-comment">// Gather the second hand data for pruning</span> 
+<span class="highlight-keyword">var</span> pruningInputs = inputs.Submatrix(<span class="highlight-number">50</span>, <span class="highlight-number">99</span>);
+<span class="highlight-keyword">var</span> pruningOutput = output.Submatrix(<span class="highlight-number">50</span>, <span class="highlight-number">99</span>);
+
+
+<span class="highlight-comment">// Create the decision tree</span>
+DecisionTree tree = <span class="highlight-keyword">new</span> DecisionTree( ... );
+
+<span class="highlight-comment">// Learn our tree using the training data</span>
+C45Learning c45 = <span class="highlight-keyword">new</span> C45Learning(tree);
+<span class="highlight-keyword">double</span> error = c45.Run(trainingInputs, trainingOutput);
+
+
+<span class="highlight-comment">// Now we can attempt to prune the tree using the pruning groups</span>
+ErrorBasedPruning prune = <span class="highlight-keyword">new</span> ErrorBasedPruning(tree, pruningInputs, pruningOutput);
+
+<span class="highlight-comment">// Gain threshold</span>
+prune.Threshold = <span class="highlight-number">0.1</span>;
+
+<span class="highlight-keyword">double</span> lastError;
+<span class="highlight-keyword">double</span> error = Double.PositiveInfinity;
+
+<span class="highlight-keyword">do</span>
+{
+    <span class="highlight-comment">// Now we can start pruning the tree as </span> 
+    <span class="highlight-comment">// long as the error doesn't increase</span>
+
+    lastError = error;
+    error = prune.Run();
+
+} <span class="highlight-keyword">while</span> (error &lt; lastError);</pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Suppose you have the following input and output data 
+// and would like to learn the relationship between the 
+// inputs and outputs by using a Decision Tree: 
+
+double[][] inputs = ...
+int[] output = ...
+
+// To prune a decision tree, we need to split your data into 
+// training and pruning groups. Let's say we have 100 samples, 
+// and would like to reserve 50 samples for training, and 50 
+// for pruning: 
+
+// Gather the first half for the training set 
+var trainingInputs = inputs.Submatrix(0, 49);
+var trainingOutput = output.Submatrix(0, 49);
+
+// Gather the second hand data for pruning 
+var pruningInputs = inputs.Submatrix(50, 99);
+var pruningOutput = output.Submatrix(50, 99);
+
+
+// Create the decision tree
+DecisionTree tree = new DecisionTree( ... );
+
+// Learn our tree using the training data
+C45Learning c45 = new C45Learning(tree);
+double error = c45.Run(trainingInputs, trainingOutput);
+
+
+// Now we can attempt to prune the tree using the pruning groups
+ErrorBasedPruning prune = new ErrorBasedPruning(tree, pruningInputs, pruningOutput);
+
+// Gain threshold
+prune.Threshold = 0.1;
+
+double lastError;
+double error = Double.PositiveInfinity;
+
+do
+{
+    // Now we can start pruning the tree as  
+    // long as the error doesn't increase
+
+    lastError = error;
+    error = prune.Run();
+
+} while (error &lt; lastError);</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_MachineLearning_DecisionTrees_Pruning_ErrorBasedPruning.htm" target="">ErrorBasedPruning Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees_Pruning.htm" target="">Accord.MachineLearning.DecisionTrees.Pruning Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer">
+      <p>
+        <a href="http://accord-net.github.io/" target="_blank">Accord.NET Framework</a> © 2009-2013. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="OH_feedbacklink">
+        <a href="mailto:?subject=Accord.NET+Framework+ErrorBasedPruning+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic.</div>
+    </div>
+  </body>
+</html>
