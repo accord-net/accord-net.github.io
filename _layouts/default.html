@@ -42,8 +42,9 @@
 </script>
 <body>
     <div id="whole-site-wrapper">
-
-
+        <!-- 
+        // Left area: the area containing the header and the table of contents for the site
+        // -------------------------------------------------------------------------------->
         <div id="left">
             <div id="accord-logo">
                 &#x222e;</div>
@@ -58,11 +59,12 @@
                     <li id="li-intro"><a href="index.html">Introduction</a></li>
                     <li id="li-samples"><a href="samples.html">Sample apps</a></li>
                     <li id="li-docs"><a href="docs/Index.html">Documentation</a></li>
-                    <li id="li-issues"><a href="https://code.google.com/p/accord/issues/list">Report issues</a></li>
+                    <li id="li-issues"><a href="https://code.google.com/p/accord/issues/list" target="_blank">
+                        Report issues</a></li>
                     <li id="li-submit"><a href="submit.html">Contribute</a></li>
                     <li id="li-publications"><a href="publications.html">Publications</a></li>
-                    <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net">Discussion
-                        forums</a></li>
+                    <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net" target="_blank">
+                        Discussion forums</a></li>
                     <li id="li-faq"><a href="faq.html">Common questions</a></li>
                     <li id="li-contact"><a href="contact.html">Contact</a></li>
                     <li id="li-license"><a href="license.html">License</a></li>
@@ -78,8 +80,8 @@
                 </div>
                 <div class="google-plus">
                     <!-- Place this tag where you want the +1 button to render. -->
-                    <div class="g-plusone" data-href="http://accord-net.github.io"></div>
-
+                    <div class="g-plusone" data-href="http://accord-net.github.io">
+                    </div>
                     <!-- Place this tag after the last +1 button tag. -->
                     <script type="text/javascript">
                         (function () {
@@ -91,23 +93,9 @@
                 </div>
             </aside>
         </div>
-
-
-
-        <div id="middle">
-
-            <section>
-              {{ content }}
-            </section>
-
-            {% if page.comments %}
-            <div id="comments">
-                    {% include disqus.html %}
-            </div>
-            {% endif %}
-        </div>
-
-
+        <!-- 
+        // Right area: contains the Youtube, LinkedIn and Paypal buttons
+        // -------------------------------------------------------------------------------->
         <div id="right">
             <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
                 <img id="linkedin" class="icons" src="images/metro/appbar.social.linkedin.color.png" /></a>
@@ -118,9 +106,72 @@
                 target="_blank">
                 <img id="paypal" class="icons" src="images/metro/appbar.paypal.color.png" /></a>
         </div>
+        <!-- 
+        // Middle area: contains the actual page contents
+        // -------------------------------------------------------------------------------->
+        <div id="middle">
+            <section>
+            {% if contents %} 
+                {{ contents }}
+            {% else }
+            <h1>
+                Title</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec rutrum libero.
+                Cras ullamcorper erat eget dolor blandit, ut luctus est ullamcorper. Aenean consequat
+                arcu in tortor feugiat, at tristique sem rutrum. Integer feugiat nibh et metus placerat,
+                lacinia condimentum tellus viverra. Suspendisse ut vulputate sapien, non volutpat
+                neque. Pellentesque molestie convallis tincidunt. Mauris quam libero, consectetur
+                a tortor eget, aliquam ornare libero.</p>
+            <p>
+                Duis sed ultrices orci. Nullam libero diam, vulputate at accumsan in, dignissim
+                nec nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Nulla facilisi. Duis commodo nulla nec vehicula hendrerit. Curabitur
+                cursus risus vel mauris pulvinar, vitae lobortis eros lobortis. Maecenas gravida
+                neque in ultrices tincidunt. Integer sodales nisl enim, vitae aliquam augue tincidunt
+                non. Duis a consectetur eros, ac vestibulum magna. Fusce dui neque, eleifend id
+                lacinia euismod, aliquet at lacus. Morbi elementum lacus purus, ut malesuada ipsum
+                tempor sit amet. Phasellus condimentum facilisis massa in adipiscing. Ut commodo
+                ante id lorem venenatis, eu congue neque viverra.</p>
+                <h2>
+                    Subtitle</h2>
+            <p>
+                Curabitur viverra aliquet condimentum. Cras vulputate risus dui. Morbi pellentesque,
+                dolor nec aliquam laoreet, ipsum ante mattis tellus, eget vulputate nisi justo vel
+                massa. In facilisis lorem elit, vitae faucibus dolor volutpat sit amet. Sed vel
+                molestie nisi. Curabitur venenatis libero sed erat mattis, vel egestas augue interdum.
+                Aliquam erat volutpat.</p>
+                <h3>
+                    Sub-subtitle</h3>
+            <p>
+                Aliquam tincidunt leo eget quam aliquet, sit amet tincidunt tellus lacinia. Vivamus
+                eros metus, pharetra vitae vehicula vel, gravida ut elit. Nulla non justo rhoncus,
+                imperdiet neque ut, lacinia quam. Mauris feugiat molestie metus, nec feugiat turpis
+                sagittis at. Morbi eget vestibulum enim, vel malesuada augue. Sed tempor gravida
+                sapien, sed gravida lectus posuere eu. Fusce eget massa neque. Proin elementum dolor
+                vel purus vestibulum tempus. Vestibulum mattis lacus eu sagittis convallis. Maecenas
+                sit amet nisi orci. Mauris at consectetur urna. Curabitur dui libero, accumsan euismod
+                elementum quis, blandit in est.</p>
+            <p>
+                Donec ac elit et purus condimentum convallis. Sed vestibulum porttitor placerat.
+                Quisque ullamcorper at urna quis sollicitudin. Nulla eleifend fringilla quam in
+                iaculis. Duis sed blandit diam. Duis vel ipsum diam. Sed elementum, lacus eget placerat
+                porta, lorem metus varius sapien, vitae tristique tortor sem elementum nunc. Praesent
+                mattis pulvinar eros, eget blandit neque dignissim ut. Nullam eu consectetur elit.
+                Quisque eget augue dolor. Cras cursus, dui eu scelerisque dapibus, orci mauris bibendum
+                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.</p>
 
-
-
+            {% endif %}
+            </section>
+            {% if page.comments %}
+            <div id="comments">
+                {% include disqus.html %}
+            </div>
+            {% endif %}
+        </div>
+        <!-- 
+        // Hidden area: contains divs which should not be shown in the page
+        // -------------------------------------------------------------------------------->
         <div id="paypal-tooltip" style="display: none">
             <p>
                 Have you found this software useful?

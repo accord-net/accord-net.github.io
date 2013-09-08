@@ -26,7 +26,6 @@ strong
 {
     width: 100%;
     margin: 0 auto;
-    overflow: visible;
 }
 
 #left
@@ -38,12 +37,12 @@ strong
 {
     position: absolute;
     top: 10px;
-    left: 300px;
+    left: 280px;
     margin-top: 100px;
-    margin-right: 100px;
+    padding-right: 120px;
     font-weight: 300;
     text-align: left;
-    width: auto;
+    word-break: break-all;
 }
 
 #right
@@ -54,6 +53,7 @@ strong
     margin-top: 50px;
     width: 100px;
     vertical-align: middle;
+    z-index: 100;
 }
 
 
@@ -70,7 +70,7 @@ strong
     font-weight: 100;
     text-shadow: 3px 5px 10px ThreeDShadow;
     font-family: Cambria;
-    -webkit-font-smoothing: subpixel-antialiased;
+    /*-webkit-font-smoothing: subpixel-antialiased;*/
     opacity: 0.1;
     cursor: default;
     z-index: -999999;
@@ -245,7 +245,6 @@ aside li
 
 section
 {
-    
 }
 
 section p
@@ -255,30 +254,22 @@ section p
     margin-top: 0;
 }
 
-.section-title h1
+section h1
 {
-    font: 36px Segoe UI, Helvetica, Arial, sans-serif;
-    line-height: 16px;
+    font-size: 16pt;
 }
 
-.section-title p
+section h2
 {
-    width: 600px;
-    margin: 0 auto;
+    font-size: 12pt;
 }
 
-.section-panel
+section h3
 {
-    width: 270px;
-    margin: 20px;
-    display: inline-block;
-    vertical-align: top;
+    font-size: 10pt;
 }
 
-.section-panel h1
-{
-    font-size: 20px;
-}
+
 
 #comments
 {
@@ -297,40 +288,6 @@ section p
     -webkit-transition: 0.5s all ease-out;
 }
 
-#more
-{
-    cursor: pointer;
-}
-
-#more h1:after
-{
-    background-image: url('../images/metro/appbar.chevron.down.png');
-    background-repeat: no-repeat;
-    width: 60px;
-    height: 50px;
-    display: inline-block;
-    content: "";
-}
-
-#features
-{
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    -moz-column-rule-color: #ccc;
-    -moz-column-rule-style: solid;
-    -moz-column-rule-width: 1px;
-    -webkit-column-rule-color: #ccc;
-    -webkit-column-rule-style: solid;
-    -webkit-column-rule-width: 1px;
-    font-size: 10px;
-}
-
-#features h1
-{
-    font-size: 12px;
-}
 
 
 
