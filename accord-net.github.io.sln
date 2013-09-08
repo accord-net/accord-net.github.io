@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "accord-net.github.io", ".", "{602D575C-7D31-4421-8C46-BF42C6B8BD03}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/accord-net.github.io"
+		Debug.AspNetCompiler.PhysicalPath = "..\accord-net.github.io\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\accord-net.github.io\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/accord-net.github.io"
+		Release.AspNetCompiler.PhysicalPath = "..\accord-net.github.io\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\accord-net.github.io\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "22631"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602D575C-7D31-4421-8C46-BF42C6B8BD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602D575C-7D31-4421-8C46-BF42C6B8BD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

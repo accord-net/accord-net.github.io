@@ -1,63 +1,101 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Accord.NET Framework by accord-net</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <title>Accord.NET Framework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Accord.NET Framework</h1>
-        <p>Provides machine learning, mathematics, statistics, computer vision, computer audition, and scientific computing to .NET.</p>
+</head>
+<script type="text/javascript">
 
+    $(document).ready(function () {
+        $("#features").hide();
+        $("#accord-logo").hide();
 
-        <p class="view"><a href="https://github.com/accord-net">View My GitHub Profile</a></p>
+        $("#accord-logo").fadeIn(1200);
 
-      </header>
-      <section>
-        <h2>
-<a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
+        /* $("#more").click(function () {
+        $("#features").fadeIn(1200);
+        });*/
+    });
 
-<p>The Accord.NET Framework provides machine learning, mathematics, statistics, computer vision, computer audition, and several scientific computing related methods and techniques to .NET. The project extends the popular AForge.NET Framework providing a more complete scientific computing environment.</p>
-
-<ul>
-<li><a href="https://code.google.com/p/accord/downloads/list">Download latest releases</a></li>
-<li>
-<a href="http://accord-net.github.io/docs/Index.html">Documentation</a> / <a href="https://code.google.com/p/accord/wiki/GettingStarted">getting started</a>
-</li>
-<li>
-<a href="https://code.google.com/p/accord/wiki/Showcase">Publications</a> / <a href="https://code.google.com/p/accord/wiki/Publications?tm=6">articles and guides</a>
-</li>
-<li>
-<p><a href="https://code.google.com/p/accord/wiki/SampleApplications?tm=6">Sample applications</a></p>
-
-<p><img src="http://accord-net.github.io/docs/resources/Accord.NET%20%28logo%20large%29.png" alt="Accord.NET Framework"></p>
-</li>
-</ul>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    
+ 
+</script>
+<body>
+    <div id="content-wrapper">
+        <header>
+            <div id="left-buttons">
+            </div>
+            <div id="right-buttons">
+                <img src="images/metro/appbar.social.linkedin.variant.png" />
+                <img src="images/metro/appbar.youtube.png" />
+                <img src="images/metro/appbar.paypal.png" />
+            </div>
+            <div id="accord-logo">
+                <p>
+                    v2.10</p>
+            </div>
+            <div id="download-buttons">
+                <ul>
+                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
+                        Download <strong>Installer</strong></a></li>
+                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
+                        Download <strong>Archive</strong></a></li>
+                    <li><a href="http://accord-net.github.io/docs/Index.html">Check the <strong>Manual</strong></a></li>
+                    <li><a href="https://github.com/accord-net/framework/">Fork On <strong>GitHub</strong></a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="section-title">
+                <h1>
+                    Scientific computing made <strong>easy</strong></h1>
+                <p>
+                    The <strong>Accord.NET Framework</strong> is a complete framework for building machine
+                    learning, computer vision, computer audition, signal processing and statistical
+                    applications. Sample applications provide a fast start to get up and running quickly,
+                    and an extensive documentation helps fill in the details.</p>
+            </div>
+            <div class="section-content">
+                <div class="section-panel">
+                    <img src="images/metro/appbar.candy.cane.png" />
+                    <h3>
+                        <a href="https://code.google.com/p/accord/wiki/SampleApplications">Sample applications</a>.</h3>
+                    <p>
+                        Sample applications help you start writing your applications. Just get one of the
+                        sample applications that is closest to your goal, and start from there.
+                    </p>
+                </div>
+                <div class="section-panel">
+                    <img src="images/metro/appbar.puzzle.round.png" />
+                    <h3>
+                        <a href="https://code.google.com/p/accord/wiki/Showcase?tm=6">Create and test new learning algorithms with ease</a>.</h3>
+                    <p>
+                        Strategy and template method patterns help you swap learning algorithms quickly.
+                        Create, build and compare different approaches without delving too deep in code.
+                    </p>
+                </div>
+                <div class="section-panel">
+                    <img src="images/metro/appbar.speakerphone.png" />
+                    <h3>
+                        <a href="https://groups.google.com/forum/#!forum/accord-net">Discuss and share</a>.</h3>
+                    <p>
+                        With documentation, discussion groups and an ever willing wish to accept new code
+                        contributions, make your work visible by sharing and discussing with the community.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h1>
+                    <a href="https://code.google.com/p/accord/wiki/GettingStarted">Get started now!</a></h1>
+            </div>
+        </section>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-3114672-4");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
+</body>
 </html>
