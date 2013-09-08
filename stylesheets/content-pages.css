@@ -1,0 +1,392 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,400,700);
+
+body
+{
+    padding: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    color: #777;
+    font-weight: 300;
+}
+
+a
+{
+    color: #39c;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+
+#content-wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#accord-logo
+{
+    position: fixed;
+    left: -100px;
+    top: -200px;
+    font-size: 500pt;
+    color: ThreeDShadow;
+    font-weight: 100;
+    text-shadow: 3px 5px 10px ThreeDShadow;
+    font-family: Cambria;
+    -webkit-font-smoothing: subpixel-antialiased;
+    opacity: 0.1;
+    cursor: default;
+    z-index: -999999;
+}
+
+header h1
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+aside h1
+{
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+aside ul
+{
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+aside li
+{
+    list-style-type: none;
+    height: 20px;
+    padding: 5px 0 0 35px;
+}
+
+#li-intro
+{
+    background: url('../images/metro/appbar.beer.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-samples
+{
+    background: url('../images/metro/appbar.candy.cane.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-docs
+{
+    background: url('../images/metro/appbar.book.hardcover.open.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-issues
+{
+    background: url('../images/metro/appbar.bug.remove.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-submit
+{
+    background: url('../images/metro/appbar.cloud.upload.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-forums
+{
+    background: url('../images/metro/appbar.speakerphone.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-faq
+{
+    background: url('../images/metro/appbar.question.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-contact
+{
+    background: url('../images/metro/appbar.email.hardedge.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-about
+{
+    background: url('../images/metro/appbar.information.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#right-buttons
+{
+    right: 50px;
+    position: fixed;
+    margin-top: 50px;
+    float: right;
+    width: 50px;
+    height: 363px;
+    vertical-align: middle;
+}
+
+#download-buttons
+{
+    margin-top: 50px;
+    width: 200px;
+    padding: 0;
+}
+
+#download-buttons ul
+{
+    list-style: none;
+    height: 40px;
+    padding: 0;
+}
+
+#download-buttons li
+{
+    border-right: 1px solid #d2d2d2;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0;
+    background: #eee;
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+    background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    box-shadow: inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+    width: 120px;
+}
+
+#download-buttons ul a
+{
+    line-height: 1;
+    font-size: 11px;
+    color: #999;
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 6px;
+    height: 40px;
+}
+
+#download-buttons .version
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: -20px;
+    height: 20px;
+    padding-top: 4px;
+    padding-left: 5px;
+    vertical-align: middle;
+    border-left: 1px solid #d2d2d2;
+}
+
+#download-buttons ul a strong
+{
+    font-size: 14px;
+    display: block;
+    color: #222;
+}
+
+
+
+
+
+section
+{
+    position:absolute;
+    top: 10px;
+    left: 300px;
+    margin-top: 100px;
+    font-weight: 300;
+    text-align: center;
+}
+
+section p
+{
+    font: 12px Segoe UI, Helvetica, Arial, sans-serif;
+    color: #333333;
+    margin-top: 0;
+}
+
+.section-title h1
+{
+    font: 36px Segoe UI, Helvetica, Arial, sans-serif;
+    line-height: 16px;
+}
+
+.section-title p
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.section-panel
+{
+    width: 270px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-panel h1
+{
+    font-size: 20px;
+}
+
+
+.icons
+{
+    -webkit-filter: grayscale(1) opacity(0.2);
+}
+
+.icons:hover
+{
+    -webkit-filter: grayscale(0) opacity(1);
+    -webkit-transition: 0.5s all ease-out;
+}
+
+#more
+{
+    cursor: pointer;
+}
+
+#more h1:after
+{
+    background-image: url('../images/metro/appbar.chevron.down.png');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    content: "";
+}
+
+#features
+{
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-rule-color: #ccc;
+    -moz-column-rule-style: solid;
+    -moz-column-rule-width: 1px;
+    -webkit-column-rule-color: #ccc;
+    -webkit-column-rule-style: solid;
+    -webkit-column-rule-width: 1px;
+    font-size: 10px;
+}
+
+#features h1
+{
+    font-size: 12px;
+}
+
+
+
+
+footer
+{
+    width: 270px;
+    float: left;
+    position: fixed;
+    bottom: 50px;
+}
+
+@media print, screen and (max-width: 960px)
+{
+
+    div#content-wrapper
+    {
+        width: auto;
+        margin: 0;
+    }
+
+    header, section, footer
+    {
+        float: none;
+        position: static;
+        width: auto;
+    }
+
+    header
+    {
+        padding-right: 320px;
+    }
+
+    section
+    {
+        border: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding: 20px 0;
+        margin: 0 0 20px;
+    }
+
+    header a small
+    {
+        display: inline;
+    }
+
+    header ul
+    {
+        position: absolute;
+        right: 50px;
+        top: 52px;
+    }
+}
+
+@media print, screen and (max-width: 720px)
+{
+    body
+    {
+        word-wrap: break-word;
+    }
+
+    header
+    {
+        padding: 0;
+    }
+
+    header ul, header p.view
+    {
+        position: static;
+    }
+
+    pre, code
+    {
+        word-wrap: normal;
+    }
+}
+
+@media print, screen and (max-width: 480px)
+{
+    body
+    {
+        padding: 15px;
+    }
+
+    header ul
+    {
+        display: none;
+    }
+}
+
+@media print
+{
+    body
+    {
+        padding: 0.4in;
+        font-size: 12pt;
+        color: #444;
+    }
+}

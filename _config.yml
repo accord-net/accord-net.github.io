@@ -3,27 +3,23 @@ safe: true
 lsi: false
 pygments: true
 
-# standard jekyll configuration options
-
 exclude: ['Rakefile', 'README.md', 'config.rb']
 
-# configuration required for some pages
-
-#domain: blog.example.com
+domain: accord.github.io
 title: Accord.NET Framework
-#author: Me
-#email: me@example.com
 
-# configuration for ehancements, uncomment to enable
 
-# feedburner:
-#   id: feedburnerid
 
-# google_analytics:
-#   account: UA-XXXXX-X
+google_analytics:
+  account: UA-3114672-4
 
-# github:
-#   username: ghusername
+github:
+  username: cesarsouza
 
 disqus:
   id: accord-net
+
+framework:
+  version: v2.10
+  download-installer: https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe
+  download-archive:   https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar

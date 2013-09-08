@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }}</title>
+    <title>Accord.NET Framework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="stylesheets/content-pages.css" />
     <link rel="Stylesheet" href="stylesheets/jquery.powertip.css" />
@@ -37,10 +37,16 @@
         paypal.data('powertip', $('#paypal-tooltip').html());
         paypal.powerTip({ placement: 'w', mouseOnToPopup: true });
 
+
+
+        /* $("#more").click(function () {
+        $("#features").fadeIn(1200);
+        });*/
     });
+
+    
  
 </script>
-
 <body>
     <div id="accord-logo">
         &#x222e;</div>
@@ -54,67 +60,44 @@
             target="_blank">
             <img id="paypal" class="icons" src="images/metro/appbar.paypal.color.png" /></a>
     </div>
-
-
-    <header>
-        <h1>
-            Sample applications</h1>
-    </header>
-
-
-    <aside>
-        <h1>
-            Accord.NET</h1>
-        <ul>
-            <li id="li-intro"><a href="index.html">Introduction</a></li>
-            <li id="li-samples"><a href="samples.html">Sample apps</a></li>
-            <li id="li-docs"><a href="docs/Index.html">Documentation</a></li>
-            <li id="li-issues"><a href="https://code.google.com/p/accord/issues/list">Report issues</a></li>
-            <li id="li-submit"><a href="submit.html">Contribute</a></li>
-            <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net">Discussion forums</a></li>
-            <li id="li-faq"><a href="faq.html">Common questions</a></li>
-            <li id="li-contact"><a href="contact.html">Contact</a></li>
-            <li id="li-about"><a href="about.html">About</a></li>
-        </ul>
-
-        <div id="download-buttons">
+    <div id="content-wrapper">
+        <header>
+            <h1>
+                Sample applications</h1>
+        </header>
+        <aside>
+            <h1>
+                Accord.NET</h1>
             <ul>
-                <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
-                    Download <strong>Installer</strong> <span class="version">(v2.10)</span></a></li>
-                <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
-                    Download <strong>Archive</strong> <span class="version">(v2.10)</span></a></li>
+                <li id="li-intro">Introduction</li>
+                <li id="li-samples">Sample apps</li>
+                <li id="li-docs">Documentation</li>
+                <li id="li-issues">Report issues</li>
+                <li id="li-submit">Submit code</li>
+                <li id="li-forums">Discussion forums</li>
+                <li id="li-faq">Common questions</li>
+                <li id="li-contact">Contact</li>
+                <li id="li-about">About</li>
             </ul>
-        </div>
-
-        <div class="google-plus">
-            <!-- Google + -->
-            <script type="text/javascript">
-                (function () {
-                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    po.src = 'https://apis.google.com/js/plusone.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                })();
-            </script>
-        </div>
-    </aside>
-
-
-    <section>
+            <div id="download-buttons">
+                <ul>
+                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
+                        Download <strong>Installer</strong> <span class="version">(v2.10)</span></a></li>
+                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
+                        Download <strong>Archive</strong> <span class="version">(v2.10)</span></a></li>
+                </ul>
+            </div>
+        </aside>
+        <section>
            
-           {{ content }}
+           <p>
+           Those are the sample applications avaiable in the framework:
+           </p>
 
-    </section>
 
 
-    {% if page.comments %}
-    <div id="comments">
-        <div class="inner clearfix">
-            {% include disqus.html %}
-        </div>
+        </section>
     </div>
-    {% endif %}
-
-
     <div id="paypal-tooltip" style="display: none">
         <p>
             Have you found this software useful?
@@ -131,6 +114,5 @@
             <strong>always stay free</strong>
         . Enjoy!
     </div>
-
 </body>
 </html>
