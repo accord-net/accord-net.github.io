@@ -50,7 +50,10 @@
               <a href="http://accord-net.github.io/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
               <br />
             </span>
-            <div class="summary">Contains classes and methods to convert between different image representations, such as between common images, numeric matrices and arrays.</div>
+            <div class="summary">
+             Contains classes and methods to convert between different image representations, 
+             such as between common images, numeric matrices and arrays.
+            </div>
             <div class="OH_CollapsibleAreaRegion">
               <div class="OH_regiontitle">Classes</div>
               <div class="OH_CollapsibleArea_HrDiv">
@@ -139,10 +142,10 @@
                   <img src="./../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
                 </td>
                 <td>
-                  <a href="T_Accord_Imaging_Converters_IConverter_2.htm" target="">IConverter<span id="ID0ECABAAAAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABAAAAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TInput, TOutput<span id="ID0EAABAAAAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABAAAAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+                  <a href="T_Accord_Imaging_Converters_IConverter_2.htm" target="">IConverter<span id="ID0ECABAABAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECABAABAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>TInput, TOutput<span id="ID0EAABAABAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABAABAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
 				</script></a>
                 </td>
                 <td>
@@ -152,6 +155,24 @@
                 </td>
               </tr>
             </table>
+            <div class="OH_CollapsibleAreaRegion">
+              <div class="OH_regiontitle">Remarks</div>
+              <div class="OH_CollapsibleArea_HrDiv">
+                <hr class="OH_CollapsibleArea_Hr" />
+              </div>
+            </div>
+            <div class="OH_clear"></div>
+            <p>
+              The image converters are able to convert to and from images defined as <span class="code">byte</span>,
+              <span class="code">double</span> and <span class="code">float</span> multi-dimensional matrices, jagged matrices, and even
+              images represented as flat arrays. It is also possible to convert images defined as
+              series of individual pixel colors into <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/4e7y164x" target="_blank">Bitmap</a>s, and back from those
+              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/4e7y164x" target="_blank">Bitmap</a>s into any of the aforementioned representations. Support for
+              AForge.NET's UnmanagedImage is also available.
+              </p>
+            <p>
+              The namespace class diagram is shown below. </p>
+            <img src="./../diagrams/classes/Accord.Imaging.Converters.png" />
           </div>
         </div>
       </div>

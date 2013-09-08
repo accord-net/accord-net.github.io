@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="04/09/2013 21:14:13">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="07/09/2013 10:51:42">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -127,11 +127,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:01.0151
+    Last step completed in 00:00:01.0251
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.3650
+    Last step completed in 00:00:00.6250
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -145,20 +145,20 @@ c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5)
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Loaded 17 assemblies for reflection and 31 dependency assemblies.
-  Info: Wrote information on 77 namespaces, 789 types, and 7278 members
+  Info: Wrote information on 78 namespaces, 790 types, and 7280 members
   XslTransform (v2.7.3.0)
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:14.6418
+    Last step completed in 00:00:11.9177
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.5930
+    Last step completed in 00:00:00.7270
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
-    Last step completed in 00:00:00.8270
+    Last step completed in 00:00:00.9161
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -172,7 +172,7 @@ Transforming reflection output...
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:24.2794
+    Last step completed in 00:00:29.0917
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -627,6 +627,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_MachineLearning_RANSAC_1__ctor_1 generated for M:Accord.MachineLearning.RANSAC`1.#ctor(System.Int32,System.Double)
     Unique name M_Accord_MachineLearning_RANSAC_1__ctor_2 generated for M:Accord.MachineLearning.RANSAC`1.#ctor(System.Int32,System.Double,System.Double)
     Unique name M_Accord_MachineLearning_RANSAC_1_Compute_1 generated for M:Accord.MachineLearning.RANSAC`1.Compute(System.Int32,System.Int32[]@)
+    Unique name M_Accord_MachineLearning_SplitSetValidation__ctor_1 generated for M:Accord.MachineLearning.SplitSetValidation.#ctor(System.Int32,System.Double,System.Int32[])
     Unique name M_Accord_MachineLearning_SplitSetValidation_1__ctor_1 generated for M:Accord.MachineLearning.SplitSetValidation`1.#ctor(System.Int32,System.Double,System.Int32[])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes__ctor_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes.#ctor(System.Int32,System.Int32[])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_Compute_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes.Compute(System.Int32[],System.Double@,System.Double[]@)
@@ -1980,7 +1981,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Vision_Tracking_TrackingObject__ctor_2 generated for M:Accord.Vision.Tracking.TrackingObject.#ctor(System.Drawing.Rectangle,AForge.IntPoint,System.Single)
     Unique name M_Accord_Vision_Tracking_TrackingObject__ctor_3 generated for M:Accord.Vision.Tracking.TrackingObject.#ctor(System.Drawing.Rectangle,System.Single)
     Unique name M_Accord_Vision_Tracking_TrackingObject_GetAxis_1 generated for M:Accord.Vision.Tracking.TrackingObject.GetAxis(Accord.Vision.Tracking.AxisOrientation)
-    Last step completed in 00:00:05.9933
+    Last step completed in 00:00:06.6224
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -2372,7 +2373,7 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Project
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:06.8344
+    Last step completed in 00:00:06.2694
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -2384,14 +2385,14 @@ Copying images and creating the media map file...
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\media\Accord.NET.png (Always copied)
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\media\Accord.NET.png (Always copied)
 Generating conceptual topic files
-    Last step completed in 00:00:00.1510
+    Last step completed in 00:00:00.4040
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     ConceptualManifest.xml
-    Last step completed in 00:00:00.0880
+    Last step completed in 00:00:00.1390
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -2529,11 +2530,11 @@ D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resourc
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (logo large).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\resources\Accord.NET (logo large).png
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Resources\Accord.NET (logo small).png
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\Resources\Accord.NET (logo small).png
-    Last step completed in 00:00:04.0412
+    Last step completed in 00:00:16.3729
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0080
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -2546,13 +2547,13 @@ Generating conceptual content intermediate TOC file...
 <plugIn name="Hierarchical Table of Contents" behavior="After" priority="1000">
 Retrieving namespace topic title from shared content...
 Creating namespace hierarchy...
-</plugIn>    Last step completed in 00:00:02.4581
+</plugIn>    Last step completed in 00:00:02.9122
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
     conceptual.config
-    Last step completed in 00:00:04.1692
+    Last step completed in 00:00:06.1454
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2573,7 +2574,7 @@ D:\Projects\Accord.NET\Assembla\Docs\Working\conceptual.config
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
     Skipping component &#39;Comments Index Data (ESENT Cache)&#39;, not used in conceptual build
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.3660
+    Last step completed in 00:00:01.4131
 </buildStep>
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
@@ -2589,7 +2590,7 @@ Building conceptual help topics...
   Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
-    Last step completed in 00:06:01.0046
+    Last step completed in 00:10:31.9181
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -2598,35 +2599,27 @@ Building reference help topics...
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Loading configuration...
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ReflectionIndexCache\Project_Ref_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_814C13BC
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ReflectionIndexCache\Project_Ref_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
   Info: Processing topics...
-  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Vision&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Imaging&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Audio&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Vision&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Imaging&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [R:Project_Accord.NET] Unknown reference link target &#39;N:Accord.Controls.Audio&#39;.
   Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Audition&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Vision&#39;.
   Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Audition&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Vision&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Audio.ComplexSignal.FromArray(AForge.Math.Complex[0:,0:],System.Int32)] Unknown reference link target &#39;T:AForge.Math.Complex&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Audio.ComplexSignal.FromArray(AForge.Math.Complex[0:,0:],System.Int32)] Unknown reference link target &#39;T:AForge.Math.Complex&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Audio.ComplexSignal.FromArray(AForge.Math.Complex[0:,0:],System.Int32)] Unknown reference link target &#39;T:AForge.Math.Complex&#39;.
@@ -5193,23 +5186,22 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Info: Processed 11185 topic(s)
-  Info: 2576 warning(s)
-  Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; highest ESENT local cache flush count: 4.  Highest ESENT current local cache usage: 1671 of 2500.
+  Info: Processed 11193 topic(s)
+  Info: 2568 warning(s)
+  Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; highest ESENT local cache flush count: 4.  Highest ESENT current local cache usage: 1672 of 2500.
   Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 0 of 15.
   Diagnostic: ESentCopyFromIndexComponent: &quot;comments&quot; highest ESENT local cache flush count: 3.  Highest ESENT current local cache usage: 875 of 2500.
   Diagnostic: ESentCopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 0 of 30.
-  Diagnostic: ESentResolveReferenceLinksComponent: New MSDN content ID cache size: 1160 entries
   Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1159 of 2500.
-  Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 4 time(s).  Current ESENT local cache usage: 1658 of 2500.
+  Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 4 time(s).  Current ESENT local cache usage: 1659 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1233 of 2500.
-    Last step completed in 00:20:42.8241
+    Last step completed in 00:18:18.3038
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:26.2405
+    Last step completed in 00:00:23.8564
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -5221,29 +5213,29 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1
-Processed 11185 HTML files
+Processed 11193 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.NET.hhk
 Saving HTML Help 1 table of contents to D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.NET.hhc
 
 Processing website files in D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website
-Processed 11185 HTML files
+Processed 11193 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Projects\Accord.NET\Assembla\Docs\Working\WebKI.xml
 Saving website table of contents to D:\Projects\Accord.NET\Assembla\Docs\Working\WebTOC.xml
-    Last step completed in 00:05:04.9844
+    Last step completed in 00:05:34.0601
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.2610
+    Last step completed in 00:00:00.6090
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -5258,13 +5250,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 46 seconds
+  Compile time: 5 minutes, 35 seconds
   
-  11,187	Topics
+  11,195	Topics
   
-  137,412	Local links
+  137,597	Local links
   
-  90,776	Internet links
+  90,841	Internet links
   
   0	Graphics
   
@@ -5272,20 +5264,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 23,839,729 bytes
+  Created d:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 23,847,207 bytes
   
-  Compression decreased file by 134,955,706 bytes.
+  Compression decreased file by 135,066,916 bytes.
   
-    Last step completed in 00:04:25.5532
+    Last step completed in 00:06:23.9020
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:01:03.9387
+    Last step completed in 00:01:27.6240
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -5403,16 +5395,16 @@ Copied 11000 files
 Copied 11100 files
 Copied 11200 files
 Copied 11300 files
-Copied 11356 files for the website content
-    Last step completed in 00:01:07.0568
+Copied 11364 files for the website content
+    Last step completed in 00:01:34.7254
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:32.7539
+    Last step completed in 00:01:11.2611
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 09/04/2013 09:54 .  Total time: 00:40:32,3411
+Build completed successfully at 09/07/2013 11:38 .  Total time: 00:46:52,6119
 
 </buildStep>
 </shfbBuild>
