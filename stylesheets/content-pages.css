@@ -201,16 +201,25 @@ aside li
 
 
 
+.clearfix:after
+{
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
 
 
 section
 {
-    position:absolute;
+    position: absolute;
     top: 10px;
     left: 300px;
     margin-top: 100px;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
+    width: 600px;
 }
 
 section p
