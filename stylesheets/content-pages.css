@@ -22,11 +22,43 @@ strong
 }
 
 
-#content-wrapper
+#whole-site-wrapper
 {
     width: 100%;
     margin: 0 auto;
+    overflow: visible;
 }
+
+#left
+{
+    width: 300px;
+}
+
+#middle
+{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    margin-top: 100px;
+    margin-right: 100px;
+    font-weight: 300;
+    text-align: left;
+    width: auto;
+}
+
+#right
+{
+    top: 50px;
+    right: 15px;
+    position: fixed;
+    margin-top: 50px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+
+
+
 
 #accord-logo
 {
@@ -82,9 +114,20 @@ aside li
     background-size: 32px 32px;
 }
 
+#li-publications
+{
+    background: url('../images/metro/appbar.draw.pen.reflection.png') no-repeat top left;
+    background-size: 32px 32px;
+}
 #li-docs
 {
     background: url('../images/metro/appbar.book.hardcover.open.png') no-repeat top left;
+    background-size: 32px 32px;
+}
+
+#li-license
+{
+    background: url('../images/metro/appbar.heart.png') no-repeat top left;
     background-size: 32px 32px;
 }
 
@@ -124,28 +167,17 @@ aside li
     background-size: 32px 32px;
 }
 
-#right-buttons
+.google-plus
 {
-    right: 50px;
-    position: fixed;
-    margin-top: 50px;
-    float: right;
-    width: 50px;
-    height: 363px;
-    vertical-align: middle;
-}
-
-#download-buttons
-{
-    margin-top: 50px;
-    width: 200px;
-    padding: 0;
+    display: block;
+    text-align: center;
+    width: 150px;
 }
 
 #download-buttons ul
 {
     list-style: none;
-    height: 40px;
+    height: 100px;
     padding: 0;
 }
 
@@ -213,13 +245,7 @@ aside li
 
 section
 {
-    position: absolute;
-    top: 10px;
-    left: 300px;
-    margin-top: 100px;
-    font-weight: 300;
-    text-align: left;
-    width: 600px;
+    
 }
 
 section p
@@ -252,6 +278,11 @@ section p
 .section-panel h1
 {
     font-size: 20px;
+}
+
+#comments
+{
+    margin-top: 50px;
 }
 
 
