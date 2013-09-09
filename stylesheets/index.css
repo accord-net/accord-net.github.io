@@ -9,17 +9,6 @@ body
     font-weight: 300;
 }
 
-a
-{
-    color: #39c;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-strong
-{
-    font-weight: bold;
-}
 
 
 #content-wrapper
@@ -164,17 +153,6 @@ section p
     font-size: 20px;
 }
 
-
-.icons
-{
-    -webkit-filter: grayscale(1) opacity(0.2);
-}
-
-.icons:hover
-{
-    -webkit-filter: grayscale(0) opacity(1);
-    -webkit-transition: 0.5s all ease-out;
-}
 
 #more
 {
