@@ -168,26 +168,37 @@
                 {% include disqus.html %}
             </div>
             {% endif %}
+            <!-- 
+
+            // Footer: some debug and version information
+            // -------------------------------------------------------------------------------->
+            <footer>
+                <p>
+                    Site last generated on {{site.time}}</p>
+            </footer>
         </div>
-        <!-- 
-        // Hidden area: contains divs which should not be shown in the page
-        // -------------------------------------------------------------------------------->
-        <div id="paypal-tooltip" style="display: none">
-            <p>
-                Have you found this software useful?
-                <br />
-                Consider donating just <strong>US$10</strong>
-                <br />
-                so it can get even better!</p>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-                rel="nofollow" target="_blank">
-                <img align="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                    width="92" height="26" /></a>
-            <p>
-                This software is completely free and will<br />
-                <strong>always stay free</strong>
-            . Enjoy!
-        </div>
+    </div>
+    <!-- 
+
+
+
+    // Hidden area: contains divs which should not be shown in the page
+    // -------------------------------------------------------------------------------->
+    <div id="paypal-tooltip" style="display: none">
+        <p>
+            Have you found this software useful?
+            <br />
+            Consider donating just <strong>US$10</strong>
+            <br />
+            so it can get even better!</p>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
+            rel="nofollow" target="_blank">
+            <img align="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                width="92" height="26" /></a>
+        <p>
+            This software is completely free and will<br />
+            <strong>always stay free</strong>
+        . Enjoy!
     </div>
 </body>
 </html>
