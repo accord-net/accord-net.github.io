@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Accord.NET Framework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="stylesheets/content-pages.css" />
     <link rel="Stylesheet" href="stylesheets/jquery.powertip.css" />
@@ -50,7 +50,7 @@
                 &#x222e;</div>
             <header>
                 <h1>
-                    Sample applications</h1>
+                    {{ page.title }}</h1>
             </header>
             <aside>
                 <h1>
@@ -111,8 +111,8 @@
         // -------------------------------------------------------------------------------->
         <div id="middle">
             <section>
-            {% if contents %} 
-                {{ contents }}
+            {% if page.layout %} 
+                {{ content }}
             {% else }
             <h1>
                 Title</h1>
