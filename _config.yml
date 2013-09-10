@@ -1,9 +1,8 @@
-auto: true
 safe: true
 lsi: false
 pygments: true
 
-exclude: ['README.md', 'config.rb', 'docs', '*.sln', '*.suo']
+exclude: ['README.md', 'config.rb', 'docs', '*.sln', '*.suo', '*.config']
 
 domain: accord.github.io
 title: Accord.NET Framework
