@@ -4,7 +4,213 @@ title: "Sample applications"
 comments: true
 ---
 
-<p>
-	Those are the sample applications available in the framework:
-</p>
-
+<div>
+    <p>
+        Those are the sample applications available in the framework:
+    </p>
+    <h2>
+        Audio</h2>
+    <h3>
+        Fourier</h3>
+    <p>
+        A simple audio spectrum analyzer using Fast Fourier Transform (FFT). Can optionally
+        use audio windows (i.e. Hamming) to reduce bin leakage in the spectrum.</p>
+    <h3>
+        Beat Detector</h3>
+    <p>
+        A simple beat detector which listens to the default input device and tries to detect
+        peaks in the audio signal. It is a statistics based beat detector in the sense it
+        searches local energy peaks which may contain a beat. The application also demonstrates
+        the usage of the Metronome class of the framework, which allows one to detect the
+        current tempo by "tapping" the metronome.</p>
+    <h3>
+        Recorder</h3>
+    <p>
+        A simple wave recorder able to capture sound from the microphone.</p>
+    <h2>
+        Imaging</h2>
+    <h3>
+        Image Classification</h3>
+    <p>
+        Shows how to classify images using the Baf of Visual Words (BoW) model and Support
+        Vector Machines (SVM).</p>
+    <h3>
+        FAST Corners Detector</h3>
+    <p>
+        Demonstration of the FAST corners detector in the world-famous Lena Söderberg's
+        picture.</p>
+    <h3>
+        Harris Corners Detector</h3>
+    <p>
+        Demonstration of the Harris corners detector in the world-famous Lena Söderberg's
+        picture.</p>
+    <h3>
+        SURF Features Detector</h3>
+    <p>
+        Demonstration of the SURF features detector in the world-famous Lena Söderberg's
+        picture.</p>
+    <h3>
+        Image Stitching (panorama)</h3>
+    <p>
+        The Panorama sample application demonstrates how the framework can be used to automatically
+        stitches two images together by using the Harris corners detector, Correlation matching,
+        homography estimation, RANSAC and the image blending filter.</p>
+    <h3>
+        Wavelets</h3>
+    <p>
+        Demonstration of the Haar and CDF9/7 wavelet transform for images.</p>
+    <h2>
+        Machine Learning</h2>
+    <h3>
+        Handwriting (Multi-class SVM)</h3>
+    <p>
+        Handwritten digits recognition by using Multi-class Kernel Support Vector Machines.</p>
+    <h3>
+        RANdom SAmple Consensus (RANSAC)</h3>
+    <p>
+        The RANSAC sample application demonstrates how to use RANSAC to robustly fit a linear
+        regression, avoiding the negative impact of outliers in the regression data.</p>
+    <h3>
+        Kernel Support Vector Machines</h3>
+    <p>
+        A sample application demonstrating how to perform classification and regression
+        using (Kernel) Support Vector Machines. The sample datasets which can be used in
+        the application can be found in the Resources folder in the application main directory.</p>
+    <h3>
+        K-Means Color Clustering</h3>
+    <p>
+        A sample application demonstrating the use of K-Means for color reduction (color
+        clustering) in images.</p>
+    <h3>
+        Gaussian Mixture Models (GMM)</h3>
+    <p>
+        Multivariate Gaussian mixture distribution fitting using Expectation-Maximization.
+        The method is first initialized using K-Means clustering.</p>
+    <h3>
+        Decision Trees (DT)</h3>
+    <p>
+        Decision tree learning with ID3 and C4.5 algorithms.</p>
+    <h2>
+        Mathematics</h2>
+    <h3>
+        Quadratic Programming (QP) Solver</h3>
+    <p>
+        Quadratic Programming (QP) problem solving using the dual method of Goldfarb and
+        Idnani. Translated from the original Fortran code by Berwin A. Turlach.</p>
+    <h2>
+        Neuro</h2>
+    <h3>
+        Levenberg-Marquardt</h3>
+    <p>
+        An adaptation of the original AForge.NET Neuro sample applications to work with
+        Levenberg-Marquardt instead of Backpropagation. Includes solutions for approximation,
+        time-series prediction and the exclusive-or (XOR) problem using neural networks
+        trained by Levenberg-Marquardt.</p>
+    <h3>
+        Resilient Backpropagation (RProp)</h3>
+    <p>
+        An adaptation of the original AForge.NET Neuro sample applications to work with
+        the parallel Resilient Backpropagation instead of the standard Backpropagation.
+        Includes solutions for approximation, time-series prediction and the exclusive-or
+        (XOR) problem using neural networks trained by RProp.</p>
+    <h2>
+        Statistics</h2>
+    <h3>
+        Handwriting (KDA)</h3>
+    <p>
+        Handwritten digits recognition by using Non-linear (Multiple) Discriminant Analysis
+        using Kernels (KDA).</p>
+    <h3>
+        Hidden Markov Models</h3>
+    <p>
+        Demonstrates how to use Hidden Markov Models (HMMs) and Accord.NET Markov Sequence
+        Classifiers to recognize sequences of discrete observations.</p>
+    <h3>
+        Kernel Discriminant Analysis (KDA)</h3>
+    <p>
+        Sample application demonstrating how to use Kernel Discriminant Analysis (also known
+        as KDA, or ''Non-linear (Multiple) Discriminant Analysis using Kernels'') to perform
+        non-linear transformation and classification. The sample datasets which can be used
+        in the application are available under the Resources folder in the main directory
+        of the application.</p>
+    <h3>
+        Kernel Principal Component Analysis (KPCA)</h3>
+    <p>
+        Sample application demonstrating how to use Kernel Principal Component Analysis
+        (KPCA) to perform non-linear transformations and dimensionality reduction. The sample
+        datasets which can be used in the application are available under the Resources
+        folder in the main directory of the application.</p>
+    <h3>
+        Linear Discriminant Analysis (LDA)</h3>
+    <p>
+        Sample application demonstrating how to use Linear Discriminant Analysis (also known
+        as LDA, or ''Fisher's (Multiple) Linear Discriminant Analysis'') to perform linear
+        transformations and classification. The sample datasets which can be used in the
+        application are available under the Resources folder in the main directory of the
+        application.</p>
+    <h3>
+        Principal Component Analysis (PCA)</h3>
+    <p>
+        Sample application demonstrating how to use Principal Component Analysis (PCA) to
+        perform linear transformations and dimensionality reduction. The sample datasets
+        which can be used in the application are available under the Resources folder in
+        the main directory of the application.</p>
+    <h3>
+        Independent Component Analysis (ICA)</h3>
+    <p>
+        Sample application demonstrating how to use Independent Component Analysis (ICA)
+        to perform blind source separation of audio signals. The audio is processed using
+        the Accord.Audio modules of the framework.</p>
+    <h3>
+        Partial Least Squares (PLS)</h3>
+    <p>
+        Demonstrates how to use Partial Least Squares to fit a (multiple and multivariate)
+        linear regression model from high-dimensionality data.</p>
+    <h3>
+        Linear and Logistic Regression Analysis</h3>
+    <p>
+        Sample application for creating and fitting Logistic Regression models. Also fits
+        a multiple linear regression model for comparison purposes, and performs chi-square
+        tests and computes Wald's statistics for the logistic regression coefficients.</p>
+    <h3>
+        Receiver Operating Characteristic (ROC) Curves</h3>
+    <p>
+        Sample application demonstrating how to create and visualize Receiver-Operating
+        Characteristic Curves from a given set of results from a test or a classification
+        process.</p>
+    <h3>
+        Mouse Gestures</h3>
+    <p>
+        Learning and recognition of mouse gestures using hidden Markov model-based classifiers.</p>
+    <h2>
+        Vision</h2>
+    <h3>
+        Face Detection (Haar object detector)</h3>
+    <p>
+        Face detection using the Face detection based in Haar-like rectangular features
+        method often known as the Viola-Jones method.</p>
+    <h3>
+        Face Tracking (Camshift</h3>
+    <p>
+        Face (or object) tracking using Viola-Jones for face detection and Camshift as the
+        object tracker. Can be used in RGB and HSL color spaces (may require some tuning
+        for HSL).</p>
+    <h3>
+        Head-based Controller</h3>
+    <p>
+        Sample application demonstrating how to use the Accord.Vision.Controls.Controller
+        component to provide joystick-like controls for a Windows Form application. Its
+        component design makes adding support for head-based controlling as easy as dragging
+        and dropping a component into a Form.</p>
+    <h2>
+        Video</h2>
+    <h3>
+        Screencast Capture Lite</h3>
+    <p>
+        Screencast Capture Lite is a tool for recording the desktop screen and saving it
+        to a video file, preserving quality as much as possible. It is a real application,
+        and also a demonstration of the use of the AForge.NET and Accord.NET Frameworks
+        to build multimedia applications, capturing video and audio streams from different
+        sources.
+    </p>
+</div>
