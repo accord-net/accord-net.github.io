@@ -55,7 +55,7 @@ aside
     color: ThreeDShadow;
     font-weight: 100;
     text-shadow: 3px 5px 10px ThreeDShadow;
-    font-family: Cambria; /*-webkit-font-smoothing: subpixel-antialiased;*/
+    font-family: Cambria;
     opacity: 0.1;
     cursor: default;
     z-index: -999999;
@@ -85,73 +85,67 @@ nav li
     list-style-type: none;
     height: 20px;
     padding: 5px 0 0 35px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 32px 32px;
 }
 
 #li-intro
 {
-    background: url('../images/metro/appbar.beer.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.beer.png');
 }
 
 #li-samples
 {
-    background: url('../images/metro/appbar.candy.cane.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.candy.cane.png');
 }
 
 #li-publications
 {
-    background: url('../images/metro/appbar.draw.pen.reflection.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.draw.pen.reflection.png');
 }
 
 #li-docs
 {
-    background: url('../images/metro/appbar.book.hardcover.open.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.book.hardcover.open.png');
 }
 
 #li-license
 {
-    background: url('../images/metro/appbar.heart.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.heart.png');
 }
 
 #li-issues
 {
-    background: url('../images/metro/appbar.bug.remove.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.bug.remove.png');
 }
 
-#li-submit
+#li-contribute
 {
-    background: url('../images/metro/appbar.cloud.upload.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.cloud.upload.png');
 }
 
 #li-forums
 {
-    background: url('../images/metro/appbar.speakerphone.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.speakerphone.png');
 }
 
 #li-faq
 {
-    background: url('../images/metro/appbar.question.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.question.png');
 }
 
 #li-contact
 {
-    background: url('../images/metro/appbar.email.hardedge.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.email.hardedge.png');
 }
 
 #li-about
 {
-    background: url('../images/metro/appbar.information.png') no-repeat top left;
-    background-size: 32px 32px;
+    background-image: url('../images/metro/appbar.information.png');
 }
+
+
 
 .google-plus
 {
@@ -323,12 +317,11 @@ article .video
     border-radius: 5px;
     border: 1px solid #d2d2d2;
     box-shadow: inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-    
-    -webkit-box-flex: auto;    /* iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 1.0;        /* Firefox 19- */
-    -webkit-flex: auto;        /* Chrome */
-    -ms-flex: auto;            /* IE10 */
-    flex: auto;                /* Opera 12.1, Firefox 20+ */
+    -webkit-box-flex: auto; /* iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1.0; /* Firefox 19- */
+    -webkit-flex: auto; /* Chrome */
+    -ms-flex: auto; /* IE10 */
+    flex: auto; /* Opera 12.1, Firefox 20+ */
 }
 
 .sample-app p
@@ -388,7 +381,7 @@ article .video
     font-size: 12pt;
 }
 
-#license h2+p
+#license h2 + p
 {
     font-weight: 300;
     margin-left: 20px;
