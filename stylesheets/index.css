@@ -19,6 +19,7 @@ body
 
 #accord-logo
 {
+    display: block;
     margin: auto;
     background-image: url('http://accord-net.github.io/docs/resources/Accord.NET%20%28logo%20large%29.png');
     background-position: center;
