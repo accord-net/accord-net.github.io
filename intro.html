@@ -5,73 +5,109 @@ comments: false
 ---
 
 <div>
+    <h1>
+        The Accord.NET Framework</h1>
     <p>
-        The Accord.NET Framework is a software framework to aid building scientific computing
-        applications. If you are doing research, and would like to quickly experiment with
-        old and new machine learning techniques, this framework is for you. But if you would
-        like to build neat stuff, including commercial products taking advantage of modern
-        pattern recognition techniques, then this framework is for you too.
-    </p>
-    <p>
-        This framework has been crafted with two goals in mind: extensibility and interoperability.
-        Extensibility is achieved through the careful use of common interfaces to model
-        common problems, such as learning algorithms and machine learning models. Maximum
-        interoperability is achieved by minimizing dependencies on (externally visible)
-        data structures and focusing on what is already present in the .NET framework. This
-        may be most easily seen by inspecting the framework's <a href="docs/html/T_Accord_Math_Matrix.htm">
-            matrix library</a> and the way it operates over standard .NET components using
-        extension methods. This means the framework can be used <i>alongside</i> other libraries
-        and frameworks with minimum impendance.
-    </p>
-    <p>
-        The framework comes with more than 40 different statistical distributions which
-        can be plugged in the most varying methods (such as Hidden Markov Models) and can
-        be combined in a number of ways to create a possibly infinite number of mixture
-        and joint distributions. The presence of more than 30 hypothesis tests also assures
-        you will be able to validate your results with ease, even for contingency tables
-        or multivariate observations. For machine learning applications, there are also
-        more than 38 kernel functions to chose from.
+        Accord.NET is a framework for scientific computing in .NET. The framework builds
+        upon AForge.NET, an also popular framework for image processing, supplying new tools
+        and libraries. Those libraries encompass a wide range of scientific computing applications,
+        such as statistical data processing, machine learning, pattern recognition, including
+        but not limited to, computer vision and computer audition. The framework offers
+        a large number of probability distributions, hypothesis tests, kernel functions
+        and support for most popular performance measurements techniques.
     </p>
     <h1>
-        Then what can I do with it?</h1>
+        Structural organization</h1>
     <p>
-        You can toy around:</p>
-    <div class="center">
+        The framework is divided in libraries, available either through an executable installer,
+        standalone compressed archives and <a href="http://nuget.org/packages?q=Accord.NET"
+            rel="nofollow">NuGet packages</a>. Those libraries include:
+    </p>
+    <h2>
+        Scientific Computing</h2>
+    <ul>
+        <li><strong>Accord.Math</strong> - Contains a matrix extension library, along with a
+            suite of numerical matrix decomposition methods, numerical optimization algorithms
+            for constrained and unconstrained problems, special functions and other tools for
+            scientific applications. </li>
+        <li><strong>Accord.Statistics</strong> - Probability distributions, statistical models
+            and methods such as Linear and Logistic regression, Hidden Markov Models, (Hidden)
+            Conditional Random Fields, Principal Component Analysis, Partial Least Squares,
+            Discriminant Analysis, Kernel methods and functions and many other related techniques.
+        </li>
+        <li><strong>Accord.MachineLearning</strong> - Support Vector Machines, Decision Trees,
+            Naive Bayesian models, K-means, Gaussian Mixture models and general algorithms such
+            as RANSAC, Cross-validation and Grid-Search for machine-learning applications.
+        </li>
+        <li><strong>Accord.Neuro</strong> - Neural learning algorithms such as Levenberg-Marquardt,
+            Parallel Resilient Backpropagation, initialization procedures such as Nguyen-Widrow
+            and other neural network related methods. </li>
+    </ul>
+    <h2>
+        Signal and Image Processing</h2>
+    <ul>
+        <li><strong>Accord.Imaging</strong> - Interest point detectors (Harris, SURF and FAST),
+            image matching and image stitching methods </li>
+        <li><strong>Accord.Audio</strong> - Process, transforms, filters and handle audio signals
+            for machine learning and statistical applications. </li>
+        <li><strong>Accord.Vision</strong> - Real-time face detection and tracking, as well
+            as general methods for detecting, tracking and transforming objects in image streams.
+            Contains cascade definitions, Camshift and Dynamic Template Matching trackers.
+        </li>
+    </ul>
+    <h2>
+        Support Libraries</h2>
+    <ul>
+        <li><strong>Accord.Controls</strong> - Histograms, scatter-plots and tabular data viewers
+            for scientific applications. </li>
+        <li><strong>Accord.Controls.Imaging</strong> - Windows Forms controls to show and handle
+            images. Contains a convenient ImageBox<a href="/p/accord/w/edit/ImageBox">?</a>
+            control which mimics the traditional MessageBox<a href="/p/accord/w/edit/MessageBox">?</a>
+            behavior for quickly displaying or inspecting images. </li>
+        <li><strong>Accord.Controls.Audio</strong> - Windows Forms controls to display waveforms
+            and audio-related information. </li>
+        <li><strong>Accord.Controls.Vision</strong> - Windows Forms components and controls
+            to track head, face and hand movements and other computer vision related tasks.
+        </li>
+    </ul>
+    <h1>
+        Highlights</h1>
+        <p>Some features that might interest you:</p>
+    <ul>
+        <li>A <a href="docs/html/T_Accord_Math_Matrix.htm">matrix library based on extension
+            methods over standard .NET structures</a>, giving room for increased code reuse
+            and allowing the gradual change of already existing algorithms;</li>
+        <li>More than 40 different statistical distributions which can be plugged in the most
+            varying statistical methods, such as Hidden Markov Models and mixture models;</li>
+        <li>More than 30 hypothesis tests, including one-sample, two-sample, multiple-sample 
+            tests, contingency table tests for performance assessment and ANOVA tests;</li>
+        <li>More than 38 kernel functions ready to be plugged into any of the available kernel
+            methods, such as Kernel Support Vector Machines, Kernel Principal Components and 
+            Kernel Discriminant Analysis. </li>
+    </ul>
+    <h1>
+        Sample applications
+    </h1>
+    <p>
+        The framework comes with a library of sample applications so you can start writing
+        code earlier. Applications range from statistics data preprocessing (statistical 
+        analysis, including PCA, KDA, LDA, PLS), image processing (image categorization, 
+        corners detection, image stitching), audio processing (data gathering, blind source
+        separation), to video processing (depth image analysis with Microsoft's Kinect).
+    </p>
+    <p>
+       Two sample applications are shown below:
+    </p>
+    <div class="video">
         <iframe src="//www.youtube.com/embed/m7dA86oyJvU?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
             width="560" height="315" frameborder="0" allowfullscreen="1"></iframe>
         <iframe src="//www.youtube.com/embed/tqAfqJsW2Wo?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
             width="560" height="315" frameborder="0" allowfullscreen="1"></iframe>
     </div>
-    <p>
-        But you can do some serious business too:</p>
-    <a href="publications.html">List of published works using the Accord.NET Framework</a>.
     <h1>
-        And <i>how</i> can I do any of this?</h1>
+        Real-world, academical and practical applications</h1>
     <p>
-        The easiest path to build your own application with the framework is to get one
-        of the sample applications that most resembles what you are trying to do and run
-        with it. The sample application library demonstrates many of the framework features
-        with simple problems. Those applications include examples ranging from statistics
-        data preprocessing (such as applying statistical analysis, including PCA, KDA, LDA,
-        PLS), image processing (such as image categorization, corners detection, image stiching),
-        audio processing (data gathering, blind source separation), to depth image processing
-        using Microsoft's Kinect.
-    </p>
-    <p>
-        If you don't find a sample application that is closer to what you are trying to
-        do, don't be afraid of <a href="http://accord-net.github.io/docs/Index.html">checking
-            the documentation</a>: code examples, <a href="/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_MulticlassSupportVectorLearning.htm">
-                such as those</a>, may be able to help.
-    </p>
-    <p>
-        And finally, if neither of those could fulfill your needs, you are more than welcome
-        to use the discussion groups and post your question!
-    </p>
-    <h1>
-        Seems good! Where do I sign up?</h1>
-    <p>
-        You can start by following the <a href="get-started.html">getting started guide</a>.
-        This guide will walk you in the first steps of downloading, linking and setting
-        up and environment to start experimenting with the framework.
-    </p>
+        Here is a <a href="publications.html">list of published works using the Accord.NET 
+        Framework</a>, including academical publications, hobby and commercial products,
+        research projects and teaching material.</p>
 </div>

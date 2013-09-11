@@ -4,10 +4,10 @@ title: "Frequently Asked Questions"
 comments: true
 ---
 
-<div>
-    <h2>
+<div id="faq">
+    <h1>
         How fast is Support Vector Machine (SVM) learning?
-    </h2>
+    </h1>
     <p>
         Users often find the SVM learning algorithm to take too much time. This, however,
         may be a reflection of the particular choice of learning parameters. For instance,
@@ -15,7 +15,7 @@ comments: true
             complexity parameter C</a>) using a linear kernel in a non-linearly separable
         dataset will diverge and possibly lead to an infinite loop. In those cases, consider
         using the automatic parameter estimation routines in <a href="http://accord-net.github.io/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">
-            SequentialMinimalOptimization</a> and in the choosen Kernel function. Values
+            SequentialMinimalOptimization</a> and in the chosen Kernel function. Values
         returned by those routines may lead to more sparse machines and faster training
         times.
     </p>
@@ -31,22 +31,22 @@ comments: true
         returned from those heuristics can be used as a starting point for hyperparameter
         tuning.
     </p>
-    <h2>
+    <h1>
         Why I am getting <a href="http://msdn.microsoft.com/en-us/library/system.outofmemoryexception.aspx">
             OutOfMemoryExceptions</a> when training my Vector Machines?
-    </h2>
+    </h1>
     <p>
         The framework automatically builds a kernel function cache to help speed up computations
         during SVM learning. However, there are cases that this cache may take too much
-        memory and lead to such exceptions. To make a balance between memory comsumption
+        memory and lead to such exceptions. To make a balance between memory consumption
         and CPU speed, set the <a href="http://accord-net.github.io/docs/html/P_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_CacheSize.htm">
             CacheSize</a> property to a lower value. The default is to store all input vectors
         in the cache; setting it to something lower (such as 1/20 the number of training
         samples might help.
     </p>
-    <h2>
+    <h1>
         Why can't I open Excel worksheets using ExcelReader?
-    </h2>
+    </h1>
     <p>
         To open Excel files, you have to install the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=13255">
             Microsoft Access Database Engine 2010 Redistributable</a>, available <a href="http://www.microsoft.com/en-us/download/details.aspx?id=13255">
@@ -61,12 +61,11 @@ comments: true
         <li>C:\Users\You\Downloads\AccessDatabaseEngine.exe /passive</li>
         <li>C:\Users\You\Downloads\AccessDatabaseEngine_x64.exe /passive</li>
     </ul>
-    <h2>
-        Why am I getting "non-positive definite" or "variance is zero" exceptions when I
-        am trying to estimate my model?
-    </h2>
+    <h1>
+        Why am I getting "non-positive definite" or "variance is zero" exceptions?
+    </h1>
     <p>
-        If you enconter any of the exceptions:
+        If you encounter any of the exceptions:
     </p>
     <ul>
         <li>"Variance is zero. Try specifying a regularization constant in the fitting options",

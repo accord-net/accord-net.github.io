@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ page.title }} - Accord.NET Framework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="stylesheets/common.css" />
     <link rel="stylesheet" href="stylesheets/contents.css" />
     <link rel="stylesheet" href="stylesheets/jquery.powertip.css" />
@@ -42,82 +43,78 @@
  
 </script>
 <body>
-    <div id="whole-site-wrapper">
-        <!-- 
-
+    <!-- 
 
         // Left area: the area containing the header and the table of contents for the site
         // -------------------------------------------------------------------------------->
-        <div id="left">
+    <div id="left">
+        <header>
             <div id="accord-logo">
                 &#x222e;</div>
-            <header>
-                <h1>
-                    {{ page.title }}</h1>
-            </header>
-            <aside>
-                <h1>
-                    <a href="index.html">Accord.NET Framework</a></h1>
+            <h1>
+                {{ page.title }}</h1>
+        </header>
+        <nav>
+            <h1>
+                <a href="index.html">Accord.NET Framework</a></h1>
+            <ul>
+                <li id="li-intro"><a href="intro.html">Introduction</a></li>
+                <li id="li-samples"><a href="samples.html">Sample apps</a></li>
+                <li id="li-docs"><a href="docs/Index.html">Documentation</a></li>
+                <li id="li-issues"><a href="https://code.google.com/p/accord/issues/list" target="_blank">
+                    Report issues</a></li>
+                <li id="li-contribute"><a href="submit.html">Contribute</a></li>
+                <li id="li-publications"><a href="publications.html">Publications</a></li>
+                <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net" target="_blank">
+                    Discussions</a></li>
+                <li id="li-faq"><a href="faq.html">Questions</a></li>
+                <!-- <li id="li-contact"><a href="contact.html">Contact</a></li> -->
+                <li id="li-license"><a href="license.html">License</a></li>
+                <!-- <li id="li-about"><a href="about.html">About</a></li> -->
+            </ul>
+            <div id="download-buttons">
                 <ul>
-                    <li id="li-intro"><a href="intro.html">Introduction</a></li>
-                    <li id="li-samples"><a href="samples.html">Sample apps</a></li>
-                    <li id="li-docs"><a href="docs/Index.html">Documentation</a></li>
-                    <li id="li-issues"><a href="https://code.google.com/p/accord/issues/list" target="_blank">
-                        Report issues</a></li>
-                    <li id="li-submit"><a href="submit.html">Contribute</a></li>
-                    <li id="li-publications"><a href="publications.html">Publications</a></li>
-                    <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net" target="_blank">
-                        Discussions</a></li>
-                    <li id="li-faq"><a href="faq.html">Questions</a></li>
-                    <!-- <li id="li-contact"><a href="contact.html">Contact</a></li> -->
-                    <li id="li-license"><a href="license.html">License</a></li>
-                    <!-- <li id="li-about"><a href="about.html">About</a></li> -->
+                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
+                        Download <strong>Installer</strong> <span class="version">(v2.10)</span></a></li>
+                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
+                        Download <strong>Archive</strong> <span class="version">(v2.10)</span></a></li>
                 </ul>
-                <div id="download-buttons">
-                    <ul>
-                        <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
-                            Download <strong>Installer</strong> <span class="version">(v2.10)</span></a></li>
-                        <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
-                            Download <strong>Archive</strong> <span class="version">(v2.10)</span></a></li>
-                    </ul>
+            </div>
+            <div class="google-plus">
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-href="http://accord-net.github.io">
                 </div>
-                <div class="google-plus">
-                    <!-- Place this tag where you want the +1 button to render. -->
-                    <div class="g-plusone" data-href="http://accord-net.github.io">
-                    </div>
-                    <!-- Place this tag after the last +1 button tag. -->
-                    <script type="text/javascript">
-                        (function () {
-                            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                            po.src = 'https://apis.google.com/js/plusone.js';
-                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                        })();
-                    </script>
-                </div>
-            </aside>
-        </div>
-        <!-- 
-
+                <!-- Place this tag after the last +1 button tag. -->
+                <script type="text/javascript">
+                    (function () {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                    })();
+                </script>
+            </div>
+        </nav>
+    </div>
+    <!-- 
 
         // Right area: contains the Youtube, LinkedIn and Paypal buttons
         // -------------------------------------------------------------------------------->
-        <div id="right">
-            <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
-                <img id="linkedin" class="icons" alt="LinkedIn" src="images/metro/appbar.social.linkedin.color.png" /></a>
-            <a href="http://www.youtube.com/playlist?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
-                target="_blank">
-                <img id="youtube" class="icons" alt="YouTube" src="images/metro/appbar.youtube.color.png" /></a>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-                target="_blank">
-                <img id="paypal" class="icons" alt="PayPal" src="images/metro/appbar.paypal.color.png" /></a>
-        </div>
-        <!-- 
-
+    <aside>
+        <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
+            <img id="linkedin" class="icons" alt="LinkedIn" src="images/metro/appbar.social.linkedin.color.png" /></a>
+        <a href="http://www.youtube.com/playlist?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
+            target="_blank">
+            <img id="youtube" class="icons" alt="YouTube" src="images/metro/appbar.youtube.color.png" /></a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
+            target="_blank">
+            <img id="paypal" class="icons" alt="PayPal" src="images/metro/appbar.paypal.color.png" /></a>
+    </aside>
+    <!-- 
 
         // Middle area: contains the actual page contents
         // -------------------------------------------------------------------------------->
-        <div id="middle">
-            <section>
+    <div id="middle">
+        <article>
             {% if content %} 
                 {{ content }}
             {% else %}
@@ -223,43 +220,44 @@
                 nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.</p>
 
             {% endif %}
-            </section>
-            {% if page.comments %}
-            <div id="comments">
-                {% include disqus.html %}
-            </div>
-            {% endif %}
+            </article>
+        {% if page.comments %}
+        <div id="comments">
+            {% include disqus.html %}
         </div>
-        <!-- 
-
+        {% endif %}
+    </div>
+    <!-- 
 
         // Footer: some debug and version information
         // -------------------------------------------------------------------------------->
-        <footer>
-            <p>
-                Site last generated on {{site.time}}</p>
-        </footer>
-        <!-- 
-
+    <footer>
+        <p>
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+                Creative Commons Attribution 3.0 Unported License</a>.</p>
+        <p>
+            Copyright 2013 &copy; César Souza. Some rights reserved. Site last generated on
+            {{site.time}}</p>
+    </footer>
+    <!-- 
 
         // Hidden area: contains divs which should not be shown in the page
         // -------------------------------------------------------------------------------->
-        <div id="paypal-tooltip" style="display: none">
-            <p>
-                Have you found this software useful?
-                <br />
-                Consider donating just <strong>US$10</strong>
-                <br />
-                so it can get even better!</p>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-                rel="nofollow" target="_blank">
-                <img align="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                    width="92" height="26" alt="Donate!"/></a>
-            <p>
-                This software is completely free and will<br />
-                <strong>always stay free</strong>
-            . Enjoy!
-        </div>
+    <div id="paypal-tooltip" style="display: none">
+        <p>
+            Have you found this software useful?
+            <br />
+            Consider donating just <strong>US$10</strong>
+            <br />
+            so it can get even better!</p>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
+            rel="nofollow" target="_blank">
+            <img align="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                width="92" height="26" alt="Donate!" /></a>
+        <p>
+            This software is completely free and will<br />
+            <strong>always stay free</strong>
+        . Enjoy!
     </div>
 </body>
 </html>

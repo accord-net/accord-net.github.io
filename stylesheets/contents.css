@@ -11,16 +11,6 @@ body
     font-family: 'Lato' , sans-serif;
     font-weight: 300;
     color: #777;
-    font-weight: 300;
-}
-
-
-
-
-#whole-site-wrapper
-{
-    width: 100%;
-    height: 100%;
     margin: 0 auto;
 }
 
@@ -30,20 +20,19 @@ body
     left: 20;
     position: absolute;
     width: 230px;
-    height: 100%;
     white-space: nowrap;
 }
 
 #middle
 {
-    margin-left: 230px;
+    padding-left: 230px;
     padding-top: 90px;
     padding-right: 120px;
     font-weight: 300;
     text-align: left;
 }
 
-#right
+aside
 {
     top: 50px;
     right: 15px;
@@ -79,19 +68,19 @@ header h1
 }
 
 
-aside h1
+nav h1
 {
     text-transform: uppercase;
     font-size: 10pt;
 }
 
-aside ul
+nav ul
 {
     margin-top: 50px;
     padding-left: 15px;
 }
 
-aside li
+nav li
 {
     list-style-type: none;
     height: 20px;
@@ -115,6 +104,7 @@ aside li
     background: url('../images/metro/appbar.draw.pen.reflection.png') no-repeat top left;
     background-size: 32px 32px;
 }
+
 #li-docs
 {
     background: url('../images/metro/appbar.book.hardcover.open.png') no-repeat top left;
@@ -181,6 +171,7 @@ aside li
 {
     margin-left: 25px;
 }
+
 #download-buttons li
 {
     border-right: 1px solid #d2d2d2;
@@ -243,33 +234,165 @@ aside li
 }
 
 
-section
+article
 {
     min-height: 300px;
+    max-width: 760px;
+    text-align: justify;
 }
 
-section p
+article p
 {
-    font: 12px Segoe UI, Helvetica, Arial, sans-serif;
-    color: #333333;
+    color: #777;
+    font-size: 12pt;
+    line-height: 15pt;
+    font-weight: normal;
     margin-top: 0;
 }
 
-section h1
+article li
+{
+    margin-right: 20px;
+}
+
+article h1
 {
     font-size: 16pt;
 }
 
-section h2
+article h2
 {
     font-size: 12pt;
 }
 
-section h3
+article h3
 {
     font-size: 10pt;
 }
 
+article .video
+{
+    text-align: center;
+}
+
+#samples h1
+{
+    clear: both;
+    width: 100%;
+}
+
+#samples section
+{
+    display: -webkit-box; /* iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* Firefox 19- */
+    display: -ms-flexbox; /* IE 10 */
+    display: -webkit-flex; /* Chrome */
+    display: flex; /* Opera 12.1, Firefox 20+ */ /* iOS 6-, Safari 3.1-6 */
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    -webkit-lines: multiple; /* Only here for informative purpose, this line is what should have made it work, it has never been implemented */ /* Firefox 19- */
+    -moz-flex-flow: row wrap;
+    -moz-justify-content: space-between;
+    -moz-box-lines: multiple; /* Only here for informative purpose, this line is what should have made it work, it has never been implemented */ /* Chrome */
+    -webkit-flex-flow: row wrap;
+    -webkit-justify-content: space-between; /* IE10 */
+    -ms-flex-flow: row wrap;
+    -ms-justify-content: space-between; /* Opera 12.1, Firefox 20+ */
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.sample-app
+{
+    display: block;
+    width: 330px;
+    color: Black;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 1px solid #d2d2d2;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #eee;
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+    background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    box-shadow: inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+    
+    -webkit-box-flex: auto;    /* iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1.0;        /* Firefox 19- */
+    -webkit-flex: auto;        /* Chrome */
+    -ms-flex: auto;            /* IE10 */
+    flex: auto;                /* Opera 12.1, Firefox 20+ */
+}
+
+.sample-app p
+{
+    font-size: 10pt;
+    line-height: 11pt;
+}
+
+.sample-app img
+{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+#faq :first-child
+{
+    margin-top: 0;
+}
+
+#faq h1
+{
+    margin-top: 50px;
+    font-size: 12pt;
+}
+
+
+
+#faq p
+{
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+#faq ul
+{
+    margin-left: 20px;
+}
+
+
+
+#license :first-child
+{
+    margin-top: 0;
+}
+
+#license h1
+{
+    margin-top: 50px;
+}
+
+#license h2
+{
+    margin-top: 50px;
+    font-size: 12pt;
+}
+
+#license h2+p
+{
+    font-weight: 300;
+    margin-left: 20px;
+}
 
 
 #comments
@@ -305,7 +428,7 @@ footer p
         margin: 0;
     }
 
-    header, section, footer
+    header, article, footer
     {
         float: none;
         position: static;
@@ -317,7 +440,7 @@ footer p
         padding-right: 320px;
     }
 
-    section
+    article
     {
         border: 1px solid #e5e5e5;
         border-width: 1px 0;
