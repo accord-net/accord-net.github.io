@@ -49,6 +49,7 @@
  
 </script>
 <body>
+    {% include analytics.html %}
     <div id="content-wrapper">
         <header>
             <div id="left-buttons">
@@ -65,13 +66,13 @@
             </div>
             <a id="accord-logo" href="intro.html">
                 <p>
-                    v2.10</p>
+                    {{ framework.version }}</p>
             </a>
             <div id="download-buttons">
                 <ul>
-                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
+                    <li><a href="{{ framework.installer }}">
                         Download <strong>Installer</strong></a></li>
-                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
+                    <li><a href="{{ framework.archive }}">
                         Download <strong>Archive</strong></a></li>
                     <li><a href="http://accord-net.github.io/docs/Index.html">Check the <strong>Manual</strong></a></li>
                     <li><a href="https://github.com/accord-net/framework/">Fork On <strong>GitHub</strong></a></li>
@@ -101,8 +102,7 @@
                 <div class="section-panel">
                     <img src="images/metro/appbar.puzzle.round.png" />
                     <h3>
-                        <a href="publications.html">Create and test new learning
-                            algorithms with ease</a>.</h3>
+                        <a href="publications.html">Create and test new learning algorithms with ease</a>.</h3>
                     <p>
                         Strategy and template method patterns help you swap learning algorithms quickly.
                         Create, build and compare different approaches without delving too deep in code.

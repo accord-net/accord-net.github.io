@@ -43,6 +43,7 @@
  
 </script>
 <body>
+    {% include analytics.html %}
     <!-- 
 
         // Left area: the area containing the header and the table of contents for the site
@@ -74,9 +75,9 @@
             </ul>
             <div id="download-buttons">
                 <ul>
-                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.exe">
+                    <li><a href="{{ framework.installer }}">
                         Download <strong>Installer</strong> <span class="version">(v2.10)</span></a></li>
-                    <li><a href="https://github.com/accord-net/framework/releases/download/v2.10.0/Accord.NET.Framework-2.10.0.rar">
+                    <li><a href="{{ framework.archive }}">
                         Download <strong>Archive</strong> <span class="version">(v2.10)</span></a></li>
                 </ul>
             </div>
@@ -236,8 +237,8 @@
             This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
                 Creative Commons Attribution 3.0 Unported License</a>.</p>
         <p>
-            Copyright 2013 &copy; C&eacute;sar Souza. Some rights reserved. Site last generated on
-            {{site.time}}</p>
+            Copyright 2013 &copy; C&eacute;sar Souza. Some rights reserved. Site last generated
+            on {{site.time}}</p>
     </footer>
     <!-- 
 

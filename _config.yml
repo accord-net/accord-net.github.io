@@ -4,13 +4,13 @@ pygments: true
 
 exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config']
 
-domain: accord.github.io
+domain: accord-net.github.io
 title: Accord.NET Framework
 
 
 
 google_analytics:
-  account: UA-3114672-4
+  account: UA-3114672-6
 
 github:
   username: cesarsouza
