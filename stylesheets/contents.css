@@ -317,11 +317,31 @@ article .video
     border-radius: 5px;
     border: 1px solid #d2d2d2;
     box-shadow: inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
+    
     -webkit-box-flex: auto; /* iOS 6-, Safari 3.1-6 */
     -moz-box-flex: 1.0; /* Firefox 19- */
     -webkit-flex: auto; /* Chrome */
     -ms-flex: auto; /* IE10 */
     flex: auto; /* Opera 12.1, Firefox 20+ */
+}
+
+/* Workaround until Firefox implements flex-wrap properly:
+   https://bugzilla.mozilla.org/show_bug.cgi?id=702508 */
+   
+@supports not (flex-wrap: wrap) 
+{
+    #samples section
+    {
+        display: inherit;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .sample-app 
+    {
+        flex: none;
+        display: inline-block;
+    }
 }
 
 .sample-app p
