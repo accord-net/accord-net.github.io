@@ -358,6 +358,23 @@ article .video
     width: 80%;
 }
 
+.sample-links
+{
+    margin-bottom: 4px;
+}
+
+.sample-links ul
+{
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.sample-links li
+{
+    font-size: 12px;
+    line-height: 14px;
+}
+
 
 
 #faq :first-child
