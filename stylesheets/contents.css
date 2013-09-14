@@ -27,9 +27,10 @@ body
 {
     padding-left: 230px;
     padding-top: 90px;
-    padding-right: 120px;
+    padding-right: 100px;
     font-weight: 300;
     text-align: left;
+    min-width: 300px;
 }
 
 aside
@@ -507,6 +508,18 @@ footer p
     header ul
     {
         display: none;
+    }
+}
+
+@media (max-width: 680px)
+{
+    aside
+    {
+        display: none;
+    }
+    #middle
+    {
+        padding-right: 0;
     }
 }
 
