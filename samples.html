@@ -8,259 +8,179 @@ comments: true
     <h1>
         Audio</h1>
     <section>
-        <div class="sample-app">
-            <img src="images/samples/accord-audio-fourier.png" alt="Spectrometer (Fourier) sample application."
-                style="max-width: 385px;" />
+        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip">
             <h2>
                 Fourier</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Audio/Fourier%20(FFT)">
-                        source code on-line</a></li>
-                </ul>
-            </div>
+            <img src="images/samples/accord-audio-fourier.png" alt="Spectrometer (Fourier) sample application."
+                style="max-width: 385px;" />
             <p>
                 A simple audio spectrum analyzer using Fast Fourier Transform (FFT). Can optionally
                 use audio windows (i.e. Hamming) to reduce bin leakage in the spectrum.</p>
-        </div>
-        <div class="sample-app">
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-beat-detection.zip">
+            <h2>
+                Beat detection</h2>
             <img src="images/samples/accord-audio-tempodetector.png" alt="Beat detector sample application."
                 style="max-width: 396px;" />
-            <h2>
-                Beat Detector</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-beat-detection.zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Audio/Beat%20detection">
-                        source code on-line</a></li>
-                </ul>
-            </div>
             <p>
-                A simple beat detector which listens to the default input device and tries to detect
-                peaks in the audio signal. It is a statistics based beat detector in the sense it
-                searches local energy peaks which may contain a beat. The application also demonstrates
-                the usage of the Metronome class of the framework, which allows one to detect the
-                current tempo by "tapping" the metronome.</p>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-audio-recording.png" alt="Wave recording sample application."
-                style="max-width: 370px;" />
+                Listens to the default input device and tries to detect peaks in the audio signal.
+                It is a statistics based beat detector in the sense it searches local energy peaks
+                which may contain a beat. Also demonstrates the usage of the Metronome class of
+                the framework, which allows one to detect the current tempo by "tapping" the metronome.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-recorder.zip">
             <h2>
                 Recorder</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-recorder.zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/master/Samples/Audio/Recorder">
-                        source code on-line</a></li>
-                </ul>
-            </div>
+            <img src="images/samples/accord-audio-recording.png" alt="Wave recording sample application."
+                style="max-width: 370px;" />
             <p>
-                A simple wave recorder able to capture sound from the microphone.</p>
-        </div>
+                A simple wave recorder able to capture sound from the microphone and play using
+                the recorded sound using the default audio device.</p>
+        </a>
     </section>
     <h1>
         Imaging</h1>
     <section>
-        <div class="sample-app">
+        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-classification-(bow).zip">
+            <h2>
+                Image classification (BoW)</h2>
             <img src="images/samples/accord-imaging-classification.png" alt="Image classification application."
                 style="max-width: 370px;" />
-            <h2>
-                Image Classification (BoW)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-classification-(bow).zip">
-                        application + sources</a></li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Classification%20(BoW)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The Image Classification sample application shows how to perform image classification
-                    using the Bag of Visual Words (BoW) model with SURF features and the Binary Split
-                    algorithm.</p>
-                <p>
-                    The BoW model is used to transform the many SURF feature points in a image in a
-                    single, fixed-length feature vector. The feature vector is then used to train a
-                    Support Vector Machine (SVM) using a variety of kernels.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-fast.png" alt="Corners detection using FAST."
-                style="max-width: 370px;" />
+            <p>
+                Shows how to perform image classification using the Bag of Visual Words (BoW) model
+                with SURF features and the Binary Split algorithm.</p>
+            <p>
+                The BoW model is used to transform the many SURF feature points in a image in a
+                single, fixed-length feature vector. The feature vector is then used to train a
+                Support Vector Machine (SVM) using a variety of kernels.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(fast).zip">
             <h2>
                 Corners detection (FAST)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(fast).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Corners%20(FAST)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The FAST sample application demonstrates how to perform corners detection using
-                    the FAST corners detector. As the name implies, the FAST detector is one of the
-                    fastest corners detectors available in the framework.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-harris.png" alt="Corners detection using Harris' operator."
+            <img src="images/samples/accord-imaging-fast.png" alt="Corners detection using FAST."
                 style="max-width: 370px;" />
+            <p>
+                Demonstrates how to perform corners detection using the FAST corners detector. As
+                the name implies, the FAST detector is one of the fastest corners detectors available
+                in the framework.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(harris).zip">
             <h2>
                 Corners detection (Harris)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(harris).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Corners%20(Harris)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The Harris sample application demonstrates how to perform corners detection using
-                    Harris' operator. The current implementation supports both Harris and Nobel corner
-                    measures. Harris can be enabled by ticking the checkbox next to the 'k' parameter,
-                    which is only needed for Harris. The Nobel measure does not require setting any
-                    parameters.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-surf.png" alt="Corners detection using Harris' operator."
+            <img src="images/samples/accord-imaging-harris.png" alt="Corners detection using Harris' operator."
                 style="max-width: 370px;" />
+            <p>
+                Demonstrates how to perform corners detection using Harris' operator. The current
+                implementation supports both Harris and Nobel corner measures. Harris can be enabled
+                by ticking the checkbox next to the 'k' parameter, which is only needed for Harris.
+                The Nobel measure does not require setting any parameters.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip">
             <h2>
                 Corners detection (SURF)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Corners%20(SURF)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The SURF sample application shows how to use the Speeded-Up Robust Features (SURF)
-                    Detector.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-panorama-freak.png" alt="Image stitching with the FREAK detector."
+            <img src="images/samples/accord-imaging-surf.png" alt="Corners detection using Harris' operator."
                 style="max-width: 370px;" />
+            <p>
+                Shows how to use the Speeded-Up Robust Features (SURF) Detector.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(freak).zip">
             <h2>
-                Image Stitching (FREAK)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(freak).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Panorama%20(FREAK)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The Image Stitching (panorama) sample application demonstrates how to perform automatic
-                    image stitching by interest point matching using the Accord.NET Framework. The actual
-                    stitching uses many parts of the framework, such as the FREAK interest point detector,
-                    RANSAC, homography estimation and the linear gradient image blending.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-panorama-freak.png" alt="Image stitching with the FREAK detector."
+                Image stitching (FREAK)</h2>
+            <img src="images/samples/accord-imaging-panorama-freak.png" alt="Image stitching with the FREAK feature detector."
                 style="max-width: 370px;" />
+            <p>
+                Demonstrates how to perform automatic image stitching by interest point matching.
+                The actual stitching uses many parts of the framework, such as the FREAK feature
+                detector, RANSAC, k-nearest neighbor matching, homography estimation and the linear
+                gradient image blending.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(harris).zip">
             <h2>
-                Image Stitching (Harris)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(harris).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Panorama%20(Harris)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The Image Stitching (panorama) sample application demonstrates how to perform automatic
-                    image stitching by interest point matching using the Accord.NET Framework. The actual
-                    stitching uses many parts of the framework, such as the Harris corners detector,
-                    RANSAC, homography estimation and the linear gradient image blending.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-panorama-surf.png" alt="Image stitching with the FREAK detector."
+                Image stitching (Harris)</h2>
+            <img src="images/samples/accord-imaging-panorama-harris.png" alt="Image stitching with the Harris corners detector."
                 style="max-width: 370px;" />
+            <p>
+                Demonstrates how to perform automatic image stitching by interest point matching.
+                The actual stitching uses many parts of the framework, such as the Harris corners
+                detector, RANSAC, correlation matching, homography estimation and the linear gradient
+                image blending.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(surf).zip">
             <h2>
-                Image Stitching (SURF)</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(surf).zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Panorama%20(SURF)">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The Image Stitching (panorama) sample application demonstrates how to perform automatic
-                    image stitching by interest point matching using the Accord.NET Framework. The actual
-                    stitching uses many parts of the framework, such as the SURF feature points detector,
-                    RANSAC, homography estimation and the linear gradient image blending.</p>
-            </div>
-        </div>
-        <div class="sample-app">
-            <img src="images/samples/accord-imaging-wavelets.png" alt="Wavelet image transformation."
+                Image stitching (SURF)</h2>
+            <img src="images/samples/accord-imaging-panorama-surf.png" alt="Image stitching with the SURF feature detector."
                 style="max-width: 370px;" />
+            <p>
+                Demonstrates how to perform automatic image stitching by interest point matching.
+                The actual stitching uses many parts of the framework, such as the SURF feature
+                points detector, RANSAC, k-nearest neighbor matching, homography estimation and
+                the linear gradient image blending.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-wavelets.zip">
             <h2>
                 Wavelets</h2>
-            <div class="sample-links">
-                <ul>
-                    <li>Download <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-wavelets.zip">
-                        application + sources</a> </li>
-                    <li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Wavelets">
-                        source code on-line</a></li>
-                </ul>
-                <p>
-                    The Wavelet sample application shows how to use the Wavelet transform filter to
-                    process images using wavelet transforms such as the Haar and CDF9/7.</p>
-            </div>
-        </div>
+            <img src="images/samples/accord-imaging-wavelets.png" alt="Wavelet image transformation."
+                style="max-width: 370px;" />
+            <p>
+                The Wavelet sample application shows how to use the Wavelet transform filter to
+                process images using wavelet transforms such as the Haar and CDF9/7.</p>
+        </a>
     </section>
     <h1>
         Machine Learning</h1>
     <section>
-        <div class="sample-app">
+        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-handwriting-(svms).zip">
             <h2>
                 Handwriting (Multi-class SVM)</h2>
+            <img src="images/samples/accord-machinelearning-handwriting-svm.png" alt="Handwriting recognition with SVMs."
+                style="max-width: 370px;" />
             <p>
                 Handwritten digits recognition by using Multi-class Kernel Support Vector Machines.</p>
-        </div>
-        <div class="sample-app">
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-fitting-(ransac).zip">
             <h2>
                 RANdom SAmple Consensus (RANSAC)</h2>
+            <img src="images/samples/accord-machinelearning-ransac.png" alt="Robust linear regression estimation with RANSAC."
+                style="max-width: 370px;" />
             <p>
-                The RANSAC sample application demonstrates how to use RANSAC to robustly fit a linear
-                regression, avoiding the negative impact of outliers in the regression data.</p>
-        </div>
-        <div class="sample-app">
+                Demonstrates how to use RANSAC to robustly fit a linear regression, avoiding the
+                negative impact of outliers in the regression data.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-classification-(svms).zip">
             <h2>
-                Kernel Support Vector Machines</h2>
+                Classification (Kernel SVM)</h2>
+            <img src="images/samples/accord-machinelearning-classification-svm.png" alt="Classification with SVMs."
+                style="max-width: 370px;" />
             <p>
-                A sample application demonstrating how to perform classification and regression
-                using (Kernel) Support Vector Machines. The sample datasets which can be used in
-                the application can be found in the Resources folder in the application main directory.</p>
-        </div>
-        <div class="sample-app">
+                Data classification using (Kernel) Support Vector Machines.</p>
+        </a>
+        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip">
             <h2>
-                K-Means Color Clustering</h2>
+                Classification (Naive Bayes)</h2>
+            <img src="images/samples/accord-machinelearning-classification-nbayes.png" alt="Classification with Naive Bayes."
+                style="max-width: 370px;" />
             <p>
-                A sample application demonstrating the use of K-Means for color reduction (color
-                clustering) in images.</p>
-        </div>
-        <div class="sample-app">
+                Data classification with the Naive Bayes classifier.</p>
+        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-decision-trees.zip">
             <h2>
-                Gaussian Mixture Models (GMM)</h2>
-            <p>
-                Multivariate Gaussian mixture distribution fitting using Expectation-Maximization.
-                The method is first initialized using K-Means clustering.</p>
-        </div>
-        <div class="sample-app">
-            <h2>
-                Decision Trees (DT)</h2>
+                Classification (Decision Trees)</h2>
+            <img src="images/samples/accord-machinelearning-classification-trees.png" alt="Classification with Decision Trees."
+                style="max-width: 370px;" />
             <p>
                 Decision tree learning with ID3 and C4.5 algorithms.</p>
-        </div>
+        </a>
+        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-regression-(svms).zip">
+            <h2>
+                Regression (Kernel SVM)</h2>
+            <img src="images/samples/accord-machinelearning-regression-svm.png" alt="Regression with SVMs."
+                style="max-width: 370px;" />
+            <p>
+                Function regression using (Kernel) Support Vector Machines.</p>
+        </a>
+        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-clustering-(k-means).zip">
+            <h2>
+                Clustering (K-Means and MeanShift)</h2>
+            <img src="images/samples/accord-machinelearning-clustering-meanshift-kmeans.png"
+                alt="Color clustering with K-Means and Meanshift." style="max-width: 370px;" />
+            <p>
+                MeanShift and K-Means for color reduction (color clustering) in digital images.</p>
+        </a><a class="sample-app">
+            <h2>
+                Clustering (Gaussian Mixture Models)</h2>
+            <img src="images/samples/accord-machinelearning-clustering-gmm.png" alt="Point cloud clustering with Gaussian Mixture Models."
+                style="max-width: 370px;" />
+            <p>
+                Multivariate Gaussian mixture distribution fitting using Expectation-Maximization.</p>
+        </a>
     </section>
     <h1>
         Mathematics</h1>

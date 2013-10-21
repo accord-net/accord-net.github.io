@@ -271,6 +271,28 @@ article .video
     text-align: center;
 }
 
+article .navigation li
+{
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+article table
+{
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+article img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 #samples h1
 {
     clear: both;
@@ -355,8 +377,14 @@ article .video
 .sample-app img
 {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     width: 80%;
+}
+
+.sample-app h2
+{
+    margin-top: 0;
+    font-size: 12pt;
 }
 
 .sample-links
@@ -378,6 +406,7 @@ article .video
 
 
 
+
 #faq :first-child
 {
     margin-top: 0;
@@ -388,8 +417,6 @@ article .video
     margin-top: 50px;
     font-size: 12pt;
 }
-
-
 
 #faq p
 {
