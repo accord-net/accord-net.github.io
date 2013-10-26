@@ -8,9 +8,8 @@ html, body
 body
 {
     padding: 20px;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 300;
-    color: #777;
+    font-family: "Segoe UI", Arial, Sans-Serif;
+    color: #555;
     margin: 0 auto;
 }
 
@@ -91,58 +90,47 @@ nav li
     background-size: 32px 32px;
 }
 
-#li-intro
-{
+#li-intro {
     background-image: url('../images/metro/appbar.beer.png');
 }
 
-#li-samples
-{
+#li-samples {
     background-image: url('../images/metro/appbar.candy.cane.png');
 }
 
-#li-publications
-{
+#li-publications {
     background-image: url('../images/metro/appbar.draw.pen.reflection.png');
 }
 
-#li-docs
-{
+#li-docs {
     background-image: url('../images/metro/appbar.book.hardcover.open.png');
 }
 
-#li-license
-{
+#li-license {
     background-image: url('../images/metro/appbar.heart.png');
 }
 
-#li-issues
-{
+#li-issues {
     background-image: url('../images/metro/appbar.bug.remove.png');
 }
 
-#li-contribute
-{
+#li-contribute {
     background-image: url('../images/metro/appbar.cloud.upload.png');
 }
 
-#li-forums
-{
+#li-forums {
     background-image: url('../images/metro/appbar.speakerphone.png');
 }
 
-#li-faq
-{
+#li-faq {
     background-image: url('../images/metro/appbar.question.png');
 }
 
-#li-contact
-{
+#li-contact {
     background-image: url('../images/metro/appbar.email.hardedge.png');
 }
 
-#li-about
-{
+#li-about {
     background-image: url('../images/metro/appbar.information.png');
 }
 
@@ -232,15 +220,14 @@ nav li
 article
 {
     min-height: 300px;
-    max-width: 760px;
+    max-width: 800px;
     text-align: justify;
 }
 
 article p
 {
     color: #777;
-    font-size: 12pt;
-    line-height: 15pt;
+    font-size: 15px;
     font-weight: normal;
     margin-top: 0;
 }
@@ -251,8 +238,11 @@ article li
     margin-top: 10px;
 }
 
+
+
 article h1
 {
+    margin-top: 30px;
     font-size: 16pt;
 }
 
@@ -291,6 +281,24 @@ article img
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+}
+
+
+
+#intro ul
+{
+    font-size: 14px;
+}
+
+#intro strong
+{
+}
+
+
+
+#samples article
+{
+    max-width: 1200px;
 }
 
 #samples h1
@@ -451,6 +459,17 @@ article img
 {
     font-weight: 300;
     margin-left: 20px;
+}
+
+
+#publications ul
+{
+    font-size: 14px;
+}
+
+#publications p + ul
+{
+    margin-top: 25px;
 }
 
 
