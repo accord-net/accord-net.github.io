@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="07/09/2013 10:51:42">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.7.0" projectFile="D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="26/10/2013 10:45:47">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -127,11 +127,11 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:01.0251
+    Last step completed in 00:00:00.7320
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.6250
+    Last step completed in 00:00:00.4720
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -145,20 +145,20 @@ c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(1605,5)
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Loaded 17 assemblies for reflection and 31 dependency assemblies.
-  Info: Wrote information on 78 namespaces, 790 types, and 7280 members
+  Info: Wrote information on 78 namespaces, 805 types, and 7377 members
   XslTransform (v2.7.3.0)
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:11.9177
+    Last step completed in 00:00:22.6553
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.7270
+    Last step completed in 00:00:00.7650
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
-    Last step completed in 00:00:00.9161
+    Last step completed in 00:00:01.4911
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -172,7 +172,7 @@ Transforming reflection output...
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:29.0917
+    Last step completed in 00:00:49.4728
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -288,8 +288,11 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Audio_Windows_WindowBase_Apply_1 generated for M:Accord.Audio.Windows.WindowBase.Apply(Accord.Audio.Signal,System.Int32)
     Unique name M_Accord_Controls_ArrayDataView__ctor_1 generated for M:Accord.Controls.ArrayDataView.#ctor(System.Array,System.Object[])
     Unique name M_Accord_Controls_ArrayDataView__ctor_2 generated for M:Accord.Controls.ArrayDataView.#ctor(System.Array,System.Object[],System.Object[])
+    Unique name M_Accord_Controls_ArrayDataView__ctor_3 generated for M:Accord.Controls.ArrayDataView.#ctor(System.Array,System.String[])
+    Unique name M_Accord_Controls_ArrayDataView__ctor_4 generated for M:Accord.Controls.ArrayDataView.#ctor(System.Array,System.String[],System.String[])
     Unique name M_Accord_Controls_ColorSequenceCollection__ctor_1 generated for M:Accord.Controls.ColorSequenceCollection.#ctor(System.Int32)
     Unique name M_Accord_Controls_ColorSequenceCollection__ctor_2 generated for M:Accord.Controls.ColorSequenceCollection.#ctor(System.Int32,System.Boolean,System.Boolean)
+    Unique name M_Accord_Controls_ComponentView__ctor_1 generated for M:Accord.Controls.ComponentView.#ctor(System.Collections.Generic.ICollection{Accord.Statistics.Analysis.IAnalysisComponent})
     Unique name M_Accord_Controls_ConfusionMatrixView__ctor_1 generated for M:Accord.Controls.ConfusionMatrixView.#ctor(Accord.Statistics.Analysis.GeneralConfusionMatrix)
     Unique name M_Accord_Controls_ConfusionMatrixView_CopyTo_1 generated for M:Accord.Controls.ConfusionMatrixView.CopyTo(System.Array,System.Int32)
     Unique name M_Accord_Controls_DataGridBox_Show_1 generated for M:Accord.Controls.DataGridBox.Show(System.Data.DataTable,System.Boolean)
@@ -346,6 +349,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Imaging_BagOfVisualWords_1__ctor_1 generated for M:Accord.Imaging.BagOfVisualWords`1.#ctor(Accord.Imaging.IFeatureDetector{`0},System.Int32)
     Unique name M_Accord_Imaging_BagOfVisualWords_2_GetFeatureVector_1 generated for M:Accord.Imaging.BagOfVisualWords`2.GetFeatureVector(System.Collections.Generic.List{`0})
     Unique name M_Accord_Imaging_BagOfVisualWords_2_GetFeatureVector_2 generated for M:Accord.Imaging.BagOfVisualWords`2.GetFeatureVector(System.Drawing.Bitmap)
+    Unique name M_Accord_Imaging_BagOfVisualWords_2_Save_1 generated for M:Accord.Imaging.BagOfVisualWords`2.Save(System.String)
     Unique name M_Accord_Imaging_BorderFollowing__ctor_1 generated for M:Accord.Imaging.BorderFollowing.#ctor(System.Byte)
     Unique name M_Accord_Imaging_BorderFollowing_FindContour_1 generated for M:Accord.Imaging.BorderFollowing.FindContour(System.Drawing.Bitmap)
     Unique name M_Accord_Imaging_BorderFollowing_FindContour_2 generated for M:Accord.Imaging.BorderFollowing.FindContour(System.Drawing.Imaging.BitmapData)
@@ -568,6 +572,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_MachineLearning_BagOfWords__ctor_1 generated for M:Accord.MachineLearning.BagOfWords.#ctor(System.String[])
     Unique name M_Accord_MachineLearning_BagOfWords__ctor_2 generated for M:Accord.MachineLearning.BagOfWords.#ctor(System.String[][])
     Unique name M_Accord_MachineLearning_BinarySplit__ctor_1 generated for M:Accord.MachineLearning.BinarySplit.#ctor(System.Int32,System.Func{System.Double[],System.Double[],System.Double})
+    Unique name M_Accord_MachineLearning_BinarySplit_Compute_1 generated for M:Accord.MachineLearning.BinarySplit.Compute(System.Double[][],System.Double)
     Unique name M_Accord_MachineLearning_Bootstrap__ctor_1 generated for M:Accord.MachineLearning.Bootstrap.#ctor(System.Int32,System.Int32,System.Int32)
     Unique name M_Accord_MachineLearning_Bootstrap__ctor_2 generated for M:Accord.MachineLearning.Bootstrap.#ctor(System.Int32,System.Int32[][])
     Unique name M_Accord_MachineLearning_BootstrapResult_Load_1 generated for M:Accord.MachineLearning.BootstrapResult.Load(System.String)
@@ -667,7 +672,11 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_MachineLearning_Structures_KDTree_1__ctor_1 generated for M:Accord.MachineLearning.Structures.KDTree`1.#ctor(System.Int32,Accord.MachineLearning.Structures.KDTreeNode{`0})
     Unique name M_Accord_MachineLearning_Structures_KDTree_1_Nearest_1 generated for M:Accord.MachineLearning.Structures.KDTree`1.Nearest(System.Double[],System.Double,System.Int32)
     Unique name M_Accord_MachineLearning_Structures_KDTree_1_Nearest_2 generated for M:Accord.MachineLearning.Structures.KDTree`1.Nearest(System.Double[],System.Int32)
-    Unique name M_Accord_MachineLearning_Structures_KDTreeNodeCollection_1__ctor_1 generated for M:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.#ctor(System.Int32)
+    Unique name M_Accord_MachineLearning_Structures_KDTreeNodeCollection_1_Add_1 generated for M:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.Add(Accord.MachineLearning.Structures.KDTreeNodeDistance{`0})
+    Unique name P_Accord_MachineLearning_Structures_KDTreeNodeCollection_1_Item_1 generated for P:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.Item(System.Int32)
+    Unique name M_Accord_MachineLearning_Structures_KDTreeNodeDistance_1_CompareTo_1 generated for M:Accord.MachineLearning.Structures.KDTreeNodeDistance`1.CompareTo(System.Object)
+    Unique name M_Accord_MachineLearning_Structures_KDTreeNodeDistance_1_Equals_1 generated for M:Accord.MachineLearning.Structures.KDTreeNodeDistance`1.Equals(System.Object)
+    Unique name M_Accord_MachineLearning_Structures_KDTreeNodeList_1__ctor_1 generated for M:Accord.MachineLearning.Structures.KDTreeNodeList`1.#ctor(System.Int32)
     Unique name M_Accord_MachineLearning_VectorMachines_KernelSupportVectorMachine_Load_1 generated for M:Accord.MachineLearning.VectorMachines.KernelSupportVectorMachine.Load(System.String)
     Unique name M_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine.#ctor(System.Int32,Accord.Statistics.Kernels.IKernel,System.Int32)
     Unique name M_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine__ctor_2 generated for M:Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine.#ctor(System.Int32,System.Int32)
@@ -876,7 +885,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Math_Matrix_Random_6 generated for M:Accord.Math.Matrix.Random(System.Int32,System.Single,System.Single)
     Unique name M_Accord_Math_Matrix_Range_1 generated for M:Accord.Math.Matrix.Range(System.Double[0:,0:],System.Int32)
     Unique name M_Accord_Math_Matrix_Range_2 generated for M:Accord.Math.Matrix.Range(System.Double[])
-    Unique name M_Accord_Math_Matrix_Range_3 generated for M:Accord.Math.Matrix.Range(System.Double[][])
+    Unique name M_Accord_Math_Matrix_Range_3 generated for M:Accord.Math.Matrix.Range(System.Double[][],System.Int32)
     Unique name M_Accord_Math_Matrix_Range_4 generated for M:Accord.Math.Matrix.Range(System.Int32[0:,0:])
     Unique name M_Accord_Math_Matrix_Range_5 generated for M:Accord.Math.Matrix.Range(System.Int32[])
     Unique name M_Accord_Math_Matrix_Rank_1 generated for M:Accord.Math.Matrix.Rank(System.Single[0:,0:])
@@ -1010,6 +1019,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Math_Point3_Equals_2 generated for M:Accord.Math.Point3.Equals(System.Object)
     Unique name M_Accord_Math_Point3_op_Implicit_1 generated for M:Accord.Math.Point3.op_Implicit(AForge.Math.Vector3)~Accord.Math.Point3
     Unique name M_Accord_Math_RelativeConvergence__ctor_1 generated for M:Accord.Math.RelativeConvergence.#ctor(System.Int32,System.Double)
+    Unique name M_Accord_Math_RelativeConvergence__ctor_2 generated for M:Accord.Math.RelativeConvergence.#ctor(System.Int32,System.Double,System.Int32)
     Unique name M_Accord_Math_RelativeParameterConvergence__ctor_1 generated for M:Accord.Math.RelativeParameterConvergence.#ctor(System.Int32,System.Double)
     Unique name M_Accord_Math_SineTransform_DST_1 generated for M:Accord.Math.SineTransform.DST(System.Double[][])
     Unique name M_Accord_Math_SineTransform_IDST_1 generated for M:Accord.Math.SineTransform.IDST(System.Double[][])
@@ -1178,6 +1188,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Math_Optimization_NonlinearObjectiveFunction__ctor_1 generated for M:Accord.Math.Optimization.NonlinearObjectiveFunction.#ctor(System.Linq.Expressions.Expression{System.Func{System.Double}},System.Linq.Expressions.Expression{System.Func{System.Double[]}})
     Unique name M_Accord_Math_Optimization_QuadraticObjectiveFunction__ctor_1 generated for M:Accord.Math.Optimization.QuadraticObjectiveFunction.#ctor(System.Linq.Expressions.Expression{System.Func{System.Double}})
     Unique name M_Accord_Math_Optimization_QuadraticObjectiveFunction__ctor_2 generated for M:Accord.Math.Optimization.QuadraticObjectiveFunction.#ctor(System.String)
+    Unique name M_Accord_Math_Optimization_ResilientBackpropagation_Minimize_1 generated for M:Accord.Math.Optimization.ResilientBackpropagation.Minimize(System.Double[])
     Unique name M_Accord_Math_Wavelets_CDF97_Backward_1 generated for M:Accord.Math.Wavelets.CDF97.Backward(System.Double[])
     Unique name M_Accord_Math_Wavelets_CDF97_Forward_1 generated for M:Accord.Math.Wavelets.CDF97.Forward(System.Double[])
     Unique name M_Accord_Math_Wavelets_CDF97_FWT97_1 generated for M:Accord.Math.Wavelets.CDF97.FWT97(System.Double[])
@@ -1299,8 +1310,10 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Statistics_Tools_StandardError_2 generated for M:Accord.Statistics.Tools.StandardError(System.Int32,System.Double)
     Unique name M_Accord_Statistics_Tools_StandardError_3 generated for M:Accord.Statistics.Tools.StandardError(System.Int32,System.Double[])
     Unique name M_Accord_Statistics_Tools_Standardize_1 generated for M:Accord.Statistics.Tools.Standardize(System.Double[0:,0:],System.Double[],System.Boolean)
-    Unique name M_Accord_Statistics_Tools_Standardize_2 generated for M:Accord.Statistics.Tools.Standardize(System.Double[][],System.Boolean)
-    Unique name M_Accord_Statistics_Tools_Standardize_3 generated for M:Accord.Statistics.Tools.Standardize(System.Double[][],System.Double[],System.Boolean)
+    Unique name M_Accord_Statistics_Tools_Standardize_2 generated for M:Accord.Statistics.Tools.Standardize(System.Double[],System.Boolean)
+    Unique name M_Accord_Statistics_Tools_Standardize_3 generated for M:Accord.Statistics.Tools.Standardize(System.Double[],System.Double,System.Boolean)
+    Unique name M_Accord_Statistics_Tools_Standardize_4 generated for M:Accord.Statistics.Tools.Standardize(System.Double[][],System.Boolean)
+    Unique name M_Accord_Statistics_Tools_Standardize_5 generated for M:Accord.Statistics.Tools.Standardize(System.Double[][],System.Double[],System.Boolean)
     Unique name M_Accord_Statistics_Tools_Variance_1 generated for M:Accord.Statistics.Tools.Variance(System.Double[0:,0:],System.Double[])
     Unique name M_Accord_Statistics_Tools_Variance_2 generated for M:Accord.Statistics.Tools.Variance(System.Double[])
     Unique name M_Accord_Statistics_Tools_Variance_3 generated for M:Accord.Statistics.Tools.Variance(System.Double[],System.Boolean)
@@ -1846,6 +1859,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Statistics_Models_Regression_MultinomialLogisticRegression_ChiSquare_1 generated for M:Accord.Statistics.Models.Regression.MultinomialLogisticRegression.ChiSquare(System.Double[][],System.Int32[])
     Unique name M_Accord_Statistics_Models_Regression_MultinomialLogisticRegression_GetDeviance_1 generated for M:Accord.Statistics.Models.Regression.MultinomialLogisticRegression.GetDeviance(System.Double[][],System.Int32[])
     Unique name M_Accord_Statistics_Models_Regression_MultinomialLogisticRegression_GetLogLikelihood_1 generated for M:Accord.Statistics.Models.Regression.MultinomialLogisticRegression.GetLogLikelihood(System.Double[][],System.Int32[])
+    Unique name M_Accord_Statistics_Models_Regression_NonlinearRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.NonlinearRegression.#ctor(System.Int32,Accord.Statistics.Models.Regression.RegressionFunction,Accord.Statistics.Models.Regression.RegressionGradientFunction)
     Unique name M_Accord_Statistics_Models_Regression_ProportionalHazards__ctor_1 generated for M:Accord.Statistics.Models.Regression.ProportionalHazards.#ctor(System.Int32,Accord.Statistics.Distributions.IUnivariateDistribution)
     Unique name M_Accord_Statistics_Models_Regression_ProportionalHazards_Compute_1 generated for M:Accord.Statistics.Models.Regression.ProportionalHazards.Compute(System.Double[],System.Double)
     Unique name M_Accord_Statistics_Models_Regression_ProportionalHazards_Compute_2 generated for M:Accord.Statistics.Models.Regression.ProportionalHazards.Compute(System.Double[][])
@@ -1855,11 +1869,13 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Statistics_Models_Regression_Fitting_LogisticGradientDescent_Run_1 generated for M:Accord.Statistics.Models.Regression.Fitting.LogisticGradientDescent.Run(System.Double[][],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Fitting_LogisticGradientDescent_Run_2 generated for M:Accord.Statistics.Models.Regression.Fitting.LogisticGradientDescent.Run(System.Double[][],System.Double[][])
     Unique name M_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Run_1 generated for M:Accord.Statistics.Models.Regression.Fitting.LowerBoundNewtonRaphson.Run(System.Double[][],System.Int32[])
+    Unique name M_Accord_Statistics_Models_Regression_Fitting_NonlinearLeastSquares__ctor_1 generated for M:Accord.Statistics.Models.Regression.Fitting.NonlinearLeastSquares.#ctor(Accord.Statistics.Models.Regression.NonlinearRegression,Accord.Math.Optimization.ILeastSquaresMethod)
     Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Run_1 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Run(System.Double[][],System.Double[],System.Int32[])
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.#ctor(System.Int32,System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_CoefficientOfDetermination_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.CoefficientOfDetermination(System.Double[][],System.Double[],System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Compute_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Compute(System.Double[][])
-    Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Regress(System.Double[][],System.Double[],System.Double[0:,0:]@)
+    Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Regress(System.Double[][],System.Double[],System.Boolean)
+    Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress_2 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Regress(System.Double[][],System.Double[],System.Double[0:,0:]@,System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_ToString_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.ToString(System.String,System.IFormatProvider)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression.#ctor(System.Int32,System.Int32)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression__ctor_2 generated for M:Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression.#ctor(System.Int32,System.Int32,System.Boolean)
@@ -1981,7 +1997,7 @@ Modifying help topic filenames in reflection information file
     Unique name M_Accord_Vision_Tracking_TrackingObject__ctor_2 generated for M:Accord.Vision.Tracking.TrackingObject.#ctor(System.Drawing.Rectangle,AForge.IntPoint,System.Single)
     Unique name M_Accord_Vision_Tracking_TrackingObject__ctor_3 generated for M:Accord.Vision.Tracking.TrackingObject.#ctor(System.Drawing.Rectangle,System.Single)
     Unique name M_Accord_Vision_Tracking_TrackingObject_GetAxis_1 generated for M:Accord.Vision.Tracking.TrackingObject.GetAxis(Accord.Vision.Tracking.AxisOrientation)
-    Last step completed in 00:00:06.6224
+    Last step completed in 00:00:10.1206
 </buildStep>
 <buildStep step="CopyStandardContent">
 Copying standard help content...
@@ -2373,7 +2389,7 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; D:\Project
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> D:\Projects\Accord.NET\Assembla\Docs\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:06.2694
+    Last step completed in 00:00:12.1317
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -2385,14 +2401,14 @@ Copying images and creating the media map file...
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\media\Accord.NET.png (Always copied)
     D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET.png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\media\Accord.NET.png (Always copied)
 Generating conceptual topic files
-    Last step completed in 00:00:00.4040
+    Last step completed in 00:00:00.3390
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     ConceptualManifest.xml
-    Last step completed in 00:00:00.1390
+    Last step completed in 00:00:00.1420
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -2530,11 +2546,11 @@ D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resourc
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (logo large).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\resources\Accord.NET (logo large).png
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Resources\Accord.NET (logo small).png
 D:\Projects\Accord.NET\Assembla\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website\Resources\Accord.NET (logo small).png
-    Last step completed in 00:00:16.3729
+    Last step completed in 00:00:15.9109
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
@@ -2547,13 +2563,13 @@ Generating conceptual content intermediate TOC file...
 <plugIn name="Hierarchical Table of Contents" behavior="After" priority="1000">
 Retrieving namespace topic title from shared content...
 Creating namespace hierarchy...
-</plugIn>    Last step completed in 00:00:02.9122
+</plugIn>    Last step completed in 00:00:04.4493
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
     conceptual.config
-    Last step completed in 00:00:06.1454
+    Last step completed in 00:00:16.7020
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2574,7 +2590,7 @@ D:\Projects\Accord.NET\Assembla\Docs\Working\conceptual.config
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
     Skipping component &#39;Comments Index Data (ESENT Cache)&#39;, not used in conceptual build
     Removing unused ExampleComponent.
-    Last step completed in 00:00:01.4131
+    Last step completed in 00:00:00.4260
 </buildStep>
 <buildStep step="BuildConceptualTopics">
 Building conceptual help topics...
@@ -2590,7 +2606,7 @@ Building conceptual help topics...
   Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
   Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 0 of 2500.
-    Last step completed in 00:10:31.9181
+    Last step completed in 00:07:49.8969
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -2599,24 +2615,24 @@ Building reference help topics...
   Copyright &#184; 2006-2013, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2013, Eric Woodruff, All Rights Reserved.
   Info: Loading configuration...
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ReflectionIndexCache\Project_Ref_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
-  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_D7C0CB4F
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\ReflectionIndexCache\Project_Ref_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
+  Diagnostic: ESentCopyFromIndexComponent: 1 file(s) need to be added to the ESENT index cache database.  Indexing them will take about 1 minute(s), please be patient.  Cache location: D:\Projects\Accord.NET\Assembla\Docs\Working\CommentsIndexCache\Project_Comments_C80F44DA
   Info: Processing topics...
   Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Audition&#39;.
   Warn: ESentResolveReferenceLinksComponent: [N:Accord] Unknown reference link target &#39;N:Accord.Audition&#39;.
@@ -2682,6 +2698,10 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [N:Accord.Controls] Unknown reference link target &#39;T:AForge.IntRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [N:Accord.Controls] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [N:Accord.Controls] Unknown reference link target &#39;T:AForge.IntRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.ComponentView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.ComponentView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.ComponentView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.ComponentView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.HistogramView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.HistogramView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Controls.HistogramView.Graph] Unknown reference link target &#39;T:ZedGraph.ZedGraphControl&#39;.
@@ -3972,6 +3992,10 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.MachineLearning.Structures.KDTree`1.Traverse(Accord.MachineLearning.Structures.KDTreeTraversalMethod{{`0}})] Unknown reference link target &#39;T:Accord.MachineLearning.Structures.KDTree`1.KDTreeTraversal&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.MachineLearning.Structures.KDTree`1.Traverse(Accord.MachineLearning.Structures.KDTreeTraversalMethod{{`0}})] Unknown reference link target &#39;T:Accord.MachineLearning.Structures.KDTree`1.KDTreeTraversal&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.MachineLearning.Structures.KDTree`1.Traverse(Accord.MachineLearning.Structures.KDTreeTraversalMethod{{`0}})] Unknown reference link target &#39;T:Accord.MachineLearning.Structures.KDTree`1.KDTreeTraversal&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.Distance] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.Distance] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.Distance] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [P:Accord.MachineLearning.Structures.KDTreeNodeCollection`1.Distance] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning] Unknown reference link target &#39;E:SubproblemFinished&#39;.
   Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning] Invalid reference link target &#39;E:SubproblemFinished&#39;.
   Warn: ESentResolveReferenceLinksComponent: [AllMembers.T:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning] Unknown reference link target &#39;E:SubproblemStarted&#39;.
@@ -4074,10 +4098,10 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
-  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][])] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][],System.Int32)] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][],System.Int32)] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][],System.Int32)] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Double[][],System.Int32)] Unknown reference link target &#39;T:AForge.DoubleRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Int32[0:,0:])] Unknown reference link target &#39;T:AForge.IntRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Int32[0:,0:])] Unknown reference link target &#39;T:AForge.IntRange&#39;.
   Warn: ESentResolveReferenceLinksComponent: [M:Accord.Math.Matrix.Range(System.Int32[0:,0:])] Unknown reference link target &#39;T:AForge.IntRange&#39;.
@@ -5048,6 +5072,8 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.LogisticGradientDescent] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.IRegressionFitting&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.LowerBoundNewtonRaphson] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.IMultipleRegressionFitting&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.LowerBoundNewtonRaphson] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.IMultipleRegressionFitting&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.NonlinearLeastSquares] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.IRegressionFitting&#39;.
+  Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.NonlinearLeastSquares] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.IRegressionFitting&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.ISurvivalFitting&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.IRegressionFitting&#39;.
   Warn: ESentResolveReferenceLinksComponent: [T:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson] Unknown reference link target &#39;T:Accord.Statistics.Models.Regression.Fitting.ISurvivalFitting&#39;.
@@ -5186,22 +5212,23 @@ Building reference help topics...
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
   Warn: ESentResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;.
-  Info: Processed 11193 topic(s)
-  Info: 2568 warning(s)
-  Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; highest ESENT local cache flush count: 4.  Highest ESENT current local cache usage: 1672 of 2500.
+  Info: Processed 11349 topic(s)
+  Info: 2578 warning(s)
+  Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; highest ESENT local cache flush count: 4.  Highest ESENT current local cache usage: 1752 of 2500.
   Diagnostic: ESentCopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 0 of 15.
-  Diagnostic: ESentCopyFromIndexComponent: &quot;comments&quot; highest ESENT local cache flush count: 3.  Highest ESENT current local cache usage: 875 of 2500.
+  Diagnostic: ESentCopyFromIndexComponent: &quot;comments&quot; highest ESENT local cache flush count: 3.  Highest ESENT current local cache usage: 879 of 2500.
   Diagnostic: ESentCopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 0 of 30.
-  Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1159 of 2500.
-  Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 4 time(s).  Current ESENT local cache usage: 1659 of 2500.
-  Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1233 of 2500.
-    Last step completed in 00:18:18.3038
+  Diagnostic: ESentResolveReferenceLinksComponent: New MSDN content ID cache size: 1162 entries
+  Diagnostic: ESentResolveReferenceLinksComponent: MSDN content ID ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1161 of 2500.
+  Diagnostic: ESentResolveReferenceLinksComponent: &quot;ProjectTargets&quot; ESENT local cache flushed 4 time(s).  Current ESENT local cache usage: 1775 of 2500.
+  Diagnostic: ESentResolveReferenceLinksComponent: &quot;FrameworkTargets&quot; ESENT local cache flushed 0 time(s).  Current ESENT local cache usage: 1235 of 2500.
+    Last step completed in 00:30:51.0609
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:23.8564
+    Last step completed in 00:00:51.1089
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -5213,29 +5240,29 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1
-Processed 11193 HTML files
+Processed 11349 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.NET.hhk
 Saving HTML Help 1 table of contents to D:\Projects\Accord.NET\Assembla\Docs\Working\Accord.NET.hhc
 
 Processing website files in D:\Projects\Accord.NET\Assembla\Docs\Working\Output\Website
-Processed 11193 HTML files
+Processed 11349 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Projects\Accord.NET\Assembla\Docs\Working\WebKI.xml
 Saving website table of contents to D:\Projects\Accord.NET\Assembla\Docs\Working\WebTOC.xml
-    Last step completed in 00:05:34.0601
+    Last step completed in 00:08:50.1713
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0130
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.6090
+    Last step completed in 00:00:00.7360
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -5250,13 +5277,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 5 minutes, 35 seconds
+  Compile time: 5 minutes, 53 seconds
   
-  11,195	Topics
+  11,351	Topics
   
-  137,597	Local links
+  139,738	Local links
   
-  90,841	Internet links
+  93,909	Internet links
   
   0	Graphics
   
@@ -5264,20 +5291,20 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 23,847,207 bytes
+  Created d:\Projects\Accord.NET\Assembla\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 24,091,359 bytes
   
-  Compression decreased file by 135,066,916 bytes.
+  Compression decreased file by 137,565,420 bytes.
   
-    Last step completed in 00:06:23.9020
+    Last step completed in 00:06:40.6239
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:01:27.6240
+    Last step completed in 00:01:58.6678
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -5395,16 +5422,18 @@ Copied 11000 files
 Copied 11100 files
 Copied 11200 files
 Copied 11300 files
-Copied 11364 files for the website content
-    Last step completed in 00:01:34.7254
+Copied 11400 files
+Copied 11500 files
+Copied 11520 files for the website content
+    Last step completed in 00:02:29.6346
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:01:11.2611
+    Last step completed in 00:01:04.9997
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 09/07/2013 11:38 .  Total time: 00:46:52,6119
+Build completed successfully at 10/26/2013 11:48 .  Total time: 01:02:55,2689
 
 </buildStep>
 </shfbBuild>
