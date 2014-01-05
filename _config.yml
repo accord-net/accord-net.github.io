@@ -19,6 +19,6 @@ disqus:
   id: accord-net
 
 framework:
-  version: v2.11
-  download-installer: https://github.com/accord-net/framework/releases/download/v2.11.0/Accord.NET.Framework-2.11.0.exe
-  download-archive:   https://github.com/accord-net/framework/releases/download/v2.11.0/Accord.NET.Framework-2.11.0.rar
+  version: v2.12
+  download-installer: https://github.com/accord-net/framework/releases/download/v2.12.0/Accord.NET.Framework-2.12.0.exe
+  download-archive:   https://github.com/accord-net/framework/releases/download/v2.12.0/Accord.NET.Framework-2.12.0.rar
