@@ -475,12 +475,12 @@ article img
 }
 
 
-#publications ul
+#publications ul, ol
 {
     font-size: 14px;
 }
 
-#publications p + ul
+#publications p + ul, p + ol
 {
     margin-top: 25px;
 }
