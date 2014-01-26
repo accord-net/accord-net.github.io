@@ -130,6 +130,10 @@ nav li
     background-image: url('../images/metro/appbar.email.hardedge.png');
 }
 
+#li-projects {
+    background-image: url('../images/metro/appbar.globe.png'); 
+}
+
 #li-about {
     background-image: url('../images/metro/appbar.information.png');
 }
@@ -357,6 +361,7 @@ article img
     flex: auto; /* Opera 12.1, Firefox 20+ */
 }
 
+
 /* Workaround until Firefox implements flex-wrap properly:
    https://bugzilla.mozilla.org/show_bug.cgi?id=702508 */
    
@@ -387,6 +392,14 @@ article img
     display: block;
     margin: 0 auto 20px auto;
     width: 80%;
+}
+
+.sample-app iframe
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 95%;
 }
 
 .sample-app h2
