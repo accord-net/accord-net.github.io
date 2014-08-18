@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>HiddenMarkovModel(TDistribution) Class</title>
     <meta name="Language" content="en-us" />
@@ -28,82 +18,129 @@
     <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Models.Markov.HiddenMarkovModel`1" />
     <meta name="Description" content="Arbitrary-density Hidden Markov Model." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Models.Markov" />
     <meta name="file" content="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1" />
     <meta name="guid" content="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
-    <script type="text/javascript" src="../scripts/highlight.js">
-      <!---->
-    </script>
-    <meta name="SelfBranded" content="true" />
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Models_Markov.htm" title="Accord.Statistics.Models.Markov" tocid="N_Accord_Statistics_Models_Markov">Accord.Statistics.Models.Markov</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" title="HiddenMarkovModel(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1">HiddenMarkovModel(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor.htm" title="HiddenMarkovModel(TDistribution) Constructor " tocid="Overload_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor">HiddenMarkovModel(TDistribution) Constructor </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" title="HiddenMarkovModel(TDistribution) Methods" tocid="Methods_T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1">HiddenMarkovModel(TDistribution) Methods</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Properties_T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" title="HiddenMarkovModel(TDistribution) Properties" tocid="Properties_T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1">HiddenMarkovModel(TDistribution) Properties</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">HiddenMarkovModel<span id="ID0EDBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDBABAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script><span class="typeparameter">TDistribution</span><span id="ID0EBBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBABAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script> Class</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">HiddenMarkovModel<span id="LST89D6D79F_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TDistribution</span><span id="LST89D6D79F_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Class</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">
+        <span class="introStyle"></span>
+        <div class="summary">
               Arbitrary-density Hidden Markov Model.
             </div>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Inheritance Hierarchy</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBHOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBHOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Object</a>
-            <br />  <a href="T_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel.htm" target="">Accord.Statistics.Models.Markov<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>BaseHiddenMarkovModel</a><br />    <span class="selflink">Accord.Statistics.Models.Markov<span id="ID0EEBOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>HiddenMarkovModel<span id="ID0ECBOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECBOAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EABOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EABOAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.12.0.0 (2.12.0.4750)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBBEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBBEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBBEAAAAA_tabimgleft"></div><div id="ID0EBBEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBBEAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBEAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBBEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBBEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBBEAAAAA_tabimgright"></div></div><div id="ID0EBBEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBBEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBBEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBBEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBBEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBBEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBBEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBBEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
-<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HiddenMarkovModel</span>&lt;TDistribution&gt; : <span class="identifier">BaseHiddenMarkovModel</span>, 
-	<span class="identifier">IHiddenMarkovModel</span>, <span class="identifier">ICloneable</span> 
-<span class="keyword">where</span> TDistribution : <span class="identifier">IDistribution</span></pre></div><div id="ID0EBBEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
-public class HiddenMarkovModel&lt;TDistribution&gt; : BaseHiddenMarkovModel, 
-	IHiddenMarkovModel, ICloneable 
-where TDistribution : IDistribution</pre></div><div id="ID0EBBEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;<span class="identifier">SerializableAttribute</span>&gt;
-<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">HiddenMarkovModel</span>(<span class="keyword">Of</span> TDistribution <span class="keyword">As</span> <span class="identifier">IDistribution</span>)
-	<span class="keyword">Inherits</span> <span class="identifier">BaseHiddenMarkovModel</span> 
-	<span class="keyword">Implements</span> <span class="identifier">IHiddenMarkovModel</span>, <span class="identifier">ICloneable</span></pre></div><div id="ID0EBBEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;SerializableAttribute&gt;
-Public Class HiddenMarkovModel(Of TDistribution As IDistribution)
-	Inherits BaseHiddenMarkovModel 
-	Implements IHiddenMarkovModel, ICloneable</pre></div><div id="ID0EBBEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBBEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Type Parameters</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><dl><dt><span class="parameter">TDistribution</span></dt><dd></dd></dl><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="LST89D6D79F_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a>
+          <br />  <a href="T_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel.htm">Accord.Statistics.Models.Markov<span id="LST89D6D79F_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseHiddenMarkovModel</a><br />    <span class="selflink">Accord.Statistics.Models.Markov<span id="LST89D6D79F_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>HiddenMarkovModel<span id="LST89D6D79F_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_5?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_6?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span><br /></div>
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 2.13.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HiddenMarkovModel</span>&lt;TDistribution&gt; : <span class="identifier">BaseHiddenMarkovModel</span>, 
+	<span class="identifier">IHiddenMarkovModel</span>, <span class="identifier">ICloneable</span>
+<span class="keyword">where</span> TDistribution : <span class="identifier">IDistribution</span>
+</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">HiddenMarkovModel</span>(<span class="keyword">Of</span> TDistribution <span class="keyword">As</span> <span class="identifier">IDistribution</span>)
+	<span class="keyword">Inherits</span> <span class="identifier">BaseHiddenMarkovModel</span>
+	<span class="keyword">Implements</span> <span class="identifier">IHiddenMarkovModel</span>, <span class="identifier">ICloneable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameter">TDistribution</span></dt><dd /></dl></div><p>The <span class="selflink">HiddenMarkovModel<span id="LST89D6D79F_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor_3.htm">HiddenMarkovModel<span id="LST89D6D79F_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(Int32, TDistribution)</a></td><td><div class="summary">
+              Constructs a new Hidden Markov Model with arbitrary-density state probabilities.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor.htm">HiddenMarkovModel<span id="LST89D6D79F_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_11?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_12?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(ITopology, TDistribution)</a></td><td><div class="summary">
+              Constructs a new Hidden Markov Model with arbitrary-density state probabilities.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor_1.htm">HiddenMarkovModel<span id="LST89D6D79F_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_13?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_14?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(ITopology, <span id="LST89D6D79F_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_15?cpp=array&lt;");</script>TDistribution<span id="LST89D6D79F_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Constructs a new Hidden Markov Model with arbitrary-density state probabilities.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1__ctor_2.htm">HiddenMarkovModel<span id="LST89D6D79F_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_17?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_18?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(<span id="LST89D6D79F_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_19?cpp=array&lt;");</script>Double<span id="LST89D6D79F_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_20?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LST89D6D79F_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_21?cpp=array&lt;");</script>TDistribution<span id="LST89D6D79F_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST89D6D79F_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_23?cpp=array&lt;");</script>Double<span id="LST89D6D79F_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Boolean)</a></td><td><div class="summary">
+              Constructs a new Hidden Markov Model with arbitrary-density state probabilities.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Clone.htm">Clone</a></td><td><div class="summary">
+              Creates a new object that is a copy of the current instance.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Decode.htm">Decode(Array)</a></td><td><div class="summary">
+              Calculates the most likely sequence of hidden states
+              that produced the given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Decode_1.htm">Decode(Array, Double<span id="LST89D6D79F_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_25?cpp=%");</script>)</a></td><td><div class="summary">
+              Calculates the most likely sequence of hidden states
+              that produced the given observation sequence.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Evaluate.htm">Evaluate(Array)</a></td><td><div class="summary">
+              Calculates the likelihood that this model has generated the given sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Evaluate_1.htm">Evaluate(Array, <span id="LST89D6D79F_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_26?cpp=array&lt;");</script>Int32<span id="LST89D6D79F_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Calculates the log-likelihood that this model has generated the
+              given observation sequence along the given state path.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Generate.htm">Generate(Int32)</a></td><td><div class="summary">
+              Generates a random vector of observations from the model.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Generate_1.htm">Generate(Int32, <span id="LST89D6D79F_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_28?cpp=array&lt;");</script>Int32<span id="LST89D6D79F_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST89D6D79F_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_30?cpp=%");</script>, Double<span id="LST89D6D79F_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_31?cpp=%");</script>)</a></td><td><div class="summary">
+              Generates a random vector of observations from the model.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td><div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Load.htm">Load(Stream)</a></td><td><div class="summary">
+              Loads a hidden Markov model from a stream.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Load_1.htm">Load(String)</a></td><td><div class="summary">
+              Loads a hidden Markov model from a file.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td><div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict.htm">Predict(<span id="LST89D6D79F_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_32?cpp=array&lt;");</script>Double<span id="LST89D6D79F_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict_3.htm">Predict(<span id="LST89D6D79F_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_34?cpp=array&lt;");</script><span id="LST89D6D79F_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_35?cpp=array&lt;");</script>Double<span id="LST89D6D79F_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST89D6D79F_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict_1.htm">Predict(<span id="LST89D6D79F_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_38?cpp=array&lt;");</script>Double<span id="LST89D6D79F_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST89D6D79F_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_40?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict_4.htm">Predict(<span id="LST89D6D79F_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_41?cpp=array&lt;");</script><span id="LST89D6D79F_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_42?cpp=array&lt;");</script>Double<span id="LST89D6D79F_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST89D6D79F_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_44?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST89D6D79F_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_45?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict_2.htm">Predict(<span id="LST89D6D79F_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_46?cpp=array&lt;");</script>Double<span id="LST89D6D79F_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Double<span id="LST89D6D79F_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_48?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict_5.htm">Predict(<span id="LST89D6D79F_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_49?cpp=array&lt;");</script><span id="LST89D6D79F_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_50?cpp=array&lt;");</script>Double<span id="LST89D6D79F_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST89D6D79F_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_52?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Double<span id="LST89D6D79F_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_53?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict__1.htm">Predict<span id="LST89D6D79F_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_54?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TUnivariate<span id="LST89D6D79F_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_55?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST89D6D79F_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_56?cpp=array&lt;");</script>Double<span id="LST89D6D79F_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_57?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Mixture<span id="LST89D6D79F_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_58?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TUnivariate<span id="LST89D6D79F_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_59?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST89D6D79F_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_60?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict__1_2.htm">Predict<span id="LST89D6D79F_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_61?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST89D6D79F_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_62?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST89D6D79F_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_63?cpp=array&lt;");</script><span id="LST89D6D79F_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_64?cpp=array&lt;");</script>Double<span id="LST89D6D79F_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_65?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST89D6D79F_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_66?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, MultivariateMixture<span id="LST89D6D79F_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_67?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST89D6D79F_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_68?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST89D6D79F_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_69?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict__1_1.htm">Predict<span id="LST89D6D79F_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_70?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TUnivariate<span id="LST89D6D79F_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_71?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST89D6D79F_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_72?cpp=array&lt;");</script>Double<span id="LST89D6D79F_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST89D6D79F_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_74?cpp=%");</script>, Mixture<span id="LST89D6D79F_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_75?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TUnivariate<span id="LST89D6D79F_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_76?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST89D6D79F_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_77?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Predict__1_3.htm">Predict<span id="LST89D6D79F_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_78?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST89D6D79F_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_79?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST89D6D79F_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_80?cpp=array&lt;");</script><span id="LST89D6D79F_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_81?cpp=array&lt;");</script>Double<span id="LST89D6D79F_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST89D6D79F_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_83?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST89D6D79F_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_84?cpp=%");</script>, MultivariateMixture<span id="LST89D6D79F_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_85?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST89D6D79F_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_86?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST89D6D79F_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_87?cpp=%");</script>)</a></td><td><div class="summary">
+              Predicts the next observation occurring after a given observation sequence.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Save.htm">Save(Stream)</a></td><td><div class="summary">
+              Saves the hidden Markov model to a stream.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Save_1.htm">Save(String)</a></td><td><div class="summary">
+              Saves the hidden Markov model to a stream.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Dimension.htm">Dimension</a></td><td><div class="summary">
+              Gets the number of dimensions in the
+              probability distributions for the states.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Markov_HiddenMarkovModel_1_Emissions.htm">Emissions</a></td><td><div class="summary">
+              Gets the Emission matrix (B) for this model.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel_Probabilities.htm">Probabilities</a></td><td><div class="summary">
+              Gets the log-initial probabilities <span class="code">log(pi)</span> for this model.
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel.htm">BaseHiddenMarkovModel</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel_States.htm">States</a></td><td><div class="summary">
+              Gets the number of states of this model.
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel.htm">BaseHiddenMarkovModel</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel_Tag.htm">Tag</a></td><td><div class="summary">
+              Gets or sets a user-defined tag associated with this model.
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel.htm">BaseHiddenMarkovModel</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel_Transitions.htm">Transitions</a></td><td><div class="summary">
+              Gets the log-transition matrix <span class="code">log(A)</span> for this model.
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_BaseHiddenMarkovModel.htm">BaseHiddenMarkovModel</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID6RBSection" class="collapsibleSection"><p>
               Hidden Markov Models (HMM) are stochastic methods to model temporal and sequence
               data. They are especially known for their application in temporal pattern recognition
               such as speech, handwriting, gesture recognition, part-of-speech tagging, musical
               score following, partial discharges and bioinformatics.</p><p>
               This page refers to the arbitrary-density (continuous emission distributions) version
-              of the model. For discrete distributions, please see <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">HiddenMarkovModel</a>.
+              of the model. For discrete distributions, please see <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">HiddenMarkovModel</a>.
             </p><p>
               Dynamical systems of discrete nature assumed to be governed by a Markov chain emits
               a sequence of observable outputs. Under the Markov assumption, it is also assumed that
@@ -119,40 +156,32 @@ Public Class HiddenMarkovModel(Of TDistribution As IDistribution)
               know in which state the system may be in, but has only a probabilistic insight on where
               it should be.</p><p>
               The arbitrary-density Hidden Markov Model uses any probability density function (such
-              as <a href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm" target="">Gaussian</a><a href="T_Accord_Statistics_Distributions_Univariate_Mixture_1.htm" target="">Mixture Model</a>) for
+              as <a href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">Gaussian</a><a href="T_Accord_Statistics_Distributions_Univariate_Mixture_1.htm">Mixture Model</a>) for
               computing the state probability. In other words, in a continuous HMM the matrix of emission
               probabilities B is replaced by an array of either discrete or continuous probability density
               functions.</p><p>
-              If a <a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm" target="">general
+              If a <a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm">general
               discrete distribution</a> is used as the underlying probability density function, the
-              model becomes equivalent to the <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">discrete Hidden Markov Model</a>.
+              model becomes equivalent to the <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">discrete Hidden Markov Model</a>.
              </p><p>
               For a more thorough explanation on some fundamentals on how Hidden Markov Models work,
-              please see the <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">HiddenMarkovModel</a> documentation page. To learn a Markov
-              model, you can find a list of both <a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm" target="">supervised</a> and
-              <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" target="">unsupervised</a> learning algorithms in the
-              <a href="N_Accord_Statistics_Models_Markov_Learning.htm" target="">Accord.Statistics.Models.Markov.Learning</a> namespace.</p><p>
+              please see the <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">HiddenMarkovModel</a> documentation page. To learn a Markov
+              model, you can find a list of both <a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm">supervised</a> and
+              <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm">unsupervised</a> learning algorithms in the
+              <a href="N_Accord_Statistics_Models_Markov_Learning.htm">Accord.Statistics.Models.Markov.Learning</a> namespace.</p><p>
               References:
               <ul><li>
                   Wikipedia contributors. "Linear regression." Wikipedia, the Free Encyclopedia.
                   Available at: http://en.wikipedia.org/wiki/Hidden_Markov_model </li><li>
                   Bishop, Christopher M.; Pattern Recognition and Machine Learning. 
-                  Springer; 1st ed. 2006.</li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>The example below reproduces the same example given in the Wikipedia
+                  Springer; 1st ed. 2006.</li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><p>The example below reproduces the same example given in the Wikipedia
               entry for the Viterbi algorithm (http://en.wikipedia.org/wiki/Viterbi_algorithm).
-              As an arbitrary density model, one can use it with any available <a href="T_Accord_Statistics_Distributions_IDistribution.htm" target="">
+              As an arbitrary density model, one can use it with any available <a href="T_Accord_Statistics_Distributions_IDistribution.htm">
               probability distributions</a>, including with a discrete probability. In the 
-              following example, the generic model is used with a <a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm" target="">GeneralDiscreteDistribution</a>
-              to reproduce the same example given in <span class="selflink">HiddenMarkovModel<span id="ID0ECDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECDBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EADBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EADBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></span>.
+              following example, the generic model is used with a <a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm">GeneralDiscreteDistribution</a>
+              to reproduce the same example given in <span class="selflink">HiddenMarkovModel<span id="LST89D6D79F_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_88?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_89?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span>.
               Below, the model's parameters are initialized manually. However, it is possible to learn
-              those automatically using <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" target="">BaumWelchLearning<span id="ID0ECBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECBBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EABBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EABBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>.</p><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create the transition matrix A</span> 
+              those automatically using <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">BaumWelchLearning<span id="LST89D6D79F_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_90?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST89D6D79F_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST89D6D79F_91?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAADBA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAADBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAADBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create the transition matrix A</span>
 <span class="highlight-keyword">double</span>[,] transitions = 
 {  
     { <span class="highlight-number">0.7</span>, <span class="highlight-number">0.3</span> },
@@ -166,80 +195,41 @@ GeneralDiscreteDistribution[] emissions =
     <span class="highlight-keyword">new</span> GeneralDiscreteDistribution(<span class="highlight-number">0.6</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">0.1</span>)
 };
 
-<span class="highlight-comment">// Create the initial probabilities pi</span> 
+<span class="highlight-comment">// Create the initial probabilities pi</span>
 <span class="highlight-keyword">double</span>[] initial =
 {
     <span class="highlight-number">0.6</span>, <span class="highlight-number">0.4</span>
 };
 
-<span class="highlight-comment">// Create a new hidden Markov model with discrete probabilities</span> 
+<span class="highlight-comment">// Create a new hidden Markov model with discrete probabilities</span>
 <span class="highlight-keyword">var</span> hmm = <span class="highlight-keyword">new</span> HiddenMarkovModel&lt;GeneralDiscreteDistribution&gt;(transitions, emissions, initial);
 
-<span class="highlight-comment">// After that, one could, for example, query the probability</span> 
-<span class="highlight-comment">// of a sequence occurring. We will consider the sequence</span> 
-<span class="highlight-keyword">double</span>[] sequence = <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span> };
+<span class="highlight-comment">// After that, one could, for example, query the probability</span>
+<span class="highlight-comment">// of a sequence occurring. We will consider the sequence</span>
+<span class="highlight-keyword">double</span>[] sequence = <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span> };
 
-<span class="highlight-comment">// And now we will evaluate its likelihood</span> 
+<span class="highlight-comment">// And now we will evaluate its likelihood</span>
 <span class="highlight-keyword">double</span> logLikelihood = hmm.Evaluate(sequence);
 
-<span class="highlight-comment">// At this point, the log-likelihood of the sequence</span> 
-<span class="highlight-comment">// occurring within the model is -3.3928721329161653.</span> 
+<span class="highlight-comment">// At this point, the log-likelihood of the sequence</span>
+<span class="highlight-comment">// occurring within the model is -3.3928721329161653.</span>
 
-<span class="highlight-comment">// We can also get the Viterbi path of the sequence</span> 
+<span class="highlight-comment">// We can also get the Viterbi path of the sequence</span>
 <span class="highlight-keyword">int</span>[] path = hmm.Decode(sequence, <span class="highlight-keyword">out</span> logLikelihood);
 
-<span class="highlight-comment">// At this point, the state path will be 1-0-0 and the</span> 
-<span class="highlight-comment">// log-likelihood will be -4.3095199438871337</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create the transition matrix A 
-double[,] transitions = 
-{  
-    { 0.7, 0.3 },
-    { 0.4, 0.6 }
-};
-
-// Create the vector of emission densities B
-GeneralDiscreteDistribution[] emissions = 
-{  
-    new GeneralDiscreteDistribution(0.1, 0.4, 0.5),
-    new GeneralDiscreteDistribution(0.6, 0.3, 0.1)
-};
-
-// Create the initial probabilities pi 
-double[] initial =
-{
-    0.6, 0.4
-};
-
-// Create a new hidden Markov model with discrete probabilities 
-var hmm = new HiddenMarkovModel&lt;GeneralDiscreteDistribution&gt;(transitions, emissions, initial);
-
-// After that, one could, for example, query the probability 
-// of a sequence occurring. We will consider the sequence 
-double[] sequence = new double[] { 0, 1, 2 };
-
-// And now we will evaluate its likelihood 
-double logLikelihood = hmm.Evaluate(sequence);
-
-// At this point, the log-likelihood of the sequence 
-// occurring within the model is -3.3928721329161653. 
-
-// We can also get the Viterbi path of the sequence 
-int[] path = hmm.Decode(sequence, out logLikelihood);
-
-// At this point, the state path will be 1-0-0 and the 
-// log-likelihood will be -4.3095199438871337</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" target="">HiddenMarkovModel<span id="ID0EDAEAAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDAEAAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EBAEAAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBAEAAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script> Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" target="">Baum-Welch, one of the most famous 
-              learning algorithms for Hidden Markov Models.</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">Discrete-density Hidden Markov Model</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov_Learning.htm" target="">Accord.Statistics.Models.Markov.Learning</a></div></div>
-        </div>
-      </div>
+<span class="highlight-comment">// At this point, the state path will be 1-0-0 and the</span>
+<span class="highlight-comment">// log-likelihood will be -4.3095199438871337</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAADBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">Baum-Welch, one of the most famous 
+              learning algorithms for Hidden Markov Models.</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">Discrete-density Hidden Markov Model</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov_Learning.htm">Accord.Statistics.Models.Markov.Learning</a></div></div></div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+HiddenMarkovModel(TDistribution)+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

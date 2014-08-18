@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Matrix.Submatrix Method </title>
     <meta name="Language" content="en-us" />
@@ -24,516 +14,308 @@
     <meta name="Microsoft.Help.F1" content="Accord.Math.Matrix.Submatrix``1" />
     <meta name="Microsoft.Help.Id" content="Overload:Accord.Math.Matrix.Submatrix" />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Math" />
     <meta name="file" content="Overload_Accord_Math_Matrix_Submatrix" />
     <meta name="guid" content="Overload_Accord_Math_Matrix_Submatrix" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Math.htm" title="Accord.Math" tocid="N_Accord_Math">Accord.Math</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Math_Matrix.htm" title="Matrix Class" tocid="T_Accord_Math_Matrix">Matrix Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Math_Matrix.htm" title="Matrix Methods" tocid="Methods_T_Accord_Math_Matrix">Matrix Methods</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Math_Matrix_Submatrix.htm" title="Submatrix Method " tocid="Overload_Accord_Math_Matrix_Submatrix">Submatrix Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1.htm" title="Submatrix(T) Method (List(T), Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1">Submatrix(T) Method (List(T), Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_3.htm" title="Submatrix(T) Method (T[,], Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1_3">Submatrix(T) Method (T[,], Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_8.htm" title="Submatrix(T) Method (T[], IList(Int32))" tocid="M_Accord_Math_Matrix_Submatrix__1_8">Submatrix(T) Method (T[], IList(Int32))</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_9.htm" title="Submatrix(T) Method (T[], Int32)" tocid="M_Accord_Math_Matrix_Submatrix__1_9">Submatrix(T) Method (T[], Int32)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_11.htm" title="Submatrix(T) Method (T[], Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1_11">Submatrix(T) Method (T[], Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_5.htm" title="Submatrix(T) Method (T[,], Int32[], Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1_5">Submatrix(T) Method (T[,], Int32[], Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_10.htm" title="Submatrix(T) Method (T[], Int32, Int32)" tocid="M_Accord_Math_Matrix_Submatrix__1_10">Submatrix(T) Method (T[], Int32, Int32)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_14.htm" title="Submatrix(T) Method (T[][], Int32[], Boolean)" tocid="M_Accord_Math_Matrix_Submatrix__1_14">Submatrix(T) Method (T[][], Int32[], Boolean)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_2.htm" title="Submatrix(T) Method (T[,], Int32, Int32, Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1_2">Submatrix(T) Method (T[,], Int32, Int32, Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_4.htm" title="Submatrix(T) Method (T[,], Int32[], Int32, Int32)" tocid="M_Accord_Math_Matrix_Submatrix__1_4">Submatrix(T) Method (T[,], Int32[], Int32, Int32)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_7.htm" title="Submatrix(T) Method (T[,], T[,], Int32[], Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1_7">Submatrix(T) Method (T[,], T[,], Int32[], Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_13.htm" title="Submatrix(T) Method (T[][], Int32, Int32, Int32[])" tocid="M_Accord_Math_Matrix_Submatrix__1_13">Submatrix(T) Method (T[][], Int32, Int32, Int32[])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_16.htm" title="Submatrix(T) Method (T[][], Int32[], Int32[], Boolean)" tocid="M_Accord_Math_Matrix_Submatrix__1_16">Submatrix(T) Method (T[][], Int32[], Int32[], Boolean)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_1.htm" title="Submatrix(T) Method (T[,], Int32, Int32, Int32, Int32)" tocid="M_Accord_Math_Matrix_Submatrix__1_1">Submatrix(T) Method (T[,], Int32, Int32, Int32, Int32)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_12.htm" title="Submatrix(T) Method (T[][], Int32, Int32, Int32, Int32)" tocid="M_Accord_Math_Matrix_Submatrix__1_12">Submatrix(T) Method (T[][], Int32, Int32, Int32, Int32)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_15.htm" title="Submatrix(T) Method (T[][], Int32[], Int32, Int32, Boolean)" tocid="M_Accord_Math_Matrix_Submatrix__1_15">Submatrix(T) Method (T[][], Int32[], Int32, Int32, Boolean)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix_Submatrix__1_6.htm" title="Submatrix(T) Method (T[,], T[,], Int32, Int32, Int32, Int32)" tocid="M_Accord_Math_Matrix_Submatrix__1_6">Submatrix(T) Method (T[,], T[,], Int32, Int32, Int32, Int32)</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">Matrix<span id="ID0EBBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Submatrix Method </td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">Matrix<span id="LSTE0596A54_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_0?cpp=::|nu=.");</script>Submatrix Method </td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Overload List</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <table id="memberList" class="members">
-              <tr>
-                <th class="ps_iconColumn">
-							 
-						</th>
-                <th class="ps_nameColumn">Name</th>
-                <th class="ps_descriptionColumn">Description</th>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1.htm" target="">Submatrix<span id="ID0ELABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABPBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EJABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABPBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(List<span id="ID0EHABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABPBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EFABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABPBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EDABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABPBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABPBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+        <span class="introStyle"></span>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1.htm">Submatrix<span id="LSTE0596A54_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(List<span id="LSTE0596A54_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LSTE0596A54_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_5?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_6?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a subvector extracted from the current vector.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_3.htm" target="">Submatrix<span id="ID0ELABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABOBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EJABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABOBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EHABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABOBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EFABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABOBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, <span id="ID0EDABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABOBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABOBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_3.htm">Submatrix<span id="LSTE0596A54_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_7?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_9?cpp=array&lt;");</script>T<span id="LSTE0596A54_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_10?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE0596A54_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_11?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_12?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_8.htm" target="">Submatrix<span id="ID0EHABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABNBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EFABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABNBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EDABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABNBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EBABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABNBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Int32)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_8.htm">Submatrix<span id="LSTE0596A54_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_15?cpp=array&lt;");</script>T<span id="LSTE0596A54_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IList<span id="LSTE0596A54_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_17?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32<span id="LSTE0596A54_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_18?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a subvector extracted from the current vector.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_10.htm" target="">Submatrix<span id="ID0ELABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABMBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EJABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABMBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EHABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABMBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EFABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABMBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABMBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABMBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_9.htm">Submatrix<span id="LSTE0596A54_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_19?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_20?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_21?cpp=array&lt;");</script>T<span id="LSTE0596A54_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a subvector extracted from the current vector.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_5.htm" target="">Submatrix<span id="ID0EPABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABLBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0ENABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABLBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0ELABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABLBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EJABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABLBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, <span id="ID0EHABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABLBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EFABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABLBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABLBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABLBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
-              Returns a sub matrix extracted from the current matrix.
-            </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_9.htm" target="">Submatrix<span id="ID0EHABKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABKBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EFABKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABKBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EDABKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABKBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EBABKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABKBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Int32, Int32)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_11.htm">Submatrix<span id="LSTE0596A54_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_23?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_24?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_25?cpp=array&lt;");</script>T<span id="LSTE0596A54_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_27?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a subvector extracted from the current vector.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_13.htm" target="">Submatrix<span id="ID0ENABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABJBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0ELABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABJBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EJABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABJBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABJBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EGABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABJBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABJBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABJBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABJBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Boolean)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_5.htm">Submatrix<span id="LSTE0596A54_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_29?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_30?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_31?cpp=array&lt;");</script>T<span id="LSTE0596A54_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_32?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE0596A54_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_33?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_35?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_2.htm" target="">Submatrix<span id="ID0ELABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABIBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EJABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABIBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EHABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABIBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EFABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABIBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, Int32, Int32, <span id="ID0EDABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABIBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABIBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_10.htm">Submatrix<span id="LSTE0596A54_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_37?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_38?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_39?cpp=array&lt;");</script>T<span id="LSTE0596A54_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Returns a subvector extracted from the current vector.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_14.htm">Submatrix<span id="LSTE0596A54_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_41?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_42?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_43?cpp=array&lt;");</script><span id="LSTE0596A54_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_44?cpp=array&lt;");</script>T<span id="LSTE0596A54_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTE0596A54_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_47?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_48?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_4.htm" target="">Submatrix<span id="ID0ELABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABHBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EJABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABHBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EHABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABHBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EFABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABHBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, <span id="ID0EDABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABHBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABHBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Int32, Int32)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_2.htm">Submatrix<span id="LSTE0596A54_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_49?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_50?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_51?cpp=array&lt;");</script>T<span id="LSTE0596A54_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_52?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, Int32, <span id="LSTE0596A54_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_53?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_7.htm" target="">Submatrix<span id="ID0ETABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ETABGBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0ERABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABGBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EPABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABGBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0ENABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABGBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, <span id="ID0ELABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABGBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EJABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABGBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, <span id="ID0EHABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABGBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EFABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABGBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABGBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABGBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_4.htm">Submatrix<span id="LSTE0596A54_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_55?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_56?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_57?cpp=array&lt;");</script>T<span id="LSTE0596A54_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_58?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE0596A54_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_59?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_60?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_12.htm" target="">Submatrix<span id="ID0ENABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABFBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0ELABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABFBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EJABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EGABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABFBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABFBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Int32, Int32, <span id="ID0EDABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABFBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_7.htm">Submatrix<span id="LSTE0596A54_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_61?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_62?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_63?cpp=array&lt;");</script>T<span id="LSTE0596A54_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_64?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE0596A54_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_65?cpp=array&lt;");</script>T<span id="LSTE0596A54_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_66?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE0596A54_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_67?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_68?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_69?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_70?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_15.htm" target="">Submatrix<span id="ID0ERABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABEBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EPABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABEBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0ENABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABEBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EMABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EMABEBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EKABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EKABEBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EJABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABEBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EHABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABEBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EFABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABEBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABEBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABEBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Boolean)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_13.htm">Submatrix<span id="LSTE0596A54_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_71?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_72?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_73?cpp=array&lt;");</script><span id="LSTE0596A54_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_74?cpp=array&lt;");</script>T<span id="LSTE0596A54_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTE0596A54_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_76?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, <span id="LSTE0596A54_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_77?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_1.htm" target="">Submatrix<span id="ID0EHABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABDBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EFABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABDBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EDABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABDBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EBABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABDBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, Int32, Int32, Int32, Int32)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_16.htm">Submatrix<span id="LSTE0596A54_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_79?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_80?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_81?cpp=array&lt;");</script><span id="LSTE0596A54_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_82?cpp=array&lt;");</script>T<span id="LSTE0596A54_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_83?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTE0596A54_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_84?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_85?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_86?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_87?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_11.htm" target="">Submatrix<span id="ID0EJABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABCBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EHABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABCBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EFABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABCBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EEABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABCBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0ECABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABCBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABCBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Int32, Int32, Int32, Int32)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_1.htm">Submatrix<span id="LSTE0596A54_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_89?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_90?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_91?cpp=array&lt;");</script>T<span id="LSTE0596A54_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_92?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_14.htm" target="">Submatrix<span id="ID0ENABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABBBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0ELABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABBBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EJABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EGABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Int32, Int32, Boolean)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_12.htm">Submatrix<span id="LSTE0596A54_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_93?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_94?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_95?cpp=array&lt;");</script><span id="LSTE0596A54_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_96?cpp=array&lt;");</script>T<span id="LSTE0596A54_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTE0596A54_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_98?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Math_Matrix_Submatrix__1_6.htm" target="">Submatrix<span id="ID0ELABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABABCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EJABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABABCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(<span id="ID0EHABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EFABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABABCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, <span id="ID0EDABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>T<span id="ID0EBABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABABCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>, Int32, Int32, Int32, Int32)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_15.htm">Submatrix<span id="LSTE0596A54_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_99?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_100?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_101?cpp=array&lt;");</script><span id="LSTE0596A54_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_102?cpp=array&lt;");</script>T<span id="LSTE0596A54_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_103?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTE0596A54_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_104?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTE0596A54_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_105?cpp=array&lt;");</script>Int32<span id="LSTE0596A54_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_106?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
               Returns a sub matrix extracted from the current matrix.
             </div>
-                </td>
-              </tr>
-            </table>
-            <a href="#mainBody" target="">Back to Top</a>
-            <a name="seeAlsoSection">
-              <!---->
-            </a>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">See Also</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_Submatrix__1_6.htm">Submatrix<span id="LSTE0596A54_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_107?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE0596A54_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_108?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTE0596A54_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_109?cpp=array&lt;");</script>T<span id="LSTE0596A54_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_110?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE0596A54_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_111?cpp=array&lt;");</script>T<span id="LSTE0596A54_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE0596A54_112?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Returns a sub matrix extracted from the current matrix.
             </div>
-            <div class="OH_clear"></div>
-            <div class="seeAlsoStyle">
-              <a href="T_Accord_Math_Matrix.htm" target="">Matrix Class</a>
-            </div>
-            <div class="seeAlsoStyle">
-              <a href="AllMembers_T_Accord_Math_Matrix.htm" target="">Matrix Members</a>
-            </div>
-            <div class="seeAlsoStyle">
-              <a href="N_Accord_Math.htm" target="">Accord.Math Namespace</a>
-            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_Math_Matrix.htm">Matrix Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_Math.htm">Accord.Math Namespace</a>
           </div>
         </div>
       </div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+Matrix.Submatrix+Method++100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Codification Class</title>
     <meta name="Language" content="en-us" />
@@ -25,107 +15,147 @@
     <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Filters.Codification" />
     <meta name="Description" content="Codification Filter class." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Filters" />
     <meta name="file" content="T_Accord_Statistics_Filters_Codification" />
     <meta name="guid" content="T_Accord_Statistics_Filters_Codification" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
-    <script type="text/javascript" src="../scripts/highlight.js">
-      <!---->
-    </script>
-    <meta name="SelfBranded" content="true" />
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Filters.htm" title="Accord.Statistics.Filters" tocid="N_Accord_Statistics_Filters">Accord.Statistics.Filters</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Filters_Codification.htm" title="Codification Class" tocid="T_Accord_Statistics_Filters_Codification">Codification Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Filters_Codification__ctor.htm" title="Codification Constructor " tocid="Overload_Accord_Statistics_Filters_Codification__ctor">Codification Constructor </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Filters_Codification.htm" title="Codification Methods" tocid="Methods_T_Accord_Statistics_Filters_Codification">Codification Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="Properties_T_Accord_Statistics_Filters_Codification.htm" title="Codification Properties" tocid="Properties_T_Accord_Statistics_Filters_Codification">Codification Properties</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">Codification Class</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">Codification Class</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">
+        <span class="introStyle"></span>
+        <div class="summary">
               Codification Filter class.
             </div>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Inheritance Hierarchy</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBKOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBKOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Object</a>
-            <br />  <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm" target="">Accord.Statistics.Filters<span id="ID0EBHOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBHOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>BaseFilter</a><span id="ID0EGOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGOAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script><a href="T_Accord_Statistics_Filters_Codification_Options.htm" target="">Codification<span id="ID0EBFOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBFOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Options</a><span id="ID0EEOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEOAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script><br />    <span class="selflink">Accord.Statistics.Filters<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Codification</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Filters.htm" target="">Accord.Statistics.Filters</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.12.0.0 (2.12.0.4750)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBAEAAAAA_tabimgleft"></div><div id="ID0EBAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBAEAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAEAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBAEAAAAA_tabimgright"></div></div><div id="ID0EBAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
-<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">Codification</span> : <span class="identifier">BaseFilter</span>&lt;<span class="identifier">Codification<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Options</span>&gt;, 
-	<span class="identifier">IAutoConfigurableFilter</span>, <span class="identifier">IFilter</span></pre></div><div id="ID0EBAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
-public class Codification : BaseFilter&lt;Codification..::..Options&gt;, 
-	IAutoConfigurableFilter, IFilter</pre></div><div id="ID0EBAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;<span class="identifier">SerializableAttribute</span>&gt;
-<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">Codification</span> 
-	<span class="keyword">Inherits</span> <span class="identifier">BaseFilter</span>(<span class="keyword">Of</span> <span class="identifier">Codification<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Options</span>)
-	<span class="keyword">Implements</span> <span class="identifier">IAutoConfigurableFilter</span>, <span class="identifier">IFilter</span></pre></div><div id="ID0EBAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;SerializableAttribute&gt;
-Public Class Codification 
-	Inherits BaseFilter(Of Codification..::..Options)
-	Implements IAutoConfigurableFilter, IFilter</pre></div><div id="ID0EBAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="LST54E2A114_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a>
+          <br />  <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">Accord.Statistics.Filters<span id="LST54E2A114_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseFilter</a><span id="LST54E2A114_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="T_Accord_Statistics_Filters_Codification_Options.htm">Codification<span id="LST54E2A114_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Options</a><span id="LST54E2A114_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />    <span class="selflink">Accord.Statistics.Filters<span id="LST54E2A114_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Codification</span><br /></div>
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Filters.htm">Accord.Statistics.Filters</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 2.13.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">Codification</span> : <span class="identifier">BaseFilter</span>&lt;<span class="identifier">Codification<span id="LST54E2A114_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Options</span>&gt;, 
+	<span class="identifier">IAutoConfigurableFilter</span>, <span class="identifier">IFilter</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">Codification</span>
+	<span class="keyword">Inherits</span> <span class="identifier">BaseFilter</span>(<span class="keyword">Of</span> <span class="identifier">Codification<span id="LST54E2A114_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Options</span>)
+	<span class="keyword">Implements</span> <span class="identifier">IAutoConfigurableFilter</span>, <span class="identifier">IFilter</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">Codification</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification__ctor.htm">Codification<span id="LST54E2A114_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_8?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+              Creates a new Codification Filter.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification__ctor_1.htm">Codification(DataTable)</a></td><td><div class="summary">
+              Creates a new Codification Filter.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification__ctor_2.htm">Codification(DataTable, <span id="LST54E2A114_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_9?cpp=array&lt;");</script>String<span id="LST54E2A114_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Creates a new Codification Filter.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification__ctor_3.htm">Codification(String, <span id="LST54E2A114_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_11?cpp=array&lt;");</script>String<span id="LST54E2A114_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_12?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Creates a new Codification Filter.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification__ctor_4.htm">Codification(String, <span id="LST54E2A114_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_13?cpp=array&lt;");</script><span id="LST54E2A114_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_14?cpp=array&lt;");</script>String<span id="LST54E2A114_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_15?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST54E2A114_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Creates a new Codification Filter.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification__ctor_5.htm">Codification(<span id="LST54E2A114_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_17?cpp=array&lt;");</script>String<span id="LST54E2A114_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST54E2A114_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_19?cpp=array&lt;");</script><span id="LST54E2A114_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_20?cpp=array&lt;");</script>String<span id="LST54E2A114_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST54E2A114_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Creates a new Codification Filter.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_BaseFilter_1_Apply.htm">Apply</a></td><td><div class="summary">
+              Applies the Filter to a <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
+            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">BaseFilter<span id="LST54E2A114_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_23?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST54E2A114_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_24?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect.htm">Detect(DataTable)</a></td><td><div class="summary">
+              Auto detects the filter options by analyzing a given <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect_1.htm">Detect(DataTable, <span id="LST54E2A114_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_25?cpp=array&lt;");</script>String<span id="LST54E2A114_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Auto detects the filter options by analyzing a given <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect_2.htm">Detect(String, <span id="LST54E2A114_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_27?cpp=array&lt;");</script><span id="LST54E2A114_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_28?cpp=array&lt;");</script>String<span id="LST54E2A114_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST54E2A114_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_30?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Auto detects the filter options by analyzing a set of string labels.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect_3.htm">Detect(<span id="LST54E2A114_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_31?cpp=array&lt;");</script>String<span id="LST54E2A114_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST54E2A114_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_33?cpp=array&lt;");</script><span id="LST54E2A114_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_34?cpp=array&lt;");</script>String<span id="LST54E2A114_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST54E2A114_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Auto detects the filter options by analyzing a set of string labels.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td><div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td><div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_ProcessFilter.htm">ProcessFilter</a></td><td><div class="summary">
+              Processes the current filter.
+            </div> (Overrides <a href="M_Accord_Statistics_Filters_BaseFilter_1_ProcessFilter.htm">BaseFilter<span id="LST54E2A114_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_37?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST54E2A114_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_38?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LST54E2A114_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_39?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProcessFilter(DataTable)</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_6.htm">Translate(<span id="LST54E2A114_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_40?cpp=array&lt;");</script>String<span id="LST54E2A114_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_41?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates an array of values into their
+              integer representation, assuming values
+              are given in original order of columns.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate.htm">Translate(DataRow, <span id="LST54E2A114_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_42?cpp=array&lt;");</script>String<span id="LST54E2A114_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates an array of values into their
+              integer representation, assuming values
+              are given in original order of columns.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_1.htm">Translate(String, Int32)</a></td><td><div class="summary">
+              Translates an integer (codeword) representation of
+              the value of a given variable into its original
+              value.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_2.htm">Translate(String, <span id="LST54E2A114_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_44?cpp=array&lt;");</script>Int32<span id="LST54E2A114_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates an integer (codeword) representation of
+              the value of a given variable into its original
+              value.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_3.htm">Translate(String, String)</a></td><td><div class="summary">
+              Translates a value of a given variable
+              into its integer (codeword) representation.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_4.htm">Translate(String, <span id="LST54E2A114_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_46?cpp=array&lt;");</script>String<span id="LST54E2A114_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates a value of the given variables
+              into their integer (codeword) representation.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_5.htm">Translate(String, <span id="LST54E2A114_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_48?cpp=array&lt;");</script><span id="LST54E2A114_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_49?cpp=array&lt;");</script>String<span id="LST54E2A114_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST54E2A114_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates a value of the given variables
+              into their integer (codeword) representation.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_7.htm">Translate(<span id="LST54E2A114_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_52?cpp=array&lt;");</script>String<span id="LST54E2A114_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST54E2A114_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_54?cpp=array&lt;");</script>Int32<span id="LST54E2A114_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_55?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates the integer (codeword) representations of
+              the values of the given variables into their original
+              values.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_8.htm">Translate(<span id="LST54E2A114_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_56?cpp=array&lt;");</script>String<span id="LST54E2A114_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_57?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST54E2A114_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_58?cpp=array&lt;");</script>String<span id="LST54E2A114_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Translates a value of the given variables
+              into their integer (codeword) representation.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Filters_BaseFilter_1_Active.htm">Active</a></td><td><div class="summary">
+              Gets or sets whether this filter is active. An inactive
+              filter will repass the input table as output unchanged.
+            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">BaseFilter<span id="LST54E2A114_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_60?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST54E2A114_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_61?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Filters_BaseFilter_1_Columns.htm">Columns</a></td><td><div class="summary">
+              Gets the collection of filter options.
+            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">BaseFilter<span id="LST54E2A114_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_62?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST54E2A114_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_63?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Filters_BaseFilter_1_Item.htm">Item<span id="LST54E2A114_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_64?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>Int32<span id="LST54E2A114_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_65?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a></td><td><div class="summary">
+              Gets options associated with a given variable (data column).
+            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">BaseFilter<span id="LST54E2A114_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_66?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST54E2A114_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_67?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Filters_BaseFilter_1_Item_1.htm">Item<span id="LST54E2A114_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_68?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>String<span id="LST54E2A114_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_69?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a></td><td><div class="summary">
+              Gets options associated with a given variable (data column).
+            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">BaseFilter<span id="LST54E2A114_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_70?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST54E2A114_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_71?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID6RBSection" class="collapsibleSection"><p>
               The codification filter performs an integer codification of classes in
               given in a string form. An unique integer identifier will be assigned
-              for each of the string classes.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+              for each of the string classes.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
               When handling data tables, often there will be cases in which a single
               table contains both numerical variables and categorical data in the form
               of text labels. Since most machine learning and statistics algorithms
               expect their data to be numeric, the codification filter can be used
-              to create mappings between text labels and discrete symbols.</p><div id="ID0EJCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EJCAAAAA_tabs"></div><div id="ID0EJCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EJCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EJCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EJCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EJCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EJCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EJCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EJCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Show the start data</span>
-DataGridBox.Show(table);</pre></div><div id="ID0EJCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Show the start data
-DataGridBox.Show(table);</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EJCAAAAA');</script><img src="./../images/filters/input-table.png" /><div id="ID0EHCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EHCAAAAA_tabs"></div><div id="ID0EHCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EHCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EHCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EHCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EHCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EHCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EHCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EHCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Create a new data projection (column) filter</span> 
+              to create mappings between text labels and discrete symbols.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAJBBA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAJBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAJBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Show the start data</span>
+DataGridBox.Show(table);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAJBBA");</script><img src="..\images\filters\input-table.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAHBBA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAHBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAHBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create a new data projection (column) filter</span>
 <span class="highlight-keyword">var</span> filter = <span class="highlight-keyword">new</span> Codification(table, <span class="highlight-literal">"Category"</span>);
 
 <span class="highlight-comment">// Apply the filter and get the result</span>
 DataTable result = filter.Apply(table);
 
 <span class="highlight-comment">// Show it</span>
-DataGridBox.Show(result);</pre></div><div id="ID0EHCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Create a new data projection (column) filter 
-var filter = new Codification(table, "Category");
-
-// Apply the filter and get the result
-DataTable result = filter.Apply(table);
-
-// Show it
-DataGridBox.Show(result);</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EHCAAAAA');</script><img src="./../images/filters/output-codification.png" /><p>
+DataGridBox.Show(result);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAHBBA");</script><img src="..\images\filters\output-codification.png" /><p>
               The following more elaborated examples show how to
               use the <span class="selflink">Codification</span> filter without
-              necessarily handling <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">
-              DataTable</a>s.</p><div id="ID0EECAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EECAAAAA_tabs"></div><div id="ID0EECAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EECAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EECAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EECAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EECAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EECAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EECAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EECAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Suppose we have a data table relating the age of</span> 
-<span class="highlight-comment">// a person and its categorical classification, as </span> 
-<span class="highlight-comment">// in "child", "adult" or "elder".</span> 
+              necessarily handling <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">
+              DataTable</a>s.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we have a data table relating the age of</span>
+<span class="highlight-comment">// a person and its categorical classification, as </span>
+<span class="highlight-comment">// in "child", "adult" or "elder".</span>
 
-<span class="highlight-comment">// The Codification filter is able to extract those</span> 
-<span class="highlight-comment">// string labels and transform them into discrete</span> 
-<span class="highlight-comment">// symbols, assigning integer labels to each of them</span> 
-<span class="highlight-comment">// such as "child" = 0, "adult" = 1, and "elder" = 3.</span> 
+<span class="highlight-comment">// The Codification filter is able to extract those</span>
+<span class="highlight-comment">// string labels and transform them into discrete</span>
+<span class="highlight-comment">// symbols, assigning integer labels to each of them</span>
+<span class="highlight-comment">// such as "child" = 0, "adult" = 1, and "elder" = 3.</span>
 
 <span class="highlight-comment">// Create the aforementioned sample table</span>
 DataTable table = <span class="highlight-keyword">new</span> DataTable(<span class="highlight-literal">"Sample data"</span>);
@@ -144,187 +174,94 @@ table.Rows.Add(<span class="highlight-number">40</span>, <span class="highlight-
 table.Rows.Add(<span class="highlight-number">30</span>, <span class="highlight-literal">"adult"</span>);
 
 
-<span class="highlight-comment">// Now, let's say we need to translate those text labels</span> 
+<span class="highlight-comment">// Now, let's say we need to translate those text labels</span>
 <span class="highlight-comment">// into integer symbols. Let's use a Codification filter:</span>
 
 Codification codebook = <span class="highlight-keyword">new</span> Codification(table);
 
 
-<span class="highlight-comment">// After that, we can use the codebook to "translate"</span> 
-<span class="highlight-comment">// the text labels into discrete symbols, such as:</span> 
+<span class="highlight-comment">// After that, we can use the codebook to "translate"</span>
+<span class="highlight-comment">// the text labels into discrete symbols, such as:</span>
 
-<span class="highlight-keyword">int</span> a = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-literal">"child"</span>); <span class="highlight-comment">// returns 0</span> 
-<span class="highlight-keyword">int</span> b = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-literal">"adult"</span>); <span class="highlight-comment">// returns 1</span> 
-<span class="highlight-keyword">int</span> c = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-literal">"elder"</span>); <span class="highlight-comment">// returns 2</span> 
+<span class="highlight-keyword">int</span> a = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-literal">"child"</span>); <span class="highlight-comment">// returns 0</span>
+<span class="highlight-keyword">int</span> b = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-literal">"adult"</span>); <span class="highlight-comment">// returns 1</span>
+<span class="highlight-keyword">int</span> c = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-literal">"elder"</span>); <span class="highlight-comment">// returns 2</span>
 
-<span class="highlight-comment">// We can also do the reverse:</span> 
-<span class="highlight-keyword">string</span> labela = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-number">0</span>); <span class="highlight-comment">// returns "child"</span> 
-<span class="highlight-keyword">string</span> labelb = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-number">1</span>); <span class="highlight-comment">// returns "adult"</span> 
-<span class="highlight-keyword">string</span> labelc = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-number">2</span>); <span class="highlight-comment">// returns "elder"</span></pre></div><div id="ID0EECAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Suppose we have a data table relating the age of 
-// a person and its categorical classification, as  
-// in "child", "adult" or "elder". 
-
-// The Codification filter is able to extract those 
-// string labels and transform them into discrete 
-// symbols, assigning integer labels to each of them 
-// such as "child" = 0, "adult" = 1, and "elder" = 3. 
-
-// Create the aforementioned sample table
-DataTable table = new DataTable("Sample data");
-table.Columns.Add("Age", typeof(int));
-table.Columns.Add("Label", typeof(string));
-
-//            age   label
-table.Rows.Add(10, "child");
-table.Rows.Add(07, "child");
-table.Rows.Add(04, "child");
-table.Rows.Add(21, "adult");
-table.Rows.Add(27, "adult");
-table.Rows.Add(12, "child");
-table.Rows.Add(79, "elder");
-table.Rows.Add(40, "adult");
-table.Rows.Add(30, "adult");
-
-
-// Now, let's say we need to translate those text labels 
-// into integer symbols. Let's use a Codification filter:
-
-Codification codebook = new Codification(table);
-
-
-// After that, we can use the codebook to "translate" 
-// the text labels into discrete symbols, such as: 
-
-int a = codebook.Translate("Label", "child"); // returns 0 
-int b = codebook.Translate("Label", "adult"); // returns 1 
-int c = codebook.Translate("Label", "elder"); // returns 2 
-
-// We can also do the reverse: 
-string labela = codebook.Translate("Label", 0); // returns "child" 
-string labelb = codebook.Translate("Label", 1); // returns "adult" 
-string labelc = codebook.Translate("Label", 2); // returns "elder"</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EECAAAAA');</script><p>
+<span class="highlight-comment">// We can also do the reverse:</span>
+<span class="highlight-keyword">string</span> labela = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-number">0</span>); <span class="highlight-comment">// returns "child"</span>
+<span class="highlight-keyword">string</span> labelb = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-number">1</span>); <span class="highlight-comment">// returns "adult"</span>
+<span class="highlight-keyword">string</span> labelc = codebook.Translate(<span class="highlight-literal">"Label"</span>, <span class="highlight-number">2</span>); <span class="highlight-comment">// returns "elder"</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><p>
               After we have created the codebook, we can use it to feed data with
               categorical variables to method which would otherwise not know how
               to handle text labels data. Continuing with our example, the next
               code section shows how to convert an entire data table into a numerical
-              matrix. </p><div id="ID0ECCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0ECCAAAAA_tabs"></div><div id="ID0ECCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0ECCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0ECCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0ECCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ECCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ECCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ECCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0ECCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// We can process an entire data table at once:</span>
+              matrix. </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We can process an entire data table at once:</span>
 DataTable result = codebook.Apply(table);
 
-<span class="highlight-comment">// The resulting table can be transformed to jagged array:</span> 
+<span class="highlight-comment">// The resulting table can be transformed to jagged array:</span>
 <span class="highlight-keyword">double</span>[][] matrix = Matrix.ToArray(result);
 
-<span class="highlight-comment">// and the resulting matrix will be given by</span> 
-<span class="highlight-comment">// new double[][] </span> 
-<span class="highlight-comment">// {</span> 
-<span class="highlight-comment">//     new double[] { 10, 0 },</span> 
-<span class="highlight-comment">//     new double[] {  7, 0 },</span> 
-<span class="highlight-comment">//     new double[] {  4, 0 },</span> 
-<span class="highlight-comment">//     new double[] { 21, 1 },</span> 
-<span class="highlight-comment">//     new double[] { 27, 1 },</span> 
-<span class="highlight-comment">//     new double[] { 12, 0 },</span> 
-<span class="highlight-comment">//     new double[] { 79, 2 },</span> 
-<span class="highlight-comment">//     new double[] { 40, 1 },</span> 
-<span class="highlight-comment">//     new double[] { 30, 1 } </span> 
-<span class="highlight-comment">// };</span> 
+<span class="highlight-comment">// and the resulting matrix will be given by</span>
+<span class="highlight-comment">// new double[][] </span>
+<span class="highlight-comment">// {</span>
+<span class="highlight-comment">//     new double[] { 10, 0 },</span>
+<span class="highlight-comment">//     new double[] {  7, 0 },</span>
+<span class="highlight-comment">//     new double[] {  4, 0 },</span>
+<span class="highlight-comment">//     new double[] { 21, 1 },</span>
+<span class="highlight-comment">//     new double[] { 27, 1 },</span>
+<span class="highlight-comment">//     new double[] { 12, 0 },</span>
+<span class="highlight-comment">//     new double[] { 79, 2 },</span>
+<span class="highlight-comment">//     new double[] { 40, 1 },</span>
+<span class="highlight-comment">//     new double[] { 30, 1 } </span>
+<span class="highlight-comment">// };</span>
 
-<span class="highlight-comment">// PS: the string representation for the matrix above can be obtained by calling</span> 
-<span class="highlight-keyword">string</span> str = matrix.ToString(CSharpJaggedMatrixFormatProvider.InvariantCulture);</pre></div><div id="ID0ECCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// We can process an entire data table at once:
-DataTable result = codebook.Apply(table);
-
-// The resulting table can be transformed to jagged array: 
-double[][] matrix = Matrix.ToArray(result);
-
-// and the resulting matrix will be given by 
-// new double[][]  
-// { 
-//     new double[] { 10, 0 }, 
-//     new double[] {  7, 0 }, 
-//     new double[] {  4, 0 }, 
-//     new double[] { 21, 1 }, 
-//     new double[] { 27, 1 }, 
-//     new double[] { 12, 0 }, 
-//     new double[] { 79, 2 }, 
-//     new double[] { 40, 1 }, 
-//     new double[] { 30, 1 }  
-// }; 
-
-// PS: the string representation for the matrix above can be obtained by calling 
-string str = matrix.ToString(CSharpJaggedMatrixFormatProvider.InvariantCulture);</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0ECCAAAAA');</script><p>
+<span class="highlight-comment">// PS: the string representation for the matrix above can be obtained by calling</span>
+<span class="highlight-keyword">string</span> str = matrix.ToString(CSharpJaggedMatrixFormatProvider.InvariantCulture);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><p>
               Finally, by expressing our data in terms of a simple numerical
               matrix we will be able to feed it to any machine learning algorithm.
-              The following code section shows how to create a <a href="T_Accord_Statistics_Kernels_Linear.htm" target="">
+              The following code section shows how to create a <a href="T_Accord_Statistics_Kernels_Linear.htm">
               linear</a> multi-class Support Vector Machine to classify ages into any
-              of the previously considered text labels ("child", "adult" or "elder").</p><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Now we will be able to feed this matrix to any machine learning</span> 
-<span class="highlight-comment">// algorithm without having to worry about text labels in our data:</span> 
+              of the previously considered text labels ("child", "adult" or "elder").</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Now we will be able to feed this matrix to any machine learning</span>
+<span class="highlight-comment">// algorithm without having to worry about text labels in our data:</span>
 
-<span class="highlight-comment">// Use the first column as input and the second column a output:</span> 
+<span class="highlight-comment">// Use the first column as input and the second column a output:</span>
 
-<span class="highlight-keyword">double</span>[][] inputs = matrix.GetColumns(<span class="highlight-number">0</span>);      <span class="highlight-comment">// Age column</span> 
-<span class="highlight-keyword">int</span>[] outputs = matrix.GetColumn(<span class="highlight-number">1</span>).ToInt32(); <span class="highlight-comment">// Label column</span> 
+<span class="highlight-keyword">double</span>[][] inputs = matrix.GetColumns(<span class="highlight-number">0</span>);      <span class="highlight-comment">// Age column</span>
+<span class="highlight-keyword">int</span>[] outputs = matrix.GetColumn(<span class="highlight-number">1</span>).ToInt32(); <span class="highlight-comment">// Label column</span>
 
 
-<span class="highlight-comment">// Create a multi-class SVM for one input (Age) and three classes (Label)</span> 
+<span class="highlight-comment">// Create a multi-class SVM for one input (Age) and three classes (Label)</span>
 <span class="highlight-keyword">var</span> machine = <span class="highlight-keyword">new</span> MulticlassSupportVectorMachine(inputs: <span class="highlight-number">1</span>, classes: <span class="highlight-number">3</span>);
 
-<span class="highlight-comment">// Create a Multi-class learning algorithm for the machine</span> 
+<span class="highlight-comment">// Create a Multi-class learning algorithm for the machine</span>
 <span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MulticlassSupportVectorLearning(machine, inputs, outputs);
 
-<span class="highlight-comment">// Configure the learning algorithm to use SMO to train the</span> 
+<span class="highlight-comment">// Configure the learning algorithm to use SMO to train the</span>
 <span class="highlight-comment">//  underlying SVMs in each of the binary class subproblems.</span>
 teacher.Algorithm = (svm, classInputs, classOutputs, i, j) =&gt;
     <span class="highlight-keyword">new</span> SequentialMinimalOptimization(svm, classInputs, classOutputs);
 
-<span class="highlight-comment">// Run the learning algorithm</span> 
-<span class="highlight-keyword">double</span> error = teacher.Run(); <span class="highlight-comment">// error will be zero</span> 
+<span class="highlight-comment">// Run the learning algorithm</span>
+<span class="highlight-keyword">double</span> error = teacher.Run(); <span class="highlight-comment">// error will be zero</span>
 
 
-<span class="highlight-comment">// After we have learned the machine, we can use it to classify</span> 
-<span class="highlight-comment">// new data points, and use the codebook to translate the machine</span> 
-<span class="highlight-comment">// outputs to the original text labels:</span> 
+<span class="highlight-comment">// After we have learned the machine, we can use it to classify</span>
+<span class="highlight-comment">// new data points, and use the codebook to translate the machine</span>
+<span class="highlight-comment">// outputs to the original text labels:</span>
 
-<span class="highlight-keyword">string</span> result1 = codebook.Translate(<span class="highlight-literal">"Label"</span>, machine.Compute(<span class="highlight-number">10</span>)); <span class="highlight-comment">// child</span> 
-<span class="highlight-keyword">string</span> result2 = codebook.Translate(<span class="highlight-literal">"Label"</span>, machine.Compute(<span class="highlight-number">40</span>)); <span class="highlight-comment">// adult</span> 
-<span class="highlight-keyword">string</span> result3 = codebook.Translate(<span class="highlight-literal">"Label"</span>, machine.Compute(<span class="highlight-number">70</span>)); <span class="highlight-comment">// elder</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Now we will be able to feed this matrix to any machine learning 
-// algorithm without having to worry about text labels in our data: 
-
-// Use the first column as input and the second column a output: 
-
-double[][] inputs = matrix.GetColumns(0);      // Age column 
-int[] outputs = matrix.GetColumn(1).ToInt32(); // Label column 
-
-
-// Create a multi-class SVM for one input (Age) and three classes (Label) 
-var machine = new MulticlassSupportVectorMachine(inputs: 1, classes: 3);
-
-// Create a Multi-class learning algorithm for the machine 
-var teacher = new MulticlassSupportVectorLearning(machine, inputs, outputs);
-
-// Configure the learning algorithm to use SMO to train the 
-//  underlying SVMs in each of the binary class subproblems.
-teacher.Algorithm = (svm, classInputs, classOutputs, i, j) =&gt;
-    new SequentialMinimalOptimization(svm, classInputs, classOutputs);
-
-// Run the learning algorithm 
-double error = teacher.Run(); // error will be zero 
-
-
-// After we have learned the machine, we can use it to classify 
-// new data points, and use the codebook to translate the machine 
-// outputs to the original text labels: 
-
-string result1 = codebook.Translate("Label", machine.Compute(10)); // child 
-string result2 = codebook.Translate("Label", machine.Compute(40)); // adult 
-string result3 = codebook.Translate("Label", machine.Compute(70)); // elder</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Filters_Codification.htm" target="">Codification Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Filters.htm" target="">Accord.Statistics.Filters Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Filters_Normalization.htm" target="">Accord.Statistics.Filters<span id="ID0EBAAAAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBAAAAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Normalization</a></div></div>
-        </div>
-      </div>
+<span class="highlight-keyword">string</span> result1 = codebook.Translate(<span class="highlight-literal">"Label"</span>, machine.Compute(<span class="highlight-number">10</span>)); <span class="highlight-comment">// child</span>
+<span class="highlight-keyword">string</span> result2 = codebook.Translate(<span class="highlight-literal">"Label"</span>, machine.Compute(<span class="highlight-number">40</span>)); <span class="highlight-comment">// adult</span>
+<span class="highlight-keyword">string</span> result3 = codebook.Translate(<span class="highlight-literal">"Label"</span>, machine.Compute(<span class="highlight-number">70</span>)); <span class="highlight-comment">// elder</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Filters.htm">Accord.Statistics.Filters Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Filters_Normalization.htm">Accord.Statistics.Filters<span id="LST54E2A114_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST54E2A114_72?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Normalization</a></div></div></div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+Codification+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

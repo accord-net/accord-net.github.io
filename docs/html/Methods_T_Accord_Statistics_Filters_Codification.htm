@@ -1,181 +1,348 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Codification Methods</title>
     <meta name="Language" content="en-us" />
     <meta name="System.Keywords" content="Codification class, methods" />
     <meta name="Microsoft.Help.Id" content="Methods.T:Accord.Statistics.Filters.Codification" />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Filters" />
     <meta name="file" content="Methods_T_Accord_Statistics_Filters_Codification" />
     <meta name="guid" content="Methods_T_Accord_Statistics_Filters_Codification" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Filters.htm" title="Accord.Statistics.Filters" tocid="N_Accord_Statistics_Filters">Accord.Statistics.Filters</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Filters_Codification.htm" title="Codification Class" tocid="T_Accord_Statistics_Filters_Codification">Codification Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Filters_Codification.htm" title="Codification Methods" tocid="Methods_T_Accord_Statistics_Filters_Codification">Codification Methods</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Filters_Codification_Detect.htm" title="Detect Method " tocid="Overload_Accord_Statistics_Filters_Codification_Detect">Detect Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Filters_Codification_ProcessFilter.htm" title="ProcessFilter Method " tocid="M_Accord_Statistics_Filters_Codification_ProcessFilter">ProcessFilter Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Filters_Codification_Translate.htm" title="Translate Method " tocid="Overload_Accord_Statistics_Filters_Codification_Translate">Translate Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">Codification Methods</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">Codification Methods</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>The <a href="T_Accord_Statistics_Filters_Codification.htm" target="">Codification</a> type exposes the following members.<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
-							 
-						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_BaseFilter_1_Apply.htm" target="">Apply</a></td><td><div class="summary">
-              Applies the Filter to a <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
-            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm" target="">BaseFilter<span id="ID0ECBAUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECBAUBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EABAUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EABAUBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect.htm" target="">Detect(DataTable)</a></td><td><div class="summary">
-              Auto detects the filter options by analyzing a given <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect_1.htm" target="">Detect(DataTable, <span id="ID0EDABSBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABSBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EBABSBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABSBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
-              Auto detects the filter options by analyzing a given <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect_2.htm" target="">Detect(String, <span id="ID0EFABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABRBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EEABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABRBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0ECABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABRBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABRBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+        <span class="introStyle"></span>
+        <p>The <a href="T_Accord_Statistics_Filters_Codification.htm">Codification</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_BaseFilter_1_Apply.htm">Apply</a>
+              </td>
+              <td>
+                <div class="summary">
+              Applies the Filter to a <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
+            </div> (Inherited from <a href="T_Accord_Statistics_Filters_BaseFilter_1.htm">BaseFilter<span id="LSTDC478528_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTDC478528_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Detect.htm">Detect(DataTable)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Auto detects the filter options by analyzing a given <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Detect_1.htm">Detect(DataTable, <span id="LSTDC478528_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_2?cpp=array&lt;");</script>String<span id="LSTDC478528_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Auto detects the filter options by analyzing a given <a href="http://msdn2.microsoft.com/en-us/library/9186hy08" target="_blank">DataTable</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Detect_2.htm">Detect(String, <span id="LSTDC478528_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_4?cpp=array&lt;");</script><span id="LSTDC478528_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_5?cpp=array&lt;");</script>String<span id="LSTDC478528_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_6?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTDC478528_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Auto detects the filter options by analyzing a set of string labels.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Detect_3.htm" target="">Detect(<span id="ID0EJABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABQBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EHABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABQBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EFABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABQBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EEABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABQBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0ECABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABQBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABQBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Detect_3.htm">Detect(<span id="LSTDC478528_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_8?cpp=array&lt;");</script>String<span id="LSTDC478528_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_9?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTDC478528_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_10?cpp=array&lt;");</script><span id="LSTDC478528_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_11?cpp=array&lt;");</script>String<span id="LSTDC478528_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_12?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTDC478528_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Auto detects the filter options by analyzing a set of string labels.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td><div class="summary">Allows an <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> to attempt to free resources and perform other cleanup operations before the <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is reclaimed by garbage collection.</div> (Inherited from <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td><div class="summary">Gets the <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td><div class="summary">Creates a shallow copy of the current <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_ProcessFilter.htm" target="">ProcessFilter</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_ProcessFilter.htm">ProcessFilter</a>
+              </td>
+              <td>
+                <div class="summary">
               Processes the current filter.
-            </div> (Overrides <a href="M_Accord_Statistics_Filters_BaseFilter_1_ProcessFilter.htm" target="">BaseFilter<span id="ID0EEBAKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEBAKBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0ECBAKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECBAKBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script><span id="ID0EBBAKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBAKBCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>ProcessFilter(DataTable)</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> that represents the current <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_6.htm" target="">Translate(<span id="ID0EDABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABIBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EBABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABIBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div> (Overrides <a href="M_Accord_Statistics_Filters_BaseFilter_1_ProcessFilter.htm">BaseFilter<span id="LSTDC478528_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTDC478528_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTDC478528_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_16?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProcessFilter(DataTable)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_6.htm">Translate(<span id="LSTDC478528_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_17?cpp=array&lt;");</script>String<span id="LSTDC478528_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates an array of values into their
               integer representation, assuming values
               are given in original order of columns.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate.htm" target="">Translate(DataRow, <span id="ID0EDABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABHBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EBABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABHBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate.htm">Translate(DataRow, <span id="LSTDC478528_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_19?cpp=array&lt;");</script>String<span id="LSTDC478528_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates an array of values into their
               integer representation, assuming values
               are given in original order of columns.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_1.htm" target="">Translate(String, Int32)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_1.htm">Translate(String, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates an integer (codeword) representation of
               the value of a given variable into its original
               value.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_2.htm" target="">Translate(String, <span id="ID0EDABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABFBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_2.htm">Translate(String, <span id="LSTDC478528_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_21?cpp=array&lt;");</script>Int32<span id="LSTDC478528_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates an integer (codeword) representation of
               the value of a given variable into its original
               value.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_3.htm" target="">Translate(String, String)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_3.htm">Translate(String, String)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates a value of a given variable
               into its integer (codeword) representation.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_4.htm" target="">Translate(String, <span id="ID0EDABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABDBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EBABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABDBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_4.htm">Translate(String, <span id="LSTDC478528_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_23?cpp=array&lt;");</script>String<span id="LSTDC478528_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates a value of the given variables
               into their integer (codeword) representation.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_5.htm" target="">Translate(String, <span id="ID0EFABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABCBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EEABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABCBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0ECABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABCBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABCBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_5.htm">Translate(String, <span id="LSTDC478528_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_25?cpp=array&lt;");</script><span id="LSTDC478528_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_26?cpp=array&lt;");</script>String<span id="LSTDC478528_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTDC478528_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates a value of the given variables
               into their integer (codeword) representation.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_7.htm" target="">Translate(<span id="ID0EHABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EFABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_7.htm">Translate(<span id="LSTDC478528_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_29?cpp=array&lt;");</script>String<span id="LSTDC478528_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_30?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTDC478528_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_31?cpp=array&lt;");</script>Int32<span id="LSTDC478528_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates the integer (codeword) representations of
               the values of the given variables into their original
               values.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Filters_Codification_Translate_8.htm" target="">Translate(<span id="ID0EHABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EFABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABABCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>String<span id="ID0EBABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABABCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a></td><td><div class="summary">
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Filters_Codification_Translate_8.htm">Translate(<span id="LSTDC478528_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_33?cpp=array&lt;");</script>String<span id="LSTDC478528_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTDC478528_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_35?cpp=array&lt;");</script>String<span id="LSTDC478528_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDC478528_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Translates a value of the given variables
               into their integer (codeword) representation.
-            </div></td></tr></table><a href="#mainBody" target="">Back to Top</a><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Filters_Codification.htm" target="">Codification Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Filters.htm" target="">Accord.Statistics.Filters Namespace</a></div></div>
+            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_Statistics_Filters_Codification.htm">Codification Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_Statistics_Filters.htm">Accord.Statistics.Filters Namespace</a>
+          </div>
         </div>
       </div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+Codification+Methods+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ZTestPowerAnalysis Class</title>
     <meta name="Language" content="en-us" />
@@ -25,66 +15,144 @@
     <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Testing.Power.ZTestPowerAnalysis" />
     <meta name="Description" content="Power analysis for one-sample Z-Tests." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Testing.Power" />
     <meta name="file" content="T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis" />
     <meta name="guid" content="T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Testing_Power.htm" title="Accord.Statistics.Testing.Power" tocid="N_Accord_Statistics_Testing_Power">Accord.Statistics.Testing.Power</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis.htm" title="ZTestPowerAnalysis Class" tocid="T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis">ZTestPowerAnalysis Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Testing_Power_ZTestPowerAnalysis__ctor.htm" title="ZTestPowerAnalysis Constructor " tocid="Overload_Accord_Statistics_Testing_Power_ZTestPowerAnalysis__ctor">ZTestPowerAnalysis Constructor </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis.htm" title="ZTestPowerAnalysis Methods" tocid="Methods_T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis">ZTestPowerAnalysis Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="Properties_T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis.htm" title="ZTestPowerAnalysis Properties" tocid="Properties_T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis">ZTestPowerAnalysis Properties</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">ZTestPowerAnalysis Class</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">ZTestPowerAnalysis Class</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">
+        <span class="introStyle"></span>
+        <div class="summary">
               Power analysis for one-sample Z-Tests.
             </div>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Inheritance Hierarchy</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBHMAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBHMAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Object</a>
-            <br />  <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm" target="">Accord.Statistics.Testing.Power<span id="ID0EBEMAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBEMAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>BaseOneSamplePowerAnalysis</a><br />    <span class="selflink">Accord.Statistics.Testing.Power<span id="ID0EBBMAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBMAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>ZTestPowerAnalysis</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Testing_Power.htm" target="">Accord.Statistics.Testing.Power</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.12.0.0 (2.12.0.4750)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBACAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBACAAAAA_tabimgleft"></div><div id="ID0EBACAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBACAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBACAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBACAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBACAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBACAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBACAAAAA_tabimgright"></div></div><div id="ID0EBACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
-<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ZTestPowerAnalysis</span> : <span class="identifier">BaseOneSamplePowerAnalysis</span></pre></div><div id="ID0EBACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
-public class ZTestPowerAnalysis : BaseOneSamplePowerAnalysis</pre></div><div id="ID0EBACAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;<span class="identifier">SerializableAttribute</span>&gt;
-<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">ZTestPowerAnalysis</span> 
-	<span class="keyword">Inherits</span> <span class="identifier">BaseOneSamplePowerAnalysis</span></pre></div><div id="ID0EBACAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;SerializableAttribute&gt;
-Public Class ZTestPowerAnalysis 
-	Inherits BaseOneSamplePowerAnalysis</pre></div><div id="ID0EBACAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBACAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBACAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBACAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBACAAAAA');</script></div><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Testing_Power_ZTestPowerAnalysis.htm" target="">ZTestPowerAnalysis Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Testing_Power.htm" target="">Accord.Statistics.Testing.Power Namespace</a></div></div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
         </div>
-      </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="LST3A2A093B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a>
+          <br />  <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">Accord.Statistics.Testing.Power<span id="LST3A2A093B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseOneSamplePowerAnalysis</a><br />    <span class="selflink">Accord.Statistics.Testing.Power<span id="LST3A2A093B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ZTestPowerAnalysis</span><br /></div>
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Testing_Power.htm">Accord.Statistics.Testing.Power</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 2.13.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ZTestPowerAnalysis</span> : <span class="identifier">BaseOneSamplePowerAnalysis</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">ZTestPowerAnalysis</span>
+	<span class="keyword">Inherits</span> <span class="identifier">BaseOneSamplePowerAnalysis</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">ZTestPowerAnalysis</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis__ctor.htm">ZTestPowerAnalysis(OneSampleHypothesis)</a></td><td><div class="summary">
+              Creates a new <span class="selflink">ZTestPowerAnalysis</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis__ctor_1.htm">ZTestPowerAnalysis(TwoSampleZTest)</a></td><td><div class="summary">
+              Creates a new <span class="selflink">ZTestPowerAnalysis</span>.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_Clone.htm">Clone</a></td><td><div class="summary">
+              Creates a new object that is a copy of the current instance.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis_ComputeEffect.htm">ComputeEffect</a></td><td><div class="summary">
+              Computes the minimum detectable effect size for the test
+              considering the power given in <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Power.htm">Power</a>, the
+              number of samples in <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Samples.htm">Samples</a> and the significance
+              level <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Size.htm">Size</a>.
+            </div> (Overrides <a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_ComputeEffect.htm">BaseOneSamplePowerAnalysis<span id="LST3A2A093B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ComputeEffect<span id="LST3A2A093B_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis_ComputePower.htm">ComputePower</a></td><td><div class="summary">
+             Computes the power for a test with givens values of
+             <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Effect.htm">effect size</a> and <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Samples.htm">
+             number of samples</a> under <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Size.htm">Size</a>.
+            </div> (Overrides <a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_ComputePower.htm">BaseOneSamplePowerAnalysis<span id="LST3A2A093B_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ComputePower<span id="LST3A2A093B_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_6?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis_ComputeSamples.htm">ComputeSamples</a></td><td><div class="summary">
+              Gets the recommended sample size for the test to attain
+              the power indicating in <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Power.htm">Power</a> considering
+              values of <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Effect.htm">Effect</a> and <a href="P_Accord_Statistics_Testing_Power_IPowerAnalysis_Size.htm">Size</a>.
+            </div> (Overrides <a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_ComputeSamples.htm">BaseOneSamplePowerAnalysis<span id="LST3A2A093B_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ComputeSamples<span id="LST3A2A093B_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_8?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_GetDiferentiableUnits.htm">GetDiferentiableUnits</a></td><td><div class="summary">
+              Gets the minimum difference in the experiment units
+              to which it is possible to detect a difference.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis_GetEffectSize.htm">GetEffectSize</a></td><td><div class="summary">
+              Estimates the number of samples necessary to attain the
+              required power level for the given effect size.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Testing_Power_ZTestPowerAnalysis_GetSampleSize.htm">GetSampleSize</a></td><td><div class="summary">
+              Estimates the number of samples necessary to attain the
+              required power level for the given effect size.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td><div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td><div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_ToString.htm">ToString<span id="LST3A2A093B_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_9?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+              Converts the numeric power of this test to its equivalent string representation.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_ToString_1.htm">ToString(String, IFormatProvider)</a></td><td><div class="summary">
+              Converts the numeric power of this test to its equivalent string representation.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_Effect.htm">Effect</a></td><td><div class="summary">
+              Gets or sets the effect size of the test.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_Power.htm">Power</a></td><td><div class="summary">
+              Gets or sets the power of the test, also
+              known as the (1-Beta error rate).
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_Samples.htm">Samples</a></td><td><div class="summary">
+              Gets or sets the number of samples 
+              considered in the test.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_Size.htm">Size</a></td><td><div class="summary">
+              Gets or sets the significance level
+              for the test. Also known as alpha.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis_Tail.htm">Tail</a></td><td><div class="summary">
+              Gets the test type.
+            </div> (Inherited from <a href="T_Accord_Statistics_Testing_Power_BaseOneSamplePowerAnalysis.htm">BaseOneSamplePowerAnalysis</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID6RBSection" class="collapsibleSection">
+            // When creating a power analysis, we have three things we can
+            // change. We can always freely configure two of those things
+            // and then ask the analysis to give us the third.
+            
+            var analysis = new ZTestPowerAnalysis(OneSampleHypothesis.ValueIsDifferentFromHypothesis);
+            
+            // Those are:
+            double e = analysis.Effect;   // the test's minimum detectable effect size
+            double n = analysis.Samples;  // the number of samples in the test
+            double p = analysis.Power;    // the probability of committing a type-2 error
+            
+            // Let's set the desired effect size and the 
+            // number of samples so we can get the power
+            
+            analysis.Effect = 0.2; // we would like to detect at least 0.2 std. dev. apart
+            analysis.Samples = 60; // we would like to use at most 60 samples
+            analysis.ComputePower(); // what will be the power of this test?
+            
+            double power = analysis.Power; // The power is going to be 0.34 (or 34%)
+            
+            // Let's set the desired power and the number 
+            // of samples so we can get the effect size
+            
+            analysis.Power = 0.8;  // we would like to create a test with 80% power
+            analysis.Samples = 60; // we would like to use at most 60 samples
+            analysis.ComputeEffect(); // what would be the minimum effect size we can detect?
+            
+            double effect = analysis.Effect; // The effect will be 0.36 standard deviations.
+            
+            // Let's set the desired power and the effect
+            // size so we can get the number of samples
+            
+            analysis.Power = 0.8;  // we would like to create a test with 80% power
+            analysis.Effect = 0.2; // we would like to detect at least 0.2 std. dev. apart
+            analysis.ComputeSamples();
+            
+            double samples = analysis.Samples; // We would need around 197 samples.
+            </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Testing_Power.htm">Accord.Statistics.Testing.Power Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Testing_ZTest.htm">Accord.Statistics.Testing<span id="LST3A2A093B_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ZTest</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Testing_Power_TwoSampleZTestPowerAnalysis.htm">Accord.Statistics.Testing.Power<span id="LST3A2A093B_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>TwoSampleZTestPowerAnalysis</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Testing_Power_TTestPowerAnalysis.htm">Accord.Statistics.Testing.Power<span id="LST3A2A093B_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A2A093B_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>TTestPowerAnalysis</a></div></div></div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+ZTestPowerAnalysis+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

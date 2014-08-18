@@ -1,793 +1,444 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ForwardBackwardAlgorithm Methods</title>
     <meta name="Language" content="en-us" />
     <meta name="System.Keywords" content="ForwardBackwardAlgorithm class, methods" />
     <meta name="Microsoft.Help.Id" content="Methods.T:Accord.Statistics.Models.Markov.ForwardBackwardAlgorithm" />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Models.Markov" />
     <meta name="file" content="Methods_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm" />
     <meta name="guid" content="Methods_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Models_Markov.htm" title="Accord.Statistics.Models.Markov" tocid="N_Accord_Statistics_Models_Markov">Accord.Statistics.Models.Markov</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" title="ForwardBackwardAlgorithm Class" tocid="T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm">ForwardBackwardAlgorithm Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" title="ForwardBackwardAlgorithm Methods" tocid="Methods_T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm">ForwardBackwardAlgorithm Methods</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward.htm" title="Backward Method " tocid="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward">Backward Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward.htm" title="Forward Method " tocid="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward">Forward Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward.htm" title="LogBackward Method " tocid="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward">LogBackward Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward.htm" title="LogForward Method " tocid="Overload_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward">LogForward Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">ForwardBackwardAlgorithm Methods</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">ForwardBackwardAlgorithm Methods</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Methods</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <table id="memberList" class="members">
-              <tr>
-                <th class="ps_iconColumn">
-							 
-						</th>
-                <th class="ps_nameColumn">Name</th>
-                <th class="ps_descriptionColumn">Description</th>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward.htm" target="">Backward(HiddenMarkovModel, <span id="ID0EDABZBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABZBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABZBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABZBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+        <span class="introStyle"></span>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward.htm">Backward(HiddenMarkovModel, <span id="LST6A6E2E76_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_0?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_1?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations (no scaling).
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward_1.htm" target="">Backward(HiddenMarkovModel, <span id="ID0EFABYBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABYBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EDABYBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABYBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABYBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABYBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward_1.htm">Backward(HiddenMarkovModel, <span id="LST6A6E2E76_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_2?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_4?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations (no scaling).
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward_2.htm" target="">Backward(HiddenMarkovModel, <span id="ID0EHABXBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABXBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EFABXBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABXBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABXBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABXBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABXBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABXBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward_2.htm">Backward(HiddenMarkovModel, <span id="LST6A6E2E76_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_5?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_6?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_7?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward_3.htm" target="">Backward(HiddenMarkovModel, <span id="ID0ELABWBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABWBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EJABWBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABWBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EHABWBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABWBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EFABWBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABWBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABWBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABWBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABWBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABWBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward_3.htm">Backward(HiddenMarkovModel, <span id="LST6A6E2E76_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_9?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_11?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_12?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_13?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_14?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward__1.htm" target="">Backward<span id="ID0ERABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABVBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EPABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABVBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ENABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABVBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ELABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABVBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EJABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABVBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABVBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EGABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABVBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABVBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABVBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABVBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABVBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward__1.htm">Backward<span id="LST6A6E2E76_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_17?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_18?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_19?cpp=array&lt;");</script><span id="LST6A6E2E76_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_20?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_23?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward__1_1.htm" target="">Backward<span id="ID0EVABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EVABUBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ETABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ETABUBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ERABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABUBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EPABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABUBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0ENABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABUBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EMABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EMABUBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EKABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EKABUBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EJABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABUBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EHABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABUBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EFABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABUBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABUBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABUBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABUBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Backward__1_1.htm">Backward<span id="LST6A6E2E76_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_25?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_26?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_27?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_28?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_29?cpp=array&lt;");</script><span id="LST6A6E2E76_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_30?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_33?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_35?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_36?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward.htm" target="">Forward(HiddenMarkovModel, <span id="ID0EDABTBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABTBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABTBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABTBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward.htm">Forward(HiddenMarkovModel, <span id="LST6A6E2E76_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_37?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_38?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations (no scaling).
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_1.htm" target="">Forward(HiddenMarkovModel, <span id="ID0EFABSBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABSBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EDABSBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABSBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABSBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABSBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_1.htm">Forward(HiddenMarkovModel, <span id="LST6A6E2E76_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_39?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_41?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_3.htm" target="">Forward(HiddenMarkovModel, <span id="ID0EIABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABRBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EGABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABRBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EEABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABRBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0ECABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABRBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABRBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABRBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_3.htm">Forward(HiddenMarkovModel, <span id="LST6A6E2E76_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_42?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_44?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_46?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_2.htm" target="">Forward(HiddenMarkovModel, <span id="ID0ELABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABQBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EJABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABQBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EHABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABQBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EFABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABQBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABQBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABQBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABQBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_2.htm">Forward(HiddenMarkovModel, <span id="LST6A6E2E76_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_47?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_48?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_49?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_51?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_52?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_4.htm" target="">Forward(HiddenMarkovModel, <span id="ID0EKABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EKABPBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EIABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABPBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EGABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABPBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EEABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABPBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EDABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABPBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>, Double<span id="ID0EBABPBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABPBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward_4.htm">Forward(HiddenMarkovModel, <span id="LST6A6E2E76_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_53?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_55?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_56?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_57?cpp=%");</script>, Double<span id="LST6A6E2E76_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_58?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1.htm" target="">Forward<span id="ID0EPABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABOBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ENABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABOBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ELABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABOBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EJABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABOBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EHABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABOBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EGABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABOBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EEABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABOBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EDABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABOBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABOBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABOBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1.htm">Forward<span id="LST6A6E2E76_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_59?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_60?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_61?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_62?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_63?cpp=array&lt;");</script><span id="LST6A6E2E76_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_64?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_65?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_66?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_67?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1_2.htm" target="">Forward<span id="ID0ESABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ESABNBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EQABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EQABNBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0EOABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EOABNBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EMABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EMABNBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EKABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EKABNBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EJABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABNBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EHABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABNBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EGABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABNBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EEABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABNBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0ECABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABNBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABNBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABNBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1_2.htm">Forward<span id="LST6A6E2E76_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_68?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_69?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_70?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_71?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_72?cpp=array&lt;");</script><span id="LST6A6E2E76_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_73?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_74?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_76?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_77?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_78?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1_1.htm" target="">Forward<span id="ID0EVABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EVABMBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ETABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ETABMBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ERABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABMBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EPABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABMBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0ENABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABMBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EMABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EMABMBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EKABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EKABMBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EJABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABMBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EHABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABMBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EFABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABMBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABMBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABMBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABMBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1_1.htm">Forward<span id="LST6A6E2E76_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_79?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_80?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_81?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_82?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_83?cpp=array&lt;");</script><span id="LST6A6E2E76_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_84?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_85?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_86?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_87?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_89?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_90?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1_3.htm" target="">Forward<span id="ID0EUABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EUABLBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ESABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ESABLBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0EQABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EQABLBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EOABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EOABLBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EMABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EMABLBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0ELABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABLBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EJABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABLBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EIABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABLBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EGABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABLBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EEABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABLBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EDABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABLBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>, Double<span id="ID0EBABLBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABLBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_Forward__1_3.htm">Forward<span id="LST6A6E2E76_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_91?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_92?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_93?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_94?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_95?cpp=array&lt;");</script><span id="LST6A6E2E76_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_96?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_98?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_99?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_100?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_101?cpp=%");</script>, Double<span id="LST6A6E2E76_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_102?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward.htm" target="">LogBackward(HiddenMarkovModel, <span id="ID0EDABKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABKBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABKBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABKBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward.htm">LogBackward(HiddenMarkovModel, <span id="LST6A6E2E76_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_103?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_104?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward_1.htm" target="">LogBackward(HiddenMarkovModel, <span id="ID0EFABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABJBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EDABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABJBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABJBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABJBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward_1.htm">LogBackward(HiddenMarkovModel, <span id="LST6A6E2E76_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_105?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_106?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_107?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations (no scaling).
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward_2.htm" target="">LogBackward(HiddenMarkovModel, <span id="ID0EHABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABIBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EFABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABIBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABIBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABIBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABIBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward_2.htm">LogBackward(HiddenMarkovModel, <span id="LST6A6E2E76_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_108?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_109?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_110?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_111?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward__1.htm" target="">LogBackward<span id="ID0ENABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABHBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ELABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABHBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0EJABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABHBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EHABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABHBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EFABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABHBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EEABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABHBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0ECABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABHBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EBABHBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABHBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward__1.htm">LogBackward<span id="LST6A6E2E76_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_112?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_113?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_114?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_115?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_116?cpp=array&lt;");</script><span id="LST6A6E2E76_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_117?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_118?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_119?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward__1_1.htm" target="">LogBackward<span id="ID0EPABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABGBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ENABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABGBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ELABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABGBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EJABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABGBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EHABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABGBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EGABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABGBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EEABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABGBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EDABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABGBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABGBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABGBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward__1_1.htm">LogBackward<span id="LST6A6E2E76_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_120?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_121?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_122?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_123?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_124?cpp=array&lt;");</script><span id="LST6A6E2E76_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_125?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_126?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_127?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_128?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations (no scaling).
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward__1_2.htm" target="">LogBackward<span id="ID0ERABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABFBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EPABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABFBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ENABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABFBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ELABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABFBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EJABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EGABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABFBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABFBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABFBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABFBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABFBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogBackward__1_2.htm">LogBackward<span id="LST6A6E2E76_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_129?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_130"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_130?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_131"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_131?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_132"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_132?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_133"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_133?cpp=array&lt;");</script><span id="LST6A6E2E76_134"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_134?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_135"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_135?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_136"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_136?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_137"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_137?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_138"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_138?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Backward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward.htm" target="">LogForward(HiddenMarkovModel, <span id="ID0EDABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABEBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EBABEBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABEBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward.htm">LogForward(HiddenMarkovModel, <span id="LST6A6E2E76_139"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_139?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_140"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_140?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward_1.htm" target="">LogForward(HiddenMarkovModel, <span id="ID0EFABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABDBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EDABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABDBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABDBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABDBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward_1.htm">LogForward(HiddenMarkovModel, <span id="LST6A6E2E76_141"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_141?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_142"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_142?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_143"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_143?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward_2.htm" target="">LogForward(HiddenMarkovModel, <span id="ID0EHABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABCBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Int32<span id="ID0EFABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABCBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABCBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABCBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABCBCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward_2.htm">LogForward(HiddenMarkovModel, <span id="LST6A6E2E76_144"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_144?cpp=array&lt;");</script>Int32<span id="LST6A6E2E76_145"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_145?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_146"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_146?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_147"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_147?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward__1.htm" target="">LogForward<span id="ID0EPABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABBBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ENABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABBBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ELABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABBBCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EJABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABBBCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EHABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EHABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EGABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABBBCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EEABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EDABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABBBCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, Double<span id="ID0EBABBBCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABBBCAAAAA?vb=|cpp=%|cs=|fs=|nu=");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward__1.htm">LogForward<span id="LST6A6E2E76_148"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_148?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_149"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_149?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_150"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_150?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_151"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_151?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_152"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_152?cpp=array&lt;");</script><span id="LST6A6E2E76_153"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_153?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_154"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_154?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_155"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_155?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST6A6E2E76_156"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_156?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-              <tr data="public;static;declared;notNetfw;">
-                <td>
-                  <img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                  <img src="./../icons/static.gif" alt="Static member" title="Static member" />
-                </td>
-                <td>
-                  <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward__1_1.htm" target="">LogForward<span id="ID0ERABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ERABABCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EPABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EPABABCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>(HiddenMarkovModel<span id="ID0ENABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ENABABCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0ELABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELABABCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script>, <span id="ID0EJABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EGABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGABABCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFABABCAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDABABCAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBABABCAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBABABCAAAAA?vb=(,)|cpp=,2&gt;|cs=[,]|fs=[,]|nu=[,]");
-				</script>)</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm_LogForward__1_1.htm">LogForward<span id="LST6A6E2E76_157"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_157?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_158"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_158?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(HiddenMarkovModel<span id="LST6A6E2E76_159"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_159?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TDistribution<span id="LST6A6E2E76_160"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_160?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST6A6E2E76_161"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_161?cpp=array&lt;");</script><span id="LST6A6E2E76_162"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_162?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_163"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_163?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST6A6E2E76_164"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_164?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST6A6E2E76_165"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_165?cpp=array&lt;");</script>Double<span id="LST6A6E2E76_166"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6A6E2E76_166?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
               Computes Forward probabilities for a given hidden Markov model and a set of observations.
             </div>
-                </td>
-              </tr>
-            </table>
-            <a href="#mainBody" target="">Back to Top</a>
-            <a name="seeAlsoSection">
-              <!---->
-            </a>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">See Also</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <div class="seeAlsoStyle">
-              <a href="T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm" target="">ForwardBackwardAlgorithm Class</a>
-            </div>
-            <div class="seeAlsoStyle">
-              <a href="N_Accord_Statistics_Models_Markov.htm" target="">Accord.Statistics.Models.Markov Namespace</a>
-            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_Statistics_Models_Markov_ForwardBackwardAlgorithm.htm">ForwardBackwardAlgorithm Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov Namespace</a>
           </div>
         </div>
       </div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+ForwardBackwardAlgorithm+Methods+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

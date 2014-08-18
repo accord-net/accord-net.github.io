@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Accord.Statistics.Models.Markov.Learning Namespace</title>
     <meta name="Language" content="en-us" />
@@ -23,351 +13,331 @@
     <meta name="Microsoft.Help.Id" content="N:Accord.Statistics.Models.Markov.Learning" />
     <meta name="Description" content="Contains learning algorithms such as Baum-Welch." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Models.Markov.Learning" />
     <meta name="file" content="N_Accord_Statistics_Models_Markov_Learning" />
     <meta name="guid" content="N_Accord_Statistics_Models_Markov_Learning" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Models_Markov_Learning.htm" title="Accord.Statistics.Models.Markov.Learning" tocid="N_Accord_Statistics_Models_Markov_Learning">Accord.Statistics.Models.Markov.Learning</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm" title="BaseBaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning">BaseBaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm" title="BaseHiddenMarkovClassifierLearning(TClassifier, TModel) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2">BaseHiddenMarkovClassifierLearning(TClassifier, TModel) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" title="BaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning">BaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" title="BaumWelchLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1">BaumWelchLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm" title="ClassifierLearningAlgorithmConfiguration Delegate" tocid="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration">ClassifierLearningAlgorithmConfiguration Delegate</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm" title="GenerativeLearningEventArgs Class" tocid="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs">GenerativeLearningEventArgs Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm" title="HiddenMarkovClassifierLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning">HiddenMarkovClassifierLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm" title="HiddenMarkovClassifierLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1">HiddenMarkovClassifierLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm" title="ISupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning">ISupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" title="IUnsupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning">IUnsupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm" title="IUnsupervisedLearning(T) Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1">IUnsupervisedLearning(T) Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm" title="IWeightedUnsupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning">IWeightedUnsupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm" title="MaximumLikelihoodLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning">MaximumLikelihoodLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm" title="MaximumLikelihoodLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1">MaximumLikelihoodLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MultipleBaumWelchLearning.htm" title="MultipleBaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MultipleBaumWelchLearning">MultipleBaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm" title="ViterbiLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning">ViterbiLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm" title="ViterbiLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1">ViterbiLearning(TDistribution) Class</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">Accord.Statistics.Models.Markov.Learning Namespace</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">Accord.Statistics.Models.Markov.Learning Namespace</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">Contains learning algorithms such as Baum-Welch.</div>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Classes</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <table id="typeList" class="members">
-              <tr>
-                <th class="ps_iconColumn">
+        <span class="introStyle"></span>
+        <div class="summary">Contains learning algorithms such as Baum-Welch.</div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="typeList" class="members">
+            <tr>
+              <th class="iconColumn">
 					 
 				</th>
-                <th class="ps_nameColumn">Class</th>
-                <th class="ps_descriptionColumn">Description</th>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm" target="">BaseBaumWelchLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
+              <th>Class</th>
+              <th>Description</th>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm">BaseBaumWelchLearning</a>
+              </td>
+              <td>
+                <div class="summary">
               Base class for implementations of the Baum-Welch learning algorithm.
               This class cannot be instantiated.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm" target="">BaseHiddenMarkovClassifierLearning<span id="ID0ECABKACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABKACAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TClassifier, TModel<span id="ID0EAABKACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABKACAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm">BaseHiddenMarkovClassifierLearning<span id="LST471435BD_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TClassifier, TModel<span id="LST471435BD_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+              </td>
+              <td>
+                <div class="summary">
               Abstract base class for Sequence Classifier learning algorithms.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" target="">BaumWelchLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
-              Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">BaumWelchLearning</a>
+              </td>
+              <td>
+                <div class="summary">
+              Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">
               discrete-density Hidden Markov Models</a>.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" target="">BaumWelchLearning<span id="ID0ECABIACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABIACAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EAABIACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABIACAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>
-                </td>
-                <td>
-                  <div class="summary">
-               Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm" target="">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">BaumWelchLearning<span id="LST471435BD_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST471435BD_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+               Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm">
                arbitrary-density (generic) Hidden Markov Models</a>.
              </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm" target="">GenerativeLearningEventArgs</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm">GenerativeLearningEventArgs</a>
+              </td>
+              <td>
+                <div class="summary">
               Submodel learning event arguments.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm" target="">HiddenMarkovClassifierLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
-               Learning algorithm for discrete-density <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier.htm" target="">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm">HiddenMarkovClassifierLearning</a>
+              </td>
+              <td>
+                <div class="summary">
+               Learning algorithm for discrete-density <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier.htm">
                generative hidden Markov sequence classifiers</a>.
              </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm" target="">HiddenMarkovClassifierLearning<span id="ID0ECABFACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABFACAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EAABFACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABFACAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>
-                </td>
-                <td>
-                  <div class="summary">
-               Learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_1.htm" target="">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm">HiddenMarkovClassifierLearning<span id="LST471435BD_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST471435BD_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+               Learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_1.htm">
                arbitrary-density generative hidden Markov sequence classifiers</a>.
              </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm" target="">MaximumLikelihoodLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
-               Maximum Likelihood learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm">MaximumLikelihoodLearning</a>
+              </td>
+              <td>
+                <div class="summary">
+               Maximum Likelihood learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">
                discrete-density Hidden Markov Models</a>.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm" target="">MaximumLikelihoodLearning<span id="ID0ECABDACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABDACAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EAABDACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABDACAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm">MaximumLikelihoodLearning<span id="LST471435BD_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST471435BD_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+              </td>
+              <td>
+                <div class="summary">
                Maximum Likelihood learning algorithm for discrete-density Hidden Markov Models.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_MultipleBaumWelchLearning.htm" target="">MultipleBaumWelchLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_MultipleBaumWelchLearning.htm">MultipleBaumWelchLearning</a>
+              </td>
+              <td>
+                <div class="summary">
               Multiple-trials Baum-Welch learning.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm" target="">ViterbiLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">ViterbiLearning</a>
+              </td>
+              <td>
+                <div class="summary">
               Viterbi learning algorithm.
             </div>
-                </td>
-              </tr>
-              <tr data="class; public">
-                <td>
-                  <img src="./../icons/pubclass.gif" alt="Public class" title="Public class" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm" target="">ViterbiLearning<span id="ID0ECABAACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABAACAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>TDistribution<span id="ID0EAABAACAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABAACAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm">ViterbiLearning<span id="LST471435BD_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LST471435BD_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+              </td>
+              <td>
+                <div class="summary">
               Viterbi learning algorithm.
             </div>
-                </td>
-              </tr>
-            </table>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Interfaces</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <table id="typeList" class="members">
-              <tr>
-                <th class="ps_iconColumn">
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="typeList" class="members">
+            <tr>
+              <th class="iconColumn">
 					 
 				</th>
-                <th class="ps_nameColumn">Interface</th>
-                <th class="ps_descriptionColumn">Description</th>
-              </tr>
-              <tr data="interface; public">
-                <td>
-                  <img src="./../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm" target="">ISupervisedLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
-               Common interface for supervised learning algorithms for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm" target="">
-               hidden Markov models</a> such as the <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm" target="">
+              <th>Interface</th>
+              <th>Description</th>
+            </tr>
+            <tr data="interface; public">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm">ISupervisedLearning</a>
+              </td>
+              <td>
+                <div class="summary">
+               Common interface for supervised learning algorithms for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">
+               hidden Markov models</a> such as the <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm">
                Maximum Likelihood (MLE)</a> learning algorithm.
              </div>
-                </td>
-              </tr>
-              <tr data="interface; public">
-                <td>
-                  <img src="./../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" target="">IUnsupervisedLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="interface; public">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm">IUnsupervisedLearning</a>
+              </td>
+              <td>
+                <div class="summary">
               Common interface for unsupervised learning algorithms for hidden
-              Markov models such as the <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" target="">Baum-Welch
-              learning</a> and the <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm" target="">Viterbi learning
+              Markov models such as the <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">Baum-Welch
+              learning</a> and the <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">Viterbi learning
               </a> algorithms.
             </div>
-                </td>
-              </tr>
-              <tr data="interface; public">
-                <td>
-                  <img src="./../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm" target="">IUnsupervisedLearning<span id="ID0ECABBABAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABBABAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
-				</script>T<span id="ID0EAABBABAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EAABBABAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
-				</script></a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="interface; public">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm">IUnsupervisedLearning<span id="LST471435BD_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST471435BD_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST471435BD_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+              </td>
+              <td>
+                <div class="summary">
               Common interface for unsupervised learning algorithms for hidden
-              Markov models such as the <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" target="">Baum-Welch
-              learning</a> and the <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm" target="">Viterbi learning
+              Markov models such as the <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">Baum-Welch
+              learning</a> and the <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">Viterbi learning
               </a> algorithms.
             </div>
-                </td>
-              </tr>
-              <tr data="interface; public">
-                <td>
-                  <img src="./../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm" target="">IWeightedUnsupervisedLearning</a>
-                </td>
-                <td>
-                  <div class="summary">
+              </td>
+            </tr>
+            <tr data="interface; public">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm">IWeightedUnsupervisedLearning</a>
+              </td>
+              <td>
+                <div class="summary">
               Common interface for unsupervised learning algorithms for hidden
               Markov models which support for weighted training samples.
             </div>
-                </td>
-              </tr>
-            </table>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Delegates</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <table id="typeList" class="members">
-              <tr>
-                <th class="ps_iconColumn">
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Delegates</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <table id="typeList" class="members">
+            <tr>
+              <th class="iconColumn">
 					 
 				</th>
-                <th class="ps_nameColumn">Delegate</th>
-                <th class="ps_descriptionColumn">Description</th>
-              </tr>
-              <tr data="delegate; public">
-                <td>
-                  <img src="./../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" />
-                </td>
-                <td>
-                  <a href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm" target="">ClassifierLearningAlgorithmConfiguration</a>
-                </td>
-                <td>
-                  <div class="summary">
+              <th>Delegate</th>
+              <th>Description</th>
+            </tr>
+            <tr data="delegate; public">
+              <td>
+                <img src="../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" />
+              </td>
+              <td>
+                <a href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm">ClassifierLearningAlgorithmConfiguration</a>
+              </td>
+              <td>
+                <div class="summary">
               Configuration function delegate for Sequence Classifier Learning algorithms.
             </div>
-                </td>
-              </tr>
-            </table>
-          </div>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+Accord.Statistics.Models.Markov.Learning+Namespace+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

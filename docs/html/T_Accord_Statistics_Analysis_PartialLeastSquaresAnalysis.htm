@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>PartialLeastSquaresAnalysis Class</title>
     <meta name="Language" content="en-us" />
@@ -25,62 +15,107 @@
     <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Analysis.PartialLeastSquaresAnalysis" />
     <meta name="Description" content="Partial Least Squares Regression/Analysis (a.k.a Projection To Latent Structures)" />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Analysis" />
     <meta name="file" content="T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis" />
     <meta name="guid" content="T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <link type="text/css" rel="stylesheet" href="./../styles/highlight.css" />
-    <script type="text/javascript" src="../scripts/highlight.js">
-      <!---->
-    </script>
-    <meta name="SelfBranded" content="true" />
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Analysis.htm" title="Accord.Statistics.Analysis" tocid="N_Accord_Statistics_Analysis">Accord.Statistics.Analysis</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis.htm" title="PartialLeastSquaresAnalysis Class" tocid="T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis">PartialLeastSquaresAnalysis Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor.htm" title="PartialLeastSquaresAnalysis Constructor " tocid="Overload_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor">PartialLeastSquaresAnalysis Constructor </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis.htm" title="PartialLeastSquaresAnalysis Methods" tocid="Methods_T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis">PartialLeastSquaresAnalysis Methods</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Properties_T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis.htm" title="PartialLeastSquaresAnalysis Properties" tocid="Properties_T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis">PartialLeastSquaresAnalysis Properties</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">PartialLeastSquaresAnalysis Class</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">PartialLeastSquaresAnalysis Class</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">
+        <span class="introStyle"></span>
+        <div class="summary">
                Partial Least Squares Regression/Analysis (a.k.a Projection To Latent Structures)
              </div>
-            <div class="OH_CollapsibleAreaRegion">
-              <div class="OH_regiontitle">Inheritance Hierarchy</div>
-              <div class="OH_CollapsibleArea_HrDiv">
-                <hr class="OH_CollapsibleArea_Hr" />
-              </div>
-            </div>
-            <div class="OH_clear"></div>
-            <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-            <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="ID0EBEOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBEOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Object</a>
-            <br />  <span class="selflink">Accord.Statistics.Analysis<span id="ID0EBBOAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBOAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>PartialLeastSquaresAnalysis</span><br /><p></p><b>Namespace:</b> <a href="N_Accord_Statistics_Analysis.htm" target="">Accord.Statistics.Analysis</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.12.0.0 (2.12.0.4750)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBAEAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBAEAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBAEAAAAA_tabimgleft"></div><div id="ID0EBAEAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAEAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBAEAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAEAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBAEAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBAEAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBAEAAAAA_tabimgright"></div></div><div id="ID0EBAEAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBAEAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBAEAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBAEAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBAEAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBAEAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBAEAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBAEAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre>[<span class="identifier">SerializableAttribute</span>]
-<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">PartialLeastSquaresAnalysis</span> : <span class="identifier">IMultivariateRegressionAnalysis</span>, 
-	<span class="identifier">IProjectionAnalysis</span>, <span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span></pre></div><div id="ID0EBAEAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>[SerializableAttribute]
-public class PartialLeastSquaresAnalysis : IMultivariateRegressionAnalysis, 
-	IProjectionAnalysis, IMultivariateAnalysis, IAnalysis</pre></div><div id="ID0EBAEAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;<span class="identifier">SerializableAttribute</span>&gt;
-<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">PartialLeastSquaresAnalysis</span> 
-	<span class="keyword">Implements</span> <span class="identifier">IMultivariateRegressionAnalysis</span>, <span class="identifier">IProjectionAnalysis</span>, <span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span></pre></div><div id="ID0EBAEAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;SerializableAttribute&gt;
-Public Class PartialLeastSquaresAnalysis 
-	Implements IMultivariateRegressionAnalysis, IProjectionAnalysis, IMultivariateAnalysis, IAnalysis</pre></div><div id="ID0EBAEAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAEAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAEAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAEAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBAEAAAAA');</script></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="LSTE8E52DBF_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a>
+          <br />  <span class="selflink">Accord.Statistics.Analysis<span id="LSTE8E52DBF_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>PartialLeastSquaresAnalysis</span><br /></div>
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 2.13.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">PartialLeastSquaresAnalysis</span> : <span class="identifier">IMultivariateRegressionAnalysis</span>, 
+	<span class="identifier">IProjectionAnalysis</span>, <span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">PartialLeastSquaresAnalysis</span>
+	<span class="keyword">Implements</span> <span class="identifier">IMultivariateRegressionAnalysis</span>, <span class="identifier">IProjectionAnalysis</span>, <span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">PartialLeastSquaresAnalysis</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor.htm">PartialLeastSquaresAnalysis(<span id="LSTE8E52DBF_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_2?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_3?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE8E52DBF_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_4?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_5?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
+              Constructs a new Partial Least Squares Analysis.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor_2.htm">PartialLeastSquaresAnalysis(<span id="LSTE8E52DBF_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_6?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_7?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE8E52DBF_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_8?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_9?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, PartialLeastSquaresAlgorithm)</a></td><td><div class="summary">
+              Constructs a new Partial Least Squares Analysis.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor_1.htm">PartialLeastSquaresAnalysis(<span id="LSTE8E52DBF_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_10?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_11?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTE8E52DBF_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_12?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_13?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, AnalysisMethod, PartialLeastSquaresAlgorithm)</a></td><td><div class="summary">
+              Constructs a new Partial Least Squares Analysis.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Adjust.htm">Adjust</a></td><td><div class="summary">
+              Adjusts a data matrix, centering and standardizing its values
+              using the already computed column's means and standard deviations.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Compute.htm">Compute<span id="LSTE8E52DBF_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_14?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+              Computes the Partial Least Squares Analysis.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Compute_1.htm">Compute(Int32)</a></td><td><div class="summary">
+              Computes the Partial Least Squares Analysis.
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_ComputeVariableImportanceInProjection.htm">ComputeVariableImportanceInProjection</a></td><td><div class="summary">
+              Computes the variable importance in projection (VIP).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_CreateRegression.htm">CreateRegression<span id="LSTE8E52DBF_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_15?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+              Creates a Multivariate Linear Regression model using
+              coefficients obtained by the Partial Least Squares.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_CreateRegression_1.htm">CreateRegression(Int32)</a></td><td><div class="summary">
+              Creates a Multivariate Linear Regression model using
+              coefficients obtained by the Partial Least Squares.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td><div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td><div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Transform.htm">Transform(<span id="LSTE8E52DBF_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_16?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_17?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
+              Projects a given set of inputs into latent space.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Transform_1.htm">Transform(<span id="LSTE8E52DBF_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_18?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_19?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32)</a></td><td><div class="summary">
+              Projects a given set of inputs into latent space.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_TransformOutput.htm">TransformOutput(<span id="LSTE8E52DBF_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_20?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_21?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
+              Projects a given set of outputs into latent space.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_TransformOutput_1.htm">TransformOutput(<span id="LSTE8E52DBF_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_22?cpp=array&lt;");</script>Double<span id="LSTE8E52DBF_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8E52DBF_23?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32)</a></td><td><div class="summary">
+              Projects a given set of outputs into latent space.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Algorithm.htm">Algorithm</a></td><td><div class="summary">
+              Gets the PLS algorithm used by the analysis.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Dependents.htm">Dependents</a></td><td><div class="summary">
+              Gets information about dependent (output) variables.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Factors.htm">Factors</a></td><td><div class="summary">
+              Gets information about the factors discovered during the analysis in a
+              object-oriented structure which can be data-bound directly to many controls.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Importance.htm">Importance</a></td><td><div class="summary">
+              Gets the Variable Importance in Projection (VIP).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Method.htm">Method</a></td><td><div class="summary">
+              Gets the method used by this analysis.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Output.htm">Output</a></td><td><div class="summary">
+              Gets the dependent variables' values
+              for each of the source input points.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Overwrite.htm">Overwrite</a></td><td><div class="summary">
+              Gets or sets whether calculations will be performed overwriting
+              data in the original source matrix, using less memory.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Predictors.htm">Predictors</a></td><td><div class="summary">
+              Gets information about independent (input) variables.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Source.htm">Source</a></td><td><div class="summary">
+              Source data used in the analysis.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis_Weights.htm">Weights</a></td><td><div class="summary">
+              Gets the Weight matrix obtained during the analysis. For the NIPALS algorithm
+              this is the W matrix. For the SIMPLS algorithm this is the R matrix.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID6RBSection" class="collapsibleSection"><p>
                Partial least squares regression (PLS-regression) is a statistical method that bears
                some relation to principal components regression; instead of finding hyperplanes of 
                maximum variance between the response and independent variables, it finds a linear 
@@ -111,16 +146,16 @@ Public Class PartialLeastSquaresAnalysis 
                    Yi Cao. (2008). Partial Least-Squares and Discriminant Analysis: A tutorial and tool
                    using PLS for discriminant analysis.</li><li>
                    Wikipedia contributors. Partial least squares regression. Wikipedia, The Free Encyclopedia;
-                   2009. Available from: http://en.wikipedia.org/wiki/Partial_least_squares_regression. </li></ul></p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="ID0EACAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EACAAAAA_tabs"></div><div id="ID0EACAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EACAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EACAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EACAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EACAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EACAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EACAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EACAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-comment">// Following the small example by Hervé Abdi (Hervé Abdi, Partial Least Square Regression),</span> 
-<span class="highlight-comment">// we will create a simple example where the goal is to predict the subjective evaluation of</span> 
-<span class="highlight-comment">// a set of 5 wines. The dependent variables that we want to predict for each wine are its </span> 
-<span class="highlight-comment">// likeability, and how well it goes with meat, or dessert (as rated by a panel of experts).</span> 
-<span class="highlight-comment">// The predictors are the price, the sugar, alcohol, and acidity content of each wine.</span> 
+                   2009. Available from: http://en.wikipedia.org/wiki/Partial_least_squares_regression. </li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Following the small example by Hervé Abdi (Hervé Abdi, Partial Least Square Regression),</span>
+<span class="highlight-comment">// we will create a simple example where the goal is to predict the subjective evaluation of</span>
+<span class="highlight-comment">// a set of 5 wines. The dependent variables that we want to predict for each wine are its </span>
+<span class="highlight-comment">// likeability, and how well it goes with meat, or dessert (as rated by a panel of experts).</span>
+<span class="highlight-comment">// The predictors are the price, the sugar, alcohol, and acidity content of each wine.</span>
 
 
-<span class="highlight-comment">// Here we will list the inputs, or characteristics we would like to use in order to infer</span> 
-<span class="highlight-comment">// information from our wines. Each row denotes a different wine and lists its corresponding</span> 
-<span class="highlight-comment">// observable characteristics. The inputs are usually denoted by X in the PLS literature.</span> 
+<span class="highlight-comment">// Here we will list the inputs, or characteristics we would like to use in order to infer</span>
+<span class="highlight-comment">// information from our wines. Each row denotes a different wine and lists its corresponding</span>
+<span class="highlight-comment">// observable characteristics. The inputs are usually denoted by X in the PLS literature.</span>
 
 <span class="highlight-keyword">double</span>[,] inputs = 
 {
@@ -133,11 +168,11 @@ Public Class PartialLeastSquaresAnalysis 
  };
 
 
- <span class="highlight-comment">// Here we will list our dependent variables. Dependent variables are the outputs, or what we</span> 
- <span class="highlight-comment">// would like to infer or predict from our available data, given a new observation. The outputs</span> 
- <span class="highlight-comment">// are usually denoted as Y in the PLS literature.</span> 
+ <span class="highlight-comment">// Here we will list our dependent variables. Dependent variables are the outputs, or what we</span>
+ <span class="highlight-comment">// would like to infer or predict from our available data, given a new observation. The outputs</span>
+ <span class="highlight-comment">// are usually denoted as Y in the PLS literature.</span>
 
- <span class="highlight-keyword">double</span>[,] outputs = 
+ <span class="highlight-keyword">double</span>[,] outputs = 
  {
      <span class="highlight-comment">// Wine | Hedonic | Goes with meat | Goes with dessert</span>
      {           <span class="highlight-number">14</span>,          <span class="highlight-number">7</span>,                 <span class="highlight-number">8</span>         },
@@ -148,100 +183,41 @@ Public Class PartialLeastSquaresAnalysis 
  };
 
 
- <span class="highlight-comment">// Next, we will create our Partial Least Squares Analysis passing the inputs (values for </span> 
- <span class="highlight-comment">// predictor variables) and the associated outputs (values for dependent variables).</span> 
+ <span class="highlight-comment">// Next, we will create our Partial Least Squares Analysis passing the inputs (values for </span>
+ <span class="highlight-comment">// predictor variables) and the associated outputs (values for dependent variables).</span>
 
- <span class="highlight-comment">// We will also be using the using the Covariance Matrix/Center method (data will only</span> 
- <span class="highlight-comment">// be mean centered but not normalized) and the SIMPLS algorithm. </span>
+ <span class="highlight-comment">// We will also be using the using the Covariance Matrix/Center method (data will only</span>
+ <span class="highlight-comment">// be mean centered but not normalized) and the SIMPLS algorithm. </span>
  PartialLeastSquaresAnalysis pls = <span class="highlight-keyword">new</span> PartialLeastSquaresAnalysis(inputs, outputs,
      AnalysisMethod.Center, PartialLeastSquaresAlgorithm.SIMPLS);
 
- <span class="highlight-comment">// Compute the analysis with all factors. The number of factors</span> 
- <span class="highlight-comment">// could also have been specified in a overload of this method.</span>
+ <span class="highlight-comment">// Compute the analysis with all factors. The number of factors</span>
+ <span class="highlight-comment">// could also have been specified in a overload of this method.</span>
 
  pls.Compute();
 
- <span class="highlight-comment">// After computing the analysis, we can create a linear regression model in order</span> 
- <span class="highlight-comment">// to predict new variables. To do that, we may call the CreateRegression() method.</span>
+ <span class="highlight-comment">// After computing the analysis, we can create a linear regression model in order</span>
+ <span class="highlight-comment">// to predict new variables. To do that, we may call the CreateRegression() method.</span>
 
  MultivariateLinearRegression regression = pls.CreateRegression();
 
- <span class="highlight-comment">// After the regression has been created, we will be able to classify new instances. </span> 
- <span class="highlight-comment">// For example, we will compute the outputs for the first input sample:</span> 
+ <span class="highlight-comment">// After the regression has been created, we will be able to classify new instances. </span>
+ <span class="highlight-comment">// For example, we will compute the outputs for the first input sample:</span>
 
- <span class="highlight-keyword">double</span>[] y = regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">7</span>, <span class="highlight-number">7</span>, <span class="highlight-number">13</span>, <span class="highlight-number">7</span> });
+ <span class="highlight-keyword">double</span>[] y = regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">7</span>, <span class="highlight-number">7</span>, <span class="highlight-number">13</span>, <span class="highlight-number">7</span> });
 
- <span class="highlight-comment">// The y output will be very close to the corresponding output used as reference.</span> 
- <span class="highlight-comment">// In this case, y is a vector of length 3 with values { 13.98, 7.00, 7.75 }.</span></pre></div><div id="ID0EACAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>// Following the small example by Hervé Abdi (Hervé Abdi, Partial Least Square Regression), 
-// we will create a simple example where the goal is to predict the subjective evaluation of 
-// a set of 5 wines. The dependent variables that we want to predict for each wine are its  
-// likeability, and how well it goes with meat, or dessert (as rated by a panel of experts). 
-// The predictors are the price, the sugar, alcohol, and acidity content of each wine. 
-
-
-// Here we will list the inputs, or characteristics we would like to use in order to infer 
-// information from our wines. Each row denotes a different wine and lists its corresponding 
-// observable characteristics. The inputs are usually denoted by X in the PLS literature. 
-
-double[,] inputs = 
-{
-    // Wine | Price | Sugar | Alcohol | Acidity
-    {           7,     7,      13,        7     },
-    {           4,     3,      14,        7     },
-    {          10,     5,      12,        5     },
-    {          16,     7,      11,        3     },
-    {          13,     3,      10,        3     },
- };
-
-
- // Here we will list our dependent variables. Dependent variables are the outputs, or what we 
- // would like to infer or predict from our available data, given a new observation. The outputs 
- // are usually denoted as Y in the PLS literature. 
-
- double[,] outputs = 
- {
-     // Wine | Hedonic | Goes with meat | Goes with dessert
-     {           14,          7,                 8         },
-     {           10,          7,                 6         },
-     {            8,          5,                 5         },
-     {            2,          4,                 7         },
-     {            6,          2,                 4         },
- };
-
-
- // Next, we will create our Partial Least Squares Analysis passing the inputs (values for  
- // predictor variables) and the associated outputs (values for dependent variables). 
-
- // We will also be using the using the Covariance Matrix/Center method (data will only 
- // be mean centered but not normalized) and the SIMPLS algorithm. 
- PartialLeastSquaresAnalysis pls = new PartialLeastSquaresAnalysis(inputs, outputs,
-     AnalysisMethod.Center, PartialLeastSquaresAlgorithm.SIMPLS);
-
- // Compute the analysis with all factors. The number of factors 
- // could also have been specified in a overload of this method.
-
- pls.Compute();
-
- // After computing the analysis, we can create a linear regression model in order 
- // to predict new variables. To do that, we may call the CreateRegression() method.
-
- MultivariateLinearRegression regression = pls.CreateRegression();
-
- // After the regression has been created, we will be able to classify new instances.  
- // For example, we will compute the outputs for the first input sample: 
-
- double[] y = regression.Compute(new double[] { 7, 7, 13, 7 });
-
- // The y output will be very close to the corresponding output used as reference. 
- // In this case, y is a vector of length 3 with values { 13.98, 7.00, 7.75 }.</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EACAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis.htm" target="">PartialLeastSquaresAnalysis Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm" target="">Accord.Statistics.Analysis Namespace</a></div></div>
-        </div>
-      </div>
+ <span class="highlight-comment">// The y output will be very close to the corresponding output used as reference.</span>
+ <span class="highlight-comment">// In this case, y is a vector of length 3 with values { 13.98, 7.00, 7.75 }.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div></div></div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+PartialLeastSquaresAnalysis+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

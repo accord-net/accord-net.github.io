@@ -1,126 +1,75 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>MultivariateDiscreteDistribution.Fit Method (Double[][], Double[], IFittingOptions)</title>
     <meta name="Language" content="en-us" />
     <meta name="Microsoft.Help.Id" content="M:Accord.Statistics.Distributions.Multivariate.MultivariateDiscreteDistribution.Fit(System.Double[][],System.Double[],Accord.Statistics.Distributions.Fitting.IFittingOptions)" />
     <meta name="Description" content="Fits the underlying distribution to a given set of observations." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Distributions.Multivariate" />
     <meta name="file" content="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_3" />
     <meta name="guid" content="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_3" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Distributions_Multivariate.htm" title="Accord.Statistics.Distributions.Multivariate" tocid="N_Accord_Statistics_Distributions_Multivariate">Accord.Statistics.Distributions.Multivariate</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution.htm" title="MultivariateDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution">MultivariateDiscreteDistribution Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution.htm" title="MultivariateDiscreteDistribution Methods" tocid="Methods_T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution">MultivariateDiscreteDistribution Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit.htm" title="Fit Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit">Fit Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit.htm" title="Fit Method (Double[][])" tocid="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit">Fit Method (Double[][])</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_1.htm" title="Fit Method (Double[][], IFittingOptions)" tocid="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_1">Fit Method (Double[][], IFittingOptions)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_2.htm" title="Fit Method (Double[][], Double[])" tocid="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_2">Fit Method (Double[][], Double[])</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_3.htm" title="Fit Method (Double[][], Double[], IFittingOptions)" tocid="M_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit_3">Fit Method (Double[][], Double[], IFittingOptions)</a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">MultivariateDiscreteDistribution<span id="ID0ELBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ELBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Fit Method (<span id="ID0EJBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EJBABAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EIBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EIBABAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EGBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGBABAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0EFBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFBABAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, <span id="ID0EDBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDBABAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script>Double<span id="ID0EBBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBABAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script>, IFittingOptions)</td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">MultivariateDiscreteDistribution<span id="LST9D356AD_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_0?cpp=::|nu=.");</script>Fit Method (<span id="LST9D356AD_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_1?cpp=array&lt;");</script><span id="LST9D356AD_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_2?cpp=array&lt;");</script>Double<span id="LST9D356AD_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_3?cpp=&gt;|vb=()|nu=[]");</script><span id="LST9D356AD_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_4?cpp=&gt;|vb=()|nu=[]");</script>, <span id="LST9D356AD_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_5?cpp=array&lt;");</script>Double<span id="LST9D356AD_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_6?cpp=&gt;|vb=()|nu=[]");</script>, IFittingOptions)</td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">
+        <span class="introStyle"></span>
+        <div class="summary">
               Fits the underlying distribution to a given set of observations.
             </div>
-            <p></p>
-            <b>Namespace:</b> <a href="N_Accord_Statistics_Distributions_Multivariate.htm" target="">Accord.Statistics.Distributions.Multivariate</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.12.0.0 (2.12.0.4750)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBBDAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBBDAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBBDAAAAA_tabimgleft"></div><div id="ID0EBBDAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBDAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBBDAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBDAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBBDAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBBDAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBBDAAAAA_tabimgright"></div></div><div id="ID0EBBDAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBBDAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBBDAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBBDAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBBDAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBBDAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBBDAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBBDAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="identifier">Fit</span>(
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Distributions_Multivariate.htm">Accord.Statistics.Distributions.Multivariate</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 2.13.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="identifier">Fit</span>(
 	<span class="identifier">double</span>[][] <span class="parameter">observations</span>,
 	<span class="identifier">double</span>[] <span class="parameter">weights</span>,
-	<span class="identifier">IFittingOptions</span> <span class="parameter">options</span>
-)</pre></div><div id="ID0EBBDAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public abstract void Fit(
-	double[][] observations,
-	double[] weights,
-	IFittingOptions options
-)</pre></div><div id="ID0EBBDAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">MustOverride</span> <span class="keyword">Sub</span> <span class="identifier">Fit</span> ( 
-	<span class="parameter">observations</span> <span class="keyword">As</span> <span class="identifier">Double</span>()(),
-	<span class="parameter">weights</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
-	<span class="parameter">options</span> <span class="keyword">As</span> <span class="identifier">IFittingOptions</span>
-)</pre></div><div id="ID0EBBDAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public MustOverride Sub Fit ( 
-	observations As Double()(),
-	weights As Double(),
-	options As IFittingOptions
-)</pre></div><div id="ID0EBBDAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBDAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBDAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBDAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBBDAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="observations"><dt><span class="parameter">observations</span></dt><dd>Type: <span id="ID0EGACADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGACADAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EFACADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFACADAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="ID0EBEACADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBEACADAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Double</a><span id="ID0EDACADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDACADAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0ECACADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECACADAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><br /><span>
+	<span class="identifier">IFittingOptions</span> <span class="parameter">options</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">MustOverride</span> <span class="keyword">Sub</span> <span class="identifier">Fit</span> ( 
+	<span class="parameter">observations</span> <span class="keyword">As</span> <span class="identifier">Double</span>()(),
+	<span class="parameter">weights</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
+	<span class="parameter">options</span> <span class="keyword">As</span> <span class="identifier">IFittingOptions</span>
+)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">observations</span></dt><dd>Type: <span id="LST9D356AD_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_7?cpp=array&lt;");</script><span id="LST9D356AD_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_8?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST9D356AD_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LST9D356AD_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_10?cpp=&gt;|vb=()|nu=[]");</script><span id="LST9D356AD_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_11?cpp=&gt;|vb=()|nu=[]");</script><br />
               The array of observations to fit the model against. The array
               elements can be either of type double (for univariate data) or
               type double[] (for multivariate data).
-            </span></dd></dl><dl paramName="weights"><dt><span class="parameter">weights</span></dt><dd>Type: <span id="ID0EEABADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABADAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="ID0EBDABADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBDABADAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Double</a><span id="ID0ECABADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABADAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><br /><span>
-              The weight vector containing the weight for each of the samples.</span></dd></dl><dl paramName="options"><dt><span class="parameter">options</span></dt><dd>Type: <a href="T_Accord_Statistics_Distributions_Fitting_IFittingOptions.htm" target="">Accord.Statistics.Distributions.Fitting<span id="ID0EBCAAADAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBCAAADAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>IFittingOptions</a><br /><span>
+            </dd><dt><span class="parameter">weights</span></dt><dd>Type: <span id="LST9D356AD_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_12?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST9D356AD_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LST9D356AD_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_14?cpp=&gt;|vb=()|nu=[]");</script><br />
+              The weight vector containing the weight for each of the samples.</dd><dt><span class="parameter">options</span></dt><dd>Type: <a href="T_Accord_Statistics_Distributions_Fitting_IFittingOptions.htm">Accord.Statistics.Distributions.Fitting<span id="LST9D356AD_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST9D356AD_15?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IFittingOptions</a><br />
               Optional arguments which may be used during fitting, such
-              as regularization constants and additional parameters.</span></dd></dl></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div>
+              as regularization constants and additional parameters.</dd></dl></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID2RBSection" class="collapsibleSection">
               Although both double[] and double[][] arrays are supported,
               providing a double[] for a multivariate distribution or a
               double[][] for a univariate distribution may have a negative
               impact in performance.
-            <a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution.htm" target="">MultivariateDiscreteDistribution Class</a></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution.htm" target="">MultivariateDiscreteDistribution Members</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit.htm" target="">Fit Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Multivariate.htm" target="">Accord.Statistics.Distributions.Multivariate Namespace</a></div></div>
-        </div>
-      </div>
+            </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution.htm">MultivariateDiscreteDistribution Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Statistics_Distributions_Multivariate_MultivariateDiscreteDistribution_Fit.htm">Fit Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Multivariate.htm">Accord.Statistics.Distributions.Multivariate Namespace</a></div></div></div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+MultivariateDiscreteDistribution.Fit+Method+(Double%5b%5d%5b%5d%2c+Double%5b%5d%2c+IFittingOptions)+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>

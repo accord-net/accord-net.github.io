@@ -1,20 +1,10 @@
-﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp">
+﻿<html>
   <head>
-    <link rel="SHORTCUT ICON" href="./../icons/favicon.ico" />
-    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style>
-    <link rel="stylesheet" type="text/css" href="./../styles/branding.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" />
-    <style type="text/css">
-			body
-			{
-			border-left:5px solid #e6e6e6;
-			overflow-x:scroll;
-			overflow-y:scroll;
-			}
-		</style>
-    <script src="./../scripts/branding.js" type="text/javascript">
-      <!---->
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>ProportionalHazards.GetDeviance Method </title>
     <meta name="Language" content="en-us" />
@@ -24,91 +14,58 @@
     <meta name="Microsoft.Help.Id" content="M:Accord.Statistics.Models.Regression.ProportionalHazards.GetDeviance(System.Double[][],System.Double[],System.Int32[])" />
     <meta name="Description" content="Gets the Deviance for the model." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
-    <meta name="BrandingAware" content="'true'" />
+    <meta name="BrandingAware" content="true" />
+    
     <meta name="container" content="Accord.Statistics.Models.Regression" />
     <meta name="file" content="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetDeviance" />
     <meta name="guid" content="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetDeviance" />
     
-    <link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" />
-    <meta name="SelfBranded" content="true" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
   </head>
-  <body onload="onLoad()" class="primary-mtps-offline-document">
-    <div class="OH_outerDiv">
-      <div class="OH_outerContent">
-        <table class="TitleTable">
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Namespaces" tocid="R_Project_Accord_NET">Accord.NET Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_Statistics_Models_Regression.htm" title="Accord.Statistics.Models.Regression" tocid="N_Accord_Statistics_Models_Regression">Accord.Statistics.Models.Regression</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm" title="ProportionalHazards Class" tocid="T_Accord_Statistics_Models_Regression_ProportionalHazards">ProportionalHazards Class</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Models_Regression_ProportionalHazards.htm" title="ProportionalHazards Methods" tocid="Methods_T_Accord_Statistics_Models_Regression_ProportionalHazards">ProportionalHazards Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_ChiSquare.htm" title="ChiSquare Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_ChiSquare">ChiSquare Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_Clone.htm" title="Clone Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_Clone">Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_Statistics_Models_Regression_ProportionalHazards_Compute.htm" title="Compute Method " tocid="Overload_Accord_Statistics_Models_Regression_ProportionalHazards_Compute">Compute Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetConfidenceInterval.htm" title="GetConfidenceInterval Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetConfidenceInterval">GetConfidenceInterval Method </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetDeviance.htm" title="GetDeviance Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetDeviance">GetDeviance Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetHazardRatio.htm" title="GetHazardRatio Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetHazardRatio">GetHazardRatio Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetLogHazardRatio.htm" title="GetLogHazardRatio Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetLogHazardRatio">GetLogHazardRatio Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetLogLikelihoodRatio.htm" title="GetLogLikelihoodRatio Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetLogLikelihoodRatio">GetLogLikelihoodRatio Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetPartialLogLikelihood.htm" title="GetPartialLogLikelihood Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetPartialLogLikelihood">GetPartialLogLikelihood Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetWaldTest.htm" title="GetWaldTest Method " tocid="M_Accord_Statistics_Models_Regression_ProportionalHazards_GetWaldTest">GetWaldTest Method </a></div></div></div><div id="TocResize" class="tocResize" onmousedown="OnMouseDown(event);"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
           <tr>
-            <td class="OH_tdLogoColumn">
-              <img alt="Accord.NET (logo)" src="./../icons/logo.png" />
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="OH_tdTitleColumn">ProportionalHazards<span id="ID0EBBABAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>GetDeviance Method </td>
-            <td class="OH_tdRunningTitleColumn">Accord.NET Framework</td>
+            <td class="titleColumn">ProportionalHazards<span id="LSTD5BCA2DA_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_0?cpp=::|nu=.");</script>GetDeviance Method </td>
           </tr>
         </table>
-        <div id="mainSection">
-          <div id="mainBody">
-            <span class="introStyle">
-              <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" />
-              <a href="http://accord-framework.net/docs/Index.html" target="_top">Show table of contents (goes to the online documentation index).</a>
-              <br />
-            </span>
-            <div class="summary">
+        <span class="introStyle"></span>
+        <div class="summary">
               Gets the Deviance for the model.
             </div>
-            <p></p>
-            <b>Namespace:</b> <a href="N_Accord_Statistics_Models_Regression.htm" target="">Accord.Statistics.Models.Regression</a><br /><b>Assembly:</b> <span sdata="assembly">Accord.Statistics</span> (in Accord.Statistics.dll) Version: 2.12.0.0 (2.12.0.4750)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBGDAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBGDAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBGDAAAAA_tabimgleft"></div><div id="ID0EBGDAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBGDAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBGDAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBGDAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBGDAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBGDAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBGDAAAAA_tabimgright"></div></div><div id="ID0EBGDAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBGDAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBGDAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBGDAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBGDAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBGDAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBGDAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBGDAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="identifier">double</span> <span class="identifier">GetDeviance</span>(
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Models_Regression.htm">Accord.Statistics.Models.Regression</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 2.13.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">double</span> <span class="identifier">GetDeviance</span>(
 	<span class="identifier">double</span>[][] <span class="parameter">inputs</span>,
 	<span class="identifier">double</span>[] <span class="parameter">time</span>,
 	<span class="identifier">int</span>[] <span class="parameter">output</span>
-)</pre></div><div id="ID0EBGDAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public double GetDeviance(
-	double[][] inputs,
-	double[] time,
-	int[] output
-)</pre></div><div id="ID0EBGDAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">GetDeviance</span> ( 
-	<span class="parameter">inputs</span> <span class="keyword">As</span> <span class="identifier">Double</span>()(),
-	<span class="parameter">time</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
-	<span class="parameter">output</span> <span class="keyword">As</span> <span class="identifier">Integer</span>()
-) <span class="keyword">As</span> <span class="identifier">Double</span></pre></div><div id="ID0EBGDAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public Function GetDeviance ( 
-	inputs As Double()(),
-	time As Double(),
-	output As Integer()
-) As Double</pre></div><div id="ID0EBGDAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGDAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGDAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBGDAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBGDAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="inputs"><dt><span class="parameter">inputs</span></dt><dd>Type: <span id="ID0EGACFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EGACFDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><span id="ID0EFACFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EFACFDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="ID0EBEACFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBEACFDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Double</a><span id="ID0EDACFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EDACFDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><span id="ID0ECACFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECACFDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><br /><span>A set of input data.</span></dd></dl><dl paramName="time"><dt><span class="parameter">time</span></dt><dd>Type: <span id="ID0EEABFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEABFDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="ID0EBDABFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBDABFDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Double</a><span id="ID0ECABFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECABFDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><br /><span>The time-to-event before the output occurs.</span></dd></dl><dl paramName="output"><dt><span class="parameter">output</span></dt><dd>Type: <span id="ID0EEAAFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EEAAFDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
-				</script><img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="ID0EBDAAFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0EBDAAFDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
-				</script>Int32</a><span id="ID0ECAAFDAAAAA"> </span><script type="text/javascript">
-					addToLanSpecTextIdSet("ID0ECAAFDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
-				</script><br /><span>The corresponding output data.</span></dd></dl></div><h4 class="subHeading">Return Value</h4>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">Double</a><br />
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">GetDeviance</span> ( 
+	<span class="parameter">inputs</span> <span class="keyword">As</span> <span class="identifier">Double</span>()(),
+	<span class="parameter">time</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
+	<span class="parameter">output</span> <span class="keyword">As</span> <span class="identifier">Integer</span>()
+) <span class="keyword">As</span> <span class="identifier">Double</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">inputs</span></dt><dd>Type: <span id="LSTD5BCA2DA_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_1?cpp=array&lt;");</script><span id="LSTD5BCA2DA_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_2?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTD5BCA2DA_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LSTD5BCA2DA_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_4?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTD5BCA2DA_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_5?cpp=&gt;|vb=()|nu=[]");</script><br />A set of input data.</dd><dt><span class="parameter">time</span></dt><dd>Type: <span id="LSTD5BCA2DA_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_6?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTD5BCA2DA_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LSTD5BCA2DA_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_8?cpp=&gt;|vb=()|nu=[]");</script><br />The time-to-event before the output occurs.</dd><dt><span class="parameter">output</span></dt><dd>Type: <span id="LSTD5BCA2DA_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_9?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LSTD5BCA2DA_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><span id="LSTD5BCA2DA_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD5BCA2DA_11?cpp=&gt;|vb=()|nu=[]");</script><br />The corresponding output data.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">Double</a><br />
               The deviance (a measure of performance) of the model
               calculated over the given data sets.
-            <div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div>
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID2RBSection" class="collapsibleSection">
               The deviance is defined as -2*Log-Likelihood.
-            <a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm" target="">ProportionalHazards Class</a></div><div class="seeAlsoStyle"><a href="AllMembers_T_Accord_Statistics_Models_Regression_ProportionalHazards.htm" target="">ProportionalHazards Members</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression.htm" target="">Accord.Statistics.Models.Regression Namespace</a></div></div>
-        </div>
-      </div>
+            </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm">ProportionalHazards Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression.htm">Accord.Statistics.Models.Regression Namespace</a></div></div></div>
     </div>
-    <div id="OH_footer" class="OH_footer">
-      <p>
-        <a href="http://accord-framework.net/" target="_blank">Accord.NET Framework</a> © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
-      <div class="OH_feedbacklink">
-        <a href="mailto:feedback@accord-framework.net?subject=Accord.NET+Framework+ProportionalHazards.GetDeviance+Method++100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to feedback@accord-framework.net.</div>
-    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2014. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
   </body>
 </html>
