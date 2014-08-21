@@ -4,7 +4,7 @@ pygments: true
 
 exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config']
 
-domain: accord-net.github.io
+domain: accord-framework.net
 title: Accord.NET Framework
 
 
@@ -19,6 +19,6 @@ disqus:
   id: accord-net
 
 framework:
-  version: v2.12
-  download-installer: https://github.com/accord-net/framework/releases/download/v2.12.0/Accord.NET.Framework-2.12.0.exe
-  download-archive:   https://github.com/accord-net/framework/releases/download/v2.12.0/Accord.NET.Framework-2.12.0.rar
+  version: v2.13
+  download-installer: https://github.com/accord-net/framework/releases/download/v2.13.0/Accord.NET-2.13.0-installer.rar
+  download-archive:   https://github.com/accord-net/framework/releases/download/v2.13.0/Accord.NET-2.13.0-archive.rar
