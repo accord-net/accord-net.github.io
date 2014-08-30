@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="2014.5.31.0" projectFile="D:\Projects\Accord.NET\GitHub\framework\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="18/08/2014 23:13:16">
+<shfbBuild product="Sandcastle Help File Builder" version="2014.5.31.0" projectFile="D:\Projects\Accord.NET\GitHub\framework\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="29/08/2014 23:10:12">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -116,16 +116,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.6220
+</plugIn>    Last step completed in 00:00:00.5270
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.3910
+    Last step completed in 00:00:00.5190
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 18/08/2014 23:13:33.
+Build started 29/08/2014 23:10:23.
 Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -135,7 +135,7 @@ GenerateRefInfo:
   Copyright &#184; 2006-2014, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
   Loaded 19 assemblies for reflection and 18 dependency assemblies.
-  Wrote information on 80 namespaces, 884 types, and 8470 members
+  Wrote information on 80 namespaces, 890 types, and 8529 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2014.5.31.0)
   Copyright &#184; 2006-2014, Microsoft Corporation, All Rights Reserved.
@@ -145,13 +145,13 @@ Done Building Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working
 
 Build succeeded.
 
-Time Elapsed 00:00:25.40
-    Last step completed in 00:00:28.4066
+Time Elapsed 00:00:11.84
+    Last step completed in 00:00:14.3878
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 18/08/2014 23:13:59.
+Build started 29/08/2014 23:10:35.
 Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2014.5.31.0)
@@ -610,20 +610,32 @@ TransformManifest:
     Unique name M_Accord_IO_ExcelReader_GetWorksheet_1 generated for M:Accord.IO.ExcelReader.GetWorksheet(System.String)
     Unique name M_Accord_IO_IdxReader__ctor_1 generated for M:Accord.IO.IdxReader.#ctor(System.IO.Stream,System.Boolean)
     Unique name M_Accord_IO_IdxReader_Dispose_1 generated for M:Accord.IO.IdxReader.Dispose(System.Boolean)
+    Unique name M_Accord_IO_LibSvmModel_Load_1 generated for M:Accord.IO.LibSvmModel.Load(System.String)
+    Unique name M_Accord_IO_LibSvmModel_Save_1 generated for M:Accord.IO.LibSvmModel.Save(System.String)
     Unique name P_Accord_IO_MatNode_Item_1 generated for P:Accord.IO.MatNode.Item(System.String)
     Unique name M_Accord_IO_MatReader__ctor_1 generated for M:Accord.IO.MatReader.#ctor(System.IO.Stream,System.Boolean)
     Unique name M_Accord_IO_MatReader_Dispose_1 generated for M:Accord.IO.MatReader.Dispose(System.Boolean)
     Unique name P_Accord_IO_MatReader_Item_1 generated for P:Accord.IO.MatReader.Item(System.String)
-    Unique name M_Accord_IO_SparseReader__ctor_1 generated for M:Accord.IO.SparseReader.#ctor(System.IO.Stream,System.Text.Encoding,System.Int32)
-    Unique name M_Accord_IO_SparseReader__ctor_2 generated for M:Accord.IO.SparseReader.#ctor(System.IO.StreamReader,System.Int32)
-    Unique name M_Accord_IO_SparseReader__ctor_3 generated for M:Accord.IO.SparseReader.#ctor(System.String,System.Int32)
-    Unique name M_Accord_IO_SparseReader__ctor_4 generated for M:Accord.IO.SparseReader.#ctor(System.String,System.Text.Encoding,System.Int32)
+    Unique name M_Accord_IO_SparseReader__ctor_1 generated for M:Accord.IO.SparseReader.#ctor(System.IO.Stream,System.Int32)
+    Unique name M_Accord_IO_SparseReader__ctor_2 generated for M:Accord.IO.SparseReader.#ctor(System.IO.Stream,System.Text.Encoding)
+    Unique name M_Accord_IO_SparseReader__ctor_3 generated for M:Accord.IO.SparseReader.#ctor(System.IO.Stream,System.Text.Encoding,System.Int32)
+    Unique name M_Accord_IO_SparseReader__ctor_4 generated for M:Accord.IO.SparseReader.#ctor(System.IO.StreamReader)
+    Unique name M_Accord_IO_SparseReader__ctor_5 generated for M:Accord.IO.SparseReader.#ctor(System.IO.StreamReader,System.Int32)
+    Unique name M_Accord_IO_SparseReader__ctor_6 generated for M:Accord.IO.SparseReader.#ctor(System.String)
+    Unique name M_Accord_IO_SparseReader__ctor_7 generated for M:Accord.IO.SparseReader.#ctor(System.String,System.Int32)
+    Unique name M_Accord_IO_SparseReader__ctor_8 generated for M:Accord.IO.SparseReader.#ctor(System.String,System.Text.Encoding)
+    Unique name M_Accord_IO_SparseReader__ctor_9 generated for M:Accord.IO.SparseReader.#ctor(System.String,System.Text.Encoding,System.Int32)
     Unique name M_Accord_IO_SparseReader_Dispose_1 generated for M:Accord.IO.SparseReader.Dispose(System.Boolean)
-    Unique name M_Accord_IO_SparseReader_ReadDense_1 generated for M:Accord.IO.SparseReader.ReadDense(System.Int32@,System.String@)
+    Unique name M_Accord_IO_SparseReader_ReadDense_1 generated for M:Accord.IO.SparseReader.ReadDense(System.Int32@)
+    Unique name M_Accord_IO_SparseReader_ReadDense_2 generated for M:Accord.IO.SparseReader.ReadDense(System.Int32@,System.String@)
     Unique name M_Accord_IO_SparseReader_ReadSparse_1 generated for M:Accord.IO.SparseReader.ReadSparse(System.Int32@,System.String@)
-    Unique name M_Accord_IO_SparseReader_ReadToEnd_1 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Boolean,System.Int32[]@,System.String[]@)
-    Unique name M_Accord_IO_SparseReader_ReadToEnd_2 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Int32[]@)
-    Unique name M_Accord_IO_SparseReader_ReadToEnd_3 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Int32[]@,System.String[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_1 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Boolean,System.Double[]@,System.String[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_2 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Boolean,System.Int32[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_3 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Boolean,System.Int32[]@,System.String[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_4 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Double[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_5 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Double[]@,System.String[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_6 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Int32[]@)
+    Unique name M_Accord_IO_SparseReader_ReadToEnd_7 generated for M:Accord.IO.SparseReader.ReadToEnd(System.Int32[]@,System.String[]@)
     Unique name M_Accord_MachineLearning_BagOfWords__ctor_1 generated for M:Accord.MachineLearning.BagOfWords.#ctor(System.String[])
     Unique name M_Accord_MachineLearning_BagOfWords__ctor_2 generated for M:Accord.MachineLearning.BagOfWords.#ctor(System.String[][])
     Unique name M_Accord_MachineLearning_BinarySplit__ctor_1 generated for M:Accord.MachineLearning.BinarySplit.#ctor(System.Int32,System.Func{System.Double[],System.Double[],System.Double})
@@ -787,18 +799,18 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_VectorMachines_SupportVectorMachine_Compute_1 generated for M:Accord.MachineLearning.VectorMachines.SupportVectorMachine.Compute(System.Double[],System.Double@)
     Unique name M_Accord_MachineLearning_VectorMachines_SupportVectorMachine_Load_1 generated for M:Accord.MachineLearning.VectorMachines.SupportVectorMachine.Load(System.String)
     Unique name M_Accord_MachineLearning_VectorMachines_SupportVectorMachine_Save_1 generated for M:Accord.MachineLearning.VectorMachines.SupportVectorMachine.Save(System.String)
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_CoordinateDescentLinearLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.CoordinateDescentLinearLearning.Run(System.Boolean)
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorLearning_EstimateComplexity_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.BaseSupportVectorLearning.EstimateComplexity(Accord.Statistics.Kernels.IKernel,System.Double[][],System.Int32[])
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorLearning_EstimateComplexity_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.BaseSupportVectorLearning.EstimateComplexity(System.Double[][])
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.BaseSupportVectorLearning.Run(System.Boolean)
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorLearning_Run_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.BaseSupportVectorLearning.Run(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorLearning_Run_3 generated for M:Accord.MachineLearning.VectorMachines.Learning.BaseSupportVectorLearning.Run(System.Threading.CancellationToken,System.Double[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_ISupportVectorMachineLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ISupportVectorMachineLearning.Run(System.Boolean)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_LeastSquaresLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.LeastSquaresLearning.Run(System.Boolean)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_MulticlassSupportVectorLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning.Run(System.Boolean)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_MulticlassSupportVectorLearning_Run_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning.Run(System.Boolean,System.Threading.CancellationToken)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_MultilabelSupportVectorLearning__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MultilabelSupportVectorLearning.#ctor(Accord.MachineLearning.VectorMachines.MultilabelSupportVectorMachine,System.Double[][],System.Int32[][])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_MultilabelSupportVectorLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MultilabelSupportVectorLearning.Run(System.Boolean)
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_NewtonMethodPrimalLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.NewtonMethodPrimalLearning.Run(System.Boolean)
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputLearning_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputLearning.Run(System.Boolean)
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_EstimateComplexity_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimization.EstimateComplexity(Accord.Statistics.Kernels.IKernel,System.Double[][],System.Int32[])
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimization.Run(System.Boolean)
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_Run_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimization.Run(System.Boolean,System.Threading.CancellationToken)
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration.Run(System.Boolean)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimizationRegression_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimizationRegression.Run(System.Boolean)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_SupportVectorReduction_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.SupportVectorReduction.Run(System.Boolean)
     Unique name M_Accord_Math_AbsoluteConvergence__ctor_1 generated for M:Accord.Math.AbsoluteConvergence.#ctor(System.Int32,System.Double)
@@ -1953,14 +1965,18 @@ TransformManifest:
     Unique name M_Accord_Statistics_Kernels_Laplacian_Estimate_1 generated for M:Accord.Statistics.Kernels.Laplacian.Estimate(System.Double[][],System.Int32,AForge.DoubleRange@)
     Unique name M_Accord_Statistics_Kernels_Laplacian_ReverseDistance_1 generated for M:Accord.Statistics.Kernels.Laplacian.ReverseDistance(System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Kernels_Linear__ctor_1 generated for M:Accord.Statistics.Kernels.Linear.#ctor(System.Double)
+    Unique name M_Accord_Statistics_Kernels_Linear_Transform_1 generated for M:Accord.Statistics.Kernels.Linear.Transform(System.Double[],System.Double)
     Unique name M_Accord_Statistics_Kernels_Log__ctor_1 generated for M:Accord.Statistics.Kernels.Log.#ctor(System.Int32)
     Unique name M_Accord_Statistics_Kernels_Multiquadric__ctor_1 generated for M:Accord.Statistics.Kernels.Multiquadric.#ctor(System.Double)
     Unique name M_Accord_Statistics_Kernels_Polynomial__ctor_1 generated for M:Accord.Statistics.Kernels.Polynomial.#ctor(System.Int32,System.Double)
+    Unique name M_Accord_Statistics_Kernels_Polynomial_Transform_1 generated for M:Accord.Statistics.Kernels.Polynomial.Transform(System.Double[],System.Int32,System.Double)
     Unique name M_Accord_Statistics_Kernels_Power__ctor_1 generated for M:Accord.Statistics.Kernels.Power.#ctor(System.Int32)
     Unique name M_Accord_Statistics_Kernels_Quadratic__ctor_1 generated for M:Accord.Statistics.Kernels.Quadratic.#ctor(System.Double)
+    Unique name M_Accord_Statistics_Kernels_Quadratic_Transform_1 generated for M:Accord.Statistics.Kernels.Quadratic.Transform(System.Double[],System.Double)
     Unique name M_Accord_Statistics_Kernels_Sigmoid__ctor_1 generated for M:Accord.Statistics.Kernels.Sigmoid.#ctor(System.Double,System.Double)
     Unique name M_Accord_Statistics_Kernels_Sigmoid_Estimate_1 generated for M:Accord.Statistics.Kernels.Sigmoid.Estimate(System.Double[][],System.Int32,AForge.DoubleRange@)
     Unique name M_Accord_Statistics_Kernels_TaylorGaussian__ctor_1 generated for M:Accord.Statistics.Kernels.TaylorGaussian.#ctor(System.Double)
+    Unique name M_Accord_Statistics_Kernels_TaylorGaussian__ctor_2 generated for M:Accord.Statistics.Kernels.TaylorGaussian.#ctor(System.Double,System.Int32)
     Unique name M_Accord_Statistics_Kernels_Wavelet__ctor_1 generated for M:Accord.Statistics.Kernels.Wavelet.#ctor(System.Boolean,System.Double)
     Unique name M_Accord_Statistics_Kernels_Wavelet__ctor_2 generated for M:Accord.Statistics.Kernels.Wavelet.#ctor(System.Boolean,System.Double,System.Func{System.Double,System.Double})
     Unique name M_Accord_Statistics_Kernels_Wavelet__ctor_3 generated for M:Accord.Statistics.Kernels.Wavelet.#ctor(System.Double,System.Double)
@@ -2285,12 +2301,12 @@ Done Building Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working
 
 Build succeeded.
 
-Time Elapsed 00:00:39.03
-    Last step completed in 00:00:41.5194
+Time Elapsed 00:00:32.39
+    Last step completed in 00:00:34.7340
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:02.3051
+    Last step completed in 00:00:02.1791
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -2486,7 +2502,7 @@ D:\Projects\Accord.NET\GitHub\framework\Sources\Accord.Docs\Accord.Documentation
 D:\Projects\Accord.NET\GitHub\framework\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (logo large).png -&gt; D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\Website\resources\Accord.NET (logo large).png
 D:\Projects\Accord.NET\GitHub\framework\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\HtmlHelp1\Resources\Accord.NET (logo small).png
 D:\Projects\Accord.NET\GitHub\framework\Sources\Accord.Docs\Accord.Documentation\Resources\Accord.NET (logo small).png -&gt; D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\Website\Resources\Accord.NET (logo small).png
-    Last step completed in 00:00:03.0232
+    Last step completed in 00:00:13.1448
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -2495,7 +2511,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 18/08/2014 23:14:46.
+Build started 29/08/2014 23:11:26.
 Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2014.5.31.0)
@@ -2506,25 +2522,25 @@ Done Building Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working
 
 Build succeeded.
 
-Time Elapsed 00:00:03.48
+Time Elapsed 00:00:02.48
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:04.9453
+    Last step completed in 00:00:03.4412
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:19.4111
+    Last step completed in 00:00:10.3406
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\Projects\Accord.NET\GitHub\framework\Docs\Working\sandcastle.config
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
-    Last step completed in 00:00:00.7390
+    Last step completed in 00:00:00.2450
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
-Build started 18/08/2014 23:15:11.
+Build started 29/08/2014 23:11:40.
 Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 BuildReferenceTopics:
   BuildAssembler (v2014.5.31.0)
@@ -4456,7 +4472,7 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Accord.Vision.Trac
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Accord.Vision.Tracking.TrackingObject.GetAxis(Accord.Vision.Tracking.AxisOrientation)] Unknown reference link target &#39;T:AForge.Math.Geometry.LineSegment&#39;. [D:\Projects\Accord.NET\GitHub\framework\Docs\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;. [D:\Projects\Accord.NET\GitHub\framework\Docs\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Accord.Vision.Tracking.TrackingObject.Image] Unknown reference link target &#39;T:AForge.Imaging.UnmanagedImage&#39;. [D:\Projects\Accord.NET\GitHub\framework\Docs\Working\BuildReferenceTopics.proj]
-  Processed 11981 topic(s)
+  Processed 12053 topic(s)
   1924 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 24 of 30.
@@ -4464,14 +4480,14 @@ Done Building Project &quot;D:\Projects\Accord.NET\GitHub\framework\Docs\Working
 
 Build succeeded.
 
-Time Elapsed 00:23:53.31
-    Last step completed in 00:23:53.8335
+Time Elapsed 00:23:46.64
+    Last step completed in 00:23:47.0536
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
 
 Clearing any prior web output
-    Last step completed in 00:00:41.6684
+    Last step completed in 00:00:19.2921
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -4483,17 +4499,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\HtmlHelp1
-Processed 11981 HTML files
+Processed 12053 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Accord.NET.hhk
 Saving HTML Help 1 table of contents to D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Accord.NET.hhc
 
 Processing website files in D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\Website
-Processed 11981 HTML files
+Processed 12053 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\Projects\Accord.NET\GitHub\framework\Docs\Working\WebKI.xml
 Saving website table of contents to D:\Projects\Accord.NET\GitHub\framework\Docs\Working\WebTOC.xml
-    Last step completed in 00:14:36.0511
+    Last step completed in 00:10:55.7435
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -4636,19 +4652,19 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:27.1146
+    Last step completed in 00:00:02.0731
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.9161
+    Last step completed in 00:00:00.2940
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -4663,13 +4679,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 58 seconds
+  Compile time: 3 minutes, 20 seconds
   
-  11,983	Topics
+  12,055	Topics
   
-  141,345	Local links
+  142,643	Local links
   
-  75,588	Internet links
+  75,826	Internet links
   
   0	Graphics
   
@@ -4677,22 +4693,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 27,636,805 bytes
+  Created d:\Projects\Accord.NET\GitHub\framework\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 27,753,885 bytes
   
-  Compression decreased file by 124,359,294 bytes.
+  Compression decreased file by 125,154,532 bytes.
   
-    Last step completed in 00:04:58.1941
+    Last step completed in 00:03:24.5027
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:21:21.2033
+</plugIn>    Last step completed in 00:12:44.5497
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -4852,16 +4868,17 @@ Copied 15200 files
 Copied 15300 files
 Copied 15400 files
 Copied 15500 files
-Copied 15550 files for the website content
-    Last step completed in 00:01:45.3530
+Copied 15600 files
+Copied 15646 files for the website content
+    Last step completed in 00:00:48.3908
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:01:02.2736
+    Last step completed in 00:00:34.5660
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 08/19/2014 12:23 .  Total time: 01:10:40,9671
+Build completed successfully at 08/30/2014 12:04 .  Total time: 00:54:03,8505
 
 </buildStep>
 </shfbBuild>
