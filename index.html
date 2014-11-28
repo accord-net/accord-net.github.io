@@ -43,6 +43,8 @@ title: "Accord.NET Framework"
         paypal.data('powertip', $('#paypal-tooltip').html());
         paypal.powerTip({ placement: 'w', mouseOnToPopup: true});
 
+        $.powerTip.show($('#paypal'));
+
         paypal.mouseover(function() {
             paypal.stopVibrate();
         });
