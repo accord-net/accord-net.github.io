@@ -137,7 +137,7 @@ section p
 
 .section-title p
 {
-    width: 600px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
