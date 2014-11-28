@@ -117,7 +117,7 @@ body
 
 section
 {
-    margin-top: 100px;
+    margin-top: 60px;
     font-weight: 300;
     text-align: center;
 }
@@ -127,6 +127,11 @@ section p
     font: 12px Segoe UI, Helvetica, Arial, sans-serif;
     color: #333333;
     margin-top: 0;
+}
+
+.section-title
+{
+    margin-bottom: 50px;
 }
 
 .section-title h1
@@ -147,6 +152,12 @@ section p
     margin: 20px;
     display: inline-block;
     vertical-align: top;
+}
+
+.section-panel img
+{
+    max-width: 200px;
+    max-height: 100px;
 }
 
 .section-panel h1
