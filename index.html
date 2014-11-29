@@ -52,7 +52,7 @@ title: "Accord.NET Framework"
         setTimeout(function() { $.powerTip.show(paypal); }, 2000);
 
         $(window).scroll(function() {
-            $.powerTip.hide(paypal); });
+            setTimeout(function() { $.powerTip.hide(paypal); }, 2000);  });
     });
 
     
@@ -103,7 +103,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-statistics-analysis-(kda).png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.1.-Classification">Classification</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Classification">Classification</a>.</h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/N_Accord_MachineLearning_VectorMachines.htm">
                             Support Vector Machines</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_LogisticRegression.htm">
@@ -121,7 +121,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-machinelearning-regression-svm.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.2.-Regression">Regression</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Regression">Regression</a>.</h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression.htm">
                             Multiple linear regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression.htm">
@@ -141,7 +141,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-machinelearning-clustering-meanshift-kmeans.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.3.-Clustering">Clustering</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Clustering">Clustering</a>.</h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_KMeans.htm">K-Means</a>,
                         <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_KModes.htm">K-Modes</a>,
@@ -150,8 +150,8 @@ title: "Accord.NET Framework"
                         <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_BinarySplit.htm">Binary Split</a>,
                         <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_DeepBeliefNetwork.htm">Deep Belief Networks</a>,
                         <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_RestrictedBoltzmannMachine.htm">Restricted Boltzmann Machines</a>.
-                        Clustering algorithms can be applied in arbitrary data, <a href="https://github.com/accord-net/framework/wiki/3.-Sample-applications#color-clustering-kmeans-and-meanshift">including images</a>,
-                        data tables, videos and <a href="https://github.com/accord-net/framework/wiki/2.8.-Audio">audio</a>.
+                        Clustering algorithms can be applied in arbitrary data, <a href="https://github.com/accord-net/framework/wiki/Sample-applications#color-clustering-kmeans-and-meanshift">including images</a>,
+                        data tables, videos and <a href="https://github.com/accord-net/framework/wiki/Audio">audio</a>.
                     </p>
                 </div>
             </div>
@@ -159,7 +159,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/misc/gaussians.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.4.-Distributions">Distributions</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Distributions">Distributions</a>.</h3>
                     <p>
                         Parametric and non-parametric estimation of more than 40 distributions. Univariate
                         distributions such as <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">
@@ -183,7 +183,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/misc/gaussian.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.5.-Hypothesis-Tests">Hypothesis Tests</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Hypothesis-Tests">Hypothesis Tests</a>.</h3>
                     <p>
                         More than 35 statistical hypothesis tests, including <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_OneWayAnova.htm">
                             one way</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_TwoWayAnova.htm">
@@ -205,7 +205,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-statistics-analysis-kpca.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.6.-Kernel-Methods">Kernel Methods</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Kernel-Methods">Kernel Methods</a>.</h3>
                     <p>
                         Kernel Support Vector Machines, Multi-class and Multi-label machines, Sequential
                         Minimal Optimization, Least-Squares Learning, probabilistic learning, including
@@ -220,7 +220,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-imaging-surf.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.7.-Imaging">Imaging</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Imaging">Imaging</a>.</h3>
                     <p>
                         Interest point detectors (Harris, SURF and FAST), image matching and image stitching
                         methods. Can create integral images and other image transformations, plus additional
@@ -230,7 +230,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-audio-recording.png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.8.-Audio">Audio and Signal</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Audio">Audio and Signal</a>.</h3>
                     <p>
                         Load, parse, save, filter and transform <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Signal.htm">
                             audio signals</a>, such as applying <a href="http://accord-framework.net/docs/html/N_Accord_Audio_Filters.htm">
@@ -253,7 +253,7 @@ title: "Accord.NET Framework"
                 <div class="section-panel">
                     <img src="images/samples/accord-vision-face-tracking-(camshift).png" />
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/2.9.-Vision">Vision</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Vision">Vision</a>.</h3>
                     <p>
                         Real-time face detection and tracking, as well as general methods for detecting,
                         tracking and transforming objects in image streams. Contains cascade definitions,
