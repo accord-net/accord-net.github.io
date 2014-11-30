@@ -129,6 +129,13 @@ section p
     margin-top: 0;
 }
 
+.section-footer
+{
+    width: 600px;
+    text-align: center;
+    margin: 10 auto;
+}
+
 .section-title
 {
     margin-bottom: 50px;
