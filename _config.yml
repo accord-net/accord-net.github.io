@@ -5,9 +5,11 @@ pygments: true
 exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config']
 
 domain: accord-framework.net
-title: Accord.NET Framework
+title: Accord.NET Machine Learning Framework
 
 
+gems:
+  - jekyll-sitemap
 
 google_analytics:
   account: UA-3114672-6
