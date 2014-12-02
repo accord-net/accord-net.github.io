@@ -172,6 +172,17 @@ section p
     font-size: 20px;
 }
 
+.openhub-stats
+{
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+.openhub-stats div
+{
+    vertical-align: top;
+    display: inline-block;
+}
 
 #more
 {
