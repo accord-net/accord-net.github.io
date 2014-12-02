@@ -23,8 +23,15 @@ body
     margin: auto;
     background-image: url('../images/accord-logo.png');
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 487px;
     height: 363px;
+}
+
+#accord-logo img
+{
+    display: none;
 }
 
 #accord-logo p
@@ -129,13 +136,6 @@ section p
     margin-top: 0;
 }
 
-.section-footer
-{
-    width: 600px;
-    text-align: center;
-    margin: 10px auto;
-}
-
 .section-title
 {
     margin-bottom: 50px;
@@ -144,7 +144,7 @@ section p
 .section-title h1
 {
     font: 36px Segoe UI, Helvetica, Arial, sans-serif;
-    line-height: 16px;
+    line-height: 36px;
 }
 
 .section-title p
@@ -172,14 +172,28 @@ section p
     font-size: 20px;
 }
 
+.section-footer
+{
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+}
+
 .openhub-stats
 {
-    margin-top: 50px;
+    margin: 50px auto;
     vertical-align: top;
 }
 
-.openhub-stats div
+.openhub-stats .openhub-factoids
 {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.openhub-stats .openhub-banner
+{
+    margin: 50px auto;
     vertical-align: top;
     display: inline-block;
 }
@@ -220,8 +234,6 @@ section p
 }
 
 
-
-
 footer
 {
     width: 270px;
@@ -230,49 +242,9 @@ footer
     bottom: 50px;
 }
 
+
+
 @media print, screen and (max-width: 960px)
-{
-
-    div#content-wrapper
-    {
-        width: auto;
-        margin: 0;
-    }
-
-    header, section, footer
-    {
-        float: none;
-        position: static;
-        width: auto;
-    }
-
-    header
-    {
-        padding-right: 320px;
-    }
-
-    section
-    {
-        border: 1px solid #e5e5e5;
-        border-width: 1px 0;
-        padding: 20px 0;
-        margin: 0 0 20px;
-    }
-
-    header a small
-    {
-        display: inline;
-    }
-
-    header ul
-    {
-        position: absolute;
-        right: 50px;
-        top: 52px;
-    }
-}
-
-@media print, screen and (max-width: 720px)
 {
     body
     {
@@ -295,17 +267,129 @@ footer
     }
 }
 
-@media print, screen and (max-width: 480px)
+@media print, screen and (max-width: 650px)
+{
+    #right-buttons
+    {
+        right: 0px;
+        position: static;
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    #right-buttons img
+    {
+        width: 32px;
+    }
+    
+    #accord-logo p
+    {
+        display: none;
+    }
+    
+    #accord-logo
+    {
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-size: contain;
+    }
+    
+    #accord-logo img
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    #download-buttons
+    {
+        margin: 0px auto;
+        width: 100%;
+        height: auto;
+        padding: 0 auto;
+        display: inline-block;
+    }
+
+    #download-buttons ul
+    {
+        list-style: none;
+        background: none;
+        border: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: none;
+        text-align: center;
+        margin-left: -1px;
+    }
+
+    #download-buttons li
+    {
+        display: inline-block;
+        margin: 2px 0;
+        width: 89px;
+        float: none;
+        border: 1px solid #d2d2d2;
+        height: 40px;
+        padding: 0;
+        background: #eee;
+        background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+        background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+        background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+        background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+        background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    }
+
+    #download-buttons ul a
+    {
+        line-height: 1;
+        font-size: 11px;
+        color: #999;
+        display: block;
+        text-align: center;
+        padding-top: 6px;
+        height: 40px;
+    }
+
+    #download-buttons ul li + li
+    {
+        width: 89px;
+        border: 1px solid #d2d2d2;
+    }
+
+    #download-buttons ul li + li + li
+    {
+        border: 1px solid #d2d2d2;
+        width: 89px;
+    }
+
+    #download-buttons ul a strong
+    {
+        font-size: 14px;
+        display: block;
+        color: #222;
+    }
+    
+    #powerTip
+    {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media print, screen and (max-width: 520px)
 {
     body
     {
         padding: 15px;
     }
 
-    header ul
-    {
-        display: none;
-    }
+    
 }
 
 @media print

@@ -51,8 +51,8 @@ title: "Accord.NET Machine Learning Framework"
 
         setTimeout(function() { $.powerTip.show(paypal); },  2000);
 
-        // $(window).scroll(function() {
-        //     setTimeout(function() { $.powerTip.hide(paypal); }, 2000);  });
+        $(window).scroll(function() {
+           setTimeout(function() { $.powerTip.hide(paypal); }, 2000);  });
     });
 
     
@@ -76,6 +76,7 @@ title: "Accord.NET Machine Learning Framework"
                     <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" /></a>
             </div>
             <a id="accord-logo" href="intro.html">
+                <img src="images/accord-logo.png" />
                 <p>
                     {{ site.framework.version }}</p>
             </a>
@@ -351,10 +352,10 @@ title: "Accord.NET Machine Learning Framework"
             </div>
 
             <div class="openhub-stats">
-                <div>
+                <div class="openhub-factoids">
                     <script type="text/javascript" src="http://www.openhub.net/p/484220/widgets/project_factoids_stats.js"></script>
                 </div>
-                <div>
+                <div class="openhub-banner">
                     <script type="text/javascript" src="http://www.openhub.net/p/484220/widgets/project_partner_badge.js"></script>
                 </div>
             </div>
@@ -370,12 +371,12 @@ title: "Accord.NET Machine Learning Framework"
             Consider donating just <strong>US$10</strong>
             <br />
             so it can get even better!</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> 
-<input type="hidden" name="cmd" value="_s-xclick"> 
-<input type="hidden" name="hosted_button_id" value="N4Q6YQSPWN8BG"> 
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> 
-<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1"> 
-</form>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> 
+                <input type="hidden" name="cmd" value="_s-xclick"> 
+                <input type="hidden" name="hosted_button_id" value="N4Q6YQSPWN8BG"> 
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> 
+                <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1"> 
+            </form>
         <p>
             This software is completely free and will<br />
             <strong>always stay free</strong>. Enjoy!
