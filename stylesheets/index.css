@@ -2,14 +2,13 @@
 
 body
 {
-    padding: 50px;
+    padding: 0;
+    margin: 0;
     font-family: 'Lato' , sans-serif;
     font-weight: 300;
     color: #777;
     font-weight: 300;
 }
-
-
 
 #content-wrapper
 {
@@ -198,49 +197,102 @@ section p
     display: inline-block;
 }
 
-#more
-{
-    cursor: pointer;
-}
-
-#more h1:after
-{
-    background-image: url('../images/metro/appbar.chevron.down.png');
-    background-repeat: no-repeat;
-    width: 60px;
-    height: 50px;
-    display: inline-block;
-    content: "";
-}
-
-#features
-{
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    -moz-column-rule-color: #ccc;
-    -moz-column-rule-style: solid;
-    -moz-column-rule-width: 1px;
-    -webkit-column-rule-color: #ccc;
-    -webkit-column-rule-style: solid;
-    -webkit-column-rule-width: 1px;
-    font-size: 10px;
-}
-
-#features h1
-{
-    font-size: 12px;
-}
 
 
 footer
 {
-    width: 270px;
-    float: left;
-    position: fixed;
-    bottom: 50px;
+    /*background-color: #f1f1f1;*/
+    width: 100%;
+    color: #666;
+    font: 14px/20px 'Segoe UI', Helvetica, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 80px;
+    text-align: center;
+    
+    background: #eee;
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+    background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+    border-radius: 5px;
+    border-top: 1px solid #d2d2d2;
 }
+
+footer div.footer-contents
+{
+    max-width: 600px;
+    text-align: center;
+    padding: 0;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+footer ul
+{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    list-style: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer div.hr
+{
+    clear: both;
+    padding-top: 5px;
+    border-bottom: solid 1px #dedede;
+    height: 0;
+}
+
+footer li
+{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+footer li:before 
+{
+    content: "| "; 
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+footer li:first-child:before
+{
+    content: ""; 
+}
+
+footer .copyright
+{
+    display: inline-block;
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
+footer .copyright span
+{
+    font-variant: small-caps;
+}
+
+/*
+footer div.footer-contents:after
+{
+    content: "Accord.NET";
+    font-variant: small-caps;
+    font-size: 30px;
+    position: relative;
+    float: right;
+    left: 170px;
+    top: -45px;
+}*/
 
 
 
@@ -388,8 +440,6 @@ footer
     {
         padding: 15px;
     }
-
-    
 }
 
 @media print

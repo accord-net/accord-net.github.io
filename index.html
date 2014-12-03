@@ -59,6 +59,17 @@ title: "Accord.NET Machine Learning Framework"
  
 </script>
 <body>
+    <!-- Begin Facebook Javascript SDK -->
+    <div id="fb-root">
+    </div>
+    <script>        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));</script>
+    <!-- End Facebook Javascript SDK -->
     <div id="content-wrapper">
         <header>
             <div id="left-buttons">
@@ -95,11 +106,12 @@ title: "Accord.NET Machine Learning Framework"
                 <h1>
                     <a href="intro.html">Machine learning made <strong>in a minute</strong></a></h1>
                 <p>
-                    The <strong>Accord.NET Framework</strong> is a .NET machine learning framework combined with
-                    audio and image processing libraries completely written in C#. It is a complete framework for 
-                    building production-grade computer vision, computer audition, signal processing and statistics 
-                    applications even <strong>for commercial use</strong>. A comprehensive set of sample applications
-                    provide a fast start to get up and running quickly, and an extensive online documentation helps fill in the details.</p>
+                    The <strong>Accord.NET Framework</strong> is a .NET machine learning framework combined
+                    with audio and image processing libraries completely written in C#. It is a complete
+                    framework for building production-grade computer vision, computer audition, signal
+                    processing and statistics applications even <strong>for commercial use</strong>.
+                    A comprehensive set of sample applications provide a fast start to get up and running
+                    quickly, and an extensive online documentation helps fill in the details.</p>
             </div>
             <div class="section-content">
                 <div class="section-panel">
@@ -165,24 +177,25 @@ title: "Accord.NET Machine Learning Framework"
                     <h3>
                         <a href="https://github.com/accord-net/framework/wiki/Distributions">Distributions</a>.</h3>
                     <p>
-                        Parametric and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm">non-parametric estimation</a>
-                        of more than 40 distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Univariate.htm">Univariate</a>
-                        distributions such as <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">
-                            Normal</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">
-                                Cauchy</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">
-                                    Hypergeometric</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">
-                                        Poisson</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm">
-                                            Bernoulli</a>, and specialized distributions such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm">
-                                                Kolmogorov-Smirnov</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">
-                                                    Nakagami</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">
-                                                        Weibull</a>, and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">
-                                                            Von-Mises</a> distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Multivariate.htm">Multivariate</a>
-                        distributions such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateNormalDistribution.htm">
-                            multivariate Normal</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultinomialDistribution.htm">
-                                Multinomial</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">
-                                    Independent</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_JointDistribution.htm">
-                                        Joint</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateMixture_1.htm">
-                                            Mixture distributions</a>.
+                        Parametric and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm">
+                            non-parametric estimation</a> of more than 40 distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Univariate.htm">
+                                Univariate</a> distributions such as <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">
+                                    Normal</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">
+                                        Cauchy</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">
+                                            Hypergeometric</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">
+                                                Poisson</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm">
+                                                    Bernoulli</a>, and specialized distributions such as
+                        the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm">
+                            Kolmogorov-Smirnov</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">
+                                Nakagami</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">
+                                    Weibull</a>, and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">
+                                        Von-Mises</a> distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Multivariate.htm">
+                                            Multivariate</a> distributions such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateNormalDistribution.htm">
+                                                multivariate Normal</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultinomialDistribution.htm">
+                                                    Multinomial</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">
+                                                        Independent</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_JointDistribution.htm">
+                                                            Joint</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateMixture_1.htm">
+                                                                Mixture distributions</a>.
                     </p>
                 </div>
                 <div class="section-panel">
@@ -312,9 +325,9 @@ title: "Accord.NET Machine Learning Framework"
                     <h3>
                         <a href="samples.html">Sample applications</a>.</h3>
                     <p>
-                        Sample applications help you start writing your applications quickly. Just 
-                        <a href="https://github.com/accord-net/framework/wiki/Sample-applications">get one
-                        of the sample applications that is closest to your goal</a>, and start from there.
+                        Sample applications help you start writing your applications quickly. Just <a href="https://github.com/accord-net/framework/wiki/Sample-applications">
+                            get one of the sample applications that is closest to your goal</a>, and start
+                        from there.
                     </p>
                 </div>
                 <div class="section-panel">
@@ -324,8 +337,8 @@ title: "Accord.NET Machine Learning Framework"
                     <p>
                         Strategy and template method patterns help you swap learning algorithms quickly.
                         Create, build and compare different approaches without delving too deep in code.
-                        Check a <a href="publications.html">list of works that have been made possible with 
-                        the framework</a>.
+                        Check a <a href="publications.html">list of works that have been made possible with
+                            the framework</a>.
                     </p>
                 </div>
                 <div class="section-panel">
@@ -334,23 +347,23 @@ title: "Accord.NET Machine Learning Framework"
                         <a href="http://stackoverflow.com/questions/ask?tags=accord.net">Ask your questions</a>.</h3>
                     <p>
                         Stackoverflow is <a href="http://stackoverflow.com/questions/tagged/accord.net">continuosly
-                        monitored for new questions containing the "Accord.NET" tag</a>. Ask your new question and 
-                        mark it with this tag, and it will be answered in a minute by the framework authors and the
-                        user community. 
+                            monitored for new questions containing the "Accord.NET" tag</a>. Ask your new
+                        question and mark it with this tag, and it will be answered in a minute by the framework
+                        authors and the user community.
                     </p>
                 </div>
             </div>
             <div class="section-footer">
                 <p>
-                    <strong>Note:</strong> If you would like to ask questions concerning the framework itself, such as 
-                    questions on <i>"why"</i> something was done in a particular way, suggestions and general discussions,
-                    please refer to the<a href=https://groups.google.com/forum/#!forum/accord-net"> support forums</a>.
-                    For bugs and feature requests, please use <a href="https://github.com/accord-net/framework/issues">
-                    issue tracker</a> instead. If the project has been useful for you, please consider
-                    <a href="https://github.com/accord-net/framework/wiki">helping us improve the wiki</a>. Thanks!
+                    <strong>Note:</strong> If you would like to ask questions concerning the framework
+                    itself, such as questions on <i>"why"</i> something was done in a particular way,
+                    suggestions and general discussions, please refer to the<a href="https://groups.google.com/forum/#!forum/accord-net">
+                        support forums</a>. For bugs and feature requests, please use <a href="https://github.com/accord-net/framework/issues">
+                            issue tracker</a> instead. If the project has been useful for you, please
+                    consider <a href="https://github.com/accord-net/framework/wiki">helping us improve the
+                        wiki</a>. Thanks!
                 </p>
             </div>
-
             <div class="openhub-stats">
                 <div class="openhub-factoids">
                     <script type="text/javascript" src="http://www.openhub.net/p/484220/widgets/project_factoids_stats.js"></script>
@@ -360,10 +373,27 @@ title: "Accord.NET Machine Learning Framework"
                 </div>
             </div>
         </section>
-        <footer>
-        
-        </footer>
     </div>
+    <footer>
+        <div class="footer-contents">
+            <ul>
+                <li><strong>.NET Framework</strong></li>
+                <li><a href="https://github.com/cureos/accord">Windows Phone</a> </li>
+                <li><a href="https://github.com/DiegoCatalano/Catalano-Framework">Android</a></li>
+                <li><a href="http://xamarin.com/">iOS</a> </li>
+                <li><a href="https://github.com/DiegoCatalano/Catalano-Framework">Java</a>
+                <li>
+                    <div class="fb-like" data-href="http://accord-framework.net" data-layout="button_count"
+                        data-action="recommend" data-show-faces="true" data-share="true">
+                    </div>
+                </li>
+            </ul>
+            <div class="hr"></div>
+            <div class="copyright">
+                Copyright &copy; 2008-2015
+            </div>
+        </div>
+    </footer>
     <div id="paypal-tooltip" style="display: none">
         <p>
             Have you found this software useful?
@@ -371,16 +401,19 @@ title: "Accord.NET Machine Learning Framework"
             Consider donating just <strong>US$10</strong>
             <br />
             so it can get even better!</p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> 
-                <input type="hidden" name="cmd" value="_s-xclick"> 
-                <input type="hidden" name="hosted_button_id" value="N4Q6YQSPWN8BG"> 
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> 
-                <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1"> 
-            </form>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="N4Q6YQSPWN8BG">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+            border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif"
+            width="1" height="1">
+        </form>
         <p>
             This software is completely free and will<br />
-            <strong>always stay free</strong>. Enjoy!
+            <strong>always stay free</strong>
+        . Enjoy!
     </div>
 </body>
-{% include analytics.html %}
+<!-- {% include analytics.html %} -->
 </html>
