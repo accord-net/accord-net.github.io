@@ -1,3 +1,89 @@
+Accord.NET Framework 2.13.2 release notes
+-----------------------------------------
+15.12.2014.
+
+Version updates and fixes:
+  - GH-29: HiddenConditionalRandomField is not correctly serialized;
+  - GH-31: Adding hidden Markov Model methods for computing the probability of 
+           a state assuming a particular value inside an observation sequence;
+  - GH-36: Extensions class collides with the Accord.NET Extensions Framework;
+  - GH-35: Distribution issue with .NET 3.5 assemblies;
+  - GH-37: Adding Taylor series functions and dissimilarity functions;
+  - GH-42: Adding new contributed distance functions;
+  - GH-46: Optimization functions and constraints to now support different cultures;
+  - GH-48: Fix calculation of log likelihoods for BaumWelch learning algorithm;
+  - GC-33: GoldfarbIdnaniQuadraticSolver class failed to give correct answer.
+
+* Accord.Core
+  - Adding Red-Black trees and a Red-Black dictionary based on those trees
+    with support for efficiently searching for maximum and minimum elements.
+
+* Accord.IO
+  - Updating the IDX reader to automatically convert between different data types.
+
+* Accord.Math
+  - Adding the Nelder-Mead and Subplex non-linear optimization algorithms;
+  - Adding matrix padding methods (adding extra rows and columns with zeros);
+  - Updating quadratic optimization constraints to support tolerance parameters.
+
+* Accord.Statistics
+  - Adding regularization in IterativeReweightedLeastSquares;
+  - Adding DistributionAnalysis for estimating distributions from observed data;
+  - Adding weighted measure methods in Statistics.Tools that are 
+    based on element repetitions rather than element importance;
+  - Adding Anderson-Daring, Shapiro-Wilk, Inverse Chi-Square, Lévy, Folded 
+    Normal, Shifted Log-Logistic, Kumaraswamy, Trapezoidal, U-quadratic and
+    BetaPrime distributions;
+  - Adding Anderson-Daring and Shapiro-Wilk hypothesis tests;
+  - Correcting the MarkovMultivariateFunction constructor for 
+    explicit Independent<NormalDistribution> hidden Markov models;
+  - Correcting discrete Viterbi learning convergence check and unifying 
+    the Viterbi implementations for discrete and continuous variables;
+  - Correcting the calculation of log likelihoods in Baum Welch learning;
+  - Updating all distribution functions constructors to offer Range attributes
+    that can be used to automatically determine valid values for its parameters;
+  - Updating Logistic Regression and Cox's Proportional Hazards 
+    analyses to avoid computing LR-ratio tests unless necessary;
+  - Updating Multivariate Empirical Distributions to support CDF;
+  - Updating Empirical Distributions to support weighted samples;
+  - Updating CRF output feature functions to activate only once per sequence;
+  - Updating all probability distributions to offer a Generate method;
+  - Updating ChiSquare Test to support testing against continuous distributions;
+  - Updating univariate discrete distributions with Quantile Density functions.
+
+* Accord.MachineLearning
+  - Adding LIBLINEAR's linear support vector regression (SVR) algorithms;
+  - Adding LinearCoordinateDescent for the primal formulation and renaming the 
+    previous coordinate descent algorithm to LinearDualCoordinateDescent;
+  - Adding named constructors in Naive Bayes to build Gaussian models more easily;
+  - Updating Naive Bayes classifiers to estimate component variables in parallel;
+  - Updating ID3 algorithm so attributes can join multiple times a decision;
+  - Updating Bag-of-Visual-Words to avoid computing costly cluster measures;
+  - Updating K-Means to support setting algorithm options through its class itself;
+  - Updating K-NearestNeighbor feature matching to use KD-Trees when its possible;
+  - Updating error-based pruning to avoid computing modes when there are no elements;
+  - Updating K-Modes to select modes per column, instead of entire elements. Now it 
+    is also possible to use the Kmeans++ initialization scheme in this algorithm.
+ 
+* Accord.Neuro
+  - Adding Rectified Linear activation functions.
+
+* Accord.Imaging
+  - Fixing Niblack and Sauvola thresholding algorithms for 8bpp images.
+
+* Accord.Audio
+  - Adding a Volume adjustment filter for audio signals.
+
+* Accord.Controls
+  - Adding a DataBarBox visualization box;
+  - Updating visualizations to offer more flexibility in customizing ZedGraph charts;
+
+* Sample applications
+  - Adding support for adjusting volume in the Recorder sample application.
+
+
+
+
 Accord.NET Framework 2.13.1 release notes
 -----------------------------------------
 30.08.2014.
@@ -461,7 +547,7 @@ Version updates and fixes:
   - Marking DecisionAttributeCollection as Serializable;
   - Updating Multi-class and Multi-label SVMs to implement the IEnumerable interface;
   - Updating Multi-class SVM decision to be thread-safe in multithreaded environments;
-  - Adding explicit class count parameter to KNearestNeighbor;
+  - Adding explicit class count parameter to KNearestNeighbors;
   - Adding Bag-of-Words model for text categorization;
   - Fixing SMO when there is only one class label in outputs;
   - Fixing set size counting in Cross-Validation.
