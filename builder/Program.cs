@@ -212,7 +212,7 @@ namespace builder
 
         private static string trim(string str)
         {
-            return str.Trim('\n', '\r');
+            return str.Trim('\n', '\r').Replace("'", "\\'");
         }
     }
 }

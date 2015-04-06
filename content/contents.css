@@ -615,6 +615,12 @@ footer
 .modal img
 {
     max-width: 100%;
+    max-height: 300px;
+}
+
+.modal-dialog
+{
+    width: 800px;
 }
 
 @media (max-width: 768px)
@@ -624,12 +630,6 @@ footer
         width: 90%;
         margin-left: 2%;
     }
-}
-
-.well
-{
-    background: #fff;
-    text-align: center;
 }
 
 .filter
