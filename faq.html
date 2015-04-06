@@ -4,7 +4,7 @@ title: "Frequently Asked Questions"
 comments: true
 ---
 
-<div id="faq">
+<div id="faq" class="fixed">
     <h1>
         How fast is Support Vector Machine (SVM) learning?
     </h1>
@@ -12,47 +12,58 @@ comments: true
         Users often find the SVM learning algorithm to take too much time. This, however,
         may be a reflection of the particular choice of learning parameters. For instance,
         attempting to create a hard-margin SVM (with very high <a href="http://accord-net.github.io/docs/html/P_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_Complexity.htm">
-        complexity parameter C</a>) using a linear kernel in a non-linearly separable
+            complexity parameter C
+        </a>) using a linear kernel in a non-linearly separable
         dataset will diverge and possibly lead to an infinite loop. In those cases, consider
         using the automatic parameter estimation routines in <a href="http://accord-net.github.io/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">
-            SequentialMinimalOptimization</a> and in the chosen Kernel function. Values
+            SequentialMinimalOptimization
+        </a> and in the chosen Kernel function. Values
         returned by those routines may lead to more sparse machines and faster training
         times.
     </p>
     <p>
         For best initial results, please set the <a href="/docs/html/P_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_UseComplexityHeuristic.htm">
-        UseComplexityHeuristic</a> property of the <a href="http://accord-net.github.io/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">
-        SMO learning algorithm</a> to true when learning your initial machine. This
+            UseComplexityHeuristic
+        </a> property of the <a href="http://accord-net.github.io/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">
+            SMO learning algorithm
+        </a> to true when learning your initial machine. This
         will give you an indication of an appropriate running time for your problem. Also,
         if you are using <a href="http://accord-net.github.io/docs/html/T_Accord_Statistics_Kernels_Gaussian.htm">
-        Gaussian kernels</a>, try estimating the kernel parameters from the data using
+            Gaussian kernels
+        </a>, try estimating the kernel parameters from the data using
         the <a href="http://accord-net.github.io/docs/html/M_Accord_Statistics_Kernels_Gaussian_Estimate.htm">
-        Gaussian.Estimate</a> static method of your kernel's class. The initial values
+            Gaussian.Estimate
+        </a> static method of your kernel's class. The initial values
         returned from those heuristics can be used as a starting point for hyperparameter
         tuning.
     </p>
     <h1>
         Why I am getting <a href="http://msdn.microsoft.com/en-us/library/system.outofmemoryexception.aspx">
-            OutOfMemoryExceptions</a> when training my Vector Machines?
+            OutOfMemoryExceptions
+        </a> when training my Vector Machines?
     </h1>
     <p>
         The framework automatically builds a kernel function cache to help speed up computations
         during SVM learning. However, there are cases that this cache may take too much
         memory and lead to such exceptions. To make a balance between memory consumption
         and CPU speed, set the <a href="http://accord-net.github.io/docs/html/P_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_CacheSize.htm">
-        CacheSize</a> property to a lower value. The default is to store all input vectors
+            CacheSize
+        </a> property to a lower value. The default is to store all input vectors
         in the cache; setting it to something lower (such as 1/20 the number of training
         samples) might help.
     </p>
     <h1>
-        Why can't I open Excel worksheets using 
+        Why can't I open Excel worksheets using
         <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Formats_ExcelReader.htm">
-        ExcelReader</a>?
+            ExcelReader
+        </a>?
     </h1>
     <p>
         To open Excel files, you have to install the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=13255">
-            Microsoft Access Database Engine 2010 Redistributable</a>, available <a href="http://www.microsoft.com/en-us/download/details.aspx?id=13255">
-                here</a>. This engine, also known as ACE, is a replacement for JET, the
+            Microsoft Access Database Engine 2010 Redistributable
+        </a>, available <a href="http://www.microsoft.com/en-us/download/details.aspx?id=13255">
+            here
+        </a>. This engine, also known as ACE, is a replacement for JET, the
         old ODBC driver which could be used to open Excel 2003 workbooks. In order to use
         ACE in both 32-bit and 64-bit applications, you need to install both redistributables
         from the Microsoft website. To install them both, you need to use the /passive command
@@ -70,10 +81,14 @@ comments: true
         If you encounter any of the exceptions:
     </p>
     <ul>
-        <li>"Variance is zero. Try specifying a regularization constant in the fitting options",
-            or</li>
-        <li>"Covariance matrix is not positive definite. Try specifying a regularization constant
-            in the fitting options"</li>
+        <li>
+            "Variance is zero. Try specifying a regularization constant in the fitting options",
+            or
+        </li>
+        <li>
+            "Covariance matrix is not positive definite. Try specifying a regularization constant
+            in the fitting options"
+        </li>
     </ul>
     <p>
         This might be a sign that the problem you are trying to solve is a tricky one, or
@@ -99,13 +114,18 @@ comments: true
         On a final note, the way on how to add this regularization constant depends on the
         model being estimated; but most likely the solution for this problem would involve
         creating a <a href="/docs/html/AllMembers_T_Accord_Statistics_Distributions_Fitting_NormalOptions.htm">
-            NormalOptions</a> object, setting its <a href="/docs/html/P_Accord_Statistics_Distributions_Fitting_NormalOptions_Regularization.htm">
-                Regularization</a> property to some small value, and pass it along to the
+            NormalOptions
+        </a> object, setting its <a href="/docs/html/P_Accord_Statistics_Distributions_Fitting_NormalOptions_Regularization.htm">
+            Regularization
+        </a> property to some small value, and pass it along to the
         model fitting algorithm. For examples involving Hidden Markov Models, please see
         <a href="/docs/html/T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">
-            the examples on the BaumWelchLearning</a> documentation page.
+            the examples on the BaumWelchLearning
+        </a> documentation page.
     </p>
-    <p> Update: On the next version after 2.11, a new way to work with non-positive definite
+    <p>
+        Update: On the next version after 2.11, a new way to work with non-positive definite
         matrices within learning algorithms will be added in the framework. This new approach
-        may help improve the accuracy of such models.</p>
+        may help improve the accuracy of such models.
+    </p>
 </div>

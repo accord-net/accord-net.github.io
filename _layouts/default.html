@@ -1,18 +1,24 @@
-<!doctype html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} - Accord.NET Machine Learning in C#</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="author" href="https://plus.google.com/+cesarrsouza/" />
-    <link rel="stylesheet" href="stylesheets/common.css" />
-    <link rel="stylesheet" href="stylesheets/contents.css" />
-    <link rel="stylesheet" href="stylesheets/jquery.powertip.css" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.vibrate.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.powertip.js"></script>
+    <link rel="stylesheet" type="text/css" href="content/jquery.powertip.css" />
+    <link rel="stylesheet" type="text/css" href="content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="content/common.css" />
+    <link rel="stylesheet" type="text/css" href="content/contents.css" />
+    <script type="text/javascript" src="scripts/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="scripts/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery.vibrate.js"></script>
+    <script type="text/javascript" src="scripts/jquery.powertip.js"></script>
+    <script type="text/javascript" src="scripts/jquery.quicksand.js"></script>
+    <script type='text/javascript' src="scripts/bootstrap.js"></script>
+    <script type='text/javascript' src="scripts/bootbox.js"></script>
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -41,35 +47,41 @@
         paypal.powerTip({ placement: 'w', mouseOnToPopup: true });
 
     });
- 
+
 </script>
 <body>
-    <!-- 
+    <!--
 
         // Left area: the area containing the header and the table of contents for the site
         // -------------------------------------------------------------------------------->
     <div id="left">
         <header>
             <div id="accord-logo">
-                &#x222e;</div>
+                &#x222e;
+            </div>
             <h1>
-                {{ page.title }}</h1>
+                {{ page.title }}
+            </h1>
         </header>
         <nav>
             <h1>
-                <a href="index.html">Accord.NET Framework</a></h1>
+                <a href="index.html">Accord.NET Framework</a>
+            </h1>
             <ul>
                 <li id="li-intro"><a href="intro.html">Introduction</a></li>
                 <li id="li-samples"><a href="samples.html">Sample apps</a></li>
-                <li id="li-docs"><a href="docs/Index.html"  target="_blank">Documentation</a></li>
-                <li id="li-issues"><a href="https://github.com/accord-net/framework/issues" target="_blank">
-                    Report issues</a></li>
+                <li id="li-docs"><a href="docs/Index.html" target="_blank">Documentation</a></li>
+                <li id="li-issues">
+                    <a href="https://github.com/accord-net/framework/issues" target="_blank">
+                        Report issues
+                    </a>
+                </li>
                 <li id="li-contribute"><a href="contribute.html">Contribute</a></li>
                 <li id="li-publications"><a href="publications.html">Publications</a></li>
                 <!-- <li id="li-forums"><a href="http://stackoverflow.com/questions/ask?tags=accord.net" target="_blank">
                     Ask a question</a></li> -->
-                <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net" target="_blank">
-                    Discussions</a></li>
+                <!-- <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net" target="_blank">
+                    Discussions</a></li> -->
                 <li id="li-projects"><a href="projects.html">Projects</a></li>
                 <li id="li-faq"><a href="faq.html">Questions</a></li>
                 <!-- <li id="li-contact"><a href="contact.html">Contact</a></li> -->
@@ -78,10 +90,16 @@
             </ul>
             <div id="download-buttons">
                 <ul>
-                    <li><a href="{{ site.framework.download-installer }}">
-                        Download <strong>Installer</strong> <span class="version">{{ site.framework.version }}</span></a></li>
-                    <li><a href="{{ site.framework.download-archive }}">
-                        Download <strong>Archive</strong> <span class="version">{{ site.framework.version }}</span></a></li>
+                    <li>
+                        <a href="{{ site.framework.download-installer }}">
+                            Download <strong>Installer</strong> <span class="version">{{ site.framework.version }}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ site.framework.download-archive }}">
+                            Download <strong>Archive</strong> <span class="version">{{ site.framework.version }}</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="google-plus">
@@ -99,41 +117,47 @@
             </div>
         </nav>
     </div>
-    <!-- 
+    <!--
 
         // Right area: contains the Youtube, LinkedIn and Paypal buttons
         // -------------------------------------------------------------------------------->
     <aside>
         <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
-            <img id="linkedin" class="icons" alt="LinkedIn" src="images/metro/appbar.social.linkedin.color.png" /></a>
+            <img id="linkedin" class="icons" alt="LinkedIn" src="images/metro/appbar.social.linkedin.color.png" />
+        </a>
         <a href="http://www.youtube.com/playlist?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
-            target="_blank">
-            <img id="youtube" class="icons" alt="YouTube" src="images/metro/appbar.youtube.color.png" /></a>
+           target="_blank">
+            <img id="youtube" class="icons" alt="YouTube" src="images/metro/appbar.youtube.color.png" />
+        </a>
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-            target="_blank">
-            <img id="paypal" class="icons" alt="PayPal" src="images/metro/appbar.paypal.color.png" /></a>
+           target="_blank">
+            <img id="paypal" class="icons" alt="PayPal" src="images/metro/appbar.paypal.color.png" />
+        </a>
         <a href="https://github.com/accord-net/framework"
-            target="_blank">
-            <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" /></a>
+           target="_blank">
+            <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" />
+        </a>
     </aside>
-    <!-- 
+    <!--
 
         // Middle area: contains the actual page contents
         // -------------------------------------------------------------------------------->
     <div id="middle">
         <article>
-            {% if content %} 
-                {{ content }}
+            {% if content %}
+            {{ content }}
             {% else %}
             <h1>
-                Title</h1>
+                Title
+            </h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec rutrum libero.
                 Cras ullamcorper erat eget dolor blandit, ut luctus est ullamcorper. Aenean consequat
                 arcu in tortor feugiat, at tristique sem rutrum. Integer feugiat nibh et metus placerat,
                 lacinia condimentum tellus viverra. Suspendisse ut vulputate sapien, non volutpat
                 neque. Pellentesque molestie convallis tincidunt. Mauris quam libero, consectetur
-                a tortor eget, aliquam ornare libero.</p>
+                a tortor eget, aliquam ornare libero.
+            </p>
             <p>
                 Duis sed ultrices orci. Nullam libero diam, vulputate at accumsan in, dignissim
                 nec nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -143,17 +167,21 @@
                 non. Duis a consectetur eros, ac vestibulum magna. Fusce dui neque, eleifend id
                 lacinia euismod, aliquet at lacus. Morbi elementum lacus purus, ut malesuada ipsum
                 tempor sit amet. Phasellus condimentum facilisis massa in adipiscing. Ut commodo
-                ante id lorem venenatis, eu congue neque viverra.</p>
-                <h2>
-                    Subtitle</h2>
+                ante id lorem venenatis, eu congue neque viverra.
+            </p>
+            <h2>
+                Subtitle
+            </h2>
             <p>
                 Curabitur viverra aliquet condimentum. Cras vulputate risus dui. Morbi pellentesque,
                 dolor nec aliquam laoreet, ipsum ante mattis tellus, eget vulputate nisi justo vel
                 massa. In facilisis lorem elit, vitae faucibus dolor volutpat sit amet. Sed vel
                 molestie nisi. Curabitur venenatis libero sed erat mattis, vel egestas augue interdum.
-                Aliquam erat volutpat.</p>
-                <h3>
-                    Sub-subtitle</h3>
+                Aliquam erat volutpat.
+            </p>
+            <h3>
+                Sub-subtitle
+            </h3>
             <p>
                 Aliquam tincidunt leo eget quam aliquet, sit amet tincidunt tellus lacinia. Vivamus
                 eros metus, pharetra vitae vehicula vel, gravida ut elit. Nulla non justo rhoncus,
@@ -162,7 +190,8 @@
                 sapien, sed gravida lectus posuere eu. Fusce eget massa neque. Proin elementum dolor
                 vel purus vestibulum tempus. Vestibulum mattis lacus eu sagittis convallis. Maecenas
                 sit amet nisi orci. Mauris at consectetur urna. Curabitur dui libero, accumsan euismod
-                elementum quis, blandit in est.</p>
+                elementum quis, blandit in est.
+            </p>
             <p>
                 Donec ac elit et purus condimentum convallis. Sed vestibulum porttitor placerat.
                 Quisque ullamcorper at urna quis sollicitudin. Nulla eleifend fringilla quam in
@@ -170,17 +199,19 @@
                 porta, lorem metus varius sapien, vitae tristique tortor sem elementum nunc. Praesent
                 mattis pulvinar eros, eget blandit neque dignissim ut. Nullam eu consectetur elit.
                 Quisque eget augue dolor. Cras cursus, dui eu scelerisque dapibus, orci mauris bibendum
-                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.</p>
+                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.
+            </p>
 
-             <p>
-                 Aliquam tincidunt leo eget quam aliquet, sit amet tincidunt tellus lacinia. Vivamus
-                 eros metus, pharetra vitae vehicula vel, gravida ut elit. Nulla non justo rhoncus,
-                 imperdiet neque ut, lacinia quam. Mauris feugiat molestie metus, nec feugiat turpis
-                 sagittis at. Morbi eget vestibulum enim, vel malesuada augue. Sed tempor gravida
-                 sapien, sed gravida lectus posuere eu. Fusce eget massa neque. Proin elementum dolor
-                 vel purus vestibulum tempus. Vestibulum mattis lacus eu sagittis convallis. Maecenas
-                 sit amet nisi orci. Mauris at consectetur urna. Curabitur dui libero, accumsan euismod
-                 elementum quis, blandit in est.</p>
+            <p>
+                Aliquam tincidunt leo eget quam aliquet, sit amet tincidunt tellus lacinia. Vivamus
+                eros metus, pharetra vitae vehicula vel, gravida ut elit. Nulla non justo rhoncus,
+                imperdiet neque ut, lacinia quam. Mauris feugiat molestie metus, nec feugiat turpis
+                sagittis at. Morbi eget vestibulum enim, vel malesuada augue. Sed tempor gravida
+                sapien, sed gravida lectus posuere eu. Fusce eget massa neque. Proin elementum dolor
+                vel purus vestibulum tempus. Vestibulum mattis lacus eu sagittis convallis. Maecenas
+                sit amet nisi orci. Mauris at consectetur urna. Curabitur dui libero, accumsan euismod
+                elementum quis, blandit in est.
+            </p>
             <p>
                 Donec ac elit et purus condimentum convallis. Sed vestibulum porttitor placerat.
                 Quisque ullamcorper at urna quis sollicitudin. Nulla eleifend fringilla quam in
@@ -188,7 +219,8 @@
                 porta, lorem metus varius sapien, vitae tristique tortor sem elementum nunc. Praesent
                 mattis pulvinar eros, eget blandit neque dignissim ut. Nullam eu consectetur elit.
                 Quisque eget augue dolor. Cras cursus, dui eu scelerisque dapibus, orci mauris bibendum
-                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.</p>
+                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.
+            </p>
 
             <table>
                 <tr>
@@ -224,29 +256,33 @@
                 porta, lorem metus varius sapien, vitae tristique tortor sem elementum nunc. Praesent
                 mattis pulvinar eros, eget blandit neque dignissim ut. Nullam eu consectetur elit.
                 Quisque eget augue dolor. Cras cursus, dui eu scelerisque dapibus, orci mauris bibendum
-                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.</p>
+                nisl, eu porta massa dui non dolor. Fusce aliquet nec nisi ut molestie.
+            </p>
 
             {% endif %}
-            </article>
+        </article>
         {% if page.comments %}
         <div id="comments">
             {% include disqus.html %}
         </div>
         {% endif %}
     </div>
-    <!-- 
+    <!--
 
         // Footer: some debug and version information
         // -------------------------------------------------------------------------------->
     <footer>
         <p>
             This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-                Creative Commons Attribution 3.0 Unported License</a>.</p>
+                Creative Commons Attribution 3.0 Unported License
+            </a>.
+        </p>
         <p>
-            Copyright 2013 &copy; C&eacute;sar Souza. Some rights reserved. Site last generated
-            on {{site.time}}</p>
+            Copyright 2015 &copy; C&eacute;sar Souza. Some rights reserved. Site last generated
+            on {{site.time}}
+        </p>
     </footer>
-    <!-- 
+    <!--
 
         // Hidden area: contains divs which should not be shown in the page
         // -------------------------------------------------------------------------------->
@@ -256,15 +292,17 @@
             <br />
             Consider donating just <strong>US$10</strong>
             <br />
-            so it can get even better!</p>
+            so it can get even better!
+        </p>
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-            rel="nofollow" target="_blank">
+           rel="nofollow" target="_blank">
             <img align="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                width="92" height="26" alt="Donate!" /></a>
+                 width="92" height="26" alt="Donate!" />
+        </a>
         <p>
             This software is completely free and will<br />
             <strong>always stay free</strong>
-        . Enjoy!
+            . Enjoy!
     </div>
 </body>
 

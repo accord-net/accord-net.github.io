@@ -5,434 +5,489 @@ comments: true
 ---
 
 <div id="samples">
-    <h1><a name="#audio">
-        Audio</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip">
-            <h2>
-                Fourier</h2>
-            <img src="images/samples/accord-audio-fourier.png" alt="Spectrometer (Fourier) sample application."
-                style="max-width: 385px;" />
-            <p>
-                A simple audio spectrum analyzer using Fast Fourier Transform (FFT). Can optionally
-                use audio windows (i.e. Hamming) to reduce bin leakage in the spectrum.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-beat-detection.zip">
-            <h2>
-                Beat detection</h2>
-            <img src="images/samples/accord-audio-tempodetector.png" alt="Beat detector sample application."
-                style="max-width: 396px;" />
-            <p>
-                Listens to the default input device and tries to detect peaks in the audio signal.
-                It is a statistics based beat detector in the sense it searches local energy peaks
-                which may contain a beat. Also demonstrates the usage of the Metronome class of
-                the framework, which allows one to detect the current tempo by "tapping" the metronome.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-recorder.zip">
-            <h2>
-                Recorder</h2>
-            <img src="images/samples/accord-audio-recording.png" alt="Wave recording sample application."
-                style="max-width: 370px;" />
-            <p>
-                A simple wave recorder able to capture sound from the microphone and play using
-                the recorded sound using the default audio device.</p>
-        </a>
-    </section>
-    <h1><a name="#imaging">
-        Imaging</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-classification-(bow).zip">
-            <h2>
-                Image classification (BoW)</h2>
-            <img src="images/samples/accord-imaging-classification.png" alt="Image classification application."
-                style="max-width: 370px;" />
-            <p>
-                Shows how to perform image classification using the Bag of Visual Words (BoW) model
-                with SURF features and the Binary Split algorithm.</p>
-            <p>
-                The BoW model is used to transform the many SURF feature points in a image in a
-                single, fixed-length feature vector. The feature vector is then used to train a
-                Support Vector Machine (SVM) using a variety of kernels.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(fast).zip">
-            <h2>
-                Corners detection (FAST)</h2>
-            <img src="images/samples/accord-imaging-fast.png" alt="Corners detection using FAST."
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to perform corners detection using the FAST corners detector. As
-                the name implies, the FAST detector is one of the fastest corners detectors available
-                in the framework.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(harris).zip">
-            <h2>
-                Corners detection (Harris)</h2>
-            <img src="images/samples/accord-imaging-harris.png" alt="Corners detection using Harris' operator."
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to perform corners detection using Harris' operator. The current
-                implementation supports both Harris and Nobel corner measures. Harris can be enabled
-                by ticking the checkbox next to the 'k' parameter, which is only needed for Harris.
-                The Nobel measure does not require setting any parameters.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip">
-            <h2>
-                Corners detection (SURF)</h2>
-            <img src="images/samples/accord-imaging-surf.png" alt="Corners detection using Harris' operator."
-                style="max-width: 370px;" />
-            <p>
-                Shows how to use the Speeded-Up Robust Features (SURF) Detector.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(freak).zip">
-            <h2>
-                Image stitching (FREAK)</h2>
-            <img src="images/samples/accord-imaging-panorama-freak.png" alt="Image stitching with the FREAK feature detector."
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to perform automatic image stitching by interest point matching.
-                The actual stitching uses many parts of the framework, such as the FREAK feature
-                detector, RANSAC, k-nearest neighbor matching, homography estimation and the linear
-                gradient image blending.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(harris).zip">
-            <h2>
-                Image stitching (Harris)</h2>
-            <img src="images/samples/accord-imaging-panorama-harris.png" alt="Image stitching with the Harris corners detector."
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to perform automatic image stitching by interest point matching.
-                The actual stitching uses many parts of the framework, such as the Harris corners
-                detector, RANSAC, correlation matching, homography estimation and the linear gradient
-                image blending.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(surf).zip">
-            <h2>
-                Image stitching (SURF)</h2>
-            <img src="images/samples/accord-imaging-panorama-surf.png" alt="Image stitching with the SURF feature detector."
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to perform automatic image stitching by interest point matching.
-                The actual stitching uses many parts of the framework, such as the SURF feature
-                points detector, RANSAC, k-nearest neighbor matching, homography estimation and
-                the linear gradient image blending.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-wavelets.zip">
-            <h2>
-                Wavelets</h2>
-            <img src="images/samples/accord-imaging-wavelets.png" alt="Wavelet image transformation."
-                style="max-width: 370px;" />
-            <p>
-                The Wavelet sample application shows how to use the Wavelet transform filter to
-                process images using wavelet transforms such as the Haar and CDF9/7.</p>
-        </a>
-    </section>
-    <h1><a name="#machine-learning">
-        Machine Learning</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-handwriting-(svms).zip">
-            <h2>
-                Handwriting (Multi-class SVM)</h2>
-            <img src="images/samples/accord-machinelearning-handwriting-svm.png" alt="Handwriting recognition with SVMs."
-                style="max-width: 370px;" />
-            <p>
-                Handwritten digits recognition by using Multi-class Kernel Support Vector Machines.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-fitting-(ransac).zip">
-            <h2>
-                RANdom SAmple Consensus (RANSAC)</h2>
-            <img src="images/samples/accord-machinelearning-ransac.png" alt="Robust linear regression estimation with RANSAC."
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to use RANSAC to robustly fit a linear regression, avoiding the
-                negative impact of outliers in the regression data.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-classification-(svms).zip">
-            <h2>
-                Classification (Kernel SVM)</h2>
-            <img src="images/samples/accord-machinelearning-classification-svm.png" alt="Classification with SVMs."
-                style="max-width: 370px;" />
-            <p>
-                Data classification using (Kernel) Support Vector Machines.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip">
-            <h2>
-                Classification (Naive Bayes)</h2>
-            <img src="images/samples/accord-machinelearning-classification-nbayes.png" alt="Classification with Naive Bayes."
-                style="max-width: 370px;" />
-            <p>
-                Data classification with the Naive Bayes classifier.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-decision-trees.zip">
-            <h2>
-                Classification (Decision Trees)</h2>
-            <img src="images/samples/accord-machinelearning-classification-trees.png" alt="Classification with Decision Trees."
-                style="max-width: 370px;" />
-            <p>
-                Decision tree learning with ID3 and C4.5 algorithms.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-regression-(svms).zip">
-            <h2>
-                Regression (Kernel SVM)</h2>
-            <img src="images/samples/accord-machinelearning-regression-svm.png" alt="Regression with SVMs."
-                style="max-width: 370px;" />
-            <p>
-                Function regression using (Kernel) Support Vector Machines.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-clustering-(k-means).zip">
-            <h2>
-                Clustering (K-Means and MeanShift)</h2>
-            <img src="images/samples/accord-machinelearning-clustering-meanshift-kmeans.png"
-                alt="Color clustering with K-Means and Meanshift." style="max-width: 370px;" />
-            <p>
-                MeanShift and K-Means for color reduction (color clustering) in digital images.</p>
-        </a><a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-clustering-gmm.zip">
-            <h2>
-                Clustering (Gaussian Mixture Models)</h2>
-            <img src="images/samples/accord-machinelearning-clustering-gmm.png" alt="Point cloud clustering with Gaussian Mixture Models."
-                style="max-width: 370px;" />
-            <p>
-                Multivariate Gaussian mixture distribution fitting using Expectation-Maximization.</p>
-        </a>
-    </section>
-    <h1><a name="#mathematics">
-        Mathematics</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-math-solver-(goldfarb-idnani).zip">
-            <h2>
-                Quadratic Programming (QP) Solver</h2>
-            <img src="images/samples/accord-math-solver-(goldfarb-idnani).png"
-                alt="Quadratic programming with the Goldfarb-Idnani solver." style="max-width: 370px;" />
-            <p>
-                Quadratic Programming (QP) problem solving using the dual method of Goldfarb and
-                Idnani. Translated from the original Fortran code by Berwin A. Turlach.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-math-kinematics.zip">
-            <h2>
-                Denavit-Hartenberg Kinematics</h2>
-            <img src="images/samples/accord-math-kinematics.png"
-                alt="Denavit-Hartenberg forward kinematics sample application." />
-            <p>
-                Demonstrates how to use Denavit-Hartenberg parameters and equations to
-                model kinematic chains.</p>
-        </a>
-    </section>
-    <h1>
-    <h1><a name="#neuro">
-        Neuro</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-neuro-classification-(ann).zip">
-            <h2>
-                Classification (Levenberg-Marquardt)</h2>
-            <iframe width="370" height="315" src="https://www.youtube.com/embed/wHlhmP7nN9o" 
-                frameborder="0" allowfullscreen></iframe>
-            <p>
-                Data classification with Neural Networks using the Levenberg-Marquardt algorithm
-                with and without Bayesian regularization.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-neuro-deep-learning.zip">
-            <h2>
-                Deep Belief Networks and Boltzmann Machines</h2>
-            <iframe width="370" height="315" src="https://www.youtube.com/embed/m7dA86oyJvU" 
-                frameborder="0" allowfullscreen></iframe>
-            <p>
-                How to learn Deep Neural Networks using Restricted Boltzmann Machines and the Contrastive
-                Divergence algorithm. </p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-neuro-levenberg-marquardt.zip">
-            <h2>
-                Levenberg-Marquardt</h2>
-            <img src="images/samples/accord-neuro-levenberg-marquardt.png"
-                alt="Levenberg-Marquardt algorithm for Approximation, Time Series, and the XOR problems."
-                style="max-width: 370px;" />
-            <p>
-                An adaptation of the original AForge.NET Neuro sample applications to work with
-                Levenberg-Marquardt instead of Backpropagation. Includes solutions for approximation,
-                time-series prediction and the exclusive-or (XOR) problem using neural networks
-                trained by Levenberg-Marquardt.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-neuro-resilient-backpropagation.zip">
-            <h2>
-                Resilient Backpropagation (RProp)</h2>
-            <img src="images/samples/accord-neuro-resilient-backpropagation.png"
-                alt="Resilient Backpropagation algorithm for Approximation, Time Series, and the XOR problems."
-                style="max-width: 370px;" />
-            <p>
-                An adaptation of the original AForge.NET Neuro sample applications to work with
-                the parallel Resilient Backpropagation instead of the standard Backpropagation.
-                Includes solutions for approximation, time-series prediction and the exclusive-or
-                (XOR) problem using neural networks trained by RProp.</p>
-        </a>
-    </section>
-    <h1><a name="#statistics">
-        Statistics</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-handwriting-(kda).zip">
-            <h2>
-                Handwriting (KDA)</h2>
-            <img src="images/samples/accord-statistics-handwriting-(kda).png"
-                style="max-width: 370px;" />
-            <p>
-                Handwritten digits recognition by using Non-linear (Multiple) Discriminant Analysis
-                using Kernels (KDA).</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-sequences-(hmm).zip">
-            <h2>
-                Hidden Markov Models</h2>
-            <img src="images/samples/accord-statistics-sequences-(hmm).png"
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to use Hidden Markov Models (HMMs) and Accord.NET Markov Sequence
-                Classifiers to recognize sequences of discrete observations.</p>
-        </a>
-        <a class="sample-app" style="width: 600px;" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-analysis-(kda).zip">
-            <h2>
-                Kernel Discriminant Analysis (KDA)</h2>
-            <iframe width="640" height="480" src="https://www.youtube.com/embed/b0whs4m_F8I" 
-                frameborder="0" allowfullscreen></iframe>
-            <p>
-                Sample application demonstrating how to use Kernel Discriminant Analysis (also known
-                as KDA, or ''Non-linear (Multiple) Discriminant Analysis using Kernels'') to perform
-                non-linear transformation and classification. The sample datasets which can be used
-                in the application are available under the Resources folder in the main directory
-                of the application.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-analysis-(kpca).zip">
-            <h2>
-                Kernel Principal Component Analysis (KPCA)</h2>
-            <img src="images/samples/accord-statistics-analysis-(kpca).png"
-                style="max-width: 370px;" />
-            <p>
-                Sample application demonstrating how to use Kernel Principal Component Analysis
-                (KPCA) to perform non-linear transformations and dimensionality reduction. The sample
-                datasets which can be used in the application are available under the Resources
-                folder in the main directory of the application.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-analysis-(lda).zip">
-            <h2>
-                Linear Discriminant Analysis (LDA)</h2>
-            <img src="images/samples/accord-statistics-analysis-(lda).png"
-                style="max-width: 370px;" />
-            <p>
-                Sample application demonstrating how to use Linear Discriminant Analysis (also known
-                as LDA, or ''Fisher's (Multiple) Linear Discriminant Analysis'') to perform linear
-                transformations and classification. The sample datasets which can be used in the
-                application are available under the Resources folder in the main directory of the
-                application.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-analysis-(pca).zip">
-            <h2>
-                Principal Component Analysis (PCA)</h2>
-            <img src="images/samples/accord-statistics-analysis-(pca).png"
-                style="max-width: 370px;" />
-            <p>
-                Sample application demonstrating how to use Principal Component Analysis (PCA) to
-                perform linear transformations and dimensionality reduction. The sample datasets
-                which can be used in the application are available under the Resources folder in
-                the main directory of the application.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-sound-demixing-(ica).zip">
-            <h2>
-                Independent Component Analysis (ICA)</h2>
-            <img src="images/samples/accord-statistics-sound-demixing-(ica).png"
-                style="max-width: 370px;" />
-            <p>
-                Sample application demonstrating how to use Independent Component Analysis (ICA)
-                to perform blind source separation of audio signals. The audio is processed using
-                the Accord.Audio modules of the framework.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-analysis-(pls).zip">
-            <h2>
-                Partial Least Squares (PLS)</h2>
-            <img src="images/samples/accord-statistics-analysis-(pls).png"
-                style="max-width: 370px;" />
-            <p>
-                Demonstrates how to use Partial Least Squares to fit a (multiple and multivariate)
-                linear regression model from high-dimensionality data.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-regression-(linear-and-logistic).zip">
-            <h2>
-                Linear and Logistic Regression Analysis</h2>
-            <img src="images/samples/accord-statistics-regression-(linear-and-logistic).png"
-                style="max-width: 370px;" />
-            <p>
-                Sample application for creating and fitting Logistic Regression models. Also fits
-                a multiple linear regression model for comparison purposes, and performs chi-square
-                tests and computes Wald's statistics for the logistic regression coefficients.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-performance-(roc).zip">
-            <h2>
-                Receiver Operating Characteristic (ROC) Curves</h2>
-            <img src="images/samples/accord-statistics-performance-(roc).png"
-                style="max-width: 370px;" />
-            <p>
-                Sample application demonstrating how to create and visualize Receiver-Operating
-                Characteristic Curves from a given set of results from a test or a classification
-                process.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-survival-(cox).zip">
-            <h2>
-                Cox's Proportional Hazards</h2>
-            <img src="images/samples/accord-statistics-survival-(cox).png"
-                style="max-width: 370px;" />
-            <p>
-                How to perform survival analysis using Cox's Proportional Hazards model for both
-                regression and prediction of time-censured data.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-gestures-(hmms).zip">
-            <h2>
-                Mouse Gesture Recognition</h2>
-            <iframe width="640" height="480" src="https://www.youtube.com/embed/jn6rjAf3HeQ" frameborder="0"
-                allowfullscreen></iframe>
-            <p>
-                Learning and recognition of mouse gestures using hidden Markov model-based classifiers
-                and Hidden Conditional Random Fields. Showcased in a series of CodeProject articles under
-                the name <i>Sequence Classifiers in C#</i>.</p>
-        </a>
-    </section>
-    <h1><a name="#vision">
-        Vision</a></h1>
-    <section>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-vision-face-detection-(viola-jones).zip">
-            <h2>
-                Face Detection (Haar object detector)</h2>
-            <img src="images/samples/accord-vision-face-detection-(viola-jones).png"
-                style="max-width: 370px;" />
-            <p>
-                Face detection using the Face detection based in Haar-like rectangular features
-                method often known as the Viola-Jones method.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-vision-face-tracking-(camshift).zip">
-            <h2>
-                Face Tracking (Camshift</h2>
-            <img src="images/samples/accord-vision-face-tracking-(camshift).png"
-                style="max-width: 370px;" />
-            <p>
-                Face (or object) tracking using Viola-Jones for face detection and Camshift as the
-                object tracker. Can be used in RGB and HSL color spaces (may require some tuning
-                for HSL).</p>
-        </a>
-        <a class="sample-app" style="width: 600px" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-vision-controller-(interface-control).zip">
-            <h2>
-                Head-based Controller</h2>
-            <iframe width="640" height="480" src="https://www.youtube.com/embed/tqAfqJsW2Wo" frameborder="0"
-                allowfullscreen></iframe>
-            <p>
-                Sample application demonstrating how to use the Accord.Vision.Controls.Controller
-                component to provide joystick-like controls for a Windows Form application. Its
-                component design makes adding support for head-based controlling as easy as dragging
-                and dropping a component into a Form.</p>
-        </a>
-        <a class="sample-app" href="http://dl.dropbox.com/u/32601472/accord/samples/accord-vision-gloves-(color-tracking).zip">
-            <h2>
-                Color glove segmentation and tracking</h2>
-            <p>
-                How to segment and track color objects using a simple and inexpensive HSL-based
-                color tracker.</p>
-        </a>
-    </section>
-    <h1><a name="#video">
-        Video</a></h1>
-    <section>
-        <a class="sample-app" href="http://screencast-capture.googlecode.com">
-            <h2>
-                Screencast Capture Lite</h2>
-            <iframe width="640" height="480" src="https://www.youtube.com/embed/nZp0ngXb_Ro" frameborder="0"
-                allowfullscreen></iframe>
-            <p>
-                Screencast Capture Lite is a tool for recording the desktop screen and saving it
-                to a video file, preserving quality as much as possible. It is a real application,
-                and also a demonstration of the use of the AForge.NET and Accord.NET Frameworks
-                to build multimedia applications, capturing video and audio streams from different
-                sources.
-            </p>
-        </a>
-    </section>
+
+
+    <ul class="filter nav nav-pills">
+        <li data-value="all"><a href="#">All</a></li>
+        <!-- BEGIN CATEGORIES -->
+            <li data-value="audio"><a href="#">Audio</a></li>
+            <li data-value="imaging"><a href="#">Imaging</a></li>
+            <li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+            <li data-value="statistics"><a href="#">Statistics</a></li>
+<!-- END CATEGORIES -->
+    </ul>
+
+    <hr>
+
+    <ul class="thumbnails">
+        <!-- BEGIN THUMBNAILS -->
+
+            <li data-type="audio" data-id="id-0" class="sample-app">
+              <a href="#" id="thumb-0"><h2>Audio beat detector</h2><img src="https://camo.githubusercontent.com/7db35b7f446233dc49453f800713419f75833a46/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d617564696f2d74656d706f6465746563746f722e706e67" alt="Audio beat detector"></a>
+            </li>
+
+            <li data-type="audio" data-id="id-1" class="sample-app">
+              <a href="#" id="thumb-1"><h2>Spectrum analyzer (Fourier)</h2><img src="https://camo.githubusercontent.com/af6ec77a807dee3352de6d404b5720a42b52f4a6/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d617564696f2d666f75726965722e706e67" alt="Spectrum analyzer (Fourier)"></a>
+            </li>
+
+            <li data-type="audio" data-id="id-2" class="sample-app">
+              <a href="#" id="thumb-2"><h2>Wave Recorder</h2><img src="https://camo.githubusercontent.com/c622efbb2ad73bba7084209fda162e6e89c032a2/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d617564696f2d7265636f7264696e672e706e67" alt="Wave Recorder"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-3" class="sample-app">
+              <a href="#" id="thumb-3"><h2>Classification (Bag-of-Words and SVM)</h2><img src="https://camo.githubusercontent.com/4f6a0ec344b35c69f6f565479cfda3f2acee989d/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d636c617373696669636174696f6e2e706e67" alt="Classification (Bag-of-Words and SVM)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-4" class="sample-app">
+              <a href="#" id="thumb-4"><h2>Corners detection (FAST)</h2><img src="https://camo.githubusercontent.com/29f2a61a53089916211f52c70f3d44f82a71c4e1/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d666173742e706e67" alt="Corners detection (FAST)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-5" class="sample-app">
+              <a href="#" id="thumb-5"><h2>Corners detection (Harris)</h2><img src="https://camo.githubusercontent.com/920975495009fba4f9e18db8b64d012b6aa99844/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d6861727269732e706e67" alt="Corners detection (Harris)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-6" class="sample-app">
+              <a href="#" id="thumb-6"><h2>Corners detection (SURF)</h2><img src="https://camo.githubusercontent.com/556d6010123ba7c627328cf537bd213ef95ba0fc/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d737572662e706e67" alt="Corners detection (SURF)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-7" class="sample-app">
+              <a href="#" id="thumb-7"><h2>Image stitching (FREAK)</h2><img src="https://camo.githubusercontent.com/e7dc85e4865af86ccf0463305eee0bb10022acc7/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d70616e6f72616d612d667265616b2e706e67" alt="Image stitching (FREAK)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-8" class="sample-app">
+              <a href="#" id="thumb-8"><h2>Image stitching (Harris)</h2><img src="https://camo.githubusercontent.com/7dbd9533ca0eb95bba248cdfd2584fe9210ce406/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d70616e6f72616d612d6861727269732e706e67" alt="Image stitching (Harris)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-9" class="sample-app">
+              <a href="#" id="thumb-9"><h2>Image stitching (SURF)</h2><img src="https://camo.githubusercontent.com/48d7480845d3e64641e858a0bc2d81b0b63e9bd8/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d70616e6f72616d612d737572662e706e67" alt="Image stitching (SURF)"></a>
+            </li>
+
+            <li data-type="imaging" data-id="id-10" class="sample-app">
+              <a href="#" id="thumb-10"><h2>Wavelets</h2><img src="https://camo.githubusercontent.com/6437a6e36f4db44276e3ba5503bb684263deaa35/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d776176656c6574732e706e67" alt="Wavelets"></a>
+            </li>
+
+            <li data-type="machine-learning" data-id="id-11" class="sample-app">
+              <a href="#" id="thumb-11"><h2>Handwriting (Multi-class SVM)</h2><img src="accord-machinelearning-handwriting-svm.png" alt="Handwriting (Multi-class SVM)"></a>
+            </li>
+
+            <li data-type="machine-learning" data-id="id-12" class="sample-app">
+              <a href="#" id="thumb-12"><h2>Classification (Kernel SVMs)</h2><img src="https://camo.githubusercontent.com/1d4ab08d3cc232cd0c4c90de0b67832c124b2af0/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d6d616368696e656c6561726e696e672d636c617373696669636174696f6e2d73766d2e706e67" alt="Classification (Kernel SVMs)"></a>
+            </li>
+
+            <li data-type="machine-learning" data-id="id-13" class="sample-app">
+              <a href="#" id="thumb-13"><h2>Classification (Naive Bayes)</h2><img src="https://camo.githubusercontent.com/fff00e1c8c45b924f24e5598aadf7f6e0e21af9f/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d6d616368696e656c6561726e696e672d636c617373696669636174696f6e2d6e62617965732e706e67" alt="Classification (Naive Bayes)"></a>
+            </li>
+
+            <li data-type="machine-learning" data-id="id-14" class="sample-app">
+              <a href="#" id="thumb-14"><h2>Classification (Naive Bayes)</h2><img src="https://camo.githubusercontent.com/fff00e1c8c45b924f24e5598aadf7f6e0e21af9f/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d6d616368696e656c6561726e696e672d636c617373696669636174696f6e2d6e62617965732e706e67" alt="Classification (Naive Bayes)"></a>
+            </li>
+
+            <li data-type="statistics" data-id="id-15" class="sample-app">
+              <a href="#" id="thumb-15"><h2>Handwriting recognition (KDA)</h2><img src="https://camo.githubusercontent.com/c90354cc0026e150c49465bb5eecd6e371fe6b41/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d737461746973746963732d68616e6477726974696e672d6b64612e706e67" alt="Handwriting recognition (KDA)"></a>
+            </li>
+<!-- END THUMBNAILS -->
+    </ul>
+
+    <!-- BEGIN TEXT -->
+            <div id="text-0" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Audio/Beat%20detection">source code</a>
+</li>
+</ul>
+
+<p>A simple beat detector that listens to an input device and tries to detect peaks in the audio signal. It is a statistics-based beat detector in the sense it searches local energy peaks which may contain a beat.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip"><img src="https://camo.githubusercontent.com/7db35b7f446233dc49453f800713419f75833a46/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d617564696f2d74656d706f6465746563746f722e706e67" alt="Audio beat detector and metronome sample application" data-canonical-src="http://accord-framework.net/images/samples/accord-audio-tempodetector.png"></a><br><sub>Audio beat detector and metronome.</sub></p>
+
 </div>
+            <div id="text-1" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Audio/Fourier%20(FFT)">source code</a>
+</li>
+</ul>
+
+<p>The Fourier sample application shows how to capture sounds from a capture device (such as a microphone jack) using the Accord.NET Framework. The signal can be analyzed, processed and transformed using the framework's Fourier and Hilbert transform functions.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip"><img src="https://camo.githubusercontent.com/af6ec77a807dee3352de6d404b5720a42b52f4a6/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d617564696f2d666f75726965722e706e67" alt="Fourier spectrum analyzer sample application" data-canonical-src="http://accord-framework.net/images/samples/accord-audio-fourier.png"></a><br><sub>Fourier spectrum analyzer sample application</sub></p>
+
+</div>
+            <div id="text-2" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-recording.zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Audio/Recorder">source code</a>
+</li>
+</ul>
+
+<p>The Wave Recorder sample application demonstrates how to use the <a href="http://accord-framework.net/docs/html/T_Accord_Audio_IAudioOutput.htm">IAudioOutput</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Audio_IAudioSource.htm">IAudioSource</a> interfaces to capture and output sound. This is just a sample application, however. The intent of the framework is not to allow building of audio players, but to support the use of audio signals in machine learning and statistics experiments.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-recorder.zip"><img src="https://camo.githubusercontent.com/c622efbb2ad73bba7084209fda162e6e89c032a2/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d617564696f2d7265636f7264696e672e706e67" alt="Wave recorder sample application" data-canonical-src="http://accord-framework.net/images/samples/accord-audio-recording.png"></a><br><sub>Wave recorder sample application.</sub></p>
+
+</div>
+            <div id="text-3" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-classification-(bow).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/MachineLearning/Clustering%20(K-Means)">source code</a>
+</li>
+</ul>
+
+<p>Shows how to perform image classification using the <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_BagOfVisualWords.htm">Bag-of-Visual-Words (BoW)</a> model
+with <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_SpeededUpRobustFeaturesDetector.htm">SURF features</a> and the <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_BinarySplit.htm">Binary Split algorithm</a>.</p>
+
+<p>The BoW model is used to transform the many SURF feature points in a image in a single, fixed-length feature vector. The feature vector is then used to train <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine.htm">Support Vector Machines (SVMs)</a> using a <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Kernels.htm">variety of kernels</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-classification-(bow).zip"><img src="https://camo.githubusercontent.com/4f6a0ec344b35c69f6f565479cfda3f2acee989d/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d636c617373696669636174696f6e2e706e67" alt="Image classification sample application" data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-classification.png"></a><br><sub>Image classification sample application.</sub></p>
+
+</div>
+            <div id="text-4" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(fast).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Corners%20(FAST)">source code</a>
+</li>
+</ul>
+
+<p>The FAST sample application demonstrates how to perform corners detection using the [http://accord-framework-net/docs/html/T_Accord_Imaging_FastCornersDetector.htm FAST corners detector]. As the name implies, the FAST  detector is one of the fastest corners detectors available.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(fast).zip"><img src="https://camo.githubusercontent.com/29f2a61a53089916211f52c70f3d44f82a71c4e1/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d666173742e706e67" alt="Corner point detection with the FAST algorithm" data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-fast.png"></a><br><sub>Corner point detection with the FAST algorithm.</sub></p>
+
+<p>The current code is based on the excellent <a href="http://www.edwardrosten.com/work/fast.html">Edward Rosten's implementation</a>, and is dual licensed under the <a href="http://en.wikipedia.org/wiki/BSD_licenses">permissive BSD license</a>.</p>
+
+</div>
+            <div id="text-5" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(harris).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Corners%20(Harris)">source code</a>
+</li>
+</ul>
+
+<p>The Harris sample application demonstrates how to perform corners detection using the <a href="http://crsouza.blogspot.com/2010/05/harris-corners-detector-in-c.html">Harris algorithm</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(harris).zip"><img src="https://camo.githubusercontent.com/920975495009fba4f9e18db8b64d012b6aa99844/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d6861727269732e706e67" alt="Corner point detection with the Harris algorithm" data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-harris.png"></a><br><sub>Corner point detection with the Harris algorithm.</sub></p>
+
+<p>The current implementation supports both <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_HarrisCornerMeasure.htm">Harris and Nobel corner measures</a>. Harris can be enabled by checking the checkbox next to the ''k'' parameter, which is only needed for Harris. The Nobel measure does not require setting any parameters.</p>
+
+<p>A suitable choice for the threshold parameter when using Harris measure may range around 10,000 to 30,000, while when using Nobel it may range around 20 to 100. Best sigma values are usually higher than 0.3 and lesser than 5.0.</p>
+
+</div>
+            <div id="text-6" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Corners%20(SURF)">source code</a>
+</li>
+</ul>
+
+<p>The SURF sample application shows how to use the <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_SpeededUpRobustFeaturesDetector.htm">Speeded-Up Robust Features (SURF) Detector</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip"><img src="https://camo.githubusercontent.com/556d6010123ba7c627328cf537bd213ef95ba0fc/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d737572662e706e67" alt="Interest point detection with the SURF algorithm" data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-surf.png"></a><br><sub>Interest point detection and description with the SURF algorithm.</sub></p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip"><img src="https://camo.githubusercontent.com/d10f2e6fdc442593a4b986351565f0b621cf8a4e/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d737572662d666c6f7765722e706e67" alt="SURF features computed on each image" data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-surf-flower.png"></a><br><sub>SURF features computed on each image.</sub></p>
+
+<p>The current implementation is based on the excellent <a href="http://www.chrisevansdev.com/computer-vision-opensurf.html">OpenSURF library</a> by Christopher Evans. The framework version, however, comes with further performance optimizations.</p>
+
+</div>
+            <div id="text-7" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(freak).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Panorama%20(FREAK)">source code</a>
+</li>
+</ul>
+
+<p>Demonstrates how to perform automatic image stitching by interest point matching. The actual stitching uses many parts of the framework, such as the <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_FastRetinaKeypointDetector.htm">FREAK feature detector</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm">RANSAC</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_KNearestNeighborMatching.htm">k-nearest neighbor matching</a>, homography estimation and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_Blend.htm">linear gradient image blending</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(freak).zip"><img src="https://camo.githubusercontent.com/e7dc85e4865af86ccf0463305eee0bb10022acc7/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d70616e6f72616d612d667265616b2e706e67" alt="Image stitching using the FREAK feature detection and extraction algorithm." data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-panorama-freak.png"></a><br><sub>Image stitching using the FREAK feature detection and extraction algorithm.</sub></p>
+
+</div>
+            <div id="text-8" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(harris).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Panorama%20(Harris)">source code</a>
+</li>
+</ul>
+
+<p>Demonstrates how to perform automatic image stitching by interest point matching. The actual stitching uses many parts of the framework, such as the <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_HarrisCornersDetector.htm">Harris corners detector</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm">RANSAC</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_CorrelationMatching.htm">correlation window matching</a>, homography estimation and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_Blend.htm">linear gradient image blending</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(harris).zip"><img src="https://camo.githubusercontent.com/7dbd9533ca0eb95bba248cdfd2584fe9210ce406/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d70616e6f72616d612d6861727269732e706e67" alt="Image stitching using Harris corners detection and correlation matching." data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-panorama-harris.png"></a><br><sub>Image stitching using Harris corners detection and correlation matching.</sub></p>
+
+<p>For more details about the method, please be sure to read the accompanying article on how to perform <a href="http://www.codeproject.com/Articles/95453/Automatic-Image-Stitching-with-Accord-NET">automatic image stitching by interest point matching in C#</a>.</p>
+
+</div>
+            <div id="text-9" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(surf).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Panorama%20(SURF)">source code</a>
+</li>
+</ul>
+
+<p>Demonstrates how to perform automatic image stitching by interest point matching. The actual stitching uses many parts of the framework, such as the <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_SpeededUpRobustFeaturesDetector.htm">SURF feature detector</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm">RANSAC</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_KNearestNeighborMatching.htm">k-nearest neighbor matching</a>, homography estimation and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_Blend.htm">linear gradient image blending</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(surf).zip"><img src="https://camo.githubusercontent.com/48d7480845d3e64641e858a0bc2d81b0b63e9bd8/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d70616e6f72616d612d737572662e706e67" alt="Image stitching using SURF features and k-nearest neighbor matching." data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-panorama-surf.png"></a><br><sub>Image stitching using SURF features and k-nearest neighbor matching.</sub></p>
+
+</div>
+            <div id="text-10" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-wavelets.zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Imaging/Wavelets">source code</a>
+</li>
+</ul>
+
+<p>The Wavelet sample application shows how to use the <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_WaveletTransform.htm">Wavelet transform filter</a> to process images using <a href="http://accord-framework.net/docs/html/N_Accord_Math_Wavelets.htm">wavelet transforms</a> such as the <a href="http://accord-framework.net/docs/html/T_Accord_Math_Wavelets_Haar.htm">Haar</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Math_Wavelets_CDF97.htm">CDF9/7</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-wavelets.zip"><img src="https://camo.githubusercontent.com/6437a6e36f4db44276e3ba5503bb684263deaa35/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d696d6167696e672d776176656c6574732e706e67" alt="Wavelets sample application." data-canonical-src="http://accord-framework.net/images/samples/accord-imaging-wavelets.png"></a><br><sub>Wavelets sample application.</sub></p>
+
+</div>
+            <div id="text-11" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-handwriting-(svms).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/MachineLearning/Handwriting%20(K-Means)">source code</a>
+</li>
+</ul>
+
+<p>This sample application shows how to teach <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine.htm">Multi-class Support Vector Machines</a> using <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">Sequential Minimal Optimization</a> to recognize handwritten digits from the UCI's Optdigits dataset.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-handwriting-(svms).zip"><img src="accord-machinelearning-handwriting-svm.png" alt="Handwritten digits recognition with SVMs"></a><br><sub>Handwritten digits recognition with SVMs.</sub></p>
+
+</div>
+            <div id="text-12" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-classification-(svms).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/MachineLearning/Classification%20(SVMs)">source code</a>
+</li>
+</ul>
+
+<p>This sample application shows how to use <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_KernelSupportVectorMachine.htm">Kernel Support Vector Machines (kSVMs)</a> to solve a classification problem. The sample application comes with default sample data with can be loaded in the File -&gt; Open menu.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-classification-(svms).zip"><img src="https://camo.githubusercontent.com/1d4ab08d3cc232cd0c4c90de0b67832c124b2af0/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d6d616368696e656c6561726e696e672d636c617373696669636174696f6e2d73766d2e706e67" alt="Data classification with SVMs" data-canonical-src="http://accord-framework.net/images/samples/accord-machinelearning-classification-svm.png"></a><br><sub>Data classification with SVMs.</sub></p>
+
+<p>After a sample data has been loaded, one can configure the settings and create a learning machine in the second tab. The picture below shows the decision surface for the Ying-Yang classification data generated by an heuristically initialized Gaussian-kernel SVM after it has been trained using Sequential Minimal Optimization (SMO). The framework offers an extensive list of kernel functions to choose from.</p>
+
+</div>
+            <div id="text-13" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/MachineLearning/Naive%20Bayes">source code</a>
+</li>
+</ul>
+
+<p>This application shows how to use <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_Bayes_NaiveBayes.htm">Naive Bayes</a> for binary classification tasks.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip"><img src="https://camo.githubusercontent.com/fff00e1c8c45b924f24e5598aadf7f6e0e21af9f/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d6d616368696e656c6561726e696e672d636c617373696669636174696f6e2d6e62617965732e706e67" alt="Data classification with SVMs" data-canonical-src="http://accord-framework.net/images/samples/accord-machinelearning-classification-nbayes.png"></a><br><sub>Data classification with Naive Bayes.</sub></p>
+
+</div>
+            <div id="text-14" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/MachineLearning/Naive%20Bayes">source code</a>
+</li>
+</ul>
+
+<p>This application shows how to use <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_Bayes_NaiveBayes.htm">Naive Bayes</a> for binary classification tasks.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip"><img src="https://camo.githubusercontent.com/fff00e1c8c45b924f24e5598aadf7f6e0e21af9f/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d6d616368696e656c6561726e696e672d636c617373696669636174696f6e2d6e62617965732e706e67" alt="Data classification with SVMs" data-canonical-src="http://accord-framework.net/images/samples/accord-machinelearning-classification-nbayes.png"></a><br><sub>Data classification with Naive Bayes.</sub></p>
+
+</div>
+            <div id="text-15" class="hidden">
+
+<ul class="task-list">
+<li>Download the <a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-handwriting-(kda).zip">application</a>
+</li>
+<li>Browse the <a href="https://github.com/accord-net/framework/tree/development/Samples/Statistics/Handwriting%20(KDA)">source code</a>
+</li>
+</ul>
+
+<p>This sample application shows how to perform handwritten digit recognition using <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Analysis_KernelDiscriminantAnalysis.htm">Kernel Discriminant Analysis</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Analysis_LinearDiscriminantAnalysis.htm">Linear Discriminant Analysis</a>.</p>
+
+<p><a href="http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-handwriting-(kda).zip"><img src="https://camo.githubusercontent.com/c90354cc0026e150c49465bb5eecd6e371fe6b41/687474703a2f2f6163636f72642d6672616d65776f726b2e6e65742f696d616765732f73616d706c65732f6163636f72642d737461746973746963732d68616e6477726974696e672d6b64612e706e67" alt="Recognition of handwritten digits with KDA" data-canonical-src="http://accord-framework.net/images/samples/accord-statistics-handwriting-kda.png"></a></p>
+
+<p><sub>Handwritten digits with KDA sample application</sub></p>
+
+    </div>
+<!-- END TEXT -->
+</div>
+
+<script>
+    function gallery() {
+        // BEGIN JAVASCRIPT
+
+            $('#thumb-0').off().on('click', function () {
+                var content = $('#text-0').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Audio beat detector', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip'); }
+                    }});
+            });
+
+            $('#thumb-1').off().on('click', function () {
+                var content = $('#text-1').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Spectrum analyzer (Fourier)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-fourier-(fft).zip'); }
+                    }});
+            });
+
+            $('#thumb-2').off().on('click', function () {
+                var content = $('#text-2').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Wave Recorder', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-audio-recording.zip'); }
+                    }});
+            });
+
+            $('#thumb-3').off().on('click', function () {
+                var content = $('#text-3').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Classification (Bag-of-Words and SVM)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-classification-(bow).zip'); }
+                    }});
+            });
+
+            $('#thumb-4').off().on('click', function () {
+                var content = $('#text-4').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Corners detection (FAST)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(fast).zip'); }
+                    }});
+            });
+
+            $('#thumb-5').off().on('click', function () {
+                var content = $('#text-5').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Corners detection (Harris)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(harris).zip'); }
+                    }});
+            });
+
+            $('#thumb-6').off().on('click', function () {
+                var content = $('#text-6').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Corners detection (SURF)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-corners-(surf).zip'); }
+                    }});
+            });
+
+            $('#thumb-7').off().on('click', function () {
+                var content = $('#text-7').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Image stitching (FREAK)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(freak).zip'); }
+                    }});
+            });
+
+            $('#thumb-8').off().on('click', function () {
+                var content = $('#text-8').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Image stitching (Harris)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(harris).zip'); }
+                    }});
+            });
+
+            $('#thumb-9').off().on('click', function () {
+                var content = $('#text-9').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Image stitching (SURF)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-panorama-(surf).zip'); }
+                    }});
+            });
+
+            $('#thumb-10').off().on('click', function () {
+                var content = $('#text-10').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Wavelets', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-imaging-wavelets.zip'); }
+                    }});
+            });
+
+            $('#thumb-11').off().on('click', function () {
+                var content = $('#text-11').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Handwriting (Multi-class SVM)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-handwriting-(svms).zip'); }
+                    }});
+            });
+
+            $('#thumb-12').off().on('click', function () {
+                var content = $('#text-12').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Classification (Kernel SVMs)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-classification-(svms).zip'); }
+                    }});
+            });
+
+            $('#thumb-13').off().on('click', function () {
+                var content = $('#text-13').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Classification (Naive Bayes)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip'); }
+                    }});
+            });
+
+            $('#thumb-14').off().on('click', function () {
+                var content = $('#text-14').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Classification (Naive Bayes)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-machinelearning-naive-bayes.zip'); }
+                    }});
+            });
+
+            $('#thumb-15').off().on('click', function () {
+                var content = $('#text-15').clone(false);
+                $(content).removeClass('hidden');
+                bootbox.dialog({ message: content, title: 'Handwriting recognition (KDA)', buttons: {
+                        "Download": function() { window.location.assign('http://dl.dropbox.com/u/32601472/accord/samples/accord-statistics-handwriting-(kda).zip'); }
+                    }});
+            });
+// END JAVASCRIPT
+    }
+
+    var $itemsHolder = $('ul.thumbnails');
+    var $itemsClone = $itemsHolder.clone();
+    var $filterClass = "";
+    $('ul.filter li').click(function (e) {
+        e.preventDefault();
+        $filterClass = $(this).attr('data-value');
+        if ($filterClass == 'all') { var $filters = $itemsClone.find('li'); }
+        else { var $filters = $itemsClone.find('li[data-type=' + $filterClass + ']'); }
+        $itemsHolder.quicksand(
+          $filters,
+          { duration: 1000 },
+          gallery
+          );
+    });
+
+    window.onresize = function(event) {
+        $itemsHolder.removeAttr('style');
+    };
+
+    $(document).ready(gallery);
+</script>
+

@@ -1,28 +1,25 @@
----
-title: "Accord.NET Machine Learning Framework"
----
-
-<!doctype html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Accord.NET Machine Learning Framework</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Accord.NET is a .NET machine learning framework combined with audio and image processing libraries completely written in C# ready to be used in commercial applications.">
     <meta property="og:image" content="http://accord-framework.net/images/accord-logo.png" />
     <meta property="og:url" content="http://accord-framework.net/" />
     <meta property="og:title" content="Accord.NET Machine Learning Framework" />
     <meta property="og:description" content="Accord.NET is a .NET machine learning framework combined with audio and image processing libraries completely written in C# ready to be used in commercial applications.">
+    <title>Accord.NET Machine Learning Framework</title>
     <link rel="author" href="https://plus.google.com/+cesarrsouza/" />
     <link rel="image_src" type="image/png" href="images/accord-logo.png" />
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="stylesheets/common.css" />
-    <link rel="stylesheet" href="stylesheets/index.css" />
-    <link rel="Stylesheet" href="stylesheets/jquery.powertip.css" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.vibrate.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.powertip.js"></script>
+    <link rel="Stylesheet" href="content/jquery.powertip.css" />
+    <link rel="stylesheet" href="content/common.css" />
+    <link rel="stylesheet" href="content/index.css" />
+    <script type="text/javascript" src="scripts/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="scripts/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="scripts/jquery.vibrate.js"></script>
+    <script type="text/javascript" src="scripts/jquery.powertip.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -48,32 +45,34 @@ title: "Accord.NET Machine Learning Framework"
         });
 
         paypal.data('powertip', $('#paypal-tooltip').html());
-        paypal.powerTip({ placement: 'w', mouseOnToPopup: true});
+        paypal.powerTip({ placement: 'w', mouseOnToPopup: true });
 
-        paypal.mouseover(function() {
+        paypal.mouseover(function () {
             paypal.stopVibrate();
         });
 
-        setTimeout(function() { $.powerTip.show(paypal); },  2000);
+        setTimeout(function () { $.powerTip.show(paypal); }, 2000);
 
-        $(window).scroll(function() {
-           setTimeout(function() { $.powerTip.hide(paypal); }, 2000);  });
+        $(window).scroll(function () {
+            setTimeout(function () { $.powerTip.hide(paypal); }, 2000);
+        });
     });
 
-    
- 
+
+
 </script>
 <body>
     <!-- Begin Facebook Javascript SDK -->
     <div id="fb-root">
     </div>
-    <script>        (function (d, s, id) {
+    <script>
+        (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
             fjs.parentNode.insertBefore(js, fjs);
-        } (document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));</script>
     <!-- End Facebook Javascript SDK -->
     <div id="content-wrapper">
         <header>
@@ -81,20 +80,25 @@ title: "Accord.NET Machine Learning Framework"
             </div>
             <div id="right-buttons">
                 <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
-                    <img id="linkedin" class="icons" src="images/metro/appbar.social.linkedin.color.png" /></a>
+                    <img id="linkedin" class="icons" src="images/metro/appbar.social.linkedin.color.png" />
+                </a>
                 <a href="http://www.youtube.com/playlist?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
-                    target="_blank">
-                    <img id="youtube" class="icons" src="images/metro/appbar.youtube.color.png" /></a>
+                   target="_blank">
+                    <img id="youtube" class="icons" src="images/metro/appbar.youtube.color.png" />
+                </a>
                 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-                    target="_blank">
-                    <img id="paypal" class="icons" src="images/metro/appbar.paypal.color.png" /></a>
+                   target="_blank">
+                    <img id="paypal" class="icons" src="images/metro/appbar.paypal.color.png" />
+                </a>
                 <a href="https://github.com/accord-net/framework" target="_blank">
-                    <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" /></a>
+                    <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" />
+                </a>
             </div>
             <a id="accord-logo" href="intro.html">
                 <img src="images/accord-logo.png" alt="Machine Learning .NET" />
                 <p>
-                    {{ site.framework.version }}</p>
+                    {{ site.framework.version }}
+                </p>
             </a>
             <div id="download-buttons">
                 <ul>
@@ -109,7 +113,8 @@ title: "Accord.NET Machine Learning Framework"
         <section>
             <div class="section-title">
                 <h1>
-                    <a href="intro.html">Machine learning made <strong>in a minute</strong></a></h1>
+                    <a href="intro.html">Machine learning made <strong>in a minute</strong></a>
+                </h1>
                 <p>
                     The <strong>Accord.NET Framework</strong> is a .NET machine learning framework combined
                     with audio and image processing libraries completely written in C#. It is a complete
@@ -118,255 +123,401 @@ title: "Accord.NET Machine Learning Framework"
                     A comprehensive set of <a href="http://accord-framework.net/samples.html">sample applications</a>
                     provide a fast start to get up and running quickly, and an extensive documentation and
                     <a href="https://github.com/accord-net/framework/wiki">wiki</a> helps fill in
-                    the details.</p>
+                    the details.
+                </p>
             </div>
             <div class="section-content">
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Classification">
-                    <img src="images/samples/accord-statistics-analysis-(kda).png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Classification">
+                        <img src="images/samples/accord-statistics-analysis-(kda).png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Classification">Classification</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Classification">Classification</a>.
+                    </h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/N_Accord_MachineLearning_VectorMachines.htm">
-                            Support Vector Machines</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_LogisticRegression.htm">
-                                Logistic Regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">
-                                    Decision Trees</a>, <a href="http://accord-framework.net/docs/html/N_Accord_Neuro.htm">
-                                        Neural Networks</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_DeepBeliefNetwork.htm">
-                                            Deep Learning (Deep Neural Networks)</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Learning_LevenbergMarquardtLearning.htm">
-                                                Levenberg-Marquardt with Bayesian Regularization</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_RestrictedBoltzmannMachine.htm">
-                                                    Restricted Boltzmann Machines</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm">
-                                                        Sequence classification</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier.htm">
-                                                            Hidden Markov Classifiers</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Fields_HiddenConditionalRandomField_1.htm">
-                                                                Hidden Conditional Random Fields</a>.
+                            Support Vector Machines
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_LogisticRegression.htm">
+                            Logistic Regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">
+                            Decision Trees
+                        </a>, <a href="http://accord-framework.net/docs/html/N_Accord_Neuro.htm">
+                            Neural Networks
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_DeepBeliefNetwork.htm">
+                            Deep Learning (Deep Neural Networks)
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Learning_LevenbergMarquardtLearning.htm">
+                            Levenberg-Marquardt with Bayesian Regularization
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_RestrictedBoltzmannMachine.htm">
+                            Restricted Boltzmann Machines
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm">
+                            Sequence classification
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier.htm">
+                            Hidden Markov Classifiers
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Fields_HiddenConditionalRandomField_1.htm">
+                            Hidden Conditional Random Fields
+                        </a>.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Regression">
-                    <img src="images/samples/accord-machinelearning-regression-svm.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Regression">
+                        <img src="images/samples/accord-machinelearning-regression-svm.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Regression">Regression</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Regression">Regression</a>.
+                    </h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression.htm">
-                            Multiple linear regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression.htm">
-                                Multivariate linear regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_PolynomialRegression.htm">
-                                    polynomial regression</a>, logarithmic regression. <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_LogisticRegression.htm">
-                                        Logistic regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_MultinomialLogisticRegression.htm">
-                                            multinomial logistic regression (softmax)</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_GeneralizedLinearRegression.htm">
-                                                generalized linear models</a>. <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticNewtonMethod.htm">
-                                                    L2-regularized L2-loss logistic regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent.htm">
-                                                        L2-regularized logistic regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticCoordinateDescent.htm">
-                                                            L1-regularized logistic regression</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent.htm">
-                                                                L2-regularized logistic regression in the dual form</a>
+                            Multiple linear regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression.htm">
+                            Multivariate linear regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_Linear_PolynomialRegression.htm">
+                            polynomial regression
+                        </a>, logarithmic regression. <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_LogisticRegression.htm">
+                            Logistic regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_MultinomialLogisticRegression.htm">
+                            multinomial logistic regression (softmax)
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Models_Regression_GeneralizedLinearRegression.htm">
+                            generalized linear models
+                        </a>. <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticNewtonMethod.htm">
+                            L2-regularized L2-loss logistic regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent.htm">
+                            L2-regularized logistic regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticCoordinateDescent.htm">
+                            L1-regularized logistic regression
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent.htm">
+                            L2-regularized logistic regression in the dual form
+                        </a>
                         and <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimizationRegression.htm">
-                            regression support vector machines</a>.
+                            regression support vector machines
+                        </a>.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Clustering">
-                    <img src="images/samples/accord-machinelearning-clustering-meanshift-kmeans.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Clustering">
+                        <img src="images/samples/accord-machinelearning-clustering-meanshift-kmeans.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Clustering">Clustering</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Clustering">Clustering</a>.
+                    </h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_KMeans.htm">
-                            K-Means</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_KModes.htm">
-                                K-Modes</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_MeanShift.htm">
-                                    Mean-Shift</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_GaussianMixtureModel.htm">
-                                        Gaussian Mixture Models</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_BinarySplit.htm">
-                                            Binary Split</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_DeepBeliefNetwork.htm">
-                                                Deep Belief Networks</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_RestrictedBoltzmannMachine.htm">
-                                                    Restricted Boltzmann Machines</a>. Clustering algorithms
+                            K-Means
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_KModes.htm">
+                            K-Modes
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_MeanShift.htm">
+                            Mean-Shift
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_GaussianMixtureModel.htm">
+                            Gaussian Mixture Models
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_BinarySplit.htm">
+                            Binary Split
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_DeepBeliefNetwork.htm">
+                            Deep Belief Networks
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Neuro_Networks_RestrictedBoltzmannMachine.htm">
+                            Restricted Boltzmann Machines
+                        </a>. Clustering algorithms
                         can be applied in arbitrary data, <a href="https://github.com/accord-net/framework/wiki/Sample-applications#color-clustering-kmeans-and-meanshift">
-                            including images</a>, data tables, videos and <a href="https://github.com/accord-net/framework/wiki/Audio">
-                                audio</a>.
+                            including images
+                        </a>, data tables, videos and <a href="https://github.com/accord-net/framework/wiki/Audio">
+                            audio
+                        </a>.
                     </p>
                 </div>
             </div>
             <div class="section-content">
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Distributions">
-                    <img src="images/misc/gaussians.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Distributions">
+                        <img src="images/misc/gaussians.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Distributions">Distributions</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Distributions">Distributions</a>.
+                    </h3>
                     <p>
                         Parametric and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm">
-                            non-parametric estimation</a> of more than 40 distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Univariate.htm">
-                                Univariate</a> distributions such as <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">
-                                    Normal</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">
-                                        Cauchy</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">
-                                            Hypergeometric</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">
-                                                Poisson</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm">
-                                                    Bernoulli</a>, and specialized distributions such as
+                            non-parametric estimation
+                        </a> of more than 40 distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Univariate.htm">
+                            Univariate
+                        </a> distributions such as <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">
+                            Normal
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">
+                            Cauchy
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">
+                            Hypergeometric
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">
+                            Poisson
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm">
+                            Bernoulli
+                        </a>, and specialized distributions such as
                         the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm">
-                            Kolmogorov-Smirnov</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">
-                                Nakagami</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">
-                                    Weibull</a>, and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">
-                                        Von-Mises</a> distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Multivariate.htm">
-                                            Multivariate</a> distributions such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateNormalDistribution.htm">
-                                                multivariate Normal</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultinomialDistribution.htm">
-                                                    Multinomial</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">
-                                                        Independent</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_JointDistribution.htm">
-                                                            Joint</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateMixture_1.htm">
-                                                                Mixture distributions</a>.
+                            Kolmogorov-Smirnov
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">
+                            Nakagami
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">
+                            Weibull
+                        </a>, and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">
+                            Von-Mises
+                        </a> distributions. <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Distributions_Multivariate.htm">
+                            Multivariate
+                        </a> distributions such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateNormalDistribution.htm">
+                            multivariate Normal
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultinomialDistribution.htm">
+                            Multinomial
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">
+                            Independent
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_JointDistribution.htm">
+                            Joint
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Distributions_Multivariate_MultivariateMixture_1.htm">
+                            Mixture distributions
+                        </a>.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Hypothesis-Tests">
-                    <img src="images/misc/gaussian.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Hypothesis-Tests">
+                        <img src="images/misc/gaussian.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Hypothesis-Tests">Hypothesis Tests</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Hypothesis-Tests">Hypothesis Tests</a>.
+                    </h3>
                     <p>
                         More than <a href="http://accord-framework.net/docs/html/N_Accord_Statistics_Testing.htm">
-                            35 statistical hypothesis tests</a>, including <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_OneWayAnova.htm">
-                                one way</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_TwoWayAnova.htm">
-                                    two-way ANOVA tests</a>, non-parametric tests such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_KolmogorovSmirnovTest.htm">
-                                        Kolmogorov-Smirnov test</a> and the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_SignTest.htm">
-                                            Sign Test for the Median</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Analysis_GeneralConfusionMatrix.htm">
-                                                contingency table</a> tests such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_KappaTest.htm">
-                                                    Kappa test</a>, with variations for <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_AverageKappaTest.htm">
-                                                        multiple tables</a>, as well as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_BhapkarTest.htm">
-                                                            Bhapkar</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_BowkerTest.htm">
-                                                                Bowker</a> tests; and the more traditional
+                            35 statistical hypothesis tests
+                        </a>, including <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_OneWayAnova.htm">
+                            one way
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_TwoWayAnova.htm">
+                            two-way ANOVA tests
+                        </a>, non-parametric tests such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_KolmogorovSmirnovTest.htm">
+                            Kolmogorov-Smirnov test
+                        </a> and the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_SignTest.htm">
+                            Sign Test for the Median
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Analysis_GeneralConfusionMatrix.htm">
+                            contingency table
+                        </a> tests such as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_KappaTest.htm">
+                            Kappa test
+                        </a>, with variations for <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_AverageKappaTest.htm">
+                            multiple tables
+                        </a>, as well as the <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_BhapkarTest.htm">
+                            Bhapkar
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_BowkerTest.htm">
+                            Bowker
+                        </a> tests; and the more traditional
                         <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_ChiSquareTest.htm">
-                            Chi-Square</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_ZTest.htm">
-                                Z</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_FTest.htm">
-                                    F </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_TTest.htm">
-                                        T</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_WaldTest.htm">
-                                            Wald tests</a>.
+                            Chi-Square
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_ZTest.htm">
+                            Z
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_FTest.htm">
+                            F
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_TTest.htm">
+                            T
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Statistics_Testing_WaldTest.htm">
+                            Wald tests
+                        </a>.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Kernel-Methods">
-                    <img src="images/samples/accord-statistics-analysis-kpca.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Kernel-Methods">
+                        <img src="images/samples/accord-statistics-analysis-kpca.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Kernel-Methods">Kernel Methods</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Kernel-Methods">Kernel Methods</a>.
+                    </h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/N_Accord_MachineLearning_VectorMachines.htm">
-                            Kernel Support Vector Machines</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine.htm">
-                                Multi-class</a> and <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_MultilabelSupportVectorMachine.htm">
-                                    Multi-label machines</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">
-                                        Sequential Minimal Optimization</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_LeastSquaresLearning.htm">
-                                            Least-Squares Learning</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration.htm">
-                                                probabilistic learning</a>, including special methods for
+                            Kernel Support Vector Machines
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_MulticlassSupportVectorMachine.htm">
+                            Multi-class
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_MultilabelSupportVectorMachine.htm">
+                            Multi-label machines
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization.htm">
+                            Sequential Minimal Optimization
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_LeastSquaresLearning.htm">
+                            Least-Squares Learning
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration.htm">
+                            probabilistic learning
+                        </a>, including special methods for
                         <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_SupportVectorMachine.htm">
-                            linear machines</a> such as LIBLINEAR's methods for <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_LinearCoordinateDescent.htm">
-                                Linear Coordinate Descent</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod.htm">
-                                    Linear Newton Method</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticCoordinateDescent.htm">
-                                        Probabilistic Coordinate Descent</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent.htm">
-                                            Probabilistic Coordinate Descent in the Dual</a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticNewtonMethod.htm">
-                                                Probabilistic Newton Method for L1 and L2 machines in both the dual and primal formulations</a>.
+                            linear machines
+                        </a> such as LIBLINEAR's methods for <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_LinearCoordinateDescent.htm">
+                            Linear Coordinate Descent
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod.htm">
+                            Linear Newton Method
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticCoordinateDescent.htm">
+                            Probabilistic Coordinate Descent
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent.htm">
+                            Probabilistic Coordinate Descent in the Dual
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticNewtonMethod.htm">
+                            Probabilistic Newton Method for L1 and L2 machines in both the dual and primal formulations
+                        </a>.
                     </p>
                 </div>
             </div>
             <div class="section-content">
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Imaging">
-                    <img src="images/samples/accord-imaging-surf.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Imaging">
+                        <img src="images/samples/accord-imaging-surf.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Imaging">Imaging</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Imaging">Imaging</a>.
+                    </h3>
                     <p>
                         Interest and feature point detectors such as <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_HarrisCornersDetector.htm">
-                            Harris</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_FastRetinaKeypoint.htm">
-                                FREAK</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_SpeededUpRobustFeaturesDetector.htm">
-                                    SURF</a>, and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_FastCornersDetector.htm">
-                                        FAST</a>. <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_GrayLevelCooccurrenceMatrix.htm">
-                                            Grey-level Co-occurrence matrices</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_BorderFollowing.htm">
-                                                Border following</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_BagOfVisualWords.htm">
-                                                    Bag-of-Visual-Words (BoW)</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm">
-                                                        RANSAC-based homography estimation</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_IntegralImage2.htm">
-                                                            integral images</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Haralick.htm">
-                                                                haralick textural feature extraction</a>,
+                            Harris
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_FastRetinaKeypoint.htm">
+                            FREAK
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_SpeededUpRobustFeaturesDetector.htm">
+                            SURF
+                        </a>, and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_FastCornersDetector.htm">
+                            FAST
+                        </a>. <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_GrayLevelCooccurrenceMatrix.htm">
+                            Grey-level Co-occurrence matrices
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_BorderFollowing.htm">
+                            Border following
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_BagOfVisualWords.htm">
+                            Bag-of-Visual-Words (BoW)
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm">
+                            RANSAC-based homography estimation
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_IntegralImage2.htm">
+                            integral images
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Haralick.htm">
+                            haralick textural feature extraction
+                        </a>,
                         and dense descriptors such as <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_HistogramsOfOrientedGradients.htm">
-                            histogram of oriented gradients (HOG)</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_LocalBinaryPattern.htm">
-                                Local Binary Pattern (LBP)</a>. Several <a href="http://accord-framework.net/docs/html/N_Accord_Imaging_Filters.htm">
-                                    image filters for image processing applications</a> such as <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_DifferenceOfGaussians.htm">
-                                        difference of Gaussians</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_GaborFilter.htm">
-                                            Gabor</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_NiblackThreshold.htm">
-                                                Niblack</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_SauvolaThreshold.htm">
-                                                    Sauvola thresholding</a>.
+                            histogram of oriented gradients (HOG)
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_LocalBinaryPattern.htm">
+                            Local Binary Pattern (LBP)
+                        </a>. Several <a href="http://accord-framework.net/docs/html/N_Accord_Imaging_Filters.htm">
+                            image filters for image processing applications
+                        </a> such as <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_DifferenceOfGaussians.htm">
+                            difference of Gaussians
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_GaborFilter.htm">
+                            Gabor
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_NiblackThreshold.htm">
+                            Niblack
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Imaging_Filters_SauvolaThreshold.htm">
+                            Sauvola thresholding
+                        </a>.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Audio">
-                    <img src="images/samples/accord-audio-recording.png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Audio">
+                        <img src="images/samples/accord-audio-recording.png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Audio">Audio and Signal</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Audio">Audio and Signal</a>.
+                    </h3>
                     <p>
                         Load, parse, save, filter and transform <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Signal.htm">
-                            audio signals</a>, such as applying <a href="http://accord-framework.net/docs/html/N_Accord_Audio_Filters.htm">
-                                audio processing filters</a> in both space and <a href="http://accord-framework.net/docs/html/T_Accord_Audio_ComplexSignal.htm">
-                                    frequency domain</a>. <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Formats_WaveDecoder.htm">
-                                        WAV files</a>, <a href="http://accord-framework.net/docs/html/T_Accord_DirectSound_AudioCaptureDevice.htm">
-                                            audio capture</a>, time-domain filters such as <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_EnvelopeFilter.htm">
-                                                envelope</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_HighPassFilter.htm">
-                                                    high-pass</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_LowPassFilter.htm">
-                                                        low-pass</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_WaveRectifier.htm">
-                                                            wave rectification</a> filters. Frequency-domain
+                            audio signals
+                        </a>, such as applying <a href="http://accord-framework.net/docs/html/N_Accord_Audio_Filters.htm">
+                            audio processing filters
+                        </a> in both space and <a href="http://accord-framework.net/docs/html/T_Accord_Audio_ComplexSignal.htm">
+                            frequency domain
+                        </a>. <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Formats_WaveDecoder.htm">
+                            WAV files
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_DirectSound_AudioCaptureDevice.htm">
+                            audio capture
+                        </a>, time-domain filters such as <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_EnvelopeFilter.htm">
+                            envelope
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_HighPassFilter.htm">
+                            high-pass
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_LowPassFilter.htm">
+                            low-pass
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Filters_WaveRectifier.htm">
+                            wave rectification
+                        </a> filters. Frequency-domain
                         operators such as <a href="http://accord-framework.net/docs/html/T_Accord_Audio_ComplexFilters_DifferentialRectificationFilter.htm">
-                            differential rectification filter</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Audio_ComplexFilters_CombFilter.htm">
-                                comb filter with Dirac's delta functions</a>. Signal generators for <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Generators_CosineGenerator.htm">
-                                    Cosine</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Generators_ImpulseGenerator.htm">
-                                        Impulse</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Generators_SquareGenerator.htm">
-                                            Square</a> signals.
+                            differential rectification filter
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Audio_ComplexFilters_CombFilter.htm">
+                            comb filter with Dirac's delta functions
+                        </a>. Signal generators for <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Generators_CosineGenerator.htm">
+                            Cosine
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Generators_ImpulseGenerator.htm">
+                            Impulse
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Audio_Generators_SquareGenerator.htm">
+                            Square
+                        </a> signals.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="https://github.com/accord-net/framework/wiki/Vision">
-                    <img src="images/samples/accord-vision-face-tracking-(camshift).png" /></a>
+                    <a href="https://github.com/accord-net/framework/wiki/Vision">
+                        <img src="images/samples/accord-vision-face-tracking-(camshift).png" />
+                    </a>
                     <h3>
-                        <a href="https://github.com/accord-net/framework/wiki/Vision">Vision</a>.</h3>
+                        <a href="https://github.com/accord-net/framework/wiki/Vision">Vision</a>.
+                    </h3>
                     <p>
                         <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Detection_HaarObjectDetector.htm">
-                            Real-time face detection</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Tracking_Camshift.htm">
-                                tracking</a>, as well as general methods for <a href="http://accord-framework.net/docs/html/T_Accord_Vision_GroupMatching.htm">
-                                    detecting</a>, <a href="http://accord-framework.net/docs/html/N_Accord_Vision_Tracking.htm">
-                                        tracking</a> and <a href="http://accord-framework.net/docs/html/N_Accord_Imaging.htm">
-                                            transforming objects in image streams</a>. Contains <a href="http://accord-framework.net/docs/html/N_Accord_Vision_Detection_Cascades.htm">
-                                                cascade definitions</a>, <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Tracking_Camshift.htm">
-                                                    Camshift</a> and <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Tracking_MatchingTracker.htm">
-                                                        Dynamic Template Matching trackers</a>. Includes
+                            Real-time face detection
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Tracking_Camshift.htm">
+                            tracking
+                        </a>, as well as general methods for <a href="http://accord-framework.net/docs/html/T_Accord_Vision_GroupMatching.htm">
+                            detecting
+                        </a>, <a href="http://accord-framework.net/docs/html/N_Accord_Vision_Tracking.htm">
+                            tracking
+                        </a> and <a href="http://accord-framework.net/docs/html/N_Accord_Imaging.htm">
+                            transforming objects in image streams
+                        </a>. Contains <a href="http://accord-framework.net/docs/html/N_Accord_Vision_Detection_Cascades.htm">
+                            cascade definitions
+                        </a>, <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Tracking_Camshift.htm">
+                            Camshift
+                        </a> and <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Tracking_MatchingTracker.htm">
+                            Dynamic Template Matching trackers
+                        </a>. Includes
                         <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Detection_Cascades_FaceHaarCascade.htm">
-                            pre-created classifiers for human faces</a> and some facial features such as
+                            pre-created classifiers for human faces
+                        </a> and some facial features such as
                         <a href="http://accord-framework.net/docs/html/T_Accord_Vision_Detection_Cascades_NoseHaarCascade.htm">
-                            noses</a>.
+                            noses
+                        </a>.
                     </p>
                 </div>
             </div>
             <div>
                 <h1>
-                    <a href="get-started.html">Get started now!</a></h1>
+                    <a href="get-started.html">Get started now!</a>
+                </h1>
             </div>
             <div class="section-content">
                 <div class="section-panel">
-                <a href="samples.html">
-                    <img src="images/metro/appbar.candy.cane.png" /></a>
+                    <a href="samples.html">
+                        <img src="images/metro/appbar.candy.cane.png" />
+                    </a>
                     <h3>
-                        <a href="samples.html">Sample applications</a>.</h3>
+                        <a href="samples.html">Sample applications</a>.
+                    </h3>
                     <p>
                         Sample applications help you start writing your applications quickly. Just <a href="https://github.com/accord-net/framework/wiki/Sample-applications">
-                            get one of the sample applications that is closest to your goal</a>, and start
+                            get one of the sample applications that is closest to your goal
+                        </a>, and start
                         from there.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="publications.html">
-                    <img src="images/metro/appbar.puzzle.round.png" /></a>
+                    <a href="publications.html">
+                        <img src="images/metro/appbar.puzzle.round.png" />
+                    </a>
                     <h3>
-                        <a href="publications.html">Create and test new learning algorithms with ease</a>.</h3>
+                        <a href="publications.html">Create and test new learning algorithms with ease</a>.
+                    </h3>
                     <p>
                         Strategy and template method patterns help you swap learning algorithms quickly.
                         Create, build and compare different approaches without delving too deep in code.
-                        Check a <a href="publications.html">list of works that have been made possible with
-                            the framework</a>.
+                        Check a <a href="publications.html">
+                            list of works that have been made possible with
+                            the framework
+                        </a>.
                     </p>
                 </div>
                 <div class="section-panel">
-                <a href="http://stackoverflow.com/questions/ask?tags=accord.net">
-                    <img src="images/metro/appbar.speakerphone.png" /></a>
+                    <a href="http://stackoverflow.com/questions/ask?tags=accord.net">
+                        <img src="images/metro/appbar.speakerphone.png" />
+                    </a>
                     <h3>
-                        <a href="http://stackoverflow.com/questions/ask?tags=accord.net">Ask your questions</a>.</h3>
+                        <a href="http://stackoverflow.com/questions/ask?tags=accord.net">Ask your questions</a>.
+                    </h3>
                     <p>
-                        Stackoverflow is <a href="http://stackoverflow.com/questions/tagged/accord.net">continuosly
-                            monitored for new questions containing the "Accord.NET" tag</a>. Ask your new
+                        Stackoverflow is <a href="http://stackoverflow.com/questions/tagged/accord.net">
+                            continuosly
+                            monitored for new questions containing the "Accord.NET" tag
+                        </a>. Ask your new
                         question and mark it with this tag, and it will be answered in a minute by the framework
                         authors and the user community.
                     </p>
@@ -378,17 +529,22 @@ title: "Accord.NET Machine Learning Framework"
                     itself, such as questions on <i>"why"</i> something was done in a particular way,
                     suggestions and general discussions, <b>do not use Stackoverflow</b> - please refer
                     to the<a href="https://groups.google.com/forum/#!forum/accord-net">
-                        support forums</a> instead. For bugs and feature requests, please use <a href="https://github.com/accord-net/framework/issues">
-                            issue tracker</a>. If the project has been useful for you, please
-                    consider <a href="https://github.com/accord-net/framework/wiki">helping us improve the
-                        wiki</a>. Thanks!
+                        support forums
+                    </a> instead. For bugs and feature requests, please use <a href="https://github.com/accord-net/framework/issues">
+                        issue tracker
+                    </a>. If the project has been useful for you, please
+                    consider <a href="https://github.com/accord-net/framework/wiki">
+                        helping us improve the
+                        wiki
+                    </a>. Thanks!
                 </p>
-				 <p>
-                    Due to popular demand, you can also acquire a non-exclusive license over individual parts 
-					of the framework under particular terms. Although the framework is free and will always stay
-					free, some companies may feel safer to use the software if they have signed a proper license
-					agreement allowing them to do so. Please send a mail to <a href="mailto:licenses@accord-framework.net">
-					licenses@accord-framework.net</a> if you think your company would fit in this case.
+                <p>
+                    Due to popular demand, you can also acquire a non-exclusive license over individual parts
+                    of the framework under particular terms. Although the framework is free and will always stay
+                    free, some companies may feel safer to use the software if they have signed a proper license
+                    agreement allowing them to do so. Please send a mail to <a href="mailto:licenses@accord-framework.net">
+                        licenses@accord-framework.net
+                    </a> if you think your company would fit in this case.
                 </p>
             </div>
             <div class="openhub-stats">
@@ -411,7 +567,7 @@ title: "Accord.NET Machine Learning Framework"
                 <li><a href="https://github.com/DiegoCatalano/Catalano-Framework">Java</a>
                 <li>
                     <div class="fb-like" data-href="http://accord-framework.net" data-layout="button_count"
-                        data-action="recommend" data-show-faces="true" data-share="true">
+                         data-action="recommend" data-show-faces="true" data-share="true">
                     </div>
                 </li>
             </ul>
@@ -427,19 +583,20 @@ title: "Accord.NET Machine Learning Framework"
             <br />
             Consider donating just <strong>US$10</strong>
             <br />
-            so it can get even better!</p>
+            so it can get even better!
+        </p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="N4Q6YQSPWN8BG">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-            border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif"
-            width="1" height="1">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="N4Q6YQSPWN8BG">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                   border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif"
+                 width="1" height="1">
         </form>
         <p>
             This software is completely free and will<br />
             <strong>always stay free</strong>
-        . Enjoy!
+            . Enjoy!
     </div>
 </body>
 <!-- {% include analytics.html %} -->

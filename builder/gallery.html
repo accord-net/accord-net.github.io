@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Bootstrap Filtered Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+        .well {
+            background: #fff;
+            text-align: center;
+        }
+
+        .filter {
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container well well-large">
+
+        <h1>Bootstrap Filtered Portfolio</h1>
+
+        <hr>
+
+        <ul class="filter nav nav-pills">
+            <!-- BEGIN CATEGORIES -->
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<!-- END CATEGORIES --><!-- END CATEGORIES -->
+        </ul>
+
+        <hr>
+
+        <ul class="thumbnails">
+            <!-- BEGIN THUMBNAILS -->
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<!-- END THUMBNAILS --><!-- END THUMBNAILS -->
+        </ul>
+
+        <!-- BEGIN TEXT -->
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<!-- END TEXT --><!-- END TEXT -->
+    </div>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/bootbox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.quicksand.js"></script>
+    <script>
+        function gallery() {
+            // BEGIN JAVASCRIPT
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="machine-learning"><a href="#">Machine Learning</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+<li data-value="statistics"><a href="#">Statistics</a></li>
+// END JAVASCRIPT// END JAVASCRIPT
+            }
+        var $itemsHolder = $('ul.thumbnails');
+            var $itemsClone = $itemsHolder.clone();
+            var $filterClass = "";
+            $('ul.filter li').click(function (e) {
+                e.preventDefault();
+                $filterClass = $(this).attr('data-value');
+                if ($filterClass == 'all') { var $filters = $itemsClone.find('li'); }
+                else { var $filters = $itemsClone.find('li[data-type=' + $filterClass + ']'); }
+                $itemsHolder.quicksand(
+                  $filters,
+                  { duration: 1000 },
+                  gallery
+                  );
+            });
+            $(document).ready(gallery);
+    </script>
+
+
+</body>
+</html>
