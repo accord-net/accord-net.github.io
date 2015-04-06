@@ -22,16 +22,6 @@ body
     white-space: nowrap;
 }
 
-#middle
-{
-    padding-left: 230px;
-    padding-top: 90px;
-    padding-right: 100px;
-    font-weight: 300;
-    text-align: left;
-    min-width: 300px;
-}
-
 aside
 {
     top: 50px;
@@ -64,31 +54,11 @@ aside
 header h1
 {
     padding: 0;
-    margin: 0;
-}
-
-
-nav h1
-{
-    text-transform: uppercase;
-    font-size: 10pt;
-}
-
-nav ul
-{
     margin-top: 50px;
-    padding-left: 15px;
+    margin-left: 120px;
 }
 
-nav li
-{
-    list-style-type: none;
-    height: 20px;
-    padding: 5px 0 0 35px;
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 32px 32px;
-}
+
 
 #li-intro
 {

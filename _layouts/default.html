@@ -50,73 +50,21 @@
 
 </script>
 <body>
+    
+    {% include navbar.html %}
+
     <!--
 
         // Left area: the area containing the header and the table of contents for the site
         // -------------------------------------------------------------------------------->
-    <div id="left">
-        <header>
-            <div id="accord-logo">
-                &#x222e;
-            </div>
-            <h1>
-                {{ page.title }}
-            </h1>
-        </header>
-        <nav>
-            <h1>
-                <a href="index.html">Accord.NET Framework</a>
-            </h1>
-            <ul>
-                <li id="li-intro"><a href="intro.html">Introduction</a></li>
-                <li id="li-samples"><a href="samples.html">Sample apps</a></li>
-                <li id="li-docs"><a href="docs/Index.html" target="_blank">Documentation</a></li>
-                <li id="li-issues">
-                    <a href="https://github.com/accord-net/framework/issues" target="_blank">
-                        Report issues
-                    </a>
-                </li>
-                <li id="li-contribute"><a href="contribute.html">Contribute</a></li>
-                <li id="li-publications"><a href="publications.html">Publications</a></li>
-                <!-- <li id="li-forums"><a href="http://stackoverflow.com/questions/ask?tags=accord.net" target="_blank">
-                    Ask a question</a></li> -->
-                <!-- <li id="li-forums"><a href="https://groups.google.com/forum/#!forum/accord-net" target="_blank">
-                    Discussions</a></li> -->
-                <li id="li-projects"><a href="projects.html">Projects</a></li>
-                <li id="li-faq"><a href="faq.html">Questions</a></li>
-                <!-- <li id="li-contact"><a href="contact.html">Contact</a></li> -->
-                <li id="li-license"><a href="license.html">License</a></li>
-                <!-- <li id="li-about"><a href="about.html">About</a></li> -->
-            </ul>
-            <div id="download-buttons">
-                <ul>
-                    <li>
-                        <a href="{{ site.framework.download-installer }}">
-                            Download <strong>Installer</strong> <span class="version">{{ site.framework.version }}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ site.framework.download-archive }}">
-                            Download <strong>Archive</strong> <span class="version">{{ site.framework.version }}</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="google-plus">
-                <!-- Place this tag where you want the +1 button to render. -->
-                <div class="g-plusone" data-href="http://accord-net.github.io">
-                </div>
-                <!-- Place this tag after the last +1 button tag. -->
-                <script type="text/javascript">
-                    (function () {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                        po.src = 'https://apis.google.com/js/plusone.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                    })();
-                </script>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <div id="accord-logo">
+            &#x222e;
+        </div>
+        <h1>
+            {{ page.title }}
+        </h1>
+    </header>
     <!--
 
         // Right area: contains the Youtube, LinkedIn and Paypal buttons
@@ -142,7 +90,7 @@
 
         // Middle area: contains the actual page contents
         // -------------------------------------------------------------------------------->
-    <div id="middle">
+    <div class="container">
         <article>
             {% if content %}
             {{ content }}

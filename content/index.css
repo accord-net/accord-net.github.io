@@ -19,7 +19,9 @@ body
 #accord-logo
 {
     display: block;
-    margin: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url('../images/accord-logo.png');
     background-position: center;
     background-repeat: no-repeat;
