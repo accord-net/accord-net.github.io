@@ -1,0 +1,713 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CsvReader Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="CsvReader class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Accord.IO.CsvReader" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.IO" />
+    <meta name="file" content="Methods_T_Accord_IO_CsvReader" />
+    <meta name="guid" content="Methods_T_Accord_IO_CsvReader" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_Accord_IO.htm" title="Accord.IO" tocid="N_Accord_IO">Accord.IO</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_Accord_IO_CsvReader.htm" title="CsvReader Class" tocid="T_Accord_IO_CsvReader">CsvReader Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_Accord_IO_CsvReader.htm" title="CsvReader Methods" tocid="Methods_T_Accord_IO_CsvReader">CsvReader Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataReader_Close.htm" title="IDataReader.Close Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataReader_Close">IDataReader.Close Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetBoolean.htm" title="IDataRecord.GetBoolean Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetBoolean">IDataRecord.GetBoolean Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetByte.htm" title="IDataRecord.GetByte Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetByte">IDataRecord.GetByte Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetBytes.htm" title="IDataRecord.GetBytes Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetBytes">IDataRecord.GetBytes Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetChar.htm" title="IDataRecord.GetChar Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetChar">IDataRecord.GetChar Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetChars.htm" title="IDataRecord.GetChars Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetChars">IDataRecord.GetChars Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetData.htm" title="IDataRecord.GetData Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetData">IDataRecord.GetData Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDataTypeName.htm" title="IDataRecord.GetDataTypeName Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDataTypeName">IDataRecord.GetDataTypeName Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDateTime.htm" title="IDataRecord.GetDateTime Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDateTime">IDataRecord.GetDateTime Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDecimal.htm" title="IDataRecord.GetDecimal Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDecimal">IDataRecord.GetDecimal Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDouble.htm" title="IDataRecord.GetDouble Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDouble">IDataRecord.GetDouble Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Collections_IEnumerable_GetEnumerator.htm" title="IEnumerable.GetEnumerator Method " tocid="M_Accord_IO_CsvReader_System_Collections_IEnumerable_GetEnumerator">IEnumerable.GetEnumerator Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetFieldType.htm" title="IDataRecord.GetFieldType Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetFieldType">IDataRecord.GetFieldType Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetFloat.htm" title="IDataRecord.GetFloat Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetFloat">IDataRecord.GetFloat Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetGuid.htm" title="IDataRecord.GetGuid Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetGuid">IDataRecord.GetGuid Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt16.htm" title="IDataRecord.GetInt16 Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt16">IDataRecord.GetInt16 Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt32.htm" title="IDataRecord.GetInt32 Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt32">IDataRecord.GetInt32 Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt64.htm" title="IDataRecord.GetInt64 Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt64">IDataRecord.GetInt64 Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetName.htm" title="IDataRecord.GetName Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetName">IDataRecord.GetName Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetOrdinal.htm" title="IDataRecord.GetOrdinal Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetOrdinal">IDataRecord.GetOrdinal Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataReader_GetSchemaTable.htm" title="IDataReader.GetSchemaTable Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataReader_GetSchemaTable">IDataReader.GetSchemaTable Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetString.htm" title="IDataRecord.GetString Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetString">IDataRecord.GetString Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetValue.htm" title="IDataRecord.GetValue Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetValue">IDataRecord.GetValue Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetValues.htm" title="IDataRecord.GetValues Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetValues">IDataRecord.GetValues Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataRecord_IsDBNull.htm" title="IDataRecord.IsDBNull Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataRecord_IsDBNull">IDataRecord.IsDBNull Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataReader_NextResult.htm" title="IDataReader.NextResult Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataReader_NextResult">IDataReader.NextResult Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_System_Data_IDataReader_Read.htm" title="IDataReader.Read Method " tocid="M_Accord_IO_CsvReader_System_Data_IDataReader_Read">IDataReader.Read Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_CheckDisposed.htm" title="CheckDisposed Method " tocid="M_Accord_IO_CsvReader_CheckDisposed">CheckDisposed Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_Close.htm" title="Close Method " tocid="M_Accord_IO_CsvReader_Close">Close Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_IO_CsvReader_CopyCurrentRecordTo.htm" title="CopyCurrentRecordTo Method " tocid="Overload_Accord_IO_CsvReader_CopyCurrentRecordTo">CopyCurrentRecordTo Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_IO_CsvReader_Dispose.htm" title="Dispose Method " tocid="Overload_Accord_IO_CsvReader_Dispose">Dispose Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_Finalize.htm" title="Finalize Method " tocid="M_Accord_IO_CsvReader_Finalize">Finalize Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_FromText.htm" title="FromText Method " tocid="M_Accord_IO_CsvReader_FromText">FromText Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_GetEnumerator.htm" title="GetEnumerator Method " tocid="M_Accord_IO_CsvReader_GetEnumerator">GetEnumerator Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_GetFieldHeaders.htm" title="GetFieldHeaders Method " tocid="M_Accord_IO_CsvReader_GetFieldHeaders">GetFieldHeaders Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_GetFieldIndex.htm" title="GetFieldIndex Method " tocid="M_Accord_IO_CsvReader_GetFieldIndex">GetFieldIndex Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_MoveTo.htm" title="MoveTo Method " tocid="M_Accord_IO_CsvReader_MoveTo">MoveTo Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_OnDisposed.htm" title="OnDisposed Method " tocid="M_Accord_IO_CsvReader_OnDisposed">OnDisposed Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_OnParseError.htm" title="OnParseError Method " tocid="M_Accord_IO_CsvReader_OnParseError">OnParseError Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_IO_CsvReader_ReadNextRecord.htm" title="ReadNextRecord Method " tocid="Overload_Accord_IO_CsvReader_ReadNextRecord">ReadNextRecord Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_IO_CsvReader_ReadToEnd.htm" title="ReadToEnd Method " tocid="M_Accord_IO_CsvReader_ReadToEnd">ReadToEnd Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_Accord_IO_CsvReader_ToTable.htm" title="ToTable Method " tocid="Overload_Accord_IO_CsvReader_ToTable">ToTable Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">CsvReader Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Accord_IO_CsvReader.htm">CsvReader</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_CheckDisposed.htm">CheckDisposed</a>
+              </td>
+              <td>
+                <div class="summary">
+            Checks if the instance has been disposed of, and if it has, throws an <span class="nolink">ObjectDisposedException</span>; otherwise, does nothing.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_Close.htm">Close</a>
+              </td>
+              <td>
+                <div class="summary">
+              Closes the <a href="http://msdn2.microsoft.com/en-us/library/sh674a6a" target="_blank">IDataReader</a> Object.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_CopyCurrentRecordTo.htm">CopyCurrentRecordTo(<span id="LST7211B47D_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_0?cpp=array&lt;");</script>String<span id="LST7211B47D_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_1?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+               Copies the field array of the current record to a one-dimensional array, starting at the beginning of the target array.
+             </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_CopyCurrentRecordTo_1.htm">CopyCurrentRecordTo(<span id="LST7211B47D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_2?cpp=array&lt;");</script>String<span id="LST7211B47D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Copies the field array of the current record to a one-dimensional array, starting at the beginning of the target array.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_Dispose.htm">Dispose<span id="LST7211B47D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Releases all resources used by the instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_Dispose_1.htm">Dispose(Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Releases the unmanaged resources used by this instance and optionally releases the managed resources.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_Finalize.htm">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">
+            Releases unmanaged resources and performs other cleanup operations before the instance is reclaimed by garbage collection.
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Object<span id="LST7211B47D_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Finalize<span id="LST7211B47D_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_6?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_FromText.htm">FromText</a>
+              </td>
+              <td>
+                <div class="summary">
+              Creates a new CsvReader to read from a string.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_GetEnumerator.htm">GetEnumerator</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns an <span class="nolink">RecordEnumerator</span>  that can iterate through CSV records.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_GetFieldHeaders.htm">GetFieldHeaders</a>
+              </td>
+              <td>
+                <div class="summary">
+              Gets the field headers.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_GetFieldIndex.htm">GetFieldIndex</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the field index for the provided header.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_MoveTo.htm">MoveTo</a>
+              </td>
+              <td>
+                <div class="summary">
+              Moves to the specified record index.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_OnDisposed.htm">OnDisposed</a>
+              </td>
+              <td>
+                <div class="summary">
+            Raises the <span class="nolink">[M:Disposed]</span> event.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_OnParseError.htm">OnParseError</a>
+              </td>
+              <td>
+                <div class="summary">
+              Raises the <span class="nolink">[M:ParseError]</span> event.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_ReadNextRecord.htm">ReadNextRecord<span id="LST7211B47D_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_7?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Reads the next record.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;declared;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_ReadNextRecord_1.htm">ReadNextRecord(Boolean, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Reads the next record.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_ReadToEnd.htm">ReadToEnd</a>
+              </td>
+              <td>
+                <div class="summary">
+              Reads the entire stream into a list of records.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_ToTable.htm">ToTable<span id="LST7211B47D_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_8?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Reads the entire stream into a DataTable.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_ToTable_1.htm">ToTable(<span id="LST7211B47D_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_9?cpp=array&lt;");</script>String<span id="LST7211B47D_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Reads the entire stream into a DataTable.
+            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_SetEquals__1.htm">SetEquals<span id="LST7211B47D_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span id="LST7211B47D_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_12?cpp=array&lt;");</script>String<span id="LST7211B47D_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST7211B47D_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Compares two enumerables for set equality. Two
+              enumerables are set equal if they contain the
+              same elements, but not necessarily in the same
+              order.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST7211B47D_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST7211B47D_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Explicit Interface Implementations</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataReader_Close.htm">IDataReader<span id="LST7211B47D_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Close</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetBoolean.htm">IDataRecord<span id="LST7211B47D_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_18?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetBoolean</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetByte.htm">IDataRecord<span id="LST7211B47D_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_19?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetByte</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetBytes.htm">IDataRecord<span id="LST7211B47D_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetBytes</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetChar.htm">IDataRecord<span id="LST7211B47D_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_21?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetChar</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetChars.htm">IDataRecord<span id="LST7211B47D_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetChars</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetData.htm">IDataRecord<span id="LST7211B47D_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_23?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetData</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDataTypeName.htm">IDataRecord<span id="LST7211B47D_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_24?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetDataTypeName</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDateTime.htm">IDataRecord<span id="LST7211B47D_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_25?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetDateTime</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDecimal.htm">IDataRecord<span id="LST7211B47D_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_26?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetDecimal</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetDouble.htm">IDataRecord<span id="LST7211B47D_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_27?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetDouble</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Collections_IEnumerable_GetEnumerator.htm">IEnumerable<span id="LST7211B47D_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_28?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetEnumerator</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns an <a href="http://msdn2.microsoft.com/en-us/library/1t2267t6" target="_blank">IEnumerator</a>  that can iterate through CSV records.
+            </div>
+              </td>
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetFieldType.htm">IDataRecord<span id="LST7211B47D_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_29?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetFieldType</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetFloat.htm">IDataRecord<span id="LST7211B47D_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_30?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetFloat</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetGuid.htm">IDataRecord<span id="LST7211B47D_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_31?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetGuid</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt16.htm">IDataRecord<span id="LST7211B47D_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_32?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetInt16</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt32.htm">IDataRecord<span id="LST7211B47D_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_33?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetInt32</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetInt64.htm">IDataRecord<span id="LST7211B47D_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_34?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetInt64</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetName.htm">IDataRecord<span id="LST7211B47D_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_35?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetName</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetOrdinal.htm">IDataRecord<span id="LST7211B47D_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_36?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetOrdinal</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataReader_GetSchemaTable.htm">IDataReader<span id="LST7211B47D_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_37?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetSchemaTable</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetString.htm">IDataRecord<span id="LST7211B47D_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_38?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetString</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetValue.htm">IDataRecord<span id="LST7211B47D_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_39?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetValue</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_GetValues.htm">IDataRecord<span id="LST7211B47D_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_40?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetValues</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataRecord_IsDBNull.htm">IDataRecord<span id="LST7211B47D_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_41?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IsDBNull</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataReader_NextResult.htm">IDataReader<span id="LST7211B47D_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_42?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>NextResult</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_Accord_IO_CsvReader_System_Data_IDataReader_Read.htm">IDataReader<span id="LST7211B47D_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7211B47D_43?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Read</a>
+              </td>
+              <td />
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0">
+            <img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID3RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_IO_CsvReader.htm">CsvReader Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_IO.htm">Accord.IO Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2015. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
