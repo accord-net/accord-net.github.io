@@ -1,0 +1,234 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>XDate Operators and Type Conversions</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="XDate structure, operators and type conversions" />
+    <meta name="Microsoft.Help.Id" content="Operators.T:ZedGraph.XDate" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="ZedGraph" />
+    <meta name="file" content="Operators_T_ZedGraph_XDate" />
+    <meta name="guid" content="Operators_T_ZedGraph_XDate" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_ZedGraph.htm" title="ZedGraph" tocid="N_ZedGraph">ZedGraph</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_ZedGraph_XDate.htm" title="XDate Structure" tocid="T_ZedGraph_XDate">XDate Structure</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Operators_T_ZedGraph_XDate.htm" title="XDate Operators and Type Conversions" tocid="Operators_T_ZedGraph_XDate">XDate Operators and Type Conversions</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_op_Addition.htm" title="Addition Operator " tocid="M_ZedGraph_XDate_op_Addition">Addition Operator </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_op_Decrement.htm" title="Decrement Operator " tocid="M_ZedGraph_XDate_op_Decrement">Decrement Operator </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_op_Implicit.htm" title="Implicit Conversion Operators" tocid="Overload_ZedGraph_XDate_op_Implicit">Implicit Conversion Operators</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_op_Increment.htm" title="Increment Operator " tocid="M_ZedGraph_XDate_op_Increment">Increment Operator </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_op_Subtraction.htm" title="Subtraction Operator " tocid="Overload_ZedGraph_XDate_op_Subtraction">Subtraction Operator </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">XDate Operators and Type Conversions</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_ZedGraph_XDate.htm">XDate</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Operators</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Addition.htm">Addition</a>
+              </td>
+              <td>
+                <div class="summary">
+            '+' operator overload.  When a double value is added to an XDate, the result is a
+            new XDate with the number of days added.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Decrement.htm">Decrement</a>
+              </td>
+              <td>
+                <div class="summary">
+            '--' operator overload.  Decrement the date by one day.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Implicit.htm">
+                  <span id="LSTF28A4D8E_0"></span>
+                  <script type="text/javascript">AddLanguageSpecificTextSet("LSTF28A4D8E_0?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(DateTime to XDate)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implicit conversion from <a href="P_ZedGraph_XDate_DateTime.htm">DateTime</a> to <a href="T_ZedGraph_XDate.htm">XDate</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Implicit_1.htm">
+                  <span id="LSTF28A4D8E_1"></span>
+                  <script type="text/javascript">AddLanguageSpecificTextSet("LSTF28A4D8E_1?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(Double to XDate)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implicit conversion from double (an XL Date) to XDate.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Implicit_2.htm">
+                  <span id="LSTF28A4D8E_2"></span>
+                  <script type="text/javascript">AddLanguageSpecificTextSet("LSTF28A4D8E_2?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(XDate to Double)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implicit conversion from XDate to double (an XL Date).
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Implicit_3.htm">
+                  <span id="LSTF28A4D8E_3"></span>
+                  <script type="text/javascript">AddLanguageSpecificTextSet("LSTF28A4D8E_3?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(XDate to Single)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implicit conversion from XDate to float (an XL Date).
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Implicit_4.htm">
+                  <span id="LSTF28A4D8E_4"></span>
+                  <script type="text/javascript">AddLanguageSpecificTextSet("LSTF28A4D8E_4?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(XDate to DateTime)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implicit conversion from XDate to <a href="P_ZedGraph_XDate_DateTime.htm">DateTime</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Increment.htm">Increment</a>
+              </td>
+              <td>
+                <div class="summary">
+            '++' operator overload.  Increment the date by one day.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Subtraction.htm">Subtraction(XDate, Double)</a>
+              </td>
+              <td>
+                <div class="summary">
+            '-' operator overload.  When a double value is subtracted from an XDate, the result is a
+            new XDate with the number of days subtracted.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_op_Subtraction_1.htm">Subtraction(XDate, XDate)</a>
+              </td>
+              <td>
+                <div class="summary">
+            '-' operator overload.  When two XDates are subtracted, the number of days between dates
+            is returned.
+            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_ZedGraph_XDate.htm">XDate Structure</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_ZedGraph.htm">ZedGraph Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2015. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

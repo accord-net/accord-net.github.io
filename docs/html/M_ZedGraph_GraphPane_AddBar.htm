@@ -1,0 +1,75 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>GraphPane.AddBar Method (String, Double[], Double[], Color)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:ZedGraph.GraphPane.AddBar(System.String,System.Double[],System.Double[],System.Drawing.Color)" />
+    <meta name="Description" content="Add a bar type curve ( object) to the plot with the given data points (double arrays) and properties. This is simplified way to add curves without knowledge of the class. An alternative is to use the Add() method." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="ZedGraph" />
+    <meta name="file" content="M_ZedGraph_GraphPane_AddBar" />
+    <meta name="guid" content="M_ZedGraph_GraphPane_AddBar" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_ZedGraph.htm" title="ZedGraph" tocid="N_ZedGraph">ZedGraph</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_ZedGraph_GraphPane.htm" title="GraphPane Class" tocid="T_ZedGraph_GraphPane">GraphPane Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_ZedGraph_GraphPane.htm" title="GraphPane Methods" tocid="Methods_T_ZedGraph_GraphPane">GraphPane Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_GraphPane_AddBar.htm" title="AddBar Method " tocid="Overload_ZedGraph_GraphPane_AddBar">AddBar Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_GraphPane_AddBar_1.htm" title="AddBar Method (String, IPointList, Color)" tocid="M_ZedGraph_GraphPane_AddBar_1">AddBar Method (String, IPointList, Color)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_GraphPane_AddBar.htm" title="AddBar Method (String, Double[], Double[], Color)" tocid="M_ZedGraph_GraphPane_AddBar">AddBar Method (String, Double[], Double[], Color)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">GraphPane<span id="LSTF2E67C0D_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_0?cpp=::|nu=.");</script>AddBar Method (String, <span id="LSTF2E67C0D_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_1?cpp=array&lt;");</script>Double<span id="LSTF2E67C0D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_2?cpp=&gt;|vb=()|nu=[]");</script>, <span id="LSTF2E67C0D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_3?cpp=array&lt;");</script>Double<span id="LSTF2E67C0D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_4?cpp=&gt;|vb=()|nu=[]");</script>, Color)</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <div class="summary">
+            Add a bar type curve (<a href="T_ZedGraph_CurveItem.htm">CurveItem</a> object) to the plot with
+            the given data points (double arrays) and properties.
+            This is simplified way to add curves without knowledge of the
+            <a href="P_ZedGraph_GraphPane_CurveList.htm">CurveList</a> class.  An alternative is to use
+            the <a href="T_ZedGraph_CurveList.htm">CurveList</a> Add() method.
+            </div>
+        <p> </p>
+        <strong>Namespace:</strong> <a href="N_ZedGraph.htm">ZedGraph</a><br /><strong>Assembly:</strong> ZedGraph (in ZedGraph.dll) Version: 5.1.5.28844<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">BarItem</span> <span class="identifier">AddBar</span>(
+	<span class="identifier">string</span> <span class="parameter">label</span>,
+	<span class="identifier">double</span>[] <span class="parameter">x</span>,
+	<span class="identifier">double</span>[] <span class="parameter">y</span>,
+	<span class="identifier">Color</span> <span class="parameter">color</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">AddBar</span> ( 
+	<span class="parameter">label</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">x</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
+	<span class="parameter">y</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
+	<span class="parameter">color</span> <span class="keyword">As</span> <span class="identifier">Color</span>
+) <span class="keyword">As</span> <span class="identifier">BarItem</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">label</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="LSTF2E67C0D_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</a><br />The text label (string) for the curve that will be
+            used as a <a href="T_ZedGraph_Legend.htm">Legend</a> entry.</dd><dt><span class="parameter">x</span></dt><dd>Type: <span id="LSTF2E67C0D_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_6?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTF2E67C0D_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LSTF2E67C0D_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_8?cpp=&gt;|vb=()|nu=[]");</script><br />An array of double precision X values (the
+            independent values) that define the curve.</dd><dt><span class="parameter">y</span></dt><dd>Type: <span id="LSTF2E67C0D_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_9?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTF2E67C0D_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LSTF2E67C0D_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_11?cpp=&gt;|vb=()|nu=[]");</script><br />An array of double precision Y values (the
+            dependent values) that define the curve.</dd><dt><span class="parameter">color</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/14w97wkc" target="_blank">System.Drawing<span id="LSTF2E67C0D_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Color</a><br />The color to used for the bars</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="T_ZedGraph_BarItem.htm">BarItem</a><br />A <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> class for the newly created bar curve.
+            This can then be used to access all of the curve properties that
+            are not defined as arguments to the
+            <span class="selflink">AddBar(String, <span id="LSTF2E67C0D_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_13?cpp=array&lt;");</script>Double<span id="LSTF2E67C0D_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTF2E67C0D_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_15?cpp=array&lt;");</script>Double<span id="LSTF2E67C0D_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF2E67C0D_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Color)</span> method.</div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_ZedGraph_GraphPane.htm">GraphPane Class</a></div><div class="seeAlsoStyle"><a href="Overload_ZedGraph_GraphPane_AddBar.htm">AddBar Overload</a></div><div class="seeAlsoStyle"><a href="N_ZedGraph.htm">ZedGraph Namespace</a></div></div></div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2015. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

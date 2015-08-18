@@ -1,0 +1,394 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Line Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Line class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:ZedGraph.Line" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="ZedGraph" />
+    <meta name="file" content="Methods_T_ZedGraph_Line" />
+    <meta name="guid" content="Methods_T_ZedGraph_Line" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_ZedGraph.htm" title="ZedGraph" tocid="N_ZedGraph">ZedGraph</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_ZedGraph_Line.htm" title="Line Class" tocid="T_ZedGraph_Line">Line Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_ZedGraph_Line.htm" title="Line Methods" tocid="Methods_T_ZedGraph_Line">Line Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_System_ICloneable_Clone.htm" title="ICloneable.Clone Method " tocid="M_ZedGraph_Line_System_ICloneable_Clone">ICloneable.Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_BuildLowPointsArray.htm" title="BuildLowPointsArray Method " tocid="M_ZedGraph_Line_BuildLowPointsArray">BuildLowPointsArray Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_BuildPointsArray.htm" title="BuildPointsArray Method " tocid="M_ZedGraph_Line_BuildPointsArray">BuildPointsArray Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_Clone.htm" title="Clone Method " tocid="M_ZedGraph_Line_Clone">Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_CloseCurve.htm" title="CloseCurve Method " tocid="M_ZedGraph_Line_CloseCurve">CloseCurve Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_Draw.htm" title="Draw Method " tocid="M_ZedGraph_Line_Draw">Draw Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_DrawCurve.htm" title="DrawCurve Method " tocid="M_ZedGraph_Line_DrawCurve">DrawCurve Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_DrawCurveOriginal.htm" title="DrawCurveOriginal Method " tocid="M_ZedGraph_Line_DrawCurveOriginal">DrawCurveOriginal Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_DrawSegment.htm" title="DrawSegment Method " tocid="M_ZedGraph_Line_DrawSegment">DrawSegment Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_DrawSmoothFilledCurve.htm" title="DrawSmoothFilledCurve Method " tocid="M_ZedGraph_Line_DrawSmoothFilledCurve">DrawSmoothFilledCurve Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_DrawSticks.htm" title="DrawSticks Method " tocid="M_ZedGraph_Line_DrawSticks">DrawSticks Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_Line_GetObjectData.htm" title="GetObjectData Method " tocid="M_ZedGraph_Line_GetObjectData">GetObjectData Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">Line Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_ZedGraph_Line.htm">Line</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_BuildLowPointsArray.htm">BuildLowPointsArray</a>
+              </td>
+              <td>
+                <div class="summary">
+            Build an array of <a href="http://msdn2.microsoft.com/en-us/library/ckys1c1e" target="_blank">PointF</a> values (pixel coordinates) that represents
+            the low values for the current curve.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_BuildPointsArray.htm">BuildPointsArray</a>
+              </td>
+              <td>
+                <div class="summary">
+            Build an array of <a href="http://msdn2.microsoft.com/en-us/library/ckys1c1e" target="_blank">PointF</a> values (pixel coordinates) that represents
+            the current curve.  Note that this drawing routine ignores <a href="F_ZedGraph_PointPairBase_Missing.htm">Missing</a>
+            values, but it does not "break" the line to indicate values are missing.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_Clone.htm">Clone</a>
+              </td>
+              <td>
+                <div class="summary">
+            Typesafe, deep-copy clone method.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_CloseCurve.htm">CloseCurve</a>
+              </td>
+              <td>
+                <div class="summary">
+            Close off a <a href="http://msdn2.microsoft.com/en-us/library/fbkz3sfb" target="_blank">GraphicsPath</a> that defines a curve
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_Draw.htm">Draw</a>
+              </td>
+              <td>
+                <div class="summary">
+            Do all rendering associated with this <a href="T_ZedGraph_Line.htm">Line</a> to the specified
+            <a href="http://msdn2.microsoft.com/en-us/library/ac148eb3" target="_blank">Graphics</a> device.  This method is normally only
+            called by the Draw method of the parent <a href="T_ZedGraph_LineItem.htm">LineItem</a> object.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_DrawCurve.htm">DrawCurve</a>
+              </td>
+              <td>
+                <div class="summary">
+            Draw the this <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> to the specified <a href="http://msdn2.microsoft.com/en-us/library/ac148eb3" target="_blank">Graphics</a>
+            device.  The format (stair-step or line) of the curve is
+            defined by the <a href="P_ZedGraph_Line_StepType.htm">StepType</a> property.  The routine
+            only draws the line segments; the symbols are drawn by the
+            <a href="M_ZedGraph_Symbol_Draw.htm">Draw(Graphics, GraphPane, LineItem, Single, Boolean)</a> method.  This method
+            is normally only called by the Draw method of the
+            <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> object
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_DrawCurveOriginal.htm">DrawCurveOriginal</a>
+              </td>
+              <td>
+                <div class="summary">
+            Draw the this <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> to the specified <a href="http://msdn2.microsoft.com/en-us/library/ac148eb3" target="_blank">Graphics</a>
+            device.  The format (stair-step or line) of the curve is
+            defined by the <a href="P_ZedGraph_Line_StepType.htm">StepType</a> property.  The routine
+            only draws the line segments; the symbols are drawn by the
+            <a href="M_ZedGraph_Symbol_Draw.htm">Draw(Graphics, GraphPane, LineItem, Single, Boolean)</a> method.  This method
+            is normally only called by the Draw method of the
+            <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> object
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_DrawSegment.htm">DrawSegment</a>
+              </td>
+              <td>
+                <div class="summary">
+            Render a single <a href="T_ZedGraph_Line.htm">Line</a> segment to the specified
+            <a href="http://msdn2.microsoft.com/en-us/library/ac148eb3" target="_blank">Graphics</a> device.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_DrawSmoothFilledCurve.htm">DrawSmoothFilledCurve</a>
+              </td>
+              <td>
+                <div class="summary">
+            Draw the this <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> to the specified <a href="http://msdn2.microsoft.com/en-us/library/ac148eb3" target="_blank">Graphics</a>
+            device using the specified smoothing property (<a href="P_ZedGraph_Line_SmoothTension.htm">SmoothTension</a>).
+            The routine draws the line segments and the area fill (if any, see <a href="T_ZedGraph_FillType.htm">FillType</a>;
+            the symbols are drawn by the <a href="M_ZedGraph_Symbol_Draw.htm">Draw(Graphics, GraphPane, LineItem, Single, Boolean)</a> method.  This method
+            is normally only called by the Draw method of the
+            <a href="T_ZedGraph_CurveItem.htm">CurveItem</a> object.  Note that the <a href="P_ZedGraph_Line_StepType.htm">StepType</a> property
+            is ignored for smooth lines (e.g., when <a href="P_ZedGraph_Line_IsSmooth.htm">IsSmooth</a> is true).
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_DrawSticks.htm">DrawSticks</a>
+              </td>
+              <td>
+                <div class="summary">
+            Render the <a href="T_ZedGraph_Line.htm">Line</a>'s as vertical sticks (from a <a href="T_ZedGraph_StickItem.htm">StickItem</a>) to
+            the specified <a href="http://msdn2.microsoft.com/en-us/library/ac148eb3" target="_blank">Graphics</a> device.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_GetObjectData.htm">GetObjectData</a>
+              </td>
+              <td>
+                <div class="summary">
+            Populates a <a href="http://msdn2.microsoft.com/en-us/library/a9b6042e" target="_blank">SerializationInfo</a> instance with the data needed to serialize the target object
+            </div> (Overrides <a href="M_ZedGraph_LineBase_GetObjectData.htm">LineBase<span id="LST3A1F4CBF_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A1F4CBF_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetObjectData(SerializationInfo, StreamingContext)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_LineBase_GetPen.htm">GetPen(PaneBase, Single)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Create a <a href="http://msdn2.microsoft.com/en-us/library/9f23c0f4" target="_blank">Pen</a> object based on the properties of this
+            <a href="T_ZedGraph_LineBase.htm">LineBase</a>.
+            </div> (Inherited from <a href="T_ZedGraph_LineBase.htm">LineBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_LineBase_GetPen_1.htm">GetPen(PaneBase, Single, PointPair)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Create a <a href="http://msdn2.microsoft.com/en-us/library/9f23c0f4" target="_blank">Pen</a> object based on the properties of this
+            <a href="T_ZedGraph_LineBase.htm">LineBase</a>.
+            </div> (Inherited from <a href="T_ZedGraph_LineBase.htm">LineBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST3A1F4CBF_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A1F4CBF_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3A1F4CBF_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A1F4CBF_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Explicit Interface Implementations</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_Line_System_ICloneable_Clone.htm">ICloneable<span id="LST3A1F4CBF_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A1F4CBF_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Clone</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implement the <a href="http://msdn2.microsoft.com/en-us/library/hdf3zaf2" target="_blank">ICloneable</a> interface in a typesafe manner by just
+            calling the typed version of <a href="M_ZedGraph_Line_Clone.htm">Clone<span id="LST3A1F4CBF_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A1F4CBF_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0">
+            <img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID3RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_ZedGraph_Line.htm">Line Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_ZedGraph.htm">ZedGraph Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2015. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

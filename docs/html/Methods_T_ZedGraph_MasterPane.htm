@@ -1,0 +1,612 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MasterPane Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="MasterPane class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:ZedGraph.MasterPane" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="ZedGraph" />
+    <meta name="file" content="Methods_T_ZedGraph_MasterPane" />
+    <meta name="guid" content="Methods_T_ZedGraph_MasterPane" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_ZedGraph.htm" title="ZedGraph" tocid="N_ZedGraph">ZedGraph</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_ZedGraph_MasterPane.htm" title="MasterPane Class" tocid="T_ZedGraph_MasterPane">MasterPane Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_ZedGraph_MasterPane.htm" title="MasterPane Methods" tocid="Methods_T_ZedGraph_MasterPane">MasterPane Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_System_ICloneable_Clone.htm" title="ICloneable.Clone Method " tocid="M_ZedGraph_MasterPane_System_ICloneable_Clone">ICloneable.Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_Add.htm" title="Add Method " tocid="M_ZedGraph_MasterPane_Add">Add Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_MasterPane_AxisChange.htm" title="AxisChange Method " tocid="Overload_ZedGraph_MasterPane_AxisChange">AxisChange Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_Clone.htm" title="Clone Method " tocid="M_ZedGraph_MasterPane_Clone">Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_CommonScaleFactor.htm" title="CommonScaleFactor Method " tocid="M_ZedGraph_MasterPane_CommonScaleFactor">CommonScaleFactor Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_DoLayout.htm" title="DoLayout Method " tocid="M_ZedGraph_MasterPane_DoLayout">DoLayout Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_Draw.htm" title="Draw Method " tocid="M_ZedGraph_MasterPane_Draw">Draw Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_FindChartRect.htm" title="FindChartRect Method " tocid="M_ZedGraph_MasterPane_FindChartRect">FindChartRect Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_FindNearestPaneObject.htm" title="FindNearestPaneObject Method " tocid="M_ZedGraph_MasterPane_FindNearestPaneObject">FindNearestPaneObject Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_FindPane.htm" title="FindPane Method " tocid="M_ZedGraph_MasterPane_FindPane">FindPane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_GetObjectData.htm" title="GetObjectData Method " tocid="M_ZedGraph_MasterPane_GetObjectData">GetObjectData Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_MasterPane_OnDeserialization.htm" title="OnDeserialization Method " tocid="M_ZedGraph_MasterPane_OnDeserialization">OnDeserialization Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_MasterPane_ReSize.htm" title="ReSize Method " tocid="Overload_ZedGraph_MasterPane_ReSize">ReSize Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_MasterPane_SetLayout.htm" title="SetLayout Method " tocid="Overload_ZedGraph_MasterPane_SetLayout">SetLayout Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">MasterPane Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_ZedGraph_MasterPane.htm">MasterPane</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_Add.htm">Add</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add a <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> object to the <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a> collection at the end of the list.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_AxisChange.htm">AxisChange<span id="LST60C0F153_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Call <a href="M_ZedGraph_GraphPane_AxisChange.htm">AxisChange<span id="LST60C0F153_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> for all <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> objects in the
+            <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a> list.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_AxisChange_1.htm">AxisChange(Graphics)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Call <a href="M_ZedGraph_GraphPane_AxisChange.htm">AxisChange<span id="LST60C0F153_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> for all <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> objects in the
+            <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a> list.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_CalcClientRect.htm">CalcClientRect</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate the client area rectangle based on the <a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_CalcScaleFactor.htm">CalcScaleFactor</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate the scaling factor based on the ratio of the current <a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a> dimensions and
+            the <a href="F_ZedGraph_PaneBase_Default_BaseDimension.htm">BaseDimension</a>.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_Clone.htm">Clone</a>
+              </td>
+              <td>
+                <div class="summary">
+            Typesafe, deep-copy clone method.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_CommonScaleFactor.htm">CommonScaleFactor</a>
+              </td>
+              <td>
+                <div class="summary">
+            Method that forces the scale factor calculations
+            (via <a href="M_ZedGraph_PaneBase_CalcScaleFactor.htm">CalcScaleFactor<span id="LST60C0F153_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_3?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>),
+            to give a common scale factor for all <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> objects in the
+            <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_DoLayout.htm">DoLayout</a>
+              </td>
+              <td>
+                <div class="summary">
+            Modify the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a><a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a> sizes of each
+            <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> such that they fit within the <a href="T_ZedGraph_MasterPane.htm">MasterPane</a>
+            in a pre-configured layout.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_Draw.htm">Draw</a>
+              </td>
+              <td>
+                <div class="summary">
+            Render all the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> objects in the <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a> to the
+            specified graphics device.
+            </div> (Overrides <a href="M_ZedGraph_PaneBase_Draw.htm">PaneBase<span id="LST60C0F153_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Draw(Graphics)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_DrawPaneFrame.htm">DrawPaneFrame</a>
+              </td>
+              <td>
+                <div class="summary">
+            Draw the border _border around the <a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a> area.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_DrawTitle.htm">DrawTitle</a>
+              </td>
+              <td>
+                <div class="summary">
+            Draw the <a href="P_ZedGraph_PaneBase_Title.htm">Title</a> on the graph, centered at the top of the pane.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_FindChartRect.htm">FindChartRect</a>
+              </td>
+              <td>
+                <div class="summary">
+            Find the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> within the <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a> that contains the
+             within its <a href="P_ZedGraph_Chart_Rect.htm">Rect</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_FindNearestPaneObject.htm">FindNearestPaneObject</a>
+              </td>
+              <td>
+                <div class="summary">
+            Find the pane and the object within that pane that lies closest to the specified
+            mouse (screen) point.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_FindPane.htm">FindPane</a>
+              </td>
+              <td>
+                <div class="summary">
+            Find the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> within the <a href="P_ZedGraph_MasterPane_PaneList.htm">PaneList</a> that contains the
+             within its <a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetImage.htm">GetImage<span id="LST60C0F153_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_5?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Build a <a href="http://msdn2.microsoft.com/en-us/library/4e7y164x" target="_blank">Bitmap</a> object containing the graphical rendering of
+            all the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> objects in this list.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetImage_1.htm">GetImage(Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Build a <a href="http://msdn2.microsoft.com/en-us/library/4e7y164x" target="_blank">Bitmap</a> object containing the graphical rendering of
+            all the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a> objects in this list.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetImage_2.htm">GetImage(Int32, Int32, Single)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets an image for the current GraphPane, scaled to the specified size and resolution.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetImage_3.htm">GetImage(Int32, Int32, Single, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets an image for the current GraphPane, scaled to the specified size and resolution.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetMetafile.htm">GetMetafile<span id="LST60C0F153_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_6?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets an enhanced metafile image for the current GraphPane.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetMetafile_1.htm">GetMetafile(Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets an enhanced metafile image for the current GraphPane, scaled to the specified size.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_GetMetafile_2.htm">GetMetafile(Int32, Int32, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets an enhanced metafile image for the current GraphPane, scaled to the specified size.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_GetObjectData.htm">GetObjectData</a>
+              </td>
+              <td>
+                <div class="summary">
+            Populates a <a href="http://msdn2.microsoft.com/en-us/library/a9b6042e" target="_blank">SerializationInfo</a> instance with the data needed to serialize the target object
+            </div> (Overrides <a href="M_ZedGraph_PaneBase_GetObjectData.htm">PaneBase<span id="LST60C0F153_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetObjectData(SerializationInfo, StreamingContext)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_OnDeserialization.htm">OnDeserialization</a>
+              </td>
+              <td>
+                <div class="summary">
+            Respond to the callback when the MasterPane objects are fully initialized.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_ReSize.htm">ReSize(Graphics)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Redo the layout using the current size of the <a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>,
+            and also handle resizing the
+            contents by calling <a href="M_ZedGraph_MasterPane_DoLayout.htm">DoLayout(Graphics)</a>.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_ReSize_1.htm">ReSize(Graphics, RectangleF)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Change the size of the <a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>, and also handle resizing the
+            contents by calling <a href="M_ZedGraph_MasterPane_DoLayout.htm">DoLayout(Graphics)</a>.
+            </div> (Overrides <a href="M_ZedGraph_PaneBase_ReSize.htm">PaneBase<span id="LST60C0F153_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ReSize(Graphics, RectangleF)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_ScaledPenWidth.htm">ScaledPenWidth</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate the scaled pen width, taking into account the scaleFactor and the
+            setting of the <a href="P_ZedGraph_PaneBase_IsPenWidthScaled.htm">IsPenWidthScaled</a> property of the pane.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_SetLayout_3.htm">SetLayout(Graphics, PaneLayout)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Automatically set all of the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a><a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>'s in
+            the list to a pre-defined layout configuration from a <a href="T_ZedGraph_PaneLayout.htm">PaneLayout</a>
+            enumeration.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_SetLayout.htm">SetLayout(Graphics, Boolean, <span id="LST60C0F153_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_9?cpp=array&lt;");</script>Int32<span id="LST60C0F153_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Automatically set all of the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a><a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>'s in
+            the list to the specified configuration.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_SetLayout_2.htm">SetLayout(Graphics, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Automatically set all of the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a><a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>'s in
+            the list to a reasonable configuration.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_SetLayout_1.htm">SetLayout(Graphics, Boolean, <span id="LST60C0F153_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_11?cpp=array&lt;");</script>Int32<span id="LST60C0F153_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_12?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST60C0F153_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_13?cpp=array&lt;");</script>Single<span id="LST60C0F153_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Automatically set all of the <a href="T_ZedGraph_GraphPane.htm">GraphPane</a><a href="P_ZedGraph_PaneBase_Rect.htm">Rect</a>'s in
+            the list to the specified configuration.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_PaneBase_ShallowClone.htm">ShallowClone</a>
+              </td>
+              <td>
+                <div class="summary">
+            Create a shallow, memberwise copy of this class.
+            </div> (Inherited from <a href="T_ZedGraph_PaneBase.htm">PaneBase</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST60C0F153_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST60C0F153_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Explicit Interface Implementations</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="explicit;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" />
+                <img src="../icons/privmethod.gif" alt="Private method" title="Private method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_MasterPane_System_ICloneable_Clone.htm">ICloneable<span id="LST60C0F153_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Clone</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implement the <a href="http://msdn2.microsoft.com/en-us/library/hdf3zaf2" target="_blank">ICloneable</a> interface in a typesafe manner by just
+            calling the typed version of <a href="M_ZedGraph_MasterPane_Clone.htm">Clone<span id="LST60C0F153_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60C0F153_18?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> to make a deep copy.
+            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0">
+            <img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID3RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_ZedGraph_MasterPane.htm">MasterPane Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_ZedGraph.htm">ZedGraph Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2015. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

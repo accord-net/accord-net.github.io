@@ -1,0 +1,687 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>XDate Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="XDate structure, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:ZedGraph.XDate" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="ZedGraph" />
+    <meta name="file" content="Methods_T_ZedGraph_XDate" />
+    <meta name="guid" content="Methods_T_ZedGraph_XDate" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="N_ZedGraph.htm" title="ZedGraph" tocid="N_ZedGraph">ZedGraph</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="T_ZedGraph_XDate.htm" title="XDate Structure" tocid="T_ZedGraph_XDate">XDate Structure</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Methods_T_ZedGraph_XDate.htm" title="XDate Methods" tocid="Methods_T_ZedGraph_XDate">XDate Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddDays.htm" title="AddDays Method " tocid="M_ZedGraph_XDate_AddDays">AddDays Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddHours.htm" title="AddHours Method " tocid="M_ZedGraph_XDate_AddHours">AddHours Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddMilliseconds.htm" title="AddMilliseconds Method " tocid="M_ZedGraph_XDate_AddMilliseconds">AddMilliseconds Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddMinutes.htm" title="AddMinutes Method " tocid="M_ZedGraph_XDate_AddMinutes">AddMinutes Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddMonths.htm" title="AddMonths Method " tocid="M_ZedGraph_XDate_AddMonths">AddMonths Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddSeconds.htm" title="AddSeconds Method " tocid="M_ZedGraph_XDate_AddSeconds">AddSeconds Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_AddYears.htm" title="AddYears Method " tocid="M_ZedGraph_XDate_AddYears">AddYears Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_CalendarDateToJulianDay.htm" title="CalendarDateToJulianDay Method " tocid="Overload_ZedGraph_XDate_CalendarDateToJulianDay">CalendarDateToJulianDay Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_CalendarDateToXLDate.htm" title="CalendarDateToXLDate Method " tocid="Overload_ZedGraph_XDate_CalendarDateToXLDate">CalendarDateToXLDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_CompareTo.htm" title="CompareTo Method " tocid="M_ZedGraph_XDate_CompareTo">CompareTo Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_DateTimeToXLDate.htm" title="DateTimeToXLDate Method " tocid="M_ZedGraph_XDate_DateTimeToXLDate">DateTimeToXLDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_DecimalYearToXLDate.htm" title="DecimalYearToXLDate Method " tocid="M_ZedGraph_XDate_DecimalYearToXLDate">DecimalYearToXLDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_Equals.htm" title="Equals Method " tocid="M_ZedGraph_XDate_Equals">Equals Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_GetDate.htm" title="GetDate Method " tocid="Overload_ZedGraph_XDate_GetDate">GetDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_GetDayOfYear.htm" title="GetDayOfYear Method " tocid="M_ZedGraph_XDate_GetDayOfYear">GetDayOfYear Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_GetHashCode.htm" title="GetHashCode Method " tocid="M_ZedGraph_XDate_GetHashCode">GetHashCode Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_JulianDayToCalendarDate.htm" title="JulianDayToCalendarDate Method " tocid="Overload_ZedGraph_XDate_JulianDayToCalendarDate">JulianDayToCalendarDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_JulianDayToXLDate.htm" title="JulianDayToXLDate Method " tocid="M_ZedGraph_XDate_JulianDayToXLDate">JulianDayToXLDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_MakeValidDate.htm" title="MakeValidDate Method " tocid="M_ZedGraph_XDate_MakeValidDate">MakeValidDate Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_SetDate.htm" title="SetDate Method " tocid="Overload_ZedGraph_XDate_SetDate">SetDate Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_ToString.htm" title="ToString Method " tocid="Overload_ZedGraph_XDate_ToString">ToString Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="Overload_ZedGraph_XDate_XLDateToCalendarDate.htm" title="XLDateToCalendarDate Method " tocid="Overload_ZedGraph_XDate_XLDateToCalendarDate">XLDateToCalendarDate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_XLDateToDateTime.htm" title="XLDateToDateTime Method " tocid="M_ZedGraph_XDate_XLDateToDateTime">XLDateToDateTime Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_XLDateToDayOfWeek.htm" title="XLDateToDayOfWeek Method " tocid="M_ZedGraph_XDate_XLDateToDayOfWeek">XLDateToDayOfWeek Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_XLDateToDayOfYear.htm" title="XLDateToDayOfYear Method " tocid="M_ZedGraph_XDate_XLDateToDayOfYear">XLDateToDayOfYear Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_XLDateToDecimalYear.htm" title="XLDateToDecimalYear Method " tocid="M_ZedGraph_XDate_XLDateToDecimalYear">XLDateToDecimalYear Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_ZedGraph_XDate_XLDateToJulianDay.htm" title="XLDateToJulianDay Method " tocid="M_ZedGraph_XDate_XLDateToJulianDay">XLDateToJulianDay Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">XDate Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_ZedGraph_XDate.htm">XDate</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddDays.htm">AddDays</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of days (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddHours.htm">AddHours</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of hours (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddMilliseconds.htm">AddMilliseconds</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of milliseconds (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddMinutes.htm">AddMinutes</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of minutes (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddMonths.htm">AddMonths</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of Months (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddSeconds.htm">AddSeconds</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of seconds (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_AddYears.htm">AddYears</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the specified number of years (can be fractional) to the current XDate instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_CalendarDateToJulianDay.htm">CalendarDateToJulianDay(Int32, Int32, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an Astronomical Julian Day number from the specified Calendar date
+            (year, month, day, hour, minute, second), first normalizing all input data values
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_CalendarDateToJulianDay_1.htm">CalendarDateToJulianDay(Int32, Int32, Int32, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an Astronomical Julian Day number from the specified Calendar date
+            (year, month, day, hour, minute, second), first normalizing all input data values
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_CalendarDateToXLDate.htm">CalendarDateToXLDate(Int32, Int32, Int32, Int32, Int32, Double)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an XL Date from the specified Calendar date (year, month, day, hour, minute, second),
+            first normalizing all input data values.  The seconds value is a double type, allowing fractional
+            seconds.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_CalendarDateToXLDate_1.htm">CalendarDateToXLDate(Int32, Int32, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an XL Date from the specified Calendar date (year, month, day, hour, minute, second),
+            first normalizing all input data values.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_CalendarDateToXLDate_2.htm">CalendarDateToXLDate(Int32, Int32, Int32, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an XL Date from the specified Calendar date (year, month, day, hour, minute, second),
+            first normalizing all input data values.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_CompareTo.htm">CompareTo</a>
+              </td>
+              <td>
+                <div class="summary">
+            Compares one <a href="T_ZedGraph_XDate.htm">XDate</a> object to another.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_DateTimeToXLDate.htm">DateTimeToXLDate</a>
+              </td>
+              <td>
+                <div class="summary">
+            Convert a .Net DateTime struct to an XL Format date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_DecimalYearToXLDate.htm">DecimalYearToXLDate</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a decimal year value (e.g., 1994.6523) corresponding to the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_Equals.htm">Equals</a>
+              </td>
+              <td>
+                <div class="summary">
+            Tests whether obj is either an <a href="T_ZedGraph_XDate.htm">XDate</a> structure or
+            a double floating point value that is equal to the same date as this <span class="code">XDate</span>
+            struct instance.
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/2dts52z7" target="_blank">ValueType<span id="LSTC5217821_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Equals(Object)</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_GetDate.htm">GetDate(Int32<span id="LSTC5217821_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_1?cpp=%");</script>, Int32<span id="LSTC5217821_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_2?cpp=%");</script>, Int32<span id="LSTC5217821_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_3?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the calendar date (year, month, day) corresponding to this instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_GetDate_1.htm">GetDate(Int32<span id="LSTC5217821_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_4?cpp=%");</script>, Int32<span id="LSTC5217821_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_5?cpp=%");</script>, Int32<span id="LSTC5217821_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_6?cpp=%");</script>, Int32<span id="LSTC5217821_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_7?cpp=%");</script>, Int32<span id="LSTC5217821_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_8?cpp=%");</script>, Int32<span id="LSTC5217821_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_9?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the calendar date (year, month, day, hour, minute, second) corresponding
+            to this instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_GetDayOfYear.htm">GetDayOfYear</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the day of year value (241.345 means the 241st day of the year)
+            corresponding to this instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_GetHashCode.htm">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns the hash code for this <a href="T_ZedGraph_XDate.htm">XDate</a> structure.  In this case, the
+            hash code is simply the equivalent hash code for the floating point double date value.
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/y3509fc2" target="_blank">ValueType<span id="LSTC5217821_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetHashCode<span id="LSTC5217821_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_11?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_JulianDayToCalendarDate.htm">JulianDayToCalendarDate(Double, Int32<span id="LSTC5217821_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_12?cpp=%");</script>, Int32<span id="LSTC5217821_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_13?cpp=%");</script>, Int32<span id="LSTC5217821_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_14?cpp=%");</script>, Int32<span id="LSTC5217821_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_15?cpp=%");</script>, Int32<span id="LSTC5217821_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_16?cpp=%");</script>, Double<span id="LSTC5217821_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_17?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a Calendar date (year, month, day, hour, minute, second) corresponding to
+            the Astronomical Julian Day number
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_JulianDayToCalendarDate_1.htm">JulianDayToCalendarDate(Double, Int32<span id="LSTC5217821_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_18?cpp=%");</script>, Int32<span id="LSTC5217821_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_19?cpp=%");</script>, Int32<span id="LSTC5217821_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_20?cpp=%");</script>, Int32<span id="LSTC5217821_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_21?cpp=%");</script>, Int32<span id="LSTC5217821_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_22?cpp=%");</script>, Int32<span id="LSTC5217821_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_23?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a Calendar date (year, month, day, hour, minute, second) corresponding to
+            the Astronomical Julian Day number
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_JulianDayToCalendarDate_2.htm">JulianDayToCalendarDate(Double, Int32<span id="LSTC5217821_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_24?cpp=%");</script>, Int32<span id="LSTC5217821_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_25?cpp=%");</script>, Int32<span id="LSTC5217821_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_26?cpp=%");</script>, Int32<span id="LSTC5217821_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_27?cpp=%");</script>, Int32<span id="LSTC5217821_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_28?cpp=%");</script>, Int32<span id="LSTC5217821_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_29?cpp=%");</script>, Double<span id="LSTC5217821_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_30?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a Calendar date (year, month, day, hour, minute, second) corresponding to
+            the Astronomical Julian Day number
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_JulianDayToXLDate.htm">JulianDayToXLDate</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an XL Date corresponding to the specified Astronomical Julian Day number
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_MakeValidDate.htm">MakeValidDate</a>
+              </td>
+              <td>
+                <div class="summary">
+            Take the specified date, and bound it to the valid date range for the XDate struct.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_SetDate.htm">SetDate(Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Set the calendar date (year, month, day) of this instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_SetDate_1.htm">SetDate(Int32, Int32, Int32, Int32, Int32, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Set the calendar date (year, month, day, hour, minute, second) of this instance.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_ToString.htm">ToString<span id="LSTC5217821_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_31?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+            Format this XDate value using the default format string (see cref="DefaultFormatStr"/&gt;).
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h" target="_blank">ValueType<span id="LSTC5217821_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_32?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ToString<span id="LSTC5217821_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_33?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_ToString_1.htm">ToString(Double)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Format this XDate value using the default format string (<a href="F_ZedGraph_XDate_DefaultFormatStr.htm">DefaultFormatStr</a>).
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_ToString_3.htm">ToString(String)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Format this XL Date value using the specified format string.  The format
+            string is specified according to the <a href="P_ZedGraph_XDate_DateTime.htm">DateTime</a> class.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_ToString_2.htm">ToString(Double, String)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Format the specified XL Date value using the specified format string.  The format
+            string is specified according to the <a href="P_ZedGraph_XDate_DateTime.htm">DateTime</a> class.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToCalendarDate.htm">XLDateToCalendarDate(Double, Int32<span id="LSTC5217821_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_34?cpp=%");</script>, Int32<span id="LSTC5217821_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_35?cpp=%");</script>, Int32<span id="LSTC5217821_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_36?cpp=%");</script>, Int32<span id="LSTC5217821_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_37?cpp=%");</script>, Int32<span id="LSTC5217821_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_38?cpp=%");</script>, Double<span id="LSTC5217821_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_39?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a Calendar date (year, month, day, hour, minute, second) corresponding to
+            the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToCalendarDate_1.htm">XLDateToCalendarDate(Double, Int32<span id="LSTC5217821_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_40?cpp=%");</script>, Int32<span id="LSTC5217821_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_41?cpp=%");</script>, Int32<span id="LSTC5217821_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_42?cpp=%");</script>, Int32<span id="LSTC5217821_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_43?cpp=%");</script>, Int32<span id="LSTC5217821_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_44?cpp=%");</script>, Int32<span id="LSTC5217821_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_45?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a Calendar date (year, month, day, hour, minute, second) corresponding to
+            the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToCalendarDate_2.htm">XLDateToCalendarDate(Double, Int32<span id="LSTC5217821_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_46?cpp=%");</script>, Int32<span id="LSTC5217821_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_47?cpp=%");</script>, Int32<span id="LSTC5217821_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_48?cpp=%");</script>, Int32<span id="LSTC5217821_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_49?cpp=%");</script>, Int32<span id="LSTC5217821_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_50?cpp=%");</script>, Int32<span id="LSTC5217821_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_51?cpp=%");</script>, Int32<span id="LSTC5217821_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_52?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a Calendar date (year, month, day, hour, minute, second) corresponding to
+            the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToDateTime.htm">XLDateToDateTime</a>
+              </td>
+              <td>
+                <div class="summary">
+            Convert an XL date format to a .Net DateTime struct
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToDayOfWeek.htm">XLDateToDayOfWeek</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a day-of-week value (e.g., Sun=0, Mon=1, Tue=2, etc.)
+            corresponding to the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToDayOfYear.htm">XLDateToDayOfYear</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a day-of-year value (e.g., 241.543 corresponds to the 241st day of the year)
+            corresponding to the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToDecimalYear.htm">XLDateToDecimalYear</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate a decimal year value (e.g., 1994.6523) corresponding to the specified XL date
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_ZedGraph_XDate_XLDateToJulianDay.htm">XLDateToJulianDay</a>
+              </td>
+              <td>
+                <div class="summary">
+            Calculate an Astronomical Julian Day number corresponding to the specified XL date
+            </div>
+              </td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LSTC5217821_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_53?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTC5217821_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC5217821_54?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+              </td>
+              <td>
+                <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_ZedGraph_XDate.htm">XDate Structure</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_ZedGraph.htm">ZedGraph Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2015. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
