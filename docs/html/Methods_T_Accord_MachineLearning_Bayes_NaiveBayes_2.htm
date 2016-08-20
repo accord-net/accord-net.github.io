@@ -1,0 +1,1198 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>NaiveBayes(TDistribution, TInput) Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="NaiveBayes%3CTDistribution%2C TInput%3E class, methods" />
+    <meta name="System.Keywords" content="NaiveBayes(Of TDistribution%2C TInput) class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Accord.MachineLearning.Bayes.NaiveBayes`2" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.MachineLearning.Bayes" />
+    <meta name="file" content="Methods_T_Accord_MachineLearning_Bayes_NaiveBayes_2" />
+    <meta name="guid" content="Methods_T_Accord_MachineLearning_Bayes_NaiveBayes_2" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning_Bayes.htm" title="Accord.MachineLearning.Bayes" tocid="N_Accord_MachineLearning_Bayes">Accord.MachineLearning.Bayes</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_Bayes_NaiveBayes_2.htm" title="NaiveBayes(TDistribution, TInput) Class" tocid="T_Accord_MachineLearning_Bayes_NaiveBayes_2">NaiveBayes(TDistribution, TInput) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor.htm" title="NaiveBayes(TDistribution, TInput) Constructor " tocid="Overload_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor">NaiveBayes(TDistribution, TInput) Constructor </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="Properties_T_Accord_MachineLearning_Bayes_NaiveBayes_2.htm" title="NaiveBayes(TDistribution, TInput) Properties" tocid="Properties_T_Accord_MachineLearning_Bayes_NaiveBayes_2">NaiveBayes(TDistribution, TInput) Properties</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="Methods_T_Accord_MachineLearning_Bayes_NaiveBayes_2.htm" title="NaiveBayes(TDistribution, TInput) Methods" tocid="Methods_T_Accord_MachineLearning_Bayes_NaiveBayes_2">NaiveBayes(TDistribution, TInput) Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">NaiveBayes<span id="LSTD022F3F8_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TDistribution</span>, <span class="typeparameter">TInput</span><span id="LSTD022F3F8_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Accord_MachineLearning_Bayes_NaiveBayes_2.htm">NaiveBayes<span id="LSTD022F3F8_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TInput<span id="LSTD022F3F8_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ClassifierBase_2_Decide_1.htm">Decide(<span id="LSTD022F3F8_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_4?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes class-label decisions for a given set of <span class="parameter">input</span> vectors.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTD022F3F8_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTD022F3F8_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Decide.htm">Decide(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a class-label decision for a given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ClassifierBase_2_Decide_2.htm">Decide(<span id="LSTD022F3F8_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_10?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_12?cpp=array&lt;");</script>TClasses<span id="LSTD022F3F8_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+             Computes a class-label decision for a given <span class="parameter">input</span>.
+            
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTD022F3F8_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTD022F3F8_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide.htm">Decide(TInput, <span id="LSTD022F3F8_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_16?cpp=array&lt;");</script>Boolean<span id="LSTD022F3F8_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_1.htm">Decide(TInput, <span id="LSTD022F3F8_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_20?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_22?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_23?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_2.htm">Decide(TInput, <span id="LSTD022F3F8_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_24?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_25?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_26?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_27?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_3.htm">Decide(<span id="LSTD022F3F8_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_28?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_30?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a class-label decision for a given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_32?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_33?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">Equals</span>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <span class="nolink">Object</span> is equal to the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <span class="nolink">Finalize</span>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">GetHashCode</span>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">GetType</span>
+              </td>
+              <td>
+                <div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood.htm">LogLikelihood(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vector belongs to its most plausible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_34?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_35?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_4.htm">LogLikelihood(<span id="LSTD022F3F8_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_36?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vectors belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_38?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_39?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_3.htm">LogLikelihood(TInput, Int32<span id="LSTD022F3F8_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_40?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning the
+            log-likelihood that the input vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_41?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_42?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_5.htm">LogLikelihood(<span id="LSTD022F3F8_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_43?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_44?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_45?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vectors belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_47?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_48?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_8.htm">LogLikelihood(<span id="LSTD022F3F8_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_49?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_51?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_52?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_10.htm">LogLikelihood(<span id="LSTD022F3F8_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_53?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_55?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_56?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_57?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_58?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_12.htm">LogLikelihood(<span id="LSTD022F3F8_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_59?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_60?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_61?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_62?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_63?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for each input vector, returning the
+            log-likelihood that each vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_64?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_65?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_Bayes_Bayes_2_LogLikelihood.htm">LogLikelihood(TInput, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_Bayes_2.htm">Bayes<span id="LSTD022F3F8_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_66?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TInput<span id="LSTD022F3F8_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_67?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_9.htm">LogLikelihood(<span id="LSTD022F3F8_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_68?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_69?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LSTD022F3F8_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_70?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_71?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_72?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_73?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_11.htm">LogLikelihood(<span id="LSTD022F3F8_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_74?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_76?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_77?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_78?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_79?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_80?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_81?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihood_13.htm">LogLikelihood(<span id="LSTD022F3F8_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_82?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_83?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_84?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_85?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_86?cpp=%");</script>, <span id="LSTD022F3F8_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_87?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for each input vector, returning the
+            log-likelihood that each vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_89?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_90?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods.htm">LogLikelihoods(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_91?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_92?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_6.htm">LogLikelihoods(<span id="LSTD022F3F8_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_93?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_94?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vectors belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_95?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_96?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_3.htm">LogLikelihoods(TInput, <span id="LSTD022F3F8_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_97?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_98?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_99?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_100?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_4.htm">LogLikelihoods(TInput, Int32<span id="LSTD022F3F8_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_101?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning the
+            log-likelihoods of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_102?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_103?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_9.htm">LogLikelihoods(<span id="LSTD022F3F8_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_104?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_105?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_106?cpp=array&lt;");</script><span id="LSTD022F3F8_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_107?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_108?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_109?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_110?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_111?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_10.htm">LogLikelihoods(<span id="LSTD022F3F8_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_112?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_113?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_114?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_115?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_12.htm">LogLikelihoods(<span id="LSTD022F3F8_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_116?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_117?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_118?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_119?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_120?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for each input vector, returning the
+            log-likelihoods of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_121?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_122?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_5.htm">LogLikelihoods(TInput, Int32<span id="LSTD022F3F8_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_123?cpp=%");</script>, <span id="LSTD022F3F8_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_124?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_125?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning the
+            log-likelihoods of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_126?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_127?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_11.htm">LogLikelihoods(<span id="LSTD022F3F8_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_128?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_129?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LSTD022F3F8_130"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_130?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_131"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_131?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the log-likelihood that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_132"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_132?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_133"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_133?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_LogLikelihoods_13.htm">LogLikelihoods(<span id="LSTD022F3F8_134"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_134?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_135"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_135?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_136"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_136?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_137"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_137?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_138"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_138?cpp=%");</script>, <span id="LSTD022F3F8_139"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_139?cpp=array&lt;");</script><span id="LSTD022F3F8_140"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_140?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_141"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_141?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_142"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_142?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for each input vector, returning the
+            log-likelihoods of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_143"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_143?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_144"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_144?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <span class="nolink">MemberwiseClone</span>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities.htm">Probabilities(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probabilities that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_145"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_145?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_146"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_146?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_6.htm">Probabilities(<span id="LSTD022F3F8_147"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_147?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_148"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_148?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probabilities that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_149"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_149?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_150"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_150?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_3.htm">Probabilities(TInput, <span id="LSTD022F3F8_151"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_151?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_152"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_152?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probabilities that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_153"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_153?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_154"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_154?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_4.htm">Probabilities(TInput, Int32<span id="LSTD022F3F8_155"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_155?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning the
+            probabilities of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_156"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_156?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_157"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_157?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_9.htm">Probabilities(<span id="LSTD022F3F8_158"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_158?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_159"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_159?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_160"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_160?cpp=array&lt;");</script><span id="LSTD022F3F8_161"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_161?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_162"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_162?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_163"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_163?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probabilities that the given input
+            vector belongs to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_164"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_164?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_165"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_165?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_10.htm">Probabilities(<span id="LSTD022F3F8_166"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_166?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_167"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_167?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_168"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_168?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_169"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_169?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_170"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_170?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for each input vector, returning the
+            probabilities of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_171"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_171?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_172"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_172?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_5.htm">Probabilities(TInput, Int32<span id="LSTD022F3F8_173"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_173?cpp=%");</script>, <span id="LSTD022F3F8_174"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_174?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_175"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_175?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning the
+            probabilities of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_176"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_176?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_177"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_177?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probabilities_11.htm">Probabilities(<span id="LSTD022F3F8_178"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_178?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_179"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_179?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_180"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_180?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_181"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_181?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_182"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_182?cpp=%");</script>, <span id="LSTD022F3F8_183"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_183?cpp=array&lt;");</script><span id="LSTD022F3F8_184"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_184?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_185"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_185?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_186"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_186?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for each input vector, returning the
+            probabilities of the input vector belonging to each possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_187"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_187?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_188"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_188?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability.htm">Probability(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for the given input vector, returning the
+            probability that the input vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_189"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_189?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_190"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_190?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_4.htm">Probability(<span id="LSTD022F3F8_191"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_191?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_192"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_192?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for the given input vector, returning the
+            probability that the input vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_193"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_193?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_194"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_194?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_2.htm">Probability(TInput, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probability that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_195"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_195?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_196"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_196?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_3.htm">Probability(TInput, Int32<span id="LSTD022F3F8_197"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_197?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for the given input vector, returning the
+            probability that the input vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_198"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_198?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_199"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_199?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_5.htm">Probability(<span id="LSTD022F3F8_200"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_200?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_201"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_201?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_202"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_202?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_203"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_203?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for the given input vector, returning the
+            probability that the input vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_204"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_204?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_205"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_205?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_8.htm">Probability(<span id="LSTD022F3F8_206"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_206?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_207"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_207?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probability that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_208"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_208?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_209"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_209?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_10.htm">Probability(<span id="LSTD022F3F8_210"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_210?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_211"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_211?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_212"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_212?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_213"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_213?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probability that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_214"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_214?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_215"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_215?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_12.htm">Probability(<span id="LSTD022F3F8_216"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_216?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_217"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_217?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_218"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_218?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_219"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_219?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_220"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_220?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for each input vector, returning the
+            probability that each vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_221"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_221?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_222"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_222?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_9.htm">Probability(<span id="LSTD022F3F8_223"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_223?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_224"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_224?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LSTD022F3F8_225"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_225?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_226"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_226?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probability that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_227"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_227?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_228"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_228?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_11.htm">Probability(<span id="LSTD022F3F8_229"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_229?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_230"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_230?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_231"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_231?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_232"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_232?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_233"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_233?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_234"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_234?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes the probability that the given input vector
+            belongs to the specified <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_235"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_235?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_236"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_236?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Probability_13.htm">Probability(<span id="LSTD022F3F8_237"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_237?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_238"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_238?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_239"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_239?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_240"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_240?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_241"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_241?cpp=%");</script>, <span id="LSTD022F3F8_242"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_242?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_243"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_243?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for each input vector, returning the
+            probability that each vector belongs to its predicted class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_244"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_244?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_245"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_245?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score.htm">Score(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and its most strongly
+            associated class (as predicted by the classifier).
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_246"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_246?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_247"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_247?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_4.htm">Score(<span id="LSTD022F3F8_248"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_248?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_249"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_249?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and its most strongly
+            associated class (as predicted by the classifier).
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_250"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_250?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_251"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_251?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Score.htm">Score(TInput, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and a given
+            <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_252"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_252?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_253"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_253?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_3.htm">Score(TInput, Int32<span id="LSTD022F3F8_254"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_254?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for the input vector, returning a
+            numerical score measuring the strength of association of the
+            input vector to its most strongly related class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_255"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_255?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_256"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_256?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_5.htm">Score(<span id="LSTD022F3F8_257"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_257?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_258"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_258?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_259"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_259?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_260"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_260?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and its most strongly
+            associated class (as predicted by the classifier).
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_261"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_261?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_262"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_262?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_8.htm">Score(<span id="LSTD022F3F8_263"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_263?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_264"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_264?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and a given
+            <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_265"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_265?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_266"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_266?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_10.htm">Score(<span id="LSTD022F3F8_267"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_267?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_268"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_268?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_269"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_269?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_270"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_270?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and a given
+            <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_271"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_271?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_272"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_272?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_12.htm">Score(<span id="LSTD022F3F8_273"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_273?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_274"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_274?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_275"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_275?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_276"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_276?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_277"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_277?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for each input vector, returning a
+            numerical score measuring the strength of association of the
+            input vector to the most strongly related class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_278"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_278?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_279"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_279?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_9.htm">Score(<span id="LSTD022F3F8_280"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_280?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_281"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_281?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LSTD022F3F8_282"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_282?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_283"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_283?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and a given
+            <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_284"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_284?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_285"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_285?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_11.htm">Score(<span id="LSTD022F3F8_286"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_286?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_287"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_287?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_288"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_288?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_289"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_289?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_290"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_290?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_291"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_291?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and a given
+            <span class="parameter">classIndex</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_292"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_292?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_293"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_293?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Score_13.htm">Score(<span id="LSTD022F3F8_294"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_294?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_295"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_295?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_296"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_296?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_297"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_297?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_298"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_298?cpp=%");</script>, <span id="LSTD022F3F8_299"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_299?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_300"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_300?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label for each input vector, returning a
+            numerical score measuring the strength of association of the
+            input vector to the most strongly related class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_301"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_301?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_302"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_302?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores.htm">Scores(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and each class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_303"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_303?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_304"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_304?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_6.htm">Scores(<span id="LSTD022F3F8_305"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_305?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_306"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_306?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and each class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_307"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_307?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_308"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_308?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_3.htm">Scores(TInput, <span id="LSTD022F3F8_309"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_309?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_310"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_310?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+             Computes a numerical score measuring the association between
+             the given <span class="parameter">input</span> vector and each class.
+             </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_311"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_311?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_312"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_312?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_4.htm">Scores(TInput, Int32<span id="LSTD022F3F8_313"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_313?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning a
+            numerical score measuring the strength of association of the input vector
+            to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_314"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_314?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_315"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_315?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_9.htm">Scores(<span id="LSTD022F3F8_316"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_316?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_317"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_317?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_318"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_318?cpp=array&lt;");</script><span id="LSTD022F3F8_319"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_319?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_320"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_320?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_321"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_321?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes a numerical score measuring the association between
+            the given <span class="parameter">input</span> vector and each class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_322"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_322?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_323"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_323?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_10.htm">Scores(<span id="LSTD022F3F8_324"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_324?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_325"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_325?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_326"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_326?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_327"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_327?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_328"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_328?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for each input vector, returning a
+            numerical score measuring the strength of association of the input vector
+            to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_329"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_329?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_330"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_330?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_5.htm">Scores(TInput, Int32<span id="LSTD022F3F8_331"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_331?cpp=%");</script>, <span id="LSTD022F3F8_332"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_332?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_333"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_333?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for the given input vector, returning a
+            numerical score measuring the strength of association of the input vector
+            to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_334"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_334?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_335"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_335?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassScoreClassifierBase_1_Scores_11.htm">Scores(<span id="LSTD022F3F8_336"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_336?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_337"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_337?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_338"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_338?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_339"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_339?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_340"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_340?cpp=%");</script>, <span id="LSTD022F3F8_341"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_341?cpp=array&lt;");</script><span id="LSTD022F3F8_342"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_342?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_343"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_343?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_344"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_344?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a class label vector for each input vector, returning a
+            numerical score measuring the strength of association of the input vector
+            to each of the possible classes.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassScoreClassifierBase_1.htm">MulticlassScoreClassifierBase<span id="LSTD022F3F8_345"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_345?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_346"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_346?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_ToMultilabel.htm">ToMultilabel</a>
+              </td>
+              <td>
+                <div class="summary">
+            Views this instance as a multi-label generative classifier,
+            giving access to more advanced methods, such as the prediction
+            of one-hot vectors.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_347"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_347?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_348"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_348?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">ToString</span>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ClassifierBase_2_Transform.htm">Transform(TInput)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTD022F3F8_349"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_349?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTD022F3F8_350"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_350?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TransformBase_2_Transform_1.htm">Transform(<span id="LSTD022F3F8_351"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_351?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_352"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_352?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Applies the transformation to a set of input vectors,
+              producing an associated set of output vectors.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TransformBase_2.htm">TransformBase<span id="LSTD022F3F8_353"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_353?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LSTD022F3F8_354"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_354?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ClassifierBase_2_Transform_1.htm">Transform(<span id="LSTD022F3F8_355"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_355?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_356"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_356?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_357"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_357?cpp=array&lt;");</script>TClasses<span id="LSTD022F3F8_358"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_358?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTD022F3F8_359"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_359?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTD022F3F8_360"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_360?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Transform.htm">Transform(TInput, <span id="LSTD022F3F8_361"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_361?cpp=array&lt;");</script>Boolean<span id="LSTD022F3F8_362"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_362?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_363"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_363?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_364"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_364?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Transform_2.htm">Transform(TInput, <span id="LSTD022F3F8_365"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_365?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_366"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_366?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_367"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_367?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_368"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_368?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Transform_3.htm">Transform(<span id="LSTD022F3F8_369"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_369?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_370"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_370?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_371"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_371?cpp=array&lt;");</script><span id="LSTD022F3F8_372"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_372?cpp=array&lt;");</script>Boolean<span id="LSTD022F3F8_373"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_373?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_374"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_374?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_375"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_375?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_376"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_376?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Transform_4.htm">Transform(<span id="LSTD022F3F8_377"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_377?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_378"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_378?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_379"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_379?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_380"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_380?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_381"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_381?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_382"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_382?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Transform_6.htm">Transform(<span id="LSTD022F3F8_383"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_383?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_384"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_384?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_385"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_385?cpp=array&lt;");</script><span id="LSTD022F3F8_386"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_386?cpp=array&lt;");</script>Int32<span id="LSTD022F3F8_387"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_387?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_388"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_388?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTD022F3F8_389"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_389?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_390"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_390?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Transform.htm">Transform(TInput, <span id="LSTD022F3F8_391"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_391?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_392"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_392?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_393"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_393?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_394"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_394?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1_Transform_1.htm">Transform(<span id="LSTD022F3F8_395"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_395?cpp=array&lt;");</script>TInput<span id="LSTD022F3F8_396"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_396?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTD022F3F8_397"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_397?cpp=array&lt;");</script><span id="LSTD022F3F8_398"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_398?cpp=array&lt;");</script>Double<span id="LSTD022F3F8_399"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_399?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTD022F3F8_400"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_400?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassLikelihoodClassifierBase_1.htm">MulticlassLikelihoodClassifierBase<span id="LSTD022F3F8_401"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_401?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTD022F3F8_402"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_402?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a>
+              </td>
+              <td>
+                <div class="summary">
+              Checks whether an object implements a method with the given name.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTD022F3F8_403"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_403?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD022F3F8_404"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_404?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTD022F3F8_405"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_405?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LSTD022F3F8_406"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_406?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTD022F3F8_407"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_407?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTD022F3F8_408"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_408?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_MachineLearning_Bayes_NaiveBayes_2.htm">NaiveBayes<span id="LSTD022F3F8_409"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_409?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TInput<span id="LSTD022F3F8_410"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD022F3F8_410?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_MachineLearning_Bayes.htm">Accord.MachineLearning.Bayes Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
