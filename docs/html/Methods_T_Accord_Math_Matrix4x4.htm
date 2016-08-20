@@ -1,0 +1,454 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Matrix4x4 Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Matrix4x4 structure, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Accord.Math.Matrix4x4" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.Math" />
+    <meta name="file" content="Methods_T_Accord_Math_Matrix4x4" />
+    <meta name="guid" content="Methods_T_Accord_Math_Matrix4x4" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Math.htm" title="Accord.Math" tocid="N_Accord_Math">Accord.Math</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Math_Matrix4x4.htm" title="Matrix4x4 Structure" tocid="T_Accord_Math_Matrix4x4">Matrix4x4 Structure</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_Math_Matrix4x4.htm" title="Matrix4x4 Methods" tocid="Methods_T_Accord_Math_Matrix4x4">Matrix4x4 Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_Add.htm" title="Add Method " tocid="M_Accord_Math_Matrix4x4_Add">Add Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateDiagonal.htm" title="CreateDiagonal Method " tocid="M_Accord_Math_Matrix4x4_CreateDiagonal">CreateDiagonal Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateFromColumns.htm" title="CreateFromColumns Method " tocid="M_Accord_Math_Matrix4x4_CreateFromColumns">CreateFromColumns Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateFromRotation.htm" title="CreateFromRotation Method " tocid="M_Accord_Math_Matrix4x4_CreateFromRotation">CreateFromRotation Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateFromRows.htm" title="CreateFromRows Method " tocid="M_Accord_Math_Matrix4x4_CreateFromRows">CreateFromRows Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateFromYawPitchRoll.htm" title="CreateFromYawPitchRoll Method " tocid="M_Accord_Math_Matrix4x4_CreateFromYawPitchRoll">CreateFromYawPitchRoll Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateLookAt.htm" title="CreateLookAt Method " tocid="M_Accord_Math_Matrix4x4_CreateLookAt">CreateLookAt Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreatePerspective.htm" title="CreatePerspective Method " tocid="M_Accord_Math_Matrix4x4_CreatePerspective">CreatePerspective Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateRotationX.htm" title="CreateRotationX Method " tocid="M_Accord_Math_Matrix4x4_CreateRotationX">CreateRotationX Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateRotationY.htm" title="CreateRotationY Method " tocid="M_Accord_Math_Matrix4x4_CreateRotationY">CreateRotationY Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateRotationZ.htm" title="CreateRotationZ Method " tocid="M_Accord_Math_Matrix4x4_CreateRotationZ">CreateRotationZ Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_CreateTranslation.htm" title="CreateTranslation Method " tocid="M_Accord_Math_Matrix4x4_CreateTranslation">CreateTranslation Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Math_Matrix4x4_Equals.htm" title="Equals Method " tocid="Overload_Accord_Math_Matrix4x4_Equals">Equals Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_ExtractYawPitchRoll.htm" title="ExtractYawPitchRoll Method " tocid="M_Accord_Math_Matrix4x4_ExtractYawPitchRoll">ExtractYawPitchRoll Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_GetColumn.htm" title="GetColumn Method " tocid="M_Accord_Math_Matrix4x4_GetColumn">GetColumn Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_GetHashCode.htm" title="GetHashCode Method " tocid="M_Accord_Math_Matrix4x4_GetHashCode">GetHashCode Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_GetRow.htm" title="GetRow Method " tocid="M_Accord_Math_Matrix4x4_GetRow">GetRow Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Math_Matrix4x4_Multiply.htm" title="Multiply Method " tocid="Overload_Accord_Math_Matrix4x4_Multiply">Multiply Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_Subtract.htm" title="Subtract Method " tocid="M_Accord_Math_Matrix4x4_Subtract">Subtract Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Math_Matrix4x4_ToArray.htm" title="ToArray Method " tocid="M_Accord_Math_Matrix4x4_ToArray">ToArray Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">Matrix4x4 Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Accord_Math_Matrix4x4.htm">Matrix4x4</a> type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_Add.htm">Add</a>
+              </td>
+              <td>
+                <div class="summary">
+             Adds corresponding components of two matrices.
+             </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateDiagonal.htm">CreateDiagonal</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates a diagonal matrix using the specified vector as diagonal elements.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateFromColumns.htm">CreateFromColumns</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates a matrix from 4 columns specified as vectors.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateFromRotation.htm">CreateFromRotation</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates 4x4 tranformation matrix from 3x3 rotation matrix.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateFromRows.htm">CreateFromRows</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates a matrix from 4 rows specified as vectors.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateFromYawPitchRoll.htm">CreateFromYawPitchRoll</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates rotation matrix to rotate an object around X, Y and Z axes.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateLookAt.htm">CreateLookAt</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates a view matrix for the specified camera position and target point.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreatePerspective.htm">CreatePerspective</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates a perspective projection matrix.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateRotationX.htm">CreateRotationX</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates rotation matrix around X axis.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateRotationY.htm">CreateRotationY</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates rotation matrix around Y axis.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateRotationZ.htm">CreateRotationZ</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates rotation matrix around Z axis.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_CreateTranslation.htm">CreateTranslation</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates translation matrix for the specified movement amount.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_Equals_1.htm">Equals(Object)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Tests whether the matrix equals to the specified object.
+            </div> (Overrides <span class="nolink">ValueType<span id="LST7995B0E9_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Equals(Object)</span>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_Equals.htm">Equals(Matrix4x4)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Tests whether the matrix equals to the specified one.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_ExtractYawPitchRoll.htm">ExtractYawPitchRoll</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract rotation angles from the rotation matrix.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_GetColumn.htm">GetColumn</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get column of the matrix.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_GetHashCode.htm">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns the hashcode for this instance.
+            </div> (Overrides <span class="nolink">ValueType<span id="LST7995B0E9_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetHashCode<span id="LST7995B0E9_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></span>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_GetRow.htm">GetRow</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get row of the matrix.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">GetType</span>
+              </td>
+              <td>
+                <div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_Multiply.htm">Multiply(Matrix4x4, Matrix4x4)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Multiplies two specified matrices.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_Multiply_1.htm">Multiply(Matrix4x4, Vector4)</a>
+              </td>
+              <td>
+                <div class="summary">
+             Multiplies specified matrix by the specified vector.
+             </div>
+              </td>
+            </tr>
+            <tr data="public;static;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                <img src="../icons/static.gif" alt="Static member" title="Static member" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_Subtract.htm">Subtract</a>
+              </td>
+              <td>
+                <div class="summary">
+             Subtracts corresponding components of two matrices.
+             </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix4x4_ToArray.htm">ToArray</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns array representation of the matrix.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">ToString</span>
+              </td>
+              <td>
+                <div class="summary">Returns the fully qualified type name of this instance.</div> (Inherited from <span class="nolink">ValueType</span>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a>
+              </td>
+              <td>
+                <div class="summary">
+              Checks whether an object implements a method with the given name.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST7995B0E9_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST7995B0E9_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST7995B0E9_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_5?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST7995B0E9_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST7995B0E9_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST7995B0E9_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7995B0E9_8?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_Math_Matrix4x4.htm">Matrix4x4 Structure</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_Math.htm">Accord.Math Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

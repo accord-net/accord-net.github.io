@@ -1,0 +1,814 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>LikelihoodTaggerBase(TInput) Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="LikelihoodTaggerBase%3CTInput%3E class, methods" />
+    <meta name="System.Keywords" content="LikelihoodTaggerBase(Of TInput) class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:Accord.MachineLearning.LikelihoodTaggerBase`1" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.MachineLearning" />
+    <meta name="file" content="Methods_T_Accord_MachineLearning_LikelihoodTaggerBase_1" />
+    <meta name="guid" content="Methods_T_Accord_MachineLearning_LikelihoodTaggerBase_1" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning.htm" title="Accord.MachineLearning" tocid="N_Accord_MachineLearning">Accord.MachineLearning</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_LikelihoodTaggerBase_1.htm" title="LikelihoodTaggerBase(TInput) Class" tocid="T_Accord_MachineLearning_LikelihoodTaggerBase_1">LikelihoodTaggerBase(TInput) Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_MachineLearning_LikelihoodTaggerBase_1.htm" title="LikelihoodTaggerBase(TInput) Methods" tocid="Methods_T_Accord_MachineLearning_LikelihoodTaggerBase_1">LikelihoodTaggerBase(TInput) Methods</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood.htm" title="LogLikelihood Method " tocid="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood">LogLikelihood Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods.htm" title="LogLikelihoods Method " tocid="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods">LogLikelihoods Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities.htm" title="Probabilities Method " tocid="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities">Probabilities Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability.htm" title="Probability Method " tocid="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability">Probability Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Scores.htm" title="Scores Method " tocid="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Scores">Scores Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Transform.htm" title="Transform Method " tocid="Overload_Accord_MachineLearning_LikelihoodTaggerBase_1_Transform">Transform Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">LikelihoodTaggerBase<span id="LST63413D6A_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TInput</span><span id="LST63413D6A_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Methods</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <p>The <a href="T_Accord_MachineLearning_LikelihoodTaggerBase_1.htm">LikelihoodTaggerBase<span id="LST63413D6A_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TaggerBase_1_Decide.htm">Decide(<span id="LST63413D6A_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_4?cpp=array&lt;");</script>TInput<span id="LST63413D6A_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TaggerBase_1.htm">TaggerBase<span id="LST63413D6A_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TaggerBase_1_Decide_2.htm">Decide(<span id="LST63413D6A_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_8?cpp=array&lt;");</script><span id="LST63413D6A_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_9?cpp=array&lt;");</script>TInput<span id="LST63413D6A_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TaggerBase_1.htm">TaggerBase<span id="LST63413D6A_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TaggerBase_1_Decide_1.htm">Decide(<span id="LST63413D6A_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_14?cpp=array&lt;");</script>TInput<span id="LST63413D6A_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_15?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_16?cpp=array&lt;");</script>Int32<span id="LST63413D6A_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TaggerBase_1.htm">TaggerBase<span id="LST63413D6A_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TaggerBase_1_Decide_3.htm">Decide(<span id="LST63413D6A_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_20?cpp=array&lt;");</script><span id="LST63413D6A_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_21?cpp=array&lt;");</script>TInput<span id="LST63413D6A_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_23?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_24?cpp=array&lt;");</script><span id="LST63413D6A_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_25?cpp=array&lt;");</script>Int32<span id="LST63413D6A_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes class-label decisions for the given <span class="parameter">input</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TaggerBase_1.htm">TaggerBase<span id="LST63413D6A_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_28?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_29?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">Equals</span>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <span class="nolink">Object</span> is equal to the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <span class="nolink">Finalize</span>
+              </td>
+              <td>
+                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">GetHashCode</span>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">GetType</span>
+              </td>
+              <td>
+                <div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood.htm">LogLikelihood(<span id="LST63413D6A_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_30?cpp=array&lt;");</script>TInput<span id="LST63413D6A_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood_2.htm">LogLikelihood(<span id="LST63413D6A_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_32?cpp=array&lt;");</script><span id="LST63413D6A_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_33?cpp=array&lt;");</script>TInput<span id="LST63413D6A_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood_1.htm">LogLikelihood(<span id="LST63413D6A_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_36?cpp=array&lt;");</script>TInput<span id="LST63413D6A_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_38?cpp=array&lt;");</script>Int32<span id="LST63413D6A_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_40?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood_3.htm">LogLikelihood(<span id="LST63413D6A_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_41?cpp=array&lt;");</script><span id="LST63413D6A_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_42?cpp=array&lt;");</script>TInput<span id="LST63413D6A_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_44?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_45?cpp=array&lt;");</script>Double<span id="LST63413D6A_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood_4.htm">LogLikelihood(<span id="LST63413D6A_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_47?cpp=array&lt;");</script><span id="LST63413D6A_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_48?cpp=array&lt;");</script>TInput<span id="LST63413D6A_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_51?cpp=array&lt;");</script><span id="LST63413D6A_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_52?cpp=array&lt;");</script>Int32<span id="LST63413D6A_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_55?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihood_5.htm">LogLikelihood(<span id="LST63413D6A_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_56?cpp=array&lt;");</script><span id="LST63413D6A_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_57?cpp=array&lt;");</script>TInput<span id="LST63413D6A_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_58?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_60?cpp=array&lt;");</script><span id="LST63413D6A_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_61?cpp=array&lt;");</script>Int32<span id="LST63413D6A_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_62?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_63?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_64?cpp=%");</script>, <span id="LST63413D6A_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_65?cpp=array&lt;");</script>Double<span id="LST63413D6A_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_66?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods.htm">LogLikelihoods(<span id="LST63413D6A_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_67?cpp=array&lt;");</script>TInput<span id="LST63413D6A_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_68?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_4.htm">LogLikelihoods(<span id="LST63413D6A_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_69?cpp=array&lt;");</script><span id="LST63413D6A_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_70?cpp=array&lt;");</script>TInput<span id="LST63413D6A_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_71?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_72?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_1.htm">LogLikelihoods(<span id="LST63413D6A_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_73?cpp=array&lt;");</script>TInput<span id="LST63413D6A_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_74?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_75?cpp=array&lt;");</script><span id="LST63413D6A_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_76?cpp=array&lt;");</script>Double<span id="LST63413D6A_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_77?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_2.htm">LogLikelihoods(<span id="LST63413D6A_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_79?cpp=array&lt;");</script>TInput<span id="LST63413D6A_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_81?cpp=array&lt;");</script>Int32<span id="LST63413D6A_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_83?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_5.htm">LogLikelihoods(<span id="LST63413D6A_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_84?cpp=array&lt;");</script><span id="LST63413D6A_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_85?cpp=array&lt;");</script>TInput<span id="LST63413D6A_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_86?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_87?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_88?cpp=array&lt;");</script><span id="LST63413D6A_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_89?cpp=array&lt;");</script><span id="LST63413D6A_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_90?cpp=array&lt;");</script>Double<span id="LST63413D6A_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_91?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_92?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_93?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_6.htm">LogLikelihoods(<span id="LST63413D6A_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_94?cpp=array&lt;");</script><span id="LST63413D6A_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_95?cpp=array&lt;");</script>TInput<span id="LST63413D6A_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_96?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_98?cpp=array&lt;");</script><span id="LST63413D6A_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_99?cpp=array&lt;");</script>Int32<span id="LST63413D6A_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_100?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_101?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_102?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_3.htm">LogLikelihoods(<span id="LST63413D6A_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_103?cpp=array&lt;");</script>TInput<span id="LST63413D6A_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_104?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_105?cpp=array&lt;");</script>Int32<span id="LST63413D6A_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_106?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_107?cpp=%");</script>, <span id="LST63413D6A_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_108?cpp=array&lt;");</script><span id="LST63413D6A_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_109?cpp=array&lt;");</script>Double<span id="LST63413D6A_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_110?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_111?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_LogLikelihoods_7.htm">LogLikelihoods(<span id="LST63413D6A_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_112?cpp=array&lt;");</script><span id="LST63413D6A_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_113?cpp=array&lt;");</script>TInput<span id="LST63413D6A_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_114?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_115?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_116?cpp=array&lt;");</script><span id="LST63413D6A_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_117?cpp=array&lt;");</script>Int32<span id="LST63413D6A_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_118?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_119?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_120?cpp=%");</script>, <span id="LST63413D6A_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_121?cpp=array&lt;");</script><span id="LST63413D6A_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_122?cpp=array&lt;");</script><span id="LST63413D6A_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_123?cpp=array&lt;");</script>Double<span id="LST63413D6A_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_124?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_125?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_126?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <span class="nolink">MemberwiseClone</span>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities.htm">Probabilities(<span id="LST63413D6A_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_127?cpp=array&lt;");</script>TInput<span id="LST63413D6A_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_128?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probabilities for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_4.htm">Probabilities(<span id="LST63413D6A_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_129?cpp=array&lt;");</script><span id="LST63413D6A_130"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_130?cpp=array&lt;");</script>TInput<span id="LST63413D6A_131"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_131?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_132"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_132?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_1.htm">Probabilities(<span id="LST63413D6A_133"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_133?cpp=array&lt;");</script>TInput<span id="LST63413D6A_134"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_134?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_135"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_135?cpp=array&lt;");</script><span id="LST63413D6A_136"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_136?cpp=array&lt;");</script>Double<span id="LST63413D6A_137"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_137?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_138"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_138?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probabilities for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_2.htm">Probabilities(<span id="LST63413D6A_139"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_139?cpp=array&lt;");</script>TInput<span id="LST63413D6A_140"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_140?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_141"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_141?cpp=array&lt;");</script>Int32<span id="LST63413D6A_142"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_142?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_143"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_143?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_5.htm">Probabilities(<span id="LST63413D6A_144"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_144?cpp=array&lt;");</script><span id="LST63413D6A_145"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_145?cpp=array&lt;");</script>TInput<span id="LST63413D6A_146"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_146?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_147"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_147?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_148"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_148?cpp=array&lt;");</script><span id="LST63413D6A_149"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_149?cpp=array&lt;");</script><span id="LST63413D6A_150"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_150?cpp=array&lt;");</script>Double<span id="LST63413D6A_151"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_151?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_152"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_152?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_153"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_153?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_6.htm">Probabilities(<span id="LST63413D6A_154"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_154?cpp=array&lt;");</script><span id="LST63413D6A_155"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_155?cpp=array&lt;");</script>TInput<span id="LST63413D6A_156"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_156?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_157"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_157?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_158"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_158?cpp=array&lt;");</script><span id="LST63413D6A_159"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_159?cpp=array&lt;");</script>Int32<span id="LST63413D6A_160"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_160?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_161"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_161?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_162"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_162?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probabilities for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_3.htm">Probabilities(<span id="LST63413D6A_163"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_163?cpp=array&lt;");</script>TInput<span id="LST63413D6A_164"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_164?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_165"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_165?cpp=array&lt;");</script>Int32<span id="LST63413D6A_166"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_166?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_167"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_167?cpp=%");</script>, <span id="LST63413D6A_168"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_168?cpp=array&lt;");</script><span id="LST63413D6A_169"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_169?cpp=array&lt;");</script>Double<span id="LST63413D6A_170"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_170?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_171"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_171?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the log-likelihood for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probabilities_7.htm">Probabilities(<span id="LST63413D6A_172"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_172?cpp=array&lt;");</script><span id="LST63413D6A_173"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_173?cpp=array&lt;");</script>TInput<span id="LST63413D6A_174"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_174?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_175"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_175?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_176"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_176?cpp=array&lt;");</script><span id="LST63413D6A_177"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_177?cpp=array&lt;");</script>Int32<span id="LST63413D6A_178"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_178?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_179"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_179?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_180"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_180?cpp=%");</script>, <span id="LST63413D6A_181"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_181?cpp=array&lt;");</script><span id="LST63413D6A_182"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_182?cpp=array&lt;");</script><span id="LST63413D6A_183"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_183?cpp=array&lt;");</script>Double<span id="LST63413D6A_184"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_184?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_185"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_185?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_186"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_186?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probabilities for each of the observations in
+            the sequence vector assuming each of the possible states in the
+            tagger model.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability.htm">Probability(<span id="LST63413D6A_187"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_187?cpp=array&lt;");</script>TInput<span id="LST63413D6A_188"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_188?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability_2.htm">Probability(<span id="LST63413D6A_189"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_189?cpp=array&lt;");</script><span id="LST63413D6A_190"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_190?cpp=array&lt;");</script>TInput<span id="LST63413D6A_191"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_191?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_192"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_192?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability_1.htm">Probability(<span id="LST63413D6A_193"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_193?cpp=array&lt;");</script>TInput<span id="LST63413D6A_194"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_194?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_195"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_195?cpp=array&lt;");</script>Int32<span id="LST63413D6A_196"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_196?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_197"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_197?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability_3.htm">Probability(<span id="LST63413D6A_198"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_198?cpp=array&lt;");</script><span id="LST63413D6A_199"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_199?cpp=array&lt;");</script>TInput<span id="LST63413D6A_200"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_200?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_201"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_201?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_202"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_202?cpp=array&lt;");</script>Double<span id="LST63413D6A_203"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_203?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability_4.htm">Probability(<span id="LST63413D6A_204"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_204?cpp=array&lt;");</script><span id="LST63413D6A_205"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_205?cpp=array&lt;");</script>TInput<span id="LST63413D6A_206"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_206?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_207"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_207?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_208"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_208?cpp=array&lt;");</script><span id="LST63413D6A_209"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_209?cpp=array&lt;");</script>Int32<span id="LST63413D6A_210"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_210?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_211"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_211?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_212"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_212?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Probability_5.htm">Probability(<span id="LST63413D6A_213"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_213?cpp=array&lt;");</script><span id="LST63413D6A_214"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_214?cpp=array&lt;");</script>TInput<span id="LST63413D6A_215"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_215?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_216"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_216?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_217"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_217?cpp=array&lt;");</script><span id="LST63413D6A_218"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_218?cpp=array&lt;");</script>Int32<span id="LST63413D6A_219"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_219?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_220"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_220?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_221"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_221?cpp=%");</script>, <span id="LST63413D6A_222"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_222?cpp=array&lt;");</script>Double<span id="LST63413D6A_223"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_223?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Predicts a the probability that the sequence vector
+            has been generated by this log-likelihood tagger.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores.htm">Scores(<span id="LST63413D6A_224"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_224?cpp=array&lt;");</script>TInput<span id="LST63413D6A_225"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_225?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes numerical scores measuring the association between
+              each of the given <span class="parameter">sequence</span> vectors and each
+              possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ScoreTaggerBase_1.htm">ScoreTaggerBase<span id="LST63413D6A_226"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_226?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_227"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_227?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_4.htm">Scores(<span id="LST63413D6A_228"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_228?cpp=array&lt;");</script><span id="LST63413D6A_229"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_229?cpp=array&lt;");</script>TInput<span id="LST63413D6A_230"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_230?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_231"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_231?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes numerical scores measuring the association between
+              each of the given <span class="parameter">sequences</span> vectors and each
+              possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ScoreTaggerBase_1.htm">ScoreTaggerBase<span id="LST63413D6A_232"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_232?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_233"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_233?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Scores.htm">Scores(<span id="LST63413D6A_234"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_234?cpp=array&lt;");</script><span id="LST63413D6A_235"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_235?cpp=array&lt;");</script>TInput<span id="LST63413D6A_236"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_236?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_237"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_237?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_238"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_238?cpp=array&lt;");</script><span id="LST63413D6A_239"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_239?cpp=array&lt;");</script><span id="LST63413D6A_240"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_240?cpp=array&lt;");</script>Double<span id="LST63413D6A_241"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_241?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_242"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_242?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_243"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_243?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes numerical scores measuring the association between
+            each of the given <span class="parameter">sequences</span> vectors and each
+            possible class.
+            </div> (Overrides <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_5.htm">ScoreTaggerBase<span id="LST63413D6A_244"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_244?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_245"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_245?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LST63413D6A_246"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_246?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Scores(<span id="LST63413D6A_247"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_247?cpp=array&lt;");</script><span id="LST63413D6A_248"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_248?cpp=array&lt;");</script>TInput<span id="LST63413D6A_249"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_249?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_250"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_250?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_251"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_251?cpp=array&lt;");</script><span id="LST63413D6A_252"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_252?cpp=array&lt;");</script><span id="LST63413D6A_253"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_253?cpp=array&lt;");</script>Double<span id="LST63413D6A_254"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_254?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_255"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_255?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_256"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_256?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_1.htm">Scores(<span id="LST63413D6A_257"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_257?cpp=array&lt;");</script>TInput<span id="LST63413D6A_258"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_258?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_259"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_259?cpp=array&lt;");</script><span id="LST63413D6A_260"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_260?cpp=array&lt;");</script>Double<span id="LST63413D6A_261"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_261?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_262"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_262?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes numerical scores measuring the association between
+              each of the given <span class="parameter">sequence</span> vectors and each
+              possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ScoreTaggerBase_1.htm">ScoreTaggerBase<span id="LST63413D6A_263"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_263?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_264"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_264?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_2.htm">Scores(<span id="LST63413D6A_265"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_265?cpp=array&lt;");</script>TInput<span id="LST63413D6A_266"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_266?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_267"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_267?cpp=array&lt;");</script>Int32<span id="LST63413D6A_268"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_268?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_269"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_269?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes numerical scores measuring the association between
+              each of the given <span class="parameter">sequence</span> vectors and each
+              possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ScoreTaggerBase_1.htm">ScoreTaggerBase<span id="LST63413D6A_270"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_270?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_271"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_271?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_6.htm">Scores(<span id="LST63413D6A_272"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_272?cpp=array&lt;");</script><span id="LST63413D6A_273"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_273?cpp=array&lt;");</script>TInput<span id="LST63413D6A_274"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_274?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_275"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_275?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_276"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_276?cpp=array&lt;");</script><span id="LST63413D6A_277"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_277?cpp=array&lt;");</script>Int32<span id="LST63413D6A_278"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_278?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_279"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_279?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_280"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_280?cpp=%");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes numerical scores measuring the association between
+              each of the given <span class="parameter">sequences</span> vectors and each
+              possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ScoreTaggerBase_1.htm">ScoreTaggerBase<span id="LST63413D6A_281"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_281?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_282"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_282?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Scores_1.htm">Scores(<span id="LST63413D6A_283"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_283?cpp=array&lt;");</script><span id="LST63413D6A_284"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_284?cpp=array&lt;");</script>TInput<span id="LST63413D6A_285"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_285?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_286"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_286?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_287"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_287?cpp=array&lt;");</script><span id="LST63413D6A_288"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_288?cpp=array&lt;");</script>Int32<span id="LST63413D6A_289"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_289?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_290"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_290?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_291"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_291?cpp=%");</script>, <span id="LST63413D6A_292"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_292?cpp=array&lt;");</script><span id="LST63413D6A_293"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_293?cpp=array&lt;");</script><span id="LST63413D6A_294"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_294?cpp=array&lt;");</script>Double<span id="LST63413D6A_295"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_295?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_296"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_296?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_297"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_297?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Computes numerical scores measuring the association between
+            each of the given <span class="parameter">sequences</span> vectors and each
+            possible class.
+            </div> (Overrides <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_7.htm">ScoreTaggerBase<span id="LST63413D6A_298"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_298?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_299"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_299?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LST63413D6A_300"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_300?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Scores(<span id="LST63413D6A_301"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_301?cpp=array&lt;");</script><span id="LST63413D6A_302"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_302?cpp=array&lt;");</script>TInput<span id="LST63413D6A_303"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_303?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_304"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_304?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_305"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_305?cpp=array&lt;");</script><span id="LST63413D6A_306"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_306?cpp=array&lt;");</script>Int32<span id="LST63413D6A_307"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_307?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_308"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_308?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_309"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_309?cpp=%");</script>, <span id="LST63413D6A_310"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_310?cpp=array&lt;");</script><span id="LST63413D6A_311"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_311?cpp=array&lt;");</script><span id="LST63413D6A_312"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_312?cpp=array&lt;");</script>Double<span id="LST63413D6A_313"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_313?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_314"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_314?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_315"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_315?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_ScoreTaggerBase_1_Scores_3.htm">Scores(<span id="LST63413D6A_316"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_316?cpp=array&lt;");</script>TInput<span id="LST63413D6A_317"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_317?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_318"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_318?cpp=array&lt;");</script>Int32<span id="LST63413D6A_319"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_319?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_320"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_320?cpp=%");</script>, <span id="LST63413D6A_321"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_321?cpp=array&lt;");</script><span id="LST63413D6A_322"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_322?cpp=array&lt;");</script>Double<span id="LST63413D6A_323"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_323?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_324"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_324?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Computes numerical scores measuring the association between
+              each of the given <span class="parameter">sequence</span> vectors and each
+              possible class.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ScoreTaggerBase_1.htm">ScoreTaggerBase<span id="LST63413D6A_325"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_325?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_326"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_326?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <span class="nolink">ToString</span>
+              </td>
+              <td>
+                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TaggerBase_1_Transform.htm">Transform(<span id="LST63413D6A_327"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_327?cpp=array&lt;");</script>TInput<span id="LST63413D6A_328"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_328?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TaggerBase_1.htm">TaggerBase<span id="LST63413D6A_329"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_329?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_330"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_330?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TransformBase_2_Transform_1.htm">Transform(<span id="LST63413D6A_331"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_331?cpp=array&lt;");</script>TInput<span id="LST63413D6A_332"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_332?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Applies the transformation to a set of input vectors,
+              producing an associated set of output vectors.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TransformBase_2.htm">TransformBase<span id="LST63413D6A_333"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_333?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST63413D6A_334"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_334?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_LikelihoodTaggerBase_1_Transform.htm">Transform(<span id="LST63413D6A_335"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_335?cpp=array&lt;");</script><span id="LST63413D6A_336"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_336?cpp=array&lt;");</script>TInput<span id="LST63413D6A_337"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_337?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST63413D6A_338"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_338?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_339"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_339?cpp=array&lt;");</script>Double<span id="LST63413D6A_340"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_340?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Applies the transformation to an input, producing an associated output.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="M_Accord_MachineLearning_TransformBase_2_Transform_2.htm">Transform(<span id="LST63413D6A_341"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_341?cpp=array&lt;");</script>TInput<span id="LST63413D6A_342"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_342?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST63413D6A_343"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_343?cpp=array&lt;");</script>TOutput<span id="LST63413D6A_344"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_344?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
+              </td>
+              <td>
+                <div class="summary">
+              Applies the transformation to an input, producing an associated output.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_TransformBase_2.htm">TransformBase<span id="LST63413D6A_345"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_345?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST63413D6A_346"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_346?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
+            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
+        </div>
+        <div id="ID1RBSection" class="collapsibleSection">
+          <table id="memberList" class="members">
+            <tr>
+              <th class="iconColumn">
+								 
+							</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a>
+              </td>
+              <td>
+                <div class="summary">
+              Checks whether an object implements a method with the given name.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST63413D6A_347"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_347?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST63413D6A_348"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_348?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST63413D6A_349"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_349?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
+              </td>
+              <td>
+                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST63413D6A_350"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_350?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST63413D6A_351"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_351?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST63413D6A_352"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_352?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+              </td>
+              <td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
+            </tr>
+          </table>
+          <a href="#PageHeader">Top</a>
+        </div>
+        <div class="collapsibleAreaRegion" id="seeAlsoSection">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
+            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
+        </div>
+        <div id="ID2RBSection" class="collapsibleSection">
+          <h4 class="subHeading">Reference</h4>
+          <div class="seeAlsoStyle">
+            <a href="T_Accord_MachineLearning_LikelihoodTaggerBase_1.htm">LikelihoodTaggerBase<span id="LST63413D6A_353"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_353?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST63413D6A_354"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63413D6A_354?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
