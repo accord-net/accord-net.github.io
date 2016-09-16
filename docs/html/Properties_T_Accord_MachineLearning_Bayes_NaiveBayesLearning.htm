@@ -54,12 +54,28 @@
                 <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
               </td>
               <td>
+                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Distribution.htm">Distribution</a>
+              </td>
+              <td>
+                <div class="summary">
+              Gets or sets the distribution creation function. This function can
+              be used to specify how the initial distributions of the model should
+              be created. By default, this function attempts to call the empty
+              constructor of the distribution using <span class="code">Activator.CreateInstance()</span>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
                 <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Empirical.htm">Empirical</a>
               </td>
               <td>
                 <div class="summary">
-               The corresponding output labels for the input data.
-             </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            Gets or sets whether the class priors should be estimated
+            from the data.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
             </tr>
             <tr data="public;inherited;notNetfw;">
               <td>
@@ -71,7 +87,7 @@
               <td>
                 <div class="summary">
               Gets or sets the model being learned.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
             </tr>
             <tr data="public;inherited;notNetfw;">
               <td>
@@ -84,7 +100,7 @@
                 <div class="summary">
                Gets or sets the fitting options to use when
                estimating the class-specific distributions.
-             </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+             </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
             </tr>
             <tr data="public;inherited;notNetfw;">
               <td>
@@ -96,7 +112,7 @@
               <td>
                 <div class="summary">
             Gets or sets the parallelization options for this algorithm.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
             </tr>
             <tr data="public;inherited;notNetfw;">
               <td>
@@ -109,7 +125,7 @@
                 <div class="summary">
             Gets or sets a cancellation token that can be used to
             stop the learning algorithm while it is running.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST1C6C5046_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST1C6C5046_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C6C5046_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
             </tr>
           </table>
           <a href="#PageHeader">Top</a>

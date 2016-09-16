@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="20-Aug-16 9:09:25 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="15-Sep-16 10:18:37 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -15,6 +15,9 @@ Loading and initializing plug-ins...
 Lightweight Website Style Version 2016.5.28.0
 Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
@@ -101,6 +104,9 @@ Source: C:\Projects\Accord.NET\framework\Release\net45\Accord.Audio.DirectSound.
 Source: C:\Projects\Accord.NET\framework\Release\net45\Accord.Math.dll
     Found assembly &#39;C:\Projects\Accord.NET\framework\Release\net45\Accord.Math.dll&#39;
 Source: C:\Projects\Accord.NET\framework\Release\net45\Accord.Math.xml
+Source: C:\Projects\Accord.NET\framework\Release\net45\Noncommercial\Accord.Imaging.Noncommercial.dll
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Release\net45\Noncommercial\Accord.Imaging.Noncommercial.dll&#39;
+Source: C:\Projects\Accord.NET\framework\Release\net45\Noncommercial\Accord.Imaging.Noncommercial.xml
 
 References to include (excluding framework assemblies):
     C:\Projects\Accord.NET\framework\Sources\..\Release\net45\Accord.Math.Core.dll
@@ -136,20 +142,21 @@ Copying XML comments files
     C:\Projects\Accord.NET\framework\Release\net45\Noncommercial\Accord.Math.Noncommercial.XML -&gt; C:\Docs\Working\Accord.Math.Noncommercial.XML
     C:\Projects\Accord.NET\framework\Release\net45\Accord.Audio.DirectSound.XML -&gt; C:\Docs\Working\Accord.Audio.DirectSound.XML
     C:\Projects\Accord.NET\framework\Release\net45\Accord.Math.XML -&gt; C:\Docs\Working\Accord.Math.XML
+    C:\Projects\Accord.NET\framework\Release\net45\Noncommercial\Accord.Imaging.Noncommercial.XML -&gt; C:\Docs\Working\Accord.Imaging.Noncommercial.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0045
+</plugIn>    Last step completed in 00:00:00.0349
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.3658
+    Last step completed in 00:00:00.6795
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 20-Aug-16 9:09:38 PM.
+Build started 15-Sep-16 10:21:00 PM.
 Project &quot;C:\Docs\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -157,8 +164,8 @@ GenerateRefInfo:
   MRefBuilder (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
-  Loaded 27 assemblies for reflection and 5 dependency assemblies.
-  Wrote information on 105 namespaces, 1870 types, and 20447 members
+  Loaded 28 assemblies for reflection and 5 dependency assemblies.
+  Wrote information on 105 namespaces, 1878 types, and 20649 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -168,13 +175,13 @@ Done Building Project &quot;C:\Docs\Working\GenerateRefInfo.proj&quot; (default 
 
 Build succeeded.
 
-Time Elapsed 00:00:07.58
-    Last step completed in 00:00:07.8892
+Time Elapsed 00:00:22.59
+    Last step completed in 00:00:23.5870
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 20-Aug-16 9:09:46 PM.
+Build started 15-Sep-16 10:21:23 PM.
 Project &quot;C:\Docs\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -565,6 +572,7 @@ TransformManifest:
     Unique name M_Accord_Imaging_BlobCounterBase__ctor_1 generated for M:Accord.Imaging.BlobCounterBase.#ctor(Accord.Imaging.UnmanagedImage)
     Unique name M_Accord_Imaging_BlobCounterBase__ctor_2 generated for M:Accord.Imaging.BlobCounterBase.#ctor(System.Drawing.Bitmap)
     Unique name M_Accord_Imaging_BlobCounterBase__ctor_3 generated for M:Accord.Imaging.BlobCounterBase.#ctor(System.Drawing.Imaging.BitmapData)
+    Unique name M_Accord_Imaging_BlobCounterBase_Dispose_1 generated for M:Accord.Imaging.BlobCounterBase.Dispose(System.Boolean)
     Unique name M_Accord_Imaging_BlobCounterBase_ExtractBlobsImage_1 generated for M:Accord.Imaging.BlobCounterBase.ExtractBlobsImage(System.Drawing.Bitmap,Accord.Imaging.Blob,System.Boolean)
     Unique name M_Accord_Imaging_BlobCounterBase_GetObjects_1 generated for M:Accord.Imaging.BlobCounterBase.GetObjects(System.Drawing.Bitmap,System.Boolean)
     Unique name M_Accord_Imaging_BlobCounterBase_ProcessImage_1 generated for M:Accord.Imaging.BlobCounterBase.ProcessImage(System.Drawing.Bitmap)
@@ -950,6 +958,8 @@ TransformManifest:
     Unique name M_Accord_Imaging_Filters_DifferenceOfGaussians__ctor_2 generated for M:Accord.Imaging.Filters.DifferenceOfGaussians.#ctor(System.Int32,System.Int32,System.Double)
     Unique name M_Accord_Imaging_Filters_DifferenceOfGaussians__ctor_3 generated for M:Accord.Imaging.Filters.DifferenceOfGaussians.#ctor(System.Int32,System.Int32,System.Double,System.Double)
     Unique name M_Accord_Imaging_Filters_Dilatation__ctor_1 generated for M:Accord.Imaging.Filters.Dilatation.#ctor(System.Int16[0:,0:])
+    Unique name M_Accord_Imaging_Filters_Divide__ctor_1 generated for M:Accord.Imaging.Filters.Divide.#ctor(Accord.Imaging.UnmanagedImage)
+    Unique name M_Accord_Imaging_Filters_Divide__ctor_2 generated for M:Accord.Imaging.Filters.Divide.#ctor(System.Drawing.Bitmap)
     Unique name M_Accord_Imaging_Filters_Erosion__ctor_1 generated for M:Accord.Imaging.Filters.Erosion.#ctor(System.Int16[0:,0:])
     Unique name M_Accord_Imaging_Filters_EuclideanColorFiltering__ctor_1 generated for M:Accord.Imaging.Filters.EuclideanColorFiltering.#ctor(Accord.Imaging.RGB,System.Int16)
     Unique name M_Accord_Imaging_Filters_ExtractBiggestBlob_Apply_1 generated for M:Accord.Imaging.Filters.ExtractBiggestBlob.Apply(Accord.Imaging.UnmanagedImage,Accord.Imaging.UnmanagedImage)
@@ -957,6 +967,9 @@ TransformManifest:
     Unique name M_Accord_Imaging_Filters_ExtractBiggestBlob_Apply_3 generated for M:Accord.Imaging.Filters.ExtractBiggestBlob.Apply(System.Drawing.Imaging.BitmapData)
     Unique name M_Accord_Imaging_Filters_ExtractChannel__ctor_1 generated for M:Accord.Imaging.Filters.ExtractChannel.#ctor(System.Int16)
     Unique name M_Accord_Imaging_Filters_ExtractNormalizedRGBChannel__ctor_1 generated for M:Accord.Imaging.Filters.ExtractNormalizedRGBChannel.#ctor(System.Int16)
+    Unique name M_Accord_Imaging_Filters_FastBoxBlur__ctor_1 generated for M:Accord.Imaging.Filters.FastBoxBlur.#ctor(System.Byte,System.Byte)
+    Unique name M_Accord_Imaging_Filters_FastGuidedFilter__ctor_1 generated for M:Accord.Imaging.Filters.FastGuidedFilter.#ctor(Accord.Imaging.UnmanagedImage)
+    Unique name M_Accord_Imaging_Filters_FastGuidedFilter__ctor_2 generated for M:Accord.Imaging.Filters.FastGuidedFilter.#ctor(System.Drawing.Bitmap)
     Unique name M_Accord_Imaging_Filters_FastVariance__ctor_1 generated for M:Accord.Imaging.Filters.FastVariance.#ctor(System.Int32)
     Unique name M_Accord_Imaging_Filters_FeaturesMarker__ctor_1 generated for M:Accord.Imaging.Filters.FeaturesMarker.#ctor(System.Collections.Generic.IEnumerable{Accord.Imaging.FastRetinaKeypoint})
     Unique name M_Accord_Imaging_Filters_FeaturesMarker__ctor_2 generated for M:Accord.Imaging.Filters.FeaturesMarker.#ctor(System.Collections.Generic.IEnumerable{Accord.Imaging.FastRetinaKeypoint},System.Double)
@@ -1011,6 +1024,8 @@ TransformManifest:
     Unique name M_Accord_Imaging_Filters_MoveTowards__ctor_2 generated for M:Accord.Imaging.Filters.MoveTowards.#ctor(Accord.Imaging.UnmanagedImage,System.Int32)
     Unique name M_Accord_Imaging_Filters_MoveTowards__ctor_3 generated for M:Accord.Imaging.Filters.MoveTowards.#ctor(System.Drawing.Bitmap)
     Unique name M_Accord_Imaging_Filters_MoveTowards__ctor_4 generated for M:Accord.Imaging.Filters.MoveTowards.#ctor(System.Drawing.Bitmap,System.Int32)
+    Unique name M_Accord_Imaging_Filters_Multiply__ctor_1 generated for M:Accord.Imaging.Filters.Multiply.#ctor(Accord.Imaging.UnmanagedImage)
+    Unique name M_Accord_Imaging_Filters_Multiply__ctor_2 generated for M:Accord.Imaging.Filters.Multiply.#ctor(System.Drawing.Bitmap)
     Unique name M_Accord_Imaging_Filters_OilPainting__ctor_1 generated for M:Accord.Imaging.Filters.OilPainting.#ctor(System.Int32)
     Unique name M_Accord_Imaging_Filters_Opening__ctor_1 generated for M:Accord.Imaging.Filters.Opening.#ctor(System.Int16[0:,0:])
     Unique name M_Accord_Imaging_Filters_Opening_Apply_1 generated for M:Accord.Imaging.Filters.Opening.Apply(Accord.Imaging.UnmanagedImage,Accord.Imaging.UnmanagedImage)
@@ -1216,7 +1231,8 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_BinaryLikelihoodClassifierBase_1_Probability_3 generated for M:Accord.MachineLearning.BinaryLikelihoodClassifierBase`1.Probability(`0[],System.Boolean[]@)
     Unique name M_Accord_MachineLearning_BinaryLikelihoodClassifierBase_1_Probability_4 generated for M:Accord.MachineLearning.BinaryLikelihoodClassifierBase`1.Probability(`0[],System.Boolean[]@,System.Double[])
     Unique name M_Accord_MachineLearning_BinaryLikelihoodClassifierBase_1_Probability_5 generated for M:Accord.MachineLearning.BinaryLikelihoodClassifierBase`1.Probability(`0[],System.Double[])
-    Unique name M_Accord_MachineLearning_BinaryLikelihoodClassifierBase_1_Transform_1 generated for M:Accord.MachineLearning.BinaryLikelihoodClassifierBase`1.Transform(`0[],System.Double[][])
+    Unique name M_Accord_MachineLearning_BinaryLikelihoodClassifierBase_1_Transform_1 generated for M:Accord.MachineLearning.BinaryLikelihoodClassifierBase`1.Transform(`0[],System.Double[])
+    Unique name M_Accord_MachineLearning_BinaryLikelihoodClassifierBase_1_Transform_2 generated for M:Accord.MachineLearning.BinaryLikelihoodClassifierBase`1.Transform(`0[],System.Double[][])
     Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Score_1 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Score(`0,System.Boolean@)
     Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Score_2 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Score(`0[])
     Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Score_3 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Score(`0[],System.Boolean[]@)
@@ -1229,7 +1245,8 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Scores_5 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Scores(`0[],System.Boolean[]@)
     Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Scores_6 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Scores(`0[],System.Boolean[]@,System.Double[][])
     Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Scores_7 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Scores(`0[],System.Double[][])
-    Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Transform_1 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Transform(`0[],System.Double[][])
+    Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Transform_1 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Transform(`0[],System.Double[])
+    Unique name M_Accord_MachineLearning_BinaryScoreClassifierBase_1_Transform_2 generated for M:Accord.MachineLearning.BinaryScoreClassifierBase`1.Transform(`0[],System.Double[][])
     Unique name M_Accord_MachineLearning_BinarySplit__ctor_1 generated for M:Accord.MachineLearning.BinarySplit.#ctor(System.Int32,Accord.Math.Distances.IDistance{System.Double[]})
     Unique name M_Accord_MachineLearning_Bootstrap__ctor_1 generated for M:Accord.MachineLearning.Bootstrap.#ctor(System.Int32,System.Int32,System.Int32)
     Unique name M_Accord_MachineLearning_Bootstrap__ctor_2 generated for M:Accord.MachineLearning.Bootstrap.#ctor(System.Int32,System.Int32[][])
@@ -1239,6 +1256,7 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_ClassifierBase_2_Decide_1 generated for M:Accord.MachineLearning.ClassifierBase`2.Decide(`0[])
     Unique name M_Accord_MachineLearning_ClassifierBase_2_Decide_2 generated for M:Accord.MachineLearning.ClassifierBase`2.Decide(`0[],`1[])
     Unique name M_Accord_MachineLearning_ClassifierBase_2_Transform_1 generated for M:Accord.MachineLearning.ClassifierBase`2.Transform(`0[],`1[])
+    Unique name M_Accord_MachineLearning_ClassPair_Equals_1 generated for M:Accord.MachineLearning.ClassPair.Equals(System.Object)
     Unique name M_Accord_MachineLearning_ClusterCollection_3_Nearest_1 generated for M:Accord.MachineLearning.ClusterCollection`3.Nearest(`0,System.Double@)
     Unique name M_Accord_MachineLearning_ClusterCollection_3_Nearest_2 generated for M:Accord.MachineLearning.ClusterCollection`3.Nearest(`0,System.Double[]@)
     Unique name M_Accord_MachineLearning_ClusterCollection_3_Nearest_3 generated for M:Accord.MachineLearning.ClusterCollection`3.Nearest(`0[])
@@ -1665,19 +1683,21 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_Normal_4 generated for M:Accord.MachineLearning.Bayes.NaiveBayes.Normal(System.Int32,System.Int32,Accord.Statistics.Distributions.Univariate.NormalDistribution[],System.Double[])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_Normal_5 generated for M:Accord.MachineLearning.Bayes.NaiveBayes.Normal(System.Int32,System.Int32,System.Double[])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_Save_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes.Save(System.String)
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0,System.Double[])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_2 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[0:,0:])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_3 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[0:,0:],System.Double[])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_4 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_5 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[],System.Double[])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_6 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[][])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_7 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[][],System.Double[])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0)
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_2 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0,System.Double[])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_3 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[0:,0:])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_4 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[0:,0:],System.Double[])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_5 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_6 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[],System.Double[])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_7 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[][])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1__ctor_8 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.#ctor(System.Int32,System.Int32,`0[][],System.Double[])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1_Compute_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.Compute(System.Double[],System.Double@)
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1_Compute_2 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.Compute(System.Double[],System.Double@,System.Double[]@)
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_1_Save_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`1.Save(System.String)
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,`0)
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_2 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,`0[])
-    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_3 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,`0[][])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,System.Func{System.Int32,System.Int32,`0})
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_2 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,`0)
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_3 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,`0[])
+    Unique name M_Accord_MachineLearning_Bayes_NaiveBayes_2__ctor_4 generated for M:Accord.MachineLearning.Bayes.NaiveBayes`2.#ctor(System.Int32,System.Int32,`0[][])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayesLearning_Learn_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayesLearning.Learn(System.Int32[][],System.Int32[],System.Double[])
     Unique name M_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Learn_1 generated for M:Accord.MachineLearning.Bayes.NaiveBayesLearningBase`4.Learn(`2[][],System.Int32[],System.Double[])
     Unique name M_Accord_MachineLearning_Boosting_AdaBoost_1__ctor_1 generated for M:Accord.MachineLearning.Boosting.AdaBoost`1.#ctor(Accord.MachineLearning.Boosting.Boost{`0},Accord.MachineLearning.Boosting.ModelConstructor{`0})
@@ -1706,18 +1726,22 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_DecisionTrees_DecisionVariable_FromData_1 generated for M:Accord.MachineLearning.DecisionTrees.DecisionVariable.FromData(System.Int32[][])
     Unique name M_Accord_MachineLearning_DecisionTrees_RandomForestLearning__ctor_1 generated for M:Accord.MachineLearning.DecisionTrees.RandomForestLearning.#ctor(Accord.MachineLearning.DecisionTrees.RandomForest)
     Unique name M_Accord_MachineLearning_DecisionTrees_Learning_C45Learning__ctor_1 generated for M:Accord.MachineLearning.DecisionTrees.Learning.C45Learning.#ctor(Accord.MachineLearning.DecisionTrees.DecisionTree)
+    Unique name M_Accord_MachineLearning_DecisionTrees_Learning_C45Learning__ctor_2 generated for M:Accord.MachineLearning.DecisionTrees.Learning.C45Learning.#ctor(Accord.MachineLearning.DecisionTrees.DecisionVariable[])
     Unique name M_Accord_MachineLearning_DecisionTrees_Learning_C45Learning_Learn_1 generated for M:Accord.MachineLearning.DecisionTrees.Learning.C45Learning.Learn(System.Int32[][],System.Int32[],System.Double[])
     Unique name M_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning__ctor_1 generated for M:Accord.MachineLearning.DecisionTrees.Learning.ID3Learning.#ctor(Accord.MachineLearning.DecisionTrees.DecisionTree)
+    Unique name M_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning__ctor_2 generated for M:Accord.MachineLearning.DecisionTrees.Learning.ID3Learning.#ctor(Accord.MachineLearning.DecisionTrees.DecisionVariable[])
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_Antecedent_Equals_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.Antecedent.Equals(System.Object)
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule__ctor_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.#ctor(System.Collections.Generic.IList{Accord.MachineLearning.DecisionTrees.DecisionVariable},System.Double,System.Collections.Generic.IEnumerable{Accord.MachineLearning.DecisionTrees.Rules.Antecedent})
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule__ctor_2 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.#ctor(System.Double,Accord.MachineLearning.DecisionTrees.Rules.Antecedent[])
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule_Equals_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.Equals(System.Object)
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule_ToString_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.ToString(Accord.Statistics.Filters.Codification)
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule_ToString_2 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.ToString(Accord.Statistics.Filters.Codification,System.Globalization.CultureInfo)
-    Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule_ToString_3 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.ToString(System.Globalization.CultureInfo)
+    Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule_ToString_3 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.ToString(Accord.Statistics.Filters.Codification,System.String,System.Globalization.CultureInfo)
+    Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule_ToString_4 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionRule.ToString(System.Globalization.CultureInfo)
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet__ctor_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionSet.#ctor(System.Collections.Generic.IEnumerable{Accord.MachineLearning.DecisionTrees.Rules.DecisionRule})
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet_ToString_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionSet.ToString(Accord.Statistics.Filters.Codification)
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet_ToString_2 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionSet.ToString(Accord.Statistics.Filters.Codification,System.Globalization.CultureInfo)
+    Unique name M_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet_ToString_3 generated for M:Accord.MachineLearning.DecisionTrees.Rules.DecisionSet.ToString(Accord.Statistics.Filters.Codification,System.String,System.Globalization.CultureInfo)
     Unique name M_Accord_MachineLearning_DecisionTrees_Rules_Simplification_CanEliminate_1 generated for M:Accord.MachineLearning.DecisionTrees.Rules.Simplification.CanEliminate(System.Boolean[],System.Boolean[],System.Double)
     Unique name M_Accord_MachineLearning_Geometry_RansacCircle_Estimate_1 generated for M:Accord.MachineLearning.Geometry.RansacCircle.Estimate(Accord.Point[])
     Unique name M_Accord_MachineLearning_Geometry_RansacCircle_Estimate_2 generated for M:Accord.MachineLearning.Geometry.RansacCircle.Estimate(System.Collections.Generic.IEnumerable{Accord.IntPoint})
@@ -1800,17 +1824,24 @@ TransformManifest:
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_LinearRegressionCoordinateDescent__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.LinearRegressionCoordinateDescent.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine,System.Double[][],System.Double[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_LinearRegressionNewtonMethod__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.LinearRegressionNewtonMethod.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine,System.Double[][],System.Double[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_MulticlassSupportVectorLearning__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning.#ctor(Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine,System.Double[][],System.Int32[])
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_MulticlassSupportVectorLearning_1__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning`1.#ctor(Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine{`0})
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_MulticlassSupportVectorLearning_2__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning`2.#ctor(Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine{`0,`1})
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_MultilabelSupportVectorLearning__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MultilabelSupportVectorLearning.#ctor(Accord.MachineLearning.VectorMachines.MultilabelSupportVectorMachine,System.Double[][],System.Int32[][])
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_MultilabelSupportVectorLearning_1__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MultilabelSupportVectorLearning`1.#ctor(Accord.MachineLearning.VectorMachines.MultilabelSupportVectorMachine{`0})
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_MultilabelSupportVectorLearning_2__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.MultilabelSupportVectorLearning`2.#ctor(Accord.MachineLearning.VectorMachines.MultilabelSupportVectorMachine{`0,`1})
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_OneclassSupportVectorLearning__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.OneclassSupportVectorLearning.#ctor(Accord.MachineLearning.VectorMachines.KernelSupportVectorMachine,System.Double[][])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_OneclassSupportVectorLearning_3__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.OneclassSupportVectorLearning`3.#ctor(`0)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_OneclassSupportVectorLearning_3__ctor_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.OneclassSupportVectorLearning`3.#ctor(`0,`2[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticCoordinateDescent__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticCoordinateDescent.#ctor(Accord.MachineLearning.VectorMachines.ISupportVectorMachine{System.Double[]},System.Double[][],System.Int32[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticDualCoordinateDescent__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticDualCoordinateDescent.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine,System.Double[][],System.Int32[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticNewtonMethod__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticNewtonMethod.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine,System.Double[][],System.Int32[])
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine{Accord.Statistics.Kernels.IKernel{System.Double[]},System.Double[]})
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration_3__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration`3.#ctor(Accord.MachineLearning.VectorMachines.ISupportVectorMachine{System.Double[]},`2[],System.Int32[])
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration_3__ctor_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration`3.#ctor(`0)
-    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration_3_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration`3.Run(System.Boolean)
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration.#ctor(Accord.MachineLearning.VectorMachines.ISupportVectorMachine{System.Double[]},System.Double[][],System.Int32[])
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration__ctor_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine{Accord.Statistics.Kernels.IKernel{System.Double[]},System.Double[]})
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration_1__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration`1.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine{`0})
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibration_2__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibration`2.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine{`0,`1})
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibrationBase_3__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibrationBase`3.#ctor(Accord.MachineLearning.VectorMachines.ISupportVectorMachine{System.Double[]},`2[],System.Int32[])
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibrationBase_3__ctor_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibrationBase`3.#ctor(`0)
+    Unique name M_Accord_MachineLearning_VectorMachines_Learning_ProbabilisticOutputCalibrationBase_3_Run_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.ProbabilisticOutputCalibrationBase`3.Run(System.Boolean)
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization__ctor_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimization.#ctor(Accord.MachineLearning.VectorMachines.KernelSupportVectorMachine,System.Double[][],System.Int32[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization__ctor_2 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimization.#ctor(Accord.MachineLearning.VectorMachines.SupportVectorMachine,System.Double[][],System.Int32[])
     Unique name M_Accord_MachineLearning_VectorMachines_Learning_SequentialMinimalOptimization_Learn_1 generated for M:Accord.MachineLearning.VectorMachines.Learning.SequentialMinimalOptimization.Learn(System.Double[][],System.Boolean[][],System.Double[])
@@ -1854,7 +1885,8 @@ TransformManifest:
     Unique name M_Accord_Math_Distance_RusselRao_1 generated for M:Accord.Math.Distance.RusselRao(System.Int32[],System.Int32[])
     Unique name M_Accord_Math_Distance_SokalMichener_1 generated for M:Accord.Math.Distance.SokalMichener(System.Int32[],System.Int32[])
     Unique name M_Accord_Math_Distance_SokalSneath_1 generated for M:Accord.Math.Distance.SokalSneath(System.Int32[],System.Int32[])
-    Unique name M_Accord_Math_Distance_SquareEuclidean_1 generated for M:Accord.Math.Distance.SquareEuclidean(System.Double[],System.Double[])
+    Unique name M_Accord_Math_Distance_SquareEuclidean_1 generated for M:Accord.Math.Distance.SquareEuclidean(System.Double,System.Double,System.Double,System.Double)
+    Unique name M_Accord_Math_Distance_SquareEuclidean_2 generated for M:Accord.Math.Distance.SquareEuclidean(System.Double[],System.Double[])
     Unique name M_Accord_Math_Distance_SquareMahalanobis_1 generated for M:Accord.Math.Distance.SquareMahalanobis(System.Double[],System.Double[],Accord.Math.Decompositions.CholeskyDecomposition)
     Unique name M_Accord_Math_Distance_SquareMahalanobis_2 generated for M:Accord.Math.Distance.SquareMahalanobis(System.Double[],System.Double[],Accord.Math.Decompositions.SingularValueDecomposition)
     Unique name M_Accord_Math_Distance_SquareMahalanobis_3 generated for M:Accord.Math.Distance.SquareMahalanobis(System.Double[],System.Double[],System.Double[0:,0:])
@@ -6310,13 +6342,22 @@ TransformManifest:
     Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.#ctor(System.Double[])
     Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss__ctor_2 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.#ctor(System.Double[][])
     Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss__ctor_3 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.#ctor(System.Int32[])
-    Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.Loss(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.Loss(System.Double[])
+    Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss_Loss_2 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.Loss(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_BinaryCrossEntropyLoss_Loss_3 generated for M:Accord.Math.Optimization.Losses.BinaryCrossEntropyLoss.Loss(System.Int32[])
+    Unique name M_Accord_Math_Optimization_Losses_CategoryCrossEntropyLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.CategoryCrossEntropyLoss.#ctor(System.Int32[])
+    Unique name M_Accord_Math_Optimization_Losses_CategoryCrossEntropyLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.CategoryCrossEntropyLoss.Loss(System.Int32[])
     Unique name M_Accord_Math_Optimization_Losses_HammingLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.HammingLoss.#ctor(System.Double[][])
-    Unique name M_Accord_Math_Optimization_Losses_HammingLoss__ctor_2 generated for M:Accord.Math.Optimization.Losses.HammingLoss.#ctor(System.Int32[][])
+    Unique name M_Accord_Math_Optimization_Losses_HammingLoss__ctor_2 generated for M:Accord.Math.Optimization.Losses.HammingLoss.#ctor(System.Int32[])
+    Unique name M_Accord_Math_Optimization_Losses_HammingLoss__ctor_3 generated for M:Accord.Math.Optimization.Losses.HammingLoss.#ctor(System.Int32[][])
     Unique name M_Accord_Math_Optimization_Losses_HammingLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.HammingLoss.Loss(System.Double[][])
-    Unique name M_Accord_Math_Optimization_Losses_HammingLoss_Loss_2 generated for M:Accord.Math.Optimization.Losses.HammingLoss.Loss(System.Int32[][])
-    Unique name M_Accord_Math_Optimization_Losses_HingeLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.HingeLoss.#ctor(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_HammingLoss_Loss_2 generated for M:Accord.Math.Optimization.Losses.HammingLoss.Loss(System.Int32[])
+    Unique name M_Accord_Math_Optimization_Losses_HammingLoss_Loss_3 generated for M:Accord.Math.Optimization.Losses.HammingLoss.Loss(System.Int32[][])
+    Unique name M_Accord_Math_Optimization_Losses_HingeLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.HingeLoss.#ctor(System.Double[])
+    Unique name M_Accord_Math_Optimization_Losses_HingeLoss__ctor_2 generated for M:Accord.Math.Optimization.Losses.HingeLoss.#ctor(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_HingeLoss__ctor_3 generated for M:Accord.Math.Optimization.Losses.HingeLoss.#ctor(System.Int32[])
     Unique name M_Accord_Math_Optimization_Losses_HingeLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.HingeLoss.Loss(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_HingeLoss_Loss_2 generated for M:Accord.Math.Optimization.Losses.HingeLoss.Loss(System.Int32[])
     Unique name M_Accord_Math_Optimization_Losses_LogisticLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.LogisticLoss.#ctor(System.Double[][])
     Unique name M_Accord_Math_Optimization_Losses_LogisticLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.LogisticLoss.Loss(System.Double[][])
     Unique name M_Accord_Math_Optimization_Losses_LogLikelihoodLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.LogLikelihoodLoss.Loss(System.Double[][])
@@ -6324,10 +6365,12 @@ TransformManifest:
     Unique name M_Accord_Math_Optimization_Losses_RSquaredLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.RSquaredLoss.Loss(System.Double[][])
     Unique name M_Accord_Math_Optimization_Losses_SquareLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.SquareLoss.#ctor(System.Double[][])
     Unique name M_Accord_Math_Optimization_Losses_SquareLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.SquareLoss.Loss(System.Double[][])
-    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.#ctor(System.Double[][])
-    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss__ctor_2 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.#ctor(System.Int32[])
-    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.Loss(System.Double[][])
-    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss_Loss_2 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.Loss(System.Int32[])
+    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss__ctor_1 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.#ctor(System.Double[])
+    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss__ctor_2 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.#ctor(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss__ctor_3 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.#ctor(System.Int32[])
+    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss_Loss_1 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.Loss(System.Double[])
+    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss_Loss_2 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.Loss(System.Double[][])
+    Unique name M_Accord_Math_Optimization_Losses_ZeroOneLoss_Loss_3 generated for M:Accord.Math.Optimization.Losses.ZeroOneLoss.Loss(System.Int32[])
     Unique name M_Accord_Math_Random_ExponentialGenerator__ctor_1 generated for M:Accord.Math.Random.ExponentialGenerator.#ctor(System.Single,System.Int32)
     Unique name M_Accord_Math_Random_GaussianGenerator__ctor_1 generated for M:Accord.Math.Random.GaussianGenerator.#ctor(System.Single,System.Single,System.Int32)
     Unique name M_Accord_Math_Random_IRandomNumberGenerator_1_Generate_1 generated for M:Accord.Math.Random.IRandomNumberGenerator`1.Generate(System.Int32)
@@ -6650,28 +6693,34 @@ TransformManifest:
     Unique name M_Accord_Statistics_Analysis_GeneralConfusionMatrix__ctor_1 generated for M:Accord.Statistics.Analysis.GeneralConfusionMatrix.#ctor(System.Int32,System.Int32[],System.Int32[])
     Unique name M_Accord_Statistics_Analysis_GeneralConfusionMatrix__ctor_2 generated for M:Accord.Statistics.Analysis.GeneralConfusionMatrix.#ctor(System.Int32[0:,0:])
     Unique name M_Accord_Statistics_Analysis_GoodnessOfFit_CompareTo_1 generated for M:Accord.Statistics.Analysis.GoodnessOfFit.CompareTo(System.Object)
-    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.AnalysisMethod)
-    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.AnalysisMethod,Accord.Statistics.Analysis.IndependentComponentAlgorithm)
-    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.IndependentComponentAlgorithm)
-    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Analysis.AnalysisMethod,Accord.Statistics.Analysis.IndependentComponentAlgorithm)
+    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:])
+    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.AnalysisMethod)
+    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.AnalysisMethod,Accord.Statistics.Analysis.IndependentComponentAlgorithm)
+    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.IndependentComponentAlgorithm)
+    Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis__ctor_5 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Analysis.AnalysisMethod,Accord.Statistics.Analysis.IndependentComponentAlgorithm)
     Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis_Adjust_1 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.Adjust(System.Single[][],System.Boolean)
     Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis_Combine_1 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.Combine(System.Single[][])
     Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis_Compute_1 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.Compute(System.Int32)
     Unique name M_Accord_Statistics_Analysis_IndependentComponentAnalysis_Separate_1 generated for M:Accord.Statistics.Analysis.IndependentComponentAnalysis.Separate(System.Single[][])
     Unique name M_Accord_Statistics_Analysis_IProjectionAnalysis_Transform_1 generated for M:Accord.Statistics.Analysis.IProjectionAnalysis.Transform(System.Double[0:,0:],System.Int32)
-    Unique name M_Accord_Statistics_Analysis_KernelDiscriminantAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.KernelDiscriminantAnalysis.#ctor(System.Double[][],System.Int32[],Accord.Statistics.Kernels.IKernel)
+    Unique name M_Accord_Statistics_Analysis_KernelDiscriminantAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.KernelDiscriminantAnalysis.#ctor(Accord.Statistics.Kernels.IKernel)
+    Unique name M_Accord_Statistics_Analysis_KernelDiscriminantAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.KernelDiscriminantAnalysis.#ctor(System.Double[0:,0:],System.Int32[],Accord.Statistics.Kernels.IKernel)
+    Unique name M_Accord_Statistics_Analysis_KernelDiscriminantAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.KernelDiscriminantAnalysis.#ctor(System.Double[][],System.Int32[],Accord.Statistics.Kernels.IKernel)
     Unique name M_Accord_Statistics_Analysis_KernelDiscriminantAnalysis_Classify_1 generated for M:Accord.Statistics.Analysis.KernelDiscriminantAnalysis.Classify(System.Double[],System.Double[]@)
     Unique name M_Accord_Statistics_Analysis_KernelDiscriminantAnalysis_Classify_2 generated for M:Accord.Statistics.Analysis.KernelDiscriminantAnalysis.Classify(System.Double[][])
-    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Kernels.IKernel)
-    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod)
-    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod,System.Boolean)
-    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Kernels.IKernel)
-    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_5 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod)
-    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_6 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod,System.Boolean)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.PrincipalComponentMethod,System.Boolean,System.Int32,System.Boolean)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Kernels.IKernel)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod,System.Boolean)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_5 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Kernels.IKernel)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_6 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod)
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis__ctor_7 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Kernels.IKernel,Accord.Statistics.Analysis.AnalysisMethod,System.Boolean)
     Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis_Compute_1 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.Compute(System.Int32)
     Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis_Learn_1 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.Learn(System.Double[][],System.Double[])
     Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis_Revert_1 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.Revert(System.Double[0:,0:],System.Int32)
-    Unique name M_Accord_Statistics_Analysis_LinearDiscriminantAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.LinearDiscriminantAnalysis.#ctor(System.Double[][],System.Int32[])
+    Unique name M_Accord_Statistics_Analysis_KernelPrincipalComponentAnalysis_Revert_2 generated for M:Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis.Revert(System.Double[][],System.Int32)
+    Unique name M_Accord_Statistics_Analysis_LinearDiscriminantAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.LinearDiscriminantAnalysis.#ctor(System.Double[0:,0:],System.Int32[])
+    Unique name M_Accord_Statistics_Analysis_LinearDiscriminantAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.LinearDiscriminantAnalysis.#ctor(System.Double[][],System.Int32[])
     Unique name M_Accord_Statistics_Analysis_LinearDiscriminantAnalysis_Classify_1 generated for M:Accord.Statistics.Analysis.LinearDiscriminantAnalysis.Classify(System.Double[],System.Double[]@)
     Unique name M_Accord_Statistics_Analysis_LinearDiscriminantAnalysis_Classify_2 generated for M:Accord.Statistics.Analysis.LinearDiscriminantAnalysis.Classify(System.Double[][])
     Unique name M_Accord_Statistics_Analysis_LogisticRegressionAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.LogisticRegressionAnalysis.#ctor(System.Double[][],System.Double[])
@@ -6681,11 +6730,15 @@ TransformManifest:
     Unique name M_Accord_Statistics_Analysis_LogisticRegressionAnalysis_Compute_1 generated for M:Accord.Statistics.Analysis.LogisticRegressionAnalysis.Compute(Accord.Statistics.Models.Regression.LogisticRegression)
     Unique name M_Accord_Statistics_Analysis_LogisticRegressionAnalysis_Compute_2 generated for M:Accord.Statistics.Analysis.LogisticRegressionAnalysis.Compute(System.Double,System.Int32)
     Unique name M_Accord_Statistics_Analysis_LogisticRegressionAnalysis_Learn_1 generated for M:Accord.Statistics.Analysis.LogisticRegressionAnalysis.Learn(System.Double[][],System.Int32[],System.Double[])
-    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Double[][],System.String[],System.String[])
-    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Int32[])
-    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Int32[],System.String[],System.String[])
+    Unique name M_Accord_Statistics_Analysis_LogisticRegressionAnalysis_Learn_2 generated for M:Accord.Statistics.Analysis.LogisticRegressionAnalysis.Learn(System.Double[][],System.Int32[],System.Int32[])
+    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Double[][])
+    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Double[][],System.String[],System.String[])
+    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Int32[])
+    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.Double[][],System.Int32[],System.String[],System.String[])
+    Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis__ctor_5 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.#ctor(System.String[],System.String[])
     Unique name M_Accord_Statistics_Analysis_MultinomialLogisticRegressionAnalysis_Learn_1 generated for M:Accord.Statistics.Analysis.MultinomialLogisticRegressionAnalysis.Learn(System.Double[][],System.Int32[],System.Double[])
-    Unique name M_Accord_Statistics_Analysis_MultipleLinearRegressionAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.MultipleLinearRegressionAnalysis.#ctor(System.Double[][],System.Double[],System.String[],System.String,System.Boolean)
+    Unique name M_Accord_Statistics_Analysis_MultipleLinearRegressionAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.MultipleLinearRegressionAnalysis.#ctor(System.Double[][],System.Double[],System.Boolean)
+    Unique name M_Accord_Statistics_Analysis_MultipleLinearRegressionAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.MultipleLinearRegressionAnalysis.#ctor(System.Double[][],System.Double[],System.String[],System.String,System.Boolean)
     Unique name M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.PartialLeastSquaresAnalysis.#ctor(System.Double[0:,0:],System.Double[0:,0:])
     Unique name M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.PartialLeastSquaresAnalysis.#ctor(System.Double[0:,0:],System.Double[0:,0:],Accord.Statistics.Analysis.AnalysisMethod,Accord.Statistics.Analysis.PartialLeastSquaresAlgorithm)
     Unique name M_Accord_Statistics_Analysis_PartialLeastSquaresAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.PartialLeastSquaresAnalysis.#ctor(System.Double[0:,0:],System.Double[0:,0:],Accord.Statistics.Analysis.PartialLeastSquaresAlgorithm)
@@ -6701,16 +6754,22 @@ TransformManifest:
     Unique name M_Accord_Statistics_Analysis_PrincipalComponentAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.PrincipalComponentAnalysis.#ctor(System.Double[0:,0:],Accord.Statistics.Analysis.AnalysisMethod)
     Unique name M_Accord_Statistics_Analysis_PrincipalComponentAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.PrincipalComponentAnalysis.#ctor(System.Double[][],Accord.Statistics.Analysis.AnalysisMethod)
     Unique name M_Accord_Statistics_Analysis_PrincipalComponentAnalysis_Adjust_1 generated for M:Accord.Statistics.Analysis.PrincipalComponentAnalysis.Adjust(System.Double[][],System.Boolean)
+    Unique name M_Accord_Statistics_Analysis_PrincipalComponentAnalysis_Revert_1 generated for M:Accord.Statistics.Analysis.PrincipalComponentAnalysis.Revert(System.Double[][])
     Unique name M_Accord_Statistics_Analysis_ProcrustesAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.ProcrustesAnalysis.#ctor(System.Double[0:,0:][])
     Unique name M_Accord_Statistics_Analysis_ProcrustesAnalysis_Compute_1 generated for M:Accord.Statistics.Analysis.ProcrustesAnalysis.Compute(System.Double[0:,0:][])
     Unique name M_Accord_Statistics_Analysis_ProcrustesAnalysis_Compute_2 generated for M:Accord.Statistics.Analysis.ProcrustesAnalysis.Compute(System.Int32,System.Double[0:,0:][])
-    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[0:,0:],System.Double[],System.Int32[])
-    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[])
-    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[],System.String[],System.String,System.String)
-    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],System.Int32[])
-    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_5 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],System.Int32[],System.String[],System.String,System.String)
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_1 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[0:,0:],System.Double[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[])
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_2 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[0:,0:],System.Double[],System.Int32[])
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_3 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[])
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_4 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[],System.String[],System.String,System.String)
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_5 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],System.Int32[])
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_6 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.Double[][],System.Double[],System.Int32[],System.String[],System.String,System.String)
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis__ctor_7 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.#ctor(System.String[],System.String,System.String)
     Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Compute_1 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.Compute(Accord.Statistics.Models.Regression.ProportionalHazards)
     Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Compute_2 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.Compute(System.Double,System.Int32)
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Learn_1 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.Learn(System.Double[][],System.Double[],System.Int32[],System.Double[])
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Learn_2 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.Learn(System.Tuple{System.Double[],System.Double}[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[],System.Double[])
+    Unique name M_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Learn_3 generated for M:Accord.Statistics.Analysis.ProportionalHazardsAnalysis.Learn(System.Tuple{System.Double[],System.Double}[],System.Int32[],System.Double[])
     Unique name M_Accord_Statistics_Analysis_ReceiverOperatingCharacteristic__ctor_1 generated for M:Accord.Statistics.Analysis.ReceiverOperatingCharacteristic.#ctor(System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Analysis_ReceiverOperatingCharacteristic__ctor_2 generated for M:Accord.Statistics.Analysis.ReceiverOperatingCharacteristic.#ctor(System.Int32[],System.Double[])
     Unique name M_Accord_Statistics_Analysis_ReceiverOperatingCharacteristic_Compute_1 generated for M:Accord.Statistics.Analysis.ReceiverOperatingCharacteristic.Compute(System.Double,System.Boolean)
@@ -6939,6 +6998,8 @@ TransformManifest:
     Unique name M_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution_Random_1 generated for M:Accord.Statistics.Distributions.Univariate.GeneralizedBetaDistribution.Random(System.Double,System.Double,System.Double,System.Double,System.Int32)
     Unique name M_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution_Random_2 generated for M:Accord.Statistics.Distributions.Univariate.GeneralizedBetaDistribution.Random(System.Double,System.Double,System.Double,System.Double,System.Int32,System.Double[])
     Unique name M_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution_Vose_1 generated for M:Accord.Statistics.Distributions.Univariate.GeneralizedBetaDistribution.Vose(System.Double,System.Double,System.Double,System.Double)
+    Unique name M_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution__ctor_1 generated for M:Accord.Statistics.Distributions.Univariate.GeneralizedParetoDistribution.#ctor(System.Double,System.Double,System.Double)
+    Unique name M_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution_Generate_1 generated for M:Accord.Statistics.Distributions.Univariate.GeneralizedParetoDistribution.Generate(System.Int32,System.Double[])
     Unique name M_Accord_Statistics_Distributions_Univariate_GeometricDistribution_Generate_1 generated for M:Accord.Statistics.Distributions.Univariate.GeometricDistribution.Generate(System.Int32,System.Double[])
     Unique name M_Accord_Statistics_Distributions_Univariate_GeometricDistribution_Generate_2 generated for M:Accord.Statistics.Distributions.Univariate.GeometricDistribution.Generate(System.Int32,System.Int32[])
     Unique name M_Accord_Statistics_Distributions_Univariate_GeometricDistribution_Random_1 generated for M:Accord.Statistics.Distributions.Univariate.GeometricDistribution.Random(System.Double,System.Int32,System.Double[])
@@ -7120,13 +7181,20 @@ TransformManifest:
     Unique name M_Accord_Statistics_Kernels_DynamicTimeWarping__ctor_1 generated for M:Accord.Statistics.Kernels.DynamicTimeWarping.#ctor(System.Int32,System.Double)
     Unique name M_Accord_Statistics_Kernels_DynamicTimeWarping__ctor_2 generated for M:Accord.Statistics.Kernels.DynamicTimeWarping.#ctor(System.Int32,System.Double,System.Int32)
     Unique name M_Accord_Statistics_Kernels_DynamicTimeWarping_Dispose_1 generated for M:Accord.Statistics.Kernels.DynamicTimeWarping.Dispose(System.Boolean)
-    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_1 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][],Accord.DoubleRange@)
-    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_2 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][],System.Int32)
-    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_3 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][],System.Int32,Accord.DoubleRange@)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Distance_1 generated for M:Accord.Statistics.Kernels.Gaussian.Distance(System.Double[],System.Double[])
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Distances_1 generated for M:Accord.Statistics.Kernels.Gaussian.Distances(System.Double[][],System.Int32)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_1 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(Accord.Math.Sparse{System.Double}[],Accord.DoubleRange@)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_2 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(Accord.Math.Sparse{System.Double}[],System.Int32)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_3 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(Accord.Math.Sparse{System.Double}[],System.Int32,Accord.DoubleRange@)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_4 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][])
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_5 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][],Accord.DoubleRange@)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_6 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][],System.Int32)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate_7 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate(System.Double[][],System.Int32,Accord.DoubleRange@)
     Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate__1_1 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate``1(``0,System.Double[][],Accord.DoubleRange@)
     Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate__1_2 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate``1(``0,System.Double[][],System.Int32)
     Unique name M_Accord_Statistics_Kernels_Gaussian_Estimate__1_3 generated for M:Accord.Statistics.Kernels.Gaussian.Estimate``1(``0,System.Double[][],System.Int32,Accord.DoubleRange@)
-    Unique name M_Accord_Statistics_Kernels_Gaussian_Function_1 generated for M:Accord.Statistics.Kernels.Gaussian.Function(System.Double[],System.Double[])
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Function_1 generated for M:Accord.Statistics.Kernels.Gaussian.Function(System.Double)
+    Unique name M_Accord_Statistics_Kernels_Gaussian_Function_2 generated for M:Accord.Statistics.Kernels.Gaussian.Function(System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Kernels_Gaussian_ReverseDistance_1 generated for M:Accord.Statistics.Kernels.Gaussian.ReverseDistance(System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Kernels_Gaussian_1__ctor_1 generated for M:Accord.Statistics.Kernels.Gaussian`1.#ctor(`0,System.Double)
     Unique name M_Accord_Statistics_Kernels_Hypersecant_Function_1 generated for M:Accord.Statistics.Kernels.Hypersecant.Function(System.Double[],System.Double[])
@@ -7166,6 +7234,8 @@ TransformManifest:
     Unique name M_Accord_Statistics_Kernels_Polynomial_Transform_1 generated for M:Accord.Statistics.Kernels.Polynomial.Transform(System.Double[],System.Int32,System.Double)
     Unique name M_Accord_Statistics_Kernels_Power__ctor_1 generated for M:Accord.Statistics.Kernels.Power.#ctor(System.Int32)
     Unique name M_Accord_Statistics_Kernels_Power_Function_1 generated for M:Accord.Statistics.Kernels.Power.Function(System.Double[],System.Double[])
+    Unique name M_Accord_Statistics_Kernels_Precomputed__ctor_1 generated for M:Accord.Statistics.Kernels.Precomputed.#ctor(System.Double[][])
+    Unique name M_Accord_Statistics_Kernels_Precomputed_Function_1 generated for M:Accord.Statistics.Kernels.Precomputed.Function(System.Int32,System.Int32)
     Unique name M_Accord_Statistics_Kernels_Quadratic__ctor_1 generated for M:Accord.Statistics.Kernels.Quadratic.#ctor(System.Double)
     Unique name M_Accord_Statistics_Kernels_Quadratic_Function_1 generated for M:Accord.Statistics.Kernels.Quadratic.Function(System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Kernels_Quadratic_Transform_1 generated for M:Accord.Statistics.Kernels.Quadratic.Transform(System.Double[],System.Double)
@@ -7231,7 +7301,9 @@ TransformManifest:
     Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovDiscreteFunction__ctor_3 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovDiscreteFunction.#ctor(System.Int32,System.Int32,System.Int32)
     Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovMultivariateFunction__ctor_1 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovMultivariateFunction.#ctor(Accord.Statistics.Models.Markov.HiddenMarkovClassifier{Accord.Statistics.Distributions.Multivariate.Independent},System.Boolean)
     Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovMultivariateFunction__ctor_2 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovMultivariateFunction.#ctor(Accord.Statistics.Models.Markov.HiddenMarkovClassifier{Accord.Statistics.Distributions.Multivariate.MultivariateNormalDistribution},System.Boolean)
-    Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovMultivariateFunction__ctor_3 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovMultivariateFunction.#ctor(Accord.Statistics.Models.Markov.HiddenMarkovModel{Accord.Statistics.Distributions.Multivariate.MultivariateNormalDistribution})
+    Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovMultivariateFunction__ctor_3 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovMultivariateFunction.#ctor(Accord.Statistics.Models.Markov.HiddenMarkovClassifier{Accord.Statistics.Distributions.Multivariate.Independent,System.Double[]},System.Boolean)
+    Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovMultivariateFunction__ctor_4 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovMultivariateFunction.#ctor(Accord.Statistics.Models.Markov.HiddenMarkovClassifier{Accord.Statistics.Distributions.Multivariate.MultivariateNormalDistribution,System.Double[]},System.Boolean)
+    Unique name M_Accord_Statistics_Models_Fields_Functions_MarkovMultivariateFunction__ctor_5 generated for M:Accord.Statistics.Models.Fields.Functions.MarkovMultivariateFunction.#ctor(Accord.Statistics.Models.Markov.HiddenMarkovModel{Accord.Statistics.Distributions.Multivariate.MultivariateNormalDistribution})
     Unique name M_Accord_Statistics_Models_Fields_Learning_ForwardBackwardGradient_1_Dispose_1 generated for M:Accord.Statistics.Models.Fields.Learning.ForwardBackwardGradient`1.Dispose(System.Boolean)
     Unique name M_Accord_Statistics_Models_Fields_Learning_ForwardBackwardGradient_1_Gradient_1 generated for M:Accord.Statistics.Models.Fields.Learning.ForwardBackwardGradient`1.Gradient(System.Double[])
     Unique name M_Accord_Statistics_Models_Fields_Learning_ForwardBackwardGradient_1_Gradient_2 generated for M:Accord.Statistics.Models.Fields.Learning.ForwardBackwardGradient`1.Gradient(System.Double[],`0[],System.Int32)
@@ -7378,16 +7450,19 @@ TransformManifest:
     Unique name M_Accord_Statistics_Models_Markov_Topology_Forward__ctor_1 generated for M:Accord.Statistics.Models.Markov.Topology.Forward.#ctor(System.Int32,System.Boolean)
     Unique name M_Accord_Statistics_Models_Markov_Topology_Forward__ctor_2 generated for M:Accord.Statistics.Models.Markov.Topology.Forward.#ctor(System.Int32,System.Int32)
     Unique name M_Accord_Statistics_Models_Markov_Topology_Forward__ctor_3 generated for M:Accord.Statistics.Models.Markov.Topology.Forward.#ctor(System.Int32,System.Int32,System.Boolean)
-    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction,System.Double[],System.Double[])
-    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_2 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction,System.Int32)
-    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_3 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction,System.Int32,System.Double)
+    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction)
+    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_2 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction,System.Double[],System.Double[])
+    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_3 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction,System.Int32)
+    Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression__ctor_4 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.#ctor(Accord.Statistics.Links.ILinkFunction,System.Int32,System.Double)
     Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression_ChiSquare_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.ChiSquare(System.Double[][],System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression_Compute_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.Compute(System.Double[][])
     Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression_GetDeviance_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.GetDeviance(System.Double[][],System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression_GetLogLikelihood_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.GetLogLikelihood(System.Double[][],System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression_GetLogLikelihoodRatio_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.GetLogLikelihoodRatio(System.Double[][],System.Double[],System.Double[],Accord.Statistics.Models.Regression.GeneralizedLinearRegression)
     Unique name M_Accord_Statistics_Models_Regression_GeneralizedLinearRegression_LogLikelihood_1 generated for M:Accord.Statistics.Models.Regression.GeneralizedLinearRegression.LogLikelihood(System.Double[],System.Boolean@)
-    Unique name M_Accord_Statistics_Models_Regression_LogisticRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.LogisticRegression.#ctor(System.Int32,System.Double)
+    Unique name M_Accord_Statistics_Models_Regression_LogisticRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.LogisticRegression.#ctor(System.Int32)
+    Unique name M_Accord_Statistics_Models_Regression_LogisticRegression__ctor_2 generated for M:Accord.Statistics.Models.Regression.LogisticRegression.#ctor(System.Int32,System.Double)
+    Unique name M_Accord_Statistics_Models_Regression_LogisticRegression_FromWeights_1 generated for M:Accord.Statistics.Models.Regression.LogisticRegression.FromWeights(System.Double[],System.Double)
     Unique name M_Accord_Statistics_Models_Regression_MultinomialLogisticRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.MultinomialLogisticRegression.#ctor(System.Int32,System.Int32,System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_MultinomialLogisticRegression_ChiSquare_1 generated for M:Accord.Statistics.Models.Regression.MultinomialLogisticRegression.ChiSquare(System.Double[][],System.Int32[])
     Unique name M_Accord_Statistics_Models_Regression_MultinomialLogisticRegression_Compute_1 generated for M:Accord.Statistics.Models.Regression.MultinomialLogisticRegression.Compute(System.Double[][])
@@ -7428,9 +7503,10 @@ TransformManifest:
     Unique name M_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Run_1 generated for M:Accord.Statistics.Models.Regression.Fitting.LowerBoundNewtonRaphson.Run(System.Double[][],System.Int32[])
     Unique name M_Accord_Statistics_Models_Regression_Fitting_NonlinearLeastSquares__ctor_1 generated for M:Accord.Statistics.Models.Regression.Fitting.NonlinearLeastSquares.#ctor(Accord.Statistics.Models.Regression.NonlinearRegression,Accord.Math.Optimization.ILeastSquaresMethod)
     Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson__ctor_1 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.#ctor(Accord.Statistics.Models.Regression.ProportionalHazards)
-    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_1 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Tuple{System.Double[],System.Double}[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[],System.Double[])
-    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_2 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Tuple{System.Double[],System.Double}[],System.Boolean[],System.Double[])
-    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_3 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Tuple{System.Double[],System.Double}[],System.Int32[],System.Double[])
+    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_1 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Double[][],System.Double[],System.Int32[],System.Double[])
+    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_2 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Tuple{System.Double[],System.Double}[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[],System.Double[])
+    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_3 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Tuple{System.Double[],System.Double}[],System.Boolean[],System.Double[])
+    Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Learn_4 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Learn(System.Tuple{System.Double[],System.Double}[],System.Int32[],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Run_1 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Run(System.Double[],System.Int32[])
     Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Run_2 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Run(System.Double[][],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Run_3 generated for M:Accord.Statistics.Models.Regression.Fitting.ProportionalHazardsNewtonRaphson.Run(System.Double[][],System.Double[],Accord.Statistics.Distributions.Univariate.SurvivalOutcome[])
@@ -7439,6 +7515,7 @@ TransformManifest:
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression__ctor_2 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.#ctor(System.Int32,System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression__ctor_3 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.#ctor(System.Int32,System.Double)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Compute_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Compute(System.Double[][])
+    Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_GetStandardError_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.GetStandardError(System.Double[][],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Regress(System.Double[][],System.Double[],System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress_2 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.Regress(System.Double[][],System.Double[],System.Double[0:,0:]@,System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_ToString_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression.ToString(System.String,System.IFormatProvider)
@@ -7448,6 +7525,7 @@ TransformManifest:
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression__ctor_4 generated for M:Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression.#ctor(System.Int32,System.Int32,System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression_CoefficientOfDetermination_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression.CoefficientOfDetermination(System.Double[][],System.Double[][],System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression_Compute_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression.Compute(System.Double[][])
+    Unique name M_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression_GetStandardError_1 generated for M:Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression.GetStandardError(System.Double[][],System.Double[][])
     Unique name M_Accord_Statistics_Models_Regression_Linear_OrdinaryLeastSquares_Learn_1 generated for M:Accord.Statistics.Models.Regression.Linear.OrdinaryLeastSquares.Learn(System.Double[][],System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Linear_OrdinaryLeastSquares_Learn_2 generated for M:Accord.Statistics.Models.Regression.Linear.OrdinaryLeastSquares.Learn(System.Double[][],System.Double[][],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Linear_PolynomialRegression__ctor_1 generated for M:Accord.Statistics.Models.Regression.Linear.PolynomialRegression.#ctor(Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression)
@@ -7459,6 +7537,7 @@ TransformManifest:
     Unique name M_Accord_Statistics_Models_Regression_Linear_PolynomialRegression_ToString_3 generated for M:Accord.Statistics.Models.Regression.Linear.PolynomialRegression.ToString(System.String,System.IFormatProvider)
     Unique name M_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression_CoefficientOfDetermination_1 generated for M:Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression.CoefficientOfDetermination(System.Double[],System.Double[],System.Boolean)
     Unique name M_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression_Compute_1 generated for M:Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression.Compute(System.Double[])
+    Unique name M_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression_GetStandardError_1 generated for M:Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression.GetStandardError(System.Double[],System.Double[])
     Unique name M_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression_ToString_1 generated for M:Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression.ToString(System.IFormatProvider)
     Unique name M_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression_ToString_2 generated for M:Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression.ToString(System.String)
     Unique name M_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression_ToString_3 generated for M:Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression.ToString(System.String,System.IFormatProvider)
@@ -7560,11 +7639,13 @@ TransformManifest:
     Unique name M_Accord_Video_DirectShow_FileVideoSource__ctor_1 generated for M:Accord.Video.DirectShow.FileVideoSource.#ctor(System.String)
     Unique name M_Accord_Video_DirectShow_VideoCapabilities_Equals_1 generated for M:Accord.Video.DirectShow.VideoCapabilities.Equals(System.Object)
     Unique name M_Accord_Video_DirectShow_VideoCaptureDevice__ctor_1 generated for M:Accord.Video.DirectShow.VideoCaptureDevice.#ctor(System.String)
+    Unique name M_Accord_Video_DirectShow_VideoCaptureDevice__ctor_2 generated for M:Accord.Video.DirectShow.VideoCaptureDevice.#ctor(System.String,System.Drawing.Imaging.PixelFormat)
     Unique name M_Accord_Video_FFMPEG_VideoFileReader_Dispose_1 generated for M:Accord.Video.FFMPEG.VideoFileReader.Dispose(System.Boolean)
     Unique name M_Accord_Video_FFMPEG_VideoFileWriter_Dispose_1 generated for M:Accord.Video.FFMPEG.VideoFileWriter.Dispose(System.Boolean)
     Unique name M_Accord_Video_FFMPEG_VideoFileWriter_Open_1 generated for M:Accord.Video.FFMPEG.VideoFileWriter.Open(System.String,System.Int32,System.Int32,System.Int32)
     Unique name M_Accord_Video_FFMPEG_VideoFileWriter_Open_2 generated for M:Accord.Video.FFMPEG.VideoFileWriter.Open(System.String,System.Int32,System.Int32,System.Int32,Accord.Video.FFMPEG.VideoCodec)
     Unique name M_Accord_Video_FFMPEG_VideoFileWriter_Open_3 generated for M:Accord.Video.FFMPEG.VideoFileWriter.Open(System.String,System.Int32,System.Int32,System.Int32,Accord.Video.FFMPEG.VideoCodec,System.Int32)
+    Unique name M_Accord_Video_FFMPEG_VideoFileWriter_Open_4 generated for M:Accord.Video.FFMPEG.VideoFileWriter.Open(System.String,System.Int32,System.Int32,System.Int32,Accord.Video.FFMPEG.VideoCodec,System.Int32,Accord.Video.FFMPEG.AudioCodec,System.Int32,System.Int32,System.Int32)
     Unique name M_Accord_Video_FFMPEG_VideoFileWriter_WriteVideoFrame_1 generated for M:Accord.Video.FFMPEG.VideoFileWriter.WriteVideoFrame(System.Drawing.Bitmap,System.TimeSpan)
     Unique name M_Accord_Video_Kinect_KinectDepthCamera__ctor_1 generated for M:Accord.Video.Kinect.KinectDepthCamera.#ctor(System.Int32,Accord.Video.Kinect.CameraResolution)
     Unique name M_Accord_Video_Kinect_KinectDepthCamera__ctor_2 generated for M:Accord.Video.Kinect.KinectDepthCamera.#ctor(System.Int32,Accord.Video.Kinect.CameraResolution,System.Boolean)
@@ -7990,12 +8071,12 @@ Done Building Project &quot;C:\Docs\Working\TransformManifest.proj&quot; (defaul
 
 Build succeeded.
 
-Time Elapsed 00:27:31.82
-    Last step completed in 00:27:32.1350
+Time Elapsed 01:15:37.24
+    Last step completed in 01:15:38.0861
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:03.3659
+    Last step completed in 00:00:04.8370
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -8219,16 +8300,16 @@ C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Buildi
 C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Building.txt -&gt; C:\Docs\Working\Output\Website\Building.txt
 C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (icon).ico -&gt; C:\Docs\Working\Output\HtmlHelp1\resources\Accord.NET (icon).ico
 C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (icon).ico -&gt; C:\Docs\Working\Output\Website\resources\Accord.NET (icon).ico
-    Last step completed in 00:00:01.2854
+    Last step completed in 00:00:01.9334
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0015
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 20-Aug-16 9:37:23 PM.
+Build started 15-Sep-16 11:37:08 PM.
 Project &quot;C:\Docs\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -8239,14 +8320,14 @@ Done Building Project &quot;C:\Docs\Working\GenerateIntermediateTOC.proj&quot; (
 
 Build succeeded.
 
-Time Elapsed 00:00:03.79
+Time Elapsed 00:00:04.12
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:04.1590
+    Last step completed in 00:00:04.7041
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:01.4320
+    Last step completed in 00:00:02.7395
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -8254,12 +8335,12 @@ C:\Docs\Working\sandcastle.config
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0150
+    Last step completed in 00:00:00.0170
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 20-Aug-16 9:37:28 PM.
+Build started 15-Sep-16 11:37:15 PM.
 Project &quot;C:\Docs\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -9678,7 +9759,7 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [F:ZedGraph.Scale.Def
 BuildAssembler : warning : ResolveReferenceLinksComponent: [F:ZedGraph.Scale.Default.RangeYearMonth] Unknown reference link target &#39;M:ZedGraph.DateScale.CalcDateStepSize(System.Double,System.Double,ZedGraph.Scale)&#39;. [C:\Docs\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [F:ZedGraph.Scale.Default.RangeYearYear] Unknown reference link target &#39;M:ZedGraph.DateScale.CalcDateStepSize(System.Double,System.Double,ZedGraph.Scale)&#39;. [C:\Docs\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [F:ZedGraph.Scale.Default.RangeYearYear] Unknown reference link target &#39;M:ZedGraph.DateScale.CalcDateStepSize(System.Double,System.Double,ZedGraph.Scale)&#39;. [C:\Docs\Working\BuildTopics.proj]
-  Processed 27592 topic(s)
+  Processed 27837 topic(s)
   1411 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 30 of 30.
@@ -9686,12 +9767,12 @@ Done Building Project &quot;C:\Docs\Working\BuildTopics.proj&quot; (default targ
 
 Build succeeded.
 
-Time Elapsed 00:08:30.67
-    Last step completed in 00:08:31.0826
+Time Elapsed 00:18:52.66
+    Last step completed in 00:18:53.2856
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.3312
+    Last step completed in 00:00:01.1563
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -9703,17 +9784,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Docs\Working\Output\HtmlHelp1
-Processed 27592 HTML files
+Processed 27836 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Docs\Working\Accord.NET.hhk
 Saving HTML Help 1 table of contents to C:\Docs\Working\Accord.NET.hhc
 
 Processing website files in C:\Docs\Working\Output\Website
-Processed 27592 HTML files
+Processed 27836 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Docs\Working\WebKI.xml
 Saving website table of contents to C:\Docs\Working\WebTOC.xml
-    Last step completed in 00:00:45.8417
+    Last step completed in 00:01:15.7617
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -9854,11 +9935,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Docs\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Docs\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Docs\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.0232
+    Last step completed in 00:00:01.5411
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -9866,7 +9947,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.7530
+    Last step completed in 00:00:01.1938
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -9881,13 +9962,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 27 seconds
+  Compile time: 10 minutes, 14 seconds
   
-  27,594	Topics
+  27,838	Topics
   
-  367,867	Local links
+  371,211	Local links
   
-  150,753	Internet links
+  145,923	Internet links
   
   0	Graphics
   
@@ -9895,22 +9976,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 51,428,173 bytes
+  Created c:\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 51,732,943 bytes
   
-  Compression decreased file by 313,729,410 bytes.
+  Compression decreased file by 316,230,360 bytes.
   
-    Last step completed in 00:03:29.1568
+    Last step completed in 00:10:18.9973
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0005
+    Last step completed in 00:00:00.0025
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:01:54.3376
+</plugIn>    Last step completed in 00:04:37.9382
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -9984,16 +10065,12 @@ Copied 33000 files
 Copied 33500 files
 Copied 34000 files
 Copied 34500 files
-Copied 34647 files for the website content
-    Last step completed in 00:01:32.4581
-</buildStep>
-<buildStep step="CleanIntermediates">
-Removing intermediate files...
-    Last step completed in 00:00:39.7380
+Copied 34940 files for the website content
+    Last step completed in 00:01:20.4682
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 20-Aug-16 9:54:23 PM.  Total time: 00:44:57.9960
+Build completed successfully at 16-Sep-16 12:13:45 AM.  Total time: 01:55:08.6051
 
 </buildStep>
 </shfbBuild>
