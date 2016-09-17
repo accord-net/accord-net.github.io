@@ -25,7 +25,7 @@ comments: true
         Can I use Accord.NET in my commercial applications?
     </h2>
     <p>
-        <strong>Yes</strong>, as long as you are only linking about the unmodified .dll files
+        <strong>Yes</strong>, as long as you are only linking against the unmodified .dll files
         of the framework, and if you mention in your software and relevant resource materials 
         that you are using this framework - and ideally tell users where they could also find it.
     </p>
@@ -36,7 +36,7 @@ comments: true
         <strong>No</strong>, as long as you don't touch any of the framework's own source
         code files. If you just link against the framework .dll files, then everything should
         be fine. Note that this is the most common case (and the intended use) scenario.
-    <br>
+    <br><br>
         However, if you make modifications to the framework <i>source code</i>, and redistribute
         this modified version (i.e. compile a modified version of <i>the framework itself</i>),
         then you will need to distribute those modifications under the LGPL, to whomever
@@ -52,7 +52,7 @@ comments: true
         can open just the modifications you made to the framework's source code, and not
         the code of your consumer application. <b>The code of your application would never
         need to be disclosed, under any circumstances</b>.
-    <br>
+    <br><br>
         Neither the GPL nor the LGPL actually obliges you to actually disclose
         your source code. If you distribute a modified version without abiding by the LGPL terms, you
         will be violating the license terms and thus lose your grant to continue using the library.
@@ -71,7 +71,9 @@ comments: true
             that have been shared under academic-only licenses, or that otherwise contain patented
             algorithms for which would be necessary to acquire a license to commercialize. If you would
             are using the framework and plan to commercialize your product, please avoid linking your
-            project against those specific assemblies.
+            project against those specific assemblies (note:
+        the assembly shown as an example is different from the standard <a href="https://www.nuget.org/packages/Accord.Math/">Accord.Math</a>
+        assembly, which is perfectly OK to use in commercial applications).
     </p>
     <h2>
         Can I use the framework for commercial purposes and without paying money to your company?
@@ -96,35 +98,37 @@ comments: true
     </h2>
     <p>
         Absolutely! Just be sure to mention in your application and related documentation materials that your
-        product uses this framework and indicate where they can download it.
+        product uses this framework and indicate where users can download it.
     </p>
     <h2> 
         Do I have to acquire a license to use the framework?
     </h2>
     <p>
         No, you don't need to acquire a license to use Accord.NET in a commercial application. The framework is 
-        distributed in the LGPL 2 license, which allows it to be used commercially without any costs. However, sometimes
-        people ask me to give special, explicit licenses with my signature, just for extra garanties that they can indeed
-        use the framework in their products. This is not required at all, but I guess some companies have some restrictions
-        against open-source code and I suppose having those explicit permissions is safer for them.
+        distributed under the LGPL 2 license, which allows it to be used commercially without any costs. However, sometimes
+        people ask framework authors to give special, explicit licenses with my signature, just for extra garanties that 
+        they can indeed use the framework in their products. This is not required at all, but I guess some companies have
+        some restrictions against open-source code and I suppose having those explicit permissions is safer for them.
     </p>
     <h2> 
         We're interested in using Accord for a commercial piece of software, however some parts of Accord appear to be GPL, 
         whereas others are LGPL, and some are under Creative Commons. Why is that?
     </h2>
     <p>
-        All the binaries from the framework are available under the LGPL license except for the ones that have different
-        license markings in their names. For example, Accord.MachineLearning.dll does not have any marking, and as such, 
+        All the binaries from the framework are available under the LGPL license <i>except</i> for the ones that have different
+        license markings in their names. For example, <a href="https://www.nuget.org/packages/Accord.MachineLearning/">
+            Accord.MachineLearning.dll</a> does not have any marking, and as such, 
         is under the LGPL. In fact, all "core" assemblies of the framework are available under the LGPL and thus can be 
         used on commercial and closed-source applications without any problems.
-    <br>
+    <br><br>
         However, there have been some useful algorithms that have been released by others under the GPL or non-commercial
         licenses. In order to keep the main framework under the LGPL but still provide those algorithms for those who need,
         the framework contains assemblies with the marks "GPL" or "Noncommercial" in their names such as 
-        Accord.MachineLearning.GPL.dll. Those especially marked assemblies are available under their respective marked licenses.
-        If you want to keep the licensing clean, just stick to using the standard binaries which are not marked with GPL or 
-        Noncommercial in their names.
-    <br>
+        <a href="https://www.nuget.org/packages/Accord.MachineLearning.GPL/">Accord.MachineLearning.GPL.dll</a>. Those
+        especially marked assemblies are available under their respective marked licenses. If you want to keep the
+        licensing clean, just stick to using the standard binaries which are not marked with GPL or Noncommercial in
+        their names.
+    <br><br>
         Regarding the mention to Creative Commons: it refers only to the documentation and API reference that comes with
         the framework, and its the same license used by Wikipedia. It is a more adequate license for texts.
     </p>
