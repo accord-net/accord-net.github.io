@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,14 +35,15 @@
             <td class="titleColumn">IMultilabelOutScoreClassifier<span id="LST60E181D7_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TInput</span>, <span class="typeparameter">TClasses</span><span id="LST60E181D7_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST60E181D7_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_2?cpp=::|nu=.");</script>Scores Method (<span class="typeparameter">TInput</span>, <span class="typeparameter">TClasses</span><span id="LST60E181D7_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_3?cpp=%");</script>, <span id="LST60E181D7_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_4?cpp=array&lt;");</script>Double<span id="LST60E181D7_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_5?cpp=&gt;|vb=()|nu=[]");</script>)</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
               Predicts a class label vector for the given input vector, returning a
               numerical score measuring the strength of association of the input vector
               to each of the possible classes.
-            </div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br /><strong>Assembly:</strong> Accord (in Accord.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="identifier">double</span>[] <span class="identifier">Scores</span>(
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
+    <strong>Assembly:</strong>
+   Accord (in Accord.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="identifier">double</span>[] <span class="identifier">Scores</span>(
 	TInput <span class="parameter">input</span>,
 	<span class="keyword">out</span> TClasses <span class="parameter">decision</span>,
 	<span class="identifier">double</span>[] <span class="parameter">result</span>
@@ -53,10 +55,10 @@
               avoiding unnecessary memory allocations.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LST60E181D7_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_10?cpp=array&lt;");</script><span class="nolink">Double</span><span id="LST60E181D7_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_11?cpp=&gt;|vb=()|nu=[]");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_IMultilabelOutScoreClassifier_2.htm">IMultilabelOutScoreClassifier<span id="LST60E181D7_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LST60E181D7_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST60E181D7_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Interface</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_MachineLearning_IMultilabelOutScoreClassifier_2_Scores.htm">Scores Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
