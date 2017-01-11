@@ -21,12 +21,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
     <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
     <div class="pageBody">
-      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Distributions_Multivariate.htm" title="Accord.Statistics.Distributions.Multivariate" tocid="N_Accord_Statistics_Distributions_Multivariate">Accord.Statistics.Distributions.Multivariate</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm" title="Independent(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Distributions_Multivariate_Independent_2">Independent(TDistribution, TObservation) Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm" title="Independent(TDistribution, TObservation) Methods" tocid="Methods_T_Accord_Statistics_Distributions_Multivariate_Independent_2">Independent(TDistribution, TObservation) Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Clone.htm" title="Clone Method " tocid="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Clone">Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_ComplementaryDistributionFunction.htm" title="ComplementaryDistributionFunction Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_ComplementaryDistributionFunction">ComplementaryDistributionFunction Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_DistributionFunction.htm" title="DistributionFunction Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_DistributionFunction">DistributionFunction Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit.htm" title="Fit Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit">Fit Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_LogProbabilityFunction.htm" title="LogProbabilityFunction Method " tocid="M_Accord_Statistics_Distributions_Multivariate_Independent_2_LogProbabilityFunction">LogProbabilityFunction Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ProbabilityFunction.htm" title="ProbabilityFunction Method " tocid="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ProbabilityFunction">ProbabilityFunction Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Distributions_Multivariate.htm" title="Accord.Statistics.Distributions.Multivariate" tocid="N_Accord_Statistics_Distributions_Multivariate">Accord.Statistics.Distributions.Multivariate</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm" title="Independent(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Distributions_Multivariate_Independent_2">Independent(TDistribution, TObservation) Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm" title="Independent(TDistribution, TObservation) Methods" tocid="Methods_T_Accord_Statistics_Distributions_Multivariate_Independent_2">Independent(TDistribution, TObservation) Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Clone.htm" title="Clone Method " tocid="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Clone">Clone Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_ComplementaryDistributionFunction.htm" title="ComplementaryDistributionFunction Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_ComplementaryDistributionFunction">ComplementaryDistributionFunction Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_DistributionFunction.htm" title="DistributionFunction Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_DistributionFunction">DistributionFunction Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit.htm" title="Fit Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit">Fit Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_Generate.htm" title="Generate Method " tocid="Overload_Accord_Statistics_Distributions_Multivariate_Independent_2_Generate">Generate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_LogProbabilityFunction.htm" title="LogProbabilityFunction Method " tocid="M_Accord_Statistics_Distributions_Multivariate_Independent_2_LogProbabilityFunction">LogProbabilityFunction Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ProbabilityFunction.htm" title="ProbabilityFunction Method " tocid="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ProbabilityFunction">ProbabilityFunction Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
         <table class="titleTable">
           <tr>
             <td class="logoColumn">
@@ -35,531 +36,102 @@
             <td class="titleColumn">Independent<span id="LSTFCCF47FC_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TDistribution</span>, <span class="typeparameter">TObservation</span><span id="LSTFCCF47FC_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Methods</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm">Independent<span id="LSTFCCF47FC_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTFCCF47FC_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm">Independent<span id="LSTFCCF47FC_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTFCCF47FC_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Clone.htm">Clone</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Clone.htm">Clone</a></td><td><div class="summary">
               Creates a new object that is a copy of the current instance.
-            </div> (Overrides <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Clone.htm">Independent<span id="LSTFCCF47FC_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTFCCF47FC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Clone<span id="LSTFCCF47FC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_7?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ComplementaryDistributionFunction.htm">ComplementaryDistributionFunction(<span id="LSTFCCF47FC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_8?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_9?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Overrides <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Clone.htm">Independent<span id="LSTFCCF47FC_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTFCCF47FC_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Clone<span id="LSTFCCF47FC_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_7?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ComplementaryDistributionFunction.htm">ComplementaryDistributionFunction(<span id="LSTFCCF47FC_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_8?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_9?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the complementary cumulative distribution function
               (ccdf) for this distribution evaluated at point <span class="code">x</span>.
               This function is also known as the Survival function.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_ComplementaryDistributionFunction.htm">ComplementaryDistributionFunction(<span id="LSTFCCF47FC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_10?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_ComplementaryDistributionFunction.htm">ComplementaryDistributionFunction(<span id="LSTFCCF47FC_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_10?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the complementary cumulative distribution function
               (ccdf) for this distribution evaluated at point <span class="code">x</span>.
               This function is also known as the Survival function.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_DistributionFunction.htm">DistributionFunction(<span id="LSTFCCF47FC_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_12?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_DistributionFunction.htm">DistributionFunction(<span id="LSTFCCF47FC_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_12?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the probability density function (pdf) for
               this distribution evaluated at point <span class="code">x</span>.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_DistributionFunction.htm">DistributionFunction(<span id="LSTFCCF47FC_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_16?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_DistributionFunction.htm">DistributionFunction(<span id="LSTFCCF47FC_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_16?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Gets the cumulative distribution function (cdf) for
             this distribution evaluated at point <span class="code">x</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">Equals</span>
-              </td>
-              <td>
-                <div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="protected;inherited;notNetfw;">
-              <td>
-                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
-              </td>
-              <td>
-                <span class="nolink">Finalize</span>
-              </td>
-              <td>
-                <div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit.htm">Fit(<span id="LSTFCCF47FC_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_18?cpp=array&lt;");</script><span id="LSTFCCF47FC_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_19?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit.htm">Fit(<span id="LSTFCCF47FC_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_18?cpp=array&lt;");</script><span id="LSTFCCF47FC_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_19?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit.htm">Fit(<span id="LSTFCCF47FC_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_22?cpp=array&lt;");</script><span id="LSTFCCF47FC_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_23?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_25?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit.htm">Fit(<span id="LSTFCCF47FC_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_22?cpp=array&lt;");</script><span id="LSTFCCF47FC_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_23?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_25?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit_1.htm">Fit(<span id="LSTFCCF47FC_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_26?cpp=array&lt;");</script><span id="LSTFCCF47FC_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_27?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_30?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit_1.htm">Fit(<span id="LSTFCCF47FC_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_26?cpp=array&lt;");</script><span id="LSTFCCF47FC_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_27?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_30?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_1.htm">Fit(<span id="LSTFCCF47FC_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_32?cpp=array&lt;");</script><span id="LSTFCCF47FC_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_33?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IFittingOptions)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_1.htm">Fit(<span id="LSTFCCF47FC_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_32?cpp=array&lt;");</script><span id="LSTFCCF47FC_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_33?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IFittingOptions)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_2.htm">Fit(<span id="LSTFCCF47FC_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_36?cpp=array&lt;");</script><span id="LSTFCCF47FC_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_37?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_38?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_40?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_41?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_2.htm">Fit(<span id="LSTFCCF47FC_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_36?cpp=array&lt;");</script><span id="LSTFCCF47FC_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_37?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_38?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_40?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_41?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_4.htm">Fit(<span id="LSTFCCF47FC_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_42?cpp=array&lt;");</script><span id="LSTFCCF47FC_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_43?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_44?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_46?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_4.htm">Fit(<span id="LSTFCCF47FC_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_42?cpp=array&lt;");</script><span id="LSTFCCF47FC_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_43?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_44?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_46?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Fit.htm">Fit(<span id="LSTFCCF47FC_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_48?cpp=array&lt;");</script><span id="LSTFCCF47FC_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_49?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_52?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IFittingOptions)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Fit.htm">Fit(<span id="LSTFCCF47FC_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_48?cpp=array&lt;");</script><span id="LSTFCCF47FC_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_49?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_52?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IFittingOptions)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_54?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_55?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Fit_1.htm">Fit(<span id="LSTFCCF47FC_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_56?cpp=array&lt;");</script><span id="LSTFCCF47FC_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_57?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_58?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_60?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_61?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IndependentOptions)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_54?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_55?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Fit_1.htm">Fit(<span id="LSTFCCF47FC_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_56?cpp=array&lt;");</script><span id="LSTFCCF47FC_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_57?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_58?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_60?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_61?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IndependentOptions)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_62?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_63?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit_2.htm">Fit(<span id="LSTFCCF47FC_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_64?cpp=array&lt;");</script><span id="LSTFCCF47FC_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_65?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_66?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_67?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_68?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_69?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IndependentOptions)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_62?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_63?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Fit_2.htm">Fit(<span id="LSTFCCF47FC_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_64?cpp=array&lt;");</script><span id="LSTFCCF47FC_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_65?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_66?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_67?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_68?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_69?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IndependentOptions)</a></td><td><div class="summary">
                Fits the underlying distribution to a given set of observations.
-             </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_5.htm">Fit(<span id="LSTFCCF47FC_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_70?cpp=array&lt;");</script><span id="LSTFCCF47FC_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_71?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_72?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_74?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IFittingOptions)</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Fit_5.htm">Fit(<span id="LSTFCCF47FC_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_70?cpp=array&lt;");</script><span id="LSTFCCF47FC_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_71?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_72?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTFCCF47FC_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_74?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, IFittingOptions)</a></td><td><div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate.htm">Generate<span id="LSTFCCF47FC_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_76?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate.htm">Generate<span id="LSTFCCF47FC_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_76?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
               Generates a random observation from the current distribution.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_1.htm">Generate(<span id="LSTFCCF47FC_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_77?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Generate_1.htm">Generate(<span id="LSTFCCF47FC_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_77?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Generates a random observation from the current distribution.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_1.htm">Generate(<span id="LSTFCCF47FC_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_79?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Generates a random observation from the current distribution.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_2.htm">Generate(Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_2.htm">Generate(Int32)</a></td><td><div class="summary">
               Generates a random vector of observations from the current distribution.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_5.htm">Generate(<span id="LSTFCCF47FC_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_79?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_5.htm">Generate(<span id="LSTFCCF47FC_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_81?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Generates a random observation from the current distribution.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Generate.htm">Generate(Int32, <span id="LSTFCCF47FC_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_81?cpp=array&lt;");</script><span id="LSTFCCF47FC_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_82?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_83?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_84?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Generate.htm">Generate(Int32, <span id="LSTFCCF47FC_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_83?cpp=array&lt;");</script><span id="LSTFCCF47FC_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_84?cpp=array&lt;");</script>Double<span id="LSTFCCF47FC_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_85?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_86?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Generates a random vector of observations from the current distribution.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_85?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_86?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_4.htm">Generate(Int32, <span id="LSTFCCF47FC_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_87?cpp=array&lt;");</script><span id="LSTFCCF47FC_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_88?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_89?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_90?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_87?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_88?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_Generate.htm">Generate(Int32, <span id="LSTFCCF47FC_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_89?cpp=array&lt;");</script><span id="LSTFCCF47FC_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_90?cpp=array&lt;");</script>TObservation<span id="LSTFCCF47FC_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_91?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_92?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Generates a random vector of observations from the current distribution.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution_Generate_4.htm">Generate(Int32, <span id="LSTFCCF47FC_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_93?cpp=array&lt;");</script><span id="LSTFCCF47FC_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_94?cpp=array&lt;");</script>Int32<span id="LSTFCCF47FC_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_95?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTFCCF47FC_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_96?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Generates a random vector of observations from the current distribution.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">GetHashCode</span>
-              </td>
-              <td>
-                <div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">GetType</span>
-              </td>
-              <td>
-                <div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_LogProbabilityDensityFunction.htm">LogProbabilityDensityFunction</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_MultivariateContinuousDistribution.htm">MultivariateContinuousDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_LogProbabilityDensityFunction.htm">LogProbabilityDensityFunction</a></td><td><div class="summary">
               Gets the log-probability density function (pdf)
               for this distribution evaluated at point <span class="code">x</span>.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_91?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_92?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_LogProbabilityFunction.htm">LogProbabilityFunction</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_97?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_98?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_LogProbabilityFunction.htm">LogProbabilityFunction</a></td><td><div class="summary">
               Gets the complementary cumulative distribution function
               (ccdf) for this distribution evaluated at point <span class="code">x</span>.
               This function is also known as the Survival function.
-            </div>
-              </td>
-            </tr>
-            <tr data="protected;inherited;notNetfw;">
-              <td>
-                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
-              </td>
-              <td>
-                <span class="nolink">MemberwiseClone</span>
-              </td>
-              <td>
-                <div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_ProbabilityDensityFunction.htm">ProbabilityDensityFunction</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_ProbabilityDensityFunction.htm">ProbabilityDensityFunction</a></td><td><div class="summary">
               Gets the probability density function (pdf) for
               this distribution evaluated at point <span class="code">x</span>.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_93?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_94?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ProbabilityFunction.htm">ProbabilityFunction</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_99?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_100?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_2_ProbabilityFunction.htm">ProbabilityFunction</a></td><td><div class="summary">
             Gets the probability density function (pdf) for
             this distribution evaluated at point <span class="code">x</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="protected;inherited;notNetfw;">
-              <td>
-                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Reset.htm">Reset</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_Reset.htm">Reset</a></td><td><div class="summary">
               Resets cached values (should be called after re-estimation).
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_95?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_96?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_DistributionBase_ToString.htm">ToString<span id="LSTFCCF47FC_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_97?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_101?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_102?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_DistributionBase_ToString.htm">ToString<span id="LSTFCCF47FC_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_103?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
               Returns a <span class="nolink">String</span> that represents this instance.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_DistributionBase.htm">DistributionBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_DistributionBase_ToString_1.htm">ToString(IFormatProvider)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_DistributionBase.htm">DistributionBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_DistributionBase_ToString_1.htm">ToString(IFormatProvider)</a></td><td><div class="summary">
               Returns a <span class="nolink">String</span> that represents this instance.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_DistributionBase.htm">DistributionBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_DistributionBase_ToString_2.htm">ToString(String)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_DistributionBase.htm">DistributionBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_DistributionBase_ToString_2.htm">ToString(String)</a></td><td><div class="summary">
               Returns a <span class="nolink">String</span> that represents this instance.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_DistributionBase.htm">DistributionBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_ToString.htm">ToString(String, IFormatProvider)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_DistributionBase.htm">DistributionBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Multivariate_Independent_1_ToString.htm">ToString(String, IFormatProvider)</a></td><td><div class="summary">
               Returns a <span class="nolink">String</span> that represents this instance.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_98?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_99?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_1.htm">Independent<span id="LSTFCCF47FC_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_104?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTFCCF47FC_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_105?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
-              </td>
-              <td>
-                <a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
-              </td>
-              <td>
-                <a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTFCCF47FC_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_100?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCCF47FC_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_101?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTFCCF47FC_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_102?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
-              </td>
-              <td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTFCCF47FC_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_106?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCCF47FC_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_107?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTFCCF47FC_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_108?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LSTFCCF47FC_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_103?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCCF47FC_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_104?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTFCCF47FC_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_105?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
-              </td>
-              <td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LSTFCCF47FC_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_109?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCCF47FC_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_110?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTFCCF47FC_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_111?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
-            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID2RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm">Independent<span id="LSTFCCF47FC_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_106?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTFCCF47FC_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_107?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Distributions_Multivariate.htm">Accord.Statistics.Distributions.Multivariate Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Distributions_Multivariate_Independent_2.htm">Independent<span id="LSTFCCF47FC_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_112?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTFCCF47FC_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCCF47FC_113?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Multivariate.htm">Accord.Statistics.Distributions.Multivariate Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

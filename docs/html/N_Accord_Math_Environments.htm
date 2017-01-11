@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -38,109 +39,27 @@
             <td class="titleColumn">Accord.Math.Environments Namespace</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">Contains algorithm environments you can inherit from and let your code be similar to famous environments such as R and Octave.</div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="summary">Contains algorithm environments you can inherit from and let your code be similar to famous environments such as R and Octave.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Class</th>
-              <th>Description</th>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Environments_OctaveEnvironment.htm">OctaveEnvironment</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Math_Environments_OctaveEnvironment.htm">OctaveEnvironment</a></td><td><div class="summary">
                Programming environment for Octave.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/protclass.gif" alt="Protected class" title="Protected class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Environments_OctaveEnvironment_mat.htm">OctaveEnvironment<span id="LST35322A0B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>mat</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/protclass.gif" alt="Protected class" title="Protected class" /></td><td><a href="T_Accord_Math_Environments_OctaveEnvironment_mat.htm">OctaveEnvironment<span id="LST35322A0B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>mat</a></td><td><div class="summary">
               Matrix definition operator.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/protclass.gif" alt="Protected class" title="Protected class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Environments_OctaveEnvironment_retm.htm">OctaveEnvironment<span id="LST35322A0B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>retm</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/protclass.gif" alt="Protected class" title="Protected class" /></td><td><a href="T_Accord_Math_Environments_OctaveEnvironment_retm.htm">OctaveEnvironment<span id="LST35322A0B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>retm</a></td><td><div class="summary">
               Return definition operator.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Environments_REnvironment.htm">REnvironment</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Math_Environments_REnvironment.htm">REnvironment</a></td><td><div class="summary">
               GNU R algorithm environment. Work in progress.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/protclass.gif" alt="Protected class" title="Protected class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Environments_REnvironment_mat.htm">REnvironment<span id="LST35322A0B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>mat</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/protclass.gif" alt="Protected class" title="Protected class" /></td><td><a href="T_Accord_Math_Environments_REnvironment_mat.htm">REnvironment<span id="LST35322A0B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>mat</a></td><td><div class="summary">
               Matrix definition operator.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/protclass.gif" alt="Protected class" title="Protected class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Environments_REnvironment_vec.htm">REnvironment<span id="LST35322A0B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>vec</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/protclass.gif" alt="Protected class" title="Protected class" /></td><td><a href="T_Accord_Math_Environments_REnvironment_vec.htm">REnvironment<span id="LST35322A0B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST35322A0B_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>vec</a></td><td><div class="summary">
               Vector definition operator.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+            </div></td></tr></table></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

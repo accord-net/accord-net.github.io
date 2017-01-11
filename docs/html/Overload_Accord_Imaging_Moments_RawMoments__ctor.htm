@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -37,134 +38,29 @@
             <td class="titleColumn">RawMoments Constructor </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor_4.htm">RawMoments(Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor_4.htm">RawMoments(Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor_3.htm">RawMoments(Bitmap, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor_3.htm">RawMoments(Bitmap, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor_6.htm">RawMoments(<span id="LST5645E82_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_0?cpp=array&lt;");</script>Single<span id="LST5645E82_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_1?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor_6.htm">RawMoments(<span id="LST5645E82_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_0?cpp=array&lt;");</script>Single<span id="LST5645E82_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_1?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor_1.htm">RawMoments(UnmanagedImage, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor_1.htm">RawMoments(UnmanagedImage, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor_2.htm">RawMoments(Bitmap, Rectangle, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor_2.htm">RawMoments(Bitmap, Rectangle, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor_5.htm">RawMoments(<span id="LST5645E82_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_2?cpp=array&lt;");</script>Single<span id="LST5645E82_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_3?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Rectangle, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor_5.htm">RawMoments(<span id="LST5645E82_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_2?cpp=array&lt;");</script>Single<span id="LST5645E82_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5645E82_3?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Rectangle, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Moments_RawMoments__ctor.htm">RawMoments(UnmanagedImage, Rectangle, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Imaging_Moments_RawMoments__ctor.htm">RawMoments(UnmanagedImage, Rectangle, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments</a> class.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Imaging_Moments_RawMoments.htm">RawMoments Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Imaging_Moments_RawMoments.htm">RawMoments Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Imaging_Moments.htm">Accord.Imaging.Moments Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

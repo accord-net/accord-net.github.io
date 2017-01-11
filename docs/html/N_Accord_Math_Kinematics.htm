@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -38,124 +39,30 @@
             <td class="titleColumn">Accord.Math.Kinematics Namespace</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">Contains classes to model complex kinematic chains, useful for robotic applications.</div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="summary">Contains classes to model complex kinematic chains, useful for robotic applications.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Class</th>
-              <th>Description</th>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergJoint.htm">DenavitHartenbergJoint</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergJoint.htm">DenavitHartenbergJoint</a></td><td><div class="summary">
               Denavit-Hartenberg Model Joint.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergJointCollection.htm">DenavitHartenbergJointCollection</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergJointCollection.htm">DenavitHartenbergJointCollection</a></td><td><div class="summary">
               Collection of Denavit Hartenberg Joints.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergMatrix.htm">DenavitHartenbergMatrix</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergMatrix.htm">DenavitHartenbergMatrix</a></td><td><div class="summary">
               Denavit Hartenberg matrix (commonly referred as T).
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergModel.htm">DenavitHartenbergModel</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergModel.htm">DenavitHartenbergModel</a></td><td><div class="summary">
                Denavit Hartenberg model for joints.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergNode.htm">DenavitHartenbergNode</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergNode.htm">DenavitHartenbergNode</a></td><td><div class="summary">
                Denavit Hartenberg Model Combinator class to make combination
                of models to create a complex model composed of multiple chains.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergNodeCollection.htm">DenavitHartenbergNodeCollection</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergNodeCollection.htm">DenavitHartenbergNodeCollection</a></td><td><div class="summary">
               Collection of Denavit-Hartenberg model nodes.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Math_Kinematics_DenavitHartenbergParameters.htm">DenavitHartenbergParameters</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Math_Kinematics_DenavitHartenbergParameters.htm">DenavitHartenbergParameters</a></td><td><div class="summary">
                Denavit Hartenberg joint-description parameters.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+            </div></td></tr></table></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

@@ -20,12 +20,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
     <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
     <div class="pageBody">
-      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Imaging.htm" title="Accord.Imaging" tocid="N_Accord_Imaging">Accord.Imaging</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Imaging_Tools.htm" title="Tools Class" tocid="T_Accord_Imaging_Tools">Tools Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_Imaging_Tools.htm" title="Tools Methods" tocid="Methods_T_Accord_Imaging_Tools">Tools Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_Center.htm" title="Center Method " tocid="M_Accord_Imaging_Tools_Center">Center Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Collinear.htm" title="Collinear Method " tocid="Overload_Accord_Imaging_Tools_Collinear">Collinear Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Fundamental.htm" title="Fundamental Method " tocid="Overload_Accord_Imaging_Tools_Fundamental">Fundamental Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_GetFormat.htm" title="GetFormat Method " tocid="M_Accord_Imaging_Tools_GetFormat">GetFormat Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Homography.htm" title="Homography Method " tocid="Overload_Accord_Imaging_Tools_Homography">Homography Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_InnerProduct.htm" title="InnerProduct Method " tocid="M_Accord_Imaging_Tools_InnerProduct">InnerProduct Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_IsEqual.htm" title="IsEqual Method " tocid="M_Accord_Imaging_Tools_IsEqual">IsEqual Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Max.htm" title="Max Method " tocid="Overload_Accord_Imaging_Tools_Max">Max Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Mean.htm" title="Mean Method " tocid="Overload_Accord_Imaging_Tools_Mean">Mean Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Min.htm" title="Min Method " tocid="Overload_Accord_Imaging_Tools_Min">Min Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Multiply.htm" title="Multiply Method " tocid="Overload_Accord_Imaging_Tools_Multiply">Multiply Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Normalize.htm" title="Normalize Method " tocid="Overload_Accord_Imaging_Tools_Normalize">Normalize Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_StandardDeviation.htm" title="StandardDeviation Method " tocid="Overload_Accord_Imaging_Tools_StandardDeviation">StandardDeviation Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Sum.htm" title="Sum Method " tocid="Overload_Accord_Imaging_Tools_Sum">Sum Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_ToBitmap.htm" title="ToBitmap Method " tocid="Overload_Accord_Imaging_Tools_ToBitmap">ToBitmap Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_ToDoubleArray.htm" title="ToDoubleArray Method " tocid="Overload_Accord_Imaging_Tools_ToDoubleArray">ToDoubleArray Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_ToDoubleMatrix.htm" title="ToDoubleMatrix Method " tocid="Overload_Accord_Imaging_Tools_ToDoubleMatrix">ToDoubleMatrix Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_TransformPoints.htm" title="TransformPoints Method " tocid="M_Accord_Imaging_Tools_TransformPoints">TransformPoints Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Imaging.htm" title="Accord.Imaging" tocid="N_Accord_Imaging">Accord.Imaging</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Imaging_Tools.htm" title="Tools Class" tocid="T_Accord_Imaging_Tools">Tools Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_Imaging_Tools.htm" title="Tools Methods" tocid="Methods_T_Accord_Imaging_Tools">Tools Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_Center.htm" title="Center Method " tocid="M_Accord_Imaging_Tools_Center">Center Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Collinear.htm" title="Collinear Method " tocid="Overload_Accord_Imaging_Tools_Collinear">Collinear Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_CopyResolutionFrom.htm" title="CopyResolutionFrom Method " tocid="M_Accord_Imaging_Tools_CopyResolutionFrom">CopyResolutionFrom Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Fundamental.htm" title="Fundamental Method " tocid="Overload_Accord_Imaging_Tools_Fundamental">Fundamental Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_GetFormat.htm" title="GetFormat Method " tocid="M_Accord_Imaging_Tools_GetFormat">GetFormat Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Homography.htm" title="Homography Method " tocid="Overload_Accord_Imaging_Tools_Homography">Homography Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_InnerProduct.htm" title="InnerProduct Method " tocid="M_Accord_Imaging_Tools_InnerProduct">InnerProduct Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_IsEqual.htm" title="IsEqual Method " tocid="M_Accord_Imaging_Tools_IsEqual">IsEqual Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_LockBits.htm" title="LockBits Method " tocid="M_Accord_Imaging_Tools_LockBits">LockBits Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Max.htm" title="Max Method " tocid="Overload_Accord_Imaging_Tools_Max">Max Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Mean.htm" title="Mean Method " tocid="Overload_Accord_Imaging_Tools_Mean">Mean Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Min.htm" title="Min Method " tocid="Overload_Accord_Imaging_Tools_Min">Min Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Multiply.htm" title="Multiply Method " tocid="Overload_Accord_Imaging_Tools_Multiply">Multiply Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Normalize.htm" title="Normalize Method " tocid="Overload_Accord_Imaging_Tools_Normalize">Normalize Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_StandardDeviation.htm" title="StandardDeviation Method " tocid="Overload_Accord_Imaging_Tools_StandardDeviation">StandardDeviation Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_Sum.htm" title="Sum Method " tocid="Overload_Accord_Imaging_Tools_Sum">Sum Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_ToBitmap.htm" title="ToBitmap Method " tocid="Overload_Accord_Imaging_Tools_ToBitmap">ToBitmap Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_ToDoubleArray.htm" title="ToDoubleArray Method " tocid="Overload_Accord_Imaging_Tools_ToDoubleArray">ToDoubleArray Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_Imaging_Tools_ToDoubleMatrix.htm" title="ToDoubleMatrix Method " tocid="Overload_Accord_Imaging_Tools_ToDoubleMatrix">ToDoubleMatrix Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_Imaging_Tools_TransformPoints.htm" title="TransformPoints Method " tocid="M_Accord_Imaging_Tools_TransformPoints">TransformPoints Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
         <table class="titleTable">
           <tr>
             <td class="logoColumn">
@@ -34,987 +35,183 @@
             <td class="titleColumn">Tools Methods</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Imaging_Tools.htm">Tools</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Imaging_Tools.htm">Tools</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Center.htm">Center</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Center.htm">Center</a></td><td><div class="summary">
               Computes the center of a given rectangle.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Collinear_1.htm">Collinear(PointF, PointF, PointF)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Collinear_1.htm">Collinear(PointF, PointF, PointF)</a></td><td><div class="summary">
               Detects if three points are collinear.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Collinear.htm">Collinear(PointH, PointH, PointH)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Collinear.htm">Collinear(PointH, PointH, PointH)</a></td><td><div class="summary">
               Detects if three points are collinear.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Fundamental_2.htm">Fundamental(<span id="LST354D4795_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_0?cpp=array&lt;");</script>PointF<span id="LST354D4795_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_1?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_2?cpp=array&lt;");</script>PointF<span id="LST354D4795_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_CopyResolutionFrom.htm">CopyResolutionFrom</a></td><td><div class="summary">
+            Copies the horizontal and vertical resolution specifications
+            from a source Bitmap image and stores in a destination image.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Fundamental_2.htm">Fundamental(<span id="LST354D4795_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_0?cpp=array&lt;");</script>PointF<span id="LST354D4795_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_1?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_2?cpp=array&lt;");</script>PointF<span id="LST354D4795_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Creates the fundamental matrix between two
               images from a set of points from each image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Fundamental.htm">Fundamental(<span id="LST354D4795_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_4?cpp=array&lt;");</script>PointH<span id="LST354D4795_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_6?cpp=array&lt;");</script>PointH<span id="LST354D4795_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Fundamental.htm">Fundamental(<span id="LST354D4795_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_4?cpp=array&lt;");</script>PointH<span id="LST354D4795_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_6?cpp=array&lt;");</script>PointH<span id="LST354D4795_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Creates the fundamental matrix between two
               images from a set of points from each image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Fundamental_1.htm">Fundamental(<span id="LST354D4795_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_8?cpp=array&lt;");</script>PointH<span id="LST354D4795_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_9?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_10?cpp=array&lt;");</script>PointH<span id="LST354D4795_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_12?cpp=array&lt;");</script>PointH<span id="LST354D4795_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST354D4795_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_14?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Fundamental_1.htm">Fundamental(<span id="LST354D4795_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_8?cpp=array&lt;");</script>PointH<span id="LST354D4795_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_9?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_10?cpp=array&lt;");</script>PointH<span id="LST354D4795_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_12?cpp=array&lt;");</script>PointH<span id="LST354D4795_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST354D4795_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_14?cpp=%");</script>)</a></td><td><div class="summary">
               Creates the fundamental matrix between two
               images from a set of points from each image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_GetFormat.htm">GetFormat</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_GetFormat.htm">GetFormat</a></td><td><div class="summary">
               Gets the image format most likely associated with a given file name.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Homography_1.htm">Homography(<span id="LST354D4795_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_15?cpp=array&lt;");</script>PointF<span id="LST354D4795_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_17?cpp=array&lt;");</script>PointF<span id="LST354D4795_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Homography_1.htm">Homography(<span id="LST354D4795_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_15?cpp=array&lt;");</script>PointF<span id="LST354D4795_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_17?cpp=array&lt;");</script>PointF<span id="LST354D4795_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Creates an homography matrix matching points
               from a set of points to another.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Homography.htm">Homography(<span id="LST354D4795_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_19?cpp=array&lt;");</script>PointH<span id="LST354D4795_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_21?cpp=array&lt;");</script>PointH<span id="LST354D4795_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Homography.htm">Homography(<span id="LST354D4795_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_19?cpp=array&lt;");</script>PointH<span id="LST354D4795_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_21?cpp=array&lt;");</script>PointH<span id="LST354D4795_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Creates an homography matrix matching points
               from a set of points to another.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_InnerProduct.htm">InnerProduct</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_InnerProduct.htm">InnerProduct</a></td><td><div class="summary">
               Computes the inner product of two points.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_IsEqual.htm">IsEqual</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_IsEqual.htm">IsEqual</a></td><td><div class="summary">
               Compares two rectangles for equality, considering an acceptance threshold.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max_3.htm">Max(Bitmap)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_LockBits.htm">LockBits</a></td><td><div class="summary">
+            Locks a Bitmap into system memory.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max_3.htm">Max(Bitmap)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max.htm">Max(UnmanagedImage)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max.htm">Max(UnmanagedImage)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max_4.htm">Max(Bitmap, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max_4.htm">Max(Bitmap, Rectangle)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max_5.htm">Max(Bitmap, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max_5.htm">Max(Bitmap, Int32)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max_6.htm">Max(BitmapData, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max_6.htm">Max(BitmapData, Rectangle)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max_1.htm">Max(UnmanagedImage, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max_1.htm">Max(UnmanagedImage, Rectangle)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Max_2.htm">Max(UnmanagedImage, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Max_2.htm">Max(UnmanagedImage, Int32)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Mean_2.htm">Mean(Bitmap)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Mean_2.htm">Mean(Bitmap)</a></td><td><div class="summary">
               Computes the arithmetic mean of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Mean_4.htm">Mean(BitmapData)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Mean_4.htm">Mean(BitmapData)</a></td><td><div class="summary">
               Computes the arithmetic mean of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Mean.htm">Mean(UnmanagedImage)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Mean.htm">Mean(UnmanagedImage)</a></td><td><div class="summary">
               Computes the arithmetic mean of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Mean_3.htm">Mean(Bitmap, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Mean_3.htm">Mean(Bitmap, Rectangle)</a></td><td><div class="summary">
               Computes the arithmetic mean of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Mean_5.htm">Mean(BitmapData, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Mean_5.htm">Mean(BitmapData, Rectangle)</a></td><td><div class="summary">
               Computes the arithmetic mean of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Mean_1.htm">Mean(UnmanagedImage, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Mean_1.htm">Mean(UnmanagedImage, Rectangle)</a></td><td><div class="summary">
               Computes the arithmetic mean of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min_3.htm">Min(Bitmap)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min_3.htm">Min(Bitmap)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min.htm">Min(UnmanagedImage)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min.htm">Min(UnmanagedImage)</a></td><td><div class="summary">
               Computes the minimum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min_4.htm">Min(Bitmap, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min_4.htm">Min(Bitmap, Rectangle)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min_5.htm">Min(Bitmap, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min_5.htm">Min(Bitmap, Int32)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min_6.htm">Min(BitmapData, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min_6.htm">Min(BitmapData, Rectangle)</a></td><td><div class="summary">
               Computes the minimum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min_1.htm">Min(UnmanagedImage, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min_1.htm">Min(UnmanagedImage, Rectangle)</a></td><td><div class="summary">
               Computes the minimum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Min_2.htm">Min(UnmanagedImage, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Min_2.htm">Min(UnmanagedImage, Int32)</a></td><td><div class="summary">
               Computes the maximum pixel value in the given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Multiply.htm">Multiply(PointF, <span id="LST354D4795_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_23?cpp=array&lt;");</script>Single<span id="LST354D4795_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_24?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Multiply.htm">Multiply(PointF, <span id="LST354D4795_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_23?cpp=array&lt;");</script>Single<span id="LST354D4795_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_24?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
               Multiplies a point by a transformation matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Multiply_1.htm">Multiply(<span id="LST354D4795_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_25?cpp=array&lt;");</script>Single<span id="LST354D4795_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_26?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, PointF)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Multiply_1.htm">Multiply(<span id="LST354D4795_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_25?cpp=array&lt;");</script>Single<span id="LST354D4795_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_26?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, PointF)</a></td><td><div class="summary">
               Multiplies a transformation matrix and a point.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Normalize_2.htm">Normalize(<span id="LST354D4795_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_27?cpp=array&lt;");</script>PointF<span id="LST354D4795_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, MatrixH<span id="LST354D4795_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_29?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Normalize_2.htm">Normalize(<span id="LST354D4795_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_27?cpp=array&lt;");</script>PointF<span id="LST354D4795_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, MatrixH<span id="LST354D4795_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_29?cpp=%");</script>)</a></td><td><div class="summary">
               Normalizes a set of homogeneous points so that the origin is located
               at the centroid and the mean distance to the origin is sqrt(2).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Normalize_3.htm">Normalize(<span id="LST354D4795_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_30?cpp=array&lt;");</script>PointF<span id="LST354D4795_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_32?cpp=array&lt;");</script>Single<span id="LST354D4795_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_33?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script><span id="LST354D4795_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_34?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Normalize_3.htm">Normalize(<span id="LST354D4795_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_30?cpp=array&lt;");</script>PointF<span id="LST354D4795_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_31?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_32?cpp=array&lt;");</script>Single<span id="LST354D4795_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_33?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script><span id="LST354D4795_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_34?cpp=%");</script>)</a></td><td><div class="summary">
               Normalizes a set of homogeneous points so that the origin is located
               at the centroid and the mean distance to the origin is sqrt(2).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Normalize.htm">Normalize(<span id="LST354D4795_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_35?cpp=array&lt;");</script>PointH<span id="LST354D4795_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, MatrixH<span id="LST354D4795_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_37?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Normalize.htm">Normalize(<span id="LST354D4795_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_35?cpp=array&lt;");</script>PointH<span id="LST354D4795_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, MatrixH<span id="LST354D4795_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_37?cpp=%");</script>)</a></td><td><div class="summary">
               Normalizes a set of homogeneous points so that the origin is located
               at the centroid and the mean distance to the origin is sqrt(2).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Normalize_1.htm">Normalize(<span id="LST354D4795_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_38?cpp=array&lt;");</script>PointH<span id="LST354D4795_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_40?cpp=array&lt;");</script>Single<span id="LST354D4795_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_41?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script><span id="LST354D4795_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_42?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Normalize_1.htm">Normalize(<span id="LST354D4795_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_38?cpp=array&lt;");</script>PointH<span id="LST354D4795_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST354D4795_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_40?cpp=array&lt;");</script>Single<span id="LST354D4795_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_41?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script><span id="LST354D4795_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_42?cpp=%");</script>)</a></td><td><div class="summary">
               Normalizes a set of homogeneous points so that the origin is located
               at the centroid and the mean distance to the origin is sqrt(2).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_StandardDeviation_2.htm">StandardDeviation(Bitmap, Double)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_StandardDeviation_2.htm">StandardDeviation(Bitmap, Double)</a></td><td><div class="summary">
               Computes the standard deviation of image pixels.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_StandardDeviation_4.htm">StandardDeviation(BitmapData, Double)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_StandardDeviation_4.htm">StandardDeviation(BitmapData, Double)</a></td><td><div class="summary">
               Computes the standard deviation of image pixels.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_StandardDeviation.htm">StandardDeviation(UnmanagedImage, Double)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_StandardDeviation.htm">StandardDeviation(UnmanagedImage, Double)</a></td><td><div class="summary">
               Computes the standard deviation of image pixels.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_StandardDeviation_3.htm">StandardDeviation(Bitmap, Rectangle, Double)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_StandardDeviation_3.htm">StandardDeviation(Bitmap, Rectangle, Double)</a></td><td><div class="summary">
               Computes the standard deviation of image pixels.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_StandardDeviation_5.htm">StandardDeviation(BitmapData, Rectangle, Double)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_StandardDeviation_5.htm">StandardDeviation(BitmapData, Rectangle, Double)</a></td><td><div class="summary">
               Computes the standard deviation of image pixels.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_StandardDeviation_1.htm">StandardDeviation(UnmanagedImage, Rectangle, Double)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_StandardDeviation_1.htm">StandardDeviation(UnmanagedImage, Rectangle, Double)</a></td><td><div class="summary">
               Computes the standard deviation of image pixels.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Sum_2.htm">Sum(Bitmap)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Sum_2.htm">Sum(Bitmap)</a></td><td><div class="summary">
               Computes the sum of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Sum_4.htm">Sum(BitmapData)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Sum_4.htm">Sum(BitmapData)</a></td><td><div class="summary">
               Computes the sum of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Sum.htm">Sum(UnmanagedImage)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Sum.htm">Sum(UnmanagedImage)</a></td><td><div class="summary">
               Computes the sum of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Sum_3.htm">Sum(Bitmap, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Sum_3.htm">Sum(Bitmap, Rectangle)</a></td><td><div class="summary">
               Computes the sum of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Sum_5.htm">Sum(BitmapData, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Sum_5.htm">Sum(BitmapData, Rectangle)</a></td><td><div class="summary">
               Computes the sum of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_Sum_1.htm">Sum(UnmanagedImage, Rectangle)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_Sum_1.htm">Sum(UnmanagedImage, Rectangle)</a></td><td><div class="summary">
               Computes the sum of the pixels in a given image.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToBitmap.htm">ToBitmap(<span id="LST354D4795_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_43?cpp=array&lt;");</script>Byte<span id="LST354D4795_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_44?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToBitmap.htm">ToBitmap(<span id="LST354D4795_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_43?cpp=array&lt;");</script>Byte<span id="LST354D4795_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_44?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts an image given as a matrix of pixel values into
               a <span class="nolink">Bitmap</span>.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToBitmap_4.htm">ToBitmap(<span id="LST354D4795_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_45?cpp=array&lt;");</script>Int16<span id="LST354D4795_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_46?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToBitmap_4.htm">ToBitmap(<span id="LST354D4795_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_45?cpp=array&lt;");</script>Int16<span id="LST354D4795_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_46?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts an image given as a matrix of pixel values into
               a <span class="nolink">Bitmap</span>.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToBitmap_2.htm">ToBitmap(<span id="LST354D4795_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_47?cpp=array&lt;");</script><span id="LST354D4795_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_48?cpp=array&lt;");</script>Double<span id="LST354D4795_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST354D4795_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToBitmap_2.htm">ToBitmap(<span id="LST354D4795_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_47?cpp=array&lt;");</script><span id="LST354D4795_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_48?cpp=array&lt;");</script>Double<span id="LST354D4795_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST354D4795_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts an image given as a array of pixel values into
               a <span class="nolink">Bitmap</span>.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToBitmap_1.htm">ToBitmap(<span id="LST354D4795_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_51?cpp=array&lt;");</script>Double<span id="LST354D4795_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_52?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToBitmap_1.htm">ToBitmap(<span id="LST354D4795_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_51?cpp=array&lt;");</script>Double<span id="LST354D4795_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_52?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts an image given as a array of pixel values into
               a <span class="nolink">Bitmap</span>.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToBitmap_3.htm">ToBitmap(<span id="LST354D4795_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_53?cpp=array&lt;");</script><span id="LST354D4795_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_54?cpp=array&lt;");</script>Double<span id="LST354D4795_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_55?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST354D4795_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_56?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToBitmap_3.htm">ToBitmap(<span id="LST354D4795_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_53?cpp=array&lt;");</script><span id="LST354D4795_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_54?cpp=array&lt;");</script>Double<span id="LST354D4795_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_55?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST354D4795_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST354D4795_56?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts an image given as a array of pixel values into
               a <span class="nolink">Bitmap</span>.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_2.htm">ToDoubleArray(Bitmap)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_2.htm">ToDoubleArray(Bitmap)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between -1 and 1.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_4.htm">ToDoubleArray(Bitmap, Int32)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_4.htm">ToDoubleArray(Bitmap, Int32)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between -1 and 1.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_7.htm">ToDoubleArray(BitmapData, Int32)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_7.htm">ToDoubleArray(BitmapData, Int32)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between -1 and 1.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray.htm">ToDoubleArray(UnmanagedImage, Int32)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray.htm">ToDoubleArray(UnmanagedImage, Int32)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_3.htm">ToDoubleArray(Bitmap, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_3.htm">ToDoubleArray(Bitmap, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_6.htm">ToDoubleArray(BitmapData, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_6.htm">ToDoubleArray(BitmapData, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_5.htm">ToDoubleArray(Bitmap, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_5.htm">ToDoubleArray(Bitmap, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_8.htm">ToDoubleArray(BitmapData, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_8.htm">ToDoubleArray(BitmapData, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleArray_1.htm">ToDoubleArray(UnmanagedImage, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleArray_1.htm">ToDoubleArray(UnmanagedImage, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleMatrix.htm">ToDoubleMatrix(Bitmap, Int32)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleMatrix.htm">ToDoubleMatrix(Bitmap, Int32)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between -1 and 1.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleMatrix_2.htm">ToDoubleMatrix(BitmapData, Int32)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleMatrix_2.htm">ToDoubleMatrix(BitmapData, Int32)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between -1 and 1.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleMatrix_1.htm">ToDoubleMatrix(Bitmap, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleMatrix_1.htm">ToDoubleMatrix(Bitmap, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_ToDoubleMatrix_3.htm">ToDoubleMatrix(BitmapData, Int32, Double, Double)</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_ToDoubleMatrix_3.htm">ToDoubleMatrix(BitmapData, Int32, Double, Double)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Converts a given image into a array of double-precision
               floating-point numbers scaled between the given range.
-            </div></td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Imaging_Tools_TransformPoints.htm">TransformPoints</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Imaging_Tools_TransformPoints.htm">TransformPoints</a></td><td><div class="summary">
               Transforms the given points using this transformation matrix.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Imaging_Tools.htm">Tools Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Imaging.htm">Accord.Imaging Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Imaging_Tools.htm">Tools Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Imaging.htm">Accord.Imaging Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

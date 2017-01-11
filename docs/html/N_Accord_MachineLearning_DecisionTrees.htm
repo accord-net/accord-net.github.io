@@ -19,9 +19,12 @@
     <meta name="file" content="N_Accord_MachineLearning_DecisionTrees" />
     <meta name="guid" content="N_Accord_MachineLearning_DecisionTrees" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -36,238 +39,49 @@
             <td class="titleColumn">Accord.MachineLearning.DecisionTrees Namespace</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
              Contains discrete and continuous Decision Trees, with 
              support for automatic code generation, tree pruning and
              the creation of <a href="T_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet.htm">decision rule sets</a>.
-            </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Class</th>
-              <th>Description</th>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_ComparisonExtensions.htm">ComparisonExtensions</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_ComparisonExtensions.htm">ComparisonExtensions</a></td><td><div class="summary">
               Extension methods for <a href="T_Accord_MachineLearning_DecisionTrees_ComparisonKind.htm">ComparisonKind</a> enumeration values.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionBranchNodeCollection.htm">DecisionBranchNodeCollection</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionBranchNodeCollection.htm">DecisionBranchNodeCollection</a></td><td><div class="summary">
               Collection of decision nodes. A decision branch specifies the index of
               an attribute whose current value should be compared against its children
               nodes. The type of the comparison is specified in each child node.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionNode.htm">DecisionNode</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionNode.htm">DecisionNode</a></td><td><div class="summary">
               Decision Tree (DT) Node.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">DecisionTree</a>
-              </td>
-              <td>
-                <div class="summary">
-               Decision tree.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionTreeTraversal.htm">DecisionTreeTraversal</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">DecisionTree</a></td><td><div class="summary">
+               Decision tree (for both discrete and continuous classification problems).
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionTreeTraversal.htm">DecisionTreeTraversal</a></td><td><div class="summary">
               Common traversal methods for n-ary trees.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionVariable.htm">DecisionVariable</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionVariable.htm">DecisionVariable</a></td><td><div class="summary">
               Decision attribute.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionVariableCollection.htm">DecisionVariableCollection</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionVariableCollection.htm">DecisionVariableCollection</a></td><td><div class="summary">
               Collection of decision attributes.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_RandomForest.htm">RandomForest</a>
-              </td>
-              <td>
-                <div class="summary">
-              Random Forest
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_RandomForestLearning.htm">RandomForestLearning</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_RandomForest.htm">RandomForest</a></td><td><div class="summary">
+              Random Forest.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_RandomForestLearning.htm">RandomForestLearning</a></td><td><div class="summary">
               Random Forest learning algorithm.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Delegates</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Delegates</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="delegateList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Delegate</th>
-              <th>Description</th>
-            </tr>
-            <tr data="delegate; public">
-              <td>
-                <img src="../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionTreeTraversalMethod.htm">DecisionTreeTraversalMethod</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Delegate</th><th>Description</th></tr><tr data="delegate; public"><td><img src="../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionTreeTraversalMethod.htm">DecisionTreeTraversalMethod</a></td><td><div class="summary">
               Tree enumeration method delegate.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
-            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span>
-        </div>
-        <div id="ID2RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="enumerationList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Enumeration</th>
-              <th>Description</th>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_ComparisonKind.htm">ComparisonKind</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_ComparisonKind.htm">ComparisonKind</a></td><td><div class="summary">
               Numeric comparison category.
-            </div>
-              </td>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_MachineLearning_DecisionTrees_DecisionVariableKind.htm">DecisionVariableKind</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_MachineLearning_DecisionTrees_DecisionVariableKind.htm">DecisionVariableKind</a></td><td><div class="summary">
               Attribute category.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0">
-            <img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID3RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <span class="selflink">Accord.MachineLearning.DecisionTrees</span>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning_DecisionTrees_Pruning.htm">Accord.MachineLearning.DecisionTrees.Pruning</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning_DecisionTrees_Rules.htm">Accord.MachineLearning.DecisionTrees.Rules</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><span class="selflink">Accord.MachineLearning.DecisionTrees</span></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees_Pruning.htm">Accord.MachineLearning.DecisionTrees.Pruning</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees_Rules.htm">Accord.MachineLearning.DecisionTrees.Rules</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

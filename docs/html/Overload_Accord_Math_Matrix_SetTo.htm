@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -37,127 +38,27 @@
             <td class="titleColumn">Matrix<span id="LSTCDC0BE83_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_0?cpp=::|nu=.");</script>SetTo Method </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_SetTo__1.htm">SetTo<span id="LSTCDC0BE83_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_3?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_4?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, T)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_SetTo__1.htm">SetTo<span id="LSTCDC0BE83_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_3?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_4?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, T)</a></td><td><div class="summary">
               Sets all elements of an array to a given value.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_SetTo__1_1.htm">SetTo<span id="LSTCDC0BE83_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_7?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_8?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTCDC0BE83_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_9?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_10?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_SetTo__1_1.htm">SetTo<span id="LSTCDC0BE83_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_7?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_8?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTCDC0BE83_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_9?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_10?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
               Copies the content of an array to another array.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_SetTo__1_2.htm">SetTo<span id="LSTCDC0BE83_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_12?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_13?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_14?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTCDC0BE83_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_15?cpp=array&lt;");</script><span id="LSTCDC0BE83_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_16?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTCDC0BE83_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_SetTo__1_2.htm">SetTo<span id="LSTCDC0BE83_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_12?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_13?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_14?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LSTCDC0BE83_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_15?cpp=array&lt;");</script><span id="LSTCDC0BE83_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_16?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTCDC0BE83_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Copies the content of an array to another array.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_SetTo__1_3.htm">SetTo<span id="LSTCDC0BE83_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_19?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_20?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_21?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTCDC0BE83_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_23?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_SetTo__1_3.htm">SetTo<span id="LSTCDC0BE83_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_19?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_20?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_21?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTCDC0BE83_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_23?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Copies the content of an array to another array.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_SetTo__1_4.htm">SetTo<span id="LSTCDC0BE83_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_25?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_26?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_27?cpp=array&lt;");</script><span id="LSTCDC0BE83_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_28?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTCDC0BE83_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_30?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, T)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_SetTo__1_4.htm">SetTo<span id="LSTCDC0BE83_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_25?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_26?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_27?cpp=array&lt;");</script><span id="LSTCDC0BE83_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_28?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTCDC0BE83_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_30?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, T)</a></td><td><div class="summary">
               Sets all elements of an array to a given value.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_SetTo__1_5.htm">SetTo<span id="LSTCDC0BE83_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_31?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_32?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_33?cpp=array&lt;");</script><span id="LSTCDC0BE83_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_34?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTCDC0BE83_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTCDC0BE83_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_37?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_38?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_SetTo__1_5.htm">SetTo<span id="LSTCDC0BE83_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_31?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTCDC0BE83_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_32?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LSTCDC0BE83_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_33?cpp=array&lt;");</script><span id="LSTCDC0BE83_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_34?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTCDC0BE83_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTCDC0BE83_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_37?cpp=array&lt;");</script>T<span id="LSTCDC0BE83_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCDC0BE83_38?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
               Copies the content of an array to another array.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Math_Matrix.htm">Matrix Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Math.htm">Accord.Math Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Matrix.htm">Matrix Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math.htm">Accord.Math Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

@@ -22,12 +22,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
     <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
     <div class="pageBody">
-      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Running.htm" title="Accord.Statistics.Running" tocid="N_Accord_Statistics_Running">Accord.Statistics.Running</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_IRunning_1.htm" title="IRunning(TValue) Interface" tocid="T_Accord_Statistics_Running_IRunning_1">IRunning(TValue) Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_IRunningMarkovStatistics.htm" title="IRunningMarkovStatistics Interface" tocid="T_Accord_Statistics_Running_IRunningMarkovStatistics">IRunningMarkovStatistics Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_IRunningStatistics.htm" title="IRunningStatistics Interface" tocid="T_Accord_Statistics_Running_IRunningStatistics">IRunningStatistics Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_KalmanFilter2D.htm" title="KalmanFilter2D Class" tocid="T_Accord_Statistics_Running_KalmanFilter2D">KalmanFilter2D Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovClassifier.htm" title="RunningMarkovClassifier Class" tocid="T_Accord_Statistics_Running_RunningMarkovClassifier">RunningMarkovClassifier Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovClassifier_1.htm" title="RunningMarkovClassifier(TDistribution) Class" tocid="T_Accord_Statistics_Running_RunningMarkovClassifier_1">RunningMarkovClassifier(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovStatistics.htm" title="RunningMarkovStatistics Class" tocid="T_Accord_Statistics_Running_RunningMarkovStatistics">RunningMarkovStatistics Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovStatistics_1.htm" title="RunningMarkovStatistics(TDistribution) Class" tocid="T_Accord_Statistics_Running_RunningMarkovStatistics_1">RunningMarkovStatistics(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningNormalStatistics.htm" title="RunningNormalStatistics Class" tocid="T_Accord_Statistics_Running_RunningNormalStatistics">RunningNormalStatistics Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Running.htm" title="Accord.Statistics.Running" tocid="N_Accord_Statistics_Running">Accord.Statistics.Running</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_IRunning_1.htm" title="IRunning(TValue) Interface" tocid="T_Accord_Statistics_Running_IRunning_1">IRunning(TValue) Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_IRunningMarkovStatistics.htm" title="IRunningMarkovStatistics Interface" tocid="T_Accord_Statistics_Running_IRunningMarkovStatistics">IRunningMarkovStatistics Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_IRunningStatistics.htm" title="IRunningStatistics Interface" tocid="T_Accord_Statistics_Running_IRunningStatistics">IRunningStatistics Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_KalmanFilter2D.htm" title="KalmanFilter2D Class" tocid="T_Accord_Statistics_Running_KalmanFilter2D">KalmanFilter2D Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningCircularStatistics.htm" title="RunningCircularStatistics Class" tocid="T_Accord_Statistics_Running_RunningCircularStatistics">RunningCircularStatistics Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovClassifier.htm" title="RunningMarkovClassifier Class" tocid="T_Accord_Statistics_Running_RunningMarkovClassifier">RunningMarkovClassifier Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovClassifier_1.htm" title="RunningMarkovClassifier(TDistribution) Class" tocid="T_Accord_Statistics_Running_RunningMarkovClassifier_1">RunningMarkovClassifier(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovStatistics.htm" title="RunningMarkovStatistics Class" tocid="T_Accord_Statistics_Running_RunningMarkovStatistics">RunningMarkovStatistics Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningMarkovStatistics_1.htm" title="RunningMarkovStatistics(TDistribution) Class" tocid="T_Accord_Statistics_Running_RunningMarkovStatistics_1">RunningMarkovStatistics(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningNormalStatistics.htm" title="RunningNormalStatistics Class" tocid="T_Accord_Statistics_Running_RunningNormalStatistics">RunningNormalStatistics Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Running_RunningRangeStatistics.htm" title="RunningRangeStatistics Class" tocid="T_Accord_Statistics_Running_RunningRangeStatistics">RunningRangeStatistics Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
         <table class="titleTable">
           <tr>
             <td class="logoColumn">
@@ -36,160 +37,39 @@
             <td class="titleColumn">Accord.Statistics.Running Namespace</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">Contains classes to estimate running statistics, i.e. statistics which should be computed and updated as soon as new data becomes available.</div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="summary">Contains classes to estimate running statistics, i.e. statistics which should be computed and updated as soon as new data becomes available.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Class</th>
-              <th>Description</th>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_KalmanFilter2D.htm">KalmanFilter2D</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_KalmanFilter2D.htm">KalmanFilter2D</a></td><td><div class="summary">
               Kalman filter for 2D coordinate systems.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_RunningMarkovClassifier.htm">RunningMarkovClassifier</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningCircularStatistics.htm">RunningCircularStatistics</a></td><td><div class="summary">
+              Running circular statistics.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningMarkovClassifier.htm">RunningMarkovClassifier</a></td><td><div class="summary">
               Hidden Markov Classifier filter.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_RunningMarkovClassifier_1.htm">RunningMarkovClassifier<span id="LSTA8A93459_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTA8A93459_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningMarkovClassifier_1.htm">RunningMarkovClassifier<span id="LSTA8A93459_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTA8A93459_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Hidden Markov Classifier filter for general state distributions.
-            </div></td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_RunningMarkovStatistics.htm">RunningMarkovStatistics</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningMarkovStatistics.htm">RunningMarkovStatistics</a></td><td><div class="summary">
               Hidden Markov Model filter.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_RunningMarkovStatistics_1.htm">RunningMarkovStatistics<span id="LSTA8A93459_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTA8A93459_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningMarkovStatistics_1.htm">RunningMarkovStatistics<span id="LSTA8A93459_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTA8A93459_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Hidden Markov Model filter.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_RunningNormalStatistics.htm">RunningNormalStatistics</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningNormalStatistics.htm">RunningNormalStatistics</a></td><td><div class="summary">
               Running (normal) statistics.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Running_RunningRangeStatistics.htm">RunningRangeStatistics</a></td><td><div class="summary">
+              Running (range) statistics.
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="interfaceList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Interface</th>
-              <th>Description</th>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_IRunning_1.htm">IRunning<span id="LSTA8A93459_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TValue<span id="LSTA8A93459_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Interface</th><th>Description</th></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Running_IRunning_1.htm">IRunning<span id="LSTA8A93459_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TValue<span id="LSTA8A93459_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA8A93459_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Common interface for running statistics.
-            </div>
-              </td>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_IRunningMarkovStatistics.htm">IRunningMarkovStatistics</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Running_IRunningMarkovStatistics.htm">IRunningMarkovStatistics</a></td><td><div class="summary">
               Common interface for running Markov filters.
-            </div>
-              </td>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Running_IRunningStatistics.htm">IRunningStatistics</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Running_IRunningStatistics.htm">IRunningStatistics</a></td><td><div class="summary">
               Common interface for running statistics.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+            </div></td></tr></table></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

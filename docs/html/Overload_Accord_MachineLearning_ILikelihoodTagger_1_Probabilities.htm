@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -37,163 +38,47 @@
             <td class="titleColumn">ILikelihoodTagger<span id="LSTB65A1FBB_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TInput</span><span id="LSTB65A1FBB_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTB65A1FBB_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_2?cpp=::|nu=.");</script>Probabilities Method </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities.htm">Probabilities(<span id="LSTB65A1FBB_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_3?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_4?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities.htm">Probabilities(<span id="LSTB65A1FBB_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_3?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_4?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_4.htm">Probabilities(<span id="LSTB65A1FBB_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_5?cpp=array&lt;");</script><span id="LSTB65A1FBB_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_6?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_4.htm">Probabilities(<span id="LSTB65A1FBB_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_5?cpp=array&lt;");</script><span id="LSTB65A1FBB_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_6?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_1.htm">Probabilities(<span id="LSTB65A1FBB_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_9?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_11?cpp=array&lt;");</script><span id="LSTB65A1FBB_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_12?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_1.htm">Probabilities(<span id="LSTB65A1FBB_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_9?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_11?cpp=array&lt;");</script><span id="LSTB65A1FBB_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_12?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_2.htm">Probabilities(<span id="LSTB65A1FBB_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_15?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_17?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_19?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_2.htm">Probabilities(<span id="LSTB65A1FBB_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_15?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_17?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_19?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_5.htm">Probabilities(<span id="LSTB65A1FBB_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_20?cpp=array&lt;");</script><span id="LSTB65A1FBB_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_21?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_23?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_24?cpp=array&lt;");</script><span id="LSTB65A1FBB_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_25?cpp=array&lt;");</script><span id="LSTB65A1FBB_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_26?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_5.htm">Probabilities(<span id="LSTB65A1FBB_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_20?cpp=array&lt;");</script><span id="LSTB65A1FBB_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_21?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_23?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_24?cpp=array&lt;");</script><span id="LSTB65A1FBB_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_25?cpp=array&lt;");</script><span id="LSTB65A1FBB_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_26?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_6.htm">Probabilities(<span id="LSTB65A1FBB_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_30?cpp=array&lt;");</script><span id="LSTB65A1FBB_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_31?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_34?cpp=array&lt;");</script><span id="LSTB65A1FBB_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_35?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_38?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_6.htm">Probabilities(<span id="LSTB65A1FBB_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_30?cpp=array&lt;");</script><span id="LSTB65A1FBB_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_31?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_34?cpp=array&lt;");</script><span id="LSTB65A1FBB_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_35?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_38?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_3.htm">Probabilities(<span id="LSTB65A1FBB_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_39?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_41?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_42?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_43?cpp=%");</script>, <span id="LSTB65A1FBB_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_44?cpp=array&lt;");</script><span id="LSTB65A1FBB_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_45?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_3.htm">Probabilities(<span id="LSTB65A1FBB_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_39?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_41?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_42?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_43?cpp=%");</script>, <span id="LSTB65A1FBB_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_44?cpp=array&lt;");</script><span id="LSTB65A1FBB_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_45?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_7.htm">Probabilities(<span id="LSTB65A1FBB_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_48?cpp=array&lt;");</script><span id="LSTB65A1FBB_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_49?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_52?cpp=array&lt;");</script><span id="LSTB65A1FBB_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_53?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_55?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_56?cpp=%");</script>, <span id="LSTB65A1FBB_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_57?cpp=array&lt;");</script><span id="LSTB65A1FBB_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_58?cpp=array&lt;");</script><span id="LSTB65A1FBB_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_59?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_60?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_61?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_62?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ILikelihoodTagger_1_Probabilities_7.htm">Probabilities(<span id="LSTB65A1FBB_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_48?cpp=array&lt;");</script><span id="LSTB65A1FBB_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_49?cpp=array&lt;");</script>TInput<span id="LSTB65A1FBB_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTB65A1FBB_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_52?cpp=array&lt;");</script><span id="LSTB65A1FBB_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_53?cpp=array&lt;");</script>Int32<span id="LSTB65A1FBB_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_55?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_56?cpp=%");</script>, <span id="LSTB65A1FBB_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_57?cpp=array&lt;");</script><span id="LSTB65A1FBB_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_58?cpp=array&lt;");</script><span id="LSTB65A1FBB_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_59?cpp=array&lt;");</script>Double<span id="LSTB65A1FBB_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_60?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_61?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTB65A1FBB_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_62?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts a the probabilities for each of the observations in 
               the sequence vector assuming each of the possible states in the
               tagger model.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_MachineLearning_ILikelihoodTagger_1.htm">ILikelihoodTagger<span id="LSTB65A1FBB_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_63?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTB65A1FBB_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_64?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Interface</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_ILikelihoodTagger_1.htm">ILikelihoodTagger<span id="LSTB65A1FBB_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_63?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTB65A1FBB_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB65A1FBB_64?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Interface</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

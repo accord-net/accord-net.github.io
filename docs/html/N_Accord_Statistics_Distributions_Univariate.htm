@@ -24,12 +24,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
     <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
     <div class="pageBody">
-      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Distributions_Univariate.htm" title="Accord.Statistics.Distributions.Univariate" tocid="N_Accord_Statistics_Distributions_Univariate">Accord.Statistics.Distributions.Univariate</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistribution.htm" title="AndersonDarlingDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistribution">AndersonDarlingDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistributionType.htm" title="AndersonDarlingDistributionType Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistributionType">AndersonDarlingDistributionType Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm" title="BernoulliDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution">BernoulliDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BetaDistribution.htm" title="BetaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BetaDistribution">BetaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BetaPrimeDistribution.htm" title="BetaPrimeDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BetaPrimeDistribution">BetaPrimeDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BinomialDistribution.htm" title="BinomialDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BinomialDistribution">BinomialDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BirnbaumSaundersDistribution.htm" title="BirnbaumSaundersDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BirnbaumSaundersDistribution">BirnbaumSaundersDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm" title="CauchyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution">CauchyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ChiSquareDistribution.htm" title="ChiSquareDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ChiSquareDistribution">ChiSquareDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_DegenerateDistribution.htm" title="DegenerateDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_DegenerateDistribution">DegenerateDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm" title="EmpiricalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution">EmpiricalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_EmpiricalHazardDistribution.htm" title="EmpiricalHazardDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_EmpiricalHazardDistribution">EmpiricalHazardDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution.htm" title="ExponentialDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution">ExponentialDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_FDistribution.htm" title="FDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_FDistribution">FDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_FoldedNormalDistribution.htm" title="FoldedNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_FoldedNormalDistribution">FoldedNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GammaDistribution.htm" title="GammaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GammaDistribution">GammaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralContinuousDistribution.htm" title="GeneralContinuousDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralContinuousDistribution">GeneralContinuousDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm" title="GeneralDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution">GeneralDiscreteDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution.htm" title="GeneralizedBetaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution">GeneralizedBetaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralizedNormalDistribution.htm" title="GeneralizedNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralizedNormalDistribution">GeneralizedNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution.htm" title="GeneralizedParetoDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution">GeneralizedParetoDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeometricDistribution.htm" title="GeometricDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeometricDistribution">GeometricDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GompertzDistribution.htm" title="GompertzDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GompertzDistribution">GompertzDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GumbelDistribution.htm" title="GumbelDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GumbelDistribution">GumbelDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_HazardEstimator.htm" title="HazardEstimator Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_HazardEstimator">HazardEstimator Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_HazardTiesMethod.htm" title="HazardTiesMethod Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_HazardTiesMethod">HazardTiesMethod Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_HyperbolicSecantDistribution.htm" title="HyperbolicSecantDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_HyperbolicSecantDistribution">HyperbolicSecantDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm" title="HypergeometricDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution">HypergeometricDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_InverseChiSquareDistribution.htm" title="InverseChiSquareDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_InverseChiSquareDistribution">InverseChiSquareDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_InverseGammaDistribution.htm" title="InverseGammaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_InverseGammaDistribution">InverseGammaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_InverseGaussianDistribution.htm" title="InverseGaussianDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_InverseGaussianDistribution">InverseGaussianDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm" title="KolmogorovSmirnovDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution">KolmogorovSmirnovDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_KumaraswamyDistribution.htm" title="KumaraswamyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_KumaraswamyDistribution">KumaraswamyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LaplaceDistribution.htm" title="LaplaceDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LaplaceDistribution">LaplaceDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LevyDistribution.htm" title="LevyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LevyDistribution">LevyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LogisticDistribution.htm" title="LogisticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LogisticDistribution">LogisticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LogLogisticDistribution.htm" title="LogLogisticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LogLogisticDistribution">LogLogisticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LognormalDistribution.htm" title="LognormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LognormalDistribution">LognormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_MannWhitneyDistribution.htm" title="MannWhitneyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_MannWhitneyDistribution">MannWhitneyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_Mixture_1.htm" title="Mixture(T) Class" tocid="T_Accord_Statistics_Distributions_Univariate_Mixture_1">Mixture(T) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm" title="NakagamiDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution">NakagamiDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NegativeBinomialDistribution.htm" title="NegativeBinomialDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NegativeBinomialDistribution">NegativeBinomialDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NoncentralTDistribution.htm" title="NoncentralTDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NoncentralTDistribution">NoncentralTDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm" title="NormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NormalDistribution">NormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ParetoDistribution.htm" title="ParetoDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ParetoDistribution">ParetoDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm" title="PoissonDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution">PoissonDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_PowerLognormalDistribution.htm" title="PowerLognormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_PowerLognormalDistribution">PowerLognormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_PowerNormalDistribution.htm" title="PowerNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_PowerNormalDistribution">PowerNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_RademacherDistribution.htm" title="RademacherDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_RademacherDistribution">RademacherDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_RayleighDistribution.htm" title="RayleighDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_RayleighDistribution">RayleighDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ShapiroWilkDistribution.htm" title="ShapiroWilkDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ShapiroWilkDistribution">ShapiroWilkDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ShiftedLogLogisticDistribution.htm" title="ShiftedLogLogisticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ShiftedLogLogisticDistribution">ShiftedLogLogisticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_SkewNormalDistribution.htm" title="SkewNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_SkewNormalDistribution">SkewNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_SurvivalEstimator.htm" title="SurvivalEstimator Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_SurvivalEstimator">SurvivalEstimator Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_SurvivalOutcome.htm" title="SurvivalOutcome Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_SurvivalOutcome">SurvivalOutcome Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_SymmetricGeometricDistribution.htm" title="SymmetricGeometricDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_SymmetricGeometricDistribution">SymmetricGeometricDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TDistribution.htm" title="TDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TDistribution">TDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TrapezoidalDistribution.htm" title="TrapezoidalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TrapezoidalDistribution">TrapezoidalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TriangularDistribution.htm" title="TriangularDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TriangularDistribution">TriangularDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TukeyLambdaDistribution.htm" title="TukeyLambdaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TukeyLambdaDistribution">TukeyLambdaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution.htm" title="UniformContinuousDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution">UniformContinuousDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution.htm" title="UniformDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution">UniformDiscreteDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution.htm" title="UnivariateContinuousDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution">UnivariateContinuousDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm" title="UnivariateDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution">UnivariateDiscreteDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UQuadraticDistribution.htm" title="UQuadraticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UQuadraticDistribution">UQuadraticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm" title="VonMisesDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution">VonMisesDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm" title="WeibullDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution">WeibullDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_WilcoxonDistribution.htm" title="WilcoxonDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_WilcoxonDistribution">WilcoxonDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_WrappedCauchyDistribution.htm" title="WrappedCauchyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_WrappedCauchyDistribution">WrappedCauchyDistribution Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Distributions_Univariate.htm" title="Accord.Statistics.Distributions.Univariate" tocid="N_Accord_Statistics_Distributions_Univariate">Accord.Statistics.Distributions.Univariate</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistribution.htm" title="AndersonDarlingDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistribution">AndersonDarlingDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistributionType.htm" title="AndersonDarlingDistributionType Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistributionType">AndersonDarlingDistributionType Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm" title="BernoulliDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution">BernoulliDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BetaDistribution.htm" title="BetaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BetaDistribution">BetaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BetaPrimeDistribution.htm" title="BetaPrimeDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BetaPrimeDistribution">BetaPrimeDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BinomialDistribution.htm" title="BinomialDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BinomialDistribution">BinomialDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_BirnbaumSaundersDistribution.htm" title="BirnbaumSaundersDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_BirnbaumSaundersDistribution">BirnbaumSaundersDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm" title="CauchyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution">CauchyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ChiSquareDistribution.htm" title="ChiSquareDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ChiSquareDistribution">ChiSquareDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_DegenerateDistribution.htm" title="DegenerateDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_DegenerateDistribution">DegenerateDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm" title="EmpiricalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution">EmpiricalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_EmpiricalHazardDistribution.htm" title="EmpiricalHazardDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_EmpiricalHazardDistribution">EmpiricalHazardDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution.htm" title="ExponentialDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution">ExponentialDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_FDistribution.htm" title="FDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_FDistribution">FDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_FoldedNormalDistribution.htm" title="FoldedNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_FoldedNormalDistribution">FoldedNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GammaDistribution.htm" title="GammaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GammaDistribution">GammaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralContinuousDistribution.htm" title="GeneralContinuousDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralContinuousDistribution">GeneralContinuousDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm" title="GeneralDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution">GeneralDiscreteDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution.htm" title="GeneralizedBetaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution">GeneralizedBetaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralizedNormalDistribution.htm" title="GeneralizedNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralizedNormalDistribution">GeneralizedNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution.htm" title="GeneralizedParetoDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution">GeneralizedParetoDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GeometricDistribution.htm" title="GeometricDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GeometricDistribution">GeometricDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GompertzDistribution.htm" title="GompertzDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GompertzDistribution">GompertzDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GrubbDistribution.htm" title="GrubbDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GrubbDistribution">GrubbDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_GumbelDistribution.htm" title="GumbelDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_GumbelDistribution">GumbelDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_HazardEstimator.htm" title="HazardEstimator Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_HazardEstimator">HazardEstimator Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_HazardTiesMethod.htm" title="HazardTiesMethod Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_HazardTiesMethod">HazardTiesMethod Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_HyperbolicSecantDistribution.htm" title="HyperbolicSecantDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_HyperbolicSecantDistribution">HyperbolicSecantDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm" title="HypergeometricDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution">HypergeometricDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_InverseChiSquareDistribution.htm" title="InverseChiSquareDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_InverseChiSquareDistribution">InverseChiSquareDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_InverseGammaDistribution.htm" title="InverseGammaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_InverseGammaDistribution">InverseGammaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_InverseGaussianDistribution.htm" title="InverseGaussianDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_InverseGaussianDistribution">InverseGaussianDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm" title="KolmogorovSmirnovDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution">KolmogorovSmirnovDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_KumaraswamyDistribution.htm" title="KumaraswamyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_KumaraswamyDistribution">KumaraswamyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LaplaceDistribution.htm" title="LaplaceDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LaplaceDistribution">LaplaceDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LevyDistribution.htm" title="LevyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LevyDistribution">LevyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LogisticDistribution.htm" title="LogisticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LogisticDistribution">LogisticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LogLogisticDistribution.htm" title="LogLogisticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LogLogisticDistribution">LogLogisticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_LognormalDistribution.htm" title="LognormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_LognormalDistribution">LognormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_MannWhitneyDistribution.htm" title="MannWhitneyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_MannWhitneyDistribution">MannWhitneyDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_Mixture_1.htm" title="Mixture(T) Class" tocid="T_Accord_Statistics_Distributions_Univariate_Mixture_1">Mixture(T) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm" title="NakagamiDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution">NakagamiDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NegativeBinomialDistribution.htm" title="NegativeBinomialDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NegativeBinomialDistribution">NegativeBinomialDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NoncentralTDistribution.htm" title="NoncentralTDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NoncentralTDistribution">NoncentralTDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm" title="NormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_NormalDistribution">NormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ParetoDistribution.htm" title="ParetoDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ParetoDistribution">ParetoDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm" title="PoissonDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution">PoissonDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_PowerLognormalDistribution.htm" title="PowerLognormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_PowerLognormalDistribution">PowerLognormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_PowerNormalDistribution.htm" title="PowerNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_PowerNormalDistribution">PowerNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_RademacherDistribution.htm" title="RademacherDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_RademacherDistribution">RademacherDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_RayleighDistribution.htm" title="RayleighDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_RayleighDistribution">RayleighDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ShapiroWilkDistribution.htm" title="ShapiroWilkDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ShapiroWilkDistribution">ShapiroWilkDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_ShiftedLogLogisticDistribution.htm" title="ShiftedLogLogisticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_ShiftedLogLogisticDistribution">ShiftedLogLogisticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_SkewNormalDistribution.htm" title="SkewNormalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_SkewNormalDistribution">SkewNormalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_SurvivalEstimator.htm" title="SurvivalEstimator Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_SurvivalEstimator">SurvivalEstimator Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Distributions_Univariate_SurvivalOutcome.htm" title="SurvivalOutcome Enumeration" tocid="T_Accord_Statistics_Distributions_Univariate_SurvivalOutcome">SurvivalOutcome Enumeration</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_SymmetricGeometricDistribution.htm" title="SymmetricGeometricDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_SymmetricGeometricDistribution">SymmetricGeometricDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TDistribution.htm" title="TDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TDistribution">TDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TrapezoidalDistribution.htm" title="TrapezoidalDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TrapezoidalDistribution">TrapezoidalDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TriangularDistribution.htm" title="TriangularDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TriangularDistribution">TriangularDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_TukeyLambdaDistribution.htm" title="TukeyLambdaDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_TukeyLambdaDistribution">TukeyLambdaDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution.htm" title="UniformContinuousDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution">UniformContinuousDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution.htm" title="UniformDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution">UniformDiscreteDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution.htm" title="UnivariateContinuousDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution">UnivariateContinuousDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm" title="UnivariateDiscreteDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution">UnivariateDiscreteDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_UQuadraticDistribution.htm" title="UQuadraticDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_UQuadraticDistribution">UQuadraticDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm" title="VonMisesDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution">VonMisesDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm" title="WeibullDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution">WeibullDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_WilcoxonDistribution.htm" title="WilcoxonDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_WilcoxonDistribution">WilcoxonDistribution Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Distributions_Univariate_WrappedCauchyDistribution.htm" title="WrappedCauchyDistribution Class" tocid="T_Accord_Statistics_Distributions_Univariate_WrappedCauchyDistribution">WrappedCauchyDistribution Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
         <table class="titleTable">
           <tr>
             <td class="logoColumn">
@@ -38,8 +39,7 @@
             <td class="titleColumn">Accord.Statistics.Distributions.Univariate Namespace</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
              Contains univariate distributions such as <a href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">Normal</a>,
              <a href="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">Cauchy</a>, <a href="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">
              Hypergeometric</a>, <a href="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">Poisson</a>, 
@@ -47,1029 +47,161 @@
              as the <a href="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm">Kolmogorov-Smirnov</a>, 
              <a href="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">Nakagami</a>, <a href="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">
              Weibull</a>, and <a href="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">Von-Mises</a> distributions.
-            </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Class</th>
-              <th>Description</th>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistribution.htm">AndersonDarlingDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistribution.htm">AndersonDarlingDistribution</a></td><td><div class="summary">
               Anderson-Darling (A²) distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm">BernoulliDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_BernoulliDistribution.htm">BernoulliDistribution</a></td><td><div class="summary">
                Bernoulli probability distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_BetaDistribution.htm">BetaDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_BetaDistribution.htm">BetaDistribution</a></td><td><div class="summary">
                Beta Distribution (of the first kind).
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_BetaPrimeDistribution.htm">BetaPrimeDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_BetaPrimeDistribution.htm">BetaPrimeDistribution</a></td><td><div class="summary">
               Beta prime distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_BinomialDistribution.htm">BinomialDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_BinomialDistribution.htm">BinomialDistribution</a></td><td><div class="summary">
               Binomial probability distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_BirnbaumSaundersDistribution.htm">BirnbaumSaundersDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_BirnbaumSaundersDistribution.htm">BirnbaumSaundersDistribution</a></td><td><div class="summary">
               Birnbaum-Saunders (Fatigue Life) distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">CauchyDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_CauchyDistribution.htm">CauchyDistribution</a></td><td><div class="summary">
                Cauchy-Lorentz distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_ChiSquareDistribution.htm">ChiSquareDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_ChiSquareDistribution.htm">ChiSquareDistribution</a></td><td><div class="summary">
               Chi-Square (χ²) probability distribution
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_DegenerateDistribution.htm">DegenerateDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_DegenerateDistribution.htm">DegenerateDistribution</a></td><td><div class="summary">
               Degenerate distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm">EmpiricalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_EmpiricalDistribution.htm">EmpiricalDistribution</a></td><td><div class="summary">
                Empirical distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_EmpiricalHazardDistribution.htm">EmpiricalHazardDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_EmpiricalHazardDistribution.htm">EmpiricalHazardDistribution</a></td><td><div class="summary">
               Empirical Hazard Distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution.htm">ExponentialDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_ExponentialDistribution.htm">ExponentialDistribution</a></td><td><div class="summary">
               Exponential distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_FDistribution.htm">FDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_FDistribution.htm">FDistribution</a></td><td><div class="summary">
                F (Fisher-Snedecor) distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_FoldedNormalDistribution.htm">FoldedNormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_FoldedNormalDistribution.htm">FoldedNormalDistribution</a></td><td><div class="summary">
               Folded Normal (Gaussian) distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GammaDistribution.htm">GammaDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
-               Gamma distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GeneralContinuousDistribution.htm">GeneralContinuousDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GammaDistribution.htm">GammaDistribution</a></td><td><div class="summary">
+              Gamma distribution.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GeneralContinuousDistribution.htm">GeneralContinuousDistribution</a></td><td><div class="summary">
               General continuous distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm">GeneralDiscreteDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm">GeneralDiscreteDistribution</a></td><td><div class="summary">
               Univariate general discrete distribution, also referred as the
               Categorical distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution.htm">GeneralizedBetaDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GeneralizedBetaDistribution.htm">GeneralizedBetaDistribution</a></td><td><div class="summary">
                The 4-parameter Beta distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GeneralizedNormalDistribution.htm">GeneralizedNormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GeneralizedNormalDistribution.htm">GeneralizedNormalDistribution</a></td><td><div class="summary">
               Generalized Normal distribution (also known as Exponential Power distribution).
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution.htm">GeneralizedParetoDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GeneralizedParetoDistribution.htm">GeneralizedParetoDistribution</a></td><td><div class="summary">
               Generalized Pareto distribution (three parameters).
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GeometricDistribution.htm">GeometricDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GeometricDistribution.htm">GeometricDistribution</a></td><td><div class="summary">
                (Shifted) Geometric Distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GompertzDistribution.htm">GompertzDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GompertzDistribution.htm">GompertzDistribution</a></td><td><div class="summary">
                Gompertz distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_GumbelDistribution.htm">GumbelDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GrubbDistribution.htm">GrubbDistribution</a></td><td><div class="summary">
+              Grubb's statistic distribution.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_GumbelDistribution.htm">GumbelDistribution</a></td><td><div class="summary">
                Gumbel distribution (as known as the Extreme Value Type I distribution).
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_HyperbolicSecantDistribution.htm">HyperbolicSecantDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_HyperbolicSecantDistribution.htm">HyperbolicSecantDistribution</a></td><td><div class="summary">
               Hyperbolic Secant distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">HypergeometricDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_HypergeometricDistribution.htm">HypergeometricDistribution</a></td><td><div class="summary">
               Hypergeometric probability distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_InverseChiSquareDistribution.htm">InverseChiSquareDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_InverseChiSquareDistribution.htm">InverseChiSquareDistribution</a></td><td><div class="summary">
               Inverse chi-Square (χ²) probability distribution
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_InverseGammaDistribution.htm">InverseGammaDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_InverseGammaDistribution.htm">InverseGammaDistribution</a></td><td><div class="summary">
               Inverse Gamma Distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_InverseGaussianDistribution.htm">InverseGaussianDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_InverseGaussianDistribution.htm">InverseGaussianDistribution</a></td><td><div class="summary">
                Inverse Gaussian (Normal) Distribution, also known as the Wald distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm">KolmogorovSmirnovDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_KolmogorovSmirnovDistribution.htm">KolmogorovSmirnovDistribution</a></td><td><div class="summary">
               Kolmogorov-Smirnov distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_KumaraswamyDistribution.htm">KumaraswamyDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_KumaraswamyDistribution.htm">KumaraswamyDistribution</a></td><td><div class="summary">
                Kumaraswamy distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_LaplaceDistribution.htm">LaplaceDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_LaplaceDistribution.htm">LaplaceDistribution</a></td><td><div class="summary">
               Laplace's Distribution (as known as the double exponential distribution).
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_LevyDistribution.htm">LevyDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_LevyDistribution.htm">LevyDistribution</a></td><td><div class="summary">
                Lévy distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_LogisticDistribution.htm">LogisticDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_LogisticDistribution.htm">LogisticDistribution</a></td><td><div class="summary">
               Logistic distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_LogLogisticDistribution.htm">LogLogisticDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_LogLogisticDistribution.htm">LogLogisticDistribution</a></td><td><div class="summary">
               Log-Logistic distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_LognormalDistribution.htm">LognormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_LognormalDistribution.htm">LognormalDistribution</a></td><td><div class="summary">
               Log-Normal (Galton) distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_MannWhitneyDistribution.htm">MannWhitneyDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_MannWhitneyDistribution.htm">MannWhitneyDistribution</a></td><td><div class="summary">
               Mann-Whitney's U statistic distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_Mixture_1.htm">Mixture<span id="LST45DDD9AF_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST45DDD9AF_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST45DDD9AF_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST45DDD9AF_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_Mixture_1.htm">Mixture<span id="LST45DDD9AF_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST45DDD9AF_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST45DDD9AF_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST45DDD9AF_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Mixture of univariate probability distributions.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">NakagamiDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_NakagamiDistribution.htm">NakagamiDistribution</a></td><td><div class="summary">
               Nakagami distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_NegativeBinomialDistribution.htm">NegativeBinomialDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_NegativeBinomialDistribution.htm">NegativeBinomialDistribution</a></td><td><div class="summary">
               Negative Binomial distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_NoncentralTDistribution.htm">NoncentralTDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_NoncentralTDistribution.htm">NoncentralTDistribution</a></td><td><div class="summary">
                Noncentral t-distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">NormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_NormalDistribution.htm">NormalDistribution</a></td><td><div class="summary">
               Normal (Gaussian) distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_ParetoDistribution.htm">ParetoDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_ParetoDistribution.htm">ParetoDistribution</a></td><td><div class="summary">
               Pareto's Distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">PoissonDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_PoissonDistribution.htm">PoissonDistribution</a></td><td><div class="summary">
               Poisson probability distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_PowerLognormalDistribution.htm">PowerLognormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_PowerLognormalDistribution.htm">PowerLognormalDistribution</a></td><td><div class="summary">
               Power Lognormal distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_PowerNormalDistribution.htm">PowerNormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_PowerNormalDistribution.htm">PowerNormalDistribution</a></td><td><div class="summary">
               Power Normal distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_RademacherDistribution.htm">RademacherDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_RademacherDistribution.htm">RademacherDistribution</a></td><td><div class="summary">
               Rademacher distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_RayleighDistribution.htm">RayleighDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_RayleighDistribution.htm">RayleighDistribution</a></td><td><div class="summary">
               Rayleigh distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_ShapiroWilkDistribution.htm">ShapiroWilkDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_ShapiroWilkDistribution.htm">ShapiroWilkDistribution</a></td><td><div class="summary">
                Shapiro-Wilk distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_ShiftedLogLogisticDistribution.htm">ShiftedLogLogisticDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_ShiftedLogLogisticDistribution.htm">ShiftedLogLogisticDistribution</a></td><td><div class="summary">
               Shift Log-Logistic distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_SkewNormalDistribution.htm">SkewNormalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_SkewNormalDistribution.htm">SkewNormalDistribution</a></td><td><div class="summary">
               Skew Normal distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_SymmetricGeometricDistribution.htm">SymmetricGeometricDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_SymmetricGeometricDistribution.htm">SymmetricGeometricDistribution</a></td><td><div class="summary">
                Symmetric Geometric Distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_TDistribution.htm">TDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_TDistribution.htm">TDistribution</a></td><td><div class="summary">
               Student's t-distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_TrapezoidalDistribution.htm">TrapezoidalDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_TrapezoidalDistribution.htm">TrapezoidalDistribution</a></td><td><div class="summary">
               Trapezoidal distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_TriangularDistribution.htm">TriangularDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_TriangularDistribution.htm">TriangularDistribution</a></td><td><div class="summary">
               Triangular distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_TukeyLambdaDistribution.htm">TukeyLambdaDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_TukeyLambdaDistribution.htm">TukeyLambdaDistribution</a></td><td><div class="summary">
               Tukey-Lambda distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution.htm">UniformContinuousDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_UniformContinuousDistribution.htm">UniformContinuousDistribution</a></td><td><div class="summary">
               Continuous Uniform Distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution.htm">UniformDiscreteDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution.htm">UniformDiscreteDistribution</a></td><td><div class="summary">
                Discrete uniform distribution.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution.htm">UnivariateContinuousDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_UnivariateContinuousDistribution.htm">UnivariateContinuousDistribution</a></td><td><div class="summary">
               Abstract class for univariate continuous probability Distributions.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm">UnivariateDiscreteDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm">UnivariateDiscreteDistribution</a></td><td><div class="summary">
               Abstract class for univariate discrete probability distributions.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_UQuadraticDistribution.htm">UQuadraticDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_UQuadraticDistribution.htm">UQuadraticDistribution</a></td><td><div class="summary">
               U-quadratic distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">VonMisesDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_VonMisesDistribution.htm">VonMisesDistribution</a></td><td><div class="summary">
               von-Mises (Circular Normal) distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">WeibullDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">WeibullDistribution</a></td><td><div class="summary">
               Weibull distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_WilcoxonDistribution.htm">WilcoxonDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_WilcoxonDistribution.htm">WilcoxonDistribution</a></td><td><div class="summary">
               Wilcoxon's W statistic distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_WrappedCauchyDistribution.htm">WrappedCauchyDistribution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_WrappedCauchyDistribution.htm">WrappedCauchyDistribution</a></td><td><div class="summary">
               Wrapped Cauchy Distribution.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Enumerations</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="enumerationList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Enumeration</th>
-              <th>Description</th>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistributionType.htm">AndersonDarlingDistributionType</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Enumeration</th><th>Description</th></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_AndersonDarlingDistributionType.htm">AndersonDarlingDistributionType</a></td><td><div class="summary">
               Distribution types supported by the Anderson-Darling distribution.
-            </div>
-              </td>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_HazardEstimator.htm">HazardEstimator</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_HazardEstimator.htm">HazardEstimator</a></td><td><div class="summary">
               Estimators for estimating parameters of Hazard distributions.
-            </div>
-              </td>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_HazardTiesMethod.htm">HazardTiesMethod</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_HazardTiesMethod.htm">HazardTiesMethod</a></td><td><div class="summary">
               Methods for handling ties in hazard/survival estimation algorithms.
-            </div>
-              </td>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_SurvivalEstimator.htm">SurvivalEstimator</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_SurvivalEstimator.htm">SurvivalEstimator</a></td><td><div class="summary">
               Estimators for Survival distribution functions.
-            </div>
-              </td>
-            </tr>
-            <tr data="enumeration; public">
-              <td>
-                <img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Distributions_Univariate_SurvivalOutcome.htm">SurvivalOutcome</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="enumeration; public"><td><img src="../icons/pubenumeration.gif" alt="Public enumeration" title="Public enumeration" /></td><td><a href="T_Accord_Statistics_Distributions_Univariate_SurvivalOutcome.htm">SurvivalOutcome</a></td><td><div class="summary">
               Outcome status for survival methods. A sample can 
               enter the experiment, exit the experiment while still
               alive or exit the experiment due to failure.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
-            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span>
-        </div>
-        <div id="ID2RBSection" class="collapsibleSection">
-          <p>
-              The namespace class diagram is shown below. </p>
-          <img src="..\diagrams\classes\Accord.Statistics.Univariate.png" />
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0">
-            <img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID3RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Distributions.htm">Accord.Statistics.Distributions</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Distributions_Multivariate.htm">Accord.Statistics.Distributions.Multivariate</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Distributions_Fitting.htm">Accord.Statistics.Distributions.Fitting</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+              The namespace class diagram is shown below. </p><img src="..\diagrams\classes\Accord.Statistics.Univariate.png" /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions.htm">Accord.Statistics.Distributions</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Multivariate.htm">Accord.Statistics.Distributions.Multivariate</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Fitting.htm">Accord.Statistics.Distributions.Fitting</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

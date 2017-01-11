@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -36,381 +37,72 @@
             <td class="titleColumn">DecisionTree<span id="LSTAD2D9D0C_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_0?cpp=::|nu=.");</script>Decide Method </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ClassifierBase_2_Decide_1.htm">Decide(<span id="LSTAD2D9D0C_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_1?cpp=array&lt;");</script>TInput<span id="LSTAD2D9D0C_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_2?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ClassifierBase_2_Decide_1.htm">Decide(<span id="LSTAD2D9D0C_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_1?cpp=array&lt;");</script>TInput<span id="LSTAD2D9D0C_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_2?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Computes class-label decisions for a given set of <span class="parameter">input</span> vectors.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTAD2D9D0C_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_3?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTAD2D9D0C_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_4?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_4.htm">Decide(<span id="LSTAD2D9D0C_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_5?cpp=array&lt;");</script><span id="LSTAD2D9D0C_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_6?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTAD2D9D0C_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_3?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTAD2D9D0C_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_4?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_4.htm">Decide(<span id="LSTAD2D9D0C_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_5?cpp=array&lt;");</script><span id="LSTAD2D9D0C_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_6?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_10.htm">Decide(<span id="LSTAD2D9D0C_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_9?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_10.htm">Decide(<span id="LSTAD2D9D0C_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_9?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_14.htm">Decide(<span id="LSTAD2D9D0C_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_11?cpp=array&lt;");</script><span id="LSTAD2D9D0C_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_12?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_14.htm">Decide(<span id="LSTAD2D9D0C_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_11?cpp=array&lt;");</script><span id="LSTAD2D9D0C_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_12?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Decide.htm">Decide(<span id="LSTAD2D9D0C_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_15?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Decide.htm">Decide(<span id="LSTAD2D9D0C_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_15?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Computes the tree decision for a given input.
-            </div> (Overrides <a href="M_Accord_MachineLearning_ClassifierBase_2_Decide.htm">ClassifierBase<span id="LSTAD2D9D0C_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_17?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTAD2D9D0C_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_18?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTAD2D9D0C_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_19?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Decide(TInput)</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Decide_2.htm">Decide(<span id="LSTAD2D9D0C_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_20?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Overrides <a href="M_Accord_MachineLearning_ClassifierBase_2_Decide.htm">ClassifierBase<span id="LSTAD2D9D0C_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_17?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTAD2D9D0C_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_18?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTAD2D9D0C_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_19?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Decide(TInput)</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Decide_2.htm">Decide(<span id="LSTAD2D9D0C_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_20?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Computes the tree decision for a given input.
-            </div> (Overrides <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Decide(<span id="LSTAD2D9D0C_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_23?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ClassifierBase_2_Decide_2.htm">Decide(<span id="LSTAD2D9D0C_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_25?cpp=array&lt;");</script>TInput<span id="LSTAD2D9D0C_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_27?cpp=array&lt;");</script>TClasses<span id="LSTAD2D9D0C_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Overrides <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Decide(<span id="LSTAD2D9D0C_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_23?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ClassifierBase_2_Decide_2.htm">Decide(<span id="LSTAD2D9D0C_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_25?cpp=array&lt;");</script>TInput<span id="LSTAD2D9D0C_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_27?cpp=array&lt;");</script>TClasses<span id="LSTAD2D9D0C_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
              Computes a class-label decision for a given <span class="parameter">input</span>.
             
-            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTAD2D9D0C_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_29?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTAD2D9D0C_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_30?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_1.htm">Decide(<span id="LSTAD2D9D0C_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_31?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_33?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ClassifierBase_2.htm">ClassifierBase<span id="LSTAD2D9D0C_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_29?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LSTAD2D9D0C_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_30?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_1.htm">Decide(<span id="LSTAD2D9D0C_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_31?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_33?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_34?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_2.htm">Decide(<span id="LSTAD2D9D0C_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_35?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_37?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_38?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_2.htm">Decide(<span id="LSTAD2D9D0C_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_35?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_37?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_38?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_3.htm">Decide(<span id="LSTAD2D9D0C_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_39?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_41?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_42?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_3.htm">Decide(<span id="LSTAD2D9D0C_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_39?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_41?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_42?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_5.htm">Decide(<span id="LSTAD2D9D0C_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_43?cpp=array&lt;");</script><span id="LSTAD2D9D0C_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_44?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_47?cpp=array&lt;");</script><span id="LSTAD2D9D0C_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_48?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_5.htm">Decide(<span id="LSTAD2D9D0C_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_43?cpp=array&lt;");</script><span id="LSTAD2D9D0C_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_44?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_47?cpp=array&lt;");</script><span id="LSTAD2D9D0C_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_48?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_6.htm">Decide(<span id="LSTAD2D9D0C_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_51?cpp=array&lt;");</script><span id="LSTAD2D9D0C_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_52?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_55?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_56?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_6.htm">Decide(<span id="LSTAD2D9D0C_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_51?cpp=array&lt;");</script><span id="LSTAD2D9D0C_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_52?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_55?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_56?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_7.htm">Decide(<span id="LSTAD2D9D0C_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_57?cpp=array&lt;");</script><span id="LSTAD2D9D0C_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_58?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_60?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_61?cpp=array&lt;");</script><span id="LSTAD2D9D0C_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_62?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_63?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_64?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_7.htm">Decide(<span id="LSTAD2D9D0C_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_57?cpp=array&lt;");</script><span id="LSTAD2D9D0C_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_58?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_60?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_61?cpp=array&lt;");</script><span id="LSTAD2D9D0C_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_62?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_63?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_64?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_8.htm">Decide(<span id="LSTAD2D9D0C_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_65?cpp=array&lt;");</script><span id="LSTAD2D9D0C_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_66?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_67?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_68?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_69?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_70?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_8.htm">Decide(<span id="LSTAD2D9D0C_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_65?cpp=array&lt;");</script><span id="LSTAD2D9D0C_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_66?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_67?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_68?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_69?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_70?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_9.htm">Decide(<span id="LSTAD2D9D0C_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_71?cpp=array&lt;");</script><span id="LSTAD2D9D0C_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_72?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_74?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_75?cpp=array&lt;");</script><span id="LSTAD2D9D0C_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_76?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_77?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_9.htm">Decide(<span id="LSTAD2D9D0C_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_71?cpp=array&lt;");</script><span id="LSTAD2D9D0C_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_72?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_74?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_75?cpp=array&lt;");</script><span id="LSTAD2D9D0C_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_76?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_77?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_11.htm">Decide(<span id="LSTAD2D9D0C_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_79?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_81?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_11.htm">Decide(<span id="LSTAD2D9D0C_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_79?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_81?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_12.htm">Decide(<span id="LSTAD2D9D0C_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_83?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_84?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_85?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_86?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_12.htm">Decide(<span id="LSTAD2D9D0C_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_83?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_84?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_85?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_86?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_13.htm">Decide(<span id="LSTAD2D9D0C_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_87?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_89?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_90?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_13.htm">Decide(<span id="LSTAD2D9D0C_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_87?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_89?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_90?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_15.htm">Decide(<span id="LSTAD2D9D0C_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_91?cpp=array&lt;");</script><span id="LSTAD2D9D0C_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_92?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_93?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_94?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_95?cpp=array&lt;");</script><span id="LSTAD2D9D0C_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_96?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_98?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_15.htm">Decide(<span id="LSTAD2D9D0C_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_91?cpp=array&lt;");</script><span id="LSTAD2D9D0C_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_92?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_93?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_94?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_95?cpp=array&lt;");</script><span id="LSTAD2D9D0C_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_96?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_98?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_16.htm">Decide(<span id="LSTAD2D9D0C_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_99?cpp=array&lt;");</script><span id="LSTAD2D9D0C_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_100?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_101?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_102?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_103?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_104?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_16.htm">Decide(<span id="LSTAD2D9D0C_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_99?cpp=array&lt;");</script><span id="LSTAD2D9D0C_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_100?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_101?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_102?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_103?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_104?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_17.htm">Decide(<span id="LSTAD2D9D0C_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_105?cpp=array&lt;");</script><span id="LSTAD2D9D0C_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_106?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_107?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_108?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_109?cpp=array&lt;");</script><span id="LSTAD2D9D0C_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_110?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_111?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_112?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_17.htm">Decide(<span id="LSTAD2D9D0C_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_105?cpp=array&lt;");</script><span id="LSTAD2D9D0C_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_106?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_107?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_108?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_109?cpp=array&lt;");</script><span id="LSTAD2D9D0C_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_110?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_111?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_112?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_18.htm">Decide(<span id="LSTAD2D9D0C_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_113?cpp=array&lt;");</script><span id="LSTAD2D9D0C_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_114?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_115?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_116?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_117?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_118?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_18.htm">Decide(<span id="LSTAD2D9D0C_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_113?cpp=array&lt;");</script><span id="LSTAD2D9D0C_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_114?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_115?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_116?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_117?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_118?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_19.htm">Decide(<span id="LSTAD2D9D0C_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_119?cpp=array&lt;");</script><span id="LSTAD2D9D0C_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_120?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_121?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_122?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_123?cpp=array&lt;");</script><span id="LSTAD2D9D0C_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_124?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_125?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_126?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_Decide_19.htm">Decide(<span id="LSTAD2D9D0C_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_119?cpp=array&lt;");</script><span id="LSTAD2D9D0C_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_120?cpp=array&lt;");</script>Single<span id="LSTAD2D9D0C_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_121?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_122?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_123?cpp=array&lt;");</script><span id="LSTAD2D9D0C_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_124?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_125?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTAD2D9D0C_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_126?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide.htm">Decide(TInput, <span id="LSTAD2D9D0C_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_127?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_128?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase.htm">MulticlassClassifierBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide.htm">Decide(TInput, <span id="LSTAD2D9D0C_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_127?cpp=array&lt;");</script>Boolean<span id="LSTAD2D9D0C_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_128?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_129?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_130"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_130?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_1.htm">Decide(TInput, <span id="LSTAD2D9D0C_131"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_131?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_132"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_132?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_129?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_130"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_130?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_1.htm">Decide(TInput, <span id="LSTAD2D9D0C_131"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_131?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_132"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_132?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_133"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_133?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_134"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_134?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_2.htm">Decide(TInput, <span id="LSTAD2D9D0C_135"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_135?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_136"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_136?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_133"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_133?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_134"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_134?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_2.htm">Decide(TInput, <span id="LSTAD2D9D0C_135"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_135?cpp=array&lt;");</script>Int32<span id="LSTAD2D9D0C_136"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_136?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes class-label decisions for the given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_137"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_137?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_138"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_138?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_3.htm">Decide(<span id="LSTAD2D9D0C_139"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_139?cpp=array&lt;");</script>TInput<span id="LSTAD2D9D0C_140"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_140?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_141"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_141?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_142"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_142?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_137"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_137?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_138"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_138?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_MulticlassClassifierBase_1_Decide_3.htm">Decide(<span id="LSTAD2D9D0C_139"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_139?cpp=array&lt;");</script>TInput<span id="LSTAD2D9D0C_140"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_140?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTAD2D9D0C_141"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_141?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_142"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_142?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes a class-label decision for a given <span class="parameter">input</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_143"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_143?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_144"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_144?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Decide_1.htm">Decide(<span id="LSTAD2D9D0C_145"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_145?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_146"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_146?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, DecisionNode)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_MulticlassClassifierBase_1.htm">MulticlassClassifierBase<span id="LSTAD2D9D0C_143"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_143?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LSTAD2D9D0C_144"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_144?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Decide_1.htm">Decide(<span id="LSTAD2D9D0C_145"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_145?cpp=array&lt;");</script>Double<span id="LSTAD2D9D0C_146"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTAD2D9D0C_146?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, DecisionNode)</a></td><td><div class="summary">
               Computes the tree decision for a given input.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">DecisionTree Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning_DecisionTrees.htm">Accord.MachineLearning.DecisionTrees Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">DecisionTree Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees.htm">Accord.MachineLearning.DecisionTrees Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

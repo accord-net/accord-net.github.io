@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,15 +35,13 @@
             <td class="titleColumn">Tools<span id="LSTC7D38A0B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_0?cpp=::|nu=.");</script>Expand Method (<span id="LSTC7D38A0B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_1?cpp=array&lt;");</script>Int32<span id="LSTC7D38A0B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_2?cpp=&gt;|vb=()|nu=[]");</script>, Int32)</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>
-          <strong>Note: This API is now obsolete.</strong>
-        </p>
-        <div class="summary">
+        <span class="introStyle"></span> <p><strong>Note: This API is now obsolete.</strong></p><div class="summary">
               Expands a grouped data into a full observation matrix.
-            </div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_Statistics.htm">Accord.Statistics</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">ObsoleteAttribute</span>("Please use Jagged.OneHot instead.")]
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_Statistics.htm">Accord.Statistics</a><br />
+    <strong>Assembly:</strong>
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">ObsoleteAttribute</span>("Please use Jagged.OneHot instead.")]
 <span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">double</span>[][] <span class="identifier">Expand</span>(
 	<span class="identifier">int</span>[] <span class="parameter">labels</span>,
 	<span class="identifier">int</span> <span class="parameter">classes</span>
@@ -50,17 +49,31 @@
 <span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">Expand</span> ( 
 	<span class="parameter">labels</span> <span class="keyword">As</span> <span class="identifier">Integer</span>(),
 	<span class="parameter">classes</span> <span class="keyword">As</span> <span class="identifier">Integer</span>
-) <span class="keyword">As</span> <span class="identifier">Double</span>()()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">labels</span></dt><dd>Type: <span id="LSTC7D38A0B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_3?cpp=array&lt;");</script><span class="nolink">System<span id="LSTC7D38A0B_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</span><span id="LSTC7D38A0B_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_5?cpp=&gt;|vb=()|nu=[]");</script><br />The class labels.</dd><dt><span class="parameter">classes</span></dt><dd>Type: <span class="nolink">System<span id="LSTC7D38A0B_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</span><br />The number of classes.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LSTC7D38A0B_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_7?cpp=array&lt;");</script><span id="LSTC7D38A0B_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_8?cpp=array&lt;");</script><span class="nolink">Double</span><span id="LSTC7D38A0B_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_9?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTC7D38A0B_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_10?cpp=&gt;|vb=()|nu=[]");</script><br />A jagged matrix where each row corresponds to each element 
+) <span class="keyword">As</span> <span class="identifier">Double</span>()()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Statistics/Measures/Tools.cs#L192" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">labels</span></dt><dd>Type: <span id="LSTC7D38A0B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_3?cpp=array&lt;");</script><span class="nolink">System<span id="LSTC7D38A0B_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</span><span id="LSTC7D38A0B_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_5?cpp=&gt;|vb=()|nu=[]");</script><br />The class labels.</dd><dt><span class="parameter">classes</span></dt><dd>Type: <span class="nolink">System<span id="LSTC7D38A0B_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</span><br />The number of classes.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LSTC7D38A0B_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_7?cpp=array&lt;");</script><span id="LSTC7D38A0B_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_8?cpp=array&lt;");</script><span class="nolink">Double</span><span id="LSTC7D38A0B_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_9?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTC7D38A0B_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC7D38A0B_10?cpp=&gt;|vb=()|nu=[]");</script><br />A jagged matrix where each row corresponds to each element 
               given in the <span class="parameter">labels</span> parameter, and each row has
               the same length as the number of <span class="parameter">classes</span> in the
               problem. Each row contains the positive value on the position corresponding
               to the label index, and the negative value on all others.</div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Tools.htm">Tools Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Statistics_Tools_Expand.htm">Expand Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics.htm">Accord.Statistics Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

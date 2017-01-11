@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,12 +35,13 @@
             <td class="titleColumn">WeibullDistribution<span id="LST8DC62B2E_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_0?cpp=::|nu=.");</script>Fit Method (<span id="LST8DC62B2E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_1?cpp=array&lt;");</script>Double<span id="LST8DC62B2E_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_2?cpp=&gt;|vb=()|nu=[]");</script>, <span id="LST8DC62B2E_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_3?cpp=array&lt;");</script>Double<span id="LST8DC62B2E_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_4?cpp=&gt;|vb=()|nu=[]");</script>, IFittingOptions)</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
               Fits the underlying distribution to a given set of observations.
-            </div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_Statistics_Distributions_Univariate.htm">Accord.Statistics.Distributions.Univariate</a><br /><strong>Assembly:</strong> Accord.Statistics (in Accord.Statistics.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="identifier">Fit</span>(
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_Statistics_Distributions_Univariate.htm">Accord.Statistics.Distributions.Univariate</a><br />
+    <strong>Assembly:</strong>
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="identifier">Fit</span>(
 	<span class="identifier">double</span>[] <span class="parameter">observations</span>,
 	<span class="identifier">double</span>[] <span class="parameter">weights</span>,
 	<span class="identifier">IFittingOptions</span> <span class="parameter">options</span>
@@ -47,7 +49,21 @@
 	<span class="parameter">observations</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
 	<span class="parameter">weights</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
 	<span class="parameter">options</span> <span class="keyword">As</span> <span class="identifier">IFittingOptions</span>
-)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">observations</span></dt><dd>Type: <span id="LST8DC62B2E_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_5?cpp=array&lt;");</script><span class="nolink">System<span id="LST8DC62B2E_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</span><span id="LST8DC62B2E_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_7?cpp=&gt;|vb=()|nu=[]");</script><br />The array of observations to fit the model against. The array
+)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Statistics/Distributions/Univariate/Continuous/WeibullDistribution.cs#L360" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">observations</span></dt><dd>Type: <span id="LST8DC62B2E_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_5?cpp=array&lt;");</script><span class="nolink">System<span id="LST8DC62B2E_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</span><span id="LST8DC62B2E_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_7?cpp=&gt;|vb=()|nu=[]");</script><br />The array of observations to fit the model against. The array
               elements can be either of type double (for univariate data) or
               type double[] (for multivariate data).</dd><dt><span class="parameter">weights</span></dt><dd>Type: <span id="LST8DC62B2E_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_8?cpp=array&lt;");</script><span class="nolink">System<span id="LST8DC62B2E_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</span><span id="LST8DC62B2E_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_10?cpp=&gt;|vb=()|nu=[]");</script><br />The weight vector containing the weight for each of the samples.</dd><dt><span class="parameter">options</span></dt><dd>Type: <a href="T_Accord_Statistics_Distributions_Fitting_IFittingOptions.htm">Accord.Statistics.Distributions.Fitting<span id="LST8DC62B2E_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8DC62B2E_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IFittingOptions</a><br />Optional arguments which may be used during fitting, such
               as regularization constants and additional parameters.</dd></dl></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID2RBSection" class="collapsibleSection">
@@ -58,10 +74,10 @@
             </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Distributions_Univariate_WeibullDistribution.htm">WeibullDistribution Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Statistics_Distributions_Univariate_WeibullDistribution_Fit.htm">Fit Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Univariate.htm">Accord.Statistics.Distributions.Univariate Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

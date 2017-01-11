@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -37,309 +38,53 @@
             <td class="titleColumn">Matrix<span id="LST80FE76DD_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_0?cpp=::|nu=.");</script>Min Method </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_1.htm">Min<span id="LST80FE76DD_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_3?cpp=array&lt;");</script>T<span id="LST80FE76DD_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_4?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_1.htm">Min<span id="LST80FE76DD_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_3?cpp=array&lt;");</script>T<span id="LST80FE76DD_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_4?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
               Gets the minimum value of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_8.htm">Min<span id="LST80FE76DD_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_7?cpp=array&lt;");</script>T<span id="LST80FE76DD_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_8.htm">Min<span id="LST80FE76DD_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_7?cpp=array&lt;");</script>T<span id="LST80FE76DD_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum element in a vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_12.htm">Min<span id="LST80FE76DD_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_11?cpp=array&lt;");</script><span id="LST80FE76DD_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_12?cpp=array&lt;");</script>T<span id="LST80FE76DD_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_12.htm">Min<span id="LST80FE76DD_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_11?cpp=array&lt;");</script><span id="LST80FE76DD_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_12?cpp=array&lt;");</script>T<span id="LST80FE76DD_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum value of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1.htm">Min<span id="LST80FE76DD_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_17?cpp=array&lt;");</script>Nullable<span id="LST80FE76DD_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_18?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_19?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST80FE76DD_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32<span id="LST80FE76DD_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_21?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1.htm">Min<span id="LST80FE76DD_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_17?cpp=array&lt;");</script>Nullable<span id="LST80FE76DD_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_18?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_19?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST80FE76DD_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32<span id="LST80FE76DD_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_21?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum non-null element in a vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_2.htm">Min<span id="LST80FE76DD_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_22?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_23?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_24?cpp=array&lt;");</script>T<span id="LST80FE76DD_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_25?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_2.htm">Min<span id="LST80FE76DD_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_22?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_23?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_24?cpp=array&lt;");</script>T<span id="LST80FE76DD_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_25?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_7.htm">Min<span id="LST80FE76DD_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_28?cpp=array&lt;");</script>T<span id="LST80FE76DD_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_29?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Tuple<span id="LST80FE76DD_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32, Int32<span id="LST80FE76DD_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST80FE76DD_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_32?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_7.htm">Min<span id="LST80FE76DD_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_28?cpp=array&lt;");</script>T<span id="LST80FE76DD_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_29?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Tuple<span id="LST80FE76DD_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32, Int32<span id="LST80FE76DD_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST80FE76DD_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_32?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum value of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_9.htm">Min<span id="LST80FE76DD_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_33?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_34?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_35?cpp=array&lt;");</script>T<span id="LST80FE76DD_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_9.htm">Min<span id="LST80FE76DD_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_33?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_34?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_35?cpp=array&lt;");</script>T<span id="LST80FE76DD_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a></td><td><div class="summary">
               Gets the minimum element in a vector up to a fixed length.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_11.htm">Min<span id="LST80FE76DD_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_37?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_38?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_39?cpp=array&lt;");</script>T<span id="LST80FE76DD_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32<span id="LST80FE76DD_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_41?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_11.htm">Min<span id="LST80FE76DD_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_37?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_38?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_39?cpp=array&lt;");</script>T<span id="LST80FE76DD_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32<span id="LST80FE76DD_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_41?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum element in a vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_13.htm">Min<span id="LST80FE76DD_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_42?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_43?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_44?cpp=array&lt;");</script><span id="LST80FE76DD_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_45?cpp=array&lt;");</script>T<span id="LST80FE76DD_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_13.htm">Min<span id="LST80FE76DD_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_42?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_43?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_44?cpp=array&lt;");</script><span id="LST80FE76DD_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_45?cpp=array&lt;");</script>T<span id="LST80FE76DD_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_46?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_18.htm">Min<span id="LST80FE76DD_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_48?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_49?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_50?cpp=array&lt;");</script><span id="LST80FE76DD_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_51?cpp=array&lt;");</script>T<span id="LST80FE76DD_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_52?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Tuple<span id="LST80FE76DD_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_54?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32, Int32<span id="LST80FE76DD_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_55?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST80FE76DD_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_56?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_18.htm">Min<span id="LST80FE76DD_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_48?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_49?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_50?cpp=array&lt;");</script><span id="LST80FE76DD_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_51?cpp=array&lt;");</script>T<span id="LST80FE76DD_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_52?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Tuple<span id="LST80FE76DD_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_54?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32, Int32<span id="LST80FE76DD_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_55?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST80FE76DD_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_56?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum value of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_4.htm">Min<span id="LST80FE76DD_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_57?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_58?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_59?cpp=array&lt;");</script>T<span id="LST80FE76DD_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_60?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_61?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_62?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_63?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_4.htm">Min<span id="LST80FE76DD_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_57?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_58?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_59?cpp=array&lt;");</script>T<span id="LST80FE76DD_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_60?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_61"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_61?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_62"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_62?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_63"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_63?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_6.htm">Min<span id="LST80FE76DD_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_64?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_65?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_66?cpp=array&lt;");</script>T<span id="LST80FE76DD_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_67?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_68?cpp=array&lt;");</script>T<span id="LST80FE76DD_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_69?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_6.htm">Min<span id="LST80FE76DD_64"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_64?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_65"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_65?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_66"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_66?cpp=array&lt;");</script>T<span id="LST80FE76DD_67"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_67?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_68"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_68?cpp=array&lt;");</script>T<span id="LST80FE76DD_69"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_69?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_10.htm">Min<span id="LST80FE76DD_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_70?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_71?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_72?cpp=array&lt;");</script>T<span id="LST80FE76DD_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32<span id="LST80FE76DD_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_74?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_10.htm">Min<span id="LST80FE76DD_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_70?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_71?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_72?cpp=array&lt;");</script>T<span id="LST80FE76DD_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_73?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32<span id="LST80FE76DD_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_74?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum element in a vector up to a fixed length.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_15.htm">Min<span id="LST80FE76DD_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_75?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_76?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_77?cpp=array&lt;");</script><span id="LST80FE76DD_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_78?cpp=array&lt;");</script>T<span id="LST80FE76DD_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_79?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_81?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_83?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_15.htm">Min<span id="LST80FE76DD_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_75?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_76?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_77?cpp=array&lt;");</script><span id="LST80FE76DD_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_78?cpp=array&lt;");</script>T<span id="LST80FE76DD_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_79?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_80?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_81?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_82?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_83?cpp=%");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_17.htm">Min<span id="LST80FE76DD_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_84?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_85?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_86?cpp=array&lt;");</script><span id="LST80FE76DD_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_87?cpp=array&lt;");</script>T<span id="LST80FE76DD_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_89?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_90?cpp=array&lt;");</script>T<span id="LST80FE76DD_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_91?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_17.htm">Min<span id="LST80FE76DD_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_84?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_85?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_86?cpp=array&lt;");</script><span id="LST80FE76DD_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_87?cpp=array&lt;");</script>T<span id="LST80FE76DD_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_88?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_89"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_89?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_90"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_90?cpp=array&lt;");</script>T<span id="LST80FE76DD_91"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_91?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_3.htm">Min<span id="LST80FE76DD_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_92?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_93?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_94?cpp=array&lt;");</script>T<span id="LST80FE76DD_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_95?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_96?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST80FE76DD_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_98?cpp=array&lt;");</script>T<span id="LST80FE76DD_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_99?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_3.htm">Min<span id="LST80FE76DD_92"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_92?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_93"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_93?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_94?cpp=array&lt;");</script>T<span id="LST80FE76DD_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_95?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_96?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_97?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST80FE76DD_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_98?cpp=array&lt;");</script>T<span id="LST80FE76DD_99"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_99?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_5.htm">Min<span id="LST80FE76DD_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_100?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_101?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_102?cpp=array&lt;");</script>T<span id="LST80FE76DD_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_103?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_104?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_105?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_106?cpp=%");</script>, <span id="LST80FE76DD_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_107?cpp=array&lt;");</script>T<span id="LST80FE76DD_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_108?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_5.htm">Min<span id="LST80FE76DD_100"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_100?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_101"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_101?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_102"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_102?cpp=array&lt;");</script>T<span id="LST80FE76DD_103"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_103?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Int32, <span id="LST80FE76DD_104"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_104?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_105"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_105?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_106"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_106?cpp=%");</script>, <span id="LST80FE76DD_107"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_107?cpp=array&lt;");</script>T<span id="LST80FE76DD_108"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_108?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_14.htm">Min<span id="LST80FE76DD_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_109?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_110?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_111?cpp=array&lt;");</script><span id="LST80FE76DD_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_112?cpp=array&lt;");</script>T<span id="LST80FE76DD_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_113?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_114?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_115?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_116?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST80FE76DD_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_117?cpp=array&lt;");</script>T<span id="LST80FE76DD_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_118?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_14.htm">Min<span id="LST80FE76DD_109"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_109?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_110"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_110?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_111?cpp=array&lt;");</script><span id="LST80FE76DD_112"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_112?cpp=array&lt;");</script>T<span id="LST80FE76DD_113"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_113?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_114"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_114?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_115"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_115?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_116"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_116?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST80FE76DD_117"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_117?cpp=array&lt;");</script>T<span id="LST80FE76DD_118"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_118?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;static;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/static.gif" alt="Static member" title="Static member" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_Min__1_16.htm">Min<span id="LST80FE76DD_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_119?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_120?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_121?cpp=array&lt;");</script><span id="LST80FE76DD_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_122?cpp=array&lt;");</script>T<span id="LST80FE76DD_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_123?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_124?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_125?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_126?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_127?cpp=%");</script>, <span id="LST80FE76DD_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_128?cpp=array&lt;");</script>T<span id="LST80FE76DD_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_129?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Math_Matrix_Min__1_16.htm">Min<span id="LST80FE76DD_119"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_119?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST80FE76DD_120"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_120?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST80FE76DD_121"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_121?cpp=array&lt;");</script><span id="LST80FE76DD_122"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_122?cpp=array&lt;");</script>T<span id="LST80FE76DD_123"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_123?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_124"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_124?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST80FE76DD_125"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_125?cpp=array&lt;");</script>Int32<span id="LST80FE76DD_126"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_126?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST80FE76DD_127"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_127?cpp=%");</script>, <span id="LST80FE76DD_128"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_128?cpp=array&lt;");</script>T<span id="LST80FE76DD_129"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST80FE76DD_129?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Gets the minimum values across one dimension of a matrix.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Math_Matrix.htm">Matrix Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Math.htm">Accord.Math Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Matrix.htm">Matrix Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math.htm">Accord.Math Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

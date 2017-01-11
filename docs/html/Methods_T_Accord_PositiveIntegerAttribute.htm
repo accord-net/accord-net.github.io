@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,206 +35,27 @@
             <td class="titleColumn">PositiveIntegerAttribute Methods</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_PositiveIntegerAttribute.htm">PositiveIntegerAttribute</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_PositiveIntegerAttribute.htm">PositiveIntegerAttribute</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">Equals</span>
-              </td>
-              <td>
-                <div class="summary">Returns a value that indicates whether this instance is equal to a specified object.</div> (Inherited from <span class="nolink">Attribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">FormatErrorMessage</span>
-              </td>
-              <td> (Inherited from <span class="nolink">RangeAttribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">GetHashCode</span>
-              </td>
-              <td>
-                <div class="summary">Returns the hash code for this instance.</div> (Inherited from <span class="nolink">Attribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">GetType</span>
-              </td>
-              <td>
-                <div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">GetValidationResult</span>
-              </td>
-              <td>
-                <div class="summary">Checks whether the specified value is valid with respect to the current validation attribute.</div> (Inherited from <span class="nolink">ValidationAttribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">IsDefaultAttribute</span>
-              </td>
-              <td>
-                <div class="summary">When overridden in a derived class, indicates whether the value of this instance is the default value for the derived class.</div> (Inherited from <span class="nolink">Attribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">IsValid</span>
-              </td>
-              <td> (Inherited from <span class="nolink">RangeAttribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">Match</span>
-              </td>
-              <td>
-                <div class="summary">When overridden in a derived class, returns a value that indicates whether this instance equals a specified object.</div> (Inherited from <span class="nolink">Attribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">ToString</span>
-              </td>
-              <td>
-                <div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">Validate(Object, String)</span>
-              </td>
-              <td>
-                <div class="summary">Validates the specified object.</div> (Inherited from <span class="nolink">ValidationAttribute</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <span class="nolink">Validate(Object, ValidationContext)</span>
-              </td>
-              <td>
-                <div class="summary">Validates the specified object.</div> (Inherited from <span class="nolink">ValidationAttribute</span>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Returns a value that indicates whether this instance is equal to a specified object.</div> (Inherited from <span class="nolink">Attribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">FormatErrorMessage</span></td><td><div class="summary">Formats the error message that is displayed when range validation fails.</div> (Inherited from <span class="nolink">RangeAttribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Returns the hash code for this instance.</div> (Inherited from <span class="nolink">Attribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetValidationResult</span></td><td><div class="summary">Checks whether the specified value is valid with respect to the current validation attribute.</div> (Inherited from <span class="nolink">ValidationAttribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">IsDefaultAttribute</span></td><td><div class="summary">When overridden in a derived class, indicates whether the value of this instance is the default value for the derived class.</div> (Inherited from <span class="nolink">Attribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">IsValid</span></td><td><div class="summary">Checks that the value of the data field is in the specified range.</div> (Inherited from <span class="nolink">RangeAttribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Match</span></td><td><div class="summary">When overridden in a derived class, returns a value that indicates whether this instance equals a specified object.</div> (Inherited from <span class="nolink">Attribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Validate(Object, String)</span></td><td><div class="summary">Validates the specified object.</div> (Inherited from <span class="nolink">ValidationAttribute</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Validate(Object, ValidationContext)</span></td><td><div class="summary">Validates the specified object.</div> (Inherited from <span class="nolink">ValidationAttribute</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
-              </td>
-              <td>
-                <a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
-              </td>
-              <td>
-                <a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3796CB6E_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3796CB6E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3796CB6E_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
-              </td>
-              <td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3796CB6E_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3796CB6E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3796CB6E_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" />
-              </td>
-              <td>
-                <a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST3796CB6E_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3796CB6E_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3796CB6E_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_5?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
-              </td>
-              <td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST3796CB6E_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3796CB6E_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3796CB6E_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3796CB6E_5?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
-            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID2RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_PositiveIntegerAttribute.htm">PositiveIntegerAttribute Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord.htm">Accord Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_PositiveIntegerAttribute.htm">PositiveIntegerAttribute Class</a></div><div class="seeAlsoStyle"><a href="N_Accord.htm">Accord Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -35,122 +36,31 @@
             <td class="titleColumn">IRegression<span id="LST1AC02C18_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TInput</span>, <span class="typeparameter">TOutput</span><span id="LST1AC02C18_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Methods</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_IRegression_2_Regress.htm">Regress(TInput)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_IRegression_2_Regress.htm">Regress(TInput)</a></td><td><div class="summary">
               Computes an output value for a given <span class="parameter">input</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_IRegression_2_Regress_1.htm">Regress(<span id="LST1AC02C18_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_2?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_IRegression_2_Regress_1.htm">Regress(<span id="LST1AC02C18_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_2?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Computes output values for each vector in the given set of
               <span class="parameter">input</span> vectors.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_IRegression_2_Regress_2.htm">Regress(<span id="LST1AC02C18_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_4?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST1AC02C18_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_6?cpp=array&lt;");</script>TOutput<span id="LST1AC02C18_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_IRegression_2_Regress_2.htm">Regress(<span id="LST1AC02C18_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_4?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST1AC02C18_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_6?cpp=array&lt;");</script>TOutput<span id="LST1AC02C18_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Computes output values for each vector in the given set of
               <span class="parameter">input</span> vectors.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ITransform_2_Transform.htm">Transform(TInput)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ITransform_2_Transform.htm">Transform(TInput)</a></td><td><div class="summary">
               Applies the transformation to an input, producing an associated output.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_ITransform_2.htm">ITransform<span id="LST1AC02C18_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ITransform_2_Transform_1.htm">Transform(<span id="LST1AC02C18_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_10?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ITransform_2.htm">ITransform<span id="LST1AC02C18_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ITransform_2_Transform_1.htm">Transform(<span id="LST1AC02C18_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_10?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Applies the transformation to a set of input vectors,
               producing an associated set of output vectors.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_ITransform_2.htm">ITransform<span id="LST1AC02C18_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_MachineLearning_ITransform_2_Transform_2.htm">Transform(<span id="LST1AC02C18_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_14?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_15?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST1AC02C18_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_16?cpp=array&lt;");</script>TOutput<span id="LST1AC02C18_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ITransform_2.htm">ITransform<span id="LST1AC02C18_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_ITransform_2_Transform_2.htm">Transform(<span id="LST1AC02C18_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_14?cpp=array&lt;");</script>TInput<span id="LST1AC02C18_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_15?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST1AC02C18_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_16?cpp=array&lt;");</script>TOutput<span id="LST1AC02C18_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Applies the transformation to a set of input vectors,
               producing an associated set of output vectors.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_ITransform_2.htm">ITransform<span id="LST1AC02C18_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_MachineLearning_IRegression_2.htm">IRegression<span id="LST1AC02C18_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Interface</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ITransform_2.htm">ITransform<span id="LST1AC02C18_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_IRegression_2.htm">IRegression<span id="LST1AC02C18_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LST1AC02C18_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1AC02C18_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Interface</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

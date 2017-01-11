@@ -24,12 +24,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
     <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
     <div class="pageBody">
-      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Models_Markov_Learning.htm" title="Accord.Statistics.Models.Markov.Learning" tocid="N_Accord_Statistics_Models_Markov_Learning">Accord.Statistics.Models.Markov.Learning</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm" title="BaseBaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning">BaseBaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning_4.htm" title="BaseBaumWelchLearning(TModel, TDistribution, TObservation, TOptions) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning_4">BaseBaumWelchLearning(TModel, TDistribution, TObservation, TOptions) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearningOptions_4.htm" title="BaseBaumWelchLearningOptions(TModel, TDistribution, TObservation, TOptions) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearningOptions_4">BaseBaumWelchLearningOptions(TModel, TDistribution, TObservation, TOptions) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm" title="BaseHiddenMarkovClassifierLearning(TClassifier, TModel) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2">BaseHiddenMarkovClassifierLearning(TClassifier, TModel) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_4.htm" title="BaseHiddenMarkovClassifierLearning(TClassifier, TModel, TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_4">BaseHiddenMarkovClassifierLearning(TClassifier, TModel, TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovModelLearning_2.htm" title="BaseHiddenMarkovModelLearning(TModel, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovModelLearning_2">BaseHiddenMarkovModelLearning(TModel, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseViterbiLearning_1.htm" title="BaseViterbiLearning(T) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseViterbiLearning_1">BaseViterbiLearning(T) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" title="BaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning">BaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" title="BaumWelchLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1">BaumWelchLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm" title="BaumWelchLearning(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2">BaumWelchLearning(TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_3.htm" title="BaumWelchLearning(TDistribution, TObservation, TOptions) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_3">BaumWelchLearning(TDistribution, TObservation, TOptions) Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm" title="ClassifierLearningAlgorithmConfiguration Delegate" tocid="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration">ClassifierLearningAlgorithmConfiguration Delegate</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm" title="GenerativeLearningEventArgs Class" tocid="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs">GenerativeLearningEventArgs Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm" title="HiddenMarkovClassifierLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning">HiddenMarkovClassifierLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm" title="HiddenMarkovClassifierLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1">HiddenMarkovClassifierLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2.htm" title="HiddenMarkovClassifierLearning(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2">HiddenMarkovClassifierLearning(TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm" title="ISupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning">ISupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" title="IUnsupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning">IUnsupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm" title="IUnsupervisedLearning(T) Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1">IUnsupervisedLearning(T) Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm" title="IWeightedUnsupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning">IWeightedUnsupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm" title="MaximumLikelihoodLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning">MaximumLikelihoodLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm" title="MaximumLikelihoodLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1">MaximumLikelihoodLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm" title="ViterbiLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning">ViterbiLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm" title="ViterbiLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1">ViterbiLearning(TDistribution) Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_Statistics_Models_Markov_Learning.htm" title="Accord.Statistics.Models.Markov.Learning" tocid="N_Accord_Statistics_Models_Markov_Learning">Accord.Statistics.Models.Markov.Learning</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm" title="BaseBaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning">BaseBaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning_4.htm" title="BaseBaumWelchLearning(TModel, TDistribution, TObservation, TOptions) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning_4">BaseBaumWelchLearning(TModel, TDistribution, TObservation, TOptions) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearningOptions_4.htm" title="BaseBaumWelchLearningOptions(TModel, TDistribution, TObservation, TOptions) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearningOptions_4">BaseBaumWelchLearningOptions(TModel, TDistribution, TObservation, TOptions) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm" title="BaseHiddenMarkovClassifierLearning(TClassifier, TModel) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2">BaseHiddenMarkovClassifierLearning(TClassifier, TModel) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_4.htm" title="BaseHiddenMarkovClassifierLearning(TClassifier, TModel, TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_4">BaseHiddenMarkovClassifierLearning(TClassifier, TModel, TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovModelLearning_2.htm" title="BaseHiddenMarkovModelLearning(TModel, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovModelLearning_2">BaseHiddenMarkovModelLearning(TModel, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaseViterbiLearning_1.htm" title="BaseViterbiLearning(T) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaseViterbiLearning_1">BaseViterbiLearning(T) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm" title="BaumWelchLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning">BaumWelchLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm" title="BaumWelchLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1">BaumWelchLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm" title="BaumWelchLearning(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2">BaumWelchLearning(TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_3.htm" title="BaumWelchLearning(TDistribution, TObservation, TOptions) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_3">BaumWelchLearning(TDistribution, TObservation, TOptions) Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm" title="ClassifierLearningAlgorithmConfiguration Delegate" tocid="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration">ClassifierLearningAlgorithmConfiguration Delegate</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm" title="GenerativeLearningEventArgs Class" tocid="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs">GenerativeLearningEventArgs Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm" title="HiddenMarkovClassifierLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning">HiddenMarkovClassifierLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm" title="HiddenMarkovClassifierLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1">HiddenMarkovClassifierLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2.htm" title="HiddenMarkovClassifierLearning(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2">HiddenMarkovClassifierLearning(TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm" title="ISupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning">ISupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm" title="IUnsupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning">IUnsupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm" title="IUnsupervisedLearning(T) Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1">IUnsupervisedLearning(T) Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm" title="IWeightedUnsupervisedLearning Interface" tocid="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning">IWeightedUnsupervisedLearning Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm" title="MaximumLikelihoodLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning">MaximumLikelihoodLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm" title="MaximumLikelihoodLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1">MaximumLikelihoodLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_2.htm" title="MaximumLikelihoodLearning(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_2">MaximumLikelihoodLearning(TDistribution, TObservation) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm" title="ViterbiLearning Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning">ViterbiLearning Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm" title="ViterbiLearning(TDistribution) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1">ViterbiLearning(TDistribution) Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_2.htm" title="ViterbiLearning(TDistribution, TObservation) Class" tocid="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_2">ViterbiLearning(TDistribution, TObservation) Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
         <table class="titleTable">
           <tr>
             <td class="logoColumn">
@@ -38,386 +39,90 @@
             <td class="titleColumn">Accord.Statistics.Models.Markov.Learning Namespace</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">Contains learning algorithms such as Baum-Welch.</div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="summary">Contains learning algorithms such as Baum-Welch.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="classList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Class</th>
-              <th>Description</th>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm">BaseBaumWelchLearning</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+				</th><th>Class</th><th>Description</th></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning.htm">BaseBaumWelchLearning</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Base class for implementations of the Baum-Welch learning algorithm.
               This class cannot be instantiated.
-            </div></td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning_4.htm">BaseBaumWelchLearning<span id="LSTE46B29D1_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TObservation, TOptions<span id="LSTE46B29D1_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearning_4.htm">BaseBaumWelchLearning<span id="LSTE46B29D1_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TObservation, TOptions<span id="LSTE46B29D1_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Base class for implementations of the Baum-Welch learning algorithm.
               This class cannot be instantiated.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearningOptions_4.htm">BaseBaumWelchLearningOptions<span id="LSTE46B29D1_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TObservation, TOptions<span id="LSTE46B29D1_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseBaumWelchLearningOptions_4.htm">BaseBaumWelchLearningOptions<span id="LSTE46B29D1_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TObservation, TOptions<span id="LSTE46B29D1_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Base class for implementations of the Baum-Welch learning algorithm.
               This class cannot be instantiated.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm">BaseHiddenMarkovClassifierLearning<span id="LSTE46B29D1_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TClassifier, TModel<span id="LSTE46B29D1_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_2.htm">BaseHiddenMarkovClassifierLearning<span id="LSTE46B29D1_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TClassifier, TModel<span id="LSTE46B29D1_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Abstract base class for Sequence Classifier learning algorithms.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_4.htm">BaseHiddenMarkovClassifierLearning<span id="LSTE46B29D1_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TClassifier, TModel, TDistribution, TObservation<span id="LSTE46B29D1_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovClassifierLearning_4.htm">BaseHiddenMarkovClassifierLearning<span id="LSTE46B29D1_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TClassifier, TModel, TDistribution, TObservation<span id="LSTE46B29D1_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Abstract base class for Sequence Classifier learning algorithms.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovModelLearning_2.htm">BaseHiddenMarkovModelLearning<span id="LSTE46B29D1_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TObservation<span id="LSTE46B29D1_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseHiddenMarkovModelLearning_2.htm">BaseHiddenMarkovModelLearning<span id="LSTE46B29D1_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TObservation<span id="LSTE46B29D1_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Base class for implementations of the Baum-Welch learning algorithm.
               This class cannot be instantiated.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaseViterbiLearning_1.htm">BaseViterbiLearning<span id="LSTE46B29D1_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE46B29D1_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaseViterbiLearning_1.htm">BaseViterbiLearning<span id="LSTE46B29D1_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE46B29D1_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Base class for implementations of the Viterbi learning algorithm.
               This class cannot be instantiated.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">BaumWelchLearning</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">BaumWelchLearning</a></td><td><div class="summary">
               Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">
               discrete-density Hidden Markov Models</a>.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">BaumWelchLearning<span id="LSTE46B29D1_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
-               Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm">
-               arbitrary-density (generic) Hidden Markov Models</a>.
-             </div></td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm">BaumWelchLearning<span id="LSTE46B29D1_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">BaumWelchLearning<span id="LSTE46B29D1_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Obsolete. Please use <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm">BaumWelchLearning<span id="LSTE46B29D1_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> instead.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm">BaumWelchLearning<span id="LSTE46B29D1_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
+              Baum-Welch learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_1.htm">
+              arbitrary-density (generic) Hidden Markov Models</a>.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_3.htm">BaumWelchLearning<span id="LSTE46B29D1_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation, TOptions<span id="LSTE46B29D1_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Baum-Welch learning algorithms for learning Hidden Markov Models.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_3.htm">BaumWelchLearning<span id="LSTE46B29D1_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation, TOptions<span id="LSTE46B29D1_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
-              Baum-Welch learning algorithms for learning Hidden Markov Models.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm">GenerativeLearningEventArgs</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_GenerativeLearningEventArgs.htm">GenerativeLearningEventArgs</a></td><td><div class="summary">
               Submodel learning event arguments.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm">HiddenMarkovClassifierLearning</a>
-              </td>
-              <td>
-                <div class="summary">
-               Learning algorithm for discrete-density <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier.htm">
-               generative hidden Markov sequence classifiers</a>.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm">HiddenMarkovClassifierLearning<span id="LSTE46B29D1_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
-               Learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_1.htm">
-               arbitrary-density generative hidden Markov sequence classifiers</a>.
-             </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2.htm">HiddenMarkovClassifierLearning<span id="LSTE46B29D1_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning.htm">HiddenMarkovClassifierLearning</a></td><td><div class="summary">
+              Learning algorithm for discrete-density <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier.htm">
+              generative hidden Markov sequence classifiers</a>.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_1.htm">HiddenMarkovClassifierLearning<span id="LSTE46B29D1_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Obsolete. Please use <a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2.htm">HiddenMarkovClassifierLearning<span id="LSTE46B29D1_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_22?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_23?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> instead.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_HiddenMarkovClassifierLearning_2.htm">HiddenMarkovClassifierLearning<span id="LSTE46B29D1_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_24?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_25?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovClassifier_1.htm">
               arbitrary-density generative hidden Markov sequence classifiers</a>.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm">MaximumLikelihoodLearning</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm">MaximumLikelihoodLearning</a></td><td><div class="summary">
                Maximum Likelihood learning algorithm for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">
                discrete-density Hidden Markov Models</a>.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm">MaximumLikelihoodLearning<span id="LSTE46B29D1_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_22?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_23?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_1.htm">MaximumLikelihoodLearning<span id="LSTE46B29D1_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_26?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_27?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td> <strong>Obsolete. </strong><div class="summary">
+               Obsolete. Please use <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_2.htm">MaximumLikelihoodLearning<span id="LSTE46B29D1_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_28?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_29?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> instead.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_2.htm">MaximumLikelihoodLearning<span id="LSTE46B29D1_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_30?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_31?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
                Maximum Likelihood learning algorithm for discrete-density Hidden Markov Models.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">ViterbiLearning</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">ViterbiLearning</a></td><td><div class="summary">
               Viterbi learning algorithm.
-            </div>
-              </td>
-            </tr>
-            <tr data="class; public">
-              <td>
-                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm">ViterbiLearning<span id="LSTE46B29D1_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_24?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_25?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_1.htm">ViterbiLearning<span id="LSTE46B29D1_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_32?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution<span id="LSTE46B29D1_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_33?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Obsolete. Please use ViterbiLearning&lt;TDistribution, TObservation&gt; instead.
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_2.htm">ViterbiLearning<span id="LSTE46B29D1_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_34?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTE46B29D1_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_35?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
               Viterbi learning algorithm.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="interfaceList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Interface</th>
-              <th>Description</th>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm">ISupervisedLearning</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+				</th><th>Interface</th><th>Description</th></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_ISupervisedLearning.htm">ISupervisedLearning</a></td><td> <strong>Obsolete. </strong><div class="summary">
                Common interface for supervised learning algorithms for <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">
                hidden Markov models</a> such as the <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning.htm">
                Maximum Likelihood (MLE)</a> learning algorithm.
-             </div></td>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm">IUnsupervisedLearning</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+             </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning.htm">IUnsupervisedLearning</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Common interface for unsupervised learning algorithms for hidden
               Markov models such as the <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">Baum-Welch
               learning</a> and the <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">Viterbi learning
               </a> algorithms.
-            </div></td>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm">IUnsupervisedLearning<span id="LSTE46B29D1_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_26?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE46B29D1_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_27?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_IUnsupervisedLearning_1.htm">IUnsupervisedLearning<span id="LSTE46B29D1_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_36?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE46B29D1_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE46B29D1_37?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td> <strong>Obsolete. </strong><div class="summary">
               Common interface for unsupervised learning algorithms for hidden
               Markov models such as the <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning.htm">Baum-Welch
               learning</a> and the <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning.htm">Viterbi learning
               </a> algorithms.
-            </div></td>
-            </tr>
-            <tr data="interface; public">
-              <td>
-                <img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm">IWeightedUnsupervisedLearning</a>
-              </td>
-              <td> <strong>Obsolete. </strong><div class="summary">
+            </div></td></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_IWeightedUnsupervisedLearning.htm">IWeightedUnsupervisedLearning</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Common interface for unsupervised learning algorithms for hidden
               Markov models which support for weighted training samples.
-            </div></td>
-            </tr>
-          </table>
-        </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0">
-            <img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Delegates</span>
-        </div>
-        <div id="ID2RBSection" class="collapsibleSection">
-          <table id="typeList" class="members">
-            <tr>
-              <th class="iconColumn">
+            </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Delegates</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="delegateList"><tr><th class="iconColumn">
 					 
-				</th>
-              <th>Delegate</th>
-              <th>Description</th>
-            </tr>
-            <tr data="delegate; public">
-              <td>
-                <img src="../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" />
-              </td>
-              <td>
-                <a href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm">ClassifierLearningAlgorithmConfiguration</a>
-              </td>
-              <td>
-                <div class="summary">
+				</th><th>Delegate</th><th>Description</th></tr><tr data="delegate; public"><td><img src="../icons/pubdelegate.gif" alt="Public delegate" title="Public delegate" /></td><td><a href="T_Accord_Statistics_Models_Markov_Learning_ClassifierLearningAlgorithmConfiguration.htm">ClassifierLearningAlgorithmConfiguration</a></td><td><div class="summary">
               Configuration function delegate for Sequence Classifier Learning algorithms.
-            </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+            </div></td></tr></table></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
