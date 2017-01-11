@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -40,22 +41,30 @@
             <td class="titleColumn">AugmentedLagrangian Class</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
-               Augmented Lagrangian method for constrained non-linear optimization.
-             </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <span class="nolink">System<span id="LSTFF71F539_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span>
-          <br />  <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">Accord.Math.Optimization<span id="LSTFF71F539_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseOptimizationMethod</a><br />    <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">Accord.Math.Optimization<span id="LSTFF71F539_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseGradientOptimizationMethod</a><br />      <span class="selflink">Accord.Math.Optimization<span id="LSTFF71F539_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>AugmentedLagrangian</span><br /></div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization</a><br /><strong>Assembly:</strong> Accord.Math (in Accord.Math.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">AugmentedLagrangian</span> : <span class="identifier">BaseGradientOptimizationMethod</span>, 
+        <span class="introStyle"></span> <div class="summary">
+              Augmented Lagrangian method for constrained non-linear optimization.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LSTFF71F539_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">Accord.Math.Optimization<span id="LSTFF71F539_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseOptimizationMethod</a><br />    <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">Accord.Math.Optimization<span id="LSTFF71F539_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseGradientOptimizationMethod</a><br />      <span class="selflink">Accord.Math.Optimization<span id="LSTFF71F539_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>AugmentedLagrangian</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization</a><br />
+    <strong>Assembly:</strong>
+   Accord.Math (in Accord.Math.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">AugmentedLagrangian</span> : <span class="identifier">BaseGradientOptimizationMethod</span>, 
 	<span class="identifier">IGradientOptimizationMethod</span>, <span class="identifier">IOptimizationMethod</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">AugmentedLagrangian</span>
 	<span class="keyword">Inherits</span> <span class="identifier">BaseGradientOptimizationMethod</span>
-	<span class="keyword">Implements</span> <span class="identifier">IGradientOptimizationMethod</span>, <span class="identifier">IOptimizationMethod</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">AugmentedLagrangian</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+	<span class="keyword">Implements</span> <span class="identifier">IGradientOptimizationMethod</span>, <span class="identifier">IOptimizationMethod</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Math/Optimization/Constrained/AugmentedLagrangian.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">AugmentedLagrangian</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Optimization_AugmentedLagrangian__ctor_3.htm">AugmentedLagrangian(Int32, IEnumerable<span id="LSTFF71F539_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>NonlinearConstraint<span id="LSTFF71F539_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary">
               Creates a new instance of the Augmented Lagrangian algorithm.
@@ -65,7 +74,7 @@
               Creates a new instance of the Augmented Lagrangian algorithm.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Optimization_AugmentedLagrangian__ctor.htm">AugmentedLagrangian(IGradientOptimizationMethod, NonlinearObjectiveFunction, IEnumerable<span id="LSTFF71F539_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_10?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>NonlinearConstraint<span id="LSTFF71F539_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_11?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary">
               Creates a new instance of the Augmented Lagrangian algorithm.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_AugmentedLagrangian_Evaluations.htm">Evaluations</a></td><td><div class="summary">
               Gets the number of function evaluations performed
@@ -98,7 +107,7 @@
               stop the learning algorithm while it is running.
             </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">BaseGradientOptimizationMethod</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Value.htm">Value</a></td><td><div class="summary">
               Gets the output of the function at the current <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a>.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Optimization_BaseGradientOptimizationMethod_Maximize.htm">Maximize<span id="LSTFF71F539_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_16?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
               Finds the maximum value of a function. The solution vector
@@ -115,7 +124,7 @@
             </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Math_Optimization_AugmentedLagrangian_Optimize.htm">Optimize</a></td><td><div class="summary">
               Implements the actual optimization algorithm. This
               method should try to minimize the objective function.
-            </div> (Overrides <a href="M_Accord_Math_Optimization_BaseOptimizationMethod_Optimize.htm">BaseOptimizationMethod<span id="LSTFF71F539_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Optimize<span id="LSTFF71F539_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_23?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div> (Overrides <a href="M_Accord_Math_Optimization_BaseOptimizationMethod_Optimize.htm">BaseOptimizationMethod<span id="LSTFF71F539_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Optimize<span id="LSTFF71F539_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_23?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
@@ -128,14 +137,14 @@
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
-               References:
-               <ul><li><a href="http://ab-initio.mit.edu/nlopt">
-                   Steven G. Johnson, The NLopt nonlinear-optimization package, http://ab-initio.mit.edu/nlopt </a></li><li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.72.6121">
-                   E. G. Birgin and J. M. Martinez, "Improving ultimate convergence of an augmented Lagrangian
-                   method," Optimization Methods and Software vol. 23, no. 2, p. 177-195 (2008). </a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
-               In this framework, it is possible to state a non-linear programming problem
-               using either symbolic processing or vector-valued functions. The following 
-               example demonstrates the former.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we would like to minimize the following function:</span>
+              References:
+              <ul><li><a href="http://ab-initio.mit.edu/nlopt">
+                  Steven G. Johnson, The NLopt nonlinear-optimization package, http://ab-initio.mit.edu/nlopt </a></li><li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.72.6121">
+                  E. G. Birgin and J. M. Martinez, "Improving ultimate convergence of an augmented Lagrangian
+                  method," Optimization Methods and Software vol. 23, no. 2, p. 177-195 (2008). </a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              In this framework, it is possible to state a non-linear programming problem
+              using either symbolic processing or vector-valued functions. The following 
+              example demonstrates the symbolic processing case:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we would like to minimize the following function:</span>
 <span class="highlight-comment">// </span>
 <span class="highlight-comment">//    f(x,y) = min 100(y-x²)²+(1-x)²</span>
 <span class="highlight-comment">// </span>
@@ -145,61 +154,119 @@
 <span class="highlight-comment">//    y &gt;= 0  (y must be positive)</span>
 <span class="highlight-comment">// </span>
 
-<span class="highlight-comment">// In this example we will be using some symbolic processing. </span>
-<span class="highlight-comment">// The following variables could be initialized to any value.</span>
+<span class="highlight-comment">// First, let's declare some symbolic variables</span>
+<span class="highlight-keyword">double</span> x = <span class="highlight-number">0</span>, y = <span class="highlight-number">0</span>; <span class="highlight-comment">// (values do not matter)</span>
 
-<span class="highlight-keyword">double</span> x = <span class="highlight-number">0</span>, y = <span class="highlight-number">0</span>;
-
-
-<span class="highlight-comment">// First, we create our objective function</span>
+<span class="highlight-comment">// Now, we create an objective function</span>
 <span class="highlight-keyword">var</span> f = <span class="highlight-keyword">new</span> NonlinearObjectiveFunction(
 
     <span class="highlight-comment">// This is the objective function:  f(x,y) = min 100(y-x²)²+(1-x)²</span>
     function: () =&gt; <span class="highlight-number">100</span> * Math.Pow(y - x * x, <span class="highlight-number">2</span>) + Math.Pow(<span class="highlight-number">1</span> - x, <span class="highlight-number">2</span>),
 
-    <span class="highlight-comment">// The gradient vector:</span>
+    <span class="highlight-comment">// And this is the vector gradient for the same function:</span>
     gradient: () =&gt; <span class="highlight-keyword">new</span>[] 
     {
         <span class="highlight-number">2</span> * (<span class="highlight-number">200</span> * Math.Pow(x, <span class="highlight-number">3</span>) - <span class="highlight-number">200</span> * x * y + x - <span class="highlight-number">1</span>), <span class="highlight-comment">// df/dx = 2(200x³-200xy+x-1)</span>
         <span class="highlight-number">200</span> * (y - x*x)                                   <span class="highlight-comment">// df/dy = 200(y-x²)</span>
     }
-
 );
 
-
 <span class="highlight-comment">// Now we can start stating the constraints</span>
-<span class="highlight-keyword">var</span> constraints = <span class="highlight-keyword">new</span> List&lt;NonlinearConstraint&gt;();
+<span class="highlight-keyword">var</span> constraints = <span class="highlight-keyword">new</span> List&lt;NonlinearConstraint&gt;()
+{
+    <span class="highlight-comment">// Add the non-negativity constraint for x</span>
+    <span class="highlight-keyword">new</span> NonlinearConstraint(f,
+        <span class="highlight-comment">// 1st constraint: x should be greater than or equal to 0</span>
+        function: () =&gt; x,
+        shouldBe: ConstraintType.GreaterThanOrEqualTo, 
+        <span class="highlight-keyword">value</span>: <span class="highlight-number">0</span>,
+        gradient: () =&gt; <span class="highlight-keyword">new</span>[] { <span class="highlight-number">1.0</span>, <span class="highlight-number">0.0</span> }
+    ),
 
-<span class="highlight-comment">// Add the non-negativity constraint for x</span>
-constraints.Add(<span class="highlight-keyword">new</span> NonlinearConstraint(f,
-
-    <span class="highlight-comment">// 1st constraint: x should be greater than or equal to 0</span>
-    function: () =&gt; x, shouldBe: ConstraintType.GreaterThanOrEqualTo, <span class="highlight-keyword">value</span>: <span class="highlight-number">0</span>,
-
-    gradient: () =&gt; <span class="highlight-keyword">new</span>[] { <span class="highlight-number">1.0</span>, <span class="highlight-number">0.0</span> }
-));
-
-<span class="highlight-comment">// Add the non-negativity constraint for y</span>
-constraints.Add(<span class="highlight-keyword">new</span> NonlinearConstraint(f,
-
-    <span class="highlight-comment">// 2nd constraint: y should be greater than or equal to 0</span>
-    function: () =&gt; y, shouldBe: ConstraintType.GreaterThanOrEqualTo, <span class="highlight-keyword">value</span>: <span class="highlight-number">0</span>,
-
-    gradient: () =&gt; <span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.0</span>, <span class="highlight-number">1.0</span> }
-));
-
+    <span class="highlight-comment">// Add the non-negativity constraint for y</span>
+    <span class="highlight-keyword">new</span> NonlinearConstraint(f,
+        <span class="highlight-comment">// 2nd constraint: y should be greater than or equal to 0</span>
+        function: () =&gt; y, 
+        shouldBe: ConstraintType.GreaterThanOrEqualTo, 
+        <span class="highlight-keyword">value</span>: <span class="highlight-number">0</span>,
+        gradient: () =&gt; <span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.0</span>, <span class="highlight-number">1.0</span> }
+    )
+};
 
 <span class="highlight-comment">// Finally, we create the non-linear programming solver</span>
-<span class="highlight-keyword">var</span> solver = <span class="highlight-keyword">new</span> AugmentedLagrangianSolver(<span class="highlight-number">2</span>, constraints);
+<span class="highlight-keyword">var</span> solver = <span class="highlight-keyword">new</span> AugmentedLagrangian(f, constraints);
 
-<span class="highlight-comment">// And attempt to solve the problem</span>
-<span class="highlight-keyword">double</span> minValue = solver.Minimize(f);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a></div></div></div>
+<span class="highlight-comment">// And attempt to find a minimum</span>
+<span class="highlight-keyword">bool</span> success = solver.Minimize();
+
+<span class="highlight-comment">// The solution found was { 1, 1 }</span>
+<span class="highlight-keyword">double</span>[] solution = solver.Solution;
+
+<span class="highlight-comment">// with the minimum value zero.</span>
+<span class="highlight-keyword">double</span> minValue = solver.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><p>
+              And this is the same example as before, but using standard vectors instead.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we would like to minimize the following function:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">//    f(x,y) = min 100(y-x²)²+(1-x)²</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">// Subject to the constraints</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">//    x &gt;= 0  (x must be positive)</span>
+<span class="highlight-comment">//    y &gt;= 0  (y must be positive)</span>
+<span class="highlight-comment">// </span>
+
+<span class="highlight-comment">// Now, we can create an objective function using vectors</span>
+<span class="highlight-keyword">var</span> f = <span class="highlight-keyword">new</span> NonlinearObjectiveFunction(numberOfVariables: <span class="highlight-number">2</span>,
+
+    <span class="highlight-comment">// This is the objective function:  f(x,y) = min 100(y-x²)²+(1-x)²</span>
+    function: (x) =&gt; <span class="highlight-number">100</span> * Math.Pow(x[<span class="highlight-number">1</span>] - x[<span class="highlight-number">0</span>] * x[<span class="highlight-number">0</span>], <span class="highlight-number">2</span>) + Math.Pow(<span class="highlight-number">1</span> - x[<span class="highlight-number">0</span>], <span class="highlight-number">2</span>),
+
+    <span class="highlight-comment">// And this is the vector gradient for the same function:</span>
+    gradient: (x) =&gt; <span class="highlight-keyword">new</span>[] 
+    {
+        <span class="highlight-number">2</span> * (<span class="highlight-number">200</span> * Math.Pow(x[<span class="highlight-number">0</span>], <span class="highlight-number">3</span>) - <span class="highlight-number">200</span> * x[<span class="highlight-number">0</span>] * x[<span class="highlight-number">1</span>] + x[<span class="highlight-number">0</span>] - <span class="highlight-number">1</span>), <span class="highlight-comment">// df/dx = 2(200x³-200xy+x-1)</span>
+        <span class="highlight-number">200</span> * (x[<span class="highlight-number">1</span>] - x[<span class="highlight-number">0</span>]*x[<span class="highlight-number">0</span>])                                   <span class="highlight-comment">// df/dy = 200(y-x²)</span>
+    }
+);
+
+<span class="highlight-comment">// Now we can start stating the constraints</span>
+<span class="highlight-keyword">var</span> constraints = <span class="highlight-keyword">new</span> List&lt;NonlinearConstraint&gt;()
+{
+    <span class="highlight-comment">// Add the non-negativity constraint for x</span>
+    <span class="highlight-keyword">new</span> NonlinearConstraint(f,
+        <span class="highlight-comment">// 1st constraint: x should be greater than or equal to 0</span>
+        function: (x) =&gt; x[<span class="highlight-number">0</span>], <span class="highlight-comment">// x</span>
+        shouldBe: ConstraintType.GreaterThanOrEqualTo, 
+        <span class="highlight-keyword">value</span>: <span class="highlight-number">0</span>,
+        gradient: (x) =&gt; <span class="highlight-keyword">new</span>[] { <span class="highlight-number">1.0</span>, <span class="highlight-number">0.0</span> }
+    ),
+
+    <span class="highlight-comment">// Add the non-negativity constraint for y</span>
+    <span class="highlight-keyword">new</span> NonlinearConstraint(f,
+        <span class="highlight-comment">// 2nd constraint: y should be greater than or equal to 0</span>
+        function: (x) =&gt; x[<span class="highlight-number">1</span>], <span class="highlight-comment">// y </span>
+        shouldBe: ConstraintType.GreaterThanOrEqualTo, 
+        <span class="highlight-keyword">value</span>: <span class="highlight-number">0</span>,
+        gradient: (x) =&gt; <span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.0</span>, <span class="highlight-number">1.0</span> }
+    )
+};
+
+<span class="highlight-comment">// Finally, we create the non-linear programming solver</span>
+<span class="highlight-keyword">var</span> solver = <span class="highlight-keyword">new</span> AugmentedLagrangian(f, constraints);
+
+<span class="highlight-comment">// And attempt to find a minimum</span>
+<span class="highlight-keyword">bool</span> success = solver.Minimize();
+
+<span class="highlight-comment">// The solution found was { 1, 1 }</span>
+<span class="highlight-keyword">double</span>[] solution = solver.Solution;
+
+<span class="highlight-comment">// with the minimum value zero.</span>
+<span class="highlight-keyword">double</span> minValue = solver.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Optimization_GoldfarbIdnani.htm">Accord.Math.Optimization<span id="LSTFF71F539_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFF71F539_30?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GoldfarbIdnani</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

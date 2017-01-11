@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -40,20 +41,28 @@
             <td class="titleColumn">SparseReader Class</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
                Reader for data files containing samples in libsvm's sparse format.
-             </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <span class="nolink">System<span id="LSTDFA3F26B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span>
-          <br />  <span class="selflink">Accord.IO<span id="LSTDFA3F26B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SparseReader</span><br /></div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_IO.htm">Accord.IO</a><br /><strong>Assembly:</strong> Accord.IO (in Accord.IO.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">SparseReader</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">SparseReader</span>
-	<span class="keyword">Implements</span> <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">SparseReader</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LSTDFA3F26B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.IO<span id="LSTDFA3F26B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SparseReader</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_IO.htm">Accord.IO</a><br />
+    <strong>Assembly:</strong>
+   Accord.IO (in Accord.IO.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">SparseReader</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">SparseReader</span>
+	<span class="keyword">Implements</span> <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.IO/SparseReader.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">SparseReader</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_SparseReader__ctor.htm">SparseReader(Stream)</a></td><td><div class="summary">
               Initializes a new instance of the <span class="selflink">SparseReader</span> class.
@@ -75,7 +84,7 @@
               Initializes a new instance of the <span class="selflink">SparseReader</span> class.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_SparseReader__ctor_9.htm">SparseReader(String, Encoding, Int32)</a></td><td><div class="summary">
               Initializes a new instance of the <span class="selflink">SparseReader</span> class.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_IO_SparseReader_BaseStream.htm">BaseStream</a></td><td><div class="summary">
               Returns the underlying stream.
@@ -92,7 +101,7 @@
               Default is <span class="code">null</span> (don't include anything).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_IO_SparseReader_SampleDescriptions.htm">SampleDescriptions</a></td><td><div class="summary">
               Gets the description associated with the last read values.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_SparseReader_Dispose.htm">Dispose<span id="LSTDFA3F26B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
               Performs application-defined tasks associated with
@@ -127,7 +136,7 @@
               Reads all samples from the file and returns them as a
               <a href="T_Accord_Math_Sparse_1.htm">Sparse<span id="LSTDFA3F26B_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_13?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTDFA3F26B_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDFA3F26B_14?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> sparse vector, together with
               their associated output values.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
@@ -141,7 +150,7 @@
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
                The following example shows how to read all sparse samples from a file
-               and retrieve them as a dense multidimensional vector.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we are going to read a sparse sample file containing</span>
+               and retrieve them as a dense multidimensional vector.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we are going to read a sparse sample file containing</span>
 <span class="highlight-comment">//  samples which have an actual dimension of 4. Since the samples</span>
 <span class="highlight-comment">//  are in a sparse format, each entry in the file will probably</span>
 <span class="highlight-comment">//  have a much lesser number of elements.</span>
@@ -166,7 +175,7 @@ SparseReader reader = <span class="highlight-keyword">new</span> SparseReader(fi
 <span class="highlight-comment">// Read the sparse samples and store them in a dense vector array</span>
 <span class="highlight-keyword">double</span>[][] samples = reader.ReadToEnd(<span class="highlight-keyword">out</span> labels, <span class="highlight-keyword">out</span> descriptions);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><p>Additionally, it is also possible to read each sample
                individually and sequentially. For this, we can use a while
-               loop until we reach the end of the stream.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we are going to read a sparse sample file containing</span>
+               loop until we reach the end of the stream.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Suppose we are going to read a sparse sample file containing</span>
 <span class="highlight-comment">//  samples which have an actual dimension of 4. Since the samples</span>
 <span class="highlight-comment">//  are in a sparse format, each entry in the file will probably</span>
 <span class="highlight-comment">//  have a much lesser number of elements.</span>
@@ -194,10 +203,10 @@ sample = reader.ReadDense(<span class="highlight-keyword">out</span> label, <spa
 }</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_IO.htm">Accord.IO Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

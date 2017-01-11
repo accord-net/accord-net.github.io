@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,121 +35,35 @@
             <td class="titleColumn">KernelFunctionCache Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Statistics_Kernels_KernelFunctionCache.htm">KernelFunctionCache</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Statistics_Kernels_KernelFunctionCache.htm">KernelFunctionCache</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Hits.htm">Hits</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Enabled.htm">Enabled</a></td><td><div class="summary">
+            Gets a value indicating whether the cache is enabled. If the value
+            is false, it means the kernel function is being evaluated on-the-fly.
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Hits.htm">Hits</a></td><td><div class="summary">
               Gets the total number of cache hits.
-            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Item.htm">Item<span id="LST79C4F919_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_2?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>Int32<span id="LST79C4F919_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_3?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Item.htm">Item<span id="LST79C4F919_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_4?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>Int32<span id="LST79C4F919_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_5?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a></td><td><div class="summary">
               Attempts to retrieve the value of the kernel function
               from the diagonal of the kernel matrix. If the value
               is not available, it is immediately computed and inserted
               in the cache.
-            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Item_1.htm">Item<span id="LST79C4F919_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_6?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>Int32, Int32<span id="LST79C4F919_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_7?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Item_1.htm">Item<span id="LST79C4F919_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_8?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>Int32, Int32<span id="LST79C4F919_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_9?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a></td><td><div class="summary">
               Attempts to retrieve the kernel function evaluated between point at index i
               and j. If it is not cached, it will be computed and the cache will be updated.
-            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Misses.htm">Misses</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Misses.htm">Misses</a></td><td><div class="summary">
               Gets the total number of cache misses.
-            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Size.htm">Size</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Size.htm">Size</a></td><td><div class="summary">
               Gets the size of the cache,
               measured in number of samples.
-            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Usage.htm">Usage</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Kernels_KernelFunctionCache_2_Usage.htm">Usage</a></td><td><div class="summary">
               Gets the percentage of the cache currently in use.
-            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Statistics_Kernels_KernelFunctionCache.htm">KernelFunctionCache Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Kernels.htm">Accord.Statistics.Kernels Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Inherited from <a href="T_Accord_Statistics_Kernels_KernelFunctionCache_2.htm">KernelFunctionCache<span id="LST79C4F919_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST79C4F919_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST79C4F919_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Kernels_KernelFunctionCache.htm">KernelFunctionCache Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Kernels.htm">Accord.Statistics.Kernels Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

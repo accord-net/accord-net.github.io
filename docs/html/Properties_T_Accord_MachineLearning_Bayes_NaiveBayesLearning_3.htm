@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -35,122 +36,33 @@
             <td class="titleColumn">NaiveBayesLearning<span id="LST139F0E10_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TDistribution</span>, <span class="typeparameter">TOptions</span>, <span class="typeparameter">TInput</span><span id="LST139F0E10_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearning_3.htm">NaiveBayesLearning<span id="LST139F0E10_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TOptions, TInput<span id="LST139F0E10_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearning_3.htm">NaiveBayesLearning<span id="LST139F0E10_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TOptions, TInput<span id="LST139F0E10_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Distribution.htm">Distribution</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Distribution.htm">Distribution</a></td><td><div class="summary">
               Gets or sets the distribution creation function. This function can
               be used to specify how the initial distributions of the model should
               be created. By default, this function attempts to call the empty
               constructor of the distribution using <span class="code">Activator.CreateInstance()</span>.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Empirical.htm">Empirical</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Empirical.htm">Empirical</a></td><td><div class="summary">
             Gets or sets whether the class priors should be estimated
             from the data.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Model.htm">Model</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Model.htm">Model</a></td><td><div class="summary">
               Gets or sets the model being learned.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Options.htm">Options</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Options.htm">Options</a></td><td><div class="summary">
                Gets or sets the fitting options to use when
                estimating the class-specific distributions.
-             </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_ParallelOptions.htm">ParallelOptions</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_ParallelOptions.htm">ParallelOptions</a></td><td><div class="summary">
             Gets or sets the parallelization options for this algorithm.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Token.htm">Token</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4_Token.htm">Token</a></td><td><div class="summary">
             Gets or sets a cancellation token that can be used to
             stop the learning algorithm while it is running.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearning_3.htm">NaiveBayesLearning<span id="LST139F0E10_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TOptions, TInput<span id="LST139F0E10_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning_Bayes.htm">Accord.MachineLearning.Bayes Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearningBase_4.htm">NaiveBayesLearningBase<span id="LST139F0E10_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TDistribution, TInput, TOptions<span id="LST139F0E10_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_Bayes_NaiveBayesLearning_3.htm">NaiveBayesLearning<span id="LST139F0E10_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TOptions, TInput<span id="LST139F0E10_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST139F0E10_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_Bayes.htm">Accord.MachineLearning.Bayes Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

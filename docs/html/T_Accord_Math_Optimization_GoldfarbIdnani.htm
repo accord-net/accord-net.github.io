@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -40,22 +41,30 @@
             <td class="titleColumn">GoldfarbIdnani Class</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
-               Goldfarb-Idnani Quadratic Programming Solver.
-             </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <span class="nolink">System<span id="LST1F3921B8_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span>
-          <br />  <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">Accord.Math.Optimization<span id="LST1F3921B8_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseOptimizationMethod</a><br />    <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">Accord.Math.Optimization<span id="LST1F3921B8_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseGradientOptimizationMethod</a><br />      <span class="selflink">Accord.Math.Optimization<span id="LST1F3921B8_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GoldfarbIdnani</span><br /></div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization</a><br /><strong>Assembly:</strong> Accord.Math (in Accord.Math.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">GoldfarbIdnani</span> : <span class="identifier">BaseGradientOptimizationMethod</span>, 
-	<span class="identifier">IOptimizationMethod</span>&lt;<span class="identifier">GoldfarbIdnaniStatus</span>&gt;, <span class="identifier">IOptimizationMethod</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">GoldfarbIdnani</span>
+        <span class="introStyle"></span> <div class="summary">
+              Goldfarb-Idnani Quadratic Programming Solver.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST1F3921B8_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">Accord.Math.Optimization<span id="LST1F3921B8_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseOptimizationMethod</a><br />    <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">Accord.Math.Optimization<span id="LST1F3921B8_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseGradientOptimizationMethod</a><br />      <span class="selflink">Accord.Math.Optimization<span id="LST1F3921B8_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GoldfarbIdnani</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization</a><br />
+    <strong>Assembly:</strong>
+   Accord.Math (in Accord.Math.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">GoldfarbIdnani</span> : <span class="identifier">BaseGradientOptimizationMethod</span>, 
+	<span class="identifier">IOptimizationMethod</span>, <span class="identifier">IOptimizationMethod</span>&lt;<span class="identifier">GoldfarbIdnaniStatus</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">GoldfarbIdnani</span>
 	<span class="keyword">Inherits</span> <span class="identifier">BaseGradientOptimizationMethod</span>
-	<span class="keyword">Implements</span> <span class="identifier">IOptimizationMethod</span>(<span class="keyword">Of</span> <span class="identifier">GoldfarbIdnaniStatus</span>), <span class="identifier">IOptimizationMethod</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">GoldfarbIdnani</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+	<span class="keyword">Implements</span> <span class="identifier">IOptimizationMethod</span>, <span class="identifier">IOptimizationMethod</span>(<span class="keyword">Of</span> <span class="identifier">GoldfarbIdnaniStatus</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Math/Optimization/Constrained/GoldfarbIdnani.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">GoldfarbIdnani</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Optimization_GoldfarbIdnani__ctor.htm">GoldfarbIdnani(QuadraticObjectiveFunction, LinearConstraintCollection)</a></td><td><div class="summary">
               Constructs a new <span class="selflink">GoldfarbIdnani</span> class.
@@ -65,7 +74,7 @@
               Constructs a new instance of the <span class="selflink">GoldfarbIdnani</span> class.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Optimization_GoldfarbIdnani__ctor_3.htm">GoldfarbIdnani(<span id="LST1F3921B8_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_10?cpp=array&lt;");</script>Double<span id="LST1F3921B8_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_11?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LST1F3921B8_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_12?cpp=array&lt;");</script>Double<span id="LST1F3921B8_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST1F3921B8_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_14?cpp=array&lt;");</script>Double<span id="LST1F3921B8_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_15?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, <span id="LST1F3921B8_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_16?cpp=array&lt;");</script>Double<span id="LST1F3921B8_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a></td><td><div class="summary">
               Constructs a new instance of the <span class="selflink">GoldfarbIdnani</span> class.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_GoldfarbIdnani_ActiveConstraints.htm">ActiveConstraints</a></td><td><div class="summary">
               Gets the indices of the active constraints
@@ -122,7 +131,7 @@
               stop the learning algorithm while it is running.
             </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">BaseGradientOptimizationMethod</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Value.htm">Value</a></td><td><div class="summary">
               Gets the output of the function at the current <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a>.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Optimization_GoldfarbIdnani_Maximize.htm">Maximize<span id="LST1F3921B8_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_26?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
               Finds the maximum value of a function. The solution vector
@@ -138,7 +147,7 @@
               will be made available at the <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a> property.
             </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_Math_Optimization_GoldfarbIdnani_Optimize.htm">Optimize</a></td><td><div class="summary">
               Not available.
-            </div> (Overrides <a href="M_Accord_Math_Optimization_BaseOptimizationMethod_Optimize.htm">BaseOptimizationMethod<span id="LST1F3921B8_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_36?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Optimize<span id="LST1F3921B8_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_37?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div> (Overrides <a href="M_Accord_Math_Optimization_BaseOptimizationMethod_Optimize.htm">BaseOptimizationMethod<span id="LST1F3921B8_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_36?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Optimize<span id="LST1F3921B8_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_37?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
@@ -151,21 +160,21 @@
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
-               References:
-               <ul><li><a href="http://www.javaquant.net/papers/GoldfarbIdnani.pdf">
-                   Goldfarb D., Idnani A. (1982) Dual and Primal-Dual Methods for Solving Strictly Convex Quadratic Programs.
-                   Available on: http://www.javaquant.net/papers/GoldfarbIdnani.pdf .</a></li><li><a href="http://www.javaquant.net/papers/GoldfarbIdnani.pdf">
-                   Berwin A Turlach. QuadProg, Quadratic Programming Solver (implementation in Fortran).
-                   Available on:  http://school.maths.uwa.edu.au/~berwin/software/quadprog.html .</a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
-               There are three ways to state a quadratic programming problem in this framework.</p><ul><li>
-               The first is to state the problem in its canonical form, explicitly stating the
-               matrix Q and vector d specifying the quadratic function and the matrices A and
-               vector b specifying the problem constraints.</li><li>
-               The second is to state the problem with lambda expressions using symbolic variables.</li><li>
-               The third is to state the problem using text strings.</li></ul><p>  
-               In the following section we will provide examples for those ways. 
-             </p><p>
-               This is an example stating the problem using lambdas:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAEABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Solve the following optimization problem:</span>
+              References:
+              <ul><li><a href="http://www.javaquant.net/papers/GoldfarbIdnani.pdf">
+                  Goldfarb D., Idnani A. (1982) Dual and Primal-Dual Methods for Solving Strictly Convex Quadratic Programs.
+                  Available on: http://www.javaquant.net/papers/GoldfarbIdnani.pdf .</a></li><li><a href="http://www.javaquant.net/papers/GoldfarbIdnani.pdf">
+                  Berwin A Turlach. QuadProg, Quadratic Programming Solver (implementation in Fortran).
+                  Available on:  http://school.maths.uwa.edu.au/~berwin/software/quadprog.html .</a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              There are three ways to state a quadratic programming problem in this framework.</p><ul><li>
+              The first is to state the problem in its canonical form, explicitly stating the
+              matrix Q and vector d specifying the quadratic function and the matrices A and
+              vector b specifying the problem constraints.</li><li>
+              The second is to state the problem with lambda expressions using symbolic variables.</li><li>
+              The third is to state the problem using text strings.</li></ul><p>  
+              In the following section we will provide examples for those ways. 
+            </p><p>
+              This is an example stating the problem using lambdas:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Solve the following optimization problem:</span>
 <span class="highlight-comment">// </span>
 <span class="highlight-comment">//  min f(x) = 2x² - xy + 4y² - 5x - 6y</span>
 <span class="highlight-comment">// </span>
@@ -181,38 +190,53 @@
 <span class="highlight-keyword">var</span> f = <span class="highlight-keyword">new</span> QuadraticObjectiveFunction(() =&gt; <span class="highlight-number">2</span> * (x * x) - (x * y) + <span class="highlight-number">4</span> * (y * y) - <span class="highlight-number">5</span> * x - <span class="highlight-number">6</span> * y);
 
 <span class="highlight-comment">// Now, create the constraints</span>
-List&lt;LinearConstraint&gt; constraints = <span class="highlight-keyword">new</span> List&lt;LinearConstraint&gt;();
-constraints.Add(<span class="highlight-keyword">new</span> LinearConstraint(f, () =&gt; x - y == <span class="highlight-number">5</span>));
-constraints.Add(<span class="highlight-keyword">new</span> LinearConstraint(f, () =&gt; x &gt;= <span class="highlight-number">10</span>));
+List&lt;LinearConstraint&gt; constraints = <span class="highlight-keyword">new</span> List&lt;LinearConstraint&gt;()
+{
+    <span class="highlight-keyword">new</span> LinearConstraint(f, () =&gt; x - y == <span class="highlight-number">5</span>),
+    <span class="highlight-keyword">new</span> LinearConstraint(f, () =&gt; x &gt;= <span class="highlight-number">10</span>)
+};
 
-<span class="highlight-comment">// Now we create the quadratic programming solver for 2 variables, using the constraints.</span>
-GoldfarbIdnani solver = <span class="highlight-keyword">new</span> GoldfarbIdnani(f, constraints);
+<span class="highlight-comment">// Now we create the quadratic programming solver </span>
+<span class="highlight-keyword">var</span> solver = <span class="highlight-keyword">new</span> GoldfarbIdnani(f, constraints);
 
-<span class="highlight-comment">// And attempt to solve it.</span>
-<span class="highlight-keyword">double</span> minimumValue = solver.Minimize();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEABA");</script><p>
-               This is an example stating the problem using strings:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Solve the following optimization problem:</span>
+<span class="highlight-comment">// And attempt solve for the min:</span>
+<span class="highlight-keyword">bool</span> success = solver.Minimize();
+
+<span class="highlight-comment">// The solution was { 10, 5 }</span>
+<span class="highlight-keyword">double</span>[] solution = solver.Solution;
+
+<span class="highlight-comment">// With the minimum value 170.0</span>
+<span class="highlight-keyword">double</span> minValue = solver.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><p>
+              This is an example stating the problem using strings:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Solve the following optimization problem:</span>
 <span class="highlight-comment">// </span>
 <span class="highlight-comment">//  max f(x) = -2x² + xy - y² + 5y</span>
 <span class="highlight-comment">// </span>
-<span class="highlight-comment">//  s.t.   x - y  ==   5  (x minus y should be equal to 5)</span>
-<span class="highlight-comment">//             x  &gt;=  10  (x should be greater than or equal to 10)</span>
-<span class="highlight-comment">// </span>
+<span class="highlight-comment">//  s.t.   x + y  &lt;= 0</span>
+<span class="highlight-comment">//             y  &gt;= 0</span>
 <span class="highlight-comment">// </span>
 
 <span class="highlight-comment">// Create our objective function using a text string</span>
 <span class="highlight-keyword">var</span> f = <span class="highlight-keyword">new</span> QuadraticObjectiveFunction(<span class="highlight-literal">"-2x² + xy - y² + 5y"</span>);
 
 <span class="highlight-comment">// Now, create the constraints</span>
-List&lt;LinearConstraint&gt; constraints = <span class="highlight-keyword">new</span> List&lt;LinearConstraint&gt;();
-constraints.Add(<span class="highlight-keyword">new</span> LinearConstraint(f, <span class="highlight-literal">"x - y ==  5"</span>));
-constraints.Add(<span class="highlight-keyword">new</span> LinearConstraint(f, <span class="highlight-literal">"    x &gt;= 10"</span>));
+List&lt;LinearConstraint&gt; constraints = <span class="highlight-keyword">new</span> List&lt;LinearConstraint&gt;()
+{
+    <span class="highlight-keyword">new</span> LinearConstraint(f, <span class="highlight-literal">"x + y &lt;= 0"</span>),
+    <span class="highlight-keyword">new</span> LinearConstraint(f, <span class="highlight-literal">"    y &gt;= 0"</span>)
+};
 
-<span class="highlight-comment">// Now we create the quadratic programming solver for 2 variables, using the constraints.</span>
-GoldfarbIdnani solver = <span class="highlight-keyword">new</span> GoldfarbIdnani(f, constraints);
+<span class="highlight-comment">// Now we create the quadratic programming solver </span>
+<span class="highlight-keyword">var</span> solver = <span class="highlight-keyword">new</span> GoldfarbIdnani(f, constraints);
 
-<span class="highlight-comment">// And attempt to solve it.</span>
-<span class="highlight-keyword">double</span> maxValue = solver.Maximize();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><p>
-               And finally, an example stating the problem using matrices:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Solve the following optimization problem:</span>
+<span class="highlight-comment">// And attempt solve for the max:</span>
+<span class="highlight-keyword">bool</span> success = solver.Maximize();
+
+<span class="highlight-comment">// The solution was { -0.625, 0.625 }</span>
+<span class="highlight-keyword">double</span>[] solution = solver.Solution;
+
+<span class="highlight-comment">// With the minimum value 1.5625</span>
+<span class="highlight-keyword">double</span> maxValue = solver.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><p>
+              And finally, an example stating the problem using matrices:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Solve the following optimization problem:</span>
 <span class="highlight-comment">// </span>
 <span class="highlight-comment">//  min f(x) = 2x² - xy + 4y² - 5x - 6y</span>
 <span class="highlight-comment">// </span>
@@ -261,11 +285,11 @@ GoldfarbIdnani solver = <span class="highlight-keyword">new</span> GoldfarbIdnan
 <span class="highlight-keyword">int</span> numberOfEqualities = <span class="highlight-number">1</span>;
 
 
-<span class="highlight-comment">// Alternatively, we may use a more explicitly form:</span>
-List&lt;LinearConstraint&gt; list = <span class="highlight-keyword">new</span> List&lt;LinearConstraint&gt;();
-
-<span class="highlight-comment">// Define the first constraint, which involves only x</span>
-list.Add(<span class="highlight-keyword">new</span> LinearConstraint(numberOfVariables: <span class="highlight-number">1</span>)
+<span class="highlight-comment">// Alternatively, we may use an explicit form:</span>
+<span class="highlight-keyword">var</span> constraints = <span class="highlight-keyword">new</span> List&lt;LinearConstraint&gt;()
+{
+    <span class="highlight-comment">// Define the first constraint, which involves only x</span>
+    <span class="highlight-keyword">new</span> LinearConstraint(numberOfVariables: <span class="highlight-number">1</span>)
     {
         <span class="highlight-comment">// x is the first variable, thus located at</span>
         <span class="highlight-comment">// index 0. We are specifying that x &gt;= 10:</span>
@@ -273,10 +297,10 @@ list.Add(<span class="highlight-keyword">new</span> LinearConstraint(numberOfVar
         VariablesAtIndices = <span class="highlight-keyword">new</span>[] { <span class="highlight-number">0</span> }, <span class="highlight-comment">// index 0 (x)</span>
         ShouldBe = ConstraintType.GreaterThanOrEqualTo,
         Value = <span class="highlight-number">10</span>
-    });
+    },
 
-<span class="highlight-comment">// Define the second constraint, which involves x and y</span>
-list.Add(<span class="highlight-keyword">new</span> LinearConstraint(numberOfVariables: <span class="highlight-number">2</span>)
+    <span class="highlight-comment">// Define the second constraint, which involves x and y</span>
+    <span class="highlight-keyword">new</span> LinearConstraint(numberOfVariables: <span class="highlight-number">2</span>)
     {
         <span class="highlight-comment">// x is the first variable, located at index 0, and y is</span>
         <span class="highlight-comment">// the second, thus located at 1. We are specifying that</span>
@@ -288,20 +312,30 @@ list.Add(<span class="highlight-keyword">new</span> LinearConstraint(numberOfVar
         CombinedAs = <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-comment">// when combined as x - y</span>
         ShouldBe = ConstraintType.EqualTo,
         Value = <span class="highlight-number">5</span>
-    });
+    }
+};
 
 
 <span class="highlight-comment">// Now we can finally create our optimization problem</span>
-<span class="highlight-keyword">var</span> target = <span class="highlight-keyword">new</span> GoldfarbIdnani(Q, d, constraints: list);
+<span class="highlight-keyword">var</span> solver = <span class="highlight-keyword">new</span> GoldfarbIdnani(
+    function: <span class="highlight-keyword">new</span> QuadraticObjectiveFunction(Q, d), 
+    constraints: constraints);
 
-<span class="highlight-comment">// And attempt to solve it.</span>
-<span class="highlight-keyword">double</span> minimumValue = target.Minimize();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a></div></div></div>
+
+<span class="highlight-comment">// And attempt solve for the min:</span>
+<span class="highlight-keyword">bool</span> success = solver.Minimize();
+
+<span class="highlight-comment">// The solution was { 10, 5 }</span>
+<span class="highlight-keyword">double</span>[] solution = solver.Solution;
+
+<span class="highlight-comment">// With the minimum value 170.0</span>
+<span class="highlight-keyword">double</span> minValue = solver.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Optimization_AugmentedLagrangian.htm">Accord.Math.Optimization<span id="LST1F3921B8_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1F3921B8_44?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>AugmentedLagrangian</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,157 +35,40 @@
             <td class="titleColumn">NonAdaptiveGaussKronrod Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Math_Integration_NonAdaptiveGaussKronrod.htm">NonAdaptiveGaussKronrod</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Math_Integration_NonAdaptiveGaussKronrod.htm">NonAdaptiveGaussKronrod</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Area.htm">Area</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Area.htm">Area</a></td><td><div class="summary">
               Gets the numerically computed result of the
               definite integral for the specified function.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Error.htm">Error</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Error.htm">Error</a></td><td><div class="summary">
               Gets the integration error for the
               computed <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Area.htm">Area</a> value.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Function.htm">Function</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Function.htm">Function</a></td><td><div class="summary">
               Gets or sets the function to be differentiated.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_FunctionEvaluations.htm">FunctionEvaluations</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_FunctionEvaluations.htm">FunctionEvaluations</a></td><td><div class="summary">
               Gets the number of function evaluations performed in 
               the last call to the <a href="M_Accord_Math_Integration_NonAdaptiveGaussKronrod_Compute.htm">Compute<span id="LSTA1953D37_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA1953D37_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> method.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Range.htm">Range</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Range.htm">Range</a></td><td><div class="summary">
               Gets or sets the input range under
               which the integral must be computed.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Status.htm">Status</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_Status.htm">Status</a></td><td><div class="summary">
               Get the exit code returned in the last call to the
               <a href="M_Accord_Math_Integration_INumericalIntegration_Compute.htm">Compute<span id="LSTA1953D37_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA1953D37_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> method.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_ToleranceAbsolute.htm">ToleranceAbsolute</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_ToleranceAbsolute.htm">ToleranceAbsolute</a></td><td><div class="summary">
               Desired absolute accuracy. If set to zero, this parameter
               will be ignored and only other requisites will be taken
               into account. Default is zero.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_ToleranceRelative.htm">ToleranceRelative</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Integration_NonAdaptiveGaussKronrod_ToleranceRelative.htm">ToleranceRelative</a></td><td><div class="summary">
               Desired relative accuracy. If set to zero, this parameter
               will be ignored and only other requisites will be taken
               into account. Default is 1e-3.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Math_Integration_NonAdaptiveGaussKronrod.htm">NonAdaptiveGaussKronrod Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Math_Integration.htm">Accord.Math.Integration Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Integration_NonAdaptiveGaussKronrod.htm">NonAdaptiveGaussKronrod Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math_Integration.htm">Accord.Math.Integration Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

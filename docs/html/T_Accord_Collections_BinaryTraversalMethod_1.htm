@@ -25,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -39,12 +40,13 @@
             <td class="titleColumn">BinaryTraversalMethod<span id="LST1D6E4E92_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TNode</span><span id="LST1D6E4E92_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Delegate</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
               Tree enumeration method delegate.
-            </div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_Collections.htm">Accord.Collections</a><br /><strong>Assembly:</strong> Accord (in Accord.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">delegate</span> <span class="identifier">IEnumerator</span>&lt;TNode&gt; <span class="identifier">BinaryTraversalMethod</span>&lt;TNode&gt;(
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_Collections.htm">Accord.Collections</a><br />
+    <strong>Assembly:</strong>
+   Accord (in Accord.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">delegate</span> <span class="identifier">IEnumerator</span>&lt;TNode&gt; <span class="identifier">BinaryTraversalMethod</span>&lt;TNode&gt;(
 	<span class="identifier">BinaryTree</span>&lt;TNode&gt; <span class="parameter">tree</span>
 )
 <span class="keyword">where</span> TNode : <span class="keyword">new</span>(), <span class="identifier">BinaryNode</span>&lt;TNode&gt;
@@ -53,10 +55,10 @@
 ) <span class="keyword">As</span> <span class="identifier">IEnumerator</span>(<span class="keyword">Of</span> TNode)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">tree</span></dt><dd>Type: <a href="T_Accord_Collections_BinaryTree_1.htm">Accord.Collections<span id="LST1D6E4E92_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BinaryTree</a><span id="LST1D6E4E92_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TNode</span></span><span id="LST1D6E4E92_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />The binary tree to be traversed.</dd></dl><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameter">TNode</span></dt><dd>The class type for the nodes of the tree.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span class="nolink">IEnumerator</span><span id="LST1D6E4E92_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TNode</span></span><span id="LST1D6E4E92_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1D6E4E92_6?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />An enumerator traversing the tree.</div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Collections.htm">Accord.Collections Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

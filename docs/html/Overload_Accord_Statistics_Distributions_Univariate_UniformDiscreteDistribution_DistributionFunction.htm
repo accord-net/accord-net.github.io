@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -38,85 +39,26 @@
             <td class="titleColumn">UniformDiscreteDistribution<span id="LST78A23654_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST78A23654_0?cpp=::|nu=.");</script>DistributionFunction Method </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution_DistributionFunction.htm">DistributionFunction(Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution_DistributionFunction.htm">DistributionFunction(Int32)</a></td><td><div class="summary">
               Gets the cumulative distribution function (cdf) for
               this distribution evaluated at point <span class="code">k</span>.
-            </div> (Overrides <a href="M_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_DistributionFunction.htm">UnivariateDiscreteDistribution<span id="LST78A23654_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST78A23654_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DistributionFunction(Int32)</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-                <img src="../icons/CodeExample.png" alt="Code example" title="Code example" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_DistributionFunction_1.htm">DistributionFunction(Int32, Boolean)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Overrides <a href="M_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_DistributionFunction.htm">UnivariateDiscreteDistribution<span id="LST78A23654_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST78A23654_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DistributionFunction(Int32)</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_DistributionFunction_1.htm">DistributionFunction(Int32, Boolean)</a></td><td><div class="summary">
               Gets P(X ≤ k) or P(X &lt; k), the cumulative distribution function
               (cdf) for this distribution evaluated at point <span class="code">k</span>, depending
               on the value of the <span class="parameter">inclusive</span> parameter.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm">UnivariateDiscreteDistribution</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_DistributionFunction_2.htm">DistributionFunction(Int32, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm">UnivariateDiscreteDistribution</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution_DistributionFunction_2.htm">DistributionFunction(Int32, Int32)</a></td><td><div class="summary">
               Gets the cumulative distribution function (cdf) for this
               distribution in the semi-closed interval (a; b] given as
               <span class="code">P(a &lt; X ≤ b)</span>.
-            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm">UnivariateDiscreteDistribution</a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution.htm">UniformDiscreteDistribution Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Distributions_Univariate.htm">Accord.Statistics.Distributions.Univariate Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Inherited from <a href="T_Accord_Statistics_Distributions_Univariate_UnivariateDiscreteDistribution.htm">UnivariateDiscreteDistribution</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Distributions_Univariate_UniformDiscreteDistribution.htm">UniformDiscreteDistribution Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Distributions_Univariate.htm">Accord.Statistics.Distributions.Univariate Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

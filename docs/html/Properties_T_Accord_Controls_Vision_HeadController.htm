@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,407 +35,75 @@
             <td class="titleColumn">HeadController Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Controls_Vision_HeadController.htm">HeadController</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Controls_Vision_HeadController.htm">HeadController</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_AngleMax.htm">AngleMax</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_AngleMax.htm">AngleMax</a></td><td><div class="summary">
                Gets or sets the maximum angle
                for head tilting calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_AngleMin.htm">AngleMin</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_AngleMin.htm">AngleMin</a></td><td><div class="summary">
                Gets or sets the minimum angle
                for head tilting calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_BindingContext.htm">BindingContext</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_BindingContext.htm">BindingContext</a></td><td><div class="summary">
             Gets or sets the collection of currency managers for the <span class="nolink">IBindableComponent</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_BytesReceived.htm">BytesReceived</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_BytesReceived.htm">BytesReceived</a></td><td><div class="summary">
             Received bytes count.
-            </div>
-              </td>
-            </tr>
-            <tr data="protected;inherited;notNetfw;">
-              <td>
-                <img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" />
-              </td>
-              <td>
-                <span class="nolink">CanRaiseEvents</span>
-              </td>
-              <td>
-                <div class="summary">Gets a value indicating whether the component can raise an event.</div> (Inherited from <span class="nolink">Component</span>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <span class="nolink">Container</span>
-              </td>
-              <td>
-                <div class="summary">Gets the <span class="nolink">IContainer</span> that contains the <span class="nolink">Component</span>.</div> (Inherited from <span class="nolink">Component</span>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_DataBindings.htm">DataBindings</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><span class="nolink">CanRaiseEvents</span></td><td><div class="summary">Gets a value indicating whether the component can raise an event.</div> (Inherited from <span class="nolink">Component</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><span class="nolink">Container</span></td><td><div class="summary">Gets the <span class="nolink">IContainer</span> that contains the <span class="nolink">Component</span>.</div> (Inherited from <span class="nolink">Component</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_DataBindings.htm">DataBindings</a></td><td><div class="summary">
             Gets the collection of data-binding objects for this <span class="nolink">IBindableComponent</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="protected;inherited;notNetfw;">
-              <td>
-                <img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" />
-              </td>
-              <td>
-                <span class="nolink">DesignMode</span>
-              </td>
-              <td>
-                <div class="summary">Gets a value that indicates whether the <span class="nolink">Component</span> is currently in design mode.</div> (Inherited from <span class="nolink">Component</span>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_Detector.htm">Detector</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><span class="nolink">DesignMode</span></td><td><div class="summary">Gets a value that indicates whether the <span class="nolink">Component</span> is currently in design mode.</div> (Inherited from <span class="nolink">Component</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_Detector.htm">Detector</a></td><td><div class="summary">
               Gets the <a href="T_Accord_Vision_Detection_IObjectDetector.htm">IObjectDetector</a> used to
               detect the head object in the video stream.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_Device.htm">Device</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_Device.htm">Device</a></td><td><div class="summary">
               Gets or sets the video device used to track objects.
-            </div>
-              </td>
-            </tr>
-            <tr data="protected;inherited;notNetfw;">
-              <td>
-                <img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" />
-              </td>
-              <td>
-                <span class="nolink">Events</span>
-              </td>
-              <td>
-                <div class="summary">Gets the list of event handlers that are attached to this <span class="nolink">Component</span>.</div> (Inherited from <span class="nolink">Component</span>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_FramesReceived.htm">FramesReceived</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><span class="nolink">Events</span></td><td><div class="summary">Gets the list of event handlers that are attached to this <span class="nolink">Component</span>.</div> (Inherited from <span class="nolink">Component</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_FramesReceived.htm">FramesReceived</a></td><td><div class="summary">
             Received frames count.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_HeadAngle.htm">HeadAngle</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_HeadAngle.htm">HeadAngle</a></td><td><div class="summary">
               Gets the current head tilting angle.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_HeadPosition.htm">HeadPosition</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_HeadPosition.htm">HeadPosition</a></td><td><div class="summary">
               Gets the current head position.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_HeadScale.htm">HeadScale</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_HeadScale.htm">HeadScale</a></td><td><div class="summary">
               Gets the current head scale.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_IsDetecting.htm">IsDetecting</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_IsDetecting.htm">IsDetecting</a></td><td><div class="summary">
               Gets a value indicating whether this instance is
               attempting to detect faces in the video stream.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_IsRunning.htm">IsRunning</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_IsRunning.htm">IsRunning</a></td><td><div class="summary">
               Gets a value indicating whether this instance
               is currently processing and sending events.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_IsTracking.htm">IsTracking</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_IsTracking.htm">IsTracking</a></td><td><div class="summary">
               Gets a value indicating whether this instance is
               actually tracking an object in the video stream.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_ScaleMax.htm">ScaleMax</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_ScaleMax.htm">ScaleMax</a></td><td><div class="summary">
               Gets or sets the maximum area
               for proximity scale calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_ScaleMin.htm">ScaleMin</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_ScaleMin.htm">ScaleMin</a></td><td><div class="summary">
               Gets or sets the minimum area
               for proximity scale calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <span class="nolink">Site</span>
-              </td>
-              <td>
-                <div class="summary">Gets or sets the <span class="nolink">ISite</span> of the <span class="nolink">Component</span>.</div> (Inherited from <span class="nolink">Component</span>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_Source.htm">Source</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><span class="nolink">Site</span></td><td><div class="summary">Gets or sets the <span class="nolink">ISite</span> of the <span class="nolink">Component</span>.</div> (Inherited from <span class="nolink">Component</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_Source.htm">Source</a></td><td><div class="summary">
             Video source.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_SynchronizingObject.htm">SynchronizingObject</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_SynchronizingObject.htm">SynchronizingObject</a></td><td><div class="summary">
               Gets or sets the object used to marshal event-handler calls that
               are issued when the head object position has been updated.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_Tracker.htm">Tracker</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_Tracker.htm">Tracker</a></td><td><div class="summary">
               Gets the <a href="T_Accord_Vision_Tracking_IObjectTracker.htm">IObjectTracker</a> used to
               track the head object in the video stream.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_XAxisMax.htm">XAxisMax</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_XAxisMax.htm">XAxisMax</a></td><td><div class="summary">
               Gets or sets the maximum position
               for horizontal scale calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_XAxisMin.htm">XAxisMin</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_XAxisMin.htm">XAxisMin</a></td><td><div class="summary">
               Gets or sets the minimum position
               for horizontal scale calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_YAxisMax.htm">YAxisMax</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_YAxisMax.htm">YAxisMax</a></td><td><div class="summary">
               Gets or sets the maximum position
               for vertical scale calibration.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Controls_Vision_HeadController_YAxisMin.htm">YAxisMin</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Controls_Vision_HeadController_YAxisMin.htm">YAxisMin</a></td><td><div class="summary">
               Gets or sets the minimum position
               for vertical scale calibration.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Controls_Vision_HeadController.htm">HeadController Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Controls_Vision.htm">Accord.Controls.Vision Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Controls_Vision_HeadController.htm">HeadController Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Controls_Vision.htm">Accord.Controls.Vision Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

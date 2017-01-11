@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -36,170 +37,31 @@
             <td class="titleColumn">HiddenMarkovModel<span id="LST99B9083_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_0?cpp=::|nu=.");</script>Predict Method </td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overload List</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="overloadMembersList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict.htm">Predict(<span id="LST99B9083_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_1?cpp=array&lt;");</script>TObservation<span id="LST99B9083_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_2?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict.htm">Predict(<span id="LST99B9083_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_1?cpp=array&lt;");</script>TObservation<span id="LST99B9083_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_2?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Predicts the next observation occurring after a given observation sequence.
-            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_3?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_4?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict.htm">Predict(<span id="LST99B9083_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_5?cpp=array&lt;");</script>Int32<span id="LST99B9083_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_6?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST99B9083_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_7?cpp=array&lt;");</script>Double<span id="LST99B9083_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_9?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_3?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_4?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict.htm">Predict(<span id="LST99B9083_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_5?cpp=array&lt;");</script>Int32<span id="LST99B9083_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_6?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST99B9083_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_7?cpp=array&lt;");</script>Double<span id="LST99B9083_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_8?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_9?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts the next observation occurring after a given observation sequence.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict_1.htm">Predict(<span id="LST99B9083_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_10?cpp=array&lt;");</script>Int32<span id="LST99B9083_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict_1.htm">Predict(<span id="LST99B9083_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_10?cpp=array&lt;");</script>Int32<span id="LST99B9083_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a></td><td><div class="summary">
               Predicts next observations occurring after a given observation sequence.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_1.htm">Predict(<span id="LST99B9083_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_12?cpp=array&lt;");</script>TObservation<span id="LST99B9083_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_14?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_1.htm">Predict(<span id="LST99B9083_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_12?cpp=array&lt;");</script>TObservation<span id="LST99B9083_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_14?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts the next observation occurring after a given observation sequence.
-            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_15?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_16?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="notNetfw;">
-              <td>
-                <img src="../icons/pub.gif" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_1.htm">Predict(<span id="LST99B9083_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_17?cpp=array&lt;");</script>TObservation<span id="LST99B9083_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_19?cpp=%");</script>)</a>
-              </td>
-              <td />
-            </tr>
-            <tr data="notNetfw;">
-              <td>
-                <img src="../icons/pub.gif" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_1.htm">Predict(<span id="LST99B9083_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_20?cpp=array&lt;");</script>TObservation<span id="LST99B9083_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_22?cpp=%");</script>)</a>
-              </td>
-              <td />
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict_3.htm">Predict(<span id="LST99B9083_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_23?cpp=array&lt;");</script>Int32<span id="LST99B9083_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST99B9083_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_25?cpp=array&lt;");</script><span id="LST99B9083_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_26?cpp=array&lt;");</script>Double<span id="LST99B9083_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_29?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_15?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_16?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="notNetfw;"><td><img src="../icons/pub.gif" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_1.htm">Predict(<span id="LST99B9083_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_17?cpp=array&lt;");</script>TObservation<span id="LST99B9083_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_19?cpp=%");</script>)</a></td><td /></tr><tr data="notNetfw;"><td><img src="../icons/pub.gif" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_1.htm">Predict(<span id="LST99B9083_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_20?cpp=array&lt;");</script>TObservation<span id="LST99B9083_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_22?cpp=%");</script>)</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict_3.htm">Predict(<span id="LST99B9083_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_23?cpp=array&lt;");</script>Int32<span id="LST99B9083_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, <span id="LST99B9083_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_25?cpp=array&lt;");</script><span id="LST99B9083_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_26?cpp=array&lt;");</script>Double<span id="LST99B9083_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_29?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts next observations occurring after a given observation sequence.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict__1_2.htm">Predict<span id="LST99B9083_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST99B9083_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_32?cpp=array&lt;");</script>TObservation<span id="LST99B9083_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_34?cpp=%");</script>, MultivariateMixture<span id="LST99B9083_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_35?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_36?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST99B9083_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_37?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict__1_2.htm">Predict<span id="LST99B9083_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST99B9083_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_32?cpp=array&lt;");</script>TObservation<span id="LST99B9083_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_34?cpp=%");</script>, MultivariateMixture<span id="LST99B9083_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_35?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_36?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST99B9083_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_37?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts the next observation occurring after a given observation sequence.
-            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_38?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_39?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="notNetfw;">
-              <td>
-                <img src="../icons/pub.gif" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict__1_2.htm">Predict<span id="LST99B9083_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_40?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_41?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST99B9083_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_42?cpp=array&lt;");</script>TObservation<span id="LST99B9083_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_44?cpp=%");</script>, MultivariateMixture<span id="LST99B9083_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_45?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_46?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST99B9083_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_47?cpp=%");</script>)</a>
-              </td>
-              <td />
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_2.htm">Predict(<span id="LST99B9083_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_48?cpp=array&lt;");</script>TObservation<span id="LST99B9083_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Double<span id="LST99B9083_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_50?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_38?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_39?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="notNetfw;"><td><img src="../icons/pub.gif" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict__1_2.htm">Predict<span id="LST99B9083_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_40?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_41?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST99B9083_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_42?cpp=array&lt;");</script>TObservation<span id="LST99B9083_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST99B9083_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_44?cpp=%");</script>, MultivariateMixture<span id="LST99B9083_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_45?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TMultivariate<span id="LST99B9083_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_46?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST99B9083_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_47?cpp=%");</script>)</a></td><td /></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_2_Predict_2.htm">Predict(<span id="LST99B9083_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_48?cpp=array&lt;");</script>TObservation<span id="LST99B9083_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_49?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Double<span id="LST99B9083_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_50?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts the next observations occurring after a given observation sequence.
-            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_51?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_52?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
-              </td>
-              <td>
-                <a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict_2.htm">Predict(<span id="LST99B9083_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_53?cpp=array&lt;");</script>Int32<span id="LST99B9083_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Double<span id="LST99B9083_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_55?cpp=%");</script>, <span id="LST99B9083_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_56?cpp=array&lt;");</script><span id="LST99B9083_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_57?cpp=array&lt;");</script>Double<span id="LST99B9083_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_58?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_60?cpp=%");</script>)</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel_2.htm">HiddenMarkovModel<span id="LST99B9083_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_51?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LST99B9083_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_52?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Statistics_Models_Markov_HiddenMarkovModel_Predict_2.htm">Predict(<span id="LST99B9083_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_53?cpp=array&lt;");</script>Int32<span id="LST99B9083_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_54?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Double<span id="LST99B9083_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_55?cpp=%");</script>, <span id="LST99B9083_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_56?cpp=array&lt;");</script><span id="LST99B9083_57"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_57?cpp=array&lt;");</script>Double<span id="LST99B9083_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_58?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_59"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_59?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST99B9083_60"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST99B9083_60?cpp=%");</script>)</a></td><td><div class="summary">
               Predicts the next observations occurring after a given observation sequence.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">HiddenMarkovModel Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">HiddenMarkovModel Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

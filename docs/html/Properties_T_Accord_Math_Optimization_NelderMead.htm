@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,232 +35,63 @@
             <td class="titleColumn">NelderMead Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Math_Optimization_NelderMead.htm">NelderMead</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Math_Optimization_NelderMead.htm">NelderMead</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_Capacity.htm">Capacity</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_Capacity.htm">Capacity</a></td><td><div class="summary">
               Gets the maximum <a href="P_Accord_Math_Optimization_NelderMead_NumberOfVariables.htm">number of 
               variables</a> that can be optimized by this instance.
               This is the initial value that has been passed to this
               class constructor at the time the algorithm was created.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_Convergence.htm">Convergence</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_Convergence.htm">Convergence</a></td><td><div class="summary">
               Gets or sets multiple convergence options to 
               determine when the optimization can terminate.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_DiameterTolerance.htm">DiameterTolerance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_DiameterTolerance.htm">DiameterTolerance</a></td><td><div class="summary">
               Gets or sets the by how much the simplex diameter |xl - xh| must be
               reduced before the algorithm can be terminated. Setting this value
               to a value higher than zero causes the algorithm to replace the
               standard <a href="P_Accord_Math_Optimization_NelderMead_Convergence.htm">Convergence</a> criteria with this condition.
               Default is zero.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_Difference.htm">Difference</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_Difference.htm">Difference</a></td><td><div class="summary">
               The difference between the high and low function 
               values of the last simplex in the previous call
               to the optimization function.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Function.htm">Function</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Function.htm">Function</a></td><td><div class="summary">
               Gets or sets the function to be optimized.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_LowerBounds.htm">LowerBounds</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_LowerBounds.htm">LowerBounds</a></td><td><div class="summary">
               Gets the lower bounds that should be respected in this 
               optimization problem. Default is to initialize this vector
               with <span class="nolink">NegativeInfinity</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_MaximumValue.htm">MaximumValue</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_MaximumValue.htm">MaximumValue</a></td><td><div class="summary">
               Gets or sets the maximum value that the objective 
               function could produce before the algorithm could
               be terminated as if the solution was good enough.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_NumberOfVariables.htm">NumberOfVariables</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_NumberOfVariables.htm">NumberOfVariables</a></td><td><div class="summary">
               Gets or sets the number of variables (free parameters) in the
               optimization problem. This number can be decreased after the
               algorithm has been created so it can operate on subspaces.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a></td><td><div class="summary">
               Gets the current solution found, the values of 
               the parameters which optimizes the function.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_Status.htm">Status</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_Status.htm">Status</a></td><td><div class="summary">
               Get the exit code returned in the last call to the
               <a href="M_Accord_Math_Optimization_IOptimizationMethod_Maximize.htm">Maximize<span id="LSTEAE50E7E_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEAE50E7E_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> or 
               <a href="M_Accord_Math_Optimization_IOptimizationMethod_Minimize.htm">Minimize<span id="LSTEAE50E7E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEAE50E7E_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> methods.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_StepSize.htm">StepSize</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_StepSize.htm">StepSize</a></td><td><div class="summary">
               Gets the step sizes to be used by the optimization
               algorithm. Default is to initialize each with 1e-5.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_NelderMead_UpperBounds.htm">UpperBounds</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_NelderMead_UpperBounds.htm">UpperBounds</a></td><td><div class="summary">
               Gets the upper bounds that should be respected in this 
               optimization problem. Default is to initialize this vector
               with <span class="nolink">PositiveInfinity</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Value.htm">Value</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Value.htm">Value</a></td><td><div class="summary">
               Gets the output of the function at the current <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a>.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Math_Optimization_NelderMead.htm">NelderMead Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Optimization_NelderMead.htm">NelderMead Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

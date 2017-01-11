@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,348 +35,72 @@
             <td class="titleColumn">BroydenFletcherGoldfarbShanno Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno.htm">BroydenFletcherGoldfarbShanno</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno.htm">BroydenFletcherGoldfarbShanno</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Corrections.htm">Corrections</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Corrections.htm">Corrections</a></td><td><div class="summary">
               The number of corrections to approximate the inverse Hessian matrix.
               Default is 6. Values less than 3 are not recommended. Large values 
               will result in excessive computing time.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Delta.htm">Delta</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Delta.htm">Delta</a></td><td><div class="summary">
               Delta for convergence test.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Epsilon.htm">Epsilon</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Epsilon.htm">Epsilon</a></td><td><div class="summary">
               Epsilon for convergence test.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Function.htm">Function</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Function.htm">Function</a></td><td><div class="summary">
               Gets or sets the function to be optimized.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_FunctionTolerance.htm">FunctionTolerance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_FunctionTolerance.htm">FunctionTolerance</a></td><td><div class="summary">
               The machine precision for floating-point values.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseGradientOptimizationMethod_Gradient.htm">Gradient</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseGradientOptimizationMethod_Gradient.htm">Gradient</a></td><td><div class="summary">
               Gets or sets a function returning the gradient
               vector of the function to be optimized for a
               given value of its free parameters.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">BaseGradientOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_GradientTolerance.htm">GradientTolerance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">BaseGradientOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_GradientTolerance.htm">GradientTolerance</a></td><td><div class="summary">
               A parameter to control the accuracy of the line search routine.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_LineSearch.htm">LineSearch</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_LineSearch.htm">LineSearch</a></td><td><div class="summary">
               The line search algorithm. 
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MaxIterations.htm">MaxIterations</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MaxIterations.htm">MaxIterations</a></td><td><div class="summary">
                The maximum number of iterations.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MaxLineSearch.htm">MaxLineSearch</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MaxLineSearch.htm">MaxLineSearch</a></td><td><div class="summary">
               The maximum number of trials for the line search.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MaxStep.htm">MaxStep</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MaxStep.htm">MaxStep</a></td><td><div class="summary">
               The maximum step of the line search.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MinStep.htm">MinStep</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_MinStep.htm">MinStep</a></td><td><div class="summary">
               The minimum step of the line search routine.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_NumberOfVariables.htm">NumberOfVariables</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_NumberOfVariables.htm">NumberOfVariables</a></td><td><div class="summary">
               Gets the number of variables (free parameters)
               in the optimization problem.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_OrthantwiseC.htm">OrthantwiseC</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_OrthantwiseC.htm">OrthantwiseC</a></td><td><div class="summary">
               Coefficient for the L1 norm of variables.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_OrthantwiseEnd.htm">OrthantwiseEnd</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_OrthantwiseEnd.htm">OrthantwiseEnd</a></td><td><div class="summary">
               End index for computing L1 norm of the variables.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_OrthantwiseStart.htm">OrthantwiseStart</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_OrthantwiseStart.htm">OrthantwiseStart</a></td><td><div class="summary">
                Start index for computing L1 norm of the variables.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_ParameterTolerance.htm">ParameterTolerance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_ParameterTolerance.htm">ParameterTolerance</a></td><td><div class="summary">
              A parameter to control the accuracy of the line search routine. The default 
              value is <span class="code">1e-4</span>. This parameter should be greater than zero and smaller 
              than <span class="code">0.5</span>.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Past.htm">Past</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Past.htm">Past</a></td><td><div class="summary">
               Distance for delta-based convergence test.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a></td><td><div class="summary">
               Gets the current solution found, the values of 
               the parameters which optimizes the function.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Status.htm">Status</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Status.htm">Status</a></td><td><div class="summary">
               Get the exit code returned in the last call to the
               <a href="M_Accord_Math_Optimization_IOptimizationMethod_Maximize.htm">Maximize<span id="LST6F7110C8_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F7110C8_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> or 
               <a href="M_Accord_Math_Optimization_IOptimizationMethod_Minimize.htm">Minimize<span id="LST6F7110C8_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F7110C8_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> methods.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseGradientOptimizationMethod_Token.htm">Token</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseGradientOptimizationMethod_Token.htm">Token</a></td><td><div class="summary">
               Gets or sets a cancellation token that can be used to
               stop the learning algorithm while it is running.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">BaseGradientOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Value.htm">Value</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseGradientOptimizationMethod.htm">BaseGradientOptimizationMethod</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Value.htm">Value</a></td><td><div class="summary">
               Gets the output of the function at the current <a href="P_Accord_Math_Optimization_BaseOptimizationMethod_Solution.htm">Solution</a>.
-            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Wolfe.htm">Wolfe</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_Math_Optimization_BaseOptimizationMethod.htm">BaseOptimizationMethod</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno_Wolfe.htm">Wolfe</a></td><td><div class="summary">
               A coefficient for the Wolfe condition.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno.htm">BroydenFletcherGoldfarbShanno Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Optimization_BroydenFletcherGoldfarbShanno.htm">BroydenFletcherGoldfarbShanno Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization.htm">Accord.Math.Optimization Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

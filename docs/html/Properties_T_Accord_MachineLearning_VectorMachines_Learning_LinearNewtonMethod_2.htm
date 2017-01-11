@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
     <script type="text/javascript" src="../scripts/branding.js"> </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>LinearNewtonMethod(TModel, TKernel) Properties</title>
+    <title>LinearNewtonMethod(TKernel, TInput) Properties</title>
     <meta name="Language" content="en-us" />
-    <meta name="System.Keywords" content="LinearNewtonMethod%3CTModel%2C TKernel%3E class, properties" />
-    <meta name="System.Keywords" content="LinearNewtonMethod(Of TModel%2C TKernel) class, properties" />
+    <meta name="System.Keywords" content="LinearNewtonMethod%3CTKernel%2C TInput%3E class, properties" />
+    <meta name="System.Keywords" content="LinearNewtonMethod(Of TKernel%2C TInput) class, properties" />
     <meta name="Microsoft.Help.Id" content="Properties.T:Accord.MachineLearning.VectorMachines.Learning.LinearNewtonMethod`2" />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <meta name="BrandingAware" content="true" />
@@ -21,261 +21,81 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
     <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
     <div class="pageBody">
-      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning_VectorMachines_Learning.htm" title="Accord.MachineLearning.VectorMachines.Learning" tocid="N_Accord_MachineLearning_VectorMachines_Learning">Accord.MachineLearning.VectorMachines.Learning</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm" title="LinearNewtonMethod(TModel, TKernel) Class" tocid="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2">LinearNewtonMethod(TModel, TKernel) Class</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Properties_T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm" title="LinearNewtonMethod(TModel, TKernel) Properties" tocid="Properties_T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2">LinearNewtonMethod(TModel, TKernel) Properties</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="P_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2_MaximumIterations.htm" title="MaximumIterations Property " tocid="P_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2_MaximumIterations">MaximumIterations Property </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="P_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2_Tolerance.htm" title="Tolerance Property " tocid="P_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2_Tolerance">Tolerance Property </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning_VectorMachines_Learning.htm" title="Accord.MachineLearning.VectorMachines.Learning" tocid="N_Accord_MachineLearning_VectorMachines_Learning">Accord.MachineLearning.VectorMachines.Learning</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm" title="LinearNewtonMethod(TKernel, TInput) Class" tocid="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2">LinearNewtonMethod(TKernel, TInput) Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2__ctor.htm" title="LinearNewtonMethod(TKernel, TInput) Constructor " tocid="M_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2__ctor">LinearNewtonMethod(TKernel, TInput) Constructor </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="Properties_T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm" title="LinearNewtonMethod(TKernel, TInput) Properties" tocid="Properties_T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2">LinearNewtonMethod(TKernel, TInput) Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm" title="LinearNewtonMethod(TKernel, TInput) Methods" tocid="Methods_T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2">LinearNewtonMethod(TKernel, TInput) Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
         <table class="titleTable">
           <tr>
             <td class="logoColumn">
               <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="titleColumn">LinearNewtonMethod<span id="LST8FCFC8C1_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TModel</span>, <span class="typeparameter">TKernel</span><span id="LST8FCFC8C1_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Properties</td>
+            <td class="titleColumn">LinearNewtonMethod<span id="LST8FCFC8C1_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TKernel</span>, <span class="typeparameter">TInput</span><span id="LST8FCFC8C1_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm">LinearNewtonMethod<span id="LST8FCFC8C1_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel<span id="LST8FCFC8C1_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm">LinearNewtonMethod<span id="LST8FCFC8C1_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST8FCFC8C1_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> generic type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_C.htm">C</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_C.htm">C</a></td><td><div class="summary">
               Gets or sets the cost values associated with each input vector.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Complexity.htm">Complexity</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Complexity.htm">Complexity</a></td><td><div class="summary">
               Complexity (cost) parameter C. Increasing the value of C forces the creation
               of a more accurate model that may not generalize well. If this value is not
               set and <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseComplexityHeuristic.htm">UseComplexityHeuristic</a> is set to <span class="code">true</span>, the framework
               will automatically guess a value for <span class="code">C</span>. If this value is manually set to 
               something else, then <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseComplexityHeuristic.htm">UseComplexityHeuristic</a> will be automatically 
               disabled and the given value will be used instead.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Inputs.htm">Inputs</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Inputs.htm">Inputs</a></td><td><div class="summary">
               Gets or sets the input vectors for training.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Kernel.htm">Kernel</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Kernel.htm">Kernel</a></td><td><div class="summary">
               Gets or sets the kernel function use to create a 
               kernel Support Vector Machine. If this property
               is set, <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseKernelEstimation.htm">UseKernelEstimation</a> will be
               set to false.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2_MaximumIterations.htm">MaximumIterations</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseLinearNewtonMethod_3_MaximumIterations.htm">MaximumIterations</a></td><td><div class="summary">
               Gets or sets the maximum number of iterations that should
                be performed until the algorithm stops. Default is 1000.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_BinaryLearningBase_2_Model.htm">Model</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseLinearNewtonMethod_3.htm">BaseLinearNewtonMethod<span id="LST8FCFC8C1_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_BinaryLearningBase_2_Model.htm">Model</a></td><td><div class="summary">
               Gets or sets the classifier being learned.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_BinaryLearningBase_2.htm">BinaryLearningBase<span id="LST8FCFC8C1_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput<span id="LST8FCFC8C1_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_NegativeWeight.htm">NegativeWeight</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_BinaryLearningBase_2.htm">BinaryLearningBase<span id="LST8FCFC8C1_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput<span id="LST8FCFC8C1_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_NegativeWeight.htm">NegativeWeight</a></td><td><div class="summary">
               Gets or sets the negative class weight. This should be a
               value higher than 0 indicating how much of the <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Complexity.htm">Complexity</a>
               parameter C should be applied to instances carrying the negative label.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Outputs.htm">Outputs</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Outputs.htm">Outputs</a></td><td><div class="summary">
               Gets or sets the output labels for each training vector.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_PositiveWeight.htm">PositiveWeight</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_PositiveWeight.htm">PositiveWeight</a></td><td><div class="summary">
               Gets or sets the positive class weight. This should be a
               value higher than 0 indicating how much of the <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Complexity.htm">Complexity</a>
               parameter C should be applied to instances carrying the positive label.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_BinaryLearningBase_2_Token.htm">Token</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_BinaryLearningBase_2_Token.htm">Token</a></td><td><div class="summary">
               Gets or sets a cancellation token that can be used to
               stop the learning algorithm while it is running.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_BinaryLearningBase_2.htm">BinaryLearningBase<span id="LST8FCFC8C1_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput<span id="LST8FCFC8C1_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2_Tolerance.htm">Tolerance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_BinaryLearningBase_2.htm">BinaryLearningBase<span id="LST8FCFC8C1_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_22?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput<span id="LST8FCFC8C1_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_23?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseLinearNewtonMethod_3_Tolerance.htm">Tolerance</a></td><td><div class="summary">
               Convergence tolerance. Default value is 0.1.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseClassProportions.htm">UseClassProportions</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseLinearNewtonMethod_3.htm">BaseLinearNewtonMethod<span id="LST8FCFC8C1_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_24?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_25?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseClassProportions.htm">UseClassProportions</a></td><td><div class="summary">
               Gets or sets a value indicating whether the weight ratio to be used between
               <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Complexity.htm">Complexity</a> values for negative and positive instances should
               be computed automatically from the data proportions. Default is false.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_22?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_23?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseComplexityHeuristic.htm">UseComplexityHeuristic</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_26?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_27?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseComplexityHeuristic.htm">UseComplexityHeuristic</a></td><td><div class="summary">
               Gets or sets a value indicating whether the Complexity parameter C
               should be computed automatically by employing an heuristic rule.
               Default is true.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_24?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_25?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseKernelEstimation.htm">UseKernelEstimation</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_28?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_29?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_UseKernelEstimation.htm">UseKernelEstimation</a></td><td><div class="summary">
               Gets or sets whether initial values for some kernel parameters
               should be estimated from the data, if possible. Default is true.
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_26?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_27?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-            <tr data="public;inherited;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_WeightRatio.htm">WeightRatio</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_30?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_31?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_WeightRatio.htm">WeightRatio</a></td><td><div class="summary">
               Gets or sets the weight ratio between positive and negative class
               weights. This ratio controls how much of the <a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3_Complexity.htm">Complexity</a>
               parameter C should be applied to the positive class. 
-            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_28?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_29?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm">LinearNewtonMethod<span id="LST8FCFC8C1_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_30?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel<span id="LST8FCFC8C1_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_31?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_MachineLearning_VectorMachines_Learning.htm">Accord.MachineLearning.VectorMachines.Learning Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseSupportVectorClassification_3.htm">BaseSupportVectorClassification<span id="LST8FCFC8C1_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_32?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput<span id="LST8FCFC8C1_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_33?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_VectorMachines_Learning_LinearNewtonMethod_2.htm">LinearNewtonMethod<span id="LST8FCFC8C1_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_34?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TKernel, TInput<span id="LST8FCFC8C1_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8FCFC8C1_35?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_VectorMachines_Learning.htm">Accord.MachineLearning.VectorMachines.Learning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

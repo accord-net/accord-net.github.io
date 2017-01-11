@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -34,676 +35,152 @@
             <td class="titleColumn">HaralickDescriptor Properties</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <p>The <a href="T_Accord_Imaging_HaralickDescriptor.htm">HaralickDescriptor</a> type exposes the following members.</p>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <table id="memberList" class="members">
-            <tr>
-              <th class="iconColumn">
+        <span class="introStyle"></span> <p>The <a href="T_Accord_Imaging_HaralickDescriptor.htm">HaralickDescriptor</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_AngularSecondMomentum.htm">AngularSecondMomentum</a>
-              </td>
-              <td>
-                <div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_AngularSecondMomentum.htm">AngularSecondMomentum</a></td><td><div class="summary">
               Gets Haralick's first textural feature, the
               Angular Second Momentum, also known as Energy
               or Homogeneity.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_ClusterProminence.htm">ClusterProminence</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_ClusterProminence.htm">ClusterProminence</a></td><td><div class="summary">
               Gets the Cluster Prominence textural feature.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_ClusterShade.htm">ClusterShade</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_ClusterShade.htm">ClusterShade</a></td><td><div class="summary">
               Gets the Cluster Shade textural feature.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_ColumnEntropy.htm">ColumnEntropy</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_ColumnEntropy.htm">ColumnEntropy</a></td><td><div class="summary">
               Gets H<sub>y</sub>, the entropy of the 
               <a href="P_Accord_Imaging_HaralickDescriptor_ColumnMarginal.htm">ColumnMarginal</a> vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_ColumnMarginal.htm">ColumnMarginal</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_ColumnMarginal.htm">ColumnMarginal</a></td><td><div class="summary">
               Gets the marginal probability vector
               obtained by summing the columns of p(i,j),
               given as p<sub>y</sub>(j) = Σ<sub>i</sub> p(i,j).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_ColumnMean.htm">ColumnMean</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_ColumnMean.htm">ColumnMean</a></td><td><div class="summary">
               Gets μ_y, the mean value of the 
               <a href="P_Accord_Imaging_HaralickDescriptor_ColumnMarginal.htm">ColumnMarginal</a> vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_ColumnStandardDeviation.htm">ColumnStandardDeviation</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_ColumnStandardDeviation.htm">ColumnStandardDeviation</a></td><td><div class="summary">
               Gets σ<sub>y</sub>, the variance of the 
               <a href="P_Accord_Imaging_HaralickDescriptor_ColumnMarginal.htm">ColumnMarginal</a> vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Contrast.htm">Contrast</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Contrast.htm">Contrast</a></td><td><div class="summary">
               Gets Haralick's second textural feature,
               the Contrast.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Correlation.htm">Correlation</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Correlation.htm">Correlation</a></td><td><div class="summary">
               Gets Haralick's third textural feature,
               the Correlation.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_DifferenceEntropy.htm">DifferenceEntropy</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_DifferenceEntropy.htm">DifferenceEntropy</a></td><td><div class="summary">
               Gets Haralick's eleventh textural feature,
               the Difference Entropy.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Differences.htm">Differences</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Differences.htm">Differences</a></td><td><div class="summary">
               Gets p<sub>(x-y)</sub> (k), the sum of elements 
               whose absolute indices diferences equals to k.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_DifferenceVariance.htm">DifferenceVariance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_DifferenceVariance.htm">DifferenceVariance</a></td><td><div class="summary">
               Gets Haralick's tenth textural feature,
               the Difference Variance.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Entropy.htm">Entropy</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Entropy.htm">Entropy</a></td><td><div class="summary">
               Gets Haralick's ninth textural feature,
               the Entropy.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F01.htm">F01</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F01.htm">F01</a></td><td><div class="summary">
               Gets Haralick's first textural feature,
               the Angular Second Momentum.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F02.htm">F02</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F02.htm">F02</a></td><td><div class="summary">
               Gets Haralick's second textural feature,
               the Contrast.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F03.htm">F03</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F03.htm">F03</a></td><td><div class="summary">
               Gets Haralick's third textural feature,
               the Correlation.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F04.htm">F04</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F04.htm">F04</a></td><td><div class="summary">
               Gets Haralick's fourth textural feature,
               the Sum of Squares: Variance.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F05.htm">F05</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F05.htm">F05</a></td><td><div class="summary">
                Gets Haralick's fifth textural feature,
                the Inverse Difference Moment.
-             </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F06.htm">F06</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F06.htm">F06</a></td><td><div class="summary">
               Gets Haralick's sixth textural feature,
               the Sum Average.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F07.htm">F07</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F07.htm">F07</a></td><td><div class="summary">
               Gets Haralick's seventh textural feature,
               the Sum Variance.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F08.htm">F08</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F08.htm">F08</a></td><td><div class="summary">
               Gets Haralick's eighth textural feature,
               the Sum Entropy.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F09.htm">F09</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F09.htm">F09</a></td><td><div class="summary">
               Gets Haralick's ninth textural feature,
               the Entropy.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F10.htm">F10</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F10.htm">F10</a></td><td><div class="summary">
               Gets Haralick's tenth textural feature,
               the Difference Variance.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F11.htm">F11</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F11.htm">F11</a></td><td><div class="summary">
               Gets Haralick's eleventh textural feature,
               the Difference Entropy.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F12.htm">F12</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F12.htm">F12</a></td><td><div class="summary">
               Gets Haralick's twelfth textural feature,
               the First Information Measure.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F13.htm">F13</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F13.htm">F13</a></td><td><div class="summary">
               Gets Haralick's thirteenth textural feature,
               the Second Information Measure.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_F14.htm">F14</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_F14.htm">F14</a></td><td><div class="summary">
               Gets Haralick's fourteenth textural feature,
               the Maximal Correlation Coefficient.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_FirstInformationMeasure.htm">FirstInformationMeasure</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_FirstInformationMeasure.htm">FirstInformationMeasure</a></td><td><div class="summary">
               Gets Haralick's twelfth textural feature,
               the First Information Measure.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_GrayLevels.htm">GrayLevels</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_GrayLevels.htm">GrayLevels</a></td><td><div class="summary">
               Gets the number of gray levels in the 
               original image. This is the number of
               dimensions of the co-occurrence matrix.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_InverseDifferenceMoment.htm">InverseDifferenceMoment</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_InverseDifferenceMoment.htm">InverseDifferenceMoment</a></td><td><div class="summary">
                Gets Haralick's fifth textural feature, the Inverse
                Difference Moment, also known as Local Homogeneity.
                Can be regarded as a complement to <a href="P_Accord_Imaging_HaralickDescriptor_Contrast.htm">Contrast</a>.
-             </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_LaplaceContrast.htm">LaplaceContrast</a>
-              </td>
-              <td>
-                <div class="summary">
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_LaplaceContrast.htm">LaplaceContrast</a></td><td><div class="summary">
               Gets a variation of Haralick's second textural feature,
               the Contrast with Absolute values (instead of squares).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_MaximalCorrelationCoefficient.htm">MaximalCorrelationCoefficient</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_MaximalCorrelationCoefficient.htm">MaximalCorrelationCoefficient</a></td><td><div class="summary">
               Gets Haralick's fourteenth textural feature,
               the Maximal Correlation Coefficient.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Mean.htm">Mean</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Mean.htm">Mean</a></td><td><div class="summary">
               Gets the matrix mean μ.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_RowEntropy.htm">RowEntropy</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_RowEntropy.htm">RowEntropy</a></td><td><div class="summary">
               Gets H<sub>x</sub>, the entropy of the 
               <a href="P_Accord_Imaging_HaralickDescriptor_RowMarginal.htm">RowMarginal</a> vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_RowMarginal.htm">RowMarginal</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_RowMarginal.htm">RowMarginal</a></td><td><div class="summary">
               Gets the marginal probability vector
               obtained by summing the rows of p(i,j),
               given as p<sub>x</sub>(i) = Σ<sub>j</sub> p(i,j).
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_RowMean.htm">RowMean</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_RowMean.htm">RowMean</a></td><td><div class="summary">
               Gets μ<sub>x</sub>, the mean value of the 
               <a href="P_Accord_Imaging_HaralickDescriptor_RowMarginal.htm">RowMarginal</a> vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_RowStandardDeviation.htm">RowStandardDeviation</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_RowStandardDeviation.htm">RowStandardDeviation</a></td><td><div class="summary">
               Gets σ<sub>x</sub>, the variance of the 
               <a href="P_Accord_Imaging_HaralickDescriptor_RowMarginal.htm">RowMarginal</a> vector.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_SecondInformationMeasure.htm">SecondInformationMeasure</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_SecondInformationMeasure.htm">SecondInformationMeasure</a></td><td><div class="summary">
               Gets Haralick's thirteenth textural feature,
               the Second Information Measure.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Sum.htm">Sum</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Sum.htm">Sum</a></td><td><div class="summary">
               Gets the matrix sum.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_SumAverage.htm">SumAverage</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_SumAverage.htm">SumAverage</a></td><td><div class="summary">
               Gets Haralick's sixth textural feature,
               the Sum Average.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_SumEntropy.htm">SumEntropy</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_SumEntropy.htm">SumEntropy</a></td><td><div class="summary">
               Gets Haralick's eighth textural feature,
               the Sum Entropy.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_SumOfSquares.htm">SumOfSquares</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_SumOfSquares.htm">SumOfSquares</a></td><td><div class="summary">
               Gets Haralick's fourth textural feature,
               the Sum of Squares: Variance.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_Sums.htm">Sums</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_Sums.htm">Sums</a></td><td><div class="summary">
               Gets p<sub>(x+y)</sub>(k), the sum 
               of elements whose indices sum to k.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_SumVariance.htm">SumVariance</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_SumVariance.htm">SumVariance</a></td><td><div class="summary">
               Gets Haralick's seventh textural feature,
               the Sum Variance.
-            </div>
-              </td>
-            </tr>
-            <tr data="public;declared;notNetfw;">
-              <td>
-                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
-              </td>
-              <td>
-                <a href="P_Accord_Imaging_HaralickDescriptor_TextureHomogeneity.htm">TextureHomogeneity</a>
-              </td>
-              <td>
-                <div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_HaralickDescriptor_TextureHomogeneity.htm">TextureHomogeneity</a></td><td><div class="summary">
               Gets a variation of Haralick's fifth textural feature,
               the Texture Homogeneity. Can be regarded as a complement
               to <a href="P_Accord_Imaging_HaralickDescriptor_LaplaceContrast.htm">LaplaceContrast</a>.
-            </div>
-              </td>
-            </tr>
-          </table>
-          <a href="#PageHeader">Top</a>
-        </div>
-        <div class="collapsibleAreaRegion" id="seeAlsoSection">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0">
-            <img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span>
-        </div>
-        <div id="ID1RBSection" class="collapsibleSection">
-          <h4 class="subHeading">Reference</h4>
-          <div class="seeAlsoStyle">
-            <a href="T_Accord_Imaging_HaralickDescriptor.htm">HaralickDescriptor Class</a>
-          </div>
-          <div class="seeAlsoStyle">
-            <a href="N_Accord_Imaging.htm">Accord.Imaging Namespace</a>
-          </div>
-        </div>
-      </div>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Imaging_HaralickDescriptor.htm">HaralickDescriptor Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Imaging.htm">Accord.Imaging Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");

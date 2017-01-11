@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
   </head>
   <body onload="OnLoad('cs')">
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -38,21 +39,29 @@
             <td class="titleColumn">LuDecomposition Class</td>
           </tr>
         </table>
-        <span class="introStyle"></span>
-        <div class="summary">
+        <span class="introStyle"></span> <div class="summary">
               LU decomposition of a rectangular matrix.
-            </div>
-        <div class="collapsibleAreaRegion">
-          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
-            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span>
-        </div>
-        <div id="ID0RBSection" class="collapsibleSection">
-          <span class="nolink">System<span id="LSTA5D57040_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span>
-          <br />  <span class="selflink">Accord.Math.Decompositions<span id="LSTA5D57040_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>LuDecomposition</span><br /></div>
-        <p> </p>
-        <strong>Namespace:</strong> <a href="N_Accord_Math_Decompositions.htm">Accord.Math.Decompositions</a><br /><strong>Assembly:</strong> Accord.Math (in Accord.Math.dll) Version: 3.3.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">LuDecomposition</span> : <span class="identifier">ICloneable</span>, 
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LSTA5D57040_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.Math.Decompositions<span id="LSTA5D57040_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>LuDecomposition</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_Math_Decompositions.htm">Accord.Math.Decompositions</a><br />
+    <strong>Assembly:</strong>
+   Accord.Math (in Accord.Math.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">LuDecomposition</span> : <span class="identifier">ICloneable</span>, 
 	<span class="identifier">ISolverMatrixDecomposition</span>&lt;<span class="identifier">double</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">LuDecomposition</span>
-	<span class="keyword">Implements</span> <span class="identifier">ICloneable</span>, <span class="identifier">ISolverMatrixDecomposition</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">LuDecomposition</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+	<span class="keyword">Implements</span> <span class="identifier">ICloneable</span>, <span class="identifier">ISolverMatrixDecomposition</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Math/Decompositions/LuDecomposition.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">LuDecomposition</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Decompositions_LuDecomposition__ctor.htm">LuDecomposition(<span id="LSTA5D57040_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_2?cpp=array&lt;");</script>Double<span id="LSTA5D57040_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_3?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>)</a></td><td><div class="summary">
               Constructs a new LU decomposition.
@@ -60,7 +69,7 @@
               Constructs a new LU decomposition.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Decompositions_LuDecomposition__ctor_2.htm">LuDecomposition(<span id="LSTA5D57040_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_6?cpp=array&lt;");</script>Double<span id="LSTA5D57040_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA5D57040_7?cpp=,2&gt;|cs=[,]|vb=(,)|nu=[,]|fs=[,]");</script>, Boolean, Boolean)</a></td><td><div class="summary">
               Constructs a new LU decomposition.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Decompositions_LuDecomposition_Determinant.htm">Determinant</a></td><td><div class="summary">
               Returns the determinant of the matrix.
@@ -76,7 +85,7 @@
               Returns the pivot permutation vector.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Math_Decompositions_LuDecomposition_UpperTriangularFactor.htm">UpperTriangularFactor</a></td><td><div class="summary">
               Returns the lower triangular factor <span class="code">L</span> with <span class="code">A=LU</span>.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Decompositions_LuDecomposition_Clone.htm">Clone</a></td><td><div class="summary">
             Creates a new object that is a copy of the current instance.
@@ -95,7 +104,7 @@
               Solves a set of equation systems of type <span class="code">A * X = B</span>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_Math_Decompositions_LuDecomposition_SolveTranspose.htm">SolveTranspose</a></td><td><div class="summary">
               Solves a set of equation systems of type <span class="code">X * A = B</span>.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
@@ -120,10 +129,10 @@
               </p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Decompositions.htm">Accord.Math.Decompositions Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
-      <p>Accord.NET Framework © 2009-2016. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
       <div class="feedbackLink">Send comments on this topic to
         <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
-      <script type="text/javascript">
+        <script type="text/javascript">
         var HT_mailLink = document.getElementById("HT_MailLink");
         var HT_mailLinkText = HT_mailLink.innerHTML;
         HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
