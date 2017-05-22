@@ -1,0 +1,115 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Generate" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Sandcastle Tools MSBuild Tasks.  https://GitHub.com/EWSoftware/SHFB -->
+  <UsingTask TaskName="Microsoft.Ddue.Tools.MSBuild.MRefBuilder" AssemblyFile="C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\MRefBuilder.exe" />
+  <UsingTask TaskName="Microsoft.Ddue.Tools.MSBuild.XslTransform" AssemblyFile="C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\XslTransform.exe" />
+  <!-- Task properties -->
+  <PropertyGroup>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AddXamlSyntaxData>
+    </AddXamlSyntaxData>
+    <WorkingFolder>C:\Docs\Working\</WorkingFolder>
+    <ReferencePath Condition=" '$(ReferencePath)' == '' ">
+    </ReferencePath>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    <UseTargetPlatformAsNuGetTargetMoniker>false</UseTargetPlatformAsNuGetTargetMoniker>
+  </PropertyGroup>
+  <!-- The common targets require OutputPath to be valid -->
+  <PropertyGroup>
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <!-- Import the common targets -->
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <!-- This defines the dependencies for the Generate target -->
+  <PropertyGroup>
+    <GenerateDependsOn>
+			ResolveReferences;
+			BeforeGenerateRefInfo;
+			GenerateRefInfo;
+			AfterGenerateRefInfo
+		</GenerateDependsOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord.Math.Core">
+      <HintPath>C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Math.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="envdte, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Projects\Accord.NET\framework\Sources\Accord.DataSets\..\..\Externals\SharpZipLib\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <Private>False</Private>
+      <HintPath>C:\Projects\Accord.NET\framework\Sources\Accord.Audio.DirectSound\..\..\Externals\SharpDX\v311\net45\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX, Version=3.1.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+      <HintPath>C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpDX.DirectSound">
+      <Private>False</Private>
+      <HintPath>C:\Projects\Accord.NET\framework\Sources\Accord.Audio.DirectSound\..\..\Externals\SharpDX\v311\net45\SharpDX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DirectSound, Version=3.1.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+      <HintPath>C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.DirectSound.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ZedGraph">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Projects\Accord.NET\framework\Sources\Accord.Controls.Audio\..\..\Externals\ZedGraph\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60">
+      <HintPath>C:\Projects\Accord.NET\framework\Externals\ZedGraph\ZedGraph.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Assembly Include="C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.DirectSound.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Debug\Accord.Text.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audio.DirectSound.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audio.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audition.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Audio.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Imaging.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Vision.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.DataSets.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Fuzzy.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Genetic.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Imaging.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.IO.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.MachineLearning.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Math.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Neuro.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Statistics.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.DirectShow.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.Kinect.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.VFW.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.Ximea.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Vision.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\GPL\Accord.MachineLearning.GPL.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\NET46\GPL\Accord.Video.FFMPEG.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Noncommercial\Accord.Imaging.Noncommercial.dll" />
+    <Assembly Include="C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Noncommercial\Accord.Math.Noncommercial.dll" />
+  </ItemGroup>
+  <Target Name="Generate" DependsOnTargets="$(GenerateDependsOn)" />
+  <!-- The Generate Ref Info target -->
+  <Target Name="GenerateRefInfo">
+    <!-- Run MRefBuilder.  Reference build items are added to this template by the build process.  The
+				 ResolveReferences dependency target will resolve them to absolute paths that can be passed to
+				 MRefBuilder using the /dep command line option.  Assembly build items are added by the build
+				 process to define the assemblies to reflect. -->
+    <Microsoft.Ddue.Tools.MSBuild.MRefBuilder WorkingFolder="$(WorkingFolder)" ConfigurationFile="MRefBuilder.config" ReflectionFilename="reflection.org" Assemblies="@(Assembly)" References="@(ReferencePath)" />
+    <!-- Merge duplicate topics (if any) and add XAML syntax data if needed -->
+    <Copy SourceFiles="reflection.org" DestinationFiles="reflection.all" />
+    <Microsoft.Ddue.Tools.MSBuild.XslTransform WorkingFolder="$(WorkingFolder)" Transformations="~\ProductionTransforms\MergeDuplicates.xsl$(AddXamlSyntaxData)" InputFile="reflection.all" OutputFile="reflection.org" />
+  </Target>
+  <!-- The following targets may be overridden or replaced to perform additional processing. -->
+  <Target Name="BeforeGenerateRefInfo" />
+  <Target Name="AfterGenerateRefInfo" />
+</Project>

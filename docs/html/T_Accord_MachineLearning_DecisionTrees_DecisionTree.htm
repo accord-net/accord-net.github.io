@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_MachineLearning_DecisionTrees_DecisionTree" />
     <meta name="guid" content="T_Accord_MachineLearning_DecisionTrees_DecisionTree" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -36,7 +38,9 @@
             <td class="logoColumn">
               <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="titleColumn">DecisionTree Class</td>
+            <td class="titleColumn">
+              <h1>DecisionTree Class</h1>
+            </td>
           </tr>
         </table>
         <span class="introStyle"></span> <div class="summary">
@@ -45,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning_DecisionTrees.htm">Accord.MachineLearning.DecisionTrees</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">DecisionTree</span> : <span class="identifier">MulticlassClassifierBase</span>, 
 	<span class="identifier">IEnumerable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">DecisionTree</span>
@@ -158,11 +162,11 @@
               greatest distance (in links) between the tree's
               root node and its leaves.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Load.htm">Load(Stream)</a></td><td> <strong>Obsolete. </strong><div class="summary">
-              Obsolete. Please use <a href="M_Accord_IO_Serializer_Load__1_1.htm">Load<span id="LST8F330D21_178"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_178?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_179"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_179?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(Stream)</a>.
+              Obsolete. Please use <a href="M_Accord_IO_Serializer_Load__1_2.htm">Load<span id="LST8F330D21_178"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_178?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_179"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_179?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(Stream, SerializerCompression)</a>.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Load_1.htm">Load(String)</a></td><td> <strong>Obsolete. </strong><div class="summary">
-              Obsolete. Please use <a href="M_Accord_IO_Serializer_Load__1_3.htm">Load<span id="LST8F330D21_180"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_180?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_181"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_181?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String)</a>.
+              Obsolete. Please use <a href="M_Accord_IO_Serializer_Load__1_5.htm">Load<span id="LST8F330D21_180"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_180?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_181"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_181?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(String)</a>.
             </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Save.htm">Save(Stream)</a></td><td> <strong>Obsolete. </strong><div class="summary">
-              Obsolete. Please use <a href="M_Accord_IO_Serializer_Save__1_2.htm">Save<span id="LST8F330D21_182"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_182?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_183"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_183?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(T, Stream)</a> (or use it as an extension method).
+              Obsolete. Please use <a href="M_Accord_IO_Serializer_Save__1_2.htm">Save<span id="LST8F330D21_182"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_182?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_183"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_183?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(T, Stream, SerializerCompression)</a> (or use it as an extension method).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_Save_1.htm">Save(String)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Obsolete. Please use <a href="M_Accord_IO_Serializer_Save__1_3.htm">Save<span id="LST8F330D21_184"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_184?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST8F330D21_185"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_185?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(T, String)</a> (or use it as an extension method).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_ToAssembly.htm">ToAssembly(String, String)</a></td><td><div class="summary">
@@ -255,7 +259,7 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_SetEquals__1.htm">SetEquals<span id="LST8F330D21_344"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_344?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>DecisionNode<span id="LST8F330D21_345"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_345?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_SetEquals__1.htm">SetEquals<span id="LST8F330D21_344"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_344?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>DecisionNode<span id="LST8F330D21_345"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_345?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Compares two enumerables for set equality. Two
               enumerables are set equal if they contain the
               same elements, but not necessarily in the same
@@ -273,7 +277,183 @@
                and example of learning, please see the documentation pages for the <a href="T_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning.htm">
                ID3</a> and <a href="T_Accord_MachineLearning_DecisionTrees_Learning_C45Learning.htm">C4.5 learning algorithms</a>.</p><p>
                It is also possible to create <a href="T_Accord_MachineLearning_DecisionTrees_RandomForest.htm">random forests</a> using
-               the <a href="T_Accord_MachineLearning_DecisionTrees_RandomForestLearning.htm">random forest learning algorithm</a>.</p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees.htm">Accord.MachineLearning.DecisionTrees Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning.htm">Accord.MachineLearning.DecisionTrees.Learning<span id="LST8F330D21_352"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_352?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ID3Learning</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Learning_C45Learning.htm">Accord.MachineLearning.DecisionTrees.Learning<span id="LST8F330D21_353"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_353?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>C45Learning</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_RandomForestLearning.htm">Accord.MachineLearning.DecisionTrees<span id="LST8F330D21_354"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_354?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>RandomForestLearning</a></div></div></div>
+               the <a href="T_Accord_MachineLearning_DecisionTrees_RandomForestLearning.htm">random forest learning algorithm</a>.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+               This example shows the simplest way to induce a decision tree with discrete variables.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// In this example, we will learn a decision tree directly from integer</span>
+<span class="highlight-comment">// matrices that define the inputs and outputs of our learning problem.</span>
+
+<span class="highlight-keyword">int</span>[][] inputs =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">0</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">1</span> },
+};
+
+<span class="highlight-keyword">int</span>[] outputs = <span class="highlight-comment">// xor between inputs[0] and inputs[1]</span>
+{
+    <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>
+};
+
+<span class="highlight-comment">// Create an ID3 learning algorithm</span>
+ID3Learning teacher = <span class="highlight-keyword">new</span> ID3Learning();
+
+<span class="highlight-comment">// Learn a decision tree for the XOR problem</span>
+<span class="highlight-keyword">var</span> tree = teacher.Learn(inputs, outputs);
+
+<span class="highlight-comment">// Compute the error in the learning</span>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> ZeroOneLoss(outputs).Loss(tree.Decide(inputs));
+
+<span class="highlight-comment">// The tree can now be queried for new examples:</span>
+<span class="highlight-keyword">int</span>[] predicted = tree.Decide(inputs); <span class="highlight-comment">// should be { 0, 1, 1, 0 }</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGDBA");</script><p>
+               This example shows a common textbook example, and how to induce a decision tree using a 
+               <a href="T_Accord_Statistics_Filters_Codification.htm">codebook</a> to convert string (text) variables into discrete symbols.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// In this example, we will be using the famous Play Tennis example by Tom Mitchell (1998).</span>
+<span class="highlight-comment">// In Mitchell's example, one would like to infer if a person would play tennis or not</span>
+<span class="highlight-comment">// based solely on four input variables. Those variables are all categorical, meaning that</span>
+<span class="highlight-comment">// there is no order between the possible values for the variable (i.e. there is no order</span>
+<span class="highlight-comment">// relationship between Sunny and Rain, one is not bigger nor smaller than the other, but are </span>
+<span class="highlight-comment">// just distinct). Moreover, the rows, or instances presented above represent days on which the</span>
+<span class="highlight-comment">// behavior of the person has been registered and annotated, pretty much building our set of </span>
+<span class="highlight-comment">// observation instances for learning:</span>
+
+<span class="highlight-comment">// Note: this example uses DataTables to represent the inputdata , but this is not required.</span>
+DataTable data = <span class="highlight-keyword">new</span> DataTable(<span class="highlight-literal">"Mitchell's Tennis Example"</span>);
+
+data.Columns.Add(<span class="highlight-literal">"Day"</span>, <span class="highlight-literal">"Outlook"</span>, <span class="highlight-literal">"Temperature"</span>, <span class="highlight-literal">"Humidity"</span>, <span class="highlight-literal">"Wind"</span>, <span class="highlight-literal">"PlayTennis"</span>);
+data.Rows.Add(<span class="highlight-literal">"D1"</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-literal">"Hot"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"No"</span>);
+data.Rows.Add(<span class="highlight-literal">"D2"</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-literal">"Hot"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Strong"</span>, <span class="highlight-literal">"No"</span>);
+data.Rows.Add(<span class="highlight-literal">"D3"</span>, <span class="highlight-literal">"Overcast"</span>, <span class="highlight-literal">"Hot"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D4"</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-literal">"Mild"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D5"</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-literal">"Cool"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D6"</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-literal">"Cool"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Strong"</span>, <span class="highlight-literal">"No"</span>);
+data.Rows.Add(<span class="highlight-literal">"D7"</span>, <span class="highlight-literal">"Overcast"</span>, <span class="highlight-literal">"Cool"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Strong"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D8"</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-literal">"Mild"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"No"</span>);
+data.Rows.Add(<span class="highlight-literal">"D9"</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-literal">"Cool"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D10"</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-literal">"Mild"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D11"</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-literal">"Mild"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Strong"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D12"</span>, <span class="highlight-literal">"Overcast"</span>, <span class="highlight-literal">"Mild"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Strong"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D13"</span>, <span class="highlight-literal">"Overcast"</span>, <span class="highlight-literal">"Hot"</span>, <span class="highlight-literal">"Normal"</span>, <span class="highlight-literal">"Weak"</span>, <span class="highlight-literal">"Yes"</span>);
+data.Rows.Add(<span class="highlight-literal">"D14"</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-literal">"Mild"</span>, <span class="highlight-literal">"High"</span>, <span class="highlight-literal">"Strong"</span>, <span class="highlight-literal">"No"</span>);
+
+<span class="highlight-comment">// In order to try to learn a decision tree, we will first convert this problem to a more simpler</span>
+<span class="highlight-comment">// representation. Since all variables are categories, it does not matter if they are represented</span>
+<span class="highlight-comment">// as strings, or numbers, since both are just symbols for the event they represent. Since numbers</span>
+<span class="highlight-comment">// are more easily representable than text string, we will convert the problem to use a discrete </span>
+<span class="highlight-comment">// alphabet through the use of a &lt;see cref="Accord.Statistics.Filters.Codification"&gt;codebook&lt;/see&gt;.&lt;/para&gt;</span>
+
+<span class="highlight-comment">// A codebook effectively transforms any distinct possible value for a variable into an integer </span>
+<span class="highlight-comment">// symbol. For example, “Sunny” could as well be represented by the integer label 0, “Overcast” </span>
+<span class="highlight-comment">// by “1”, Rain by “2”, and the same goes by for the other variables. So:&lt;/para&gt;</span>
+
+<span class="highlight-comment">// Create a new codification codebook to </span>
+<span class="highlight-comment">// convert strings into integer symbols</span>
+<span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> Codification(data);
+
+<span class="highlight-comment">// Translate our training data into integer symbols using our codebook:</span>
+DataTable symbols = codebook.Apply(data);
+<span class="highlight-keyword">int</span>[][] inputs = symbols.ToArray&lt;<span class="highlight-keyword">int</span>&gt;(<span class="highlight-literal">"Outlook"</span>, <span class="highlight-literal">"Temperature"</span>, <span class="highlight-literal">"Humidity"</span>, <span class="highlight-literal">"Wind"</span>);
+<span class="highlight-keyword">int</span>[] outputs = symbols.ToArray&lt;<span class="highlight-keyword">int</span>&gt;(<span class="highlight-literal">"PlayTennis"</span>);
+
+<span class="highlight-comment">// Now that we already have our learning input/ouput pairs, we should specify our</span>
+<span class="highlight-comment">// decision tree. We will be trying to build a tree to predict the last column, entitled</span>
+<span class="highlight-comment">// “PlayTennis”. For this, we will be using the “Outlook”, “Temperature”, “Humidity” and</span>
+<span class="highlight-comment">// “Wind” as predictors (variables which will we will use for our decision). Since those</span>
+<span class="highlight-comment">// are categorical, we must specify, at the moment of creation of our tree, the</span>
+<span class="highlight-comment">// characteristics of each of those variables. So:</span>
+
+<span class="highlight-comment">// Gather information about decision variables</span>
+DecisionVariable[] attributes =
+{
+    <span class="highlight-keyword">new</span> DecisionVariable(<span class="highlight-literal">"Outlook"</span>,     <span class="highlight-number">3</span>), <span class="highlight-comment">// 3 possible values (Sunny, overcast, rain)</span>
+    <span class="highlight-keyword">new</span> DecisionVariable(<span class="highlight-literal">"Temperature"</span>, <span class="highlight-number">3</span>), <span class="highlight-comment">// 3 possible values (Hot, mild, cool)  </span>
+    <span class="highlight-keyword">new</span> DecisionVariable(<span class="highlight-literal">"Humidity"</span>,    <span class="highlight-number">2</span>), <span class="highlight-comment">// 2 possible values (High, normal)    </span>
+    <span class="highlight-keyword">new</span> DecisionVariable(<span class="highlight-literal">"Wind"</span>,        <span class="highlight-number">2</span>)  <span class="highlight-comment">// 2 possible values (Weak, strong) </span>
+};
+
+<span class="highlight-comment">// Note: It is also possible to create a DecisionVariable[] from a codebook:</span>
+<span class="highlight-comment">// DecisionVariable[] attributes = DecisionVariable.FromCodebook(codebook);</span>
+
+<span class="highlight-comment">// For this task, in which we have only categorical variables, the simplest choice </span>
+<span class="highlight-comment">// to induce a decision tree is to use the ID3 algorithm by Quinlan. Let’s do it:</span>
+
+<span class="highlight-comment">// Create a new instance of the ID3 algorithm</span>
+<span class="highlight-keyword">var</span> id3learning = <span class="highlight-keyword">new</span> ID3Learning(attributes);
+
+<span class="highlight-comment">// Learn the training instances!</span>
+DecisionTree tree = id3learning.Learn(inputs, outputs);
+
+<span class="highlight-comment">// Compute the training error when predicting training instances</span>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> ZeroOneLoss(outputs).Loss(tree.Decide(inputs));
+
+<span class="highlight-comment">// The tree can now be queried for new examples through </span>
+<span class="highlight-comment">// its decide method. For example, we can create a query</span>
+
+<span class="highlight-keyword">int</span>[] query = codebook.Transform(<span class="highlight-keyword">new</span> [,]
+{
+    { <span class="highlight-literal">"Outlook"</span>,     <span class="highlight-literal">"Sunny"</span>  },
+    { <span class="highlight-literal">"Temperature"</span>, <span class="highlight-literal">"Hot"</span>    },
+    { <span class="highlight-literal">"Humidity"</span>,    <span class="highlight-literal">"High"</span>   },
+    { <span class="highlight-literal">"Wind"</span>,        <span class="highlight-literal">"Strong"</span> }
+});
+
+<span class="highlight-comment">// And then predict the label using</span>
+<span class="highlight-keyword">int</span> predicted = tree.Decide(query);  <span class="highlight-comment">// result will be 0</span>
+
+<span class="highlight-comment">// We can translate it back to strings using</span>
+<span class="highlight-keyword">string</span> answer = codebook.Revert(<span class="highlight-literal">"PlayTennis"</span>, predicted); <span class="highlight-comment">// Answer will be: "No"</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEDBA");</script><p>For more examples with discrete variables, please see <a href="T_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning.htm">ID3Learning</a></p><p>
+               This example shows the simplest way to induce a decision tree with continuous variables.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">            <span class="highlight-comment">// In this example, we will process the famous Fisher's Iris dataset in </span>
+            <span class="highlight-comment">// which the task is to classify weather the features of an Iris flower </span>
+            <span class="highlight-comment">// belongs to an Iris setosa, an Iris versicolor, or an Iris virginica:</span>
+            <span class="highlight-comment">// </span>
+            <span class="highlight-comment">//  - https://en.wikipedia.org/wiki/Iris_flower_data_set</span>
+            <span class="highlight-comment">// </span>
+
+            <span class="highlight-comment">// First, let's load the dataset into an array of text that we can process</span>
+            <span class="highlight-keyword">string</span>[][] text = Resources.iris_data.Split(<span class="highlight-keyword">new</span>[] { <span class="highlight-literal">"\r\n"</span> },
+                StringSplitOptions.RemoveEmptyEntries).Apply(x =&gt; x.Split(<span class="highlight-literal">','</span>));
+
+            <span class="highlight-comment">// The first four columns contain the flower features</span>
+            <span class="highlight-keyword">double</span>[][] inputs = text.GetColumns(<span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>).To&lt;<span class="highlight-keyword">double</span>[][]&gt;();
+
+            <span class="highlight-comment">// The last column contains the expected flower type</span>
+            <span class="highlight-keyword">string</span>[] labels = text.GetColumn(<span class="highlight-number">4</span>);
+
+            <span class="highlight-comment">// Since the labels are represented as text, the first step is to convert</span>
+            <span class="highlight-comment">// those text labels into integer class labels, so we can process them</span>
+            <span class="highlight-comment">// more easily. For this, we will create a codebook to encode class labels:</span>
+            <span class="highlight-comment">// </span>
+            <span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> Codification(<span class="highlight-literal">"Output"</span>, labels);
+
+            <span class="highlight-comment">// With the codebook, we can convert the labels:</span>
+            <span class="highlight-keyword">int</span>[] outputs = codebook.Translate(<span class="highlight-literal">"Output"</span>, labels);
+
+            <span class="highlight-comment">// And we can use the C4.5 for learning:</span>
+            C45Learning teacher = <span class="highlight-keyword">new</span> C45Learning();
+
+            <span class="highlight-comment">// Finally induce the tree from the data:</span>
+            <span class="highlight-keyword">var</span> tree = teacher.Learn(inputs, outputs);
+
+            <span class="highlight-comment">// To get the estimated class labels, we can use</span>
+            <span class="highlight-keyword">int</span>[] predicted = tree.Decide(inputs);
+
+            <span class="highlight-comment">// And the classification error (of 0.0266) can be computed as </span>
+            <span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> ZeroOneLoss(outputs).Loss(tree.Decide(inputs));
+
+            <span class="highlight-comment">// Moreover, we may decide to convert our tree to a set of rules:</span>
+            DecisionSet rules = tree.ToRules();
+
+            <span class="highlight-comment">// And using the codebook, we can inspect the tree reasoning:</span>
+            <span class="highlight-keyword">string</span> ruleText = rules.ToString(codebook, <span class="highlight-literal">"Output"</span>,
+                System.Globalization.CultureInfo.InvariantCulture);
+
+            <span class="highlight-comment">// The output is:</span>
+            <span class="highlight-keyword">string</span> expected = <span class="highlight-literal">@"Iris-setosa =: (2 &lt;= 2.45)
+Iris-versicolor =: (2 &gt; 2.45) &amp;&amp; (3 &lt;= 1.75) &amp;&amp; (0 &lt;= 7.05) &amp;&amp; (1 &lt;= 2.85)
+Iris-versicolor =: (2 &gt; 2.45) &amp;&amp; (3 &lt;= 1.75) &amp;&amp; (0 &lt;= 7.05) &amp;&amp; (1 &gt; 2.85)
+Iris-versicolor =: (2 &gt; 2.45) &amp;&amp; (3 &gt; 1.75) &amp;&amp; (0 &lt;= 5.95) &amp;&amp; (1 &gt; 3.05)
+Iris-virginica =: (2 &gt; 2.45) &amp;&amp; (3 &lt;= 1.75) &amp;&amp; (0 &gt; 7.05)
+Iris-virginica =: (2 &gt; 2.45) &amp;&amp; (3 &gt; 1.75) &amp;&amp; (0 &gt; 5.95)
+Iris-virginica =: (2 &gt; 2.45) &amp;&amp; (3 &gt; 1.75) &amp;&amp; (0 &lt;= 5.95) &amp;&amp; (1 &lt;= 3.05)
+"</span>;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABDBA");</script><p>For more examples with continuous variables, please see <a href="T_Accord_MachineLearning_DecisionTrees_Learning_C45Learning.htm">C45Learning</a></p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees.htm">Accord.MachineLearning.DecisionTrees Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning.htm">Accord.MachineLearning.DecisionTrees.Learning<span id="LST8F330D21_352"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_352?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ID3Learning</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Learning_C45Learning.htm">Accord.MachineLearning.DecisionTrees.Learning<span id="LST8F330D21_353"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_353?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>C45Learning</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_RandomForestLearning.htm">Accord.MachineLearning.DecisionTrees<span id="LST8F330D21_354"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST8F330D21_354?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>RandomForestLearning</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

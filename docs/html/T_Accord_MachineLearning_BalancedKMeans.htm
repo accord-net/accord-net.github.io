@@ -1,0 +1,216 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>BalancedKMeans Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="BalancedKMeans class" />
+    <meta name="System.Keywords" content="Accord.MachineLearning.BalancedKMeans class" />
+    <meta name="System.Keywords" content="BalancedKMeans class, about BalancedKMeans class" />
+    <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.BalancedKMeans" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.MachineLearning.BalancedKMeans" />
+    <meta name="Description" content="Balanced K-Means algorithm. Note: The balanced clusters will be available in the property of this instance!" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.MachineLearning" />
+    <meta name="file" content="T_Accord_MachineLearning_BalancedKMeans" />
+    <meta name="guid" content="T_Accord_MachineLearning_BalancedKMeans" />
+    
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning.htm" title="Accord.MachineLearning" tocid="N_Accord_MachineLearning">Accord.MachineLearning</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_BalancedKMeans.htm" title="BalancedKMeans Class" tocid="T_Accord_MachineLearning_BalancedKMeans">BalancedKMeans Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_BalancedKMeans__ctor.htm" title="BalancedKMeans Constructor " tocid="Overload_Accord_MachineLearning_BalancedKMeans__ctor">BalancedKMeans Constructor </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Properties_T_Accord_MachineLearning_BalancedKMeans.htm" title="BalancedKMeans Properties" tocid="Properties_T_Accord_MachineLearning_BalancedKMeans">BalancedKMeans Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_MachineLearning_BalancedKMeans.htm" title="BalancedKMeans Methods" tocid="Methods_T_Accord_MachineLearning_BalancedKMeans">BalancedKMeans Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">
+              <h1>BalancedKMeans Class</h1>
+            </td>
+          </tr>
+        </table>
+        <span class="introStyle"></span> <div class="summary">
+              Balanced K-Means algorithm. Note: The balanced clusters will be
+              available in the <a href="P_Accord_MachineLearning_BalancedKMeans_Labels.htm">Labels</a> property of this instance!
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST257334DA_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <a href="T_Accord_MachineLearning_ParallelLearningBase.htm">Accord.MachineLearning<span id="LST257334DA_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ParallelLearningBase</a><br />    <a href="T_Accord_MachineLearning_KMeans.htm">Accord.MachineLearning<span id="LST257334DA_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KMeans</a><br />      <span class="selflink">Accord.MachineLearning<span id="LST257334DA_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BalancedKMeans</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
+    <strong>Assembly:</strong>
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">BalancedKMeans</span> : <span class="identifier">KMeans</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">BalancedKMeans</span>
+	<span class="keyword">Inherits</span> <span class="identifier">KMeans</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Clustering/KMeans/BalancedKMeans.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">BalancedKMeans</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_BalancedKMeans__ctor.htm">BalancedKMeans(Int32)</a></td><td><div class="summary">
+              Initializes a new instance of the Balanced K-Means algorithm.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_BalancedKMeans__ctor_1.htm">BalancedKMeans(Int32, IDistance<span id="LST257334DA_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span id="LST257334DA_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_5?cpp=array&lt;");</script>Double<span id="LST257334DA_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_6?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary">
+              Initializes a new instance of the Balanced K-Means algorithm.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Centroids.htm">Centroids</a></td><td><div class="summary">
+              Gets or sets the cluster centroids. Setting this property is equivalent
+              to setting <a href="P_Accord_MachineLearning_ClusterCollection_3_Centroids.htm">
+              KMeans.Clusters.Centroids</a>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Clusters.htm">Clusters</a></td><td><div class="summary">
+              Gets the clusters found by K-means.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_ComputeCovariances.htm">ComputeCovariances</a></td><td><div class="summary">
+              Gets or sets whether covariance matrices for the clusters should 
+              be computed at the end of an iteration. Default is true.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_ComputeError.htm">ComputeError</a></td><td><div class="summary">
+              Gets or sets whether the clustering distortion error (the
+              average distance between all data points and the cluster
+              centroids) should be computed at the end of the algorithm.
+              The result will be stored in <a href="P_Accord_MachineLearning_KMeans_Error.htm">Error</a>. Default is true.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Dimension.htm">Dimension</a></td><td><div class="summary">
+              Gets the dimensionality of the data space.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Distance.htm">Distance</a></td><td><div class="summary">
+              Gets or sets the distance function used
+              as a distance metric between data points.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Error.htm">Error</a></td><td><div class="summary">
+              Gets the cluster distortion error after the 
+              last call to this class' Compute methods.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Iterations.htm">Iterations</a></td><td><div class="summary">
+              Gets the number of iterations performed in the
+              last call to this class' Compute methods.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_K.htm">K</a></td><td><div class="summary">
+              Gets the number of clusters.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_BalancedKMeans_Labels.htm">Labels</a></td><td><div class="summary">
+              Gets the labels assigned for each data point in the last 
+              call to <a href="M_Accord_MachineLearning_BalancedKMeans_Learn.htm">Learn(<span id="LST257334DA_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_8?cpp=array&lt;");</script><span id="LST257334DA_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_9?cpp=array&lt;");</script>Double<span id="LST257334DA_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_10?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_11?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST257334DA_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_12?cpp=array&lt;");</script>Double<span id="LST257334DA_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_MaxIterations.htm">MaxIterations</a></td><td><div class="summary">
+              Gets or sets the maximum number of iterations to
+              be performed by the method. If set to zero, no
+              iteration limit will be imposed. Default is 0.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_ParallelLearningBase_ParallelOptions.htm">ParallelOptions</a></td><td><div class="summary">
+              Gets or sets the parallelization options for this algorithm.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ParallelLearningBase.htm">ParallelLearningBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_ParallelLearningBase_Token.htm">Token</a></td><td><div class="summary">
+            Gets or sets a cancellation token that can be used
+            to cancel the algorithm while it is running.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ParallelLearningBase.htm">ParallelLearningBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Tolerance.htm">Tolerance</a></td><td><div class="summary">
+              Gets or sets the relative convergence threshold
+              for stopping the algorithm. Default is 1e-5.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_UseSeeding.htm">UseSeeding</a></td><td><div class="summary">
+              Gets or sets the strategy used to initialize the
+              centroids of the clustering algorithm. Default is
+              <a href="T_Accord_MachineLearning_Seeding.htm">KMeansPlusPlus</a>.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_KMeans_Compute.htm">Compute(<span id="LST257334DA_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_14?cpp=array&lt;");</script><span id="LST257334DA_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_15?cpp=array&lt;");</script>Double<span id="LST257334DA_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_17?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Divides the input data into K clusters. 
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_KMeans_Compute_1.htm">Compute(<span id="LST257334DA_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_18?cpp=array&lt;");</script><span id="LST257334DA_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_19?cpp=array&lt;");</script>Double<span id="LST257334DA_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_21?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Double<span id="LST257334DA_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_22?cpp=%");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Divides the input data into K clusters. 
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_KMeans_Compute_2.htm">Compute(<span id="LST257334DA_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_23?cpp=array&lt;");</script><span id="LST257334DA_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_24?cpp=array&lt;");</script>Double<span id="LST257334DA_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_25?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST257334DA_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_27?cpp=array&lt;");</script>Double<span id="LST257334DA_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Divides the input data into K clusters. 
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_KMeans_ComputeInformation.htm">ComputeInformation</a></td><td><div class="summary">
+            Computes the information about each cluster (covariance, proportions and error).
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_KMeans_converged.htm">converged</a></td><td><div class="summary">
+              Determines if the algorithm has converged by comparing the
+              centroids between two consecutive iterations.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_BalancedKMeans_Learn.htm">Learn</a></td><td><div class="summary">
+              Learns a model that can map the given inputs to the desired outputs. Note:
+              the model created by this function will not be able to produce balanced
+              clusterings. To retrieve the balanced labels, check the <a href="P_Accord_MachineLearning_BalancedKMeans_Labels.htm">Labels</a> 
+              property of this class after calling this function.
+            </div> (Overrides <a href="M_Accord_MachineLearning_KMeans_Learn.htm">KMeans<span id="LST257334DA_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_29?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Learn(<span id="LST257334DA_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_30?cpp=array&lt;");</script><span id="LST257334DA_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_31?cpp=array&lt;");</script>Double<span id="LST257334DA_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST257334DA_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_34?cpp=array&lt;");</script>Double<span id="LST257334DA_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_KMeans_Randomize.htm">Randomize</a></td><td><div class="summary">
+              Randomizes the clusters inside a dataset.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_KMeans.htm">KMeans</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
+              Checks whether an object implements a method with the given name.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST257334DA_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_36?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST257334DA_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_37?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST257334DA_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_38?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST257334DA_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_39?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST257334DA_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_40?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST257334DA_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_41?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
+              The Balanced k-Means algorithm attempts to find a clustering where each cluster
+              has approximately the same number of data points. The Balanced k-Means implementation
+              used in the framework uses the <a href="T_Accord_Math_Optimization_Munkres.htm">Munkres</a> algorithm to solve the assignment
+              problem thus enforcing balance between the clusters.</p><p>
+              Note: the <a href="M_Accord_MachineLearning_BalancedKMeans_Learn.htm">Learn(<span id="LST257334DA_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_42?cpp=array&lt;");</script><span id="LST257334DA_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_43?cpp=array&lt;");</script>Double<span id="LST257334DA_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_44?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_45?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST257334DA_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_46?cpp=array&lt;");</script>Double<span id="LST257334DA_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_47?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a> method of this class will
+              return the centroids of balanced clusters, but please note that these centroids
+              cannot be used to obtain balanced clusterings for another (or even the same) data 
+              set. Instead, in order to inspect the balanced clustering that has been obtained
+              after calling <a href="M_Accord_MachineLearning_BalancedKMeans_Learn.htm">Learn(<span id="LST257334DA_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_48?cpp=array&lt;");</script><span id="LST257334DA_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_49?cpp=array&lt;");</script>Double<span id="LST257334DA_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_50?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST257334DA_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_51?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST257334DA_52"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_52?cpp=array&lt;");</script>Double<span id="LST257334DA_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_53?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>, please take a look at the
+              contents of the <a href="P_Accord_MachineLearning_BalancedKMeans_Labels.htm">Labels</a> property.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection">
+              How to perform clustering with Balanced K-Means.
+              
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAADBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAADBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAADBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Declare some observations</span>
+<span class="highlight-keyword">double</span>[][] observations =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-5</span>, <span class="highlight-number">-2</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-5</span>, <span class="highlight-number">-5</span>, <span class="highlight-number">-6</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">2</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span>,  <span class="highlight-number">2</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">3</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">11</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">4</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">15</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">6</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">6</span> },
+};
+
+<span class="highlight-keyword">double</span>[][] orig = observations.MemberwiseClone();
+
+<span class="highlight-comment">// Create a new K-Means algorithm with 3 clusters </span>
+BalancedKMeans kmeans = <span class="highlight-keyword">new</span> BalancedKMeans(<span class="highlight-number">3</span>)
+{
+    <span class="highlight-comment">// Note: in balanced k-means the chances of the algorithm oscillating</span>
+    <span class="highlight-comment">// between two solutions increases considerably. For this reason, we </span>
+    <span class="highlight-comment">// set a max-iterations limit to avoid iterating indefinitely.</span>
+    MaxIterations = <span class="highlight-number">100</span>
+};
+
+<span class="highlight-comment">// Compute the algorithm, retrieving an integer array</span>
+<span class="highlight-comment">//  containing the labels for each of the observations</span>
+KMeansClusterCollection clusters = kmeans.Learn(observations);
+
+<span class="highlight-comment">// As a result, the first two observations should belong to the</span>
+<span class="highlight-comment">//  same cluster (thus having the same label). The same should</span>
+<span class="highlight-comment">//  happen to the next four observations and to the last three.</span>
+<span class="highlight-keyword">int</span>[] labels = clusters.Decide(observations);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAADBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_KMeans.htm">Accord.MachineLearning<span id="LST257334DA_54"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_54?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KMeans</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_BinarySplit.htm">Accord.MachineLearning<span id="LST257334DA_55"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_55?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BinarySplit</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_GaussianMixtureModel.htm">Accord.MachineLearning<span id="LST257334DA_56"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST257334DA_56?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GaussianMixtureModel</a></div></div></div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

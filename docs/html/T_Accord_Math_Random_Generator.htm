@@ -36,7 +36,9 @@
             <td class="logoColumn">
               <img alt="Accord.NET (logo)" src="../icons/logo.png" />
             </td>
-            <td class="titleColumn">Generator Class</td>
+            <td class="titleColumn">
+              <h1>Generator Class</h1>
+            </td>
           </tr>
         </table>
         <span class="introStyle"></span> <div class="summary">
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Math_Random.htm">Accord.Math.Random</a><br />
     <strong>Assembly:</strong>
-   Accord.Math (in Accord.Math.dll) Version: 3.4.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="identifier">Generator</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">Generator</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+   Accord.Math (in Accord.Math.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="identifier">Generator</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">Generator</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
 		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
@@ -63,9 +65,14 @@
 		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
 		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Math/Random/Generator.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">Generator</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
-							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Accord_Math_Random_Generator_Random.htm">Random</a></td><td><div class="summary">
-              Gets a reference to the random number generator used
-              internally by the Accord.NET classes and methods.
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Accord_Math_Random_Generator_LastUpdateTicks.htm">LastUpdateTicks</a></td><td><div class="summary">
+              Gets the timestamp for when the global random generator
+              was last changed (i.e. after setting <a href="P_Accord_Math_Random_Generator_Seed.htm">Seed</a>).
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Accord_Math_Random_Generator_Random.htm">Random</a></td><td><div class="summary">
+              Gets a reference to the random number generator used internally by 
+              the Accord.NET classes and methods. Objects retrieved from this property
+              should not be shared across threads. Instead, call this property from
+              each thread you would like to use a random generator for.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Accord_Math_Random_Generator_Seed.htm">Seed</a></td><td><div class="summary">
               Sets a random seed for the framework's main <a href="P_Accord_Math_Random_Generator_Random.htm">internal number 
               generator</a>. Preferably, this method should be called <b>before</b> other 
@@ -73,6 +80,14 @@
               start with the same fixed seed, <b>even among multiple threads</b>. If set to any 
               other value, the generators in other threads will start with fixed, but different, 
               seeds.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Accord_Math_Random_Generator_ThreadLastUpdateTicks.htm">ThreadLastUpdateTicks</a></td><td><div class="summary">
+              Gets the timestamp for when the thread random generator was last 
+              changed (i.e. after creating the first random generator in this 
+              thread context or by setting <a href="P_Accord_Math_Random_Generator_ThreadSeed.htm">ThreadSeed</a>).
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Accord_Math_Random_Generator_ThreadSeed.htm">ThreadSeed</a></td><td><div class="summary">
+              Gets or sets the seed for the current thread. Changing
+              this seed will not impact other threads or generators
+              that have already been created from this thread.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID4RBSection" class="collapsibleSection"><p>
               By setting <a href="P_Accord_Math_Random_Generator_Seed.htm">Seed</a> to a given value, it is possible to adjust how
               random numbers are generated within the framework. Preferably, this property

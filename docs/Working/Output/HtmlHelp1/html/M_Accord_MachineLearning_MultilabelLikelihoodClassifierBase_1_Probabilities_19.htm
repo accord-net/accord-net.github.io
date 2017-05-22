@@ -1,0 +1,80 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MultilabelLikelihoodClassifierBase(TInput).Probabilities Method (TInput[], Double[][], Double[][])</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:Accord.MachineLearning.MultilabelLikelihoodClassifierBase`1.Probabilities(`0[],System.Double[][]@,System.Double[][])" />
+    <meta name="Description" content="Predicts a class label vector for each input vector, returning the probabilities of the input vector belonging to each possible class." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.MachineLearning" />
+    <meta name="file" content="M_Accord_MachineLearning_MultilabelLikelihoodClassifierBase_1_Probabilities_19" />
+    <meta name="guid" content="M_Accord_MachineLearning_MultilabelLikelihoodClassifierBase_1_Probabilities_19" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Help1.css" />
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework</div>
+    <div class="pageBody">
+      <div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">
+              <h1>MultilabelLikelihoodClassifierBase<span id="LST897C1497_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TInput</span><span id="LST897C1497_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST897C1497_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_2?cpp=::|nu=.");</script>Probabilities Method (<span id="LST897C1497_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_3?cpp=array&lt;");</script><span class="typeparameter">TInput</span><span id="LST897C1497_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_4?cpp=&gt;|vb=()|nu=[]");</script>, <span id="LST897C1497_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_5?cpp=array&lt;");</script><span id="LST897C1497_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_6?cpp=array&lt;");</script>Double<span id="LST897C1497_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_7?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_8?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_9?cpp=%");</script>, <span id="LST897C1497_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_10?cpp=array&lt;");</script><span id="LST897C1497_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_11?cpp=array&lt;");</script>Double<span id="LST897C1497_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_12?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_13?cpp=&gt;|vb=()|nu=[]");</script>)</h1>
+            </td>
+          </tr>
+        </table>
+        <span class="introStyle"></span> <div class="summary">
+            Predicts a class label vector for each input vector, returning the
+            probabilities of the input vector belonging to each possible class.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
+    <strong>Assembly:</strong>
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">double</span>[][] <span class="identifier">Probabilities</span>(
+	TInput[] <span class="parameter">input</span>,
+	<span class="keyword">ref</span> <span class="identifier">double</span>[][] <span class="parameter">decision</span>,
+	<span class="identifier">double</span>[][] <span class="parameter">result</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">Probabilities</span> ( 
+	<span class="parameter">input</span> <span class="keyword">As</span> TInput(),
+	<span class="keyword">ByRef</span> <span class="parameter">decision</span> <span class="keyword">As</span> <span class="identifier">Double</span>()(),
+	<span class="parameter">result</span> <span class="keyword">As</span> <span class="identifier">Double</span>()()
+) <span class="keyword">As</span> <span class="identifier">Double</span>()()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Statistics/Accord.MachineLearning/Classifiers/Multiple/Multilabel/MultilabelLikelihoodClassifierBase.cs#L915" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">input</span></dt><dd>Type: <span id="LST897C1497_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_14?cpp=array&lt;");</script><a href="T_Accord_MachineLearning_MultilabelLikelihoodClassifierBase_1.htm"><span class="typeparameter">TInput</span></a><span id="LST897C1497_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_15?cpp=&gt;|vb=()|nu=[]");</script><br />A set of input vectors.</dd><dt><span class="parameter">decision</span></dt><dd>Type: <span id="LST897C1497_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_16?cpp=array&lt;");</script><span id="LST897C1497_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_17?cpp=array&lt;");</script><span class="nolink">System<span id="LST897C1497_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_18?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</span><span id="LST897C1497_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_19?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_20?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_21?cpp=%");</script><br />The labels predicted by the classifier.</dd><dt><span class="parameter">result</span></dt><dd>Type: <span id="LST897C1497_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_22?cpp=array&lt;");</script><span id="LST897C1497_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_23?cpp=array&lt;");</script><span class="nolink">System<span id="LST897C1497_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_24?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</span><span id="LST897C1497_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_25?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_26?cpp=&gt;|vb=()|nu=[]");</script><br />An array where the probabilities will be stored,
+              avoiding unnecessary memory allocations.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LST897C1497_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_27?cpp=array&lt;");</script><span id="LST897C1497_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_28?cpp=array&lt;");</script><span class="nolink">Double</span><span id="LST897C1497_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_29?cpp=&gt;|vb=()|nu=[]");</script><span id="LST897C1497_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_30?cpp=&gt;|vb=()|nu=[]");</script><h4 class="subHeading">Implements</h4><a href="M_Accord_MachineLearning_IMultilabelLikelihoodClassifier_2_Probabilities_1.htm">IMultilabelLikelihoodClassifier<span id="LST897C1497_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_31?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TClasses<span id="LST897C1497_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_32?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LST897C1497_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_33?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Probabilities(<span id="LST897C1497_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_34?cpp=array&lt;");</script>TInput<span id="LST897C1497_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_35?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST897C1497_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_36?cpp=array&lt;");</script>TClasses<span id="LST897C1497_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST897C1497_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_38?cpp=%");</script>, <span id="LST897C1497_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_39?cpp=array&lt;");</script><span id="LST897C1497_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_40?cpp=array&lt;");</script>Double<span id="LST897C1497_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_41?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST897C1497_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_42?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a><br /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_MultilabelLikelihoodClassifierBase_1.htm">MultilabelLikelihoodClassifierBase<span id="LST897C1497_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_43?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput<span id="LST897C1497_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST897C1497_44?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script> Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_MachineLearning_MultilabelLikelihoodClassifierBase_1_Probabilities.htm">Probabilities Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
