@@ -1,0 +1,421 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>GridSearch(TModel, TRange, TLearner, TInput, TOutput) Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="GridSearch%3CTModel%2C TRange%2C TLearner%2C TInput%2C TOutput%3E class" />
+    <meta name="System.Keywords" content="Accord.MachineLearning.Performance.GridSearch%3CTModel%2C TRange%2C TLearner%2C TInput%2C TOutput%3E class" />
+    <meta name="System.Keywords" content="GridSearch%3CTModel%2C TRange%2C TLearner%2C TInput%2C TOutput%3E class, about GridSearch%3CTModel%2C TRange%2C TLearner%2C TInput%2C TOutput%3E class" />
+    <meta name="System.Keywords" content="GridSearch(Of TModel%2C TRange%2C TLearner%2C TInput%2C TOutput) class" />
+    <meta name="System.Keywords" content="Accord.MachineLearning.Performance.GridSearch(Of TModel%2C TRange%2C TLearner%2C TInput%2C TOutput) class" />
+    <meta name="System.Keywords" content="GridSearch(Of TModel%2C TRange%2C TLearner%2C TInput%2C TOutput) class, about GridSearch(Of TModel%2C TRange%2C TLearner%2C TInput%2C TOutput) class" />
+    <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.Performance.GridSearch`5" />
+    <meta name="Microsoft.Help.Id" content="T:Accord.MachineLearning.Performance.GridSearch`5" />
+    <meta name="Description" content="Grid search procedure for automatic parameter tuning." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.MachineLearning.Performance" />
+    <meta name="file" content="T_Accord_MachineLearning_Performance_GridSearch_5" />
+    <meta name="guid" content="T_Accord_MachineLearning_Performance_GridSearch_5" />
+    
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning_Performance.htm" title="Accord.MachineLearning.Performance" tocid="N_Accord_MachineLearning_Performance">Accord.MachineLearning.Performance</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_Performance_GridSearch_5.htm" title="GridSearch(TModel, TRange, TLearner, TInput, TOutput) Class" tocid="T_Accord_MachineLearning_Performance_GridSearch_5">GridSearch(TModel, TRange, TLearner, TInput, TOutput) Class</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_MachineLearning_Performance_GridSearch_5__ctor.htm" title="GridSearch(TModel, TRange, TLearner, TInput, TOutput) Constructor " tocid="M_Accord_MachineLearning_Performance_GridSearch_5__ctor">GridSearch(TModel, TRange, TLearner, TInput, TOutput) Constructor </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="Properties_T_Accord_MachineLearning_Performance_GridSearch_5.htm" title="GridSearch(TModel, TRange, TLearner, TInput, TOutput) Properties" tocid="Properties_T_Accord_MachineLearning_Performance_GridSearch_5">GridSearch(TModel, TRange, TLearner, TInput, TOutput) Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_MachineLearning_Performance_GridSearch_5.htm" title="GridSearch(TModel, TRange, TLearner, TInput, TOutput) Methods" tocid="Methods_T_Accord_MachineLearning_Performance_GridSearch_5">GridSearch(TModel, TRange, TLearner, TInput, TOutput) Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">
+              <h1>GridSearch<span id="LSTEB0FCDFA_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TModel</span>, <span class="typeparameter">TRange</span>, <span class="typeparameter">TLearner</span>, <span class="typeparameter">TInput</span>, <span class="typeparameter">TOutput</span><span id="LSTEB0FCDFA_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Class</h1>
+            </td>
+          </tr>
+        </table>
+        <span class="introStyle"></span> <div class="summary">
+              Grid search procedure for automatic parameter tuning.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LSTEB0FCDFA_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <a href="T_Accord_MachineLearning_ParallelLearningBase.htm">Accord.MachineLearning<span id="LSTEB0FCDFA_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ParallelLearningBase</a><br />    <a href="T_Accord_MachineLearning_Performance_BaseGridSearch_7.htm">Accord.MachineLearning.Performance<span id="LSTEB0FCDFA_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BaseGridSearch</a><span id="LSTEB0FCDFA_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_5?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="T_Accord_MachineLearning_Performance_GridSearchResult_4.htm">GridSearchResult</a><span id="LSTEB0FCDFA_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TModel</span></span>, <span class="selflink"><span class="typeparameter">TRange</span></span>, <span class="selflink"><span class="typeparameter">TInput</span></span>, <span class="selflink"><span class="typeparameter">TOutput</span></span><span id="LSTEB0FCDFA_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span class="selflink"><span class="typeparameter">TModel</span></span>, <span class="selflink"><span class="typeparameter">TRange</span></span>, <span class="selflink"><span class="typeparameter">TRange</span></span>, <span class="selflink"><span class="typeparameter">TLearner</span></span>, <span class="selflink"><span class="typeparameter">TInput</span></span>, <span class="selflink"><span class="typeparameter">TOutput</span></span><span id="LSTEB0FCDFA_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />      <span class="selflink">Accord.MachineLearning.Performance<span id="LSTEB0FCDFA_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GridSearch<span id="LSTEB0FCDFA_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_10?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TRange, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_11?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_MachineLearning_Performance.htm">Accord.MachineLearning.Performance</a><br />
+    <strong>Assembly:</strong>
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">GridSearch</span>&lt;TModel, TRange, TLearner, TInput, TOutput&gt; : <span class="identifier">BaseGridSearch</span>&lt;<span class="identifier">GridSearchResult</span>&lt;TModel, TRange, TInput, TOutput&gt;, TModel, TRange, TRange, TLearner, TInput, TOutput&gt;
+<span class="keyword">where</span> TModel : <span class="keyword">class</span>, <span class="identifier">Object</span>, <span class="identifier">ITransform</span>&lt;TInput, TOutput&gt;
+<span class="keyword">where</span> TLearner : <span class="identifier">Object</span>, <span class="identifier">ISupervisedLearning</span>&lt;TModel, TInput, TOutput&gt;
+</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">GridSearch</span>(<span class="keyword">Of</span> TModel <span class="keyword">As</span> {<span class="keyword">Class</span>, <span class="identifier">Object</span>, <span class="identifier">ITransform</span>(<span class="keyword">Of</span> TInput, TOutput)}, TRange, TLearner <span class="keyword">As</span> {<span class="identifier">Object</span>, <span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> TModel, TInput, TOutput)}, TInput, TOutput)
+	<span class="keyword">Inherits</span> <span class="identifier">BaseGridSearch</span>(<span class="keyword">Of</span> <span class="identifier">GridSearchResult</span>(<span class="keyword">Of</span> TModel, TRange, TInput, TOutput), TModel, TRange, TRange, TLearner, TInput, TOutput)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Performance/GridSearch/New/GridSearch%605.cs" title="View the source code">View Source</a><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameter">TModel</span></dt><dd>The type of the machine learning model whose parameters should be searched.</dd><dt><span class="parameter">TRange</span></dt><dd>The type that specifies how ranges of the parameter values are represented.</dd><dt><span class="parameter">TLearner</span></dt><dd>The type of the learning algorithm used to learn <span class="typeparameter">TModel</span>.</dd><dt><span class="parameter">TInput</span></dt><dd>The type of the input data. Default is double[].</dd><dt><span class="parameter">TOutput</span></dt><dd>The type of the output data. Default is int.</dd></dl></div><p>The <span class="selflink">GridSearch<span id="LSTEB0FCDFA_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_12?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TRange, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_13?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_Performance_GridSearch_5__ctor.htm">GridSearch<span id="LSTEB0FCDFA_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_14?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TRange, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_15?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">GridSearch<span id="LSTEB0FCDFA_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_16?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TRange, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_17?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span> class.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_Fit.htm">Fit</a></td><td><div class="summary">
+              Gets or sets a <a href="T_Accord_MachineLearning_Performance_LearnNewModel_4.htm">LearnNewModel<span id="LSTEB0FCDFA_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_18?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TLearner, TInput, TOutput, TModel<span id="LSTEB0FCDFA_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_19?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> function that can be used to create
+              new machine learning models using the current
+              learning algorithm.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Performance_BaseGridSearch_7.htm">BaseGridSearch<span id="LSTEB0FCDFA_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_20?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_21?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_Learner.htm">Learner</a></td><td><div class="summary">
+              Gets or sets a <a href="T_Accord_MachineLearning_Performance_CreateLearnerFromParameter_2.htm">CreateLearnerFromParameter<span id="LSTEB0FCDFA_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_22?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TLearner, TParam<span id="LSTEB0FCDFA_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_23?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> function 
+              that can be used to create a <span class="typeparameter">TModel</span> given training parameters.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Performance_BaseGridSearch_7.htm">BaseGridSearch<span id="LSTEB0FCDFA_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_24?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_25?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_Loss.htm">Loss</a></td><td><div class="summary">
+              Gets or sets a <a href="T_Accord_MachineLearning_Performance_ComputeLoss_2.htm">ComputeLoss<span id="LSTEB0FCDFA_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_26?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TOutput, TInfo<span id="LSTEB0FCDFA_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_27?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> function that can
+              be used to measure how far the actual model predictions were from the expected ground-truth.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Performance_BaseGridSearch_7.htm">BaseGridSearch<span id="LSTEB0FCDFA_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_28?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_29?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_ParallelLearningBase_ParallelOptions.htm">ParallelOptions</a></td><td><div class="summary">
+              Gets or sets the parallelization options for this algorithm.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ParallelLearningBase.htm">ParallelLearningBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_ParameterRanges.htm">ParameterRanges</a></td><td><div class="summary">
+              The range of parameters to consider during search.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Performance_BaseGridSearch_7.htm">BaseGridSearch<span id="LSTEB0FCDFA_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_30?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_31?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_ParallelLearningBase_Token.htm">Token</a></td><td><div class="summary">
+            Gets or sets a cancellation token that can be used
+            to cancel the algorithm while it is running.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_ParallelLearningBase.htm">ParallelLearningBase</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_Performance_GridSearch_5_GetLengths.htm">GetLengths</a></td><td><div class="summary">
+              Inheritors of this class should return the number of possible parameter values for
+              each parameter in the grid-search range. For example, if a problem should search
+              parameters in the range {0, 1, ... 9} (10 values) and {-1, -2, -3 } (3 values), this 
+              method should return { 10, 3 }.
+            </div> (Overrides <a href="M_Accord_MachineLearning_Performance_BaseGridSearch_7_GetLengths.htm">BaseGridSearch<span id="LSTEB0FCDFA_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_32?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_33?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTEB0FCDFA_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_34?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetLengths<span id="LSTEB0FCDFA_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_35?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_Performance_GridSearch_5_GetParameters.htm">GetParameters</a></td><td><div class="summary">
+              Inheritors of this class should specify how to get actual values for the parameters
+              given a index vector in the grid-search space. Those indices indicate which values
+              should be given, e.g. if there are two parameters in the problem, the ranges of the
+              first parameter are {10, 20, 30}, and the ranges of the second parameter are {0.1, 0.01, 0.001 },
+              if the index vector is { 1, 2 } this method should return { 20, 0.001 }.
+            </div> (Overrides <a href="M_Accord_MachineLearning_Performance_BaseGridSearch_7_GetParameters.htm">BaseGridSearch<span id="LSTEB0FCDFA_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_36?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_37?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTEB0FCDFA_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_38?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetParameters(<span id="LSTEB0FCDFA_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_39?cpp=array&lt;");</script>Int32<span id="LSTEB0FCDFA_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_40?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_Performance_BaseGridSearch_7_Learn.htm">Learn</a></td><td><div class="summary">
+            Learns a model that can map the given inputs to the given outputs.
+            </div> (Inherited from <a href="T_Accord_MachineLearning_Performance_BaseGridSearch_7.htm">BaseGridSearch<span id="LSTEB0FCDFA_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_41?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TResult, TModel, TRange, TParam, TLearner, TInput, TOutput<span id="LSTEB0FCDFA_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_42?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
+              Checks whether an object implements a method with the given name.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTEB0FCDFA_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_43?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTEB0FCDFA_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_44?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection">
+              Grid Search tries to find the best combination of parameters across a range of possible values that produces the best fit model. If there
+              are two parameters, each with 10 possible values, Grid Search will try an exhaustive evaluation of the model using every combination of points,
+              resulting in 100 model fits.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+                The framework offers different ways to use grid search: one version is strongly-typed using generics
+                and the other might need some manual casting. The exapmle below shows how to perform grid-search in
+                a non-stringly typed way:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAIABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAIABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAIABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Example binary data</span>
+<span class="highlight-keyword">double</span>[][] inputs =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> }
+};
+
+<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// xor labels</span>
+{
+    <span class="highlight-number">-1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">-1</span>
+};
+
+<span class="highlight-comment">// Instantiate a new Grid Search algorithm for Kernel Support Vector Machines</span>
+<span class="highlight-keyword">var</span> gridsearch = <span class="highlight-keyword">new</span> GridSearch&lt;SupportVectorMachine&lt;Polynomial&gt;, <span class="highlight-keyword">double</span>[], <span class="highlight-keyword">int</span>&gt;()
+{
+    <span class="highlight-comment">// Here we can specify the range of the parameters to be included in the search</span>
+    ParameterRanges = <span class="highlight-keyword">new</span> GridSearchRangeCollection()
+    {
+        <span class="highlight-keyword">new</span> GridSearchRange(<span class="highlight-literal">"complexity"</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span> } ),
+        <span class="highlight-keyword">new</span> GridSearchRange(<span class="highlight-literal">"degree"</span>,     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span>, <span class="highlight-number">5</span> } ),
+        <span class="highlight-keyword">new</span> GridSearchRange(<span class="highlight-literal">"constant"</span>,   <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span> } )
+    },
+
+    <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
+    Learner = (p) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;Polynomial&gt;
+    {
+        Complexity = p[<span class="highlight-literal">"complexity"</span>],
+        Kernel = <span class="highlight-keyword">new</span> Polynomial((<span class="highlight-keyword">int</span>)p[<span class="highlight-literal">"degree"</span>], p[<span class="highlight-literal">"constant"</span>])
+    },
+
+    <span class="highlight-comment">// Define how the performance of the models should be measured</span>
+    Loss = (actual, expected, m) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual)
+};
+
+<span class="highlight-comment">// If needed, control the degree of CPU parallelization</span>
+gridsearch.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Search for the best model parameters</span>
+<span class="highlight-keyword">var</span> result = gridsearch.Learn(inputs, xor);
+
+<span class="highlight-comment">// Get the best SVM found during the parameter search</span>
+SupportVectorMachine&lt;Polynomial&gt; svm = result.BestModel;
+
+<span class="highlight-comment">// Get an estimate for its error:</span>
+<span class="highlight-keyword">double</span> bestError = result.BestModelError;
+
+<span class="highlight-comment">// Get the best values found for the model parameters:</span>
+<span class="highlight-keyword">double</span> bestC = result.BestParameters[<span class="highlight-literal">"complexity"</span>].Value;
+<span class="highlight-keyword">double</span> bestDegree = result.BestParameters[<span class="highlight-literal">"degree"</span>].Value;
+<span class="highlight-keyword">double</span> bestConstant = result.BestParameters[<span class="highlight-literal">"constant"</span>].Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAIABA");</script><p>
+                The main disadvantages of the method above is the need to keep string identifiers for each of the parameters
+                being searched. Furthermore, it is also necessary to keep track of their types in order to cast them accordingly
+                when using them in the specification of the <a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_Learner.htm">Learner</a>
+                property. </p><p>    
+                The next example shows how to perform grid-search in a strongly typed way:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAFABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAFABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAFABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code showing how to use Grid-Search in combination with </span>
+<span class="highlight-comment">// Cross-Validation  to assess the performance of Support Vector Machines.</span>
+
+<span class="highlight-comment">// Consider the example binary data. We will be trying to learn a XOR </span>
+<span class="highlight-comment">// problem and see how well does SVMs perform on this data.</span>
+
+<span class="highlight-keyword">double</span>[][] inputs =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+};
+
+<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// result of xor for the sample input data</span>
+{
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+};
+
+<span class="highlight-comment">// Create a new Grid-Search with Cross-Validation algorithm. Even though the</span>
+<span class="highlight-comment">// generic, strongly-typed approach used accross the framework is most of the</span>
+<span class="highlight-comment">// time easier to handle, meta-algorithms such as grid-search can be a bit hard</span>
+<span class="highlight-comment">// to setup. For this reason. the framework offers a specialized method for it:</span>
+<span class="highlight-keyword">var</span> gridsearch = GridSearch&lt;<span class="highlight-keyword">double</span>[], <span class="highlight-keyword">int</span>&gt;.Create(
+
+    <span class="highlight-comment">// Here we can specify the range of the parameters to be included in the search</span>
+    ranges: <span class="highlight-keyword">new</span>
+    {
+        Kernel = GridSearch.Range(<span class="highlight-keyword">new</span> IKernel[] { <span class="highlight-keyword">new</span> Linear(), <span class="highlight-keyword">new</span> ChiSquare(), <span class="highlight-keyword">new</span> Gaussian(), <span class="highlight-keyword">new</span> Sigmoid() }),
+        Complexity = GridSearch.Range(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span> }),
+        Tolerance = GridSearch.Range(Vector.Range(<span class="highlight-number">1</span>e<span class="highlight-number">-10</span>, <span class="highlight-number">1.0</span>, stepSize: <span class="highlight-number">0.05</span>))
+    },
+
+    <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
+    learner: (p) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;IKernel&gt;
+    {
+        Complexity = p.Complexity,
+        Kernel = p.Kernel.Value,
+        Tolerance = p.Tolerance
+    },
+
+    <span class="highlight-comment">// Define how the model should be learned, if needed</span>
+    fit: (teacher, x, y, w) =&gt; teacher.Learn(x, y, w),
+
+    <span class="highlight-comment">// Define how the performance of the models should be measured</span>
+    loss: (actual, expected, m) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual)
+);
+
+<span class="highlight-comment">// If needed, control the degree of CPU parallelization</span>
+gridsearch.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Search for the best model parameters</span>
+<span class="highlight-keyword">var</span> result = gridsearch.Learn(inputs, xor);
+
+<span class="highlight-comment">// Get the best SVM:</span>
+SupportVectorMachine&lt;IKernel&gt; svm = result.BestModel;
+
+<span class="highlight-comment">// Estimate its error:</span>
+<span class="highlight-keyword">double</span> bestError = result.BestModelError;
+
+<span class="highlight-comment">// Get the best values for the parameters:</span>
+<span class="highlight-keyword">double</span> bestC = result.BestParameters.Complexity;
+<span class="highlight-keyword">double</span> bestTolerance = result.BestParameters.Tolerance;
+IKernel bestKernel = result.BestParameters.Kernel.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAFABA");</script><p>
+                The code above uses anonymous types and generics to create a specialized <a href="T_Accord_MachineLearning_Performance_GridSearch_3.htm">GridSearch<span id="LSTEB0FCDFA_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_45?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput, TOutput<span id="LSTEB0FCDFA_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_46?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+                class that keeps the anonymous type given as <a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_ParameterRanges.htm">ParameterRanges</a>.
+                Its main disadvantage is the (high) increase in type complexity, making the use of the <span class="code">var</span> keyword almost
+                mandatory.</p><p>
+                It is also possible to create grid-search objects using convenience methods from the static <a href="T_Accord_MachineLearning_Performance_GridSearch.htm">GridSearch</a> class:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Example binary data</span>
+<span class="highlight-keyword">double</span>[][] inputs =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> }
+};
+
+<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// xor labels</span>
+{
+    <span class="highlight-number">-1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">-1</span>
+};
+
+<span class="highlight-comment">// Instantiate a new Grid Search algorithm for Kernel Support Vector Machines</span>
+<span class="highlight-keyword">var</span> gridsearch = GridSearch&lt;<span class="highlight-keyword">double</span>[], <span class="highlight-keyword">int</span>&gt;.Create(
+
+    ranges: <span class="highlight-keyword">new</span> GridSearchRange[]
+    {
+        <span class="highlight-keyword">new</span> GridSearchRange(<span class="highlight-literal">"complexity"</span>, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span> } ),
+        <span class="highlight-keyword">new</span> GridSearchRange(<span class="highlight-literal">"degree"</span>,     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span>, <span class="highlight-number">5</span> } ),
+        <span class="highlight-keyword">new</span> GridSearchRange(<span class="highlight-literal">"constant"</span>,   <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span> } )
+    },
+
+    learner: (p) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;Polynomial&gt;
+    {
+        Complexity = p[<span class="highlight-literal">"complexity"</span>],
+        Kernel = <span class="highlight-keyword">new</span> Polynomial((<span class="highlight-keyword">int</span>)p[<span class="highlight-literal">"degree"</span>].Value, p[<span class="highlight-literal">"constant"</span>])
+    },
+
+    <span class="highlight-comment">// Define how the model should be learned, if needed</span>
+    fit: (teacher, x, y, w) =&gt; teacher.Learn(x, y, w),
+
+    <span class="highlight-comment">// Define how the performance of the models should be measured</span>
+    loss: (actual, expected, m) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual)
+);
+
+<span class="highlight-comment">// If needed, control the degree of CPU parallelization</span>
+gridsearch.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Search for the best model parameters</span>
+<span class="highlight-keyword">var</span> result = gridsearch.Learn(inputs, xor);
+
+<span class="highlight-comment">// Get the best SVM generated during the search</span>
+SupportVectorMachine&lt;Polynomial&gt; svm = result.BestModel;
+
+<span class="highlight-comment">// Get an estimate for its error:</span>
+<span class="highlight-keyword">double</span> bestError = result.BestModelError;
+
+<span class="highlight-comment">// Get the best values for its parameters:</span>
+<span class="highlight-keyword">double</span> bestC = result.BestParameters[<span class="highlight-literal">"complexity"</span>].Value;
+<span class="highlight-keyword">double</span> bestDegree = result.BestParameters[<span class="highlight-literal">"degree"</span>].Value;
+<span class="highlight-keyword">double</span> bestConstant = result.BestParameters[<span class="highlight-literal">"constant"</span>].Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><p>
+                Finally, it is also possible to combine grid-search with <a href="T_Accord_MachineLearning_Performance_CrossValidation_3.htm">CrossValidation<span id="LSTEB0FCDFA_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_47?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput, TOutput<span id="LSTEB0FCDFA_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDFA_48?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, as shown
+                in the example below: </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code showing how to use Grid-Search in combination with </span>
+<span class="highlight-comment">// Cross-Validation  to assess the performance of Support Vector Machines.</span>
+
+<span class="highlight-comment">// Consider the example binary data. We will be trying to learn a XOR </span>
+<span class="highlight-comment">// problem and see how well does SVMs perform on this data.</span>
+
+<span class="highlight-keyword">double</span>[][] inputs =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+};
+
+<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// result of xor for the sample input data</span>
+{
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+};
+
+<span class="highlight-comment">// Create a new Grid-Search with Cross-Validation algorithm. Even though the</span>
+<span class="highlight-comment">// generic, strongly-typed approach used accross the framework is most of the</span>
+<span class="highlight-comment">// time easier to handle, combining those both methods in a single call can be</span>
+<span class="highlight-comment">// difficult. For this reason. the framework offers a specialized method for</span>
+<span class="highlight-comment">// combining those two algorirthms:</span>
+<span class="highlight-keyword">var</span> gscv = GridSearch&lt;<span class="highlight-keyword">double</span>[], <span class="highlight-keyword">int</span>&gt;.CrossValidate(
+
+    <span class="highlight-comment">// Here we can specify the range of the parameters to be included in the search</span>
+    ranges: <span class="highlight-keyword">new</span>
+    {
+        Complexity = GridSearch.Range(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span> }),
+        Degree = GridSearch.Range(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span>, <span class="highlight-number">5</span> }),
+        Constant = GridSearch.Range(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span> }),
+    },
+
+    <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
+    learner: (p, ss) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;Polynomial&gt;
+    {
+        <span class="highlight-comment">// Here, we can use the parameters we have specified above:</span>
+        Complexity = p.Complexity,
+        Kernel = <span class="highlight-keyword">new</span> Polynomial(p.Degree, p.Constant)
+    },
+
+    <span class="highlight-comment">// Define how the model should be learned, if needed</span>
+    fit: (teacher, x, y, w) =&gt; teacher.Learn(x, y, w),
+
+    <span class="highlight-comment">// Define how the performance of the models should be measured</span>
+    loss: (actual, expected, r) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual),
+
+    folds: <span class="highlight-number">3</span> <span class="highlight-comment">// use k = 3 in k-fold cross validation</span>
+);
+
+<span class="highlight-comment">// If needed, control the parallelization degree</span>
+gscv.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Search for the best vector machine</span>
+<span class="highlight-keyword">var</span> result = gscv.Learn(inputs, xor);
+
+<span class="highlight-comment">// Get the best cross-validation result:</span>
+<span class="highlight-keyword">var</span> crossValidation = result.BestModel;
+
+<span class="highlight-comment">// Estimate its error:</span>
+<span class="highlight-keyword">double</span> bestError = result.BestModelError;
+<span class="highlight-keyword">double</span> trainError = result.BestModel.Training.Mean;
+<span class="highlight-keyword">double</span> trainErrorVar = result.BestModel.Training.Variance;
+<span class="highlight-keyword">double</span> valError = result.BestModel.Validation.Mean;
+<span class="highlight-keyword">double</span> valErrorVar = result.BestModel.Validation.Variance;
+
+<span class="highlight-comment">// Get the best values for the parameters:</span>
+<span class="highlight-keyword">double</span> bestC = result.BestParameters.Complexity;
+<span class="highlight-keyword">double</span> bestDegree = result.BestParameters.Degree;
+<span class="highlight-keyword">double</span> bestConstant = result.BestParameters.Constant;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_Performance.htm">Accord.MachineLearning.Performance Namespace</a></div></div></div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
