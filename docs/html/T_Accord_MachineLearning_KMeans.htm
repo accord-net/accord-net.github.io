@@ -49,15 +49,15 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
-<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">KMeans</span> : <span class="identifier">ParallelLearningBase</span>, <span class="identifier">IClusteringAlgorithm</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, 
-	<span class="identifier">IClusteringAlgorithm</span>&lt;<span class="identifier">double</span>[]&gt;, <span class="identifier">IUnsupervisedLearning</span>&lt;<span class="identifier">IClusterCollection</span>&lt;<span class="identifier">double</span>[]&gt;, <span class="identifier">double</span>[], <span class="identifier">int</span>&gt;, 
-	<span class="identifier">IUnsupervisedLearning</span>&lt;<span class="identifier">KMeansClusterCollection</span>, <span class="identifier">double</span>[], <span class="identifier">int</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">KMeans</span> : <span class="identifier">ParallelLearningBase</span>, <span class="identifier">IUnsupervisedLearning</span>&lt;<span class="identifier">KMeansClusterCollection</span>, <span class="identifier">double</span>[], <span class="identifier">int</span>&gt;, 
+	<span class="identifier">IClusteringAlgorithm</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, <span class="identifier">IClusteringAlgorithm</span>&lt;<span class="identifier">double</span>[]&gt;, 
+	<span class="identifier">IUnsupervisedLearning</span>&lt;<span class="identifier">IClusterCollection</span>&lt;<span class="identifier">double</span>[]&gt;, <span class="identifier">double</span>[], <span class="identifier">int</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">KMeans</span>
 	<span class="keyword">Inherits</span> <span class="identifier">ParallelLearningBase</span>
-	<span class="keyword">Implements</span> <span class="identifier">IClusteringAlgorithm</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>(), <span class="identifier">Double</span>), 
-	<span class="identifier">IClusteringAlgorithm</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>()), <span class="identifier">IUnsupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">IClusterCollection</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>()), <span class="identifier">Double</span>(), <span class="identifier">Integer</span>), 
-	<span class="identifier">IUnsupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">KMeansClusterCollection</span>, <span class="identifier">Double</span>(), <span class="identifier">Integer</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+	<span class="keyword">Implements</span> <span class="identifier">IUnsupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">KMeansClusterCollection</span>, <span class="identifier">Double</span>(), <span class="identifier">Integer</span>), 
+	<span class="identifier">IClusteringAlgorithm</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>(), <span class="identifier">Double</span>), <span class="identifier">IClusteringAlgorithm</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>()), 
+	<span class="identifier">IUnsupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">IClusterCollection</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>()), <span class="identifier">Double</span>(), <span class="identifier">Integer</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
 		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
@@ -82,9 +82,7 @@
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Centroids.htm">Centroids</a></td><td><div class="summary">
-              Gets or sets the cluster centroids. Setting this property is equivalent
-              to setting <a href="P_Accord_MachineLearning_ClusterCollection_3_Centroids.htm">
-              KMeans.Clusters.Centroids</a>.
+              Gets or sets the cluster centroids. 
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_Clusters.htm">Clusters</a></td><td><div class="summary">
               Gets the clusters found by K-means.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_KMeans_ComputeCovariances.htm">ComputeCovariances</a></td><td><div class="summary">
@@ -132,7 +130,9 @@
               Divides the input data into K clusters. 
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_KMeans_Compute_2.htm">Compute(<span id="LST7A3C7964_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_24?cpp=array&lt;");</script><span id="LST7A3C7964_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_25?cpp=array&lt;");</script>Double<span id="LST7A3C7964_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_26?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST7A3C7964_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST7A3C7964_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_28?cpp=array&lt;");</script>Double<span id="LST7A3C7964_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
               Divides the input data into K clusters. 
-            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_KMeans_ComputeInformation.htm">ComputeInformation</a></td><td><div class="summary">
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_KMeans_ComputeInformation.htm">ComputeInformation(<span id="LST7A3C7964_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_30?cpp=array&lt;");</script><span id="LST7A3C7964_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_31?cpp=array&lt;");</script>Double<span id="LST7A3C7964_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_32?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST7A3C7964_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Computes the information about each cluster (covariance, proportions and error).
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_KMeans_ComputeInformation_1.htm">ComputeInformation(<span id="LST7A3C7964_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_34?cpp=array&lt;");</script><span id="LST7A3C7964_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_35?cpp=array&lt;");</script>Double<span id="LST7A3C7964_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_36?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST7A3C7964_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_37?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST7A3C7964_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_38?cpp=array&lt;");</script>Int32<span id="LST7A3C7964_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
             Computes the information about each cluster (covariance, proportions and error).
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Accord_MachineLearning_KMeans_converged.htm">converged</a></td><td><div class="summary">
               Determines if the algorithm has converged by comparing the
@@ -145,15 +145,11 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST7A3C7964_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST7A3C7964_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST7A3C7964_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_32?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST7A3C7964_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_40?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST7A3C7964_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_41?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST7A3C7964_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_33?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST7A3C7964_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_34?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST7A3C7964_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_35?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
-              Converts an object into another type, irrespective of whether
-              the conversion can be done at compile time or not. This can be
-              used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
                In statistics and machine learning, k-means clustering is a method
                of cluster analysis which aims to partition n observations into k 
                clusters in which each observation belongs to the cluster with the
@@ -183,9 +179,8 @@
                    Wikipedia, The Free Encyclopedia. K-means clustering. Available on:
                    http://en.wikipedia.org/wiki/K-means_clustering </li><li>
                    Matteo Matteucci. A Tutorial on Clustering Algorithms. Available on:
-                   http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/kmeans.html </li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection">
-               How to perform clustering with K-Means.
-               <div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+                   http://home.dei.polimi.it/matteucc/Clustering/tutorial_html/kmeans.html </li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+               How to perform clustering with K-Means.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAKDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAKDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAKDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
 
 <span class="highlight-comment">// Declare some observations</span>
 <span class="highlight-keyword">double</span>[][] observations =
@@ -201,56 +196,145 @@
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">6</span> },
 };
 
-<span class="highlight-keyword">double</span>[][] orig = observations.MemberwiseClone();
+<span class="highlight-comment">// Create a new K-Means algorithm</span>
+KMeans kmeans = <span class="highlight-keyword">new</span> KMeans(k: <span class="highlight-number">3</span>);
 
-<span class="highlight-comment">// Create a new K-Means algorithm with 3 clusters </span>
-KMeans kmeans = <span class="highlight-keyword">new</span> KMeans(<span class="highlight-number">3</span>);
+<span class="highlight-comment">// Compute and retrieve the data centroids</span>
+<span class="highlight-keyword">var</span> clusters = kmeans.Learn(observations);
 
-<span class="highlight-comment">// Compute the algorithm, retrieving an integer array</span>
-<span class="highlight-comment">//  containing the labels for each of the observations</span>
-KMeansClusterCollection clusters = kmeans.Learn(observations);
+<span class="highlight-comment">// Use the centroids to parition all the data</span>
+<span class="highlight-keyword">int</span>[] labels = clusters.Decide(observations);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAKDBA");</script><p>
+               How to perform clustering with K-Means applying different weights to different columns (dimensions) in the data.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAIDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAIDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAIDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
 
-<span class="highlight-comment">// As a result, the first two observations should belong to the</span>
-<span class="highlight-comment">//  same cluster (thus having the same label). The same should</span>
-<span class="highlight-comment">//  happen to the next four observations and to the last three.</span>
+<span class="highlight-comment">// A common desire when doing clustering is to attempt to find how to </span>
+<span class="highlight-comment">// weight the different components / columns of a dataset, giving them </span>
+<span class="highlight-comment">// different importances depending on the end goal of the clustering task.</span>
+
+<span class="highlight-comment">// Declare some observations</span>
+<span class="highlight-keyword">double</span>[][] observations =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-5</span>, <span class="highlight-number">-2</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-5</span>, <span class="highlight-number">-5</span>, <span class="highlight-number">-6</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">2</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span>,  <span class="highlight-number">2</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">3</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">11</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">4</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">15</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">6</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">6</span> },
+};
+
+<span class="highlight-comment">// Create a new K-Means algorithm</span>
+KMeans kmeans = <span class="highlight-keyword">new</span> KMeans(k: <span class="highlight-number">3</span>)
+{
+    <span class="highlight-comment">// For example, let's say we would like to consider the importance of </span>
+    <span class="highlight-comment">// the first column as 0.1, the second column as 0.7 and the third 0.9</span>
+    Distance = <span class="highlight-keyword">new</span> WeightedSquareEuclidean(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0.1</span>, <span class="highlight-number">0.7</span>, <span class="highlight-number">1.1</span> })
+};
+
+<span class="highlight-comment">// Compute and retrieve the data centroids</span>
+<span class="highlight-keyword">var</span> clusters = kmeans.Learn(observations);
+
+<span class="highlight-comment">// Use the centroids to parition all the data</span>
+<span class="highlight-keyword">int</span>[] labels = clusters.Decide(observations);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAIDBA");</script><p>
+               How to perform clustering with K-Means with mixed discrete, continuous and categorical data.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Declare some mixed discrete and continuous observations</span>
+<span class="highlight-keyword">double</span>[][] observations =
+{
+    <span class="highlight-comment">//             (categorical) (discrete) (continuous)</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">1</span>,          <span class="highlight-number">-1</span>,        <span class="highlight-number">-2.2</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">1</span>,          <span class="highlight-number">-6</span>,        <span class="highlight-number">-5.5</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">2</span>,           <span class="highlight-number">1</span>,         <span class="highlight-number">1.1</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">2</span>,           <span class="highlight-number">2</span>,         <span class="highlight-number">1.2</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">2</span>,           <span class="highlight-number">2</span>,         <span class="highlight-number">2.6</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">3</span>,           <span class="highlight-number">2</span>,         <span class="highlight-number">1.4</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">3</span>,           <span class="highlight-number">4</span>,         <span class="highlight-number">5.2</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">1</span>,           <span class="highlight-number">6</span>,         <span class="highlight-number">5.1</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">1</span>,           <span class="highlight-number">6</span>,         <span class="highlight-number">5.9</span>      },
+};
+
+<span class="highlight-comment">// Create a new codification algorithm to convert </span>
+<span class="highlight-comment">// the mixed variables above into all continuous:</span>
+<span class="highlight-keyword">var</span> codification = <span class="highlight-keyword">new</span> Codification&lt;<span class="highlight-keyword">double</span>&gt;()
+{
+    CodificationVariable.Categorical,
+    CodificationVariable.Discrete,
+    CodificationVariable.Continuous
+};
+
+<span class="highlight-comment">// Learn the codification from observations</span>
+<span class="highlight-keyword">var</span> model = codification.Learn(observations);
+
+<span class="highlight-comment">// Transform the mixed observations into only continuous:</span>
+<span class="highlight-keyword">double</span>[][] newObservations = model.ToDouble().Transform(observations);
+
+<span class="highlight-comment">// (newObservations will be equivalent to)</span>
+<span class="highlight-keyword">double</span>[][] expected =
+{
+    <span class="highlight-comment">//               (one hot)    (discrete)    (continuous)</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>,        <span class="highlight-number">-1</span>,          <span class="highlight-number">-2.2</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>,        <span class="highlight-number">-6</span>,          <span class="highlight-number">-5.5</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>,         <span class="highlight-number">1</span>,           <span class="highlight-number">1.1</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>,         <span class="highlight-number">2</span>,           <span class="highlight-number">1.2</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>,         <span class="highlight-number">2</span>,           <span class="highlight-number">2.6</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>,         <span class="highlight-number">2</span>,           <span class="highlight-number">1.4</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>,         <span class="highlight-number">4</span>,           <span class="highlight-number">5.2</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>,         <span class="highlight-number">6</span>,           <span class="highlight-number">5.1</span>      },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {    <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>,         <span class="highlight-number">6</span>,           <span class="highlight-number">5.9</span>      },
+};
+
+<span class="highlight-comment">// Create a new K-Means algorithm</span>
+KMeans kmeans = <span class="highlight-keyword">new</span> KMeans(k: <span class="highlight-number">3</span>);
+
+<span class="highlight-comment">// Compute and retrieve the data centroids</span>
+<span class="highlight-keyword">var</span> clusters = kmeans.Learn(observations);
+
+<span class="highlight-comment">// Use the centroids to parition all the data</span>
 <span class="highlight-keyword">int</span>[] labels = clusters.Decide(observations);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGDBA");</script><p>
-               The following example demonstrates how to use the K-Means algorithm
-               for color clustering. It is the same code which can be found in the
-               <a href="https://github.com/accord-net/framework/wiki/Sample-applications#clustering-k-means-and-meanshift">
-               color clustering sample application</a>.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"> <span class="highlight-keyword">int</span> k = <span class="highlight-number">5</span>; 
+               The following example demonstrates how to use the K-Means algorithm for color clustering. It is the same code which can be 
+               found in the <a href="https://github.com/accord-net/framework/wiki/Sample-applications#clustering-k-means-and-meanshift">
+               color clustering sample application</a>.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Load a test image (shown in a picture box below)</span>
+<span class="highlight-keyword">var</span> sampleImages = <span class="highlight-keyword">new</span> TestImages(path: Path.GetTempPath());
+Bitmap image = sampleImages.GetImage(<span class="highlight-literal">"airplane.png"</span>);
 
- <span class="highlight-comment">// Load a test image (shown below)</span>
- Bitmap image = ...
+<span class="highlight-comment">// ImageBox.Show("Original", image).Hold();</span>
 
- <span class="highlight-comment">// Create converters</span>
- ImageToArray imageToArray = <span class="highlight-keyword">new</span> ImageToArray(min: <span class="highlight-number">-1</span>, max: <span class="highlight-number">+1</span>);
- ArrayToImage arrayToImage = <span class="highlight-keyword">new</span> ArrayToImage(image.Width, image.Height, min: <span class="highlight-number">-1</span>, max: <span class="highlight-number">+1</span>);
+<span class="highlight-comment">// Create converters to convert between Bitmap images and double[] arrays</span>
+<span class="highlight-keyword">var</span> imageToArray = <span class="highlight-keyword">new</span> ImageToArray(min: <span class="highlight-number">-1</span>, max: <span class="highlight-number">+1</span>);
+<span class="highlight-keyword">var</span> arrayToImage = <span class="highlight-keyword">new</span> ArrayToImage(image.Width, image.Height, min: <span class="highlight-number">-1</span>, max: <span class="highlight-number">+1</span>);
 
- <span class="highlight-comment">// Transform the image into an array of pixel values</span>
- <span class="highlight-keyword">double</span>[][] pixels; imageToArray.Convert(image, <span class="highlight-keyword">out</span> pixels);
+<span class="highlight-comment">// Transform the image into an array of pixel values</span>
+<span class="highlight-keyword">double</span>[][] pixels; imageToArray.Convert(image, <span class="highlight-keyword">out</span> pixels);
 
 
- <span class="highlight-comment">// Create a K-Means algorithm using given k and a</span>
- <span class="highlight-comment">//  square Euclidean distance as distance metric.</span>
- KMeans kmeans = <span class="highlight-keyword">new</span> KMeans(k, Distance.SquareEuclidean);
+<span class="highlight-comment">// Create a K-Means algorithm using given k and a</span>
+<span class="highlight-comment">//  square Euclidean distance as distance metric.</span>
+KMeans kmeans = <span class="highlight-keyword">new</span> KMeans(k: <span class="highlight-number">5</span>)
+{
+    Distance = <span class="highlight-keyword">new</span> SquareEuclidean(),
 
- <span class="highlight-comment">// We will compute the K-Means algorithm until cluster centroids</span>
- <span class="highlight-comment">// change less than 0.5 between two iterations of the algorithm</span>
- kmeans.Tolerance = <span class="highlight-number">0.05</span>;
+    <span class="highlight-comment">// We will compute the K-Means algorithm until cluster centroids</span>
+    <span class="highlight-comment">// change less than 0.5 between two iterations of the algorithm</span>
+    Tolerance = <span class="highlight-number">0.05</span>
+};
 
-<span class="highlight-comment">// Learn the clusters in the data</span>
- <span class="highlight-keyword">var</span> clustering = kmeans.Learn(pixels);
 
- <span class="highlight-comment">// Use clusters to decide class labels</span>
- <span class="highlight-keyword">int</span>[] idx = clustering.Decide(pixels);
+<span class="highlight-comment">// Learn the clusters from the data</span>
+<span class="highlight-keyword">var</span> clusters = kmeans.Learn(pixels);
 
- <span class="highlight-comment">// Replace every pixel with its corresponding centroid</span>
- pixels.ApplyInPlace((x, i) =&gt; kmeans.Clusters.Centroids[idx[i]]);
+<span class="highlight-comment">// Use clusters to decide class labels</span>
+<span class="highlight-keyword">int</span>[] labels = clusters.Decide(pixels);
 
- <span class="highlight-comment">// Retrieve the resulting image in a picture box</span>
- Bitmap result; arrayToImage.Convert(pixels, <span class="highlight-keyword">out</span> result);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEDBA");</script><p>
+<span class="highlight-comment">// Replace every pixel with its corresponding centroid</span>
+<span class="highlight-keyword">double</span>[][] replaced = pixels.Apply((x, i) =&gt; clusters.Centroids[labels[i]]);
+
+<span class="highlight-comment">// Retrieve the resulting image (shown in a picture box)</span>
+Bitmap result; arrayToImage.Convert(replaced, <span class="highlight-keyword">out</span> result);
+
+<span class="highlight-comment">// ImageBox.Show("k-Means clustering", result).Hold();</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEDBA");</script><p>
                The original image is shown below:</p><img src="..\images\kmeans-start.png" /><p>
-               The resulting image will be:</p><img src="..\images\kmeans-end.png" /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_KModes_1.htm">Accord.MachineLearning<span id="LST7A3C7964_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_36?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KModes<span id="LST7A3C7964_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_37?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7A3C7964_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_38?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_MeanShift.htm">Accord.MachineLearning<span id="LST7A3C7964_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_39?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MeanShift</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_GaussianMixtureModel.htm">Accord.MachineLearning<span id="LST7A3C7964_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_40?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GaussianMixtureModel</a></div></div></div>
+               The resulting image will be:</p><img src="..\images\kmeans-end.png" /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_KModes_1.htm">Accord.MachineLearning<span id="LST7A3C7964_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_42?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KModes<span id="LST7A3C7964_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_43?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST7A3C7964_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_44?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_MeanShift.htm">Accord.MachineLearning<span id="LST7A3C7964_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_45?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MeanShift</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_GaussianMixtureModel.htm">Accord.MachineLearning<span id="LST7A3C7964_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A3C7964_46?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GaussianMixtureModel</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

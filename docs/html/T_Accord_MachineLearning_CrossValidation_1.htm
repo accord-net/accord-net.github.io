@@ -16,7 +16,7 @@
     <meta name="System.Keywords" content="CrossValidation(Of TModel) class, about CrossValidation(Of TModel) class" />
     <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.CrossValidation`1" />
     <meta name="Microsoft.Help.Id" content="T:Accord.MachineLearning.CrossValidation`1" />
-    <meta name="Description" content="k-Fold cross-validation." />
+    <meta name="Description" content="Obsolete. Please use instead." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <meta name="BrandingAware" content="true" />
     
@@ -24,8 +24,6 @@
     <meta name="file" content="T_Accord_MachineLearning_CrossValidation_1" />
     <meta name="guid" content="T_Accord_MachineLearning_CrossValidation_1" />
     
-    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
-    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -46,16 +44,18 @@
             </td>
           </tr>
         </table>
-        <span class="introStyle"></span> <div class="summary">
-               k-Fold cross-validation.
-             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST6B2B0859_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.MachineLearning<span id="LST6B2B0859_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CrossValidation<span id="LST6B2B0859_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span><br />    <a href="T_Accord_MachineLearning_CrossValidation.htm">Accord.MachineLearning<span id="LST6B2B0859_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CrossValidation</a><br /></div><p> </p>
+        <span class="introStyle"></span> <p><strong>Note: This API is now obsolete.</strong></p><div class="summary">
+              Obsolete. Please use <a href="T_Accord_MachineLearning_Performance_CrossValidation_3.htm">CrossValidation<span id="LST6B2B0859_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput, TOutput<span id="LST6B2B0859_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> instead.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST6B2B0859_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.MachineLearning<span id="LST6B2B0859_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CrossValidation<span id="LST6B2B0859_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span><br />    <a href="T_Accord_MachineLearning_CrossValidation.htm">Accord.MachineLearning<span id="LST6B2B0859_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CrossValidation</a><br /></div><p> </p>
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+[<span class="identifier">ObsoleteAttribute</span>("Please use CrossValidation&lt;TModel, TInput, TOutput&gt; instead.")]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">CrossValidation</span>&lt;TModel&gt;
 <span class="keyword">where</span> TModel : <span class="keyword">class</span>
 </pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+&lt;<span class="identifier">ObsoleteAttribute</span>("Please use CrossValidation&lt;TModel, TInput, TOutput&gt; instead.")&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">CrossValidation</span>(<span class="keyword">Of</span> TModel <span class="keyword">As</span> <span class="keyword">Class</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
@@ -70,15 +70,15 @@
 			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
 			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
 		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
-		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Performance/CrossValidation/CrossValidation%601.cs" title="View the source code">View Source</a><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameter">TModel</span></dt><dd>The type of the model being analyzed.</dd></dl></div><p>The <span class="selflink">CrossValidation<span id="LST6B2B0859_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_7?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_8?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Performance/CrossValidation/CrossValidation%601.cs" title="View the source code">View Source</a><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameter">TModel</span></dt><dd /></dl></div><p>The <span class="selflink">CrossValidation<span id="LST6B2B0859_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
 								 
-							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor.htm">CrossValidation<span id="LST6B2B0859_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_9?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_10?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(Int32)</a></td><td><div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor.htm">CrossValidation<span id="LST6B2B0859_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_11?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_12?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(Int32)</a></td><td><div class="summary">
               Creates a new k-fold cross-validation algorithm.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor_1.htm">CrossValidation<span id="LST6B2B0859_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_11?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_12?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(Int32, Int32)</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor_1.htm">CrossValidation<span id="LST6B2B0859_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_13?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_14?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(Int32, Int32)</a></td><td><div class="summary">
               Creates a new k-fold cross-validation algorithm.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor_2.htm">CrossValidation<span id="LST6B2B0859_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_13?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_14?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(<span id="LST6B2B0859_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_15?cpp=array&lt;");</script>Int32<span id="LST6B2B0859_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor_2.htm">CrossValidation<span id="LST6B2B0859_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_15?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_16?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(<span id="LST6B2B0859_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_17?cpp=array&lt;");</script>Int32<span id="LST6B2B0859_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32)</a></td><td><div class="summary">
               Creates a new k-fold cross-validation algorithm.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor_3.htm">CrossValidation<span id="LST6B2B0859_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_17?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_18?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(<span id="LST6B2B0859_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_19?cpp=array&lt;");</script>Int32<span id="LST6B2B0859_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32)</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_MachineLearning_CrossValidation_1__ctor_3.htm">CrossValidation<span id="LST6B2B0859_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_19?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel<span id="LST6B2B0859_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_20?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script>(<span id="LST6B2B0859_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_21?cpp=array&lt;");</script>Int32<span id="LST6B2B0859_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, Int32, Int32)</a></td><td><div class="summary">
               Creates a new k-fold cross-validation algorithm.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
@@ -110,104 +110,11 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6B2B0859_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_21?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6B2B0859_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_22?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST6B2B0859_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_23?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6B2B0859_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_23?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6B2B0859_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_24?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST6B2B0859_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_24?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6B2B0859_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_25?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST6B2B0859_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6B2B0859_26?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
-              Converts an object into another type, irrespective of whether
-              the conversion can be done at compile time or not. This can be
-              used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
-               Cross-validation is a technique for estimating the performance of a predictive
-               model. It can be used to measure how the results of a statistical analysis will
-               generalize to an independent data set. It is mainly used in settings where the
-               goal is prediction, and one wants to estimate how accurately a predictive model
-               will perform in practice.</p><p>
-               One round of cross-validation involves partitioning a sample of data into
-               complementary subsets, performing the analysis on one subset (called the
-               training set), and validating the analysis on the other subset (called the
-               validation set or testing set). To reduce variability, multiple rounds of 
-               cross-validation are performed using different partitions, and the validation 
-               results are averaged over the rounds.</p><p>
-               References:
-               <ul><li><a href="http://en.wikipedia.org/wiki/Cross-validation_(statistics)">
-                   Wikipedia, The Free Encyclopedia. Cross-validation (statistics). Available on:
-                   http://en.wikipedia.org/wiki/Cross-validation_(statistics) </a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// This is a sample code on how to use Cross-Validation</span>
-<span class="highlight-comment">// to access the performance of Support Vector Machines.</span>
-
-<span class="highlight-comment">// Consider the example binary data. We will be trying</span>
-<span class="highlight-comment">// to learn a XOR problem and see how well does SVMs</span>
-<span class="highlight-comment">// perform on this data.</span>
-
-<span class="highlight-keyword">double</span>[][] data =
-{
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
-    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
-};
-
-<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// result of xor for the sample input data</span>
-{
-    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
-     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
-    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
-     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
-    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
-     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
-    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
-     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
-};
-
-
-<span class="highlight-comment">// Create a new Cross-validation algorithm passing the data set size and the number of folds</span>
-<span class="highlight-keyword">var</span> crossvalidation = <span class="highlight-keyword">new</span> CrossValidation&lt;KernelSupportVectorMachine&gt;(size: data.Length, folds: <span class="highlight-number">3</span>);
-
-<span class="highlight-comment">// Define a fitting function using Support Vector Machines. The objective of this</span>
-<span class="highlight-comment">// function is to learn a SVM in the subset of the data indicated by cross-validation.</span>
-
-crossvalidation.Fitting = <span class="highlight-keyword">delegate</span>(<span class="highlight-keyword">int</span> k, <span class="highlight-keyword">int</span>[] indicesTrain, <span class="highlight-keyword">int</span>[] indicesValidation)
-{
-    <span class="highlight-comment">// The fitting function is passing the indices of the original set which</span>
-    <span class="highlight-comment">// should be considered training data and the indices of the original set</span>
-    <span class="highlight-comment">// which should be considered validation data.</span>
-
-    <span class="highlight-comment">// Lets now grab the training data:</span>
-    <span class="highlight-keyword">var</span> trainingInputs = data.Submatrix(indicesTrain);
-    <span class="highlight-keyword">var</span> trainingOutputs = xor.Submatrix(indicesTrain);
-
-    <span class="highlight-comment">// And now the validation data:</span>
-    <span class="highlight-keyword">var</span> validationInputs = data.Submatrix(indicesValidation);
-    <span class="highlight-keyword">var</span> validationOutputs = xor.Submatrix(indicesValidation);
-
-
-    <span class="highlight-comment">// Create a Kernel Support Vector Machine to operate on the set</span>
-    <span class="highlight-keyword">var</span> svm = <span class="highlight-keyword">new</span> KernelSupportVectorMachine(<span class="highlight-keyword">new</span> Polynomial(<span class="highlight-number">2</span>), <span class="highlight-number">2</span>);
-
-    <span class="highlight-comment">// Create a training algorithm and learn the training data</span>
-    <span class="highlight-keyword">var</span> smo = <span class="highlight-keyword">new</span> SequentialMinimalOptimization(svm, trainingInputs, trainingOutputs);
-
-    <span class="highlight-keyword">double</span> trainingError = smo.Run();
-
-    <span class="highlight-comment">// Now we can compute the validation error on the validation data:</span>
-    <span class="highlight-keyword">double</span> validationError = smo.ComputeError(validationInputs, validationOutputs);
-
-    <span class="highlight-comment">// Return a new information structure containing the model and the errors achieved.</span>
-    <span class="highlight-keyword">return</span> <span class="highlight-keyword">new</span> CrossValidationValues&lt;KernelSupportVectorMachine&gt;(svm, trainingError, validationError);
-};
-
-
-<span class="highlight-comment">// Compute the cross-validation</span>
-<span class="highlight-keyword">var</span> result = crossvalidation.Compute();
-
-<span class="highlight-comment">// Finally, access the measured performance.</span>
-<span class="highlight-keyword">double</span> trainingErrors = result.Training.Mean;
-<span class="highlight-keyword">double</span> validationErrors = result.Validation.Mean;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
