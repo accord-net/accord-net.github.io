@@ -46,12 +46,13 @@
               Gets or sets a post processing step can be called after all component
               distributions have been fitted (or their .Fit() method has been called).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Distributions_Fitting_NormalOptions_Regularization.htm">Regularization</a></td><td><div class="summary">
-              Gets or sets the regularization step to avoid singular or 
-              non-positive definite covariance matrices. Default is 0.
+              Gets or sets the regularization step to avoid singular or non-positive definite 
+              covariance matrices. Default is 0. Setting this property to a small constant like
+              1e-6 is more efficient than setting <a href="P_Accord_Statistics_Distributions_Fitting_NormalOptions_Robust.htm">Robust</a> to true.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Distributions_Fitting_NormalOptions_Robust.htm">Robust</a></td><td><div class="summary">
-              Gets or sets whether the estimation function should
-              allow non-positive definite covariance matrices by
-              using the Singular Value Decomposition Function.
+              Gets or sets whether the estimation function should allow non-positive definite 
+              covariance matrices by using the Singular Value Decomposition Function. Enabling
+              this property can significantly increase learning times.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Distributions_Fitting_NormalOptions_Shared.htm">Shared</a></td><td><div class="summary">
               Gets or sets whether the normal distributions should have only a single, shared 
               covariance matrix among all components in a mixture. Setting this property only 

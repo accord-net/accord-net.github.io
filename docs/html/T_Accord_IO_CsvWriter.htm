@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_IO_CsvWriter" />
     <meta name="guid" content="T_Accord_IO_CsvWriter" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_IO.htm">Accord.IO</a><br />
     <strong>Assembly:</strong>
-   Accord.IO (in Accord.IO.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">CsvWriter</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">CsvWriter</span>
+   Accord.IO (in Accord.IO.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">CsvWriter</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">CsvWriter</span>
 	<span class="keyword">Implements</span> <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
@@ -65,6 +67,8 @@
 		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.IO/Csv/CsvWriter.cs" title="View the source code">View Source</a></div><p>The <span class="selflink">CsvWriter</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter__ctor.htm">CsvWriter(TextWriter)</a></td><td><div class="summary">
+              Initializes a new instance of the <span class="selflink">CsvWriter</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter__ctor_2.htm">CsvWriter(String)</a></td><td><div class="summary">
               Initializes a new instance of the <span class="selflink">CsvWriter</span> class.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter__ctor_1.htm">CsvWriter(TextWriter, Char)</a></td><td><div class="summary">
               Initializes a new instance of the <span class="selflink">CsvWriter</span> class.
@@ -105,25 +109,110 @@
               Writes the specified matrix in CSV format.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_Write__1_1.htm">Write<span id="LST3631355E_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST3631355E_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_11?cpp=array&lt;");</script><span id="LST3631355E_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_12?cpp=array&lt;");</script>T<span id="LST3631355E_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_13?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST3631355E_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_14?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Writes the specified matrix in CSV format.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteHeaders.htm">WriteHeaders</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteHeaders.htm">WriteHeaders(DataTable)</a></td><td><div class="summary">
               Writes the column names of a data table as the headers of the CSV file.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteLine__1.htm">WriteLine<span id="LST3631355E_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST3631355E_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_17?cpp=array&lt;");</script>T<span id="LST3631355E_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_18?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteHeaders_1.htm">WriteHeaders(<span id="LST3631355E_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_15?cpp=array&lt;");</script>String<span id="LST3631355E_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_16?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Writes the column names of a data table as the headers of the CSV file.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteLine__1.htm">WriteLine<span id="LST3631355E_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_17?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_18?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST3631355E_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_19?cpp=array&lt;");</script>T<span id="LST3631355E_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
               Writes the specified fields in a CSV format.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteLine__1_1.htm">WriteLine<span id="LST3631355E_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_19?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_20?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST3631355E_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_21?cpp=array&lt;");</script>T<span id="LST3631355E_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, String)</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_CsvWriter_WriteLine__1_1.htm">WriteLine<span id="LST3631355E_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_21?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_22?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(<span id="LST3631355E_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_23?cpp=array&lt;");</script>T<span id="LST3631355E_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_24?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, String)</a></td><td><div class="summary">
               Writes the specified fields in a CSV format.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3631355E_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_23?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_24?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3631355E_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_25?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3631355E_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_25?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_26?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LST3631355E_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3631355E_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3631355E_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3631355E_28?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
-              Converts an object into another type, irrespective of whether
-              the conversion can be done at compile time or not. This can be
-              used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_IO.htm">Accord.IO Namespace</a></div></div></div>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
+              The following example shows how to use <span class="selflink">CsvWriter</span> to write a matrix in .csv format.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Tell where to store the matrix (adjust to your own liking)</span>
+<span class="highlight-keyword">string</span> filename = Path.Combine(Path.GetTempPath(), <span class="highlight-literal">"matrix.csv"</span>);
+
+<span class="highlight-comment">// Let's say we want to store a multidimensional array</span>
+<span class="highlight-keyword">double</span>[,] values =
+{
+    { <span class="highlight-number">1</span>,  <span class="highlight-number">2</span>,  <span class="highlight-number">3</span>,  <span class="highlight-number">4</span> },
+    { <span class="highlight-number">5</span>,  <span class="highlight-number">6</span>,  <span class="highlight-number">7</span>,  <span class="highlight-number">8</span> },
+    { <span class="highlight-number">9</span>, <span class="highlight-number">10</span>, <span class="highlight-number">11</span>, <span class="highlight-number">12</span> },
+};
+
+<span class="highlight-comment">// Create a new writer and write the values to disk</span>
+<span class="highlight-keyword">using</span> (CsvWriter writer = <span class="highlight-keyword">new</span> CsvWriter(filename))
+{
+    writer.WriteHeaders(<span class="highlight-literal">"a"</span>, <span class="highlight-literal">"b"</span>, <span class="highlight-literal">"c"</span>, <span class="highlight-literal">"d"</span>); <span class="highlight-comment">// this is optional</span>
+    writer.Write(values);
+}
+
+<span class="highlight-comment">// Afterwards, we could read them back using</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> CsvReader(filename, hasHeaders: <span class="highlight-keyword">true</span>);
+<span class="highlight-keyword">double</span>[,] sameMatrix = reader.ToMatrix();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGABA");</script><p>
+              The following example shows how to use <span class="selflink">CsvWriter</span> to write a jagged array in .csv format.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Tell where to store the matrix (adjust to your own liking)</span>
+<span class="highlight-keyword">string</span> filename = Path.Combine(Path.GetTempPath(), <span class="highlight-literal">"jagged.csv"</span>);
+
+<span class="highlight-comment">// Let's say we want to store a jagged array</span>
+<span class="highlight-keyword">double</span>[][] values =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>,  <span class="highlight-number">2</span>,  <span class="highlight-number">3</span>,  <span class="highlight-number">4</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">5</span>,  <span class="highlight-number">6</span>,  <span class="highlight-number">7</span>,  <span class="highlight-number">8</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">9</span>, <span class="highlight-number">10</span>, <span class="highlight-number">11</span>, <span class="highlight-number">12</span> },
+};
+
+<span class="highlight-comment">// Create a new writer and write the values to disk</span>
+<span class="highlight-keyword">using</span> (CsvWriter writer = <span class="highlight-keyword">new</span> CsvWriter(filename))
+{
+    writer.WriteHeaders(<span class="highlight-literal">"a"</span>, <span class="highlight-literal">"b"</span>, <span class="highlight-literal">"c"</span>, <span class="highlight-literal">"d"</span>); <span class="highlight-comment">// this is optional</span>
+    writer.Write(values);
+}
+
+<span class="highlight-comment">// Afterwards, we could read them back using</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> CsvReader(filename, hasHeaders: <span class="highlight-keyword">true</span>); 
+<span class="highlight-keyword">double</span>[][] sameMatrix = reader.ToJagged();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEABA");</script><p>
+              The following example shows how to use <span class="selflink">CsvWriter</span> to write a DataTable in .csv format.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Tell where to store the data table (adjust to your own liking)</span>
+<span class="highlight-keyword">string</span> filename = Path.Combine(Path.GetTempPath(), <span class="highlight-literal">"table.csv"</span>);
+
+<span class="highlight-comment">// Let's say we have the following data table</span>
+DataTable table = <span class="highlight-keyword">new</span> DataTable(<span class="highlight-literal">"My table"</span>);
+table.Columns.Add(<span class="highlight-literal">"Name"</span>);
+table.Columns.Add(<span class="highlight-literal">"Age"</span>);
+table.Columns.Add(<span class="highlight-literal">"City"</span>);
+
+<span class="highlight-comment">// Let's add some rows for these columns</span>
+table.Rows.Add(<span class="highlight-literal">"John"</span>, <span class="highlight-number">42</span>, <span class="highlight-literal">"New York"</span>);
+table.Rows.Add(<span class="highlight-literal">"Josephine"</span>, <span class="highlight-number">25</span>, <span class="highlight-literal">"Grenoble"</span>);
+table.Rows.Add(<span class="highlight-literal">"João"</span>, <span class="highlight-number">22</span>, <span class="highlight-literal">"Valinhos"</span>);
+
+<span class="highlight-comment">// Create a new writer and write the values to disk</span>
+<span class="highlight-keyword">using</span> (CsvWriter writer = <span class="highlight-keyword">new</span> CsvWriter(filename))
+{
+    writer.Write(table);
+}
+
+<span class="highlight-comment">// Later, we could read it back from the disk using</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> CsvReader(filename, hasHeaders: <span class="highlight-keyword">true</span>);
+DataTable sameTable = reader.ToTable();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><p>
+              It is also possible to use <span class="selflink">CsvWriter</span> to write matrices (or jagged arrays) 
+              containing objects with mixed types:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Tell where to store the matrix (adjust to your own liking)</span>
+<span class="highlight-keyword">string</span> filename = Path.Combine(Path.GetTempPath(), <span class="highlight-literal">"objects.csv"</span>);
+
+<span class="highlight-comment">// Let's say we want to store a jagged array of mixed types</span>
+<span class="highlight-keyword">object</span>[][] values =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">object</span>[] { <span class="highlight-literal">"a"</span>,    <span class="highlight-number">2</span>,    <span class="highlight-number">3</span>,   <span class="highlight-number">4</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">object</span>[] {   <span class="highlight-number">5</span>,  <span class="highlight-literal">"b"</span>,    <span class="highlight-number">7</span>,   <span class="highlight-number">8</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">object</span>[] {   <span class="highlight-number">9</span>,   <span class="highlight-number">10</span>,  <span class="highlight-literal">"c"</span>,  <span class="highlight-number">12</span> },
+};
+
+<span class="highlight-comment">// Create a new writer and write the values to disk</span>
+<span class="highlight-keyword">using</span> (CsvWriter writer = <span class="highlight-keyword">new</span> CsvWriter(filename))
+{
+    writer.WriteHeaders(<span class="highlight-literal">"a"</span>, <span class="highlight-literal">"b"</span>, <span class="highlight-literal">"c"</span>, <span class="highlight-literal">"d"</span>); <span class="highlight-comment">// this is optional</span>
+    writer.Write(values);
+}
+
+<span class="highlight-comment">// Later, we could read it back from the disk using</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> CsvReader(filename, hasHeaders: <span class="highlight-keyword">true</span>);
+<span class="highlight-keyword">object</span>[][] sameMatrix = reader.ToJagged&lt;<span class="highlight-keyword">object</span>&gt;();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_IO.htm">Accord.IO Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
