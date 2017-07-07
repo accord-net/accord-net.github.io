@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Models_Regression_Fitting.htm">Accord.Statistics.Models.Regression.Fitting</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">LowerBoundNewtonRaphson</span> : <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultinomialLogisticRegression</span>, <span class="identifier">double</span>[], <span class="identifier">int</span>&gt;, 
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">LowerBoundNewtonRaphson</span> : <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultinomialLogisticRegression</span>, <span class="identifier">double</span>[], <span class="identifier">int</span>&gt;, 
 	<span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultinomialLogisticRegression</span>, <span class="identifier">double</span>[], <span class="identifier">int</span>[]&gt;, <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultinomialLogisticRegression</span>, <span class="identifier">double</span>[], <span class="identifier">double</span>[]&gt;, 
 	<span class="identifier">IConvergenceLearning</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">LowerBoundNewtonRaphson</span>
 	<span class="keyword">Implements</span> <span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">MultinomialLogisticRegression</span>, <span class="identifier">Double</span>(), <span class="identifier">Integer</span>), 
@@ -79,15 +79,27 @@
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_ComputeStandardErrors.htm">ComputeStandardErrors</a></td><td><div class="summary">
               Gets or sets a value indicating whether standard
               errors should be computed in the next iteration.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_CurrentIteration.htm">CurrentIteration</a></td><td><div class="summary">
+              Gets or sets the number of performed iterations.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Gradient.htm">Gradient</a></td><td><div class="summary">
               Gets the Gradient vector computed in
               the last Newton-Raphson iteration.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_HasConverged.htm">HasConverged</a></td><td><div class="summary">
+            Gets or sets whether the algorithm has converged.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_HessianLowerBound.htm">HessianLowerBound</a></td><td><div class="summary">
               Gets the Lower-Bound matrix being used in place of
               the Hessian matrix in the Newton-Raphson iterations.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Iterations.htm">Iterations</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Iterations.htm">Iterations</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Please use MaxIterations instead.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_MaximumChange.htm">MaximumChange</a></td><td><div class="summary">
+              Gets the maximum <a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_ParameterChange.htm">parameter change</a> in the last 
+              iteration. If this value is less than <a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Tolerance.htm">Tolerance</a>, the algorithm
+              has converged.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_MaxIterations.htm">MaxIterations</a></td><td><div class="summary">
             Gets or sets the maximum number of iterations
             performed by the learning algorithm.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_ParameterChange.htm">ParameterChange</a></td><td><div class="summary">
+              Gets the vector of parameter updates in the last iteration.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Parameters.htm">Parameters</a></td><td><div class="summary">
               Gets the total number of parameters in the model.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_LowerBoundNewtonRaphson_Previous.htm">Previous</a></td><td><div class="summary">
@@ -120,15 +132,11 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTBBF0A0C4_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_45?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTBBF0A0C4_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_46?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTBBF0A0C4_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_47?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTBBF0A0C4_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_45?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTBBF0A0C4_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_46?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LSTBBF0A0C4_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_48?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTBBF0A0C4_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_49?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTBBF0A0C4_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBBF0A0C4_50?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
-              Converts an object into another type, irrespective of whether
-              the conversion can be done at compile time or not. This can be
-              used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
                The Lower Bound principle consists of replacing the second derivative
                matrix by a global lower bound in the Leowner ordering [Böhning, 92].
                In the case of multinomial logistic regression estimation, the Hessian
@@ -145,26 +153,45 @@
                    D. Böhning. Multinomial logistic regression algorithm. Annals of the Institute
                    of Statistical Mathematics, 44(9):197 ˝U200, 1992. 2. M. Corney.</li><li>
                    Bishop, Christopher M.; Pattern Recognition and Machine Learning. 
-                   Springer; 1st ed. 2006.</li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create a new Multinomial Logistic Regression for 3 categories</span>
-<span class="highlight-keyword">var</span> mlr = <span class="highlight-keyword">new</span> MultinomialLogisticRegression(inputs: <span class="highlight-number">2</span>, categories: <span class="highlight-number">3</span>);
+                   Springer; 1st ed. 2006.</li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Declare a very simple classification/regression</span>
+<span class="highlight-comment">// problem with only 2 input variables (x and y):</span>
+<span class="highlight-keyword">double</span>[][] inputs =
+{
+    <span class="highlight-keyword">new</span>[] { <span class="highlight-number">3.0</span>, <span class="highlight-number">1.0</span> },
+    <span class="highlight-keyword">new</span>[] { <span class="highlight-number">7.0</span>, <span class="highlight-number">1.0</span> },
+    <span class="highlight-keyword">new</span>[] { <span class="highlight-number">3.0</span>, <span class="highlight-number">1.1</span> },
+    <span class="highlight-keyword">new</span>[] { <span class="highlight-number">3.0</span>, <span class="highlight-number">2.0</span> },
+    <span class="highlight-keyword">new</span>[] { <span class="highlight-number">6.0</span>, <span class="highlight-number">1.0</span> },
+};
+
+<span class="highlight-comment">// Class labels for each of the inputs</span>
+<span class="highlight-keyword">int</span>[] outputs =
+{
+    <span class="highlight-number">0</span>, <span class="highlight-number">2</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span>
+};
 
 <span class="highlight-comment">// Create a estimation algorithm to estimate the regression</span>
-LowerBoundNewtonRaphson lbnr = <span class="highlight-keyword">new</span> LowerBoundNewtonRaphson(mlr);
-
-<span class="highlight-comment">// Now, we will iteratively estimate our model. The Run method returns</span>
-<span class="highlight-comment">// the maximum relative change in the model parameters and we will use</span>
-<span class="highlight-comment">// it as the convergence criteria.</span>
-
-<span class="highlight-keyword">double</span> delta;
-<span class="highlight-keyword">int</span> iteration = <span class="highlight-number">0</span>;
-
-<span class="highlight-keyword">do</span>
+LowerBoundNewtonRaphson lbnr = <span class="highlight-keyword">new</span> LowerBoundNewtonRaphson()
 {
-    <span class="highlight-comment">// Perform an iteration</span>
-    delta = lbnr.Run(inputs, outputs);
-    iteration++;
+    MaxIterations = <span class="highlight-number">100</span>,
+    Tolerance = <span class="highlight-number">1</span>e<span class="highlight-number">-6</span>
+};
 
-} <span class="highlight-keyword">while</span> (iteration &lt; <span class="highlight-number">100</span> &amp;&amp; delta &gt; <span class="highlight-number">1</span>e<span class="highlight-number">-6</span>);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression_Fitting.htm">Accord.Statistics.Models.Regression.Fitting Namespace</a></div></div></div>
+<span class="highlight-comment">// Now, we will iteratively estimate our model:</span>
+MultinomialLogisticRegression mlr = lbnr.Learn(inputs, outputs);
+
+<span class="highlight-comment">// We can compute the model answers</span>
+<span class="highlight-keyword">int</span>[] answers = mlr.Decide(inputs);
+
+<span class="highlight-comment">// And also the probability of each of the answers</span>
+<span class="highlight-keyword">double</span>[][] probabilities = mlr.Probabilities(inputs);
+
+<span class="highlight-comment">// Now we can check how good our model is at predicting</span>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> ZeroOneLoss(outputs).Loss(answers);
+
+<span class="highlight-comment">// We can also verify the classes with highest </span>
+<span class="highlight-comment">// probability are the ones being decided for:</span>
+<span class="highlight-keyword">int</span>[] argmax = probabilities.ArgMax(dimension: <span class="highlight-number">1</span>); <span class="highlight-comment">// should be same as 'answers</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression_Fitting.htm">Accord.Statistics.Models.Regression.Fitting Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

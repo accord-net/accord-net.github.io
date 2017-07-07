@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson" />
     <meta name="guid" content="T_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Models_Regression_Fitting.htm">Accord.Statistics.Models.Regression.Fitting</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.5.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ProportionalHazardsNewtonRaphson</span> : <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">ProportionalHazards</span>, <span class="identifier">Tuple</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, <span class="identifier">int</span>&gt;, 
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ProportionalHazardsNewtonRaphson</span> : <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">ProportionalHazards</span>, <span class="identifier">Tuple</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, <span class="identifier">int</span>&gt;, 
 	<span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">ProportionalHazards</span>, <span class="identifier">Tuple</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, <span class="identifier">bool</span>&gt;, 
 	<span class="identifier">IConvergenceLearning</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">ProportionalHazardsNewtonRaphson</span>
 	<span class="keyword">Implements</span> <span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">ProportionalHazards</span>, <span class="identifier">Tuple</span>(<span class="keyword">Of</span> <span class="identifier">Double</span>(), <span class="identifier">Double</span>), <span class="identifier">Integer</span>), 
@@ -93,15 +95,19 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Gradient.htm">Gradient</a></td><td><div class="summary">
               Gets the Gradient vector computed in
               the last Newton-Raphson iteration.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_HasConverged.htm">HasConverged</a></td><td><div class="summary">
+            Gets or sets whether the algorithm has converged.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Hessian.htm">Hessian</a></td><td><div class="summary">
               Gets the Hessian matrix computed in 
               the last Newton-Raphson iteration.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Iterations.htm">Iterations</a></td><td><div class="summary">
-              Gets or sets the maximum number of iterations
-              performed by the learning algorithm.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Iterations.htm">Iterations</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Please use MaxIterations instead.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Lambda.htm">Lambda</a></td><td><div class="summary">
               Gets or sets the smoothing factor used to avoid numerical
               problems in the beginning of the training. Default is 0.1.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_MaxIterations.htm">MaxIterations</a></td><td><div class="summary">
+              Gets or sets the maximum number of iterations
+              performed by the learning algorithm.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Model.htm">Model</a></td><td><div class="summary">
               Gets or sets the regression model being learned.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson_Normalize.htm">Normalize</a></td><td><div class="summary">
@@ -152,15 +158,62 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTE8D33678_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_83?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE8D33678_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_84?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTE8D33678_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_85?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTE8D33678_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_83?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE8D33678_84"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_84?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_To__1_1.htm">To<span id="LSTE8D33678_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_86?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE8D33678_87"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_87?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTE8D33678_88"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_88?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
-              Converts an object into another type, irrespective of whether
-              the conversion can be done at compile time or not. This can be
-              used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression_Fitting.htm">Accord.Statistics.Models.Regression.Fitting Namespace</a></div></div></div>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAACBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAACBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAACBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we have the following survival problem. Each row in the</span>
+<span class="highlight-comment">// table below represents a patient under care in a hospital. The first</span>
+<span class="highlight-comment">// colum represents their age (a single feature, but there could have</span>
+<span class="highlight-comment">// been many like age, height, weight, etc), the time until an event</span>
+<span class="highlight-comment">// has happened (like, for example, unfortunatey death) and the event</span>
+<span class="highlight-comment">// outcome (i.e. what has exactly happened after this amount of time,</span>
+<span class="highlight-comment">// has the patient died or did he simply leave the hospital and we </span>
+<span class="highlight-comment">// couldn't get more data about him?)</span>
+
+<span class="highlight-keyword">object</span>[,] data =
+{
+    <span class="highlight-comment">//    input         time until           outcome </span>
+    <span class="highlight-comment">// (features)     event happened     (what happened?)</span>
+    {       <span class="highlight-number">50</span>,              <span class="highlight-number">1</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">70</span>,              <span class="highlight-number">2</span>,         SurvivalOutcome.Failed    },
+    {       <span class="highlight-number">45</span>,              <span class="highlight-number">3</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">35</span>,              <span class="highlight-number">5</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">62</span>,              <span class="highlight-number">7</span>,         SurvivalOutcome.Failed    },
+    {       <span class="highlight-number">50</span>,             <span class="highlight-number">11</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">45</span>,              <span class="highlight-number">4</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">57</span>,              <span class="highlight-number">6</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">32</span>,              <span class="highlight-number">8</span>,         SurvivalOutcome.Censored  },
+    {       <span class="highlight-number">57</span>,              <span class="highlight-number">9</span>,         SurvivalOutcome.Failed    },
+    {       <span class="highlight-number">60</span>,             <span class="highlight-number">10</span>,         SurvivalOutcome.Failed    },
+}; <span class="highlight-comment">// Note: Censored means that we stopped recording data for that person,</span>
+   <span class="highlight-comment">// so we do not know what actually happened to them, except that things</span>
+   <span class="highlight-comment">// were going fine until the point in time appointed by "time to event"</span>
+
+<span class="highlight-comment">// Parse the data above</span>
+<span class="highlight-keyword">double</span>[][] inputs = data.GetColumn(<span class="highlight-number">0</span>).ToDouble().ToJagged();
+<span class="highlight-keyword">double</span>[] time = data.GetColumn(<span class="highlight-number">1</span>).ToDouble();
+SurvivalOutcome[] output = data.GetColumn(<span class="highlight-number">2</span>).To&lt;SurvivalOutcome[]&gt;();
+
+<span class="highlight-comment">// Create a new PH Newton-Raphson learning algorithm</span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> ProportionalHazardsNewtonRaphson()
+{
+    ComputeBaselineFunction = <span class="highlight-keyword">true</span>,
+    ComputeStandardErrors = <span class="highlight-keyword">true</span>,
+    MaxIterations = <span class="highlight-number">100</span>
+};
+
+<span class="highlight-comment">// Use the learning algorithm to infer a Proportional Hazards model</span>
+ProportionalHazards regression = teacher.Learn(inputs, time, output);
+
+<span class="highlight-comment">// Use the regression to make predictions (problematic)</span>
+SurvivalOutcome[] prediction = regression.Decide(inputs);
+
+<span class="highlight-comment">// Use the regression to make score estimates </span>
+<span class="highlight-keyword">double</span>[] score = regression.Score(inputs);
+
+<span class="highlight-comment">// Use the regression to make probability estimates </span>
+<span class="highlight-keyword">double</span>[] probability = regression.Probability(inputs);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAACBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression_Fitting.htm">Accord.Statistics.Models.Regression.Fitting Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm">Accord.Statistics.Models.Regression<span id="LSTE8D33678_85"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_85?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProportionalHazards</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Analysis_ProportionalHazardsAnalysis.htm">Accord.Statistics.Analysis<span id="LSTE8D33678_86"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE8D33678_86?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProportionalHazardsAnalysis</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
