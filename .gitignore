@@ -1,3 +1,4 @@
 *.suo
 /_site
 /.vs
+*.lock

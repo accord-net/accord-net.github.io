@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ title }} - Accord.NET Machine Learning in C#</title>
+    <title>{{ page.title }} - Accord.NET Machine Learning in C#</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="author" href="https://plus.google.com/+cesarrsouza/" />
     <link rel="stylesheet" type="text/css" href="content/jquery.powertip.css" />
@@ -62,7 +62,7 @@
             &#x222e;
         </div>
         <h1>
-            {{ title }}
+            {{ page.title }}
         </h1>
     </header>
     <!--
@@ -209,7 +209,7 @@
 
             {% endif %}
         </article>
-        {% if comments %}
+        {% if page.comments %}
         <div id="comments">
             {% include disqus.html %}
         </div>
@@ -226,7 +226,7 @@
             </a>.
         </p>
         <p>
-            Copyright 2008-2017 &copy; C&eacute;sar Souza. Some rights reserved. Site last generated
+            Copyright 2009-{{ site.time | date: '%Y' }} &copy; C&eacute;sar Souza. Some rights reserved. Site last generated
             on {{site.time}}
         </p>
     </footer>

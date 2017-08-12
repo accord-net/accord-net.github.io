@@ -1,15 +1,17 @@
 safe: true
 lsi: false
 highlighter: rouge
+repository: accord-net/accord-net.github.io
 
-exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config']
+exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config'] #, 'docs']
 
 domain: accord-framework.net
 title: Accord.NET Machine Learning Framework
 
 
-gems:
+plugins:
   - jekyll-sitemap
+
 
 google_analytics:
   account: UA-3114672-6
