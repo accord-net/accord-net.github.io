@@ -1,0 +1,276 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CrossValidation.Create(TModel, TLearner, TInput, TOutput) Method </title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Create%3CTModel%2C TLearner%2C TInput%2C TOutput%3E method" />
+    <meta name="System.Keywords" content="Create(Of TModel%2C TLearner%2C TInput%2C TOutput) method" />
+    <meta name="System.Keywords" content="CrossValidation.Create%3CTModel%2C TLearner%2C TInput%2C TOutput%3E method" />
+    <meta name="System.Keywords" content="CrossValidation.Create(Of TModel%2C TLearner%2C TInput%2C TOutput) method" />
+    <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.CrossValidation.Create``4" />
+    <meta name="Microsoft.Help.Id" content="M:Accord.MachineLearning.CrossValidation.Create``4(System.Int32,Accord.MachineLearning.Performance.CreateLearnerFromSubset{``1,``2,``3},Accord.MachineLearning.Performance.LearnNewModel{``1,``2,``3,``0},Accord.MachineLearning.Performance.ComputeLoss{``3,Accord.MachineLearning.Performance.SetResult{``0}},``2[],``3[])" />
+    <meta name="Description" content="Creates a new algorithm." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Accord.MachineLearning" />
+    <meta name="file" content="M_Accord_MachineLearning_CrossValidation_Create__4" />
+    <meta name="guid" content="M_Accord_MachineLearning_CrossValidation_Create__4" />
+    
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Accord.NET Framework<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Accord.NET Framework" tocid="roottoc">Accord.NET Framework</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Accord_NET.htm" title="Framework modules" tocid="R_Project_Accord_NET">Framework modules</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Accord_MachineLearning.htm" title="Accord.MachineLearning" tocid="N_Accord_MachineLearning">Accord.MachineLearning</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Accord_MachineLearning_CrossValidation.htm" title="CrossValidation Class" tocid="T_Accord_MachineLearning_CrossValidation">CrossValidation Class</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Accord_MachineLearning_CrossValidation.htm" title="CrossValidation Methods" tocid="Methods_T_Accord_MachineLearning_CrossValidation">CrossValidation Methods</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Accord_MachineLearning_CrossValidation_Create__4.htm" title="Create(TModel, TLearner, TInput, TOutput) Method " tocid="M_Accord_MachineLearning_CrossValidation_Create__4">Create(TModel, TLearner, TInput, TOutput) Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Accord_MachineLearning_CrossValidation_Splittings.htm" title="Splittings Method " tocid="Overload_Accord_MachineLearning_CrossValidation_Splittings">Splittings Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="logoColumn">
+              <img alt="Accord.NET (logo)" src="../icons/logo.png" />
+            </td>
+            <td class="titleColumn">
+              <h1>CrossValidation<span id="LST13F5EE04_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_0?cpp=::|nu=.");</script>Create<span id="LST13F5EE04_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="typeparameter">TModel</span>, <span class="typeparameter">TLearner</span>, <span class="typeparameter">TInput</span>, <span class="typeparameter">TOutput</span><span id="LST13F5EE04_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script> Method </h1>
+            </td>
+          </tr>
+        </table>
+        <span class="introStyle"></span> <div class="summary">
+              Creates a new <a href="T_Accord_MachineLearning_Performance_CrossValidation_4.htm">CrossValidation<span id="LST13F5EE04_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_3?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TLearner, TInput, TOutput<span id="LST13F5EE04_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_4?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> algorithm.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
+    <strong>Assembly:</strong>
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">CrossValidation</span>&lt;TModel, TLearner, TInput, TOutput&gt; <span class="identifier">Create</span>&lt;TModel, TLearner, TInput, TOutput&gt;(
+	<span class="identifier">int</span> <span class="parameter">k</span>,
+	<span class="identifier">CreateLearnerFromSubset</span>&lt;TLearner, TInput, TOutput&gt; <span class="parameter">learner</span>,
+	<span class="identifier">LearnNewModel</span>&lt;TLearner, TInput, TOutput, TModel&gt; <span class="parameter">fit</span>,
+	<span class="identifier">ComputeLoss</span>&lt;TOutput, <span class="identifier">SetResult</span>&lt;TModel&gt;&gt; <span class="parameter">loss</span>,
+	TInput[] <span class="parameter">x</span>,
+	TOutput[] <span class="parameter">y</span>
+)
+<span class="keyword">where</span> TModel : <span class="keyword">class</span>, <span class="identifier">Object</span>, <span class="identifier">ITransform</span>&lt;TInput, TOutput&gt;
+<span class="keyword">where</span> TLearner : <span class="keyword">class</span>, <span class="identifier">Object</span>, <span class="identifier">ISupervisedLearning</span>&lt;TModel, TInput, TOutput&gt;
+</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">Create</span>(<span class="keyword">Of</span> TModel <span class="keyword">As</span> {<span class="keyword">Class</span>, <span class="identifier">Object</span>, <span class="identifier">ITransform</span>(<span class="keyword">Of</span> TInput, TOutput)}, TLearner <span class="keyword">As</span> {<span class="keyword">Class</span>, <span class="identifier">Object</span>, <span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> TModel, TInput, TOutput)}, TInput, TOutput) ( 
+	<span class="parameter">k</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	<span class="parameter">learner</span> <span class="keyword">As</span> <span class="identifier">CreateLearnerFromSubset</span>(<span class="keyword">Of</span> TLearner, TInput, TOutput),
+	<span class="parameter">fit</span> <span class="keyword">As</span> <span class="identifier">LearnNewModel</span>(<span class="keyword">Of</span> TLearner, TInput, TOutput, TModel),
+	<span class="parameter">loss</span> <span class="keyword">As</span> <span class="identifier">ComputeLoss</span>(<span class="keyword">Of</span> TOutput, <span class="identifier">SetResult</span>(<span class="keyword">Of</span> TModel)),
+	<span class="parameter">x</span> <span class="keyword">As</span> TInput(),
+	<span class="parameter">y</span> <span class="keyword">As</span> TOutput()
+) <span class="keyword">As</span> <span class="identifier">CrossValidation</span>(<span class="keyword">Of</span> TModel, TLearner, TInput, TOutput)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+		<script type="text/javascript">
+		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
+		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
+				
+		if(HT_requestExampleLink.href.substring(0, 4).toLowerCase() == "http")
+			HT_requestExampleLink.href += "?title=";
+		else
+			HT_requestExampleLink.href += "?subject=Accord.NET Framework: ";
+
+		HT_requestExampleLink.href += "Add an Example for " + encodeURIComponent(document.title) + "&amp;body=" +
+			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
+			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
+		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Performance/CrossValidation/CrossValidation.cs#L156" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">k</span></dt><dd>Type: <span class="nolink">System<span id="LST13F5EE04_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</span><br />The number of folds in the k-fold cross-validation. Default is 10.</dd><dt><span class="parameter">learner</span></dt><dd>Type: <a href="T_Accord_MachineLearning_Performance_CreateLearnerFromSubset_3.htm">Accord.MachineLearning.Performance<span id="LST13F5EE04_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CreateLearnerFromSubset</a><span id="LST13F5EE04_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_7?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TLearner</span></span>, <span class="selflink"><span class="typeparameter">TInput</span></span>, <span class="selflink"><span class="typeparameter">TOutput</span></span><span id="LST13F5EE04_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />A function that can create a <span class="typeparameter">TModel</span> given training parameters.</dd><dt><span class="parameter">fit</span></dt><dd>Type: <a href="T_Accord_MachineLearning_Performance_LearnNewModel_4.htm">Accord.MachineLearning.Performance<span id="LST13F5EE04_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>LearnNewModel</a><span id="LST13F5EE04_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_10?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TLearner</span></span>, <span class="selflink"><span class="typeparameter">TInput</span></span>, <span class="selflink"><span class="typeparameter">TOutput</span></span>, <span class="selflink"><span class="typeparameter">TModel</span></span><span id="LST13F5EE04_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_11?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />A function that specifies how to create a new model using the teacher learning algorirhm.</dd><dt><span class="parameter">loss</span></dt><dd>Type: <a href="T_Accord_MachineLearning_Performance_ComputeLoss_2.htm">Accord.MachineLearning.Performance<span id="LST13F5EE04_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ComputeLoss</a><span id="LST13F5EE04_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TOutput</span></span>, <a href="T_Accord_MachineLearning_Performance_SetResult_1.htm">SetResult</a><span id="LST13F5EE04_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_14?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TModel</span></span><span id="LST13F5EE04_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_15?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST13F5EE04_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />A function that can measure how far model predictions are from the expected ground-truth.</dd><dt><span class="parameter">x</span></dt><dd>Type: <span id="LST13F5EE04_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_17?cpp=array&lt;");</script><span class="selflink"><span class="typeparameter">TInput</span></span><span id="LST13F5EE04_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_18?cpp=&gt;|vb=()|nu=[]");</script><br />The input data to be used during training.</dd><dt><span class="parameter">y</span></dt><dd>Type: <span id="LST13F5EE04_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_19?cpp=array&lt;");</script><span class="selflink"><span class="typeparameter">TOutput</span></span><span id="LST13F5EE04_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_20?cpp=&gt;|vb=()|nu=[]");</script><br />The output data to be used during training.</dd></dl><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameter">TModel</span></dt><dd>The type of the machine learning model whose parameters should be searched.</dd><dt><span class="parameter">TLearner</span></dt><dd>The type of the learning algorithm used to learn <span class="typeparameter">TModel</span>.</dd><dt><span class="parameter">TInput</span></dt><dd>The type of the input data. Default is double[].</dd><dt><span class="parameter">TOutput</span></dt><dd>The type of the output data. Default is int.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="T_Accord_MachineLearning_Performance_CrossValidation_4.htm">CrossValidation</a><span id="LST13F5EE04_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_21?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="selflink"><span class="typeparameter">TModel</span></span>, <span class="selflink"><span class="typeparameter">TLearner</span></span>, <span class="selflink"><span class="typeparameter">TInput</span></span>, <span class="selflink"><span class="typeparameter">TOutput</span></span><span id="LST13F5EE04_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST13F5EE04_22?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />A grid-search algorithm that has been configured with the given parameters.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code on how to use Cross-Validation</span>
+<span class="highlight-comment">// to assess the performance of Support Vector Machines.</span>
+
+<span class="highlight-comment">// Consider the example binary data. We will be trying</span>
+<span class="highlight-comment">// to learn a XOR problem and see how well does SVMs</span>
+<span class="highlight-comment">// perform on this data.</span>
+
+<span class="highlight-keyword">double</span>[][] data =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+};
+
+<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// result of xor for the sample input data</span>
+{
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+};
+
+
+<span class="highlight-comment">// Create a new Cross-validation algorithm passing the data set size and the number of folds</span>
+<span class="highlight-keyword">var</span> crossvalidation = <span class="highlight-keyword">new</span> CrossValidation&lt;SupportVectorMachine&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;, <span class="highlight-keyword">double</span>[]&gt;()
+{
+    K = <span class="highlight-number">3</span>, <span class="highlight-comment">// Use 3 folds in cross-validation</span>
+
+    <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
+    Learner = (s) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;()
+    {
+        Complexity = <span class="highlight-number">100</span>
+    },
+
+    <span class="highlight-comment">// Indicate how the performance of those models will be measured</span>
+    Loss = (expected, actual, p) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual),
+
+    Stratify = <span class="highlight-keyword">false</span>, <span class="highlight-comment">// do not force balancing of classes</span>
+};
+
+<span class="highlight-comment">// If needed, control the parallelization degree</span>
+crossvalidation.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Compute the cross-validation</span>
+<span class="highlight-keyword">var</span> result = crossvalidation.Learn(data, xor);
+
+<span class="highlight-comment">// Finally, access the measured performance.</span>
+<span class="highlight-keyword">double</span> trainingErrors = result.Training.Mean;
+<span class="highlight-keyword">double</span> validationErrors = result.Validation.Mean;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EABBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EABBBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EABBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code on how to use Cross-Validation</span>
+<span class="highlight-comment">// to assess the performance of Hidden Markov Models.</span>
+
+<span class="highlight-comment">// Declare some testing data</span>
+<span class="highlight-keyword">int</span>[][] inputs = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[][]
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 0</span>
+
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> },     <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 1</span>
+
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },   <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },   <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> }, <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },     <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },   <span class="highlight-comment">// Class 2</span>
+};
+
+<span class="highlight-keyword">int</span>[] outputs = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[]
+{
+    <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>, <span class="highlight-comment">// First  5 sequences are of class 0</span>
+    <span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>, <span class="highlight-comment">// Middle 5 sequences are of class 1</span>
+    <span class="highlight-number">2</span>,<span class="highlight-number">2</span>,<span class="highlight-number">2</span>,<span class="highlight-number">2</span>,<span class="highlight-number">2</span>, <span class="highlight-comment">// Last   5 sequences are of class 2</span>
+};
+
+<span class="highlight-comment">// Create a new Cross-validation algorithm passing the data set size and the number of folds</span>
+<span class="highlight-keyword">var</span> crossvalidation = <span class="highlight-keyword">new</span> CrossValidation&lt;HiddenMarkovClassifier, <span class="highlight-keyword">int</span>[]&gt;()
+{
+    K = <span class="highlight-number">3</span>, <span class="highlight-comment">// Use 3 folds in cross-validation</span>
+    Learner = (s) =&gt; <span class="highlight-keyword">new</span> HiddenMarkovClassifierLearning()
+    {
+        Learner = (p) =&gt; <span class="highlight-keyword">new</span> BaumWelchLearning()
+        {
+            NumberOfStates = <span class="highlight-number">3</span>
+        }
+    },
+
+    Loss = (expected, actual, p) =&gt; 
+    {
+        <span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(classes: p.Model.NumberOfClasses, expected: expected, predicted: actual);
+        p.Variance = cm.Variance;
+        <span class="highlight-keyword">return</span> p.Value = cm.Kappa;
+    },
+
+    Stratify = <span class="highlight-keyword">false</span>,
+};
+
+<span class="highlight-comment">// If needed, control the parallelization degree</span>
+crossvalidation.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Compute the cross-validation</span>
+<span class="highlight-keyword">var</span> result = crossvalidation.Learn(inputs, outputs);
+
+<span class="highlight-comment">// Finally, access the measured performance.</span>
+<span class="highlight-keyword">double</span> trainingErrors = result.Training.Mean;
+<span class="highlight-keyword">double</span> validationErrors = result.Validation.Mean;
+
+<span class="highlight-keyword">double</span> trainingErrorVar = result.Training.Variance;
+<span class="highlight-keyword">double</span> validationErrorVar = result.Validation.Variance;
+
+<span class="highlight-keyword">double</span> trainingErrorPooledVar = result.Training.PooledVariance;
+<span class="highlight-keyword">double</span> validationErrorPooledVar = result.Validation.PooledVariance;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EABBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure we have reproducible results</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Get some data to be learned. We will be using the Wiconsin's</span>
+<span class="highlight-comment">// (Diagnostic) Breast Cancer dataset, where the goal is to determine</span>
+<span class="highlight-comment">// whether the characteristics extracted from a breast cancer exam</span>
+<span class="highlight-comment">// correspond to a malignant or benign type of cancer:</span>
+<span class="highlight-keyword">var</span> data = <span class="highlight-keyword">new</span> WisconsinDiagnosticBreastCancer();
+<span class="highlight-keyword">double</span>[][] input = data.Features; <span class="highlight-comment">// 569 samples, 30-dimensional features</span>
+<span class="highlight-keyword">int</span>[] output = data.ClassLabels;  <span class="highlight-comment">// 569 samples, 2 different class labels</span>
+
+<span class="highlight-comment">// Let's say we want to measure the cross-validation performance of</span>
+<span class="highlight-comment">// a decision tree with a maximum tree height of 5 and where variables</span>
+<span class="highlight-comment">// are able to join the decision path at most 2 times during evaluation:</span>
+<span class="highlight-keyword">var</span> cv = CrossValidation.Create(
+
+    k: <span class="highlight-number">10</span>, <span class="highlight-comment">// We will be using 10-fold cross validation</span>
+
+    learner: (p) =&gt; <span class="highlight-keyword">new</span> C45Learning() <span class="highlight-comment">// here we create the learning algorithm</span>
+    {
+        Join = <span class="highlight-number">2</span>,
+        MaxHeight = <span class="highlight-number">5</span>
+    },
+
+    <span class="highlight-comment">// Now we have to specify how the tree performance should be measured:</span>
+    loss: (actual, expected, p) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual),
+
+    <span class="highlight-comment">// This function can be used to perform any special</span>
+    <span class="highlight-comment">// operations before the actual learning is done, but</span>
+    <span class="highlight-comment">// here we will just leave it as simple as it can be:</span>
+    fit: (teacher, x, y, w) =&gt; teacher.Learn(x, y, w),
+
+    <span class="highlight-comment">// Finally, we have to pass the input and output data</span>
+    <span class="highlight-comment">// that will be used in cross-validation. </span>
+    x: input, y: output
+);
+
+<span class="highlight-comment">// After the cross-validation object has been created,</span>
+<span class="highlight-comment">// we can call its .Learn method with the input and </span>
+<span class="highlight-comment">// output data that will be partitioned into the folds:</span>
+<span class="highlight-keyword">var</span> result = cv.Learn(input, output);
+
+<span class="highlight-comment">// We can grab some information about the problem:</span>
+<span class="highlight-keyword">int</span> numberOfSamples = result.NumberOfSamples; <span class="highlight-comment">// should be 569</span>
+<span class="highlight-keyword">int</span> numberOfInputs = result.NumberOfInputs;   <span class="highlight-comment">// should be 30</span>
+<span class="highlight-keyword">int</span> numberOfOutputs = result.NumberOfOutputs; <span class="highlight-comment">// should be 2</span>
+
+<span class="highlight-keyword">double</span> trainingError = result.Training.Mean; <span class="highlight-comment">// should be 0</span>
+<span class="highlight-keyword">double</span> validationError = result.Validation.Mean; <span class="highlight-comment">// should be 0.089661654135338359</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_CrossValidation.htm">CrossValidation Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:feedback%40accord-framework.net?Subject=Accord.NET Framework">feedback@accord-framework.net</a></div>
+        <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>
