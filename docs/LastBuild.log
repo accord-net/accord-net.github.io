@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="8/20/2017 12:34:12 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Accord.Documentation.shfbproj" started="8/21/2017 8:32:43 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -9,7 +9,7 @@ Locating components in the following folder(s):
     C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
-Using framework reflection data for &#39;.NET Framework 4.6&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using framework reflection data for &#39;.NET Framework 4.6.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
 Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
 Loading and initializing plug-ins...
 Lightweight Website Style Version 2017.1.28.0
@@ -87,37 +87,37 @@ Source: C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.dl
     Found assembly &#39;C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.dll&#39;
 
 Parsing project files
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audio.DirectSound.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audio.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audition.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Audio.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Imaging.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Vision.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Fuzzy.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Genetic.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Imaging.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.IO.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.MachineLearning.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Math.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Neuro.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Statistics.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.DirectShow.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.Kinect.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.VFW.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.Ximea.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Vision.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Noncommercial\Accord.Imaging.Noncommercial.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\GPL\Accord.MachineLearning.GPL.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Noncommercial\Accord.Math.Noncommercial.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Debug\GPL\Accord.Video.FFMPEG.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.DataSets.dll&#39;
-    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Debug\Accord.Text.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Audio.DirectSound.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Audio.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Audition.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.Audio.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.Imaging.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.Vision.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Fuzzy.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Genetic.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Imaging.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.IO.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.MachineLearning.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Math.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Neuro.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Statistics.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.DirectShow.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.Kinect.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.VFW.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.Ximea.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Vision.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Noncommercial\Accord.Imaging.Noncommercial.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\GPL\Accord.MachineLearning.GPL.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Noncommercial\Accord.Math.Noncommercial.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\GPL\Accord.Video.FFMPEG.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.DataSets.dll&#39;
+    Found assembly &#39;C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Text.dll&#39;
 
 References to include (excluding framework assemblies):
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Math.Core.dll
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Math.Core.dll
     envdte, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
     ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL
     SharpDX
@@ -131,46 +131,48 @@ References to include (excluding framework assemblies):
 Copying XML comments files
     C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.DirectSound.xml -&gt; C:\Docs\Working\SharpDX.DirectSound.xml
     C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.xml -&gt; C:\Docs\Working\SharpDX.xml
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audio.DirectSound.XML -&gt; C:\Docs\Working\Accord.Audio.DirectSound.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audio.XML -&gt; C:\Docs\Working\Accord.Audio.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Audition.XML -&gt; C:\Docs\Working\Accord.Audition.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Audio.XML -&gt; C:\Docs\Working\Accord.Controls.Audio.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Imaging.XML -&gt; C:\Docs\Working\Accord.Controls.Imaging.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.XML -&gt; C:\Docs\Working\Accord.Controls.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Controls.Vision.XML -&gt; C:\Docs\Working\Accord.Controls.Vision.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.XML -&gt; C:\Docs\Working\Accord.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Fuzzy.XML -&gt; C:\Docs\Working\Accord.Fuzzy.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Genetic.XML -&gt; C:\Docs\Working\Accord.Genetic.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Imaging.XML -&gt; C:\Docs\Working\Accord.Imaging.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.IO.XML -&gt; C:\Docs\Working\Accord.IO.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.MachineLearning.XML -&gt; C:\Docs\Working\Accord.MachineLearning.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Math.XML -&gt; C:\Docs\Working\Accord.Math.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Neuro.XML -&gt; C:\Docs\Working\Accord.Neuro.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Statistics.XML -&gt; C:\Docs\Working\Accord.Statistics.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.DirectShow.XML -&gt; C:\Docs\Working\Accord.Video.DirectShow.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.Kinect.XML -&gt; C:\Docs\Working\Accord.Video.Kinect.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.VFW.XML -&gt; C:\Docs\Working\Accord.Video.VFW.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.Ximea.XML -&gt; C:\Docs\Working\Accord.Video.Ximea.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Video.XML -&gt; C:\Docs\Working\Accord.Video.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.Vision.XML -&gt; C:\Docs\Working\Accord.Vision.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Noncommercial\Accord.Imaging.Noncommercial.XML -&gt; C:\Docs\Working\Accord.Imaging.Noncommercial.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\GPL\Accord.MachineLearning.GPL.XML -&gt; C:\Docs\Working\Accord.MachineLearning.GPL.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Noncommercial\Accord.Math.Noncommercial.XML -&gt; C:\Docs\Working\Accord.Math.Noncommercial.XML
-    C:\Projects\Accord.NET\framework\Sources\..\Release\net46\Accord.DataSets.XML -&gt; C:\Docs\Working\Accord.DataSets.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Audio.DirectSound.XML -&gt; C:\Docs\Working\Accord.Audio.DirectSound.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Audio.XML -&gt; C:\Docs\Working\Accord.Audio.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Audition.XML -&gt; C:\Docs\Working\Accord.Audition.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.Audio.XML -&gt; C:\Docs\Working\Accord.Controls.Audio.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.Imaging.XML -&gt; C:\Docs\Working\Accord.Controls.Imaging.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.XML -&gt; C:\Docs\Working\Accord.Controls.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Controls.Vision.XML -&gt; C:\Docs\Working\Accord.Controls.Vision.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.XML -&gt; C:\Docs\Working\Accord.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Fuzzy.XML -&gt; C:\Docs\Working\Accord.Fuzzy.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Genetic.XML -&gt; C:\Docs\Working\Accord.Genetic.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Imaging.XML -&gt; C:\Docs\Working\Accord.Imaging.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.IO.XML -&gt; C:\Docs\Working\Accord.IO.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.MachineLearning.XML -&gt; C:\Docs\Working\Accord.MachineLearning.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Math.XML -&gt; C:\Docs\Working\Accord.Math.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Neuro.XML -&gt; C:\Docs\Working\Accord.Neuro.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Statistics.XML -&gt; C:\Docs\Working\Accord.Statistics.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.DirectShow.XML -&gt; C:\Docs\Working\Accord.Video.DirectShow.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.Kinect.XML -&gt; C:\Docs\Working\Accord.Video.Kinect.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.VFW.XML -&gt; C:\Docs\Working\Accord.Video.VFW.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.Ximea.XML -&gt; C:\Docs\Working\Accord.Video.Ximea.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Video.XML -&gt; C:\Docs\Working\Accord.Video.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Vision.XML -&gt; C:\Docs\Working\Accord.Vision.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Noncommercial\Accord.Imaging.Noncommercial.XML -&gt; C:\Docs\Working\Accord.Imaging.Noncommercial.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\GPL\Accord.MachineLearning.GPL.XML -&gt; C:\Docs\Working\Accord.MachineLearning.GPL.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Noncommercial\Accord.Math.Noncommercial.XML -&gt; C:\Docs\Working\Accord.Math.Noncommercial.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\GPL\Accord.Video.FFMPEG.xml -&gt; C:\Docs\Working\Accord.Video.FFMPEG.xml
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.DataSets.XML -&gt; C:\Docs\Working\Accord.DataSets.XML
+    C:\Projects\Accord.NET\framework\Sources\..\Release\net462\Accord.Text.XML -&gt; C:\Docs\Working\Accord.Text.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0642
+</plugIn>    Last step completed in 00:00:00.0451
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.6805
+    Last step completed in 00:00:00.7377
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\Preview\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 8/20/2017 12:34:34 PM.
+Build started 8/21/2017 8:32:45 PM.
 Project &quot;C:\Docs\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -187,34 +189,34 @@ GenerateRefInfo:
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
 MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.DirectSound.dll&#39; does not exist or could not be loaded.  Source context information is unavailable. [C:\Docs\Working\GenerateRefInfo.proj]
 MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\Projects\Accord.NET\framework\Externals\SharpDX\v311\net45\SharpDX.dll&#39; does not exist or could not be loaded.  Source context information is unavailable. [C:\Docs\Working\GenerateRefInfo.proj]
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Debug\Accord.Text.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Debug\GPL\Accord.Video.FFMPEG.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Audio.DirectSound.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Audio.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Audition.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Controls.Audio.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Controls.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Controls.Imaging.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Controls.Vision.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.DataSets.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Fuzzy.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Genetic.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Imaging.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.IO.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.MachineLearning.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Math.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Neuro.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Statistics.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Video.DirectShow.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Video.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Video.Kinect.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Video.VFW.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Video.Ximea.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Accord.Vision.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\GPL\Accord.MachineLearning.GPL.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Noncommercial\Accord.Imaging.Noncommercial.dll&#39;.
-  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net46\Noncommercial\Accord.Math.Noncommercial.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Audio.DirectSound.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Audio.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Audition.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Controls.Audio.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Controls.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Controls.Imaging.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Controls.Vision.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.DataSets.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Fuzzy.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Genetic.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Imaging.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.IO.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.MachineLearning.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Math.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Neuro.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Statistics.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Text.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Video.DirectShow.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Video.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Video.Kinect.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Video.VFW.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Video.Ximea.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Accord.Vision.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\GPL\Accord.MachineLearning.GPL.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\GPL\Accord.Video.FFMPEG.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Noncommercial\Accord.Imaging.Noncommercial.dll&#39;.
+  Found a current program database (PDB) file for &#39;C:\Projects\Accord.NET\framework\Release\net462\Noncommercial\Accord.Math.Noncommercial.dll&#39;.
   Loaded 30 assemblies for reflection and 60 dependency assemblies.
   Source code location not found for Accord.MessageTransferHandler
   Source code location not found for Accord.Audio.ComplexSignalStatus
@@ -566,12 +568,12 @@ MRefBuilder : warning : The program database (PDB) file associated with &#39;C:\
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;C:\Docs\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:01:41.0006
+    Last step completed in 00:01:52.4453
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\Preview\Professional\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 8/20/2017 12:36:15 PM.
+Build started 8/21/2017 8:34:38 PM.
 Project &quot;C:\Docs\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2017.1.28.0)
@@ -9318,11 +9320,11 @@ TransformManifest:
   Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;C:\Docs\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:23:56.9207
+    Last step completed in 00:24:37.0117
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:03.3310
+    Last step completed in 00:00:03.3840
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -9333,7 +9335,7 @@ E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
-Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\*.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\*.xml
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.4.0.0\*.xml
 Indexing C:\Docs\Working\SharpDX.DirectSound.xml
 Indexing C:\Docs\Working\SharpDX.xml
@@ -9362,13 +9364,15 @@ Indexing C:\Docs\Working\Accord.Vision.XML
 Indexing C:\Docs\Working\Accord.Imaging.Noncommercial.XML
 Indexing C:\Docs\Working\Accord.MachineLearning.GPL.XML
 Indexing C:\Docs\Working\Accord.Math.Noncommercial.XML
+Indexing C:\Docs\Working\Accord.Video.FFMPEG.xml
 Indexing C:\Docs\Working\Accord.DataSets.XML
-Indexed 192143 members in 155 file(s).  28 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexing C:\Docs\Working\Accord.Text.XML
+Indexed 193372 members in 157 file(s).  30 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:03.7218
+    Last step completed in 00:00:04.6948
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -9592,16 +9596,16 @@ C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Buildi
 C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\Building.txt -&gt; C:\Docs\Working\Output\Website\Building.txt
 C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (icon).ico -&gt; C:\Docs\Working\Output\HtmlHelp1\resources\Accord.NET (icon).ico
 C:\Projects\Accord.NET\framework\Sources\Accord.Docs\Accord.Documentation\resources\Accord.NET (icon).ico -&gt; C:\Docs\Working\Output\Website\resources\Accord.NET (icon).ico
-    Last step completed in 00:00:00.8504
+    Last step completed in 00:00:01.7564
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\Preview\Professional\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 8/20/2017 1:00:20 PM.
+Build started 8/21/2017 8:59:25 PM.
 Project &quot;C:\Docs\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2017.1.28.0)
@@ -9610,12 +9614,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;C:\Docs\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:02.0323
+    Last step completed in 00:00:02.8553
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:01.1782
+    Last step completed in 00:00:01.3099
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -9623,12 +9627,12 @@ C:\Docs\Working\sandcastle.config
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\Preview\Professional\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 8/20/2017 1:00:23 PM.
+Build started 8/21/2017 8:59:29 PM.
 Project &quot;C:\Docs\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2017.1.28.0)
@@ -11385,11 +11389,11 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [R:Project_Accord.NET
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 30 of 30.
 Done Building Project &quot;C:\Docs\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:13:17.1360
+    Last step completed in 00:12:57.1730
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.2713
+    Last step completed in 00:00:00.2838
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -11411,7 +11415,7 @@ Processed 30267 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Docs\Working\WebKI.xml
 Saving website table of contents to C:\Docs\Working\WebTOC.xml
-    Last step completed in 00:02:23.9591
+    Last step completed in 00:02:46.5026
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -11553,11 +11557,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Docs\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Docs\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Docs\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:02.2361
+    Last step completed in 00:00:01.7742
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0135
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -11565,7 +11569,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.8117
+    Last step completed in 00:00:00.7570
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -11580,13 +11584,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 14 minutes, 39 seconds
+  Compile time: 16 minutes, 5 seconds
   
   30,269	Topics
   
-  411,351	Local links
+  411,369	Local links
   
-  9,826	Internet links
+  9,829	Internet links
   
   0	Graphics
   
@@ -11594,22 +11598,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 56,553,625 bytes
+  Created c:\Docs\Working\Output\HtmlHelp1\Accord.NET.chm, 56,582,273 bytes
   
-  Compression decreased file by 354,760,269 bytes.
+  Compression decreased file by 354,889,565 bytes.
   
-    Last step completed in 00:14:43.0815
+    Last step completed in 00:16:10.6608
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:04:57.9843
+</plugIn>    Last step completed in 00:06:04.6932
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -11690,11 +11694,11 @@ Copied 36500 files
 Copied 37000 files
 Copied 37500 files
 Copied 37854 files for the website content
-    Last step completed in 00:10:02.2290
+    Last step completed in 00:12:17.4380
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 8/20/2017 1:45:51 PM.  Total time: 01:11:38.7917
+Build completed successfully at 8/21/2017 9:49:48 PM.  Total time: 01:17:04.6249
 
 </buildStep>
 </shfbBuild>
