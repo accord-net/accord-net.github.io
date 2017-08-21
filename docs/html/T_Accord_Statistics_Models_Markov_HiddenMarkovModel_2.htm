@@ -52,7 +52,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HiddenMarkovModel</span>&lt;TDistribution, TObservation&gt; : <span class="identifier">LikelihoodTaggerBase</span>&lt;TObservation&gt;, 
 	<span class="identifier">ICloneable</span>
 <span class="keyword">where</span> TDistribution : <span class="identifier">Object</span>, <span class="identifier">IDistribution</span>&lt;TObservation&gt;
@@ -375,16 +375,16 @@
               following example, the generic model is used with a <a href="T_Accord_Statistics_Distributions_Univariate_GeneralDiscreteDistribution.htm">GeneralDiscreteDistribution</a>
               to reproduce the same example given in <span class="selflink">HiddenMarkovModel<span id="LSTBB630F3_578"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_578?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTBB630F3_579"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_579?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></span>.
               Below, the model's parameters are initialized manually. However, it is possible to learn
-              those automatically using <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm">BaumWelchLearning<span id="LSTBB630F3_580"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_580?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTBB630F3_581"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_581?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create the transition matrix A</span>
-<span class="highlight-keyword">double</span>[,] transitions = 
-{  
+              those automatically using <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm">BaumWelchLearning<span id="LSTBB630F3_580"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_580?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTBB630F3_581"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_581?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create the transition matrix A</span>
+<span class="highlight-keyword">double</span>[,] transitions =
+{
     { <span class="highlight-number">0.7</span>, <span class="highlight-number">0.3</span> },
     { <span class="highlight-number">0.4</span>, <span class="highlight-number">0.6</span> }
 };
 
 <span class="highlight-comment">// Create the vector of emission densities B</span>
-GeneralDiscreteDistribution[] emissions = 
-{  
+GeneralDiscreteDistribution[] emissions =
+{
     <span class="highlight-keyword">new</span> GeneralDiscreteDistribution(<span class="highlight-number">0.1</span>, <span class="highlight-number">0.4</span>, <span class="highlight-number">0.5</span>),
     <span class="highlight-keyword">new</span> GeneralDiscreteDistribution(<span class="highlight-number">0.6</span>, <span class="highlight-number">0.3</span>, <span class="highlight-number">0.1</span>)
 };
@@ -415,11 +415,11 @@ GeneralDiscreteDistribution[] emissions =
 <span class="highlight-keyword">double</span> viterbi = hmm.LogLikelihood(sequence, <span class="highlight-keyword">ref</span> path);
 
 <span class="highlight-comment">// At this point, the state path will be 1-0-0 and the</span>
-<span class="highlight-comment">// log-likelihood will be -4.3095199438871337</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACDBA");</script><p>
+<span class="highlight-comment">// log-likelihood will be -4.3095199438871337</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGDBA");</script><p>
               Examples on how to learn hidden Markov models can be found on the documentation
               pages of the respective learning algorithms: <a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_2.htm">BaumWelchLearning<span id="LSTBB630F3_582"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_582?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTBB630F3_583"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_583?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>,
               <a href="T_Accord_Statistics_Models_Markov_Learning_ViterbiLearning_2.htm">ViterbiLearning<span id="LSTBB630F3_584"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_584?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTBB630F3_585"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_585?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, <a href="T_Accord_Statistics_Models_Markov_Learning_MaximumLikelihoodLearning_2.htm">MaximumLikelihoodLearning<span id="LSTBB630F3_586"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_586?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TDistribution, TObservation<span id="LSTBB630F3_587"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBB630F3_587?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
-              The simplest of such examples can be seen below:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAADBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAADBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAADBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Continuous Markov Models can operate using any</span>
+              The simplest of such examples can be seen below:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Continuous Markov Models can operate using any</span>
 <span class="highlight-comment">// probability distribution, including discrete ones. </span>
 
 <span class="highlight-comment">// In the following example, we will try to create a</span>
@@ -427,7 +427,7 @@ GeneralDiscreteDistribution[] emissions =
 <span class="highlight-comment">// distribution to detect if a given sequence starts</span>
 <span class="highlight-comment">// with a zero and has any number of ones after that.</span>
 
-<span class="highlight-keyword">int</span>[][] sequences = <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[][] 
+<span class="highlight-keyword">int</span>[][] sequences = <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[][]
 {
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span> },
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span> },
@@ -468,7 +468,113 @@ teacher.Learn(sequences);
 <span class="highlight-comment">//  than the ones which do not start with zero. This shows some</span>
 <span class="highlight-comment">//  of the temporal elasticity and error tolerance of the HMMs.</span>
 <span class="highlight-keyword">double</span> l5 = hmm.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> }); <span class="highlight-comment">// 0.034</span>
-<span class="highlight-keyword">double</span> l6 = hmm.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }); <span class="highlight-comment">// 0.034</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAADBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">Baum-Welch, one of the most famous 
+<span class="highlight-keyword">double</span> l6 = hmm.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }); <span class="highlight-comment">// 0.034</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEDBA");</script><p>
+              Markov models can also be trained without having, in fact, "hidden" parts. The following example shows 
+              how hidden Markov models trained using Maximum Likelihood Learning can be used in the context of fraud 
+              analysis, in which we actually know in advance the class labels for each state in the sequences we are
+              trying to learn:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Let's say we have the following data about credit card transactions,</span>
+<span class="highlight-comment">// where the data is organized in order of transaction, per credit card </span>
+<span class="highlight-comment">// holder. Everytime the "Time" column starts at zero, denotes that the</span>
+<span class="highlight-comment">// sequence of observations follow will correspond to transactions of the</span>
+<span class="highlight-comment">// same person:</span>
+
+<span class="highlight-keyword">double</span>[,] data =
+{
+    <span class="highlight-comment">// "Time", "V1",   "V2",  "V3", "V4", "V5", "Amount",  "Fraud"</span>
+    {      <span class="highlight-number">0</span>,   <span class="highlight-number">0.521</span>, <span class="highlight-number">0.124</span>, <span class="highlight-number">0.622</span>, <span class="highlight-number">15.2</span>, <span class="highlight-number">25.6</span>,   <span class="highlight-number">2.70</span>,      <span class="highlight-number">0</span> }, <span class="highlight-comment">// first person, ok</span>
+    {      <span class="highlight-number">1</span>,   <span class="highlight-number">0.121</span>, <span class="highlight-number">0.124</span>, <span class="highlight-number">0.822</span>, <span class="highlight-number">12.2</span>, <span class="highlight-number">25.6</span>,   <span class="highlight-number">42.0</span>,      <span class="highlight-number">0</span> }, <span class="highlight-comment">// first person, ok</span>
+
+    {      <span class="highlight-number">0</span>,   <span class="highlight-number">0.551</span>, <span class="highlight-number">0.124</span>, <span class="highlight-number">0.422</span>, <span class="highlight-number">17.5</span>, <span class="highlight-number">25.6</span>,   <span class="highlight-number">20.0</span>,      <span class="highlight-number">0</span> }, <span class="highlight-comment">// second person, ok</span>
+    {      <span class="highlight-number">1</span>,   <span class="highlight-number">0.136</span>, <span class="highlight-number">0.154</span>, <span class="highlight-number">0.322</span>, <span class="highlight-number">15.3</span>, <span class="highlight-number">25.6</span>,   <span class="highlight-number">50.0</span>,      <span class="highlight-number">0</span> }, <span class="highlight-comment">// second person, ok</span>
+    {      <span class="highlight-number">2</span>,   <span class="highlight-number">0.721</span>, <span class="highlight-number">0.240</span>, <span class="highlight-number">0.422</span>, <span class="highlight-number">12.2</span>, <span class="highlight-number">25.6</span>,   <span class="highlight-number">100.0</span>,     <span class="highlight-number">1</span> }, <span class="highlight-comment">// second person, fraud!</span>
+    {      <span class="highlight-number">3</span>,   <span class="highlight-number">0.222</span>, <span class="highlight-number">0.126</span>, <span class="highlight-number">0.722</span>, <span class="highlight-number">18.1</span>, <span class="highlight-number">25.8</span>,   <span class="highlight-number">10.0</span>,      <span class="highlight-number">0</span> }, <span class="highlight-comment">// second person, ok</span>
+};
+
+<span class="highlight-comment">// Transform the above data into a jagged matrix</span>
+<span class="highlight-keyword">double</span>[][][] input;
+<span class="highlight-keyword">int</span>[][] states;
+transform(data, <span class="highlight-keyword">out</span> input, <span class="highlight-keyword">out</span> states);
+
+<span class="highlight-comment">// Determine here the number of dimensions in the observations (in this case, 6)</span>
+<span class="highlight-keyword">int</span> observationDimensions = <span class="highlight-number">6</span>; <span class="highlight-comment">// 6 columns: "V1", "V2", "V3", "V4", "V5", "Amount"</span>
+
+<span class="highlight-comment">// Create some prior distributions to help initialize our parameters</span>
+<span class="highlight-keyword">var</span> priorC = <span class="highlight-keyword">new</span> WishartDistribution(dimension: observationDimensions, degreesOfFreedom: <span class="highlight-number">10</span>); <span class="highlight-comment">// this 10 is just some random number, you might have to tune as if it was a hyperparameter</span>
+<span class="highlight-keyword">var</span> priorM = <span class="highlight-keyword">new</span> MultivariateNormalDistribution(dimension: observationDimensions);
+
+<span class="highlight-comment">// Configure the learning algorithms to train the sequence classifier</span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MaximumLikelihoodLearning&lt;MultivariateNormalDistribution, <span class="highlight-keyword">double</span>[]&gt;()
+{
+    <span class="highlight-comment">// Their emissions will be multivariate Normal distributions initialized using the prior distributions</span>
+    Emissions = (j) =&gt; <span class="highlight-keyword">new</span> MultivariateNormalDistribution(mean: priorM.Generate(), covariance: priorC.Generate()),
+
+    <span class="highlight-comment">// We will prevent our covariance matrices from becoming degenerate by adding a small </span>
+    <span class="highlight-comment">// regularization value to their diagonal until they become positive-definite again:</span>
+    FittingOptions = <span class="highlight-keyword">new</span> NormalOptions()
+    {
+        Regularization = <span class="highlight-number">1</span>e<span class="highlight-number">-6</span>
+    },
+};
+
+<span class="highlight-comment">// Use the teacher to learn a new HMM </span>
+<span class="highlight-keyword">var</span> hmm = teacher.Learn(input, states);
+
+<span class="highlight-comment">// Use the HMM to predict whether the transations were fradulent or not:</span>
+<span class="highlight-keyword">int</span>[] firstPerson = hmm.Decide(input[<span class="highlight-number">0</span>]); <span class="highlight-comment">// predict the first person, output should be: 0, 0</span>
+
+<span class="highlight-keyword">int</span>[] secondPerson = hmm.Decide(input[<span class="highlight-number">1</span>]); <span class="highlight-comment">// predict the second person, output should be: 0, 0, 1, 0</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACDBA");</script><p>
+              Where the transform function is defined as:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAADBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAADBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAADBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">private</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> transform(<span class="highlight-keyword">double</span>[,] data, <span class="highlight-keyword">out</span> <span class="highlight-keyword">double</span>[][][] input, <span class="highlight-keyword">out</span> <span class="highlight-keyword">int</span>[][] states)
+{
+    <span class="highlight-keyword">var</span> sequences = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">double</span>[][]&gt;();
+    <span class="highlight-keyword">var</span> classLabels = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">int</span>[]&gt;();
+
+    List&lt;<span class="highlight-keyword">double</span>[]&gt; currentSequence = <span class="highlight-keyword">null</span>;
+    List&lt;<span class="highlight-keyword">int</span>&gt; currentLabels = <span class="highlight-keyword">null</span>;
+    <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; data.Rows(); i++)
+    {
+        <span class="highlight-comment">// Check if the first column contains a zero, this would be an indication</span>
+        <span class="highlight-comment">// that a new sequence (for a different person) is beginning:</span>
+        <span class="highlight-keyword">if</span> (data[i, <span class="highlight-number">0</span>] == <span class="highlight-number">0</span>)
+        {
+            <span class="highlight-comment">// Yes, this is a new sequence. Check if we were building</span>
+            <span class="highlight-comment">// a sequence before, and if yes, save it to the list:</span>
+            <span class="highlight-keyword">if</span> (currentSequence != <span class="highlight-keyword">null</span>)
+            {
+                <span class="highlight-comment">// Save the sequence we had so far </span>
+                sequences.Add(currentSequence.ToArray());
+                classLabels.Add(currentLabels.ToArray());
+
+                currentSequence = <span class="highlight-keyword">null</span>;
+                currentLabels = <span class="highlight-keyword">null</span>;
+            }
+
+            <span class="highlight-comment">// We will be starting a new sequence</span>
+            currentSequence = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">double</span>[]&gt;();
+            currentLabels = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">int</span>&gt;();
+        }
+
+        <span class="highlight-keyword">double</span>[] features = data.GetRow(i).Get(<span class="highlight-number">1</span>, <span class="highlight-number">7</span>); <span class="highlight-comment">// Get values in columns from 1 (inclusive) to 7 (exclusive), meaning "V1", "V2", "V3", "V4", "V5", and "Amount"</span>
+        <span class="highlight-keyword">int</span> classLabel = (<span class="highlight-keyword">int</span>)data[i, <span class="highlight-number">7</span>]; <span class="highlight-comment">// The seventh index corresponds to the class label column ("Class")</span>
+
+        <span class="highlight-comment">// Save this information:</span>
+        currentSequence.Add(features);
+        currentLabels.Add(classLabel);
+    }
+
+    <span class="highlight-comment">// Check if there are any sequences and labels that we haven't saved yet:</span>
+    <span class="highlight-keyword">if</span> (currentSequence != <span class="highlight-keyword">null</span>)
+    {
+        <span class="highlight-comment">// Yes there are: save them</span>
+        sequences.Add(currentSequence.ToArray());
+        classLabels.Add(currentLabels.ToArray());
+    }
+
+    input = sequences.ToArray();
+    states = classLabels.ToArray();
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAADBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov.htm">Accord.Statistics.Models.Markov Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_Learning_BaumWelchLearning_1.htm">Baum-Welch, one of the most famous 
               learning algorithms for Hidden Markov Models.</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Markov_HiddenMarkovModel.htm">Discrete-density Hidden Markov Model</a></div><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Markov_Learning.htm">Accord.Statistics.Models.Markov.Learning</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">

@@ -24,6 +24,8 @@
     <meta name="file" content="T_Accord_MachineLearning_CrossValidationResult_1" />
     <meta name="guid" content="T_Accord_MachineLearning_CrossValidationResult_1" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -50,7 +52,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 [<span class="identifier">ObsoleteAttribute</span>("Please use CrossValidationResult&lt;TModel, TInput, TOutput&gt; instead.")]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">CrossValidationResult</span>&lt;TModel&gt;
 <span class="keyword">where</span> TModel : <span class="keyword">class</span>
@@ -105,7 +107,186 @@
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code on how to use Cross-Validation</span>
+<span class="highlight-comment">// to assess the performance of Support Vector Machines.</span>
+
+<span class="highlight-comment">// Consider the example binary data. We will be trying</span>
+<span class="highlight-comment">// to learn a XOR problem and see how well does SVMs</span>
+<span class="highlight-comment">// perform on this data.</span>
+
+<span class="highlight-keyword">double</span>[][] data =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>, <span class="highlight-number">-1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>, <span class="highlight-number">-1</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> },
+};
+
+<span class="highlight-keyword">int</span>[] xor = <span class="highlight-comment">// result of xor for the sample input data</span>
+{
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+    <span class="highlight-number">-1</span>,       <span class="highlight-number">1</span>,
+     <span class="highlight-number">1</span>,      <span class="highlight-number">-1</span>,
+};
+
+
+<span class="highlight-comment">// Create a new Cross-validation algorithm passing the data set size and the number of folds</span>
+<span class="highlight-keyword">var</span> crossvalidation = <span class="highlight-keyword">new</span> CrossValidation&lt;SupportVectorMachine&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;, <span class="highlight-keyword">double</span>[]&gt;()
+{
+    K = <span class="highlight-number">3</span>, <span class="highlight-comment">// Use 3 folds in cross-validation</span>
+
+    <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
+    Learner = (s) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;()
+    {
+        Complexity = <span class="highlight-number">100</span>
+    },
+
+    <span class="highlight-comment">// Indicate how the performance of those models will be measured</span>
+    Loss = (expected, actual, p) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual),
+
+    Stratify = <span class="highlight-keyword">false</span>, <span class="highlight-comment">// do not force balancing of classes</span>
+};
+
+<span class="highlight-comment">// If needed, control the parallelization degree</span>
+crossvalidation.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Compute the cross-validation</span>
+<span class="highlight-keyword">var</span> result = crossvalidation.Learn(data, xor);
+
+<span class="highlight-comment">// Finally, access the measured performance.</span>
+<span class="highlight-keyword">double</span> trainingErrors = result.Training.Mean;
+<span class="highlight-keyword">double</span> validationErrors = result.Validation.Mean;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code on how to use Cross-Validation</span>
+<span class="highlight-comment">// to assess the performance of Hidden Markov Models.</span>
+
+<span class="highlight-comment">// Declare some testing data</span>
+<span class="highlight-keyword">int</span>[][] inputs = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[][]
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 0</span>
+
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> }, <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> },     <span class="highlight-comment">// Class 1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span> },   <span class="highlight-comment">// Class 1</span>
+
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },   <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },   <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> }, <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },     <span class="highlight-comment">// Class 2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">0</span>,<span class="highlight-number">1</span> },   <span class="highlight-comment">// Class 2</span>
+};
+
+<span class="highlight-keyword">int</span>[] outputs = <span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[]
+{
+    <span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>,<span class="highlight-number">0</span>, <span class="highlight-comment">// First  5 sequences are of class 0</span>
+    <span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>,<span class="highlight-number">1</span>, <span class="highlight-comment">// Middle 5 sequences are of class 1</span>
+    <span class="highlight-number">2</span>,<span class="highlight-number">2</span>,<span class="highlight-number">2</span>,<span class="highlight-number">2</span>,<span class="highlight-number">2</span>, <span class="highlight-comment">// Last   5 sequences are of class 2</span>
+};
+
+<span class="highlight-comment">// Create a new Cross-validation algorithm passing the data set size and the number of folds</span>
+<span class="highlight-keyword">var</span> crossvalidation = <span class="highlight-keyword">new</span> CrossValidation&lt;HiddenMarkovClassifier, <span class="highlight-keyword">int</span>[]&gt;()
+{
+    K = <span class="highlight-number">3</span>, <span class="highlight-comment">// Use 3 folds in cross-validation</span>
+    Learner = (s) =&gt; <span class="highlight-keyword">new</span> HiddenMarkovClassifierLearning()
+    {
+        Learner = (p) =&gt; <span class="highlight-keyword">new</span> BaumWelchLearning()
+        {
+            NumberOfStates = <span class="highlight-number">3</span>
+        }
+    },
+
+    Loss = (expected, actual, p) =&gt; 
+    {
+        <span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(classes: p.Model.NumberOfClasses, expected: expected, predicted: actual);
+        p.Variance = cm.Variance;
+        <span class="highlight-keyword">return</span> p.Value = cm.Kappa;
+    },
+
+    Stratify = <span class="highlight-keyword">false</span>,
+};
+
+<span class="highlight-comment">// If needed, control the parallelization degree</span>
+crossvalidation.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Compute the cross-validation</span>
+<span class="highlight-keyword">var</span> result = crossvalidation.Learn(inputs, outputs);
+
+<span class="highlight-comment">// Finally, access the measured performance.</span>
+<span class="highlight-keyword">double</span> trainingErrors = result.Training.Mean;
+<span class="highlight-keyword">double</span> validationErrors = result.Validation.Mean;
+
+<span class="highlight-keyword">double</span> trainingErrorVar = result.Training.Variance;
+<span class="highlight-keyword">double</span> validationErrorVar = result.Validation.Variance;
+
+<span class="highlight-keyword">double</span> trainingErrorPooledVar = result.Training.PooledVariance;
+<span class="highlight-keyword">double</span> validationErrorPooledVar = result.Validation.PooledVariance;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure we have reproducible results</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Get some data to be learned. We will be using the Wiconsin's</span>
+<span class="highlight-comment">// (Diagnostic) Breast Cancer dataset, where the goal is to determine</span>
+<span class="highlight-comment">// whether the characteristics extracted from a breast cancer exam</span>
+<span class="highlight-comment">// correspond to a malignant or benign type of cancer:</span>
+<span class="highlight-keyword">var</span> data = <span class="highlight-keyword">new</span> WisconsinDiagnosticBreastCancer();
+<span class="highlight-keyword">double</span>[][] input = data.Features; <span class="highlight-comment">// 569 samples, 30-dimensional features</span>
+<span class="highlight-keyword">int</span>[] output = data.ClassLabels;  <span class="highlight-comment">// 569 samples, 2 different class labels</span>
+
+<span class="highlight-comment">// Let's say we want to measure the cross-validation performance of</span>
+<span class="highlight-comment">// a decision tree with a maximum tree height of 5 and where variables</span>
+<span class="highlight-comment">// are able to join the decision path at most 2 times during evaluation:</span>
+<span class="highlight-keyword">var</span> cv = CrossValidation.Create(
+
+    k: <span class="highlight-number">10</span>, <span class="highlight-comment">// We will be using 10-fold cross validation</span>
+
+    learner: (p) =&gt; <span class="highlight-keyword">new</span> C45Learning() <span class="highlight-comment">// here we create the learning algorithm</span>
+    {
+        Join = <span class="highlight-number">2</span>,
+        MaxHeight = <span class="highlight-number">5</span>
+    },
+
+    <span class="highlight-comment">// Now we have to specify how the tree performance should be measured:</span>
+    loss: (actual, expected, p) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual),
+
+    <span class="highlight-comment">// This function can be used to perform any special</span>
+    <span class="highlight-comment">// operations before the actual learning is done, but</span>
+    <span class="highlight-comment">// here we will just leave it as simple as it can be:</span>
+    fit: (teacher, x, y, w) =&gt; teacher.Learn(x, y, w),
+
+    <span class="highlight-comment">// Finally, we have to pass the input and output data</span>
+    <span class="highlight-comment">// that will be used in cross-validation. </span>
+    x: input, y: output
+);
+
+<span class="highlight-comment">// After the cross-validation object has been created,</span>
+<span class="highlight-comment">// we can call its .Learn method with the input and </span>
+<span class="highlight-comment">// output data that will be partitioned into the folds:</span>
+<span class="highlight-keyword">var</span> result = cv.Learn(input, output);
+
+<span class="highlight-comment">// We can grab some information about the problem:</span>
+<span class="highlight-keyword">int</span> numberOfSamples = result.NumberOfSamples; <span class="highlight-comment">// should be 569</span>
+<span class="highlight-keyword">int</span> numberOfInputs = result.NumberOfInputs;   <span class="highlight-comment">// should be 30</span>
+<span class="highlight-keyword">int</span> numberOfOutputs = result.NumberOfOutputs; <span class="highlight-comment">// should be 2</span>
+
+<span class="highlight-keyword">double</span> trainingError = result.Training.Mean; <span class="highlight-comment">// should be 0</span>
+<span class="highlight-keyword">double</span> validationError = result.Validation.Mean; <span class="highlight-comment">// should be 0.089661654135338359</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

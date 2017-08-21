@@ -24,6 +24,8 @@
     <meta name="file" content="T_Accord_MachineLearning_VectorMachines_Learning_AveragedStochasticGradientDescent_1" />
     <meta name="guid" content="T_Accord_MachineLearning_VectorMachines_Learning_AveragedStochasticGradientDescent_1" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -50,7 +52,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning_VectorMachines_Learning.htm">Accord.MachineLearning.VectorMachines.Learning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">AveragedStochasticGradientDescent</span>&lt;TKernel&gt; : <span class="identifier">BaseAveragedStochasticGradientDescent</span>&lt;<span class="identifier">SupportVectorMachine</span>&lt;TKernel&gt;, TKernel, <span class="identifier">double</span>[], <span class="identifier">HingeLoss</span>&gt;
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">AveragedStochasticGradientDescent</span>&lt;TKernel&gt; : <span class="identifier">BaseAveragedStochasticGradientDescent</span>&lt;<span class="identifier">SupportVectorMachine</span>&lt;TKernel&gt;, TKernel, <span class="identifier">double</span>[], <span class="identifier">HingeLoss</span>&gt;
 <span class="keyword">where</span> TKernel : <span class="keyword">struct</span>, <span class="keyword">new</span>(), <span class="identifier">ILinear</span>
 </pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">AveragedStochasticGradientDescent</span>(<span class="keyword">Of</span> TKernel <span class="keyword">As</span> {<span class="keyword">Structure</span>, <span class="keyword">New</span>, <span class="identifier">ILinear</span>})
 	<span class="keyword">Inherits</span> <span class="identifier">BaseAveragedStochasticGradientDescent</span>(<span class="keyword">Of</span> <span class="identifier">SupportVectorMachine</span>(<span class="keyword">Of</span> TKernel), TKernel, <span class="identifier">Double</span>(), <span class="identifier">HingeLoss</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
@@ -84,7 +86,7 @@
               Gets or sets the learning rate for the SGD algorithm.
             </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseAveragedStochasticGradientDescent_4.htm">BaseAveragedStochasticGradientDescent<span id="LST81FDDA30_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_34?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput, TLoss<span id="LST81FDDA30_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_35?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseAveragedStochasticGradientDescent_4_Loss.htm">Loss</a></td><td><div class="summary">
               Gets or sets the loss function to be used. 
-              Default is to use the <a href="T_Accord_Math_Optimization_Losses_HingeLoss.htm">HingeLoss</a>.
+              Default is to use the <a href="T_Accord_Math_Optimization_Losses_LogisticLoss.htm">LogisticLoss</a>.
             </div> (Inherited from <a href="T_Accord_MachineLearning_VectorMachines_Learning_BaseAveragedStochasticGradientDescent_4.htm">BaseAveragedStochasticGradientDescent<span id="LST81FDDA30_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_36?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TKernel, TInput, TLoss<span id="LST81FDDA30_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_37?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_MachineLearning_VectorMachines_Learning_BaseAveragedStochasticGradientDescent_4_MaxIterations.htm">MaxIterations</a></td><td><div class="summary">
               Gets or sets the number of iterations that should be
               performed by the algorithm when calling <a href="M_Accord_MachineLearning_VectorMachines_Learning_BaseAveragedStochasticGradientDescent_4_Learn.htm">Learn(<span id="LST81FDDA30_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_38?cpp=array&lt;");</script>TInput<span id="LST81FDDA30_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_39?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST81FDDA30_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_40?cpp=array&lt;");</script>Boolean<span id="LST81FDDA30_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_41?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST81FDDA30_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_42?cpp=array&lt;");</script>Double<span id="LST81FDDA30_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81FDDA30_43?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a>.
@@ -123,7 +125,151 @@
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_VectorMachines_Learning.htm">Accord.MachineLearning.VectorMachines.Learning Namespace</a></div></div></div>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID7RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// In this example, we will learn a multi-class SVM using the one-vs-one (OvO)</span>
+<span class="highlight-comment">// approach. The OvO approacbh can decompose decision problems involving multiple </span>
+<span class="highlight-comment">// classes into a series of binary ones, which can then be solved using SVMs.</span>
+
+<span class="highlight-comment">// Ensure we have reproducible results</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// We will try to learn a classifier</span>
+<span class="highlight-comment">// for the Fisher Iris Flower dataset</span>
+<span class="highlight-keyword">var</span> iris = <span class="highlight-keyword">new</span> Iris();
+<span class="highlight-keyword">double</span>[][] inputs = iris.Instances; <span class="highlight-comment">// get the flower characteristics</span>
+<span class="highlight-keyword">int</span>[] outputs = iris.ClassLabels;   <span class="highlight-comment">// get the expected flower classes</span>
+
+<span class="highlight-comment">// We will use mini-batches of size 32 to learn a SVM using SGD</span>
+<span class="highlight-keyword">var</span> batches = MiniBatches.Create(batchSize: <span class="highlight-number">32</span>, maxIterations: <span class="highlight-number">1000</span>,
+   shuffle: ShuffleMethod.EveryEpoch, input: inputs, output: outputs);
+
+<span class="highlight-comment">// Now, we can create a multi-class teaching algorithm for the SVMs</span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MulticlassSupportVectorLearning&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;
+{
+    <span class="highlight-comment">// We will use SGD to learn each of the binary problems in the multi-class problem</span>
+    Learner = (p) =&gt; <span class="highlight-keyword">new</span> AveragedStochasticGradientDescent&lt;Linear, <span class="highlight-keyword">double</span>[], LogisticLoss&gt;()
+    {
+        LearningRate = <span class="highlight-number">1</span>e<span class="highlight-number">-3</span>,
+        MaxIterations = <span class="highlight-number">1</span> <span class="highlight-comment">// so the gradient is only updated once after each mini-batch</span>
+    }
+};
+
+<span class="highlight-comment">// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+teacher.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>; <span class="highlight-comment">// (Remove, comment, or change this line to enable full parallelism)</span>
+
+<span class="highlight-comment">// Now, we can start training the model on mini-batches:</span>
+<span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> batch <span class="highlight-keyword">in</span> batches)
+{
+    teacher.Learn(batch.Inputs, batch.Outputs);
+}
+
+<span class="highlight-comment">// Get the final model:</span>
+<span class="highlight-keyword">var</span> svm = teacher.Model;
+
+<span class="highlight-comment">// Now, we should be able to use the model to predict </span>
+<span class="highlight-comment">// the classes of all flowers in Fisher's Iris dataset:</span>
+<span class="highlight-keyword">int</span>[] prediction = svm.Decide(inputs);
+
+<span class="highlight-comment">// And from those predictions, we can compute the model accuracy:</span>
+<span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(expected: outputs, predicted: prediction);
+<span class="highlight-keyword">double</span> accuracy = cm.Accuracy; <span class="highlight-comment">// should be approximately 0.973</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// In this example, we will learn a multi-class SVM using the one-vs-rest (OvR)</span>
+<span class="highlight-comment">// approach. The OvR approacbh can decompose decision problems involving multiple </span>
+<span class="highlight-comment">// classes into a series of binary ones, which can then be solved using SVMs.</span>
+
+<span class="highlight-comment">// Ensure we have reproducible results</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// We will try to learn a classifier</span>
+<span class="highlight-comment">// for the Fisher Iris Flower dataset</span>
+<span class="highlight-keyword">var</span> iris = <span class="highlight-keyword">new</span> Iris();
+<span class="highlight-keyword">double</span>[][] inputs = iris.Instances; <span class="highlight-comment">// get the flower characteristics</span>
+<span class="highlight-keyword">int</span>[] outputs = iris.ClassLabels;   <span class="highlight-comment">// get the expected flower classes</span>
+
+<span class="highlight-comment">// We will use mini-batches of size 32 to learn a SVM using SGD</span>
+<span class="highlight-keyword">var</span> batches = MiniBatches.Create(batchSize: <span class="highlight-number">32</span>, maxIterations: <span class="highlight-number">1000</span>,
+   shuffle: ShuffleMethod.EveryEpoch, input: inputs, output: outputs);
+
+<span class="highlight-comment">// Now, we can create a multi-label teaching algorithm for the SVMs</span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MultilabelSupportVectorLearning&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;
+{
+    <span class="highlight-comment">// We will use SGD to learn each of the binary problems in the multi-class problem</span>
+    Learner = (p) =&gt; <span class="highlight-keyword">new</span> AveragedStochasticGradientDescent&lt;Linear, <span class="highlight-keyword">double</span>[], LogisticLoss&gt;()
+    {
+        LearningRate = <span class="highlight-number">1</span>e<span class="highlight-number">-3</span>,
+        MaxIterations = <span class="highlight-number">1</span> <span class="highlight-comment">// so the gradient is only updated once after each mini-batch</span>
+    }
+};
+
+<span class="highlight-comment">// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+teacher.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>; <span class="highlight-comment">// (Remove, comment, or change this line to enable full parallelism)</span>
+
+<span class="highlight-comment">// Now, we can start training the model on mini-batches:</span>
+<span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> batch <span class="highlight-keyword">in</span> batches)
+{
+    teacher.Learn(batch.Inputs, batch.Outputs);
+}
+
+<span class="highlight-comment">// Get the final model:</span>
+<span class="highlight-keyword">var</span> svm = teacher.Model;
+
+<span class="highlight-comment">// Now, we should be able to use the model to predict </span>
+<span class="highlight-comment">// the classes of all flowers in Fisher's Iris dataset:</span>
+<span class="highlight-keyword">int</span>[] prediction = svm.ToMulticlass().Decide(inputs);
+
+<span class="highlight-comment">// And from those predictions, we can compute the model accuracy:</span>
+<span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(expected: outputs, predicted: prediction);
+<span class="highlight-keyword">double</span> accuracy = cm.Accuracy; <span class="highlight-comment">// should be approximately 0.913</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// In this example, we will show how its possible to learn a </span>
+<span class="highlight-comment">// non-linear SVM using a linear algorithm by using a explicit</span>
+<span class="highlight-comment">// expansion of the kernel function:</span>
+
+<span class="highlight-comment">// Ensure we have reproducible results</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// We will try to learn a classifier</span>
+<span class="highlight-comment">// for the Fisher Iris Flower dataset</span>
+<span class="highlight-keyword">var</span> iris = <span class="highlight-keyword">new</span> WisconsinDiagnosticBreastCancer();
+<span class="highlight-keyword">double</span>[][] inputs = iris.Features; <span class="highlight-comment">// get the flower characteristics</span>
+<span class="highlight-keyword">int</span>[] outputs = iris.ClassLabels;   <span class="highlight-comment">// get the expected flower classes</span>
+
+<span class="highlight-comment">// We will use mini-batches of size 32 to learn a SVM using SGD</span>
+<span class="highlight-keyword">var</span> batches = MiniBatches.Create(batchSize: <span class="highlight-number">32</span>, maxIterations: <span class="highlight-number">1000</span>,
+   shuffle: ShuffleMethod.EveryEpoch, input: inputs, output: outputs);
+
+<span class="highlight-comment">// We will use an explicit Polynomial kernel expansion</span>
+<span class="highlight-keyword">var</span> polynomial = <span class="highlight-keyword">new</span> Polynomial(<span class="highlight-number">2</span>);
+
+<span class="highlight-comment">// Now, we can create a multi-class teaching algorithm for the SVMs</span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MulticlassSupportVectorLearning&lt;Linear, <span class="highlight-keyword">double</span>[]&gt;
+{
+    <span class="highlight-comment">// We will use SGD to learn each of the binary problems in the multi-class problem</span>
+    Learner = (p) =&gt; <span class="highlight-keyword">new</span> AveragedStochasticGradientDescent&lt;Linear, <span class="highlight-keyword">double</span>[], LogisticLoss&gt;()
+    {
+        LearningRate = <span class="highlight-number">1</span>e<span class="highlight-number">-3</span>,
+        MaxIterations = <span class="highlight-number">1</span> <span class="highlight-comment">// so the gradient is only updated once after each mini-batch</span>
+    }
+};
+
+<span class="highlight-comment">// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+teacher.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>; <span class="highlight-comment">// (Remove, comment, or change this line to enable full parallelism)</span>
+
+<span class="highlight-comment">// Now, we can start training the model on mini-batches:</span>
+<span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> batch <span class="highlight-keyword">in</span> batches)
+{
+    teacher.Learn(polynomial.Transform(batch.Inputs), batch.Outputs);
+}
+
+<span class="highlight-comment">// Get the final model:</span>
+<span class="highlight-keyword">var</span> svm = teacher.Model;
+
+<span class="highlight-comment">// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+svm.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>; <span class="highlight-comment">// (Remove, comment, or change this line to enable full parallelism)</span>
+
+<span class="highlight-comment">// Now, we should be able to use the model to predict </span>
+<span class="highlight-comment">// the classes of all flowers in Fisher's Iris dataset:</span>
+<span class="highlight-keyword">int</span>[] prediction = svm.Decide(polynomial.Transform(inputs));
+
+<span class="highlight-comment">// And from those predictions, we can compute the model accuracy:</span>
+<span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(expected: outputs, predicted: prediction);
+<span class="highlight-keyword">double</span> accuracy = cm.Accuracy; <span class="highlight-comment">// should be approximately 0.92</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_VectorMachines_Learning.htm">Accord.MachineLearning.VectorMachines.Learning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

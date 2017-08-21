@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Models_Regression_Linear.htm">Accord.Statistics.Models.Regression.Linear</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">OrdinaryLeastSquares</span> : <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultivariateLinearRegression</span>, <span class="identifier">double</span>[], <span class="identifier">double</span>[]&gt;, 
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">OrdinaryLeastSquares</span> : <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultivariateLinearRegression</span>, <span class="identifier">double</span>[], <span class="identifier">double</span>[]&gt;, 
 	<span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultipleLinearRegression</span>, <span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">SimpleLinearRegression</span>, <span class="identifier">double</span>, <span class="identifier">double</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">OrdinaryLeastSquares</span>
 	<span class="keyword">Implements</span> <span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">MultivariateLinearRegression</span>, <span class="identifier">Double</span>(), <span class="identifier">Double</span>()), 
 	<span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">MultipleLinearRegression</span>, <span class="identifier">Double</span>(), <span class="identifier">Double</span>), <span class="identifier">ISupervisedLearning</span>(<span class="keyword">Of</span> <span class="identifier">SimpleLinearRegression</span>, <span class="identifier">Double</span>, <span class="identifier">Double</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
@@ -144,7 +144,7 @@ SimpleLinearRegression regression = ols.Learn(inputs, outputs);
 };
 
 <span class="highlight-comment">// Now suppose you have some points</span>
-<span class="highlight-keyword">double</span>[][] inputs = 
+<span class="highlight-keyword">double</span>[][] inputs =
 {
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">1</span> },
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
@@ -181,7 +181,7 @@ MultipleLinearRegression regression = ols.Learn(inputs, outputs);
 <span class="highlight-comment">// a 2-dimensional output variable over a 3-dimensional input</span>
 <span class="highlight-comment">// variable.</span>
 
-<span class="highlight-keyword">double</span>[][] inputs = 
+<span class="highlight-keyword">double</span>[][] inputs =
 {
     <span class="highlight-comment">// variables:  x1  x2  x3</span>
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-comment">// input sample 1</span>
@@ -189,7 +189,7 @@ MultipleLinearRegression regression = ols.Learn(inputs, outputs);
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">3</span>,  <span class="highlight-number">1</span>,  <span class="highlight-number">1</span> }, <span class="highlight-comment">// input sample 3</span>
 };
 
-<span class="highlight-keyword">double</span>[][] outputs = 
+<span class="highlight-keyword">double</span>[][] outputs =
 {
     <span class="highlight-comment">// variables:  y1  y2</span>
     <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">2</span>,  <span class="highlight-number">3</span> }, <span class="highlight-comment">// corresponding output to sample 1</span>

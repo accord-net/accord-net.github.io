@@ -52,7 +52,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning_Performance.htm">Accord.MachineLearning.Performance</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">GridSearch</span>&lt;TModel, TLearner, TInput, TOutput&gt; : <span class="identifier">BaseGridSearch</span>&lt;<span class="identifier">GridSearchResult</span>&lt;TModel, TInput, TOutput&gt;, TModel, <span class="identifier">GridSearchRangeCollection</span>, <span class="identifier">GridSearchParameterCollection</span>, TLearner, TInput, TOutput&gt;, 
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">GridSearch</span>&lt;TModel, TLearner, TInput, TOutput&gt; : <span class="identifier">BaseGridSearch</span>&lt;<span class="identifier">GridSearchResult</span>&lt;TModel, TInput, TOutput&gt;, TModel, <span class="identifier">GridSearchRangeCollection</span>, <span class="identifier">GridSearchParameterCollection</span>, TLearner, TInput, TOutput&gt;, 
 	<span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">GridSearchResult</span>&lt;TModel, TInput, TOutput&gt;, TInput, TOutput&gt;
 <span class="keyword">where</span> TModel : <span class="keyword">class</span>, <span class="identifier">Object</span>, <span class="identifier">ITransform</span>&lt;TInput, TOutput&gt;
 <span class="keyword">where</span> TLearner : <span class="identifier">Object</span>, <span class="identifier">ISupervisedLearning</span>&lt;TModel, TInput, TOutput&gt;
@@ -125,7 +125,7 @@
             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
                 The framework offers different ways to use grid search: one version is strongly-typed using generics
                 and the other might need some manual casting. The exapmle below shows how to perform grid-search in
-                a non-stringly typed way:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAIABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAIABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAIABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+                a non-stringly typed way:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAJABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAJABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAJABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
 Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
 
 <span class="highlight-comment">// Example binary data</span>
@@ -179,12 +179,12 @@ SupportVectorMachine&lt;Polynomial&gt; svm = result.BestModel;
 <span class="highlight-comment">// Get the best values found for the model parameters:</span>
 <span class="highlight-keyword">double</span> bestC = result.BestParameters[<span class="highlight-literal">"complexity"</span>].Value;
 <span class="highlight-keyword">double</span> bestDegree = result.BestParameters[<span class="highlight-literal">"degree"</span>].Value;
-<span class="highlight-keyword">double</span> bestConstant = result.BestParameters[<span class="highlight-literal">"constant"</span>].Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAIABA");</script><p>
+<span class="highlight-keyword">double</span> bestConstant = result.BestParameters[<span class="highlight-literal">"constant"</span>].Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAJABA");</script><p>
                 The main disadvantages of the method above is the need to keep string identifiers for each of the parameters
                 being searched. Furthermore, it is also necessary to keep track of their types in order to cast them accordingly
                 when using them in the specification of the <a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_Learner.htm">Learner</a>
                 property. </p><p>    
-                The next example shows how to perform grid-search in a strongly typed way:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAFABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAFABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAFABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+                The next example shows how to perform grid-search in a strongly typed way:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
 Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
 
 <span class="highlight-comment">// This is a sample code showing how to use Grid-Search in combination with </span>
@@ -226,9 +226,9 @@ Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
     <span class="highlight-comment">// Here we can specify the range of the parameters to be included in the search</span>
     ranges: <span class="highlight-keyword">new</span>
     {
-        Kernel = GridSearch.Range(<span class="highlight-keyword">new</span> IKernel[] { <span class="highlight-keyword">new</span> Linear(), <span class="highlight-keyword">new</span> ChiSquare(), <span class="highlight-keyword">new</span> Gaussian(), <span class="highlight-keyword">new</span> Sigmoid() }),
-        Complexity = GridSearch.Range(<span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span> }),
-        Tolerance = GridSearch.Range(Vector.Range(<span class="highlight-number">1</span>e<span class="highlight-number">-10</span>, <span class="highlight-number">1.0</span>, stepSize: <span class="highlight-number">0.05</span>))
+        Kernel = GridSearch.Values&lt;IKernel&gt;(<span class="highlight-keyword">new</span> Linear(), <span class="highlight-keyword">new</span> ChiSquare(), <span class="highlight-keyword">new</span> Gaussian(), <span class="highlight-keyword">new</span> Sigmoid()),
+        Complexity = GridSearch.Values(<span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span>),
+        Tolerance = GridSearch.Range(<span class="highlight-number">1</span>e<span class="highlight-number">-10</span>, <span class="highlight-number">1.0</span>, stepSize: <span class="highlight-number">0.05</span>)
     },
 
     <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
@@ -261,12 +261,12 @@ SupportVectorMachine&lt;IKernel&gt; svm = result.BestModel;
 <span class="highlight-comment">// Get the best values for the parameters:</span>
 <span class="highlight-keyword">double</span> bestC = result.BestParameters.Complexity;
 <span class="highlight-keyword">double</span> bestTolerance = result.BestParameters.Tolerance;
-IKernel bestKernel = result.BestParameters.Kernel.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAFABA");</script><p>
+IKernel bestKernel = result.BestParameters.Kernel.Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGABA");</script><p>
                 The code above uses anonymous types and generics to create a specialized <a href="T_Accord_MachineLearning_Performance_GridSearch_3.htm">GridSearch<span id="LSTEB0FCDF9_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDF9_48?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput, TOutput<span id="LSTEB0FCDF9_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDF9_49?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
                 class that keeps the anonymous type given as <a href="P_Accord_MachineLearning_Performance_BaseGridSearch_7_ParameterRanges.htm">ParameterRanges</a>.
                 Its main disadvantage is the (high) increase in type complexity, making the use of the <span class="code">var</span> keyword almost
                 mandatory.</p><p>
-                It is also possible to create grid-search objects using convenience methods from the static <a href="T_Accord_MachineLearning_Performance_GridSearch.htm">GridSearch</a> class:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+                It is also possible to create grid-search objects using convenience methods from the static <a href="T_Accord_MachineLearning_Performance_GridSearch.htm">GridSearch</a> class:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
 Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
 
 <span class="highlight-comment">// Example binary data</span>
@@ -321,9 +321,9 @@ SupportVectorMachine&lt;Polynomial&gt; svm = result.BestModel;
 <span class="highlight-comment">// Get the best values for its parameters:</span>
 <span class="highlight-keyword">double</span> bestC = result.BestParameters[<span class="highlight-literal">"complexity"</span>].Value;
 <span class="highlight-keyword">double</span> bestDegree = result.BestParameters[<span class="highlight-literal">"degree"</span>].Value;
-<span class="highlight-keyword">double</span> bestConstant = result.BestParameters[<span class="highlight-literal">"constant"</span>].Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABA");</script><p>
-                Finally, it is also possible to combine grid-search with <a href="T_Accord_MachineLearning_Performance_CrossValidation_3.htm">CrossValidation<span id="LSTEB0FCDF9_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDF9_50?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput, TOutput<span id="LSTEB0FCDF9_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDF9_51?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, as shown
-                in the example below: </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+<span class="highlight-keyword">double</span> bestConstant = result.BestParameters[<span class="highlight-literal">"constant"</span>].Value;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EADABA");</script><p>
+                Finally, it is also possible to combine grid-search with <a href="T_Accord_MachineLearning_Performance_CrossValidation_3.htm">CrossValidation<span id="LSTEB0FCDF9_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDF9_50?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TModel, TInput, TOutput<span id="LSTEB0FCDF9_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB0FCDF9_51?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>, 
+                as shown in the examples below: </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
 Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
 
 <span class="highlight-comment">// This is a sample code showing how to use Grid-Search in combination with </span>
@@ -366,9 +366,9 @@ Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
     <span class="highlight-comment">// Here we can specify the range of the parameters to be included in the search</span>
     ranges: <span class="highlight-keyword">new</span>
     {
-        Complexity = GridSearch.Range(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span> }),
-        Degree = GridSearch.Range(<span class="highlight-keyword">new</span> <span class="highlight-keyword">int</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span>, <span class="highlight-number">5</span> }),
-        Constant = GridSearch.Range(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span> }),
+        Complexity = GridSearch.Values(<span class="highlight-number">0.00000001</span>, <span class="highlight-number">5.20</span>, <span class="highlight-number">0.30</span>, <span class="highlight-number">0.50</span>),
+        Degree = GridSearch.Values(<span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>, <span class="highlight-number">4</span>, <span class="highlight-number">5</span>),
+        Constant = GridSearch.Values(<span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span>),
     },
 
     <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
@@ -407,7 +407,80 @@ gscv.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</
 <span class="highlight-comment">// Get the best values for the parameters:</span>
 <span class="highlight-keyword">double</span> bestC = result.BestParameters.Complexity;
 <span class="highlight-keyword">double</span> bestDegree = result.BestParameters.Degree;
-<span class="highlight-keyword">double</span> bestConstant = result.BestParameters.Constant;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_Performance.htm">Accord.MachineLearning.Performance Namespace</a></div></div></div>
+<span class="highlight-keyword">double</span> bestConstant = result.BestParameters.Constant;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Ensure results are reproducible</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// This is a sample code showing how to use Grid-Search in combination with </span>
+<span class="highlight-comment">// Cross-Validation  to assess the performance of Decision Trees with C4.5.</span>
+
+<span class="highlight-keyword">var</span> parkinsons = <span class="highlight-keyword">new</span> Parkinsons();
+<span class="highlight-keyword">double</span>[][] input = parkinsons.Features;
+<span class="highlight-keyword">int</span>[] output = parkinsons.ClassLabels;
+
+<span class="highlight-comment">// Create a new Grid-Search with Cross-Validation algorithm. Even though the</span>
+<span class="highlight-comment">// generic, strongly-typed approach used accross the framework is most of the</span>
+<span class="highlight-comment">// time easier to handle, combining those both methods in a single call can be</span>
+<span class="highlight-comment">// difficult. For this reason. the framework offers a specialized method for</span>
+<span class="highlight-comment">// combining those two algorirthms:</span>
+<span class="highlight-keyword">var</span> gscv = GridSearch.CrossValidate(
+
+    <span class="highlight-comment">// Here we can specify the range of the parameters to be included in the search</span>
+    ranges: <span class="highlight-keyword">new</span>
+    {
+        Join = GridSearch.Range(fromInclusive: <span class="highlight-number">1</span>, toExclusive: <span class="highlight-number">20</span>),
+        MaxHeight = GridSearch.Range(fromInclusive: <span class="highlight-number">1</span>, toExclusive: <span class="highlight-number">20</span>),
+    },
+
+    <span class="highlight-comment">// Indicate how learning algorithms for the models should be created</span>
+    learner: (p, ss) =&gt; <span class="highlight-keyword">new</span> C45Learning
+    {
+        <span class="highlight-comment">// Here, we can use the parameters we have specified above:</span>
+        Join = p.Join,
+        MaxHeight = p.MaxHeight,
+    },
+
+    <span class="highlight-comment">// Define how the model should be learned, if needed</span>
+    fit: (teacher, x, y, w) =&gt; teacher.Learn(x, y, w),
+
+    <span class="highlight-comment">// Define how the performance of the models should be measured</span>
+    loss: (actual, expected, r) =&gt; <span class="highlight-keyword">new</span> ZeroOneLoss(expected).Loss(actual),
+
+    folds: <span class="highlight-number">3</span>, <span class="highlight-comment">// use k = 3 in k-fold cross validation</span>
+
+    x: input, y: output <span class="highlight-comment">// so the compiler can infer generic types</span>
+);
+
+<span class="highlight-comment">// If needed, control the parallelization degree</span>
+gscv.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// Search for the best decision tree</span>
+<span class="highlight-keyword">var</span> result = gscv.Learn(input, output);
+
+<span class="highlight-comment">// Get the best cross-validation result:</span>
+<span class="highlight-keyword">var</span> crossValidation = result.BestModel;
+
+<span class="highlight-comment">// Get an estimate of its error:</span>
+<span class="highlight-keyword">double</span> bestAverageError = result.BestModelError;
+
+<span class="highlight-keyword">double</span> trainError = result.BestModel.Training.Mean;
+<span class="highlight-keyword">double</span> trainErrorVar = result.BestModel.Training.Variance;
+<span class="highlight-keyword">double</span> valError = result.BestModel.Validation.Mean;
+<span class="highlight-keyword">double</span> valErrorVar = result.BestModel.Validation.Variance;
+
+<span class="highlight-comment">// Get the best values for the parameters:</span>
+<span class="highlight-keyword">int</span> bestJoin = result.BestParameters.Join;
+<span class="highlight-keyword">int</span> bestHeight = result.BestParameters.MaxHeight;
+
+<span class="highlight-comment">// Use the best parameter values to create the final </span>
+<span class="highlight-comment">// model using all the training and validation data:</span>
+<span class="highlight-keyword">var</span> bestTeacher = <span class="highlight-keyword">new</span> C45Learning
+{
+    Join = bestJoin,
+    MaxHeight = bestHeight,
+};
+
+<span class="highlight-comment">// Use the best parameters to create the final tree model:</span>
+DecisionTree finalTree = bestTeacher.Learn(input, output);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_Performance.htm">Accord.MachineLearning.Performance Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

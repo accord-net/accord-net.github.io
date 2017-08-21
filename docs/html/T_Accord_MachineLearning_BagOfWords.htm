@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">BagOfWords</span> : <span class="identifier">ParallelLearningBase</span>, <span class="identifier">IBagOfWords</span>&lt;<span class="identifier">string</span>[]&gt;, 
 	<span class="identifier">ITransform</span>&lt;<span class="identifier">string</span>[], <span class="identifier">double</span>[]&gt;, <span class="identifier">ITransform</span>, <span class="identifier">ITransform</span>&lt;<span class="identifier">string</span>[], <span class="identifier">int</span>[]&gt;, 
 	<span class="identifier">ITransform</span>&lt;<span class="identifier">string</span>[], <span class="identifier">Sparse</span>&lt;<span class="identifier">double</span>&gt;&gt;, <span class="identifier">IUnsupervisedLearning</span>&lt;<span class="identifier">BagOfWords</span>, <span class="identifier">string</span>[], <span class="identifier">int</span>[]&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
@@ -247,7 +247,7 @@ trainInputs = trainInputs.Apply(Accord.Statistics.Tools.ZScores);
 {
     Learner = (p) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;ChiSquare, <span class="highlight-keyword">double</span>[]&gt;()
     {
-        <span class="highlight-comment">//Complexity = 100000 </span>
+        Complexity = <span class="highlight-number">1</span>
     }
 };
 
@@ -258,8 +258,8 @@ trainInputs = trainInputs.Apply(Accord.Statistics.Tools.ZScores);
 <span class="highlight-keyword">int</span>[] trainPredicted = svm.Decide(trainVectors);
 
 <span class="highlight-comment">// Check the performance of the classifier by comparing with the ground-truth:</span>
-<span class="highlight-keyword">var</span> m1 = <span class="highlight-keyword">new</span> ConfusionMatrix(predicted: trainPredicted, expected: trainOutputs);
-<span class="highlight-keyword">double</span> trainAcc = m1.Accuracy; <span class="highlight-comment">// should be 0.971</span>
+<span class="highlight-keyword">var</span> m1 = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(predicted: trainPredicted, expected: trainOutputs);
+<span class="highlight-keyword">double</span> trainAcc = m1.Accuracy; <span class="highlight-comment">// should be 0.690</span>
 
 
 <span class="highlight-comment">// Prepare the testing set</span>
@@ -275,8 +275,8 @@ testInputs = testInputs.Apply(Accord.Statistics.Tools.ZScores);
 <span class="highlight-keyword">int</span>[] testPredicted = svm.Decide(testVectors);
 
 <span class="highlight-comment">// Check the performance of the classifier by comparing with the ground-truth:</span>
-<span class="highlight-keyword">var</span> m2 = <span class="highlight-keyword">new</span> ConfusionMatrix(predicted: testPredicted, expected: testOutputs);
-<span class="highlight-keyword">double</span> testAcc = m2.Accuracy; <span class="highlight-comment">// should be 0.969</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+<span class="highlight-keyword">var</span> m2 = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(predicted: testPredicted, expected: testOutputs);
+<span class="highlight-keyword">double</span> testAcc = m2.Accuracy; <span class="highlight-comment">// should be 0.600</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

@@ -52,7 +52,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Models_Fields.htm">Accord.Statistics.Models.Fields</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.6.4-alpha<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HiddenConditionalRandomField</span>&lt;T&gt; : <span class="identifier">MulticlassClassifierBase</span>&lt;T[]&gt;, 
 	<span class="identifier">ICloneable</span>
 </pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
@@ -344,31 +344,57 @@ trainInputs = trainInputs.Apply((x) =&gt; x.Subtract(x.Min())); <span class="hig
 <span class="highlight-keyword">var</span> priorC = <span class="highlight-keyword">new</span> WishartDistribution(dimension: <span class="highlight-number">2</span>, degreesOfFreedom: <span class="highlight-number">5</span>);
 <span class="highlight-keyword">var</span> priorM = <span class="highlight-keyword">new</span> MultivariateNormalDistribution(dimension: <span class="highlight-number">2</span>);
 
-<span class="highlight-comment">// Create a template Markov classifier that we can use as a base for the HCRF</span>
-<span class="highlight-keyword">var</span> hmmc = <span class="highlight-keyword">new</span> HiddenMarkovClassifier&lt;MultivariateNormalDistribution, <span class="highlight-keyword">double</span>[]&gt;(
-    classes: pendigits.NumberOfClasses, topology: <span class="highlight-keyword">new</span> Forward(<span class="highlight-number">5</span>),
-    initial: (i, j) =&gt; <span class="highlight-keyword">new</span> MultivariateNormalDistribution(mean: priorM.Generate(), covariance: priorC.Generate()));
+<span class="highlight-comment">// Create a new learning algorithm for creating continuous hidden Markov model classifiers</span>
+<span class="highlight-keyword">var</span> teacher1 = <span class="highlight-keyword">new</span> HiddenMarkovClassifierLearning&lt;MultivariateNormalDistribution, <span class="highlight-keyword">double</span>[]&gt;()
+{
+    <span class="highlight-comment">// This tells the generative algorithm how to train each of the component models. Note: The learning</span>
+    <span class="highlight-comment">// algorithm is more efficient if all generic parameters are specified, including the fitting options</span>
+    Learner = (i) =&gt; <span class="highlight-keyword">new</span> BaumWelchLearning&lt;MultivariateNormalDistribution, <span class="highlight-keyword">double</span>[], NormalOptions&gt;()
+    {
+        Topology = <span class="highlight-keyword">new</span> Forward(<span class="highlight-number">5</span>), <span class="highlight-comment">// Each model will have a forward topology with 5 states</span>
+
+        <span class="highlight-comment">// Their emissions will be multivariate Normal distributions initialized using the prior distributions</span>
+        Emissions = (j) =&gt; <span class="highlight-keyword">new</span> MultivariateNormalDistribution(mean: priorM.Generate(), covariance: priorC.Generate()),
+
+        <span class="highlight-comment">// We will train until the relative change in the average log-likelihood is less than 1e-6 between iterations</span>
+        Tolerance = <span class="highlight-number">1</span>e<span class="highlight-number">-6</span>,
+        MaxIterations = <span class="highlight-number">1000</span>, <span class="highlight-comment">// or until we perform 1000 iterations (which is unlikely for this dataset)</span>
+
+        <span class="highlight-comment">// We will prevent our covariance matrices from becoming degenerate by adding a small </span>
+        <span class="highlight-comment">// regularization value to their diagonal until they become positive-definite again:</span>
+        FittingOptions = <span class="highlight-keyword">new</span> NormalOptions()
+        {
+            Regularization = <span class="highlight-number">1</span>e<span class="highlight-number">-6</span>
+        }
+    }
+};
+
+<span class="highlight-comment">//// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+<span class="highlight-comment">//teacher1.ParallelOptions.MaxDegreeOfParallelism = 1; // (Remove, comment, or change this line to enable full parallelism)</span>
+
+<span class="highlight-comment">// Use the learning algorithm to create a classifier</span>
+<span class="highlight-keyword">var</span> hmmc = teacher1.Learn(trainInputs, trainOutputs);
 
 <span class="highlight-comment">// Create a new learning algorithm for creating HCRFs</span>
-<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> HiddenResilientGradientLearning&lt;<span class="highlight-keyword">double</span>[]&gt;()
+<span class="highlight-keyword">var</span> teacher2 = <span class="highlight-keyword">new</span> HiddenResilientGradientLearning&lt;<span class="highlight-keyword">double</span>[]&gt;()
 {
     Function = <span class="highlight-keyword">new</span> MarkovMultivariateFunction(hmmc),
 
     MaxIterations = <span class="highlight-number">10</span>
 };
 
-<span class="highlight-comment">// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
-teacher.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>; <span class="highlight-comment">// (Remove, comment, or change this line to enable full parallelism)</span>
+<span class="highlight-comment">//// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+<span class="highlight-comment">//teacher2.ParallelOptions.MaxDegreeOfParallelism = 1; // (Remove, comment, or change this line to enable full parallelism)</span>
 
 <span class="highlight-comment">// Use the learning algorithm to create a classifier</span>
-<span class="highlight-keyword">var</span> hcrf = teacher.Learn(trainInputs, trainOutputs);
+<span class="highlight-keyword">var</span> hcrf = teacher2.Learn(trainInputs, trainOutputs);
 
 <span class="highlight-comment">// Compute predictions for the training set</span>
 <span class="highlight-keyword">int</span>[] trainPredicted = hcrf.Decide(trainInputs);
 
 <span class="highlight-comment">// Check the performance of the classifier by comparing with the ground-truth:</span>
-<span class="highlight-keyword">var</span> m1 = <span class="highlight-keyword">new</span> ConfusionMatrix(predicted: trainPredicted, expected: trainOutputs);
-<span class="highlight-keyword">double</span> trainAcc = m1.Accuracy; <span class="highlight-comment">// should be 0.83476272155517439</span>
+<span class="highlight-keyword">var</span> m1 = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(predicted: trainPredicted, expected: trainOutputs);
+<span class="highlight-keyword">double</span> trainAcc = m1.Accuracy; <span class="highlight-comment">// should be 0.81532304173813608</span>
 
 
 <span class="highlight-comment">// Prepare the testing set</span>
@@ -383,8 +409,8 @@ testInputs = testInputs.Apply((x) =&gt; x.Subtract(x.Min())); <span class="highl
 <span class="highlight-keyword">int</span>[] testPredicted = hcrf.Decide(testInputs);
 
 <span class="highlight-comment">// Check the performance of the classifier by comparing with the ground-truth:</span>
-<span class="highlight-keyword">var</span> m2 = <span class="highlight-keyword">new</span> ConfusionMatrix(predicted: testPredicted, expected: testOutputs);
-<span class="highlight-keyword">double</span> testAcc = m2.Accuracy; <span class="highlight-comment">// should be 0.81932212436615959</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAACBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Fields.htm">Accord.Statistics.Models.Fields Namespace</a></div></div></div>
+<span class="highlight-keyword">var</span> m2 = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(predicted: testPredicted, expected: testOutputs);
+<span class="highlight-keyword">double</span> testAcc = m2.Accuracy; <span class="highlight-comment">// should be 0.77061649319455561</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAACBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Fields.htm">Accord.Statistics.Models.Fields Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
