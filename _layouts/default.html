@@ -46,6 +46,9 @@
         paypal.data('powertip', $('#paypal-tooltip').html());
         paypal.powerTip({ placement: 'w', mouseOnToPopup: true });
 
+		var bitcoin = $('#bitcoin');
+		bitcoin.data('powertip', $('#bitcoin-tooltip').html());
+        bitcoin.powerTip({ placement: 'w', mouseOnToPopup: true });
     });
 
 </script>
@@ -70,21 +73,7 @@
         // Right area: contains the Youtube, LinkedIn and Paypal buttons
         // -------------------------------------------------------------------------------->
     <aside>
-        <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
-            <img id="linkedin" class="icons" alt="LinkedIn" src="images/metro/appbar.social.linkedin.color.png" />
-        </a>
-        <a href="http://www.youtube.com/playlist?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
-           target="_blank">
-            <img id="youtube" class="icons" alt="YouTube" src="images/metro/appbar.youtube.color.png" />
-        </a>
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-           target="_blank">
-            <img id="paypal" class="icons" alt="PayPal" src="images/metro/appbar.paypal.color.png" />
-        </a>
-        <a href="https://github.com/accord-net/framework"
-           target="_blank">
-            <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" />
-        </a>
+        {% include right-icon-bar.html %}
     </aside>
     <!--
 
@@ -230,28 +219,11 @@
             on {{site.time}}
         </p>
     </footer>
+	
     <!--
-
-        // Hidden area: contains divs which should not be shown in the page
-        // -------------------------------------------------------------------------------->
-    <div id="paypal-tooltip" style="display: none">
-        <p>
-            Have you found this software useful?
-            <br />
-            Consider donating just <strong>US$10</strong>
-            <br />
-            so it can get even better!
-        </p>
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-           rel="nofollow" target="_blank">
-            <img align="center" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                 width="92" height="26" alt="Donate!" />
-        </a>
-        <p>
-            This software is completely free and will<br />
-            <strong>always stay free</strong>
-            . Enjoy!
-    </div>
+	// Hidden area: contains divs which should not be shown in the page
+	// -------------------------------------------------------------------------------->
+	{% include tooltips-bottom.html %}
 </body>
 
 {% include analytics.html %}

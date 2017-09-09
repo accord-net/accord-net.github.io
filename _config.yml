@@ -3,7 +3,8 @@ lsi: false
 highlighter: rouge
 repository: accord-net/accord-net.github.io
 
-exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config'] #, 'docs']
+exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config']
+#exclude: ['README.md', 'config.rb', '*.sln', '*.suo', '*.config', 'docs']
 
 domain: accord-framework.net
 title: Accord.NET Machine Learning Framework

@@ -60,6 +60,10 @@ title: "The Accord.NET Framework"
         $(window).scroll(function () {
             setTimeout(function () { $.powerTip.hide(paypal); }, 2000);
         });
+		
+		var bitcoin = $('#bitcoin');
+		bitcoin.data('powertip', $('#bitcoin-tooltip').html());
+        bitcoin.powerTip({ placement: 'w', mouseOnToPopup: true });
     });
 </script>
 <body>
@@ -82,22 +86,9 @@ title: "The Accord.NET Framework"
         <header>
             <div id="left-buttons">
             </div>
-            <div id="right-buttons">
-                <a href="http://www.linkedin.com/in/cesarrsouza" target="_blank">
-                    <img id="linkedin" class="icons" src="images/metro/appbar.social.linkedin.color.png" />
-                </a>
-                <a href="http://www.youtube.com/playlist?list=PLb8yJtCIm8PQRC0t8re7b5mOCP8s6iBk9"
-                   target="_blank">
-                    <img id="youtube" class="icons" src="images/metro/appbar.youtube.color.png" />
-                </a>
-                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=N4Q6YQSPWN8BG"
-                   target="_blank">
-                    <img id="paypal" class="icons" src="images/metro/appbar.paypal.color.png" />
-                </a>
-                <a href="https://github.com/accord-net/framework" target="_blank">
-                    <img id="Img1" class="icons" alt="GitHub Project Page" src="images/metro/appbar.social.github.octocat.png" />
-                </a>
-            </div>
+			<div id="right-buttons">
+				{% include right-icon-bar.html %}
+			</div>
             <a id="accord-logo" href="intro.html">
                 <img src="images/accord-logo.png" alt="Machine Learning .NET" />
                 <p>
@@ -596,6 +587,31 @@ title: "The Accord.NET Framework"
             This software is completely free and will<br />
             <strong>always stay free</strong>
             . Enjoy!
+		</p>
+    </div>
+	<div id="bitcoin-tooltip" style="display: none">
+		<p>
+			The project also accepts donations in Bitcoins, Ethereum, and
+			<br />
+			Litecoins. Please consider donating so it can be even better!
+		</p>
+		<h2>Bitcoin:</h2>
+		<img src="images/misc/bitcoin-address.png" alt="Bitcoin address" width="50%" head="50%" />
+		<h2>Other currencies:</h2>
+		<p>
+		<ul style="font-family: monospace; text-align: left">
+			<li>BTC: <a href="bitcoin:16EUrG7AqbhrAbgVA1J3m4udFm3XFUntDE" >16EUrG7AqbhrAbgVA1J3m4udFm3XFUntDE</a></li>
+			<li>ETH: 0xc152EA8c985984C34C08b54201a632E98AE98e8F</li>
+			<li>LTC: LPkWpq1ChUXXxpHZwvKFicVeWSXKPtnaYC</li>
+			<li>XDG: D5UHBDUJtuaYRUYFRRmmPEbBN24E5qPGdZ</li>
+		</ul>
+		<p>
+		  All donations are strictly used towards improving the project, such<br/>
+		  as by <strong>hiring more developers to fix issues in the <a href="https://github.com/accord-net/framework/issues">issue tracker</a></strong>.
+		</p>
+		<p>
+			This software is completely free and will <strong>always stay free</strong>. Enjoy!
+		</p>
     </div>
 </body>
 <!-- {% include analytics.html %} -->
