@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">MultipleLinearRegressionAnalysis</span> : <span class="identifier">TransformBase</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, 
 	<span class="identifier">IRegressionAnalysis</span>, <span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span>, <span class="identifier">IAnova</span>, <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">MultipleLinearRegression</span>, <span class="identifier">double</span>[], <span class="identifier">double</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">MultipleLinearRegressionAnalysis</span>
@@ -154,7 +154,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST65B95793_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_40?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST65B95793_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_41?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST65B95793_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_40?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST65B95793_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_41?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST65B95793_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_42?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -170,7 +177,9 @@
               References:
               <ul><li>
                   Wikipedia contributors. "Linear regression." Wikipedia, The Free Encyclopedia, 4 Nov. 2012.
-                  Available at: http://en.wikipedia.org/wiki/Linear_regression </li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAFBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAFBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAFBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// And also extract other useful information, such</span>
+                  Available at: http://en.wikipedia.org/wiki/Linear_regression </li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              The first example shows how to learn a multiple linear regression analysis 
+              from a dataset already given in matricial form (using jagged double[][] arrays).</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAHBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAHBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAHBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// And also extract other useful information, such</span>
 <span class="highlight-comment">// as the linear coefficients' values and std errors:</span>
 <span class="highlight-keyword">double</span>[] coef = mlra.CoefficientValues;
 <span class="highlight-keyword">double</span>[] stde = mlra.StandardErrors;
@@ -190,15 +199,15 @@ TTest ttest1 = mlra.Coefficients[<span class="highlight-number">1</span>].TTest;
 DoubleRange ci = mlra.Coefficients[<span class="highlight-number">0</span>].Confidence; <span class="highlight-comment">// [3.2616, 14.2193]</span>
 
 <span class="highlight-comment">// We can use the analysis to predict an output for a sample</span>
-<span class="highlight-keyword">double</span> y = mlra.Regression.Transform(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> }); 
+<span class="highlight-keyword">double</span> y = mlra.Regression.Transform(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });
 
 <span class="highlight-comment">// We can also obtain confidence intervals for the prediction:</span>
 DoubleRange pci = mlra.GetConfidenceInterval(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });
 
 <span class="highlight-comment">// and also prediction intervals for the same prediction:</span>
-DoubleRange ppi = mlra.GetPredictionInterval(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAFBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Now we can show a summary of analysis</span>
-<span class="highlight-comment">// Accord.Controls.DataGridBox.Show(regression.Coefficients);</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><img src="..\images\linear-regression.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We can also show a summary ANOVA</span>
-DataGridBox.Show(regression.Table);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><img src="..\images\linear-anova.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// And also extract other useful information, such</span>
+DoubleRange ppi = mlra.GetPredictionInterval(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAHBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Now we can show a summary of analysis</span>
+<span class="highlight-comment">// Accord.Controls.DataGridBox.Show(regression.Coefficients);</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGBBA");</script><img src="..\images\linear-regression.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We can also show a summary ANOVA</span>
+DataGridBox.Show(regression.Table);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><img src="..\images\linear-anova.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// And also extract other useful information, such</span>
 <span class="highlight-comment">// as the linear coefficients' values and std errors:</span>
 <span class="highlight-keyword">double</span>[] coef = mlra.CoefficientValues;
 <span class="highlight-keyword">double</span>[] stde = mlra.StandardErrors;
@@ -218,13 +227,107 @@ TTest ttest1 = mlra.Coefficients[<span class="highlight-number">1</span>].TTest;
 DoubleRange ci = mlra.Coefficients[<span class="highlight-number">0</span>].Confidence; <span class="highlight-comment">// [3.2616, 14.2193]</span>
 
 <span class="highlight-comment">// We can use the analysis to predict an output for a sample</span>
-<span class="highlight-keyword">double</span> y = mlra.Regression.Transform(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> }); 
+<span class="highlight-keyword">double</span> y = mlra.Regression.Transform(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });
 
 <span class="highlight-comment">// We can also obtain confidence intervals for the prediction:</span>
 DoubleRange pci = mlra.GetConfidenceInterval(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });
 
 <span class="highlight-comment">// and also prediction intervals for the same prediction:</span>
-DoubleRange ppi = mlra.GetPredictionInterval(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Analysis_LogisticRegressionAnalysis.htm">Accord.Statistics.Analysis<span id="LST65B95793_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_42?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>LogisticRegressionAnalysis</a></div></div></div>
+DoubleRange ppi = mlra.GetPredictionInterval(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">10</span>, <span class="highlight-number">15</span> });</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><p>
+              The second example shows how to learn a multiple linear regression analysis using data 
+              given in the form of a System.Data.DataTable. This data is also heterogeneous, mixing 
+              both discrete (symbol) variables and continuous variables. This example is also available
+              for <a href="T_Accord_Statistics_Analysis_LogisticRegressionAnalysis.htm">LogisticRegressionAnalysis</a>.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Note: this example uses a System.Data.DataTable to represent input data,</span>
+<span class="highlight-comment">// but note that this is not required. The data could have been represented</span>
+<span class="highlight-comment">// as jagged double matrices (double[][]) directly.</span>
+
+<span class="highlight-comment">// If you have to handle heterogeneus data in your application, such as user records</span>
+<span class="highlight-comment">// in a database, this data is best represented within the framework using a .NET's </span>
+<span class="highlight-comment">// DataTable object. In order to try to learn a classification or regression model</span>
+<span class="highlight-comment">// using this datatable, first we will need to convert the table into a representation</span>
+<span class="highlight-comment">// that the machine learning model can understand. Such representation is quite often,</span>
+<span class="highlight-comment">// a matrix of doubles (double[][]).</span>
+<span class="highlight-keyword">var</span> data = <span class="highlight-keyword">new</span> DataTable(<span class="highlight-literal">"Customer Revenue Example"</span>);
+
+data.Columns.Add(<span class="highlight-literal">"Day"</span>, <span class="highlight-literal">"CustomerId"</span>, <span class="highlight-literal">"Time (hour)"</span>, <span class="highlight-literal">"Weather"</span>, <span class="highlight-literal">"Revenue"</span>);
+data.Rows.Add(<span class="highlight-literal">"D1"</span>, <span class="highlight-number">0</span>, <span class="highlight-number">8</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-number">101.2</span>);
+data.Rows.Add(<span class="highlight-literal">"D2"</span>, <span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-number">24.1</span>);
+data.Rows.Add(<span class="highlight-literal">"D3"</span>, <span class="highlight-number">2</span>, <span class="highlight-number">10</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-number">107</span>);
+data.Rows.Add(<span class="highlight-literal">"D4"</span>, <span class="highlight-number">3</span>, <span class="highlight-number">16</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-number">223</span>);
+data.Rows.Add(<span class="highlight-literal">"D5"</span>, <span class="highlight-number">4</span>, <span class="highlight-number">15</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-number">1</span>);
+data.Rows.Add(<span class="highlight-literal">"D6"</span>, <span class="highlight-number">5</span>, <span class="highlight-number">20</span>, <span class="highlight-literal">"Rain"</span>, <span class="highlight-number">42</span>);
+data.Rows.Add(<span class="highlight-literal">"D7"</span>, <span class="highlight-number">6</span>, <span class="highlight-number">12</span>, <span class="highlight-literal">"Cloudy"</span>, <span class="highlight-number">123</span>);
+data.Rows.Add(<span class="highlight-literal">"D8"</span>, <span class="highlight-number">7</span>, <span class="highlight-number">12</span>, <span class="highlight-literal">"Sunny"</span>, <span class="highlight-number">64</span>);
+
+<span class="highlight-comment">// One way to perform this conversion is by using a Codification filter. The Codification</span>
+<span class="highlight-comment">// filter can take care of converting variables that actually denote symbols (i.e. the </span>
+<span class="highlight-comment">// weather in the example above) into representations that make more sense given the assumption</span>
+<span class="highlight-comment">// of a real vector-based classifier.</span>
+
+<span class="highlight-comment">// Create a codification codebook</span>
+<span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> Codification()
+{
+    { <span class="highlight-literal">"Weather"</span>, CodificationVariable.Categorical },
+    { <span class="highlight-literal">"Time (hour)"</span>, CodificationVariable.Continuous },
+    { <span class="highlight-literal">"Revenue"</span>, CodificationVariable.Continuous },
+};
+
+<span class="highlight-comment">// Learn from the data</span>
+codebook.Learn(data);
+
+<span class="highlight-comment">// Now, we will use the codebook to transform the DataTable into double[][] vectors. Due</span>
+<span class="highlight-comment">// the way the conversion works, we can end up with more columns in your output vectors</span>
+<span class="highlight-comment">// than the ones started with. If you would like more details about what those columns</span>
+<span class="highlight-comment">// represent, you can pass then as 'out' parameters in the methods that follow below.</span>
+<span class="highlight-keyword">string</span>[] inputNames;  <span class="highlight-comment">// (note: if you do not want to run this example yourself, you </span>
+<span class="highlight-keyword">string</span> outputName;    <span class="highlight-comment">// can see below the new variable names that will be generated)</span>
+
+<span class="highlight-comment">// Now, we can translate our training data into integer symbols using our codebook:</span>
+<span class="highlight-keyword">double</span>[][] inputs = codebook.Apply(data, <span class="highlight-literal">"Weather"</span>, <span class="highlight-literal">"Time (hour)"</span>).ToJagged(<span class="highlight-keyword">out</span> inputNames);
+<span class="highlight-keyword">double</span>[] outputs = codebook.Apply(data, <span class="highlight-literal">"Revenue"</span>).ToVector(<span class="highlight-keyword">out</span> outputName);
+<span class="highlight-comment">// (note: the Apply method transform a DataTable into another DataTable containing the codified </span>
+<span class="highlight-comment">//  variables. The ToJagged and ToVector methods are then used to transform those tables into</span>
+<span class="highlight-comment">//  double[][] matrices and double[] vectors, respectively.</span>
+
+<span class="highlight-comment">// If we would like to learn a linear regression model for this data, there are two possible</span>
+<span class="highlight-comment">// ways depending on which aspect of the linear regression we are interested the most. If we</span>
+<span class="highlight-comment">// are interested in interpreting the linear regression, performing hypothesis tests with the</span>
+<span class="highlight-comment">// coefficients and performing an actual _linear regression analysis_, then we can use the</span>
+<span class="highlight-comment">// MultipleLinearRegressionAnalysis class for this. If however we are only interested in using</span>
+<span class="highlight-comment">// the learned model directly to predict new values for the dataset, then we could be using the</span>
+<span class="highlight-comment">// MultipleLinearRegression and OrdinaryLeastSquares classes directly instead. </span>
+
+<span class="highlight-comment">// This example deals with the former case. For the later, please see the documentation page</span>
+<span class="highlight-comment">// for the MultipleLinearRegression class.</span>
+
+<span class="highlight-comment">// We can create a new multiple linear analysis for the variables</span>
+<span class="highlight-keyword">var</span> mlra = <span class="highlight-keyword">new</span> MultipleLinearRegressionAnalysis(intercept: <span class="highlight-keyword">true</span>)
+{
+    <span class="highlight-comment">// We can also inform the names of the new variables that have been created by the</span>
+    <span class="highlight-comment">// codification filter. Those can help in the visualizing the analysis once it is </span>
+    <span class="highlight-comment">// data-bound to a visual control such a Windows.Forms.DataGridView or WPF DataGrid:</span>
+
+    Inputs = inputNames, <span class="highlight-comment">// will be { "Weather: Sunny", "Weather: Rain, "Weather: Cloudy", "Time (hours)" }</span>
+    Output = outputName  <span class="highlight-comment">// will be "Revenue"</span>
+};
+
+<span class="highlight-comment">// To overcome linear dependency errors</span>
+mlra.OrdinaryLeastSquares.IsRobust = <span class="highlight-keyword">true</span>;
+
+<span class="highlight-comment">// Compute the analysis and obtain the estimated regression</span>
+MultipleLinearRegression regression = mlra.Learn(inputs, outputs);
+
+<span class="highlight-comment">// And then predict the label using</span>
+<span class="highlight-keyword">double</span> predicted = mlra.Transform(inputs[<span class="highlight-number">0</span>]); <span class="highlight-comment">// result will be ~72.3</span>
+
+<span class="highlight-comment">// Because we opted for doing a MultipleLinearRegressionAnalysis instead of a simple</span>
+<span class="highlight-comment">// linear regression, we will have further information about the regression available:</span>
+<span class="highlight-keyword">int</span> inputCount = mlra.NumberOfInputs;   <span class="highlight-comment">// should be 4</span>
+<span class="highlight-keyword">int</span> outputCount = mlra.NumberOfOutputs; <span class="highlight-comment">// should be 1</span>
+<span class="highlight-keyword">double</span> r2 = mlra.RSquared;              <span class="highlight-comment">// should be 0.12801838425195311</span>
+AnovaSourceCollection a = mlra.Table;   <span class="highlight-comment">// ANOVA table (bind to a visual control for quick inspection)</span>
+<span class="highlight-keyword">double</span>[][] h = mlra.InformationMatrix;  <span class="highlight-comment">// should contain Fisher's information matrix for the problem</span>
+ZTest z = mlra.ZTest;                   <span class="highlight-comment">// should be 0 (p=0.999, non-significant)</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Analysis_LogisticRegressionAnalysis.htm">Accord.Statistics.Analysis<span id="LST65B95793_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST65B95793_43?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>LogisticRegressionAnalysis</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

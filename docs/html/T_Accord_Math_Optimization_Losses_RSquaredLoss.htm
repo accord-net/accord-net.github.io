@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_Math_Optimization_Losses_RSquaredLoss" />
     <meta name="guid" content="T_Accord_Math_Optimization_Losses_RSquaredLoss" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Math_Optimization_Losses.htm">Accord.Math.Optimization.Losses</a><br />
     <strong>Assembly:</strong>
-   Accord.Math (in Accord.Math.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Math (in Accord.Math.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">RSquaredLoss</span> : <span class="identifier">LossBase</span>&lt;<span class="identifier">double</span>[][], <span class="identifier">double</span>[][], <span class="identifier">double</span>[]&gt;, 
 	<span class="identifier">ILoss</span>&lt;<span class="identifier">double</span>[]&gt;, <span class="identifier">ILoss</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">RSquaredLoss</span>
@@ -95,7 +97,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6BC6BDC7_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6BC6BDC7_32?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6BC6BDC7_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6BC6BDC7_33?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6BC6BDC7_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6BC6BDC7_32?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6BC6BDC7_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6BC6BDC7_33?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST6BC6BDC7_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6BC6BDC7_34?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -107,7 +116,78 @@
                future outcomes are likely to be predicted by the model.</p><p>
                The R² coefficient of determination is a statistical measure of how well the
                regression line approximates the real data points. An R² of 1.0 indicates
-               that the regression line perfectly fits the data.</p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization_Losses.htm">Accord.Math.Optimization.Losses Namespace</a></div></div></div>
+               that the regression line perfectly fits the data.</p><p>
+              References:
+              <ul><li><a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">
+                  Wikipedia contributors. Coefficient of determination. Wikipedia, The Free Encyclopedia.
+                  September 6, 2017, 19:48 UTC. Available at: https://en.wikipedia.org/wiki/Coefficient_of_determination. </a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              This example shows how to fit a multiple linear regression model and compute
+              adjusted and non-adjusted versions of the R² coefficient of determination at
+              the end:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like predict a continuous number from a set </span>
+<span class="highlight-comment">// of discrete and continuous input variables. For this, we will </span>
+<span class="highlight-comment">// be using the Servo dataset from UCI's Machine Learning repository </span>
+<span class="highlight-comment">// as an example: http://archive.ics.uci.edu/ml/datasets/Servo</span>
+
+<span class="highlight-comment">// Create a Servo dataset</span>
+Servo servo = <span class="highlight-keyword">new</span> Servo();
+<span class="highlight-keyword">object</span>[][] instances = servo.Instances; <span class="highlight-comment">// 167 x 4 </span>
+<span class="highlight-keyword">double</span>[] outputs = servo.Output;        <span class="highlight-comment">// 167 x 1</span>
+
+<span class="highlight-comment">// This dataset contains 4 columns, where the first two are </span>
+<span class="highlight-comment">// symbolic (having possible values A, B, C, D, E), and the</span>
+<span class="highlight-comment">// last two are continuous.</span>
+
+<span class="highlight-comment">// We will use a codification filter to transform the symbolic </span>
+<span class="highlight-comment">// variables into one-hot vectors, while keeping the other two</span>
+<span class="highlight-comment">// continuous variables intact:</span>
+<span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> Codification&lt;<span class="highlight-keyword">object</span>&gt;()
+{
+    { <span class="highlight-literal">"motor"</span>, CodificationVariable.Categorical },
+    { <span class="highlight-literal">"screw"</span>, CodificationVariable.Categorical },
+    { <span class="highlight-literal">"pgain"</span>, CodificationVariable.Continuous },
+    { <span class="highlight-literal">"vgain"</span>, CodificationVariable.Continuous },
+};
+
+<span class="highlight-comment">// Learn the codebook</span>
+codebook.Learn(instances);
+
+<span class="highlight-comment">// We can gather some info about the problem:</span>
+<span class="highlight-keyword">int</span> numberOfInputs = codebook.NumberOfInputs;   <span class="highlight-comment">// should be 4 (since there are 4 variables)</span>
+<span class="highlight-keyword">int</span> numberOfOutputs = codebook.NumberOfOutputs; <span class="highlight-comment">// should be 12 (due their one-hot encodings)</span>
+
+<span class="highlight-comment">// Now we can use it to obtain double[] vectors:</span>
+<span class="highlight-keyword">double</span>[][] inputs = codebook.ToDouble().Transform(instances);
+
+<span class="highlight-comment">// We will use Ordinary Least Squares to create a</span>
+<span class="highlight-comment">// linear regression model with an intercept term</span>
+<span class="highlight-keyword">var</span> ols = <span class="highlight-keyword">new</span> OrdinaryLeastSquares()
+{
+    UseIntercept = <span class="highlight-keyword">true</span>
+};
+
+<span class="highlight-comment">// Use Ordinary Least Squares to estimate a regression model:</span>
+MultipleLinearRegression regression = ols.Learn(inputs, outputs);
+
+<span class="highlight-comment">// We can compute the predicted points using:</span>
+<span class="highlight-keyword">double</span>[] predicted = regression.Transform(inputs);
+
+<span class="highlight-comment">// And the squared error using the SquareLoss class:</span>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> SquareLoss(outputs).Loss(predicted);
+
+<span class="highlight-comment">// We can also compute other measures, such as the coefficient of determination r² using:</span>
+<span class="highlight-keyword">double</span> r2 = <span class="highlight-keyword">new</span> RSquaredLoss(numberOfOutputs, outputs).Loss(predicted); <span class="highlight-comment">// should be 0.55086630162967354</span>
+
+<span class="highlight-comment">// Or the adjusted or weighted versions of r² using:</span>
+<span class="highlight-keyword">var</span> r2loss = <span class="highlight-keyword">new</span> RSquaredLoss(numberOfOutputs, outputs)
+{
+    Adjust = <span class="highlight-keyword">true</span>,        
+    <span class="highlight-comment">// Weights = weights; // (uncomment if you have a weighted problem)</span>
+};
+
+<span class="highlight-keyword">double</span> ar2 = r2loss.Loss(predicted); <span class="highlight-comment">// should be 0.51586887058782993</span>
+
+<span class="highlight-comment">// Alternatively, we can also use the less generic, but maybe more user-friendly method directly:</span>
+<span class="highlight-keyword">double</span> ur2 = regression.CoefficientOfDetermination(inputs, outputs, adjust: <span class="highlight-keyword">true</span>); <span class="highlight-comment">// should be 0.51586887058782993</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Optimization_Losses.htm">Accord.Math.Optimization.Losses Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Optimization_Losses_SquareLoss.htm">Accord.Math.Optimization.Losses<span id="LST6BC6BDC7_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6BC6BDC7_35?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SquareLoss</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_MachineLearning_QLearning" />
     <meta name="guid" content="T_Accord_MachineLearning_QLearning" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">QLearning</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">QLearning</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">QLearning</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">QLearning</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
 		var HT_requestExampleLinkText = HT_requestExampleLink.innerHTML;
@@ -89,12 +91,232 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6162065D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6162065D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6162065D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6162065D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST6162065D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection">The class provides implementation of Q-Learning algorithm, known as
-            off-policy Temporal Difference control.</div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_Sarsa.htm">Accord.MachineLearning<span id="LST6162065D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Sarsa</a></div></div></div>
+            off-policy Temporal Difference control.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              The following example shows how to learn a model using reinforcement learning through the
+              Q-learning algorithm. The following code has been inherited from the AForge.NET Framework,
+              and has not been modified ever since. If you have better ideas on how to improve its 
+              interface, please share it in the project's issue tracker at 
+              <a href="https://github.com/accord-net/framework/issues">https://github.com/accord-net/framework/issues</a>.
+              If you would like, and if your ideas are feasible and encouraging enough, you can be named an
+              official contributor of the project. If you would like, you could opt to "inherit" the reinforcement learning 
+              portion of the project such that you could be free to commit, modify and, more importantly, authorship
+              those modules directly from your own GitHub account without having to wait for Pull Request approvals.
+              You can be listed as an official author of the Accord.NET Framework, making it possible to list the
+              creation or shared authorship of the reinforcement learning project in your CV.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Fix the random number generator</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// In this example, we will be using the QLearning algorithm</span>
+<span class="highlight-comment">// to make a robot learn how to navigate a map. The map is </span>
+<span class="highlight-comment">// shown below, where a 1 denotes a wall and 0 denotes areas </span>
+<span class="highlight-comment">// where the robot can navigate:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-keyword">int</span>[,] map =
+{
+    { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> },
+    { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> },
+};
+
+<span class="highlight-comment">// Now, we define the initial and target points from which the</span>
+<span class="highlight-comment">// robot will be spawn and where it should go, respectively:</span>
+<span class="highlight-keyword">int</span> agentStartX = <span class="highlight-number">1</span>;
+<span class="highlight-keyword">int</span> agentStartY = <span class="highlight-number">4</span>;
+
+<span class="highlight-keyword">int</span> agentStopX = <span class="highlight-number">7</span>;
+<span class="highlight-keyword">int</span> agentStopY = <span class="highlight-number">4</span>;
+
+<span class="highlight-comment">// The robot is able to sense the environment though 8 sensors</span>
+<span class="highlight-comment">// that capture whether the robot is near a wall or not. Based</span>
+<span class="highlight-comment">// on the robot's current location, the sensors will return an</span>
+<span class="highlight-comment">// integer number representing which sensors have detected walls</span>
+
+Func&lt;<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>&gt; getState = (<span class="highlight-keyword">int</span> x, <span class="highlight-keyword">int</span> y) =&gt;
+{
+    <span class="highlight-keyword">int</span> c1 = (map[y - <span class="highlight-number">1</span>, x - <span class="highlight-number">1</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c2 = (map[y - <span class="highlight-number">1</span>, x + <span class="highlight-number">0</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c3 = (map[y - <span class="highlight-number">1</span>, x + <span class="highlight-number">1</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c4 = (map[y + <span class="highlight-number">0</span>, x + <span class="highlight-number">1</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c5 = (map[y + <span class="highlight-number">1</span>, x + <span class="highlight-number">1</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c6 = (map[y + <span class="highlight-number">1</span>, x + <span class="highlight-number">0</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c7 = (map[y + <span class="highlight-number">1</span>, x - <span class="highlight-number">1</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+    <span class="highlight-keyword">int</span> c8 = (map[y + <span class="highlight-number">0</span>, x - <span class="highlight-number">1</span>] != <span class="highlight-number">0</span>) ? <span class="highlight-number">1</span> : <span class="highlight-number">0</span>;
+
+    <span class="highlight-keyword">return</span> c1 | (c2 &lt;&lt; <span class="highlight-number">1</span>) | (c3 &lt;&lt; <span class="highlight-number">2</span>) | (c4 &lt;&lt; <span class="highlight-number">3</span>) | (c5 &lt;&lt; <span class="highlight-number">4</span>) | (c6 &lt;&lt; <span class="highlight-number">5</span>) | (c7 &lt;&lt; <span class="highlight-number">6</span>) | (c8 &lt;&lt; <span class="highlight-number">7</span>);
+};
+
+<span class="highlight-comment">// The actions are the possible directions the robot can go:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-comment">//   - case 0: go to north (up)</span>
+<span class="highlight-comment">//   - case 1: go to east (right)</span>
+<span class="highlight-comment">//   - case 2: go to south (down)</span>
+<span class="highlight-comment">//   - case 3: go to west (left)</span>
+<span class="highlight-comment">// </span>
+
+<span class="highlight-keyword">int</span> learningIterations = <span class="highlight-number">1000</span>;
+<span class="highlight-keyword">double</span> explorationRate = <span class="highlight-number">0.5</span>;
+<span class="highlight-keyword">double</span> learningRate = <span class="highlight-number">0.5</span>;
+
+<span class="highlight-keyword">double</span> moveReward = <span class="highlight-number">0</span>;
+<span class="highlight-keyword">double</span> wallReward = <span class="highlight-number">-1</span>;
+<span class="highlight-keyword">double</span> goalReward = <span class="highlight-number">1</span>;
+
+<span class="highlight-comment">// The function below specifies how the robot should perform an action given its </span>
+<span class="highlight-comment">// current position and an action number. This will cause the robot to update its </span>
+<span class="highlight-comment">// current X and Y locations given the direction (above) it was instructed to go:</span>
+Func&lt;<span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>, Tuple&lt;<span class="highlight-keyword">double</span>, <span class="highlight-keyword">int</span>, <span class="highlight-keyword">int</span>&gt;&gt; doAction = (<span class="highlight-keyword">int</span> currentX, <span class="highlight-keyword">int</span> currentY, <span class="highlight-keyword">int</span> action) =&gt;
+{
+    <span class="highlight-comment">// default reward is equal to moving reward</span>
+    <span class="highlight-keyword">double</span> reward = moveReward;
+
+    <span class="highlight-comment">// moving direction</span>
+    <span class="highlight-keyword">int</span> dx = <span class="highlight-number">0</span>, dy = <span class="highlight-number">0</span>;
+
+    <span class="highlight-keyword">switch</span> (action)
+    {
+        <span class="highlight-keyword">case</span> <span class="highlight-number">0</span>:         <span class="highlight-comment">// go to north (up)</span>
+            dy = <span class="highlight-number">-1</span>;
+            <span class="highlight-keyword">break</span>;
+        <span class="highlight-keyword">case</span> <span class="highlight-number">1</span>:         <span class="highlight-comment">// go to east (right)</span>
+            dx = <span class="highlight-number">1</span>;
+            <span class="highlight-keyword">break</span>;
+        <span class="highlight-keyword">case</span> <span class="highlight-number">2</span>:         <span class="highlight-comment">// go to south (down)</span>
+            dy = <span class="highlight-number">1</span>;
+            <span class="highlight-keyword">break</span>;
+        <span class="highlight-keyword">case</span> <span class="highlight-number">3</span>:         <span class="highlight-comment">// go to west (left)</span>
+            dx = <span class="highlight-number">-1</span>;
+            <span class="highlight-keyword">break</span>;
+    }
+
+    <span class="highlight-keyword">int</span> newX = currentX + dx;
+    <span class="highlight-keyword">int</span> newY = currentY + dy;
+
+    <span class="highlight-comment">// check new agent's coordinates</span>
+    <span class="highlight-keyword">if</span> ((map[newY, newX] != <span class="highlight-number">0</span>) || (newX &lt; <span class="highlight-number">0</span>) || (newX &gt;= map.Columns()) || (newY &lt; <span class="highlight-number">0</span>) || (newY &gt;= map.Rows()))
+    {
+        <span class="highlight-comment">// we found a wall or got outside of the world</span>
+        reward = wallReward;
+    }
+    <span class="highlight-keyword">else</span>
+    {
+        currentX = newX;
+        currentY = newY;
+
+        <span class="highlight-comment">// check if we found the goal</span>
+        <span class="highlight-keyword">if</span> ((currentX == agentStopX) &amp;&amp; (currentY == agentStopY))
+            reward = goalReward;
+    }
+
+    <span class="highlight-keyword">return</span> Tuple.Create(reward, currentX, currentY);
+};
+
+
+<span class="highlight-comment">// After defining all those functions, we create a new Sarsa algorithm:</span>
+<span class="highlight-keyword">var</span> explorationPolicy = <span class="highlight-keyword">new</span> EpsilonGreedyExploration(explorationRate);
+<span class="highlight-keyword">var</span> tabuPolicy = <span class="highlight-keyword">new</span> TabuSearchExploration(<span class="highlight-number">4</span>, explorationPolicy);
+<span class="highlight-keyword">var</span> qLearning = <span class="highlight-keyword">new</span> QLearning(<span class="highlight-number">256</span>, <span class="highlight-number">4</span>, tabuPolicy);
+
+<span class="highlight-comment">// curent coordinates of the agent</span>
+<span class="highlight-keyword">int</span> agentCurrentX = <span class="highlight-number">-1</span>;
+<span class="highlight-keyword">int</span> agentCurrentY = <span class="highlight-number">-1</span>;
+
+<span class="highlight-keyword">bool</span> needToStop = <span class="highlight-keyword">false</span>;
+<span class="highlight-keyword">int</span> iteration = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// loop</span>
+<span class="highlight-keyword">while</span> ((!needToStop) &amp;&amp; (iteration &lt; learningIterations))
+{
+    <span class="highlight-comment">// set exploration rate for this iteration</span>
+    explorationPolicy.Epsilon = explorationRate - ((<span class="highlight-keyword">double</span>)iteration / learningIterations) * explorationRate;
+
+    <span class="highlight-comment">// set learning rate for this iteration</span>
+    qLearning.LearningRate = learningRate - ((<span class="highlight-keyword">double</span>)iteration / learningIterations) * learningRate;
+
+    <span class="highlight-comment">// clear tabu list</span>
+    tabuPolicy.ResetTabuList();
+
+    <span class="highlight-comment">// reset agent's coordinates to the starting position</span>
+    agentCurrentX = agentStartX;
+    agentCurrentY = agentStartY;
+
+    <span class="highlight-comment">// previous state and action</span>
+    <span class="highlight-keyword">int</span> previousState = getState(agentCurrentX, agentCurrentY);
+    <span class="highlight-keyword">int</span> previousAction = qLearning.GetAction(previousState);
+
+    <span class="highlight-comment">// update agent's current position and get his reward</span>
+    <span class="highlight-keyword">var</span> r = doAction(agentCurrentX, agentCurrentY, previousAction);
+    <span class="highlight-keyword">double</span> reward = r.Item1;
+    agentCurrentX = r.Item2;
+    agentCurrentY = r.Item3;
+
+    <span class="highlight-comment">// loop</span>
+    <span class="highlight-keyword">while</span> ((!needToStop) &amp;&amp; (iteration &lt; learningIterations))
+    {
+        <span class="highlight-comment">// set exploration rate for this iteration</span>
+        explorationPolicy.Epsilon = explorationRate - ((<span class="highlight-keyword">double</span>)iteration / learningIterations) * explorationRate;
+        <span class="highlight-comment">// set learning rate for this iteration</span>
+        qLearning.LearningRate = learningRate - ((<span class="highlight-keyword">double</span>)iteration / learningIterations) * learningRate;
+        <span class="highlight-comment">// clear tabu list</span>
+        tabuPolicy.ResetTabuList();
+
+        <span class="highlight-comment">// reset agent's coordinates to the starting position</span>
+        agentCurrentX = agentStartX;
+        agentCurrentY = agentStartY;
+
+        <span class="highlight-comment">// steps performed by agent to get to the goal</span>
+        <span class="highlight-keyword">int</span> steps = <span class="highlight-number">0</span>;
+
+        <span class="highlight-keyword">while</span> ((!needToStop) &amp;&amp; ((agentCurrentX != agentStopX) || (agentCurrentY != agentStopY)))
+        {
+            steps++;
+            <span class="highlight-comment">// get agent's current state</span>
+            <span class="highlight-keyword">int</span> currentState = getState(agentCurrentX, agentCurrentY);
+
+            <span class="highlight-comment">// get the action for this state</span>
+            <span class="highlight-keyword">int</span> action = qLearning.GetAction(currentState);
+
+            <span class="highlight-comment">// update agent's current position and get his reward</span>
+            r = doAction(agentCurrentX, agentCurrentY, action);
+            reward = r.Item1;
+            agentCurrentX = r.Item2;
+            agentCurrentY = r.Item3;
+
+            <span class="highlight-comment">// get agent's next state</span>
+            <span class="highlight-keyword">int</span> nextState = getState(agentCurrentX, agentCurrentY);
+
+            <span class="highlight-comment">// do learning of the agent - update his Q-function</span>
+            qLearning.UpdateState(currentState, action, reward, nextState);
+
+            <span class="highlight-comment">// set tabu action</span>
+            tabuPolicy.SetTabuAction((action + <span class="highlight-number">2</span>) % <span class="highlight-number">4</span>, <span class="highlight-number">1</span>);
+        }
+
+        System.Diagnostics.Debug.WriteLine(steps);
+
+        iteration++;
+    }
+}
+
+<span class="highlight-comment">// The end position for the robot will be (7, 4):</span>
+<span class="highlight-keyword">int</span> finalPosX = agentCurrentX; <span class="highlight-comment">// 7</span>
+<span class="highlight-keyword">int</span> finalPosY = agentCurrentY; <span class="highlight-comment">// 4;</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_Sarsa.htm">Accord.MachineLearning<span id="LST6162065D_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6162065D_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Sarsa</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

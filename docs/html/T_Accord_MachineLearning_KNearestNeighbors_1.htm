@@ -52,7 +52,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">KNearestNeighbors</span>&lt;TInput&gt; : <span class="identifier">BaseKNearestNeighbors</span>&lt;<span class="identifier">KNearestNeighbors</span>&lt;TInput&gt;, TInput, <span class="identifier">IDistance</span>&lt;TInput&gt;&gt;, 
 	<span class="identifier">IParallel</span>, <span class="identifier">ISupportsCancellation</span>
 </pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
@@ -245,7 +245,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTE3BB0653_311"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_311?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE3BB0653_312"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_312?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTE3BB0653_311"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_311?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE3BB0653_312"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_312?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTE3BB0653_313"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_313?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -259,8 +266,9 @@
                   Wikipedia contributors. "K-nearest neighbor algorithm." Wikipedia, The
                   Free Encyclopedia. Wikipedia, The Free Encyclopedia, 10 Oct. 2012. Web.
                   9 Nov. 2012. http://en.wikipedia.org/wiki/K-nearest_neighbor_algorithm </li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
-             The following example shows how to create and use a k-Nearest Neighbor algorithm to classify
-              a set of numeric vectors.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create some sample learning data. In this data,</span>
+              The first example shows how to create and use a k-Nearest Neighbor algorithm to classify
+              a set of numeric vectors in a multi-class decision problem involving 3 classes. It also shows
+              how to compute class decisions for a new sample and how to measure the performance of a classifier.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAFBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAFBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAFBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create some sample learning data. In this data,</span>
 <span class="highlight-comment">// the first two instances belong to a class, the</span>
 <span class="highlight-comment">// four next belong to another class and the last</span>
 <span class="highlight-comment">// three to yet another.</span>
@@ -300,8 +308,28 @@
 knn.Learn(inputs, outputs);
 
 <span class="highlight-comment">// After the algorithm has been created, we can classify a new instance:</span>
-<span class="highlight-keyword">int</span> answer = knn.Decide(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">11</span>, <span class="highlight-number">5</span>, <span class="highlight-number">4</span> }); <span class="highlight-comment">// answer will be 2.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><p>
-              The following example show how to use a different distance metric when computing k-NN:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create some sample learning data. In this data,</span>
+<span class="highlight-keyword">int</span> answer = knn.Decide(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">11</span>, <span class="highlight-number">5</span>, <span class="highlight-number">4</span> }); <span class="highlight-comment">// answer will be 2.</span>
+
+<span class="highlight-comment">// Let's say we would like to compute the error matrix for the classifier:</span>
+<span class="highlight-keyword">var</span> cm = GeneralConfusionMatrix.Estimate(knn, inputs, outputs);
+
+<span class="highlight-comment">// We can use it to estimate measures such as </span>
+<span class="highlight-keyword">double</span> error = cm.Error;  <span class="highlight-comment">// should be </span>
+<span class="highlight-keyword">double</span> acc = cm.Accuracy; <span class="highlight-comment">// should be </span>
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;  <span class="highlight-comment">// should be</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAFBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// After we have created and learned our model, let's say we would </span>
+<span class="highlight-comment">// like to save it to disk. For this, we can import the Accord.IO </span>
+<span class="highlight-comment">// namespace at the top of our source file namespace, and then use </span>
+<span class="highlight-comment">// Serializer's extension method Save:</span>
+
+<span class="highlight-comment">// Save to a file called "knn.bin" in the basePath directory:</span>
+knn.Save(Path.Combine(basePath, <span class="highlight-literal">"knn.bin"</span>));
+
+<span class="highlight-comment">// To load it back from the disk, we might need to use the Serializer class directly:</span>
+<span class="highlight-keyword">var</span> loaded_knn = Serializer.Load&lt;KNearestNeighbors&gt;(Path.Combine(basePath, <span class="highlight-literal">"knn.bin"</span>));
+
+<span class="highlight-comment">// At this point, knn and loaded_knn should be </span>
+<span class="highlight-comment">// two different instances of identical objects.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><p>
+              The second example show how to use a different distance metric when computing k-NN:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create some sample learning data. In this data,</span>
 <span class="highlight-comment">// the first two instances belong to a class, the</span>
 <span class="highlight-comment">// four next belong to another class and the last</span>
 <span class="highlight-comment">// three to yet another.</span>
@@ -341,10 +369,18 @@ knn.Learn(inputs, outputs);
 knn.Learn(inputs, outputs);
 
 <span class="highlight-comment">// After the algorithm has been created, we can classify a new instance:</span>
-<span class="highlight-keyword">int</span> answer = knn.Decide(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">11</span>, <span class="highlight-number">5</span>, <span class="highlight-number">4</span> }); <span class="highlight-comment">// answer will be 2.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><p>
+<span class="highlight-keyword">int</span> answer = knn.Decide(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">11</span>, <span class="highlight-number">5</span>, <span class="highlight-number">4</span> }); <span class="highlight-comment">// answer will be 2.</span>
+
+<span class="highlight-comment">// Let's say we would like to compute the error matrix for the classifier:</span>
+<span class="highlight-keyword">var</span> cm = GeneralConfusionMatrix.Estimate(knn, inputs, outputs);
+
+<span class="highlight-comment">// We can use it to estimate measures such as </span>
+<span class="highlight-keyword">double</span> error = cm.Error;  <span class="highlight-comment">// should be 0</span>
+<span class="highlight-keyword">double</span> acc = cm.Accuracy; <span class="highlight-comment">// should be 1</span>
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;  <span class="highlight-comment">// should be 1</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><p>
               The k-Nearest neighbor algorithm implementation in the framework can also be used with any instance 
-              data type. For such cases, the framework offers a generic version of the classifier, as shown in the 
-              example below:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// The k-Nearest Neighbors algorithm can be used with</span>
+              data type. For such cases, the framework offers a generic version of the classifier. The third example
+              shows how to use the generic kNN classifier to perform the direct classification of actual text samples:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// The k-Nearest Neighbors algorithm can be used with</span>
 <span class="highlight-comment">// any kind of data. In this example, we will see how</span>
 <span class="highlight-comment">// it can be used to compare, for example, Strings.</span>
 
@@ -377,7 +413,15 @@ knn.Learn(inputs, outputs);
 knn.Learn(inputs, outputs);
 
 <span class="highlight-comment">// After the algorithm has been created, we can use it:</span>
-<span class="highlight-keyword">int</span> answer = knn.Decide(<span class="highlight-literal">"Chars"</span>); <span class="highlight-comment">// answer should be 1.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_KNearestNeighbors.htm">Accord.MachineLearning<span id="LSTE3BB0653_313"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_313?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KNearestNeighbors</a></div></div></div>
+<span class="highlight-keyword">int</span> answer = knn.Decide(<span class="highlight-literal">"Chars"</span>); <span class="highlight-comment">// answer should be 1.</span>
+
+<span class="highlight-comment">// Let's say we would like to compute the error matrix for the classifier:</span>
+<span class="highlight-keyword">var</span> cm = ConfusionMatrix.Estimate(knn, inputs, outputs);
+
+<span class="highlight-comment">// We can use it to estimate measures such as </span>
+<span class="highlight-keyword">double</span> error = cm.Error;  <span class="highlight-comment">// should be 0</span>
+<span class="highlight-keyword">double</span> acc = cm.Accuracy; <span class="highlight-comment">// should be 1</span>
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;  <span class="highlight-comment">// should be 1</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_KNearestNeighbors.htm">Accord.MachineLearning<span id="LSTE3BB0653_314"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE3BB0653_314?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KNearestNeighbors</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

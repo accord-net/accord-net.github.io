@@ -13,7 +13,7 @@
     <meta name="System.Keywords" content="JaggedLuDecompositionF class, about JaggedLuDecompositionF class" />
     <meta name="Microsoft.Help.F1" content="Accord.Math.Decompositions.JaggedLuDecompositionF" />
     <meta name="Microsoft.Help.Id" content="T:Accord.Math.Decompositions.JaggedLuDecompositionF" />
-    <meta name="Description" content="LU decomposition of a rectangular matrix." />
+    <meta name="Description" content="LU decomposition of a jagged rectangular matrix." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <meta name="BrandingAware" content="true" />
     
@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_Math_Decompositions_JaggedLuDecompositionF" />
     <meta name="guid" content="T_Accord_Math_Decompositions_JaggedLuDecompositionF" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -42,12 +44,12 @@
           </tr>
         </table>
         <span class="introStyle"></span> <div class="summary">
-              LU decomposition of a rectangular matrix.
-            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST3A0DE287_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.Math.Decompositions<span id="LST3A0DE287_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>JaggedLuDecompositionF</span><br /></div><p> </p>
+               LU decomposition of a jagged rectangular matrix.
+             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST3A0DE287_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.Math.Decompositions<span id="LST3A0DE287_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>JaggedLuDecompositionF</span><br /></div><p> </p>
     <strong>Namespace:</strong> 
    <a href="N_Accord_Math_Decompositions.htm">Accord.Math.Decompositions</a><br />
     <strong>Assembly:</strong>
-   Accord.Math (in Accord.Math.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">JaggedLuDecompositionF</span> : <span class="identifier">ICloneable</span>, 
+   Accord.Math (in Accord.Math.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">JaggedLuDecompositionF</span> : <span class="identifier">ICloneable</span>, 
 	<span class="identifier">ISolverArrayDecomposition</span>&lt;<span class="identifier">float</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">JaggedLuDecompositionF</span>
 	<span class="keyword">Implements</span> <span class="identifier">ICloneable</span>, <span class="identifier">ISolverArrayDecomposition</span>(<span class="keyword">Of</span> <span class="identifier">Single</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
@@ -106,21 +108,77 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3A0DE287_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_12?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3A0DE287_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_13?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3A0DE287_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_12?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3A0DE287_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_13?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3A0DE287_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_14?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
-                For an m-by-n matrix <span class="code">A</span> with <span class="code">m &gt;= n</span>, the LU decomposition is an m-by-n
-                unit lower triangular matrix <span class="code">L</span>, an n-by-n upper triangular matrix <span class="code">U</span>,
-                and a permutation vector <span class="code">piv</span> of length m so that <span class="code">A(piv) = L*U</span>.
-                If m &lt; n, then <span class="code">L</span> is m-by-m and <span class="code">U</span> is m-by-n.</p><p>
-                The LU decomposition with pivoting always exists, even if the matrix is
-                singular, so the constructor will never fail.  The primary use of the
-                LU decomposition is in the solution of square systems of simultaneous
-                linear equations. This will fail if <a href="P_Accord_Math_Decompositions_JaggedLuDecompositionF_Nonsingular.htm">Nonsingular</a> returns
-                <span class="keyword"><span id="LST3A0DE287_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_14?vb=False|nu=false");</script></span>.
-              </p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Decompositions.htm">Accord.Math.Decompositions Namespace</a></div></div></div>
+                 For an m-by-n matrix <span class="code">A</span> with <span class="code">m &gt;= n</span>, the LU decomposition is an m-by-n
+                 unit lower triangular matrix <span class="code">L</span>, an n-by-n upper triangular matrix <span class="code">U</span>,
+                 and a permutation vector <span class="code">piv</span> of length m so that <span class="code">A(piv) = L*U</span>.
+                 If m &lt; n, then <span class="code">L</span> is m-by-m and <span class="code">U</span> is m-by-n.</p><p>
+                 The LU decomposition with pivoting always exists, even if the matrix is
+                 singular, so the constructor will never fail.  The primary use of the
+                 LU decomposition is in the solution of square systems of simultaneous
+                 linear equations. This will fail if <a href="P_Accord_Math_Decompositions_JaggedLuDecompositionF_Nonsingular.htm">Nonsingular</a> returns
+                 <span class="keyword"><span id="LST3A0DE287_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_15?vb=False|nu=false");</script></span>.</p><p>
+                 If you need to compute a LU decomposition for matrices with data types other than
+                 double, see <span class="selflink">JaggedLuDecompositionF</span>, <a href="T_Accord_Math_Decompositions_JaggedLuDecompositionD.htm">JaggedLuDecompositionD</a>. If you
+                 need to compute a LU decomposition for a multidimensional matrix, see <a href="T_Accord_Math_Decompositions_LuDecomposition.htm">LuDecomposition</a>,
+                 <a href="T_Accord_Math_Decompositions_LuDecompositionF.htm">LuDecompositionF</a>, and <a href="T_Accord_Math_Decompositions_LuDecompositionD.htm">LuDecompositionD</a>.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAFBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAFBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAFBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like to compute the</span>
+<span class="highlight-comment">// LU decomposition of the following matrix:</span>
+<span class="highlight-keyword">double</span>[][] matrix =
+{
+   <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">2</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">0</span> },
+   <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-1</span>,  <span class="highlight-number">2</span>, <span class="highlight-number">-1</span> },
+   <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">0</span>, <span class="highlight-number">-1</span>,  <span class="highlight-number">2</span> }
+};
+
+<span class="highlight-comment">// Compute the LU decomposition with:</span>
+<span class="highlight-keyword">var</span> lu = <span class="highlight-keyword">new</span> JaggedLuDecomposition(matrix);
+
+
+<span class="highlight-comment">// Retrieve the lower triangular factor L:</span>
+<span class="highlight-keyword">double</span>[][] L = lu.LowerTriangularFactor;
+
+<span class="highlight-comment">// Should be equal to</span>
+<span class="highlight-keyword">double</span>[][] expectedL =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {  <span class="highlight-number">1.0000</span>,         <span class="highlight-number">0</span>,         <span class="highlight-number">0</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">-0.5000</span>,    <span class="highlight-number">1.0000</span>,         <span class="highlight-number">0</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {       <span class="highlight-number">0</span>,   <span class="highlight-number">-0.6667</span>,    <span class="highlight-number">1.0000</span> },
+};
+
+
+<span class="highlight-comment">// Retrieve the upper triangular factor U:</span>
+<span class="highlight-keyword">double</span>[][] U = lu.UpperTriangularFactor;
+
+<span class="highlight-comment">// Should be equal to</span>
+<span class="highlight-keyword">double</span>[][] expectedU =
+{
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">2.0000</span>,   <span class="highlight-number">-1.0000</span>,         <span class="highlight-number">0</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {      <span class="highlight-number">0</span>,    <span class="highlight-number">1.5000</span>,   <span class="highlight-number">-1.0000</span> },
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] {      <span class="highlight-number">0</span>,         <span class="highlight-number">0</span>,    <span class="highlight-number">1.3333</span> },
+ };
+
+
+<span class="highlight-comment">// Certify that the decomposition has worked as expected by</span>
+<span class="highlight-comment">// trying to reconstruct the original matrix with R = L * U:</span>
+<span class="highlight-keyword">double</span>[][] reconstruction = L.Dot(U);
+
+<span class="highlight-comment">// reconstruction should be equal to</span>
+<span class="highlight-comment">// {</span>
+<span class="highlight-comment">//     {  2, -1,  0 },</span>
+<span class="highlight-comment">//     { -1,  2, -1 },</span>
+<span class="highlight-comment">//     {  0, -1,  2 }</span>
+<span class="highlight-comment">// };</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAFBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Math_Decompositions.htm">Accord.Math.Decompositions Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Decompositions_CholeskyDecomposition.htm">Accord.Math.Decompositions<span id="LST3A0DE287_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_16?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CholeskyDecomposition</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Decompositions_EigenvalueDecomposition.htm">Accord.Math.Decompositions<span id="LST3A0DE287_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>EigenvalueDecomposition</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Decompositions_SingularValueDecomposition.htm">Accord.Math.Decompositions<span id="LST3A0DE287_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_18?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SingularValueDecomposition</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Decompositions_JaggedEigenvalueDecomposition.htm">Accord.Math.Decompositions<span id="LST3A0DE287_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_19?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>JaggedEigenvalueDecomposition</a></div><div class="seeAlsoStyle"><a href="T_Accord_Math_Decompositions_JaggedSingularValueDecomposition.htm">Accord.Math.Decompositions<span id="LST3A0DE287_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3A0DE287_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>JaggedSingularValueDecomposition</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

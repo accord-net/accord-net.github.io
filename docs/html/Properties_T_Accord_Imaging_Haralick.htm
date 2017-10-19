@@ -40,14 +40,16 @@
         <span class="introStyle"></span> <p>The <a href="T_Accord_Imaging_Haralick.htm">Haralick</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_CellSize.htm">CellSize</a></td><td><div class="summary">
-              Gets the size of a cell, in pixels.
+              Gets the size of a cell, in pixels. A value of 0 means the 
+              cell will have the size of the image. Default is 0 (uses the 
+              entire image).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_Degrees.htm">Degrees</a></td><td><div class="summary">
               Gets the <a href="T_Accord_Imaging_CooccurrenceDegree.htm">CooccurrenceDegree</a>s which should
               be computed by this Haralick textural feature extractor.
               Default is <a href="T_Accord_Imaging_HaralickMode.htm">NormalizedAverage</a>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_Descriptors.htm">Descriptors</a></td><td><div class="summary">
               Gets the set of local binary patterns computed for each
-              cell in the last call to <a href="M_Accord_Imaging_Haralick_ProcessImage_1.htm">ProcessImage(Bitmap)</a>.
+              cell in the last call to <a href="M_Accord_Imaging_BaseFeatureExtractor_1_ProcessImage_1.htm">ProcessImage(Bitmap)</a>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_Features.htm">Features</a></td><td><div class="summary">
               Gets or sets the number of features to extract using
               the <a href="T_Accord_Imaging_HaralickDescriptor.htm">HaralickDescriptor</a>. By default, only
@@ -55,7 +57,7 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_Matrix.htm">Matrix</a></td><td><div class="summary">
               Gets the <a href="T_Accord_Imaging_GrayLevelCooccurrenceMatrix.htm">Gray-level
               Co-occurrence Matrix (GLCM)</a> generated during the last
-              call to <a href="M_Accord_Imaging_Haralick_ProcessImage.htm">ProcessImage(UnmanagedImage)</a>.
+              call to <a href="M_Accord_Imaging_BaseFeatureExtractor_1_Transform.htm">Transform(UnmanagedImage)</a>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_Mode.htm">Mode</a></td><td><div class="summary">
               Gets or sets the mode of operation of this
               <a href="T_Accord_Imaging_Haralick.htm">Haralick's textural 
@@ -63,7 +65,16 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_Haralick_Normalize.htm">Normalize</a></td><td><div class="summary">
               Gets or sets whether to normalize final 
               histogram feature vectors. Default is false.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Imaging_Haralick.htm">Haralick Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Imaging.htm">Accord.Imaging Namespace</a></div></div></div>
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_BaseFeatureExtractor_1_NumberOfInputs.htm">NumberOfInputs</a></td><td><div class="summary">
+              Returns -1.
+            </div> (Inherited from <a href="T_Accord_Imaging_BaseFeatureExtractor_1.htm">BaseFeatureExtractor<span id="LST1C89225B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C89225B_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TFeature<span id="LST1C89225B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C89225B_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_BaseFeatureExtractor_1_NumberOfOutputs.htm">NumberOfOutputs</a></td><td><div class="summary">
+              Gets the dimensionality of the features generated by this extractor.
+            </div> (Inherited from <a href="T_Accord_Imaging_BaseFeatureExtractor_1.htm">BaseFeatureExtractor<span id="LST1C89225B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C89225B_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TFeature<span id="LST1C89225B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C89225B_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Imaging_BaseFeatureExtractor_1_SupportedFormats.htm">SupportedFormats</a></td><td><div class="summary">
+              Gets the list of image pixel formats that are supported by 
+              this extractor. The extractor will check whether the pixel
+              format of any provided images are in this list to determine
+              whether the image can be processed or not.
+            </div> (Inherited from <a href="T_Accord_Imaging_BaseFeatureExtractor_1.htm">BaseFeatureExtractor<span id="LST1C89225B_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C89225B_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TFeature<span id="LST1C89225B_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C89225B_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Imaging_Haralick.htm">Haralick Class</a></div><div class="seeAlsoStyle"><a href="N_Accord_Imaging.htm">Accord.Imaging Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

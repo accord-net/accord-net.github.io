@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule" />
     <meta name="guid" content="T_Accord_MachineLearning_DecisionTrees_Rules_DecisionRule" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,8 +49,10 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning_DecisionTrees_Rules.htm">Accord.MachineLearning.DecisionTrees.Rules</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">DecisionRule</span> : <span class="identifier">ICloneable</span>, 
-	<span class="identifier">IEnumerable</span>, <span class="identifier">IEquatable</span>&lt;<span class="identifier">DecisionRule</span>&gt;, <span class="identifier">IComparable</span>&lt;<span class="identifier">DecisionRule</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">DecisionRule</span>
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">DecisionRule</span> : <span class="identifier">ICloneable</span>, 
+	<span class="identifier">IEnumerable</span>, <span class="identifier">IEquatable</span>&lt;<span class="identifier">DecisionRule</span>&gt;, <span class="identifier">IComparable</span>&lt;<span class="identifier">DecisionRule</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">DecisionRule</span>
 	<span class="keyword">Implements</span> <span class="identifier">ICloneable</span>, <span class="identifier">IEnumerable</span>, <span class="identifier">IEquatable</span>(<span class="keyword">Of</span> <span class="identifier">DecisionRule</span>), 
 	<span class="identifier">IComparable</span>(<span class="keyword">Of</span> <span class="identifier">DecisionRule</span>)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
@@ -132,16 +136,79 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_SetEquals__1.htm">SetEquals<span id="LST6F8EC518_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_24?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Antecedent<span id="LST6F8EC518_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_25?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_SetEquals__1.htm">SetEquals<span id="LST6F8EC518_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_24?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Antecedent<span id="LST6F8EC518_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_25?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
               Compares two enumerables for set equality. Two
               enumerables are set equal if they contain the
               same elements, but not necessarily in the same
               order.
-            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6F8EC518_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6F8EC518_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees_Rules.htm">Accord.MachineLearning.DecisionTrees.Rules Namespace</a></div></div></div>
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST6F8EC518_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST6F8EC518_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST6F8EC518_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_28?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              The simplest way to create a set of decision rules is by extracting them from an existing <a href="T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">DecisionTree</a>.
+              The example below shows how to create a simple decision tree and convert it to a <a href="T_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet.htm">set of rules</a>
+              using its <a href="M_Accord_MachineLearning_DecisionTrees_DecisionTree_ToRules.htm">ToRules<span id="LST6F8EC518_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_29?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> method.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAEBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAEBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAEBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">            <span class="highlight-comment">// In this example, we will process the famous Fisher's Iris dataset in </span>
+            <span class="highlight-comment">// which the task is to classify weather the features of an Iris flower </span>
+            <span class="highlight-comment">// belongs to an Iris setosa, an Iris versicolor, or an Iris virginica:</span>
+            <span class="highlight-comment">// </span>
+            <span class="highlight-comment">//  - https://en.wikipedia.org/wiki/Iris_flower_data_set</span>
+            <span class="highlight-comment">// </span>
+
+            <span class="highlight-comment">// First, let's load the dataset into an array of text that we can process</span>
+            <span class="highlight-keyword">string</span>[][] text = Resources.iris_data.Split(<span class="highlight-keyword">new</span>[] { <span class="highlight-literal">"\r\n"</span> },
+                StringSplitOptions.RemoveEmptyEntries).Apply(x =&gt; x.Split(<span class="highlight-literal">','</span>));
+
+            <span class="highlight-comment">// The first four columns contain the flower features</span>
+            <span class="highlight-keyword">double</span>[][] inputs = text.GetColumns(<span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span>, <span class="highlight-number">3</span>).To&lt;<span class="highlight-keyword">double</span>[][]&gt;();
+
+            <span class="highlight-comment">// The last column contains the expected flower type</span>
+            <span class="highlight-keyword">string</span>[] labels = text.GetColumn(<span class="highlight-number">4</span>);
+
+            <span class="highlight-comment">// Since the labels are represented as text, the first step is to convert</span>
+            <span class="highlight-comment">// those text labels into integer class labels, so we can process them</span>
+            <span class="highlight-comment">// more easily. For this, we will create a codebook to encode class labels:</span>
+            <span class="highlight-comment">// </span>
+            <span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> Codification(<span class="highlight-literal">"Output"</span>, labels);
+
+            <span class="highlight-comment">// With the codebook, we can convert the labels:</span>
+            <span class="highlight-keyword">int</span>[] outputs = codebook.Translate(<span class="highlight-literal">"Output"</span>, labels);
+
+            <span class="highlight-comment">// And we can use the C4.5 for learning:</span>
+            C45Learning teacher = <span class="highlight-keyword">new</span> C45Learning();
+
+            <span class="highlight-comment">// Finally induce the tree from the data:</span>
+            <span class="highlight-keyword">var</span> tree = teacher.Learn(inputs, outputs);
+
+            <span class="highlight-comment">// To get the estimated class labels, we can use</span>
+            <span class="highlight-keyword">int</span>[] predicted = tree.Decide(inputs);
+
+            <span class="highlight-comment">// The classification error (0.0266) can be computed as </span>
+            <span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> ZeroOneLoss(outputs).Loss(predicted);
+
+            <span class="highlight-comment">// Moreover, we may decide to convert our tree to a set of rules:</span>
+            DecisionSet rules = tree.ToRules();
+
+            <span class="highlight-comment">// And using the codebook, we can inspect the tree reasoning:</span>
+            <span class="highlight-keyword">string</span> ruleText = rules.ToString(codebook, <span class="highlight-literal">"Output"</span>,
+                System.Globalization.CultureInfo.InvariantCulture);
+
+            <span class="highlight-comment">// The output is:</span>
+            <span class="highlight-keyword">string</span> expected = <span class="highlight-literal">@"Iris-setosa =: (2 &lt;= 2.45)
+Iris-versicolor =: (2 &gt; 2.45) &amp;&amp; (3 &lt;= 1.75) &amp;&amp; (0 &lt;= 7.05) &amp;&amp; (1 &lt;= 2.85)
+Iris-versicolor =: (2 &gt; 2.45) &amp;&amp; (3 &lt;= 1.75) &amp;&amp; (0 &lt;= 7.05) &amp;&amp; (1 &gt; 2.85)
+Iris-versicolor =: (2 &gt; 2.45) &amp;&amp; (3 &gt; 1.75) &amp;&amp; (0 &lt;= 5.95) &amp;&amp; (1 &gt; 3.05)
+Iris-virginica =: (2 &gt; 2.45) &amp;&amp; (3 &lt;= 1.75) &amp;&amp; (0 &gt; 7.05)
+Iris-virginica =: (2 &gt; 2.45) &amp;&amp; (3 &gt; 1.75) &amp;&amp; (0 &gt; 5.95)
+Iris-virginica =: (2 &gt; 2.45) &amp;&amp; (3 &gt; 1.75) &amp;&amp; (0 &lt;= 5.95) &amp;&amp; (1 &lt;= 3.05)
+"</span>;</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAEBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning_DecisionTrees_Rules.htm">Accord.MachineLearning.DecisionTrees.Rules Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Rules_DecisionSet.htm">Accord.MachineLearning.DecisionTrees.Rules<span id="LST6F8EC518_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_30?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DecisionSet</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_DecisionTree.htm">Accord.MachineLearning.DecisionTrees<span id="LST6F8EC518_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_31?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DecisionTree</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Learning_C45Learning.htm">Accord.MachineLearning.DecisionTrees.Learning<span id="LST6F8EC518_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_32?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>C45Learning</a></div><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_DecisionTrees_Learning_ID3Learning.htm">Accord.MachineLearning.DecisionTrees.Learning<span id="LST6F8EC518_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6F8EC518_33?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ID3Learning</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

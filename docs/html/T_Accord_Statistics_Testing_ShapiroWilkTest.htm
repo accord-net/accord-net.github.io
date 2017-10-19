@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_Statistics_Testing_ShapiroWilkTest" />
     <meta name="guid" content="T_Accord_Statistics_Testing_ShapiroWilkTest" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Testing.htm">Accord.Statistics.Testing</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ShapiroWilkTest</span> : <span class="identifier">HypothesisTest</span>&lt;<span class="identifier">ShapiroWilkDistribution</span>&gt;, 
 	<span class="identifier">IHypothesisTest</span>&lt;<span class="identifier">ShapiroWilkDistribution</span>&gt;, <span class="identifier">IHypothesisTest</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">ShapiroWilkTest</span>
@@ -104,17 +106,59 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTDDB2C8AD_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDDB2C8AD_32?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTDDB2C8AD_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDDB2C8AD_33?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTDDB2C8AD_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDDB2C8AD_32?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTDDB2C8AD_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDDB2C8AD_33?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTDDB2C8AD_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDDB2C8AD_34?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
-              The Shapiro–Wilk test is a test of normality in frequentist statistics. It was published in 1965 by Samuel Sanford Shapiro and Martin Wilk.
-            </p><p>    
+              The Shapiro–Wilk test is a test of normality in frequentist statistics. It was 
+              published in 1965 by Samuel Sanford Shapiro and Martin Wilk. The The Shapiro–Wilk 
+              test tests the null hypothesis that a sample came from a normally distributed 
+              population.</p><p>
+              The null-hypothesis of this test is that the population is normally distributed. Thus,
+              if the <a href="P_Accord_Statistics_Testing_HypothesisTest_1_PValue.htm">p-value</a> is less than the chosen 
+              <a href="P_Accord_Statistics_Testing_HypothesisTest_1_Size.htm">alpha level</a>, then the null hypothesis is rejected
+              and there is evidence that the data tested are not from a normally distributed population; 
+              in other words, the data are not normal. On the contrary, if the p-value is greater than
+              the chosen alpha level, then the null hypothesis that the data came from a normally 
+              distributed population cannot be rejected (e.g., for an alpha level of 0.05, a data 
+              set with a p-value of 0.02 rejects the null hypothesis that the data are from a normally
+              distributed population). However, since the test is biased by sample size, the 
+              test may be statistically significant from a normal distribution in any large samples. 
+              Thus a Q–Q plot is required for verification in addition to the test.</p><p>    
               References:
               <ul><li><a href="http://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test">
                   Wikipedia, The Free Encyclopedia. Shapiro-Wilk test. Available on:
-                  http://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test </a></li></ul></p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Testing.htm">Accord.Statistics.Testing Namespace</a></div></div></div>
+                  http://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test </a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like to determine whether a set</span>
+<span class="highlight-comment">// of observations come from a normal distribution:</span>
+<span class="highlight-keyword">double</span>[] samples =
+{
+    <span class="highlight-number">0.11</span>, <span class="highlight-number">7.87</span>, <span class="highlight-number">4.61</span>, <span class="highlight-number">10.14</span>, <span class="highlight-number">7.95</span>, <span class="highlight-number">3.14</span>, <span class="highlight-number">0.46</span>, <span class="highlight-number">4.43</span>, 
+    <span class="highlight-number">0.21</span>, <span class="highlight-number">4.75</span>, <span class="highlight-number">0.71</span>, <span class="highlight-number">1.52</span>, <span class="highlight-number">3.24</span>, <span class="highlight-number">0.93</span>, <span class="highlight-number">0.42</span>, <span class="highlight-number">4.97</span>,
+    <span class="highlight-number">9.53</span>, <span class="highlight-number">4.55</span>, <span class="highlight-number">0.47</span>, <span class="highlight-number">6.66</span> 
+};
+
+<span class="highlight-comment">// For this, we can use the Shapiro-Wilk test. This test tests the null hypothesis </span>
+<span class="highlight-comment">// that samples come from a Normal distribution, vs. the alternative hypothesis that </span>
+<span class="highlight-comment">// the samples do not come from such distribution. In other words, should this test</span>
+<span class="highlight-comment">// come out significant, it means our samples do not come from a Normal distribution.</span>
+
+<span class="highlight-comment">// Create a new Shapiro-Wilk test:</span>
+<span class="highlight-keyword">var</span> sw = <span class="highlight-keyword">new</span> ShapiroWilkTest(samples);
+
+<span class="highlight-keyword">double</span> W = sw.Statistic; <span class="highlight-comment">// should be 0.90050</span>
+<span class="highlight-keyword">double</span> p = sw.PValue;    <span class="highlight-comment">// should be 0.04209</span>
+<span class="highlight-keyword">bool</span> significant = sw.Significant; <span class="highlight-comment">// should be true</span>
+
+<span class="highlight-comment">// The test is significant, therefore we should reject the null </span>
+<span class="highlight-comment">// hypothesis that the samples come from a Normal distribution.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Testing.htm">Accord.Statistics.Testing Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

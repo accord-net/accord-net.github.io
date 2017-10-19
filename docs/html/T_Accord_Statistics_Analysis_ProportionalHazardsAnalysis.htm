@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ProportionalHazardsAnalysis</span> : <span class="identifier">IRegressionAnalysis</span>, 
 	<span class="identifier">IMultivariateAnalysis</span>, <span class="identifier">IAnalysis</span>, <span class="identifier">ISupervisedLearning</span>&lt;<span class="identifier">ProportionalHazards</span>, <span class="identifier">Tuple</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, <span class="identifier">int</span>&gt;</pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">ProportionalHazardsAnalysis</span>
@@ -167,7 +167,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST2CCCD7E1_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_94?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST2CCCD7E1_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_95?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST2CCCD7E1_94"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_94?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST2CCCD7E1_95"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_95?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST2CCCD7E1_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_96?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -188,7 +195,7 @@
               and performance measures. </p><p>
               This class can also be bound to standard controls such as the 
               <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.datagridview.aspx">DataGridView</a>
-              by setting their DataSource property to the analysis' <a href="P_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Coefficients.htm">Coefficients</a> property.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADCBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADCBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADCBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Consider the following example data, adapted from John C. Pezzullo's</span>
+              by setting their DataSource property to the analysis' <a href="P_Accord_Statistics_Analysis_ProportionalHazardsAnalysis_Coefficients.htm">Coefficients</a> property.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBECBA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBECBA','cs','1','2');return false;">C#</a></div><div id="ID1EBECBA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBECBA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBECBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBECBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBECBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Consider the following example data, adapted from John C. Pezzullo's</span>
 <span class="highlight-comment">// example for his great Cox's proportional hazards model example in</span>
 <span class="highlight-comment">// JavaScript (http://statpages.org/prophaz2.html). </span>
 
@@ -225,35 +232,124 @@ SurvivalOutcome[] output = example.GetColumn(<span class="highlight-number">2</s
 ProportionalHazards regression = cox.Learn(inputs, times, output);
 
 <span class="highlight-comment">// Now we can show an analysis summary</span>
-<span class="highlight-comment">// Accord.Controls.DataGridBox.Show(cox.Coefficients);</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EADCBA");</script><p>
-              The resulting table is shown below.</p><img src="..\images\cox-hazards.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAACBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAACBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAACBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We can also investigate all parameters individually. For</span>
+<span class="highlight-comment">// Accord.Controls.DataGridBox.Show(cox.Coefficients);</span></pre></div><div id="ID1EBECBA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-comment">' Consider the following example data, adapted from John C. Pezzullo's</span>
+<span class="highlight-comment">' example for his great Cox's proportional hazards model example in</span>
+<span class="highlight-comment">' JavaScript (http://statpages.org/prophaz2.html). </span>
+
+<span class="highlight-comment">' In this data, we have three columns. The first column denotes the</span>
+<span class="highlight-comment">' input variables for the problem. The second column, the survival</span>
+<span class="highlight-comment">' times. And the last one Is the output of the experiment (if the</span>
+<span class="highlight-comment">' subject has died [1] Or has survived [0]).</span>
+
+<span class="highlight-keyword">Dim</span> example()() <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> =
+{
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">50</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">70</span>, <span class="highlight-number">2</span>, <span class="highlight-number">1</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">45</span>, <span class="highlight-number">3</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">35</span>, <span class="highlight-number">5</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">62</span>, <span class="highlight-number">7</span>, <span class="highlight-number">1</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">50</span>, <span class="highlight-number">11</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">45</span>, <span class="highlight-number">4</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">57</span>, <span class="highlight-number">6</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">32</span>, <span class="highlight-number">8</span>, <span class="highlight-number">0</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">57</span>, <span class="highlight-number">9</span>, <span class="highlight-number">1</span>},
+    <span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">60</span>, <span class="highlight-number">10</span>, <span class="highlight-number">1</span>}
+}
+
+<span class="highlight-comment">' First we will extract the input, times And outputs</span>
+<span class="highlight-keyword">Dim</span> inputs()() <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = example.<span class="highlight-keyword">Get</span>(<span class="highlight-keyword">Nothing</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>)
+<span class="highlight-keyword">Dim</span> times() <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = example.GetColumn(<span class="highlight-number">1</span>)
+<span class="highlight-keyword">Dim</span> output() <span class="highlight-keyword">As</span> SurvivalOutcome = example.GetColumn(<span class="highlight-number">2</span>).<span class="highlight-keyword">To</span>(<span class="highlight-keyword">Of</span> SurvivalOutcome())
+
+<span class="highlight-comment">' Now we can proceed And create the analysis (giving optional variable names)</span>
+<span class="highlight-keyword">Dim</span> cox = <span class="highlight-keyword">New</span> ProportionalHazardsAnalysis(<span class="highlight-keyword">New</span> <span class="highlight-keyword">String</span>() {<span class="highlight-literal">"input"</span>}, <span class="highlight-literal">"time"</span>, <span class="highlight-literal">"censor"</span>)
+
+<span class="highlight-comment">' Then compute the analysis, learning a regression in the process</span>
+<span class="highlight-keyword">Dim</span> regression <span class="highlight-keyword">As</span> ProportionalHazards = cox.Learn(inputs, times, output)
+
+<span class="highlight-comment">' Now we can show an analysis summary</span>
+<span class="highlight-comment">' Accord.Controls.DataGridBox.Show(cox.Coefficients);</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBECBA");</script><p>
+              The resulting table is shown below.</p><img src="..\images\cox-hazards.png" /><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABCBA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABCBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABCBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABCBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">' We can also investigate all parameters individually. For</span>
+<span class="highlight-comment">' example the coefficients values will be available at</span>
+
+<span class="highlight-keyword">Dim</span> coef <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>() = cox.CoefficientValues    <span class="highlight-comment">' should be { 0.37704239281490765 }</span>
+<span class="highlight-keyword">Dim</span> stde <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>() = cox.StandardErrors       <span class="highlight-comment">' should be { 0.25415746361167235 }</span>
+
+<span class="highlight-comment">' We can also obtain the hazards ratios         </span>
+<span class="highlight-keyword">Dim</span> ratios <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>() = cox.HazardRatios       <span class="highlight-comment">' should be { 1.4579661153488215 }</span>
+
+<span class="highlight-comment">' And other information such as the partial</span>
+<span class="highlight-comment">' likelihood, the deviance And also make </span>
+<span class="highlight-comment">' hypothesis tests on the parameters</span>
+
+<span class="highlight-keyword">Dim</span> partialL = cox.LogLikelihood                <span class="highlight-comment">' should be -2.0252666205735466</span>
+<span class="highlight-keyword">Dim</span> deviance = cox.Deviance                     <span class="highlight-comment">' should be 4.0505332411470931</span>
+
+<span class="highlight-comment">' Chi-Square for whole model              </span>
+<span class="highlight-keyword">Dim</span> chi <span class="highlight-keyword">As</span> ChiSquareTest = cox.ChiSquare        <span class="highlight-comment">' should be 7.3570 (p=0.0067)</span>
+
+<span class="highlight-comment">' Wald tests for individual parameters    </span>
+<span class="highlight-keyword">Dim</span> wald <span class="highlight-keyword">As</span> WaldTest = cox.Coefficients(<span class="highlight-number">0</span>).Wald <span class="highlight-comment">' should be 1.4834 (p=0.1379)</span>
+
+
+<span class="highlight-comment">' Finally, we can also use the model to predict</span>
+<span class="highlight-comment">' scores for New observations (without considering time)</span>
+
+<span class="highlight-keyword">Dim</span> y1 = cox.Regression.Probability(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">63</span>}) <span class="highlight-comment">' should be 86.138421225296526</span>
+<span class="highlight-keyword">Dim</span> y2 = cox.Regression.Probability(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">32</span>}) <span class="highlight-comment">' should be 0.00072281400325299814</span>
+
+<span class="highlight-comment">' Those scores can be interpreted by comparing then</span>
+<span class="highlight-comment">' to 1. If they are greater than one, the odds are</span>
+<span class="highlight-comment">' the patient will Not survive. If the value Is less</span>
+<span class="highlight-comment">' than one, the patient Is likely to survive.</span>
+
+<span class="highlight-comment">' The first value, y1, gives approximately 86.138,</span>
+<span class="highlight-comment">' while the second value, y2, gives about 0.00072.</span>
+
+
+<span class="highlight-comment">' We can also consider instant estimates for a given time</span>
+<span class="highlight-keyword">Dim</span> p1 = cox.Regression.Probability(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">63</span>}, <span class="highlight-number">2</span>)  <span class="highlight-comment">'should be 0.17989138010770425</span>
+<span class="highlight-keyword">Dim</span> p2 = cox.Regression.Probability(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">63</span>}, <span class="highlight-number">10</span>) <span class="highlight-comment">' should be 15.950244161356357</span>
+
+<span class="highlight-comment">' Here, p1 Is the score after 2 time instants, with a </span>
+<span class="highlight-comment">' value of 0.0656. The second value, p2, Is the time</span>
+<span class="highlight-comment">' after 10 time instants, with a value of 6.2907.</span>
+
+<span class="highlight-comment">' In addition, if we would Like a higher precision when </span>
+<span class="highlight-comment">' computing very small probabilities using the methods </span>
+<span class="highlight-comment">' above, we can use the LogLikelihood methods instead</span>
+
+<span class="highlight-keyword">Dim</span> log_y1 = cox.Regression.LogLikelihood(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">63</span>})     <span class="highlight-comment">' should be  4.4559555514489091</span>
+<span class="highlight-keyword">Dim</span> log_y2 = cox.Regression.LogLikelihood(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">32</span>})     <span class="highlight-comment">' should be -7.2323586258132284</span>
+<span class="highlight-keyword">Dim</span> log_p1 = cox.Regression.LogLikelihood(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">63</span>}, <span class="highlight-number">2</span>)  <span class="highlight-comment">' should be -1.7154020540835324</span>
+<span class="highlight-keyword">Dim</span> log_p2 = cox.Regression.LogLikelihood(<span class="highlight-keyword">New</span> <span class="highlight-keyword">Double</span>() {<span class="highlight-number">63</span>}, <span class="highlight-number">10</span>) <span class="highlight-comment">' should be  2.7694741370357177</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABCBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAACBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAACBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAACBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We can also investigate all parameters individually. For</span>
 <span class="highlight-comment">// example the coefficients values will be available at</span>
 
-<span class="highlight-keyword">double</span>[] coef = cox.CoefficientValues;
-<span class="highlight-keyword">double</span>[] stde = cox.StandardErrors;
+<span class="highlight-keyword">double</span>[] coef = cox.CoefficientValues;     <span class="highlight-comment">// should be { 0.37704239281490765 }</span>
+<span class="highlight-keyword">double</span>[] stde = cox.StandardErrors;        <span class="highlight-comment">// should be { 0.25415746361167235 }</span>
 
 <span class="highlight-comment">// We can also obtain the hazards ratios</span>
-<span class="highlight-keyword">double</span>[] ratios = cox.HazardRatios;
+<span class="highlight-keyword">double</span>[] ratios = cox.HazardRatios;        <span class="highlight-comment">// should be { 1.4579661153488215 }</span>
 
 <span class="highlight-comment">// And other information such as the partial</span>
 <span class="highlight-comment">// likelihood, the deviance and also make </span>
 <span class="highlight-comment">// hypothesis tests on the parameters</span>
 
-<span class="highlight-keyword">double</span> <span class="highlight-keyword">partial</span> = cox.LogLikelihood;
-<span class="highlight-keyword">double</span> deviance = cox.Deviance;
+<span class="highlight-keyword">double</span> partialL = cox.LogLikelihood;       <span class="highlight-comment">// should be -2.0252666205735466</span>
+<span class="highlight-keyword">double</span> deviance = cox.Deviance;            <span class="highlight-comment">// should be 4.0505332411470931</span>
 
-<span class="highlight-comment">// Chi-Square for whole model</span>
-ChiSquareTest chi = cox.ChiSquare;
+<span class="highlight-comment">// Chi-Square for whole model              </span>
+ChiSquareTest chi = cox.ChiSquare;         <span class="highlight-comment">// should be 7.3570 (p=0.0067)</span>
 
 <span class="highlight-comment">// Wald tests for individual parameters</span>
-WaldTest wald = cox.Coefficients[<span class="highlight-number">0</span>].Wald;
+WaldTest wald = cox.Coefficients[<span class="highlight-number">0</span>].Wald;  <span class="highlight-comment">// should be 1.4834 (p=0.1379)</span>
 
 
 <span class="highlight-comment">// Finally, we can also use the model to predict</span>
 <span class="highlight-comment">// scores for new observations (without considering time)</span>
 
-<span class="highlight-keyword">double</span> y1 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> });
-<span class="highlight-keyword">double</span> y2 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">32</span> });
+<span class="highlight-keyword">double</span> y1 = cox.Regression.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }); <span class="highlight-comment">// should be 86.138421225296526</span>
+<span class="highlight-keyword">double</span> y2 = cox.Regression.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">32</span> }); <span class="highlight-comment">// should be 0.00072281400325299814</span>
 
 <span class="highlight-comment">// Those scores can be interpreted by comparing then</span>
 <span class="highlight-comment">// to 1. If they are greater than one, the odds are</span>
@@ -265,12 +361,21 @@ WaldTest wald = cox.Coefficients[<span class="highlight-number">0</span>].Wald;
 
 
 <span class="highlight-comment">// We can also consider instant estimates for a given time:</span>
-<span class="highlight-keyword">double</span> p1 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">2</span>);
-<span class="highlight-keyword">double</span> p2 = cox.Regression.Compute(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">10</span>);
+<span class="highlight-keyword">double</span> p1 = cox.Regression.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">2</span>);   <span class="highlight-comment">// should be 0.17989138010770425</span>
+<span class="highlight-keyword">double</span> p2 = cox.Regression.Probability(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">10</span>);  <span class="highlight-comment">// should be 15.950244161356357</span>
 
 <span class="highlight-comment">// Here, p1 is the score after 2 time instants, with a </span>
 <span class="highlight-comment">// value of 0.0656. The second value, p2, is the time</span>
-<span class="highlight-comment">// after 10 time instants, with a value of 6.2907.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAACBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm">Accord.Statistics.Models.Regression<span id="LST2CCCD7E1_96"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_96?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProportionalHazards</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson.htm">Accord.Statistics.Models.Regression.Fitting<span id="LST2CCCD7E1_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_97?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProportionalHazardsNewtonRaphson</a></div></div></div>
+<span class="highlight-comment">// after 10 time instants, with a value of 6.2907.</span>
+
+<span class="highlight-comment">// In addition, if we would like a higher precision when </span>
+<span class="highlight-comment">// computing very small probabilities using the methods </span>
+<span class="highlight-comment">// above, we can use the LogLikelihood methods instead:</span>
+
+<span class="highlight-keyword">double</span> log_y1 = cox.Regression.LogLikelihood(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> });      <span class="highlight-comment">// should be  4.4559555514489091</span>
+<span class="highlight-keyword">double</span> log_y2 = cox.Regression.LogLikelihood(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">32</span> });      <span class="highlight-comment">// should be -7.2323586258132284</span>
+<span class="highlight-keyword">double</span> log_p1 = cox.Regression.LogLikelihood(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">2</span>);   <span class="highlight-comment">// should be -1.7154020540835324</span>
+<span class="highlight-keyword">double</span> log_p2 = cox.Regression.LogLikelihood(<span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">63</span> }, <span class="highlight-number">10</span>);  <span class="highlight-comment">// should be  2.7694741370357177</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAACBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_ProportionalHazards.htm">Accord.Statistics.Models.Regression<span id="LST2CCCD7E1_97"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_97?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProportionalHazards</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Fitting_ProportionalHazardsNewtonRaphson.htm">Accord.Statistics.Models.Regression.Fitting<span id="LST2CCCD7E1_98"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CCCD7E1_98?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ProportionalHazardsNewtonRaphson</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

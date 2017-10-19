@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Video_DirectShow.htm">Accord.Video.DirectShow</a><br />
     <strong>Assembly:</strong>
-   Accord.Video.DirectShow (in Accord.Video.DirectShow.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">VideoCaptureDevice</span> : <span class="identifier">IVideoSource</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">VideoCaptureDevice</span>
+   Accord.Video.DirectShow (in Accord.Video.DirectShow.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">VideoCaptureDevice</span> : <span class="identifier">IVideoSource</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">VideoCaptureDevice</span>
 	<span class="keyword">Implements</span> <span class="identifier">IVideoSource</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
@@ -80,6 +80,10 @@
             Received bytes count.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Video_DirectShow_VideoCaptureDevice_CrossbarVideoInput.htm">CrossbarVideoInput</a></td><td><div class="summary">
             Current video input of capture card.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Video_DirectShow_VideoCaptureDevice_DesiredAverageTimePerFrame.htm">DesiredAverageTimePerFrame</a></td><td><div class="summary">
+              The desired average display time of the video frames, in 100-nanosecond units.
+              There is no guarantee that the device will actually respect this setting, however
+              some devices will not work unless this property is set. See remarks for details.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Video_DirectShow_VideoCaptureDevice_DesiredFrameRate.htm">DesiredFrameRate</a></td><td> <strong>Obsolete. </strong><div class="summary">
             Obsolete - no longer in use.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Video_DirectShow_VideoCaptureDevice_DesiredFrameSize.htm">DesiredFrameSize</a></td><td> <strong>Obsolete. </strong><div class="summary">
@@ -143,33 +147,82 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3C54F832_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3C54F832_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3C54F832_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3C54F832_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST3C54F832_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3C54F832_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST3C54F832_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3C54F832_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST3C54F832_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3C54F832_5?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
             </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID8RBSection" class="collapsibleSection"><p>This video source class captures video data from local video capture device,
-            like USB web camera (or internal), frame grabber, capture board - anything which
-            supports <b>DirectShow</b> interface. For devices which has a shutter button or
-            support external software triggering, the class also allows to do snapshots. Both
-            video size and snapshot size can be configured.</p><p>Sample usage:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// enumerate video devices</span>
-videoDevices = <span class="highlight-keyword">new</span> FilterInfoCollection( FilterCategory.VideoInputDevice );
-<span class="highlight-comment">// create video source</span>
-VideoCaptureDevice videoSource = <span class="highlight-keyword">new</span> VideoCaptureDevice( videoDevices[<span class="highlight-number">0</span>].MonikerString );
-<span class="highlight-comment">// set NewFrame event handler</span>
-videoSource.NewFrame += <span class="highlight-keyword">new</span> NewFrameEventHandler( video_NewFrame );
-<span class="highlight-comment">// start the video source</span>
-videoSource.Start( );
-<span class="highlight-comment">// ...</span>
-<span class="highlight-comment">// signal to stop when you no longer need capturing</span>
-videoSource.SignalToStop( );
+              like USB web camera (or internal), frame grabber, capture board - anything which
+              supports <b>DirectShow</b> interface. For devices which has a shutter button or
+              support external software triggering, the class also allows to do snapshots. Both
+              video size and snapshot size can be configured.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID9RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// To use the VideoCaptureClass, the first step is to enumerate the different</span>
+<span class="highlight-comment">// video capture devices in your system. The output of the method below should</span>
+<span class="highlight-comment">// include any webcam currently attached to or integrated into your computer:</span>
+<span class="highlight-keyword">var</span> videoDevices = <span class="highlight-keyword">new</span> FilterInfoCollection(FilterCategory.VideoInputDevice);
+
+<span class="highlight-comment">// A possible output will be: </span>
+<span class="highlight-comment">// "{ Integrated Webcam(@device:pnp:\\?\usb#vid_0c45&amp;pid_6713&amp;mi_00#6&amp;4851259&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global)}"</span>
+
+<span class="highlight-comment">// Now, we can create a video source selecting one of the devices. For this,</span>
+<span class="highlight-comment">// pass the DirectShow device moniker (a kind of device identifier) of the </span>
+<span class="highlight-comment">// device you would like to capture from to VideoCaptureDevice:</span>
+<span class="highlight-keyword">var</span> videoSource = <span class="highlight-keyword">new</span> VideoCaptureDevice(videoDevices[<span class="highlight-number">0</span>].MonikerString);
+
+<span class="highlight-comment">// Then, we just have to define what we would like to do once the device send </span>
+<span class="highlight-comment">// us a new frame. This can be done using standard .NET events (the actual </span>
+<span class="highlight-comment">// contents of the video_NewFrame method is shown at the bottom of this page)</span>
+videoSource.NewFrame += <span class="highlight-keyword">new</span> NewFrameEventHandler(video_NewFrame);
+
+<span class="highlight-comment">// Start the video source. This is not a blocking operation, meaning that </span>
+<span class="highlight-comment">// the frame capturing routine will actually be running in a different thread </span>
+<span class="highlight-comment">// and execution will be returned to the caller while the capture happens in </span>
+<span class="highlight-comment">// the background:</span>
+videoSource.Start();
+
 <span class="highlight-comment">// ...</span>
 
-<span class="highlight-keyword">private</span> <span class="highlight-keyword">void</span> video_NewFrame( <span class="highlight-keyword">object</span> sender, NewFrameEventArgs eventArgs )
+<span class="highlight-comment">// Let's say our application continues running, and after a while we decide</span>
+<span class="highlight-comment">// to stop capturing frames from the device. To stop the device, we can use</span>
+
+videoSource.SignalToStop();
+
+<span class="highlight-comment">// Note that this is again a non-blocking operation. The device will continue</span>
+<span class="highlight-comment">// capturing for a few milliseconds until it gets notified about our request.</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EADABA");</script><p>
+              The video_NewFrame event could have been defined as in any of the following examples:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// The video_NewFrame used in the example above could be defined as:</span>
+<span class="highlight-keyword">private</span> <span class="highlight-keyword">void</span> video_NewFrame(<span class="highlight-keyword">object</span> sender, NewFrameEventArgs eventArgs)
 {
     <span class="highlight-comment">// get new frame</span>
     Bitmap bitmap = eventArgs.Frame;
-    <span class="highlight-comment">// process the frame</span>
-}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Video_DirectShow.htm">Accord.Video.DirectShow Namespace</a></div></div></div>
+
+    <span class="highlight-comment">// process the frame (you can do anything with it, such as running an</span>
+    <span class="highlight-comment">// image processing filter, saving it to disk, showing on screen, etc)</span>
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// This is anowher example on how the video_NewFrame could have been </span>
+<span class="highlight-comment">// defined. In this example, we will apply a grayscale filter to the</span>
+<span class="highlight-comment">// images as they arrive from the capture device.</span>
+
+<span class="highlight-comment">// When processing multiple frames, it is better to try to cache</span>
+<span class="highlight-comment">// all operations and memory allocations outside of the main loop:</span>
+Grayscale grayscale = Grayscale.CommonAlgorithms.BT709;
+
+<span class="highlight-comment">// The video_NewFrame used in the example above could be defined as:</span>
+<span class="highlight-keyword">private</span> <span class="highlight-keyword">void</span> video_NewFrame2(<span class="highlight-keyword">object</span> sender, NewFrameEventArgs eventArgs)
+{
+    <span class="highlight-comment">// get new frame</span>
+    Bitmap bitmap = eventArgs.Frame;
+
+    <span class="highlight-comment">// Apply the filter we have cached outside:</span>
+    Bitmap grayBitmap = grayscale.Apply(bitmap);
+
+    <span class="highlight-comment">// process the frame (you can do anything with it, such as running an</span>
+    <span class="highlight-comment">// image processing filter, saving it to disk, showing on screen, etc)</span>
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID10RB')" onkeypress="SectionExpandCollapse_CheckKey('ID10RB', event)" tabindex="0"><img id="ID10RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID10RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Video_DirectShow.htm">Accord.Video.DirectShow Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

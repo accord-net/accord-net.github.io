@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Models_Regression_Linear.htm">Accord.Statistics.Models.Regression.Linear</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">MultipleLinearRegression</span> : <span class="identifier">TransformBase</span>&lt;<span class="identifier">double</span>[], <span class="identifier">double</span>&gt;, 
 	<span class="identifier">ILinearRegression</span>, <span class="identifier">IFormattable</span>, <span class="identifier">ICloneable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">MultipleLinearRegression</span>
@@ -151,7 +151,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTF08E59F_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_70?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTF08E59F_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_71?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTF08E59F_70"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_70?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTF08E59F_71"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_71?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTF08E59F_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_72?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -160,9 +167,9 @@
               variable, denoted y_i, is a linear combination of the parameters (but need not
               be linear in the independent x_i variables). As the linear regression has a
               closed form solution, the regression coefficients can be computed by calling
-              the <a href="M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress.htm">Regress(<span id="LSTF08E59F_72"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_72?cpp=array&lt;");</script><span id="LSTF08E59F_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_73?cpp=array&lt;");</script>Double<span id="LSTF08E59F_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_74?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTF08E59F_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTF08E59F_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_76?cpp=array&lt;");</script>Double<span id="LSTF08E59F_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_77?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a> method only once.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              the <a href="M_Accord_Statistics_Models_Regression_Linear_MultipleLinearRegression_Regress.htm">Regress(<span id="LSTF08E59F_73"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_73?cpp=array&lt;");</script><span id="LSTF08E59F_74"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_74?cpp=array&lt;");</script>Double<span id="LSTF08E59F_75"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_75?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LSTF08E59F_76"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_76?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTF08E59F_77"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_77?cpp=array&lt;");</script>Double<span id="LSTF08E59F_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_78?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a> method only once.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
               The following example shows how to fit a multiple linear regression model
-              to model a plane as an equation in the form ax + by + c = z. </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACFBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACFBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACFBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We will try to model a plane as an equation in the form</span>
+              to model a plane as an equation in the form ax + by + c = z. </p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEFBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEFBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEFBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// We will try to model a plane as an equation in the form</span>
 <span class="highlight-comment">// "ax + by + c = z". We have two input variables (x and y)</span>
 <span class="highlight-comment">// and we will be trying to find two parameters a and b and </span>
 <span class="highlight-comment">// an intercept term c.</span>
@@ -192,7 +199,7 @@ MultipleLinearRegression regression = ols.Learn(inputs, outputs);
 <span class="highlight-comment">// As result, we will be given the following:</span>
 <span class="highlight-keyword">double</span> a = regression.Weights[<span class="highlight-number">0</span>]; <span class="highlight-comment">// a = 0</span>
 <span class="highlight-keyword">double</span> b = regression.Weights[<span class="highlight-number">1</span>]; <span class="highlight-comment">// b = 0</span>
-<span class="highlight-keyword">double</span> c = regression.Intercept; <span class="highlight-comment">// c = 1</span>
+<span class="highlight-keyword">double</span> c = regression.Intercept;  <span class="highlight-comment">// c = 1</span>
 
 <span class="highlight-comment">// This is the plane described by the equation</span>
 <span class="highlight-comment">// ax + by + c = z =&gt; 0x + 0y + 1 = z =&gt; 1 = z.</span>
@@ -201,7 +208,89 @@ MultipleLinearRegression regression = ols.Learn(inputs, outputs);
 <span class="highlight-keyword">double</span>[] predicted = regression.Transform(inputs);
 
 <span class="highlight-comment">// And the squared error loss using </span>
-<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> SquareLoss(outputs).Loss(predicted);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACFBA");</script><p>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> SquareLoss(outputs).Loss(predicted);
+
+<span class="highlight-comment">// We can also compute other measures, such as the coefficient of determination r²</span>
+<span class="highlight-keyword">double</span> r2 = <span class="highlight-keyword">new</span> RSquaredLoss(numberOfInputs: <span class="highlight-number">2</span>, expected: outputs).Loss(predicted); <span class="highlight-comment">// should be 1</span>
+
+<span class="highlight-comment">// We can also compute the adjusted or weighted versions of r² using</span>
+<span class="highlight-keyword">var</span> r2loss = <span class="highlight-keyword">new</span> RSquaredLoss(numberOfInputs: <span class="highlight-number">2</span>, expected: outputs)
+{
+    Adjust = <span class="highlight-keyword">true</span>,
+    <span class="highlight-comment">// Weights = weights; // (if you have a weighted problem)</span>
+};
+
+<span class="highlight-keyword">double</span> ar2 = r2loss.Loss(predicted); <span class="highlight-comment">// should be 1</span>
+
+<span class="highlight-comment">// Alternatively, we can also use the less generic, but maybe more user-friendly method directly:</span>
+<span class="highlight-keyword">double</span> ur2 = regression.CoefficientOfDetermination(inputs, outputs, adjust: <span class="highlight-keyword">true</span>); <span class="highlight-comment">// should be 1</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEFBA");</script><p>
+              The next example shows how to fit a multiple linear regression model
+              in conjunction with a discrete codebook to learn from discrete variables
+              using one-hot encodings when applicable:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACFBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACFBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACFBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like predict a continuous number from a set </span>
+<span class="highlight-comment">// of discrete and continuous input variables. For this, we will </span>
+<span class="highlight-comment">// be using the Servo dataset from UCI's Machine Learning repository </span>
+<span class="highlight-comment">// as an example: http://archive.ics.uci.edu/ml/datasets/Servo</span>
+
+<span class="highlight-comment">// Create a Servo dataset</span>
+Servo servo = <span class="highlight-keyword">new</span> Servo();
+<span class="highlight-keyword">object</span>[][] instances = servo.Instances; <span class="highlight-comment">// 167 x 4 </span>
+<span class="highlight-keyword">double</span>[] outputs = servo.Output;        <span class="highlight-comment">// 167 x 1</span>
+
+<span class="highlight-comment">// This dataset contains 4 columns, where the first two are </span>
+<span class="highlight-comment">// symbolic (having possible values A, B, C, D, E), and the</span>
+<span class="highlight-comment">// last two are continuous.</span>
+
+<span class="highlight-comment">// We will use a codification filter to transform the symbolic </span>
+<span class="highlight-comment">// variables into one-hot vectors, while keeping the other two</span>
+<span class="highlight-comment">// continuous variables intact:</span>
+<span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> Codification&lt;<span class="highlight-keyword">object</span>&gt;()
+{
+    { <span class="highlight-literal">"motor"</span>, CodificationVariable.Categorical },
+    { <span class="highlight-literal">"screw"</span>, CodificationVariable.Categorical },
+    { <span class="highlight-literal">"pgain"</span>, CodificationVariable.Continuous },
+    { <span class="highlight-literal">"vgain"</span>, CodificationVariable.Continuous },
+};
+
+<span class="highlight-comment">// Learn the codebook</span>
+codebook.Learn(instances);
+
+<span class="highlight-comment">// We can gather some info about the problem:</span>
+<span class="highlight-keyword">int</span> numberOfInputs = codebook.NumberOfInputs;   <span class="highlight-comment">// should be 4 (since there are 4 variables)</span>
+<span class="highlight-keyword">int</span> numberOfOutputs = codebook.NumberOfOutputs; <span class="highlight-comment">// should be 12 (due their one-hot encodings)</span>
+
+<span class="highlight-comment">// Now we can use it to obtain double[] vectors:</span>
+<span class="highlight-keyword">double</span>[][] inputs = codebook.ToDouble().Transform(instances);
+
+<span class="highlight-comment">// We will use Ordinary Least Squares to create a</span>
+<span class="highlight-comment">// linear regression model with an intercept term</span>
+<span class="highlight-keyword">var</span> ols = <span class="highlight-keyword">new</span> OrdinaryLeastSquares()
+{
+    UseIntercept = <span class="highlight-keyword">true</span>
+};
+
+<span class="highlight-comment">// Use Ordinary Least Squares to estimate a regression model:</span>
+MultipleLinearRegression regression = ols.Learn(inputs, outputs);
+
+<span class="highlight-comment">// We can compute the predicted points using:</span>
+<span class="highlight-keyword">double</span>[] predicted = regression.Transform(inputs);
+
+<span class="highlight-comment">// And the squared error using the SquareLoss class:</span>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> SquareLoss(outputs).Loss(predicted);
+
+<span class="highlight-comment">// We can also compute other measures, such as the coefficient of determination r² using:</span>
+<span class="highlight-keyword">double</span> r2 = <span class="highlight-keyword">new</span> RSquaredLoss(numberOfOutputs, outputs).Loss(predicted); <span class="highlight-comment">// should be 0.55086630162967354</span>
+
+<span class="highlight-comment">// Or the adjusted or weighted versions of r² using:</span>
+<span class="highlight-keyword">var</span> r2loss = <span class="highlight-keyword">new</span> RSquaredLoss(numberOfOutputs, outputs)
+{
+    Adjust = <span class="highlight-keyword">true</span>,        
+    <span class="highlight-comment">// Weights = weights; // (uncomment if you have a weighted problem)</span>
+};
+
+<span class="highlight-keyword">double</span> ar2 = r2loss.Loss(predicted); <span class="highlight-comment">// should be 0.51586887058782993</span>
+
+<span class="highlight-comment">// Alternatively, we can also use the less generic, but maybe more user-friendly method directly:</span>
+<span class="highlight-keyword">double</span> ur2 = regression.CoefficientOfDetermination(inputs, outputs, adjust: <span class="highlight-keyword">true</span>); <span class="highlight-comment">// should be 0.51586887058782993</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACFBA");</script><p>
               The next example shows how to fit a multiple linear regression model with the 
               additional constraint that none of its coefficients should be negative. For this
               we can use the <a href="T_Accord_Statistics_Models_Regression_Fitting_NonNegativeLeastSquares.htm">NonNegativeLeastSquares</a> learning algorithm instead of
@@ -232,7 +321,7 @@ MultipleLinearRegression regression = nnls.Learn(inputs, outputs);
 <span class="highlight-keyword">double</span>[] prediction = regression.Transform(inputs);
 
 <span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> SquareLoss(expected: outputs)
-    .Loss(actual: prediction); <span class="highlight-comment">// should be</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAFBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression_Linear.htm">Accord.Statistics.Models.Regression.Linear Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Linear_OrdinaryLeastSquares.htm">Accord.Statistics.Models.Regression.Linear<span id="LSTF08E59F_78"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_78?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>OrdinaryLeastSquares</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Fitting_NonNegativeLeastSquares.htm">Accord.Statistics.Models.Regression.Fitting<span id="LSTF08E59F_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_79?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>NonNegativeLeastSquares</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression.htm">Accord.Statistics.Models.Regression.Linear<span id="LSTF08E59F_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_80?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SimpleLinearRegression</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression.htm">Accord.Statistics.Models.Regression.Linear<span id="LSTF08E59F_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_81?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MultivariateLinearRegression</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Analysis_MultipleLinearRegressionAnalysis.htm">Accord.Statistics.Analysis<span id="LSTF08E59F_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_82?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MultipleLinearRegressionAnalysis</a></div></div></div>
+    .Loss(actual: prediction); <span class="highlight-comment">// should be 0</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAFBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Models_Regression_Linear.htm">Accord.Statistics.Models.Regression.Linear Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Linear_OrdinaryLeastSquares.htm">Accord.Statistics.Models.Regression.Linear<span id="LSTF08E59F_79"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_79?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>OrdinaryLeastSquares</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Fitting_NonNegativeLeastSquares.htm">Accord.Statistics.Models.Regression.Fitting<span id="LSTF08E59F_80"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_80?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>NonNegativeLeastSquares</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Linear_SimpleLinearRegression.htm">Accord.Statistics.Models.Regression.Linear<span id="LSTF08E59F_81"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_81?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SimpleLinearRegression</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Models_Regression_Linear_MultivariateLinearRegression.htm">Accord.Statistics.Models.Regression.Linear<span id="LSTF08E59F_82"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_82?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MultivariateLinearRegression</a></div><div class="seeAlsoStyle"><a href="T_Accord_Statistics_Analysis_MultipleLinearRegressionAnalysis.htm">Accord.Statistics.Analysis<span id="LSTF08E59F_83"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTF08E59F_83?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MultipleLinearRegressionAnalysis</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

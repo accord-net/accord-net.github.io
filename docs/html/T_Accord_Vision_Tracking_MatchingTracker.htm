@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_Vision_Tracking_MatchingTracker" />
     <meta name="guid" content="T_Accord_Vision_Tracking_MatchingTracker" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -47,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Vision_Tracking.htm">Accord.Vision.Tracking</a><br />
     <strong>Assembly:</strong>
-   Accord.Vision (in Accord.Vision.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">MatchingTracker</span> : <span class="identifier">IObjectTracker</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">MatchingTracker</span>
+   Accord.Vision (in Accord.Vision.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">MatchingTracker</span> : <span class="identifier">IObjectTracker</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">MatchingTracker</span>
 	<span class="keyword">Implements</span> <span class="identifier">IObjectTracker</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
@@ -72,11 +74,19 @@
               Gets or sets a value indicating whether the tracker should
               extract the object image from the source. The extracted image
               should be stored in <a href="P_Accord_Vision_Tracking_MatchingTracker_TrackingObject.htm">TrackingObject</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Vision_Tracking_MatchingTracker_RegistrationThreshold.htm">RegistrationThreshold</a></td><td><div class="summary">
+              Gets or sets at which similarity threshold the currently
+              tracked object should be re-registered as the new template
+              to look for. This can help track slowly changing objects.
+              Default is 0.99.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Vision_Tracking_MatchingTracker_SearchWindow.htm">SearchWindow</a></td><td><div class="summary">
               Gets or sets the current search window.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Vision_Tracking_MatchingTracker_Template.htm">Template</a></td><td><div class="summary">
+              Gets or sets the template being chased by the tracker.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Vision_Tracking_MatchingTracker_Threshold.htm">Threshold</a></td><td><div class="summary">
               Gets or sets the similarity threshold to 
               determine when the object has been lost.
+              Default is 0.95. 
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Vision_Tracking_MatchingTracker_TrackingObject.htm">TrackingObject</a></td><td><div class="summary">
               Gets the current location of the object being tracked.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
@@ -89,17 +99,86 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTB429AD55_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTB429AD55_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LSTB429AD55_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTB429AD55_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTB429AD55_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID7RBSection" class="collapsibleSection"><p>
               The matching tracker will track the object presented in the search window
               of the first frame given to the tracker. To reset the tracker and start
               tracking another object, one can call the Reset method, then set the search
               window around a new object of interest present the image containing the new
-              object to the tracker.
-            </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Vision_Tracking.htm">Accord.Vision.Tracking Namespace</a></div></div></div>
+              object to the tracker.</p><p>
+              This is a very simple tracker that cannot handle size changes or occlusion.</p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              The following example shows how to track an moving person from a video using the
+              VideoFileReader class, how to mark the object positions using <a href="T_Accord_Imaging_Filters_RectanglesMarker.htm">RectanglesMarker</a>,
+              and save those frames as individual files to the disk.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABDBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABDBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABDBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's test the tracker using a sample video from </span>
+<span class="highlight-comment">// the collection of test videos in the framework:</span>
+TestVideos ds = <span class="highlight-keyword">new</span> TestVideos(basePath);
+<span class="highlight-keyword">string</span> fileName = ds[<span class="highlight-literal">"walking.mp4"</span>];
+
+<span class="highlight-comment">// Now, let's open the video using FFMPEG:</span>
+<span class="highlight-keyword">var</span> video = <span class="highlight-keyword">new</span> VideoFileReader();
+video.Open(fileName);
+
+<span class="highlight-comment">// And then check the contents of one of the frames:</span>
+Bitmap frame = video.ReadVideoFrame(frameIndex: <span class="highlight-number">150</span>);
+frame.Save(Path.Combine(basePath, <span class="highlight-literal">"walking_frame.png"</span>));
+
+<span class="highlight-comment">// Let's register a template for the bike rider in gray shirt</span>
+Rectangle roi = <span class="highlight-keyword">new</span> Rectangle(x: <span class="highlight-number">70</span>, y: <span class="highlight-number">105</span>, width: <span class="highlight-number">28</span>, height: <span class="highlight-number">54</span>);
+
+<span class="highlight-comment">// initialization</span>
+<span class="highlight-keyword">var</span> tracker = <span class="highlight-keyword">new</span> MatchingTracker()
+{
+    SearchWindow = roi,
+    Threshold = <span class="highlight-number">0.0</span>, <span class="highlight-comment">// never reset the tracker in case it gets lost</span>
+    RegistrationThreshold = <span class="highlight-number">0.95</span> <span class="highlight-comment">// re-register the template if we are 95% </span>
+    <span class="highlight-comment">// confident that the tracked object is indeed the object we want to follow</span>
+};
+
+<span class="highlight-comment">// Creating bitmaps and locking them is an expensive </span>
+<span class="highlight-comment">// operation. Instead, let's allocate once and reuse</span>
+BitmapData bitmapData = frame.LockBits(ImageLockMode.ReadWrite);
+UnmanagedImage unmanagedImage = <span class="highlight-keyword">new</span> UnmanagedImage(bitmapData);
+
+<span class="highlight-comment">// We will create two color markers: one to show the location of the</span>
+<span class="highlight-comment">// tracked object (red) and another one to show the regions of the image</span>
+<span class="highlight-comment">// that the tracker is looking at (white).</span>
+RectanglesMarker objectMarker = <span class="highlight-keyword">new</span> RectanglesMarker(Color.Red);
+RectanglesMarker windowMarker = <span class="highlight-keyword">new</span> RectanglesMarker(Color.White);
+
+<span class="highlight-comment">// Now, for each frame of the video</span>
+<span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> frameIndex = <span class="highlight-number">0</span>; frameIndex &lt; video.FrameCount; frameIndex++)
+{
+    <span class="highlight-comment">// Read the current frame into the bitmap data</span>
+    video.ReadVideoFrame(frameIndex, bitmapData);
+
+    <span class="highlight-keyword">if</span> (frameIndex &gt; <span class="highlight-number">150</span>) <span class="highlight-comment">// wait until the bike rider enters the scene</span>
+    {
+        <span class="highlight-comment">// Feed the frame to the tracker</span>
+        tracker.ProcessFrame(unmanagedImage);
+
+        <span class="highlight-comment">// Mark the location of the tracker object in red color</span>
+        objectMarker.SingleRectangle = tracker.TrackingObject.Rectangle;
+        objectMarker.ApplyInPlace(unmanagedImage); <span class="highlight-comment">// overwrite the frame</span>
+
+        windowMarker.SingleRectangle = tracker.SearchWindow;
+        windowMarker.ApplyInPlace(unmanagedImage); <span class="highlight-comment">// overwrite the frame</span>
+    }
+
+    <span class="highlight-comment">// Save it to disk</span>
+    frame.Save(Path.Combine(basePath, <span class="highlight-literal">"frame_{0}.png"</span>.Format(frameIndex)));
+}
+
+frame.UnlockBits(bitmapData);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABDBA");</script><img src="..\images\video\matching_frame_223.png" /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Vision_Tracking.htm">Accord.Vision.Tracking Namespace</a></div><div class="seeAlsoStyle"><a href="T_Accord_Vision_Tracking_Camshift.htm">Accord.Vision.Tracking<span id="LSTB429AD55_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Camshift</a></div><div class="seeAlsoStyle"><a href="T_Accord_Vision_Tracking_HslBlobTracker.htm">Accord.Vision.Tracking<span id="LSTB429AD55_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>HslBlobTracker</a></div><div class="seeAlsoStyle"><a href="T_Accord_Vision_Detection_HaarObjectDetector.htm">Accord.Vision.Detection<span id="LSTB429AD55_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB429AD55_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>HaarObjectDetector</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

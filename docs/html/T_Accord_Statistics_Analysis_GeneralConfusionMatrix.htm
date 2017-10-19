@@ -13,7 +13,7 @@
     <meta name="System.Keywords" content="GeneralConfusionMatrix class, about GeneralConfusionMatrix class" />
     <meta name="Microsoft.Help.F1" content="Accord.Statistics.Analysis.GeneralConfusionMatrix" />
     <meta name="Microsoft.Help.Id" content="T:Accord.Statistics.Analysis.GeneralConfusionMatrix" />
-    <meta name="Description" content="General confusion matrix for multi-class decision problems." />
+    <meta name="Description" content="General confusion matrix for multi-class decision problems. For binary problems, please see ." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <meta name="BrandingAware" content="true" />
     
@@ -21,6 +21,8 @@
     <meta name="file" content="T_Accord_Statistics_Analysis_GeneralConfusionMatrix" />
     <meta name="guid" content="T_Accord_Statistics_Analysis_GeneralConfusionMatrix" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -42,12 +44,13 @@
           </tr>
         </table>
         <span class="introStyle"></span> <div class="summary">
-              General confusion matrix for multi-class decision problems.
+              General confusion matrix for multi-class decision problems. For
+              binary problems, please see <a href="T_Accord_Statistics_Analysis_ConfusionMatrix.htm">ConfusionMatrix</a>.
             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST4B2FFF61_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <span class="selflink">Accord.Statistics.Analysis<span id="LST4B2FFF61_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GeneralConfusionMatrix</span><br />    <a href="T_Accord_Statistics_Analysis_WeightedConfusionMatrix.htm">Accord.Statistics.Analysis<span id="LST4B2FFF61_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>WeightedConfusionMatrix</a><br /></div><p> </p>
     <strong>Namespace:</strong> 
    <a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis</a><br />
     <strong>Assembly:</strong>
-   Accord.Statistics (in Accord.Statistics.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+   Accord.Statistics (in Accord.Statistics.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
 <span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">GeneralConfusionMatrix</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
 <span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">GeneralConfusionMatrix</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
@@ -81,8 +84,8 @@
               Chance agreement.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_ChiSquare.htm">ChiSquare</a></td><td><div class="summary">
               Gets the Chi-Square statistic for the contingency table.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Classes.htm">Classes</a></td><td><div class="summary">
-              Gets the number of classes.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Classes.htm">Classes</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Obsolete. Please use <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_NumberOfClasses.htm">NumberOfClasses</a> instead.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_ColumnErrors.htm">ColumnErrors</a></td><td><div class="summary">
               Gets the col errors.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_ColumnProportions.htm">ColumnProportions</a></td><td><div class="summary">
@@ -93,6 +96,8 @@
               Cramer's V association measure.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Diagonal.htm">Diagonal</a></td><td><div class="summary">
               Gets the diagonal of the confusion matrix.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Error.htm">Error</a></td><td><div class="summary">
+              Error. This is the same value as 1.0 - <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_OverallAgreement.htm">OverallAgreement</a>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_ExpectedValues.htm">ExpectedValues</a></td><td><div class="summary">
               Expected values, or values that could
               have been generated just by chance.
@@ -110,6 +115,10 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Min.htm">Min</a></td><td><div class="summary">
               Gets the minimum number of correct 
               matches (the minimum over the diagonal)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_NumberOfClasses.htm">NumberOfClasses</a></td><td><div class="summary">
+              Gets the number of classes.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_NumberOfSamples.htm">NumberOfSamples</a></td><td><div class="summary">
+              Gets the number of samples.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_OverallAgreement.htm">OverallAgreement</a></td><td><div class="summary">
               Overall agreement.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Pearson.htm">Pearson</a></td><td><div class="summary">
@@ -135,8 +144,8 @@
               Gets the row totals.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Sakoda.htm">Sakoda</a></td><td><div class="summary">
               Sakoda's contingency coefficient V.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Samples.htm">Samples</a></td><td><div class="summary">
-              Gets the number of samples.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Samples.htm">Samples</a></td><td> <strong>Obsolete. </strong><div class="summary">
+              Obsolete. Please use <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_NumberOfSamples.htm">NumberOfSamples</a> instead.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_StandardError.htm">StandardError</a></td><td><div class="summary">
               Gets the standard error of the <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Kappa.htm">Kappa</a>
               coefficient of performance. 
@@ -157,6 +166,9 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Variance.htm">Variance</a></td><td><div class="summary">
               Gets the variance of the <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Kappa.htm">Kappa</a>
               coefficient of performance. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_VarianceDeltaMethod.htm">VarianceDeltaMethod</a></td><td><div class="summary">
+              Gets the variance of the <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Kappa.htm">Kappa</a>
+              coefficient of performance using Congalton's delta method. 
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_VarianceUnderNull.htm">VarianceUnderNull</a></td><td><div class="summary">
               Gets the variance of the <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Kappa.htm">Kappa</a>
               under the null hypothesis that the underlying
@@ -165,11 +177,22 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Analysis_GeneralConfusionMatrix_Combine.htm">Combine</a></td><td><div class="summary">
               Combines several confusion matrices into one single matrix.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Analysis_GeneralConfusionMatrix_Estimate__1.htm">Estimate<span id="LST4B2FFF61_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TInput<span id="LST4B2FFF61_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IClassifier<span id="LST4B2FFF61_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_17?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TInput, Boolean<span id="LST4B2FFF61_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_18?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST4B2FFF61_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_19?cpp=array&lt;");</script>TInput<span id="LST4B2FFF61_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_20?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST4B2FFF61_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_21?cpp=array&lt;");</script>Boolean<span id="LST4B2FFF61_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_22?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Estimates a <span class="selflink">GeneralConfusionMatrix</span> directly from a classifier, a set of inputs and its expected outputs.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Accord_Statistics_Analysis_GeneralConfusionMatrix_Estimate__1_1.htm">Estimate<span id="LST4B2FFF61_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_23?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TInput<span id="LST4B2FFF61_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_24?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(IClassifier<span id="LST4B2FFF61_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_25?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>TInput, Int32<span id="LST4B2FFF61_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_26?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, <span id="LST4B2FFF61_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_27?cpp=array&lt;");</script>TInput<span id="LST4B2FFF61_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_28?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LST4B2FFF61_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_29?cpp=array&lt;");</script>Int32<span id="LST4B2FFF61_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_30?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+              Estimates a <span class="selflink">GeneralConfusionMatrix</span> directly from a classifier, a set of inputs and its expected outputs.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Creates a shallow copy of the current <span class="nolink">Object</span>.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST4B2FFF61_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST4B2FFF61_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST4B2FFF61_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_31?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST4B2FFF61_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_32?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST4B2FFF61_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST4B2FFF61_33?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -180,7 +203,194 @@
                   of Remotely  Sensed  Data. Available on: http://uwf.edu/zhu/evr6930/2.pdf </a></li><li><a href="http://www.iiasa.ac.at/Admin/PUB/Documents/IR-98-081.pdf">
                   G. Banko. A Review of Assessing the Accuracy of Classiﬁcations of Remotely Sensed Data and
                   of Methods Including Remote Sensing Data in Forest Inventory. Interim report. Available on:
-                  http://www.iiasa.ac.at/Admin/PUB/Documents/IR-98-081.pdf </a></li></ul></p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div></div></div>
+                  http://www.iiasa.ac.at/Admin/PUB/Documents/IR-98-081.pdf </a></li></ul></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              The first example shows how a confusion matrix can be constructed from a vector of expected (ground-truth)
+              values and their associated predictions (as done by a test, procedure or machine learning classifier):</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAIBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAIBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAIBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we have a decision problem involving 3 classes. In a typical</span>
+<span class="highlight-comment">// machine learning problem, have a set of expected, ground truth values:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-keyword">int</span>[] expected = { <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">2</span>, <span class="highlight-number">2</span>, <span class="highlight-number">2</span>, <span class="highlight-number">2</span> };
+
+<span class="highlight-comment">// And we have a set of values that have been predicted by a machine model:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-keyword">int</span>[] predicted = { <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> };
+
+<span class="highlight-comment">// We can get different performance measures to assess how good our model was at </span>
+<span class="highlight-comment">// predicting the true, expected, ground-truth labels for the decision problem:</span>
+<span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(classes: <span class="highlight-number">3</span>, expected: expected, predicted: predicted);
+
+<span class="highlight-comment">// We can obtain the proper confusion matrix using:</span>
+<span class="highlight-keyword">int</span>[,] matrix = cm.Matrix;
+
+<span class="highlight-comment">// The values of this matrix should be the same as:</span>
+<span class="highlight-keyword">int</span>[,] expectedMatrix =
+{
+    <span class="highlight-comment">//              expected</span>
+    <span class="highlight-comment">/*predicted*/</span> { <span class="highlight-number">4</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span> },
+                  { <span class="highlight-number">0</span>, <span class="highlight-number">4</span>, <span class="highlight-number">4</span> },
+                  { <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span> },
+};
+
+
+<span class="highlight-comment">// We can get more information about our problem as well:</span>
+<span class="highlight-keyword">int</span> classes = cm.NumberOfClasses; <span class="highlight-comment">// should be 3</span>
+<span class="highlight-keyword">int</span> samples = cm.NumberOfSamples; <span class="highlight-comment">// should be 12</span>
+
+<span class="highlight-comment">// And multiple performance measures:</span>
+<span class="highlight-keyword">double</span> accuracy = cm.Accuracy;                      <span class="highlight-comment">// should be 0.66666666666666663</span>
+<span class="highlight-keyword">double</span> error = cm.Error;                            <span class="highlight-comment">// should be 0.33333333333333337</span>
+<span class="highlight-keyword">double</span> chanceAgreement = cm.ChanceAgreement;        <span class="highlight-comment">// should be 0.33333333333333331</span>
+<span class="highlight-keyword">double</span> geommetricAgreement = cm.GeometricAgreement; <span class="highlight-comment">// should be 0 (the classifier completely missed one class)</span>
+<span class="highlight-keyword">double</span> pearson = cm.Pearson;                        <span class="highlight-comment">// should be 0.70710678118654757</span>
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;                            <span class="highlight-comment">// should be 0.49999999999999994</span>
+<span class="highlight-keyword">double</span> tau = cm.Tau;                                <span class="highlight-comment">// should be 0.49999999999999994</span>
+<span class="highlight-keyword">double</span> chiSquare = cm.ChiSquare;                    <span class="highlight-comment">// should be 12</span>
+
+<span class="highlight-comment">// and some of their standard errors:</span>
+<span class="highlight-keyword">double</span> kappaStdErr = cm.StandardError;              <span class="highlight-comment">// should be 0.15590239111558091</span>
+<span class="highlight-keyword">double</span> kappaStdErr0 = cm.StandardErrorUnderNull;    <span class="highlight-comment">// should be 0.16666666666666663</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAIBBA");</script><p>
+              The second example shows how to construct a general confusion matrix directly from a integer matrix with
+              the class assignments:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAGBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAGBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAGBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we have the following matrix</span>
+<span class="highlight-keyword">int</span>[,] matrix =
+{
+    { <span class="highlight-number">29</span>,  <span class="highlight-number">6</span>,  <span class="highlight-number">5</span> },
+    {  <span class="highlight-number">8</span>, <span class="highlight-number">20</span>,  <span class="highlight-number">7</span> },
+    {  <span class="highlight-number">1</span>,  <span class="highlight-number">2</span>, <span class="highlight-number">22</span> },
+};
+
+<span class="highlight-comment">// Create a new multi-class Confusion Matrix</span>
+<span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(matrix);
+
+<span class="highlight-comment">// Now we can use it to obtain info such as</span>
+<span class="highlight-keyword">int</span> classes = cm.NumberOfClasses; <span class="highlight-comment">// should be 3</span>
+<span class="highlight-keyword">int</span> samples = cm.NumberOfSamples; <span class="highlight-comment">// should be 100</span>
+
+<span class="highlight-keyword">double</span> acc = cm.Accuracy;          <span class="highlight-comment">// should be 0.71</span>
+<span class="highlight-keyword">double</span> err = cm.Error;             <span class="highlight-comment">// should be 0.29</span>
+<span class="highlight-keyword">double</span> ca = cm.ChanceAgreement;    <span class="highlight-comment">// should be 0.335</span>
+<span class="highlight-keyword">double</span> ga = cm.GeometricAgreement; <span class="highlight-comment">// should be 23.37</span>
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;           <span class="highlight-comment">// should be 0.563</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAGBBA");</script><p>
+              The third example shows how to construct a general confusion matrix directly from a classifier and a dataset:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAEBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Generate always same random numbers</span>
+Accord.Math.Random.Generator.Seed = <span class="highlight-number">0</span>;
+
+<span class="highlight-comment">// Let's say we would like to learn a classifier for the famous Iris</span>
+<span class="highlight-comment">// dataset, and measure its performance using a GeneralConfusionMatrix</span>
+
+<span class="highlight-comment">// Download and load the Iris dataset</span>
+<span class="highlight-keyword">var</span> iris = <span class="highlight-keyword">new</span> Iris();
+<span class="highlight-keyword">double</span>[][] inputs = iris.Instances;
+<span class="highlight-keyword">int</span>[] outputs = iris.ClassLabels;
+
+<span class="highlight-comment">// Create the multi-class learning algorithm for the machine</span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MulticlassSupportVectorLearning&lt;Linear&gt;()
+{
+    <span class="highlight-comment">// Configure the learning algorithm to use SMO to train the</span>
+    <span class="highlight-comment">//  underlying SVMs in each of the binary class subproblems.</span>
+    Learner = (param) =&gt; <span class="highlight-keyword">new</span> SequentialMinimalOptimization&lt;Linear&gt;()
+    {
+        <span class="highlight-comment">// If you would like to use other kernels, simply replace</span>
+        <span class="highlight-comment">// the generic parameter to the desired kernel class, such</span>
+        <span class="highlight-comment">// as for example, Polynomial or Gaussian:</span>
+
+        Kernel = <span class="highlight-keyword">new</span> Linear() <span class="highlight-comment">// use the Linear kernel</span>
+    }
+};
+
+<span class="highlight-comment">// Estimate the multi-class support vector machine using one-vs-one method</span>
+MulticlassSupportVectorMachine&lt;Linear&gt; ovo = teacher.Learn(inputs, outputs);
+
+<span class="highlight-comment">// Compute classification error</span>
+GeneralConfusionMatrix cm = GeneralConfusionMatrix.Estimate(ovo, inputs, outputs);
+
+<span class="highlight-keyword">double</span> error = cm.Error;         <span class="highlight-comment">// should be 0.066666666666666652</span>
+<span class="highlight-keyword">double</span> accuracy = cm.Accuracy;   <span class="highlight-comment">// should be 0.93333333333333335</span>
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;         <span class="highlight-comment">// should be 0.9</span>
+<span class="highlight-keyword">double</span> chiSquare = cm.ChiSquare; <span class="highlight-comment">// should be 248.52216748768473</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEBBA");</script><p>
+              The next examples reproduce the results shown in various papers, with special attention to the multiple
+              ways of computing the <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Variance.htm">Variance</a> for the <a href="P_Accord_Statistics_Analysis_GeneralConfusionMatrix_Kappa.htm">Kappa</a> statistic:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EACBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Example from R. Congalton's book, "Assesssing </span>
+<span class="highlight-comment">// the accuracy of remotely sensed data", 1999.</span>
+
+<span class="highlight-keyword">int</span>[,] table = <span class="highlight-comment">// Analyst #1 (page 108)</span>
+{
+    { <span class="highlight-number">65</span>,  <span class="highlight-number">4</span>, <span class="highlight-number">22</span>, <span class="highlight-number">24</span> },
+    {  <span class="highlight-number">6</span>, <span class="highlight-number">81</span>,  <span class="highlight-number">5</span>,  <span class="highlight-number">8</span> },
+    {  <span class="highlight-number">0</span>, <span class="highlight-number">11</span>, <span class="highlight-number">85</span>, <span class="highlight-number">19</span> },
+    {  <span class="highlight-number">4</span>,  <span class="highlight-number">7</span>,  <span class="highlight-number">3</span>, <span class="highlight-number">90</span> },
+};
+
+<span class="highlight-comment">// Create a new multi-class confusion matrix</span>
+<span class="highlight-keyword">var</span> cm = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(table);
+
+<span class="highlight-keyword">int</span>[] rowTotals = cm.RowTotals;     <span class="highlight-comment">// should be { 115, 100, 115, 104 }</span>
+<span class="highlight-keyword">int</span>[] colTotals = cm.ColumnTotals;  <span class="highlight-comment">// should be { 115, 100, 115, 104 }</span>
+
+<span class="highlight-keyword">double</span> kappa = cm.Kappa;            <span class="highlight-comment">// should be 0.65</span>
+<span class="highlight-keyword">double</span> <span class="highlight-keyword">var</span> = cm.Variance;           <span class="highlight-comment">// should be 0.00076995084473426684</span>
+<span class="highlight-keyword">double</span> var0 = cm.VarianceUnderNull; <span class="highlight-comment">// should be 0.00074886435981842887</span>
+<span class="highlight-keyword">double</span> varD = Accord.Statistics.Testing.KappaTest.DeltaMethodKappaVariance(cm); <span class="highlight-comment">// should be 0.0007778</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABBBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABBBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABBBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Example from Ientilucci, Emmett (2006). "On Using and Computing the Kappa Statistic".</span>
+<span class="highlight-comment">// Available on: http://www.cis.rit.edu/~ejipci/Reports/On_Using_and_Computing_the_Kappa_Statistic.pdf </span>
+
+<span class="highlight-comment">// Note: Congalton's method uses the Delta Method for approximating the Kappa variance,</span>
+<span class="highlight-comment">// but the framework uses the corrected methods by Cohen and Fleiss. For more information, see:</span>
+<span class="highlight-comment">// https://stats.stackexchange.com/questions/30604/computing-cohens-kappa-variance-and-standard-errors</span>
+
+<span class="highlight-keyword">int</span>[,] matrix = <span class="highlight-comment">// Matrix A (page 1)</span>
+{
+    { <span class="highlight-number">317</span>,  <span class="highlight-number">23</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> },
+    {  <span class="highlight-number">61</span>, <span class="highlight-number">120</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">0</span> },
+    {   <span class="highlight-number">2</span>,   <span class="highlight-number">4</span>, <span class="highlight-number">60</span>,  <span class="highlight-number">0</span> },
+    {  <span class="highlight-number">35</span>,  <span class="highlight-number">29</span>,  <span class="highlight-number">0</span>,  <span class="highlight-number">8</span> },
+};
+
+<span class="highlight-comment">// Create the multi-class confusion matrix</span>
+<span class="highlight-keyword">var</span> a = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(matrix);
+
+<span class="highlight-comment">// Method A row totals (page 2)</span>
+<span class="highlight-keyword">int</span>[] rowTotals = a.RowTotals;       <span class="highlight-comment">// should be { 340, 181, 66, 72 }</span>
+
+<span class="highlight-comment">// Method A col totals (page 2)</span>
+<span class="highlight-keyword">int</span>[] colTotals = a.ColumnTotals;    <span class="highlight-comment">// should be { 415, 176, 60, 8 }</span>
+
+<span class="highlight-comment">// Number of samples for A (page 2)</span>
+<span class="highlight-keyword">int</span> samples = a.NumberOfSamples;     <span class="highlight-comment">// should be 659</span>
+<span class="highlight-keyword">int</span> classes = a.NumberOfClasses;     <span class="highlight-comment">// should be 4</span>
+
+<span class="highlight-comment">// Po for A (page 2)</span>
+<span class="highlight-keyword">double</span> po = a.OverallAgreement;      <span class="highlight-comment">// should be 0.7663</span>
+
+<span class="highlight-comment">// Pc for A (page 2)</span>
+<span class="highlight-keyword">double</span> ca = a.ChanceAgreement;       <span class="highlight-comment">// should be 0.4087</span>
+
+<span class="highlight-comment">// Kappa value k_hat for A (page 3)</span>
+<span class="highlight-keyword">double</span> kappa = a.Kappa;              <span class="highlight-comment">// should be 0.605</span>
+
+<span class="highlight-comment">// Variance value var_k for A (page 4)</span>
+<span class="highlight-keyword">double</span> varD = a.VarianceDeltaMethod; <span class="highlight-comment">// should be 0.00073735</span>
+
+<span class="highlight-comment">// Other variance values according to Fleiss and Cohen</span>
+<span class="highlight-keyword">double</span> <span class="highlight-keyword">var</span> = a.Variance;             <span class="highlight-comment">// should be 0.00071760415564207924</span>
+<span class="highlight-keyword">double</span> var0 = a.VarianceUnderNull;   <span class="highlight-comment">// should be 0.00070251065008366978</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABBBA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAABBA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAABBA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAABBA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Example from J. L. Fleiss, J. Cohen, B. S. Everitt, "Large sample</span>
+<span class="highlight-comment">//  standard errors of kappa and weighted kappa" Psychological Bulletin (1969)</span>
+<span class="highlight-comment">//  Volume: 72, Issue: 5, American Psychological Association, Pages: 323-327</span>
+
+<span class="highlight-comment">// This was the paper which presented the finally correct</span>
+<span class="highlight-comment">// large sample variance for Kappa after so many attempts.</span>
+
+<span class="highlight-keyword">double</span>[,] matrix =
+{
+    { <span class="highlight-number">0.53</span>,  <span class="highlight-number">0.05</span>,  <span class="highlight-number">0.02</span> },
+    { <span class="highlight-number">0.11</span>,  <span class="highlight-number">0.14</span>,  <span class="highlight-number">0.05</span> },
+    { <span class="highlight-number">0.01</span>,  <span class="highlight-number">0.06</span>,  <span class="highlight-number">0.03</span> },
+};
+
+<span class="highlight-comment">// Create a new multi-class confusion matrix:</span>
+<span class="highlight-keyword">var</span> a = <span class="highlight-keyword">new</span> GeneralConfusionMatrix(matrix, <span class="highlight-number">200</span>);
+
+<span class="highlight-keyword">double</span>[] rowProportions = a.RowProportions;    <span class="highlight-comment">// should be { 0.6, 0.3, 0.1 }</span>
+<span class="highlight-keyword">double</span>[] colProportions = a.ColumnProportions; <span class="highlight-comment">// should be { 0.65, 0.25, 0.10 }</span>
+
+<span class="highlight-keyword">double</span> kappa = a.Kappa;                        <span class="highlight-comment">// should be 0.429</span>
+<span class="highlight-keyword">double</span> <span class="highlight-keyword">var</span> = a.Variance;                       <span class="highlight-comment">// should be 0.002885</span>
+<span class="highlight-keyword">double</span> var0 = a.VarianceUnderNull;             <span class="highlight-comment">// should be 0.003082</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAABBA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_Statistics_Analysis.htm">Accord.Statistics.Analysis Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>

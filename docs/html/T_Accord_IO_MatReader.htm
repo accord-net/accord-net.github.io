@@ -49,7 +49,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_IO.htm">Accord.IO</a><br />
     <strong>Assembly:</strong>
-   Accord.Math (in Accord.Math.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">MatReader</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">MatReader</span>
+   Accord.Math (in Accord.Math.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">MatReader</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">MatReader</span>
 	<span class="keyword">Implements</span> <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
 		var HT_requestExampleLink = document.getElementById("HT_RequestExampleLink");
@@ -72,6 +72,8 @@
               Creates a new <span class="selflink">MatReader</span>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_MatReader__ctor_2.htm">MatReader(Stream, Boolean, Boolean)</a></td><td><div class="summary">
               Creates a new <span class="selflink">MatReader</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Accord_IO_MatReader__ctor_3.htm">MatReader(String, Boolean, Boolean)</a></td><td><div class="summary">
+              Creates a new <span class="selflink">MatReader</span>.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_IO_MatReader_BaseStream.htm">BaseStream</a></td><td><div class="summary">
@@ -82,6 +84,10 @@
               endian is supported.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="P_Accord_IO_MatReader_Description.htm">Description</a></td><td><div class="summary">
               Gets the human readable description of the MAT file.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_IO_MatReader_FieldNames.htm">FieldNames</a></td><td><div class="summary">
+              Gets the name of the variables contained in this file. Those
+              can be used as keys to the <a href="P_Accord_IO_MatReader_Fields.htm">Fields</a> property to
+              retrieve a variable or navigate the variable hierarchy.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_IO_MatReader_Fields.htm">Fields</a></td><td><div class="summary">
               Gets the child nodes contained in this file.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Accord_IO_MatReader_Item.htm">Item<span id="LST2A3F4B43_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_4?cs=[|vb=(|cpp=[|nu=(|fs= ");</script>Int32<span id="LST2A3F4B43_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_5?cs=]|vb=)|cpp=]|nu=)|fs= ");</script></a></td><td><div class="summary">
@@ -112,7 +118,14 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_HasMethod.htm">HasMethod</a></td><td><div class="summary">
               Checks whether an object implements a method with the given name.
-            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">Compares two objects for equality, performing an elementwise comparison if the elements are vectors or matrices.</div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST2A3F4B43_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST2A3F4B43_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_Math_Matrix_IsEqual_577.htm">IsEqual</a></td><td><div class="summary">
+                Compares two objects for equality, performing an elementwise 
+                comparison if the elements are vectors or matrices.
+            </div> (Defined by <a href="T_Accord_Math_Matrix.htm">Matrix</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To.htm">To(Type)</a></td><td>Overloaded.  <div class="summary">
+              Converts an object into another type, irrespective of whether
+              the conversion can be done at compile time or not. This can be
+              used to convert generic types to numeric types during runtime.
+            </div> (Defined by <a href="T_Accord_ExtensionMethods.htm">ExtensionMethods</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_Accord_ExtensionMethods_To__1.htm">To<span id="LST2A3F4B43_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LST2A3F4B43_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LST2A3F4B43_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2A3F4B43_15?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td>Overloaded.  <div class="summary">
               Converts an object into another type, irrespective of whether
               the conversion can be done at compile time or not. This can be
               used to convert generic types to numeric types during runtime.
@@ -123,34 +136,98 @@
               only version 5 MAT files (Matlab 5 MAT-file).</p><p>
               The MATLAB file format is documented at 
               <a href="http://www.mathworks.com/help/pdf_doc/matlab/matfile_format.pdf">
-              http://www.mathworks.com/help/pdf_doc/matlab/matfile_format.pdf </a></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Create a new MAT file reader</span>
-<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> MatReader(file);
+              http://www.mathworks.com/help/pdf_doc/matlab/matfile_format.pdf </a></p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID8RBSection" class="collapsibleSection"><p>
+              All the examples below involve loading files from the following URL: 
+              https://github.com/accord-net/framework/blob/development/Unit%20Tests/Accord.Tests.Math/Resources/mat/ </p><p>
+              The first example shows how to read a simple .MAT file containing a single matrix of 
+              integer numbers. It also shows how to discover the names of the variables stored in
+              the file and how to discover their types:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAFABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EAFABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAFABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like to load different .mat files which can be found at:</span>
+<span class="highlight-comment">// https://github.com/accord-net/framework/blob/development/Unit%20Tests/Accord.Tests.Math/Resources/mat/</span>
 
-<span class="highlight-comment">// Extract some basic information about the file:</span>
+<span class="highlight-comment">// Let's assume they all currently reside in a "localPath" </span>
+<span class="highlight-comment">// folder. So let's start by trying to load a 32-bit matrix:</span>
+<span class="highlight-keyword">string</span> pathInt32 = Path.Combine(localPath, <span class="highlight-literal">"int32.mat"</span>);
+
+<span class="highlight-comment">// Create a .MAT reader for the file:</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> MatReader(pathInt32);
+
+<span class="highlight-comment">// Let's check what is the name of the variable we need to load:</span>
+<span class="highlight-keyword">string</span>[] names = reader.FieldNames; <span class="highlight-comment">// should be { "a" }</span>
+
+<span class="highlight-comment">// Ok, so we have to load the matrix called "a".</span>
+
+<span class="highlight-comment">// However, what if we didn't know the matrix type in advance?</span>
+<span class="highlight-comment">// In this case, we could use the non-generic version of Read:</span>
+<span class="highlight-keyword">object</span> unknown = reader.Read(<span class="highlight-literal">"a"</span>);
+
+<span class="highlight-comment">// And we could check it's type through C#:</span>
+Type t = unknown.GetType(); <span class="highlight-comment">// should be typeof(int[,])</span>
+
+<span class="highlight-comment">// Now we could either cast it to the correct type or</span>
+<span class="highlight-comment">// use the generic version of Read&lt;&gt; to read it again:</span>
+<span class="highlight-keyword">int</span>[,] matrix = reader.Read&lt;<span class="highlight-keyword">int</span>[,]&gt;(<span class="highlight-literal">"a"</span>);
+
+<span class="highlight-comment">// The a matrix should be equal to { 1, 2, 3, 4 }</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAFABA");</script><p>
+              The second example shows how to read a simple .MAT file containing a single matrix of 
+              8-bpp integer values (signed bytes):</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EADABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EADABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EADABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like to load different .mat files which can be found at:</span>
+<span class="highlight-comment">// https://github.com/accord-net/framework/blob/development/Unit%20Tests/Accord.Tests.Math/Resources/mat/</span>
+
+<span class="highlight-comment">// Let's assume they all currently reside in a "localPath" </span>
+<span class="highlight-comment">// folder. So let's start by trying to load a 8-bit matrix:</span>
+<span class="highlight-keyword">string</span> pathInt8 = Path.Combine(localPath, <span class="highlight-literal">"int8.mat"</span>);
+
+<span class="highlight-comment">// Create a .MAT reader for the file:</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> MatReader(pathInt8);
+
+<span class="highlight-comment">// The variable in the file is called "arr"</span>
+<span class="highlight-keyword">sbyte</span>[,] matrix = reader.Read&lt;<span class="highlight-keyword">sbyte</span>[,]&gt;(<span class="highlight-literal">"arr"</span>);
+
+<span class="highlight-comment">// The arr matrix should be equal to { -128, 127 }</span>
+
+<span class="highlight-comment">// (in case he didn't know the name of the variable,</span>
+<span class="highlight-comment">// we would have inspected the FieldNames property:</span>
+<span class="highlight-keyword">string</span>[] names = reader.FieldNames; <span class="highlight-comment">// should contain "arr"</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EADABA");</script><p>
+              The third example shows how to read a more complex .MAT file containing a structure. Structures
+              can hold complex types such as collections of matrices, lists, and strings in a nested hierarchy:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EABABA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we would like to load a .mat file</span>
+<span class="highlight-comment">// called "simplestruct.mat". It can be found at</span>
+<span class="highlight-comment">// https://github.com/accord-net/framework/blob/development/Unit%20Tests/Accord.Tests.Math/Resources/mat/simplestruct.mat</span>
+
+<span class="highlight-comment">// Let's assume it currently resides in a "localPath" folder</span>
+<span class="highlight-keyword">string</span> fileName = Path.Combine(localPath, <span class="highlight-literal">"simplestruct.mat"</span>);
+
+<span class="highlight-comment">// Create a .MAT reader for the file:</span>
+<span class="highlight-keyword">var</span> reader = <span class="highlight-keyword">new</span> MatReader(fileName);
+
+<span class="highlight-comment">// We can extract some basic information about the file:</span>
 <span class="highlight-keyword">string</span> description = reader.Description; <span class="highlight-comment">// "MATLAB 5.0 MAT-file, Platform: PCWIN"</span>
-<span class="highlight-keyword">int</span>    version     = reader.Version;     <span class="highlight-comment">// 256</span>
-<span class="highlight-keyword">bool</span>   bigEndian   = reader.BigEndian;   <span class="highlight-comment">// false</span>
-
+<span class="highlight-keyword">int</span> version = reader.Version;     <span class="highlight-comment">// 256</span>
+<span class="highlight-keyword">bool</span> bigEndian = reader.BigEndian;   <span class="highlight-comment">// false</span>
 
 <span class="highlight-comment">// Enumerate the fields in the file</span>
 <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> field <span class="highlight-keyword">in</span> reader.Fields)
-  Console.WriteLine(field.Key); <span class="highlight-comment">// "structure"</span>
+    Console.WriteLine(field.Key); <span class="highlight-comment">// "structure"</span>
 
 <span class="highlight-comment">// We have the single following field</span>
 <span class="highlight-keyword">var</span> structure = reader[<span class="highlight-literal">"structure"</span>];
 
 <span class="highlight-comment">// Enumerate the fields in the structure</span>
 <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> field <span class="highlight-keyword">in</span> structure.Fields)
-  Console.WriteLine(field.Key); <span class="highlight-comment">// "a", "string"</span>
+    Console.WriteLine(field.Key); <span class="highlight-comment">// "a", "string"</span>
 
 <span class="highlight-comment">// Check the type for the field "a"</span>
-<span class="highlight-keyword">var</span> aType = structure[<span class="highlight-literal">"a"</span>].Type; <span class="highlight-comment">// byte[,]</span>
+<span class="highlight-keyword">var</span> aType = structure[<span class="highlight-literal">"a"</span>].ValueType; <span class="highlight-comment">// byte[,]</span>
 
 <span class="highlight-comment">// Retrieve the field "a" from the file</span>
 <span class="highlight-keyword">var</span> a = structure[<span class="highlight-literal">"a"</span>].GetValue&lt;<span class="highlight-keyword">byte</span>[,]&gt;();
 
 <span class="highlight-comment">// We can also do directly if we know the type in advance</span>
-<span class="highlight-keyword">var</span> s = reader[<span class="highlight-literal">"structure"</span>][<span class="highlight-literal">"string"</span>].GetValue&lt;<span class="highlight-keyword">string</span>&gt;();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_IO.htm">Accord.IO Namespace</a></div></div></div>
+<span class="highlight-keyword">var</span> s = reader[<span class="highlight-literal">"structure"</span>][<span class="highlight-literal">"string"</span>].GetValue&lt;<span class="highlight-keyword">string</span>&gt;();</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABABA");</script><p>
+              The <span class="selflink">MatReader</span> class can also read the more complex cell array structures. However, 
+              there is no example of this functionality right now, 
+              <a href="https://github.com/accord-net/framework/blob/4b41bcdd96daf5c428081e579f37b995e600c18a/Unit%20Tests/Accord.Tests.Math/IO/MatReaderTest.cs#L355">
+              except for those unit tests currently in the project repository</a>. If you would like examples for this 
+              feature, please open a new issue at the <a href="https://github.com/accord-net/framework/issues">project's
+              issue tracker</a>.</p></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID9RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Accord_IO.htm">Accord.IO Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
