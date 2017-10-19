@@ -14,7 +14,7 @@
     <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.IParallel.get_ParallelOptions" />
     <meta name="Microsoft.Help.F1" content="Accord.MachineLearning.IParallel.set_ParallelOptions" />
     <meta name="Microsoft.Help.Id" content="P:Accord.MachineLearning.IParallel.ParallelOptions" />
-    <meta name="Description" content="Gets or sets the parallelization options for this algorithm." />
+    <meta name="Description" content="Gets or sets the parallelization options for this algorithm. It can be used to control the maximum number of cores that should be used during the algorithm's execution." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <meta name="BrandingAware" content="true" />
     
@@ -22,6 +22,8 @@
     <meta name="file" content="P_Accord_MachineLearning_IParallel_ParallelOptions" />
     <meta name="guid" content="P_Accord_MachineLearning_IParallel_ParallelOptions" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -43,12 +45,14 @@
           </tr>
         </table>
         <span class="introStyle"></span> <div class="summary">
-              Gets or sets the parallelization options for this algorithm.
+              Gets or sets the parallelization options for this algorithm. It can
+              be used to control the maximum number of cores that should be used
+              during the algorithm's execution.
             </div><p> </p>
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord (in Accord.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="identifier">ParallelOptions</span> <span class="identifier">ParallelOptions</span> { <span class="keyword">get</span>; <span class="keyword">set</span>; }</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Property</span> <span class="identifier">ParallelOptions</span> <span class="keyword">As</span> <span class="identifier">ParallelOptions</span>
+   Accord (in Accord.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="identifier">ParallelOptions</span> <span class="identifier">ParallelOptions</span> { <span class="keyword">get</span>; <span class="keyword">set</span>; }</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Property</span> <span class="identifier">ParallelOptions</span> <span class="keyword">As</span> <span class="identifier">ParallelOptions</span>
 	<span class="keyword">Get</span>
 	<span class="keyword">Set</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><a id="HT_RequestExampleLink" href="https://github.com/accord-net/framework/issues/new" target="_blank" class="button" title="Request an example for this topic">Request Example</a>
 		<script type="text/javascript">
@@ -64,7 +68,64 @@
 			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
 			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
 		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
-		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Core/MachineLearning/IParallel.cs" title="View the source code">View Source</a><h4 class="subHeading">Property Value</h4>Type: <span class="nolink">ParallelOptions</span></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_IParallel.htm">IParallel Interface</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Core/MachineLearning/IParallel.cs" title="View the source code">View Source</a><h4 class="subHeading">Property Value</h4>Type: <span class="nolink">ParallelOptions</span></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID2RBSection" class="collapsibleSection">
+              The <a href="T_Accord_MachineLearning_IParallel.htm">IParallel</a> interface is implemented by most machine learning
+              algorithms in the framework, and it is most common use is to allow the user to
+              tune how many cores should be used by a multi-threaded learning algorithm.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+              In the following example, we will be using the <span class="selflink">ParallelOptions</span> property to limit 
+              the maximum degree of parallelism of a support vector machine learning algorithm to be 1, meaning
+              the algorithm will be running in a single thread:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Let's say we have the following data to be classified</span>
+<span class="highlight-comment">// into three possible classes. Those are the samples:</span>
+<span class="highlight-comment">// </span>
+<span class="highlight-keyword">double</span>[][] inputs =
+{
+    <span class="highlight-comment">//               input         output</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  0 </span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  0</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span> }, <span class="highlight-comment">//  1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  1</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">0</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  2</span>
+    <span class="highlight-keyword">new</span> <span class="highlight-keyword">double</span>[] { <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span> }, <span class="highlight-comment">//  2</span>
+};
+
+<span class="highlight-keyword">int</span>[] outputs = <span class="highlight-comment">// those are the class labels</span>
+{
+    <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">0</span>,
+    <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>,
+    <span class="highlight-number">2</span>, <span class="highlight-number">2</span>, <span class="highlight-number">2</span>, <span class="highlight-number">2</span>, <span class="highlight-number">2</span>,
+};
+
+<span class="highlight-comment">// Create a one-vs-one multi-class SVM learning algorithm </span>
+<span class="highlight-keyword">var</span> teacher = <span class="highlight-keyword">new</span> MulticlassSupportVectorLearning&lt;Linear&gt;()
+{
+    <span class="highlight-comment">// using LIBLINEAR's L2-loss SVC dual for each SVM</span>
+    Learner = (p) =&gt; <span class="highlight-keyword">new</span> LinearDualCoordinateDescent()
+    {
+        Loss = Loss.L2
+    }
+};
+
+<span class="highlight-comment">// The following line is only needed to ensure reproducible results. Please remove it to enable full parallelization</span>
+teacher.ParallelOptions.MaxDegreeOfParallelism = <span class="highlight-number">1</span>; <span class="highlight-comment">// (Remove, comment, or change this line to enable full parallelism)</span>
+
+<span class="highlight-comment">// Learn a machine</span>
+<span class="highlight-keyword">var</span> machine = teacher.Learn(inputs, outputs);
+
+<span class="highlight-comment">// Obtain class predictions for each sample</span>
+<span class="highlight-keyword">int</span>[] predicted = machine.Decide(inputs);
+
+<span class="highlight-comment">// Compute classification error</span>
+<span class="highlight-keyword">double</span> error = <span class="highlight-keyword">new</span> ZeroOneLoss(outputs).Loss(predicted);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_IParallel.htm">IParallel Interface</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
