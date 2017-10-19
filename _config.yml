@@ -26,5 +26,5 @@ disqus:
 framework:
   version: v3.7
   download-installer: https://www.nuget.org/packages?q=accord.net
-  download-archive:   https://github.com/accord-net/framework/releases/download/v3.7.0/Accord.NET-3.7.0-archive.rar
+  download-archive:   https://github.com/accord-net/framework/releases/download/v3.8.0/Accord.NET-3.8.0-archive.rar
   
