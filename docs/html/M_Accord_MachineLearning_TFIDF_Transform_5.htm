@@ -17,6 +17,8 @@
     <meta name="file" content="M_Accord_MachineLearning_TFIDF_Transform_5" />
     <meta name="guid" content="M_Accord_MachineLearning_TFIDF_Transform_5" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -44,7 +46,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_MachineLearning.htm">Accord.MachineLearning</a><br />
     <strong>Assembly:</strong>
-   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">Sparse</span>&lt;<span class="identifier">double</span>&gt;[] <span class="identifier">Transform</span>(
+   Accord.MachineLearning (in Accord.MachineLearning.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">Sparse</span>&lt;<span class="identifier">double</span>&gt;[] <span class="identifier">Transform</span>(
 	<span class="identifier">string</span>[][] <span class="parameter">input</span>,
 	<span class="identifier">Sparse</span>&lt;<span class="identifier">double</span>&gt;[] <span class="parameter">result</span>
 )</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">Transform</span> ( 
@@ -64,10 +66,78 @@
 			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
 			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
 		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
-		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Representations/TFIDF.cs#L392" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">input</span></dt><dd>Type: <span id="LSTBC908649_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_9?cpp=array&lt;");</script><span id="LSTBC908649_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_10?cpp=array&lt;");</script><span class="nolink">System<span id="LSTBC908649_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</span><span id="LSTBC908649_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_12?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTBC908649_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_13?cpp=&gt;|vb=()|nu=[]");</script><br />The input data to which
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.MachineLearning/Representations/TFIDF.cs#L423" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">input</span></dt><dd>Type: <span id="LSTBC908649_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_9?cpp=array&lt;");</script><span id="LSTBC908649_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_10?cpp=array&lt;");</script><span class="nolink">System<span id="LSTBC908649_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</span><span id="LSTBC908649_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_12?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTBC908649_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_13?cpp=&gt;|vb=()|nu=[]");</script><br />The input data to which
             the transformation should be applied.</dd><dt><span class="parameter">result</span></dt><dd>Type: <span id="LSTBC908649_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_14?cpp=array&lt;");</script><a href="T_Accord_Math_Sparse_1.htm">Accord.Math<span id="LSTBC908649_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_15?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Sparse</a><span id="LSTBC908649_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_16?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="nolink">Double</span><span id="LSTBC908649_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_17?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTBC908649_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_18?cpp=&gt;|vb=()|nu=[]");</script><br />The location to where to store the
             result of this transformation.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LSTBC908649_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_19?cpp=array&lt;");</script><a href="T_Accord_Math_Sparse_1.htm">Sparse</a><span id="LSTBC908649_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_20?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><span class="nolink">Double</span><span id="LSTBC908649_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_21?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTBC908649_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_22?cpp=&gt;|vb=()|nu=[]");</script><br />The output generated by applying this
-            transformation to the given input.<h4 class="subHeading">Implements</h4><a href="M_Accord_MachineLearning_ITransform_2_Transform_2.htm">ITransform<span id="LSTBC908649_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_23?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LSTBC908649_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_24?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTBC908649_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_25?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Transform(<span id="LSTBC908649_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_26?cpp=array&lt;");</script>TInput<span id="LSTBC908649_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTBC908649_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_28?cpp=array&lt;");</script>TOutput<span id="LSTBC908649_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a><br /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_TFIDF.htm">TFIDF Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_MachineLearning_TFIDF_Transform.htm">Transform Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
+            transformation to the given input.<h4 class="subHeading">Implements</h4><a href="M_Accord_MachineLearning_ITransform_2_Transform.htm">ITransform<span id="LSTBC908649_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_23?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>TInput, TOutput<span id="LSTBC908649_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_24?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script><span id="LSTBC908649_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_25?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Transform(<span id="LSTBC908649_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_26?cpp=array&lt;");</script>TInput<span id="LSTBC908649_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_27?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, <span id="LSTBC908649_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_28?cpp=array&lt;");</script>TOutput<span id="LSTBC908649_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTBC908649_29?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a><br /></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><p>Examples are available in the main documentation page for 
+              <a href="T_Accord_MachineLearning_TFIDF.htm">TFIDF</a>. One of those examples is reproduced below:</p><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// The Term-Frequency/Inverse-Document-Frequency model can be used to </span>
+<span class="highlight-comment">// extract finite-length feature vectors from sequences of arbitrary </span>
+<span class="highlight-comment">// length, like for example, texts:</span>
+
+<span class="highlight-keyword">string</span>[] texts =
+{
+    <span class="highlight-literal">@"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie malesuada 
+      nisi et placerat. Curabitur blandit porttitor suscipit. Nunc facilisis ultrices felis,
+      vitae luctus arcu semper in. Fusce ut felis ipsum. Sed faucibus tortor ut felis placerat
+      euismod. Vestibulum pharetra velit et dolor ornare quis malesuada leo aliquam. Aenean 
+      lobortis, tortor iaculis vestibulum dictum, tellus nisi vestibulum libero, ultricies 
+      pretium nisi ante in neque. Integer et massa lectus. Aenean ut sem quam. Mauris at nisl 
+      augue, volutpat tempus nisl. Suspendisse luctus convallis metus, vitae pretium risus 
+      pretium vitae. Duis tristique euismod aliquam"</span>,
+
+    <span class="highlight-literal">@"Sed consectetur nisl et diam mattis varius. Aliquam ornare tincidunt arcu eget adipiscing. 
+      Etiam quis augue lectus, vel sollicitudin lorem. Fusce lacinia, leo non porttitor adipiscing, 
+      mauris purus lobortis ipsum, id scelerisque erat neque eget nunc. Suspendisse potenti. Etiam 
+      non urna non libero pulvinar consequat ac vitae turpis. Nam urna eros, laoreet id sagittis eu,
+      posuere in sapien. Phasellus semper convallis faucibus. Nulla fermentum faucibus tellus in 
+      rutrum. Maecenas quis risus augue, eu gravida massa."</span>
+};
+
+<span class="highlight-keyword">string</span>[][] words = texts.Tokenize();
+
+<span class="highlight-comment">// Create a new TF-IDF with options:</span>
+<span class="highlight-keyword">var</span> codebook = <span class="highlight-keyword">new</span> TFIDF()
+{
+    Tf = TermFrequency.Log,
+    Idf = InverseDocumentFrequency.Default
+};
+
+<span class="highlight-comment">// Compute the codebook (note: this would have to be done only for the training set)</span>
+codebook.Learn(words);
+
+
+<span class="highlight-comment">// Now, we can use the learned codebook to extract fixed-length</span>
+<span class="highlight-comment">// representations of the different texts (paragraphs) above:</span>
+
+<span class="highlight-comment">// Extract a feature vector from the text 1:</span>
+<span class="highlight-keyword">double</span>[] bow1 = codebook.Transform(words[<span class="highlight-number">0</span>]);
+
+<span class="highlight-comment">// Extract a feature vector from the text 2:</span>
+<span class="highlight-keyword">double</span>[] bow2 = codebook.Transform(words[<span class="highlight-number">1</span>]);
+
+<span class="highlight-comment">// we could also have transformed everything at once, i.e.</span>
+<span class="highlight-comment">// double[][] bow = codebook.Transform(words);</span>
+
+
+<span class="highlight-comment">// Now, since we have finite length representations (both bow1 and bow2 should</span>
+<span class="highlight-comment">// have the same size), we can pass them to any classifier or machine learning</span>
+<span class="highlight-comment">// method. For example, we can pass them to a Logistic Regression Classifier to</span>
+<span class="highlight-comment">// discern between the first and second paragraphs</span>
+
+<span class="highlight-comment">// Lets create a Logistic classifier to separate the two paragraphs:</span>
+<span class="highlight-keyword">var</span> learner = <span class="highlight-keyword">new</span> IterativeReweightedLeastSquares&lt;LogisticRegression&gt;()
+{
+    Tolerance = <span class="highlight-number">1</span>e<span class="highlight-number">-4</span>,  <span class="highlight-comment">// Let's set some convergence parameters</span>
+    Iterations = <span class="highlight-number">100</span>,  <span class="highlight-comment">// maximum number of iterations to perform</span>
+    Regularization = <span class="highlight-number">0</span>
+};
+
+<span class="highlight-comment">// Now, we use the learning algorithm to learn the distinction between the two:</span>
+LogisticRegression reg = learner.Learn(<span class="highlight-keyword">new</span>[] { bow1, bow2 }, <span class="highlight-keyword">new</span>[] { <span class="highlight-keyword">false</span>, <span class="highlight-keyword">true</span> });
+
+<span class="highlight-comment">// Finally, we can predict using the classifier:</span>
+<span class="highlight-keyword">bool</span> c1 = reg.Decide(bow1); <span class="highlight-comment">// Should be false</span>
+<span class="highlight-keyword">bool</span> c2 = reg.Decide(bow2); <span class="highlight-comment">// Should be true</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_MachineLearning_TFIDF.htm">TFIDF Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_MachineLearning_TFIDF_Transform.htm">Transform Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_MachineLearning.htm">Accord.MachineLearning Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
