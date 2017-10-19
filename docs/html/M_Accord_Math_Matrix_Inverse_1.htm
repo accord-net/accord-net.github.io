@@ -17,6 +17,8 @@
     <meta name="file" content="M_Accord_Math_Matrix_Inverse_1" />
     <meta name="guid" content="M_Accord_Math_Matrix_Inverse_1" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -43,7 +45,7 @@
     <strong>Namespace:</strong> 
    <a href="N_Accord_Math.htm">Accord.Math</a><br />
     <strong>Assembly:</strong>
-   Accord.Math (in Accord.Math.dll) Version: 3.7.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">decimal</span>[,] <span class="identifier">Inverse</span>(
+   Accord.Math (in Accord.Math.dll) Version: 3.8.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">decimal</span>[,] <span class="identifier">Inverse</span>(
 	<span class="keyword">this</span> <span class="identifier">decimal</span>[,] <span class="parameter">matrix</span>,
 	<span class="identifier">bool</span> <span class="parameter">inPlace</span>
 )</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">ExtensionAttribute</span>&gt;
@@ -64,7 +66,45 @@
 			encodeURIComponent("Please add an example for " + document.title + ".%0D%0DTODO (optional): Describe a specific " +
 			"scenario you would like to see addressed.%0D%0DHelp Topic: " + window.location.href).replace(/%250D/g, "%0D");
 		HT_requestExampleLink.innerHTML = HT_requestExampleLinkText;
-		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Math/Matrix/Matrix.Linear.Generated.cs#L1615" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">matrix</span></dt><dd>Type: <span id="LSTB5950FE5_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_3?cpp=array&lt;");</script><span class="nolink">System<span id="LSTB5950FE5_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Decimal</span><span id="LSTB5950FE5_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_5?cpp=,2&gt;|vb=(,)|nu=[,]");</script><br /></dd><dt><span class="parameter">inPlace</span></dt><dd>Type: <span class="nolink">System<span id="LSTB5950FE5_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Boolean</span><br /></dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LSTB5950FE5_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_7?cpp=array&lt;");</script><span class="nolink">Decimal</span><span id="LSTB5950FE5_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_8?cpp=,2&gt;|vb=(,)|nu=[,]");</script><h4 class="subHeading">Usage Note</h4>In Visual Basic and C#, you can call this method as an instance method on any object of type . When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="http://msdn.microsoft.com/en-us/library/bb384936.aspx" target="_blank">Extension Methods (Visual Basic)</a> or <a href="http://msdn.microsoft.com/en-us/library/bb383977.aspx" target="_blank">Extension Methods (C# Programming Guide)</a>.</div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Matrix.htm">Matrix Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Math_Matrix_Inverse.htm">Inverse Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math.htm">Accord.Math Namespace</a></div></div></div>
+		</script><a target="_blank" class="button" href="https://github.com/accord-net/framework/blob/master/Sources/Accord.Math/Matrix/Matrix.Linear.Generated.cs#L1673" title="View the source code">View Source</a><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">matrix</span></dt><dd>Type: <span id="LSTB5950FE5_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_3?cpp=array&lt;");</script><span class="nolink">System<span id="LSTB5950FE5_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Decimal</span><span id="LSTB5950FE5_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_5?cpp=,2&gt;|vb=(,)|nu=[,]");</script><br /></dd><dt><span class="parameter">inPlace</span></dt><dd>Type: <span class="nolink">System<span id="LSTB5950FE5_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Boolean</span><br /></dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LSTB5950FE5_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_7?cpp=array&lt;");</script><span class="nolink">Decimal</span><span id="LSTB5950FE5_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTB5950FE5_8?cpp=,2&gt;|vb=(,)|nu=[,]");</script><h4 class="subHeading">Usage Note</h4>In Visual Basic and C#, you can call this method as an instance method on any object of type . When you use instance method syntax to call this method, omit the first parameter. For more information, see <a href="http://msdn.microsoft.com/en-us/library/bb384936.aspx" target="_blank">Extension Methods (Visual Basic)</a> or <a href="http://msdn.microsoft.com/en-us/library/bb383977.aspx" target="_blank">Extension Methods (C# Programming Guide)</a>.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Declare a matrix as</span>
+<span class="highlight-keyword">double</span>[,] matrix =
+{
+    { <span class="highlight-number">6.0</span>, <span class="highlight-number">1.0</span>, <span class="highlight-number">2.0</span> },
+    { <span class="highlight-number">0.0</span>, <span class="highlight-number">8.0</span>, <span class="highlight-number">1.0</span> },
+    { <span class="highlight-number">2.0</span>, <span class="highlight-number">4.0</span>, <span class="highlight-number">5.0</span> }
+};
+
+<span class="highlight-comment">// Compute the inverse using</span>
+<span class="highlight-keyword">double</span>[,] inv = matrix.Inverse();
+
+<span class="highlight-comment">// We can write the result with</span>
+<span class="highlight-keyword">string</span> strInv = inv.ToCSharp();
+
+<span class="highlight-comment">// The result should be:</span>
+<span class="highlight-comment">// new double[,] </span>
+<span class="highlight-comment">// {</span>
+<span class="highlight-comment">//     { 0.193548387096774, 0.0161290322580645, -0.0806451612903226 },</span>
+<span class="highlight-comment">//     { 0.010752688172043, 0.139784946236559, -0.032258064516129 },</span>
+<span class="highlight-comment">//     { -0.0860215053763441, -0.118279569892473, 0.258064516129032 }</span>
+<span class="highlight-comment">// };</span>
+
+<span class="highlight-comment">// We can confirm this is indeed the inverse by</span>
+<span class="highlight-comment">// checking whether "inv(matrix) * matrix" and</span>
+<span class="highlight-comment">// "matrix * inv(matrix)" equals I (identity):</span>
+<span class="highlight-keyword">double</span>[,] a = inv.Dot(matrix);
+<span class="highlight-keyword">double</span>[,] b = matrix.Dot(inv);
+
+<span class="highlight-comment">// Again we write the result:</span>
+<span class="highlight-keyword">string</span> strA = a.ToCSharp();
+<span class="highlight-keyword">string</span> strB = b.ToCSharp();
+
+<span class="highlight-comment">// The result should be:</span>
+<span class="highlight-comment">// new double[,] </span>
+<span class="highlight-comment">// {</span>
+<span class="highlight-comment">//     { 1, 0, 0 },</span>
+<span class="highlight-comment">//     { 0, 1, 0 },</span>
+<span class="highlight-comment">//     { 0, 0, 1 }</span>
+<span class="highlight-comment">// };</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Accord_Math_Matrix.htm">Matrix Class</a></div><div class="seeAlsoStyle"><a href="Overload_Accord_Math_Matrix_Inverse.htm">Inverse Overload</a></div><div class="seeAlsoStyle"><a href="N_Accord_Math.htm">Accord.Math Namespace</a></div></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
       <p>Accord.NET Framework © 2009-2017. All documentation is licensed under the Creative Commons Attribution/Share-Alike License.</p>
