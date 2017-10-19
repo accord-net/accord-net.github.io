@@ -19,6 +19,8 @@
     <meta name="file" content="N_Accord_Imaging_Formats" />
     <meta name="guid" content="N_Accord_Imaging_Formats" />
     
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+    <script type="text/javascript" src="../scripts/highlight.js"> </script>
     <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
     <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../scripts/branding-Website.js"></script>
@@ -45,19 +47,20 @@
              FITS image format decoder.
              </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Imaging_Formats_FITSImageInfo.htm">FITSImageInfo</a></td><td><div class="summary">
             Information about FITS image's frame.
-            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Imaging_Formats_ImageDecoder.htm">ImageDecoder</a></td><td><div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Imaging_Formats_ImageDecoder.htm">ImageDecoder</a></td><td><div class="summary">
             Image decoder to decode different custom image file formats.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Imaging_Formats_ImageInfo.htm">ImageInfo</a></td><td><div class="summary">
             Information about image's frame.
-            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Imaging_Formats_PNMCodec.htm">PNMCodec</a></td><td><div class="summary">
+            </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="T_Accord_Imaging_Formats_PNMCodec.htm">PNMCodec</a></td><td><div class="summary">
             PNM image format decoder.
             </div></td></tr><tr data="class; public"><td><img src="../icons/pubclass.gif" alt="Public class" title="Public class" /></td><td><a href="T_Accord_Imaging_Formats_PNMImageInfo.htm">PNMImageInfo</a></td><td><div class="summary">
             Information about PNM image's frame.
             </div></td></tr></table></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interfaces</span></div><div id="ID1RBSection" class="collapsibleSection"><table class="members" id="interfaceList"><tr><th class="iconColumn">
 					 
 				</th><th>Interface</th><th>Description</th></tr><tr data="interface; public"><td><img src="../icons/pubinterface.gif" alt="Public interface" title="Public interface" /></td><td><a href="T_Accord_Imaging_Formats_IImageDecoder.htm">IImageDecoder</a></td><td><div class="summary">
-            Image decoder interface, which specifies set of methods, which should be
-            implemented by image decoders for different file formats.
+              Common interface for image decoders. Image decoders can read images stored
+              in different formats (e.g. PNG, JPG, <a href="T_Accord_Imaging_Formats_PNMCodec.htm">PNM</a>, 
+              <a href="T_Accord_Imaging_Formats_FITSCodec.htm">FITS</a> and transform them into <span class="nolink">Bitmap</span>.
             </div></td></tr></table></div></div>
     </div>
     <div id="pageFooter" class="pageFooter">
