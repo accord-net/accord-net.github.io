@@ -188,8 +188,8 @@
     <span class="highlight-comment">// Derivative in respect to the weights:</span>
     Gradient = (w, x, r) =&gt;
     {
-        r[<span class="highlight-number">0</span>] = w[<span class="highlight-number">0</span>]* w[<span class="highlight-number">0</span>]; <span class="highlight-comment">// w.r.t a: a²  // https://www.wolframalpha.com/input/?i=diff+ax²+%2B+bx+%2B+c+w.r.t.+a</span>
-        r[<span class="highlight-number">1</span>] = w[<span class="highlight-number">0</span>];       <span class="highlight-comment">// w.r.t b: b   // https://www.wolframalpha.com/input/?i=diff+ax²+%2B+bx+%2B+c+w.r.t.+b</span>
+        r[<span class="highlight-number">0</span>] = x[<span class="highlight-number">0</span>] * x[<span class="highlight-number">0</span>]; <span class="highlight-comment">// w.r.t a: x²  // https://www.wolframalpha.com/input/?i=diff+ax²+%2B+bx+%2B+c+w.r.t.+a</span>
+        r[<span class="highlight-number">1</span>] = x[<span class="highlight-number">0</span>];       <span class="highlight-comment">// w.r.t b: x   // https://www.wolframalpha.com/input/?i=diff+ax²+%2B+bx+%2B+c+w.r.t.+b</span>
         r[<span class="highlight-number">2</span>] = <span class="highlight-number">1</span>;          <span class="highlight-comment">// w.r.t c: 1   // https://www.wolframalpha.com/input/?i=diff+ax²+%2B+bx+%2B+c+w.r.t.+c</span>
     },
 
