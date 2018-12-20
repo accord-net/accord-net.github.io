@@ -177,7 +177,12 @@
     <span class="highlight-comment">// Initialize to some random values</span>
     StartValues = <span class="highlight-keyword">new</span>[] { <span class="highlight-number">0.9</span>, <span class="highlight-number">0.2</span> },
 
-    <span class="highlight-comment">// Let's assume a quadratic model function: ax² + bx + c</span>
+    <span class="highlight-comment">// Find a curve (model function) of the form</span>
+    <span class="highlight-comment">// </span>
+    <span class="highlight-comment">//   rate = \frac{ax}{b + x}</span>
+    <span class="highlight-comment">// </span>
+    <span class="highlight-comment">// that best fits the data in the least squares sense, with parameters a</span>
+    <span class="highlight-comment">// and b to be determined:</span>
     Function = (w, x) =&gt; (w[<span class="highlight-number">0</span>] * x[<span class="highlight-number">0</span>]) / (w[<span class="highlight-number">1</span>] + x[<span class="highlight-number">0</span>]),
 
     <span class="highlight-comment">// Derivative in respect to the weights:</span>
@@ -216,8 +221,13 @@
     <span class="highlight-comment">' Initialize to some random values</span>
     .StartValues = {<span class="highlight-number">0.9</span>, <span class="highlight-number">0.2</span>}
 
-    <span class="highlight-comment">' Let's assume a quadratic model function: ax² + bx + c</span>
-    .<span class="highlight-keyword">Function</span> = <span class="highlight-keyword">Function</span>(w, x) w(<span class="highlight-number">0</span>) * x(<span class="highlight-number">0</span>) / (w(<span class="highlight-number">1</span>) + x(<span class="highlight-number">0</span>))
+    <span class="highlight-comment">' Find a curve (model function) of the form</span>
+    <span class="highlight-comment">' </span>
+    <span class="highlight-comment">'   rate = \frac{ax}{b + x}</span>
+    <span class="highlight-comment">' </span>
+    <span class="highlight-comment">' that best fits the data in the least squares sense, with parameters a</span>
+    <span class="highlight-comment">' and b to be determined:</span>
+    .Function = <span class="highlight-keyword">Function</span>(w, x) w(<span class="highlight-number">0</span>) * x(<span class="highlight-number">0</span>) / (w(<span class="highlight-number">1</span>) + x(<span class="highlight-number">0</span>))
 
     <span class="highlight-comment">' Derivative in respect to the weights</span>
     .Gradient = <span class="highlight-keyword">Sub</span>(w, x, r)
