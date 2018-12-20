@@ -236,9 +236,9 @@
 
     <span class="highlight-comment">' Derivative in respect to the weights</span>
     .Gradient = <span class="highlight-keyword">Sub</span>(w, x, r)
-                    r(<span class="highlight-number">0</span>) = <span class="highlight-number">2</span> * w(<span class="highlight-number">0</span>) <span class="highlight-comment">' w.r.t a:     2a  </span>
-                    r(<span class="highlight-number">1</span>) = w(<span class="highlight-number">1</span>)     <span class="highlight-comment">' w.r.t b: b</span>
-                    r(<span class="highlight-number">2</span>) = w(<span class="highlight-number">2</span>)     <span class="highlight-comment">' w.r.t c: 0</span>
+                    r(<span class="highlight-number">0</span>) = x(<span class="highlight-number">0</span>) * x(<span class="highlight-number">0</span>) <span class="highlight-comment">' w.r.t a: x² </span>
+                    r(<span class="highlight-number">1</span>) = x(<span class="highlight-number">0</span>)     <span class="highlight-comment">' w.r.t b: x</span>
+                    r(<span class="highlight-number">2</span>) = <span class="highlight-number">1</span>     <span class="highlight-comment">' w.r.t c: 1</span>
                 <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
 <span class="highlight-keyword">End</span> <span class="highlight-keyword">With</span>
 
